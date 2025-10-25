@@ -1,11 +1,11 @@
 ---
-'@ai-sdk/elevenlabs': patch
-'@ai-sdk/provider': patch
-'@ai-sdk/openai': patch
-'@ai-sdk/azure': patch
-'@ai-sdk/hume': patch
-'@ai-sdk/lmnt': patch
-'@ai-sdk/fal': patch
+'@omni-stack/elevenlabs': patch
+'@omni-stack/provider': patch
+'@omni-stack/openai': patch
+'@omni-stack/azure': patch
+'@omni-stack/hume': patch
+'@omni-stack/lmnt': patch
+'@omni-stack/fal': patch
 'ai': patch
 ---
 

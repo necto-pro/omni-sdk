@@ -10,8 +10,8 @@ description: API Reference for transcribe.
 Generates a transcript from an audio file.
 
 ```ts
-import { experimental_transcribe as transcribe } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { readFile } from 'fs/promises';
 
 const { text: transcript } = await transcribe({

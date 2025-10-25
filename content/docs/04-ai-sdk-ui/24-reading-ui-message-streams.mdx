@@ -12,8 +12,8 @@ The `readUIMessageStream` helper transforms a stream of `UIMessageChunk` objects
 ## Basic Usage
 
 ```tsx
-import { openai } from '@ai-sdk/openai';
-import { readUIMessageStream, streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { readUIMessageStream, streamText } from '@omni-stack/core';
 
 async function main() {
   const result = streamText({
@@ -34,8 +34,8 @@ async function main() {
 Handle streaming responses that include tool calls:
 
 ```tsx
-import { openai } from '@ai-sdk/openai';
-import { readUIMessageStream, streamText, tool } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { readUIMessageStream, streamText, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 async function handleToolCalls() {
@@ -82,7 +82,7 @@ async function handleToolCalls() {
 Resume streaming from a previous message state:
 
 ```tsx
-import { readUIMessageStream, streamText } from 'ai';
+import { readUIMessageStream, streamText } from '@omni-stack/core';
 
 async function resumeConversation(lastMessage: UIMessage) {
   const result = streamText({

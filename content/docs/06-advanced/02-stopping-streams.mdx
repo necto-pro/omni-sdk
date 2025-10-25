@@ -17,8 +17,8 @@ You would use this if you want to cancel a stream from the server side to the LL
 forwarding the `abortSignal` from the request.
 
 ```tsx highlight="10,11,12-16"
-import { openai } from '@ai-sdk/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { prompt } = await req.json();
@@ -54,7 +54,7 @@ This will cancel the stream from the client side to the server.
 ```tsx file="app/page.tsx" highlight="9,18-20"
 'use client';
 
-import { useCompletion } from '@ai-sdk/react';
+import { useCompletion } from '@omni-stack/react';
 
 export default function Chat() {
   const { input, completion, stop, status, handleSubmit, handleInputChange } =
@@ -90,7 +90,7 @@ Unlike `onFinish`, which is called when a stream completes normally, `onAbort` i
 </Note>
 
 ```tsx highlight="8-12"
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: openai('gpt-4.1'),
@@ -141,13 +141,13 @@ for await (const part of result.fullStream) {
 When using `toUIMessageStreamResponse`, you need to handle stream abortion slightly differently. The `onFinish` callback receives an `isAborted` parameter, and you should pass the `consumeStream` function to ensure proper abort handling:
 
 ```tsx highlight="5,19,20-24,26"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@omni-stack/openai';
 import {
   consumeStream,
   convertToModelMessages,
   streamText,
   UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();

@@ -1,4 +1,4 @@
-import { APICallError } from '@ai-sdk/provider';
+import { APICallError } from '@omni-stack/provider';
 import { extractResponseHeaders } from './extract-response-headers';
 import { FetchFunction } from './fetch-function';
 import { handleFetchError } from './handle-fetch-error';

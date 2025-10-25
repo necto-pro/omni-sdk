@@ -12,7 +12,7 @@ description: API Reference for validateUIMessages
 Simple validation without custom schemas:
 
 ```typescript
-import { validateUIMessages } from 'ai';
+import { validateUIMessages } from '@omni-stack/core';
 
 const messages = [
   {
@@ -32,7 +32,7 @@ const validatedMessages = await validateUIMessages({
 Comprehensive validation with custom metadata, data parts, and tools:
 
 ```typescript
-import { validateUIMessages, tool } from 'ai';
+import { validateUIMessages, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 // Define schemas

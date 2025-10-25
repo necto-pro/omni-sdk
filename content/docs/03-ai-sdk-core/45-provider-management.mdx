@@ -27,12 +27,12 @@ You might want to override the default model settings for a provider or provide 
 with pre-configured settings.
 
 ```ts
-import { openai as originalOpenAI } from '@ai-sdk/openai';
+import { openai as originalOpenAI } from '@omni-stack/openai';
 import {
   customProvider,
   defaultSettingsMiddleware,
   wrapLanguageModel,
-} from 'ai';
+} from '@omni-stack/core';
 
 // custom provider with different provider options:
 export const openai = customProvider({
@@ -73,8 +73,8 @@ export const openai = customProvider({
 You can also provide model name aliases, so you can update the model version in one place in the future:
 
 ```ts
-import { anthropic as originalAnthropic } from '@ai-sdk/anthropic';
-import { customProvider } from 'ai';
+import { anthropic as originalAnthropic } from '@omni-stack/anthropic';
+import { customProvider } from '@omni-stack/core';
 
 // custom provider with alias names:
 export const anthropic = customProvider({
@@ -92,13 +92,13 @@ export const anthropic = customProvider({
 You can limit the available models in the system, even if you have multiple providers.
 
 ```ts
-import { anthropic } from '@ai-sdk/anthropic';
-import { openai } from '@ai-sdk/openai';
+import { anthropic } from '@omni-stack/anthropic';
+import { openai } from '@omni-stack/openai';
 import {
   customProvider,
   defaultSettingsMiddleware,
   wrapLanguageModel,
-} from 'ai';
+} from '@omni-stack/core';
 
 export const myProvider = customProvider({
   languageModels: {
@@ -143,9 +143,9 @@ You can create a [provider registry](/docs/reference/ai-sdk-core/provider-regist
 ### Setup
 
 ```ts filename={"registry.ts"}
-import { anthropic } from '@ai-sdk/anthropic';
-import { createOpenAI } from '@ai-sdk/openai';
-import { createProviderRegistry } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { createOpenAI } from '@omni-stack/openai';
+import { createProviderRegistry } from '@omni-stack/core';
 
 export const registry = createProviderRegistry({
   // register provider with prefix and default setup:
@@ -163,9 +163,9 @@ export const registry = createProviderRegistry({
 By default, the registry uses `:` as the separator between provider and model IDs. You can customize this separator:
 
 ```ts filename={"registry.ts"}
-import { createProviderRegistry } from 'ai';
-import { anthropic } from '@ai-sdk/anthropic';
-import { openai } from '@ai-sdk/openai';
+import { createProviderRegistry } from '@omni-stack/core';
+import { anthropic } from '@omni-stack/anthropic';
+import { openai } from '@omni-stack/openai';
 
 export const customSeparatorRegistry = createProviderRegistry(
   {
@@ -182,7 +182,7 @@ You can access language models by using the `languageModel` method on the regist
 The provider id will become the prefix of the model id: `providerId:modelId`.
 
 ```ts highlight={"5"}
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 import { registry } from './registry';
 
 const { text } = await generateText({
@@ -199,7 +199,7 @@ You can access text embedding models by using the `textEmbeddingModel` method on
 The provider id will become the prefix of the model id: `providerId:modelId`.
 
 ```ts highlight={"5"}
-import { embed } from 'ai';
+import { embed } from '@omni-stack/core';
 import { registry } from './registry';
 
 const { embedding } = await embed({
@@ -214,7 +214,7 @@ You can access image models by using the `imageModel` method on the registry.
 The provider id will become the prefix of the model id: `providerId:modelId`.
 
 ```ts highlight={"5"}
-import { generateImage } from 'ai';
+import { generateImage } from '@omni-stack/core';
 import { registry } from './registry';
 
 const { image } = await generateImage({
@@ -240,16 +240,16 @@ Here is an example that implements the following concepts:
 - define a custom separator for the provider registry (here: `>`)
 
 ```ts
-import { anthropic, AnthropicProviderOptions } from '@ai-sdk/anthropic';
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
-import { xai } from '@ai-sdk/xai';
-import { groq } from '@ai-sdk/groq';
+import { anthropic, AnthropicProviderOptions } from '@omni-stack/anthropic';
+import { createOpenAICompatible } from '@omni-stack/openai-compatible';
+import { xai } from '@omni-stack/xai';
+import { groq } from '@omni-stack/groq';
 import {
   createProviderRegistry,
   customProvider,
   defaultSettingsMiddleware,
   wrapLanguageModel,
-} from 'ai';
+} from '@omni-stack/core';
 
 export const registry = createProviderRegistry(
   {
@@ -312,7 +312,7 @@ const model = registry.languageModel('anthropic > reasoning');
 The AI SDK 5 includes a global provider feature that allows you to specify a model using just a plain model ID string:
 
 ```ts
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = await streamText({
   model: 'openai/gpt-4o', // Uses the global provider (defaults to AI Gateway)
@@ -327,14 +327,14 @@ By default, the global provider is set to the Vercel AI Gateway.
 You can set your own preferred global provider:
 
 ```ts filename="setup.ts"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@omni-stack/openai';
 
 // Initialize once during startup:
 globalThis.AI_SDK_DEFAULT_PROVIDER = openai;
 ```
 
 ```ts filename="app.ts"
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = await streamText({
   model: 'gpt-4o', // Uses OpenAI provider without prefix

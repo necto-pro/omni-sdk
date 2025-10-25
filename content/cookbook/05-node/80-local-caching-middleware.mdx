@@ -45,7 +45,7 @@ import {
   type LanguageModelV1StreamPart,
   simulateReadableStream,
   wrapLanguageModel,
-} from 'ai';
+} from '@omni-stack/core';
 import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
@@ -208,8 +208,8 @@ export const cacheMiddleware: LanguageModelV3Middleware = {
 The middleware can be easily integrated into your existing AI SDK setup:
 
 ```ts highlight="4,8"
-import { openai } from '@ai-sdk/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 import { cached } from '../middleware/your-cache-middleware';
 

@@ -78,7 +78,7 @@ You can create language models using the provider instance. The first argument i
 
 ```ts
 import { runpod } from '@runpod/ai-sdk-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: runpod('deep-cogito/deep-cogito-v2-llama-70b'),
@@ -96,7 +96,7 @@ const { text } = await generateText({
 
 ```ts
 import { runpod } from '@runpod/ai-sdk-provider';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const { textStream } = await streamText({
   model: runpod('deep-cogito/deep-cogito-v2-llama-70b'),
@@ -132,7 +132,7 @@ const { text } = await generateText({
 ### Tool Calling
 
 ```ts
-import { generateText, tool } from 'ai';
+import { generateText, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 const { text, toolCalls } = await generateText({
@@ -165,7 +165,7 @@ You can still return structured data by instructing the model to return JSON and
 
 ```ts
 import { runpod } from '@runpod/ai-sdk-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 import { z } from 'zod';
 
 const RecipeSchema = z.object({
@@ -205,7 +205,7 @@ You can create Runpod image models using the `.imageModel()` factory method.
 
 ```ts
 import { runpod } from '@runpod/ai-sdk-provider';
-import { experimental_generateImage as generateImage } from 'ai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: runpod.imageModel('qwen/qwen-image'),

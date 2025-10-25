@@ -10,8 +10,8 @@ Creates a stop condition that stops when the number of steps reaches a specified
 This function is used with `stopWhen` in `generateText` and `streamText` to control when a tool-calling loop should stop based on the number of steps executed.
 
 ```ts
-import { openai } from '@ai-sdk/openai';
-import { generateText, stepCountIs } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText, stepCountIs } from '@omni-stack/core';
 
 const result = await generateText({
   model: openai('gpt-4o'),
@@ -53,7 +53,7 @@ A `StopCondition` function that returns `true` when the step count reaches the s
 Stop after 3 steps:
 
 ```ts
-import { generateText, stepCountIs } from 'ai';
+import { generateText, stepCountIs } from '@omni-stack/core';
 
 const result = await generateText({
   model: yourModel,
@@ -67,7 +67,7 @@ const result = await generateText({
 You can combine multiple stop conditions in an array:
 
 ```ts
-import { generateText, stepCountIs, hasToolCall } from 'ai';
+import { generateText, stepCountIs, hasToolCall } from '@omni-stack/core';
 
 const result = await generateText({
   model: yourModel,

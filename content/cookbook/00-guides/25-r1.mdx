@@ -47,8 +47,8 @@ The AI SDK abstracts away the differences between model providers, eliminates bo
 At the center of the AI SDK is [AI SDK Core](/docs/ai-sdk-core/overview), which provides a unified API to call any LLM. The code snippet below is all you need to call DeepSeek R1 with the AI SDK:
 
 ```ts
-import { deepseek } from '@ai-sdk/deepseek';
-import { generateText } from 'ai';
+import { deepseek } from '@omni-stack/deepseek';
+import { generateText } from '@omni-stack/core';
 
 const { reasoningText, text } = await generateText({
   model: deepseek('deepseek-reasoner'),
@@ -59,12 +59,12 @@ const { reasoningText, text } = await generateText({
 The unified interface also means that you can easily switch between providers by changing just two lines of code. For example, to use DeepSeek R1 via Fireworks:
 
 ```ts
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@omni-stack/fireworks';
 import {
   generateText,
   wrapLanguageModel,
   extractReasoningMiddleware,
-} from 'ai';
+} from '@omni-stack/core';
 
 // middleware to extract reasoning tokens
 const enhancedModel = wrapLanguageModel({
@@ -81,12 +81,12 @@ const { reasoningText, text } = await generateText({
 Or to use Groq's `deepseek-r1-distill-llama-70b` model:
 
 ```ts
-import { groq } from '@ai-sdk/groq';
+import { groq } from '@omni-stack/groq';
 import {
   generateText,
   wrapLanguageModel,
   extractReasoningMiddleware,
-} from 'ai';
+} from '@omni-stack/core';
 
 // middleware to extract reasoning tokens
 const enhancedModel = wrapLanguageModel({
@@ -136,13 +136,13 @@ Let's explore building a chatbot with [Next.js](https://nextjs.org), the AI SDK,
 
 In a new Next.js application, first install the AI SDK and the DeepSeek provider:
 
-<Snippet text="pnpm install ai @ai-sdk/deepseek @ai-sdk/react" />
+<Snippet text="pnpm install ai @omni-stack/deepseek @omni-stack/react" />
 
 Then, create a route handler for the chat endpoint:
 
 ```tsx filename="app/api/chat/route.ts"
-import { deepseek } from '@ai-sdk/deepseek';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { deepseek } from '@omni-stack/deepseek';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();
@@ -168,7 +168,7 @@ Finally, update the root page (`app/page.tsx`) to use the `useChat` hook:
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@omni-stack/react';
 import { useState } from 'react';
 
 export default function Page() {

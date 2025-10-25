@@ -1,4 +1,4 @@
-import { JSONValue, LanguageModelV3ToolResultPart } from '@ai-sdk/provider';
+import { JSONValue, LanguageModelV3ToolResultPart } from '@omni-stack/provider';
 import { FlexibleSchema } from '../schema';
 import { ModelMessage } from './model-message';
 import { ProviderOptions } from './provider-options';

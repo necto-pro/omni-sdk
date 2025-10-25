@@ -5,7 +5,7 @@ description: Create a custom provider package for an OpenAI-compatible provider 
 
 # Writing a Custom Provider
 
-You can create your own provider package that leverages the AI SDK's [OpenAI Compatible package](https://www.npmjs.com/package/@ai-sdk/openai-compatible). Publishing your provider package to [npm](https://www.npmjs.com/) can give users an easy way to use the provider's models and stay up to date with any changes you may have. Here's an example structure:
+You can create your own provider package that leverages the AI SDK's [OpenAI Compatible package](https://www.npmjs.com/package/@omni-stack/openai-compatible). Publishing your provider package to [npm](https://www.npmjs.com/) can give users an easy way to use the provider's models and stay up to date with any changes you may have. Here's an example structure:
 
 ### File Structure
 
@@ -41,18 +41,18 @@ The completion, embedding, and image settings are implemented similarly to the c
 2. **example-provider.ts** - Main provider implementation:
 
 ```ts
-import { LanguageModelV1, EmbeddingModelV3 } from '@ai-sdk/provider';
+import { LanguageModelV1, EmbeddingModelV3 } from '@omni-stack/provider';
 import {
   OpenAICompatibleChatLanguageModel,
   OpenAICompatibleCompletionLanguageModel,
   OpenAICompatibleEmbeddingModel,
   OpenAICompatibleImageModel,
-} from '@ai-sdk/openai-compatible';
+} from '@omni-stack/openai-compatible';
 import {
   FetchFunction,
   loadApiKey,
   withoutTrailingSlash,
-} from '@ai-sdk/provider-utils';
+} from '@omni-stack/provider-utils';
 // Import your model id and settings here.
 
 export interface ExampleProviderSettings {
@@ -231,9 +231,9 @@ export type {
   "name": "@company-name/example",
   "version": "0.0.1",
   "dependencies": {
-    "@ai-sdk/openai-compatible": "^0.0.7",
-    "@ai-sdk/provider": "^1.0.2",
-    "@ai-sdk/provider-utils": "^2.0.4",
+    "@omni-stack/openai-compatible": "^0.0.7",
+    "@omni-stack/provider": "^1.0.2",
+    "@omni-stack/provider-utils": "^2.0.4",
     // ...additional dependencies
   },
   // ...additional scripts and module build configuration
@@ -246,7 +246,7 @@ Once published, users can use your provider like this:
 
 ```ts
 import { example } from '@company-name/example';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: example('example/chat-model-1'),
@@ -258,10 +258,10 @@ This structure provides a clean, type-safe implementation that leverages the Ope
 
 ### Internal API
 
-As you work on your provider you may need to use some of the internal API of the OpenAI Compatible package. You can import these from the `@ai-sdk/openai-compatible/internal` package, for example:
+As you work on your provider you may need to use some of the internal API of the OpenAI Compatible package. You can import these from the `@omni-stack/openai-compatible/internal` package, for example:
 
 ```ts
-import { convertToOpenAICompatibleChatMessages } from '@ai-sdk/openai-compatible/internal';
+import { convertToOpenAICompatibleChatMessages } from '@omni-stack/openai-compatible/internal';
 ```
 
 You can see the latest available exports in the AI SDK [GitHub repository](https://github.com/vercel/ai/blob/main/packages/openai-compatible/src/internal/index.ts).

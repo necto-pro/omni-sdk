@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/provider': patch
+'@omni-stack/provider': patch
 'ai': patch
 ---
 

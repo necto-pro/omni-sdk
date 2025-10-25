@@ -40,7 +40,7 @@ These patterns, adapted from [Anthropic's guide on building effective agents](ht
 The simplest workflow pattern executes steps in a predefined order. Each step's output becomes input for the next step, creating a clear chain of operations. Use this pattern for tasks with well-defined sequences, like content generation pipelines or data transformation processes.
 
 ```ts
-import { generateText, generateObject } from 'ai';
+import { generateText, generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 async function generateMarketingCopy(input: string) {
@@ -95,7 +95,7 @@ async function generateMarketingCopy(input: string) {
 This pattern lets the model decide which path to take through a workflow based on context and intermediate results. The model acts as an intelligent router, directing the flow of execution between different branches of your workflow. Use this when handling varied inputs that require different processing approaches. In the example below, the first LLM call's results determine the second call's model size and system prompt.
 
 ```ts
-import { generateObject, generateText } from 'ai';
+import { generateObject, generateText } from '@omni-stack/core';
 import { z } from 'zod';
 
 async function handleCustomerQuery(query: string) {
@@ -145,7 +145,7 @@ async function handleCustomerQuery(query: string) {
 Break down tasks into independent subtasks that execute simultaneously. This pattern uses parallel execution to improve efficiency while maintaining the benefits of structured workflows. For example, analyze multiple documents or process different aspects of a single input concurrently (like code review).
 
 ```ts
-import { generateText, generateObject } from 'ai';
+import { generateText, generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 // Example: Parallel code review with multiple specialized reviewers
@@ -218,7 +218,7 @@ async function parallelCodeReview(code: string) {
 A primary model (orchestrator) coordinates the execution of specialized workers. Each worker optimizes for a specific subtask, while the orchestrator maintains overall context and ensures coherent results. This pattern excels at complex tasks requiring different types of expertise or processing.
 
 ```ts
-import { generateObject } from 'ai';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 async function implementFeature(featureRequest: string) {
@@ -287,7 +287,7 @@ async function implementFeature(featureRequest: string) {
 Add quality control to workflows with dedicated evaluation steps that assess intermediate results. Based on the evaluation, the workflow proceeds, retries with adjusted parameters, or takes corrective action. This creates robust workflows capable of self-improvement and error recovery.
 
 ```ts
-import { generateText, generateObject } from 'ai';
+import { generateText, generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 async function translateWithFeedback(text: string, targetLanguage: string) {

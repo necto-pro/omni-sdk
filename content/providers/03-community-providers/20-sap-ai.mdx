@@ -110,7 +110,7 @@ Here are examples of using SAP AI Core with the AI SDK:
 
 ```typescript
 import { createSAPAIProvider } from '@mymediset/sap-ai-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const sapai = await createSAPAIProvider({
   serviceKey: process.env.SAP_AI_SERVICE_KEY,
@@ -128,7 +128,7 @@ console.log(text);
 
 ```typescript
 import { createSAPAIProvider } from '@mymediset/sap-ai-provider';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const sapai = await createSAPAIProvider({
   serviceKey: process.env.SAP_AI_SERVICE_KEY,
@@ -148,7 +148,7 @@ for await (const textPart of result.textStream) {
 
 ```typescript
 import { createSAPAIProvider } from '@mymediset/sap-ai-provider';
-import { generateText, tool } from 'ai';
+import { generateText, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 const sapai = await createSAPAIProvider({
@@ -180,7 +180,7 @@ console.log(result.text);
 
 ```typescript
 import { createSAPAIProvider } from '@mymediset/sap-ai-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const sapai = await createSAPAIProvider({
   serviceKey: process.env.SAP_AI_SERVICE_KEY,

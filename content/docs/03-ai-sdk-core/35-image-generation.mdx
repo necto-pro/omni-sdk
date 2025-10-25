@@ -11,8 +11,8 @@ The AI SDK provides the [`generateImage`](/docs/reference/ai-sdk-core/generate-i
 function to generate images based on a given prompt using an image model.
 
 ```tsx
-import { experimental_generateImage as generateImage } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const { image } = await generateImage({
   model: openai.image('dall-e-3'),
@@ -39,8 +39,8 @@ The size is specified as a string in the format `{width}x{height}`.
 Models only support a few sizes, and the supported sizes are different for each model and provider.
 
 ```tsx highlight={"7"}
-import { experimental_generateImage as generateImage } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const { image } = await generateImage({
   model: openai.image('dall-e-3'),
@@ -55,8 +55,8 @@ The aspect ratio is specified as a string in the format `{width}:{height}`.
 Models only support a few aspect ratios, and the supported aspect ratios are different for each model and provider.
 
 ```tsx highlight={"7"}
-import { experimental_generateImage as generateImage } from 'ai';
-import { vertex } from '@ai-sdk/google-vertex';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
+import { vertex } from '@omni-stack/google-vertex';
 
 const { image } = await generateImage({
   model: vertex.image('imagen-3.0-generate-002'),
@@ -70,8 +70,8 @@ const { image } = await generateImage({
 `generateImage` also supports generating multiple images at once:
 
 ```tsx highlight={"7"}
-import { experimental_generateImage as generateImage } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const { images } = await generateImage({
   model: openai.image('dall-e-2'),
@@ -104,8 +104,8 @@ You can provide a seed to the `generateImage` function to control the output of 
 If supported by the model, the same seed will always produce the same image.
 
 ```tsx highlight={"7"}
-import { experimental_generateImage as generateImage } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const { image } = await generateImage({
   model: openai.image('dall-e-3'),
@@ -122,8 +122,8 @@ using the `providerOptions` parameter. The options for the provider
 (`openai` in the example below) become request body properties.
 
 ```tsx highlight={"9"}
-import { experimental_generateImage as generateImage } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const { image } = await generateImage({
   model: openai.image('dall-e-3'),
@@ -142,8 +142,8 @@ type [`AbortSignal`](https://developer.mozilla.org/en-US/docs/Web/API/AbortSigna
 that you can use to abort the image generation process or set a timeout.
 
 ```ts highlight={"7"}
-import { openai } from '@ai-sdk/openai';
-import { experimental_generateImage as generateImage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: openai.image('dall-e-3'),
@@ -158,8 +158,8 @@ const { image } = await generateImage({
 that you can use to add custom headers to the image generation request.
 
 ```ts highlight={"7"}
-import { openai } from '@ai-sdk/openai';
-import { experimental_generateImage as generateImage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: openai.image('dall-e-3'),
@@ -216,7 +216,7 @@ The error preserves the following information to help you log the issue:
 - `cause`: The cause of the error. You can use this for more detailed error handling
 
 ```ts
-import { generateImage, NoImageGeneratedError } from 'ai';
+import { generateImage, NoImageGeneratedError } from '@omni-stack/core';
 
 try {
   await generateImage({ model, prompt });
@@ -235,8 +235,8 @@ Some language models such as Google `gemini-2.5-flash-image-preview` support mul
 With such models, you can access the generated images using the `files` property of the response.
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: google('gemini-2.5-flash-image-preview'),

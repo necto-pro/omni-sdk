@@ -28,8 +28,8 @@ curl -X POST http://localhost:8080
 You can use the `pipeUIMessageStreamToResponse` method to pipe the stream data to the server response.
 
 ```ts filename='index.ts'
-import { openai } from '@ai-sdk/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 import express, { Request, Response } from 'express';
 
 const app = express();
@@ -53,12 +53,12 @@ app.listen(8080, () => {
 `pipeUIMessageStreamToResponse` can be used to send custom data to the client.
 
 ```ts filename='index.ts'
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@omni-stack/openai';
 import {
   createUIMessageStream,
   pipeUIMessageStreamToResponse,
   streamText,
-} from 'ai';
+} from '@omni-stack/core';
 import express, { Request, Response } from 'express';
 
 const app = express();
@@ -98,8 +98,8 @@ app.listen(8080, () => {
 You can send a text stream to the client using `pipeTextStreamToResponse`.
 
 ```ts filename='index.ts'
-import { openai } from '@ai-sdk/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 import express, { Request, Response } from 'express';
 
 const app = express();

@@ -31,7 +31,7 @@ Your feedback during this beta phase directly shapes the final stable release. S
 To install the AI SDK 6 Beta, run the following command:
 
 ```bash
-npm install ai@beta @ai-sdk/openai@beta @ai-sdk/react@beta
+npm install ai@beta @omni-stack/openai@beta @omni-stack/react@beta
 ```
 
 <Note type="warning">
@@ -64,8 +64,8 @@ AI SDK 6 introduces a powerful new `Agent` interface that provides a standardize
 The `ToolLoopAgent` class provides a default implementation out of the box:
 
 ```typescript
-import { openai } from '@ai-sdk/openai';
-import { ToolLoopAgent } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { ToolLoopAgent } from '@omni-stack/core';
 import { weatherTool } from '@/tool/weather';
 
 export const weatherAgent = new ToolLoopAgent({
@@ -95,7 +95,7 @@ Agents integrate seamlessly with React and other UI frameworks:
 
 ```typescript
 // Server-side API route
-import { createAgentUIStreamResponse, convertToModelMessages } from 'ai';
+import { createAgentUIStreamResponse, convertToModelMessages } from '@omni-stack/core';
 
 export async function POST(request: Request) {
   const { messages } = await request.json();
@@ -109,8 +109,8 @@ export async function POST(request: Request) {
 
 ```typescript
 // Client-side with type safety
-import { useChat } from '@ai-sdk/react';
-import { InferAgentUIMessage } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { InferAgentUIMessage } from '@omni-stack/core';
 import { weatherAgent } from '@/agent/weather-agent';
 
 type WeatherAgentUIMessage = InferAgentUIMessage<typeof weatherAgent>;
@@ -123,7 +123,7 @@ const { messages, sendMessage } = useChat<WeatherAgentUIMessage>();
 In AI SDK 6, `Agent` is an interface rather than a concrete class. While `ToolLoopAgent` provides a solid default implementation for most use cases, you can implement the `Agent` interface to build custom agent architectures:
 
 ```typescript
-import { Agent } from 'ai';
+import { Agent } from '@omni-stack/core';
 
 // Build your own multi-agent orchestrator that delegates to specialists
 class Orchestrator implements Agent {
@@ -148,7 +148,7 @@ AI SDK 6 introduces a tool approval system that gives you control over when tool
 Enable approval for a tool by setting `needsApproval`:
 
 ```typescript
-import { tool } from 'ai';
+import { tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 export const weatherTool = tool({
@@ -235,8 +235,8 @@ export function WeatherToolView({ invocation, addToolApprovalResponse }) {
 Automatically continue the conversation once approvals are handled:
 
 ```typescript
-import { useChat } from '@ai-sdk/react';
-import { lastAssistantMessageIsCompleteWithApprovalResponses } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { lastAssistantMessageIsCompleteWithApprovalResponses } from '@omni-stack/core';
 
 const { messages, addToolApprovalResponse } = useChat({
   sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithApprovalResponses,

@@ -20,7 +20,7 @@ Advanced LLM features such as [tool calling](./tools-and-tool-calling) and [stru
 You can generate text using the [`generateText`](/docs/reference/ai-sdk-core/generate-text) function. This function is ideal for non-interactive use cases where you need to write text (e.g. drafting email or summarizing web pages) and for agents that use tools.
 
 ```tsx
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: 'openai/gpt-4.1',
@@ -31,7 +31,7 @@ const { text } = await generateText({
 You can use more [advanced prompts](./prompts) to generate text with more complex instructions and content:
 
 ```tsx
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: 'openai/gpt-4.1',
@@ -70,7 +70,7 @@ e.g. to access some provider-specific headers or body content.
 You can access the raw response headers and body using the `response` property:
 
 ```ts
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   // ...
@@ -88,7 +88,7 @@ When using `generateText`, you can provide an `onFinish` callback that is trigge
 It contains the text, usage information, finish reason, messages, steps, total usage, and more:
 
 ```tsx highlight="6-8"
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: 'openai/gpt-4.1',
@@ -108,7 +108,7 @@ Depending on your model and prompt, it can take a large language model (LLM) up 
 AI SDK Core provides the [`streamText`](/docs/reference/ai-sdk-core/stream-text) function which simplifies streaming text from LLMs:
 
 ```ts
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: 'openai/gpt-4.1',
@@ -172,7 +172,7 @@ Errors become part of the stream and are not thrown to prevent e.g. servers from
 To log errors, you can provide an `onError` callback that is triggered when an error occurs.
 
 ```tsx highlight="6-8"
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: 'openai/gpt-4.1',
@@ -199,7 +199,7 @@ It receives the following chunk types:
 - `raw`
 
 ```tsx highlight="6-11"
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: 'openai/gpt-4.1',
@@ -221,7 +221,7 @@ When using `streamText`, you can provide an `onFinish` callback that is triggere
 It contains the text, usage information, finish reason, messages, steps, total usage, and more:
 
 ```tsx highlight="6-8"
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: 'openai/gpt-4.1',
@@ -241,7 +241,7 @@ This can be useful if you want to implement your own UI or handle the stream in 
 Here is an example of how to use the `fullStream` property:
 
 ```tsx
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 import { z } from 'zod';
 
 const result = streamText({
@@ -367,7 +367,7 @@ The AI SDK Core provides a [`smoothStream` function](/docs/reference/ai-sdk-core
 can be used to smooth out text streaming.
 
 ```tsx highlight="6"
-import { smoothStream, streamText } from 'ai';
+import { smoothStream, streamText } from '@omni-stack/core';
 
 const result = streamText({
   model,

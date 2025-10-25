@@ -12,8 +12,8 @@ It can be used to force the language model to return structured data, e.g. for i
 #### Example: stream an object using a schema
 
 ```ts
-import { openai } from '@ai-sdk/openai';
-import { streamObject } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const { partialObjectStream } = streamObject({
@@ -40,8 +40,8 @@ For arrays, you specify the schema of the array items.
 You can use `elementStream` to get the stream of complete array elements.
 
 ```ts highlight="7,18"
-import { openai } from '@ai-sdk/openai';
-import { streamObject } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const { elementStream } = streamObject({
@@ -65,8 +65,8 @@ for await (const hero of elementStream) {
 #### Example: generate JSON without a schema
 
 ```ts
-import { openai } from '@ai-sdk/openai';
-import { streamObject } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamObject } from '@omni-stack/core';
 
 const { partialObjectStream } = streamObject({
   model: openai('gpt-4.1'),
@@ -86,7 +86,7 @@ When you want to generate a specific enum value, you can set the output strategy
 and provide the list of possible values in the `enum` parameter.
 
 ```ts highlight="5-6"
-import { streamObject } from 'ai';
+import { streamObject } from '@omni-stack/core';
 
 const { partialObjectStream } = streamObject({
   model: 'openai/gpt-4.1',

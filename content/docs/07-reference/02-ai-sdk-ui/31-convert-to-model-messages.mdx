@@ -8,8 +8,8 @@ description: Convert useChat messages to ModelMessages for AI functions (API Ref
 The `convertToModelMessages` function is used to transform an array of UI messages from the `useChat` hook into an array of `ModelMessage` objects. These `ModelMessage` objects are compatible with AI core functions like `streamText`.
 
 ```ts filename="app/api/chat/route.ts"
-import { openai } from '@ai-sdk/openai';
-import { convertToModelMessages, streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamText } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages } = await req.json();
@@ -67,7 +67,7 @@ An array of [`ModelMessage`](/docs/reference/ai-sdk-core/model-message) objects.
 The `convertToModelMessages` function supports tools that can return multi-modal content. This is useful when tools need to return non-text content like images.
 
 ```ts
-import { tool } from 'ai';
+import { tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 const screenshotTool = tool({
@@ -97,8 +97,8 @@ The `convertToModelMessages` function supports converting custom data parts atta
 By default, data parts in user messages are filtered out during conversion. To include them, provide a `convertDataPart` callback that transforms data parts into text or file parts that the model can understand:
 
 ```ts filename="app/api/chat/route.ts"
-import { openai } from '@ai-sdk/openai';
-import { convertToModelMessages, streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamText } from '@omni-stack/core';
 
 type CustomUIMessage = UIMessage<
   never,

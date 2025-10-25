@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/openai': patch
+'@omni-stack/openai': patch
 ---
 
 fix(provider/openai): end reasoning parts earlier

@@ -95,7 +95,7 @@ Import v4 types for proper type safety:
 
 ```tsx
 import type { Message as V4Message } from 'ai-legacy';
-import type { UIMessage } from 'ai';
+import type { UIMessage } from '@omni-stack/core';
 ```
 
 ### Step 2: Add Conversion Functions
@@ -108,7 +108,7 @@ import type {
   Message as V4Message,
   UIMessage as LegacyUIMessage,
 } from 'ai-legacy';
-import type { ToolUIPart, UIMessage, UITools } from 'ai';
+import type { ToolUIPart, UIMessage, UITools } from '@omni-stack/core';
 
 export type MyUIMessage = UIMessage<unknown, { custom: any }, UITools>;
 
@@ -445,14 +445,14 @@ export async function loadChat(chatId: string): Promise<MyUIMessage[]> {
 In Phase 1, your application runs on v5 but your database stores v4 format. Convert messages inline in your route handlers before passing them to your database functions:
 
 ```tsx
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@omni-stack/openai';
 import {
   convertV5MessageToV4,
   convertV4MessageToV5,
   type MyUIMessage,
 } from './conversion';
 import { upsertMessage, loadChat } from './db/actions';
-import { streamText, generateId, convertToModelMessages } from 'ai';
+import { streamText, generateId, convertToModelMessages } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { message, chatId }: { message: MyUIMessage; chatId: string } =

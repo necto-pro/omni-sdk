@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { createTestServer } from '@ai-sdk/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { GatewayEmbeddingModel } from './gateway-embedding-model';
 import type { GatewayConfig } from './gateway-config';
 import {

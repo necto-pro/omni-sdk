@@ -84,8 +84,8 @@ Now, let's implement the `continueConversation` function that will insert the us
 ```typescript filename='app/actions.ts'
 'use server';
 
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 export interface Message {
   role: 'user' | 'assistant';

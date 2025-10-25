@@ -28,7 +28,7 @@ You can use the test helpers with the AI Core functions in your unit tests:
 ### generateText
 
 ```ts
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 import { MockLanguageModelV3 } from 'ai/test';
 
 const result = await generateText({
@@ -47,7 +47,7 @@ const result = await generateText({
 ### streamText
 
 ```ts
-import { streamText, simulateReadableStream } from 'ai';
+import { streamText, simulateReadableStream } from '@omni-stack/core';
 import { MockLanguageModelV3 } from 'ai/test';
 
 const result = streamText({
@@ -77,7 +77,7 @@ const result = streamText({
 ### generateObject
 
 ```ts
-import { generateObject } from 'ai';
+import { generateObject } from '@omni-stack/core';
 import { MockLanguageModelV3 } from 'ai/test';
 import { z } from 'zod';
 
@@ -98,7 +98,7 @@ const result = await generateObject({
 ### streamObject
 
 ```ts
-import { streamObject, simulateReadableStream } from 'ai';
+import { streamObject, simulateReadableStream } from '@omni-stack/core';
 import { MockLanguageModelV3 } from 'ai/test';
 import { z } from 'zod';
 
@@ -138,7 +138,7 @@ debugging, or demonstration purposes.
 Here is a Next example:
 
 ```ts filename="route.ts"
-import { simulateReadableStream } from 'ai';
+import { simulateReadableStream } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   return new Response(

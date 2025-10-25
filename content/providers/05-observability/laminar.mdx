@@ -91,8 +91,8 @@ This is because Laminar depends on OpenTelemetry, which uses some Node.js-specif
 Then, when you call AI SDK functions in any of your API routes, add the Laminar tracer to the `experimental_telemetry` option.
 
 ```javascript highlight="3,8-11"
-import { openai } from '@ai-sdk/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 import { getTracer } from '@lmnr-ai/lmnr';
 
 const { text } = await generateText({
@@ -201,8 +201,8 @@ Read more in Laminar [docs](https://docs.lmnr.ai/tracing/introduction).
 Then, when you call AI SDK functions in any of your API routes, add the Laminar tracer to the `experimental_telemetry` option.
 
 ```javascript highlight="3,8-11"
-import { openai } from '@ai-sdk/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 import { getTracer } from '@lmnr-ai/lmnr';
 
 const { text } = await generateText({

@@ -86,8 +86,8 @@ export default function Page() {
 Let's create a route handler for `/api/completion` that will generate an object based on the input prompt. The route will call the `generateObject` function from the `ai` module, which will then generate an object based on the input prompt and return it.
 
 ```typescript filename='app/api/completion/route.ts'
-import { generateObject } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateObject } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 export async function POST(req: Request) {

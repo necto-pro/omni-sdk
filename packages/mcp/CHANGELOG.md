@@ -1,4 +1,4 @@
-# @ai-sdk/mcp
+# @omni-stack/mcp
 
 ## 1.0.0-beta.0
 
@@ -9,13 +9,13 @@
   This change replaces
 
   ```ts
-  import { experimental_createMCPClient } from 'ai';
+  import { experimental_createMCPClient } from '@omni-stack/core';
   import { Experimental_StdioMCPTransport } from 'ai/mcp-stdio';
   ```
 
   with
 
   ```ts
-  import { experimental_createMCPClient } from '@ai-sdk/mcp';
-  import { Experimental_StdioMCPTransport } from '@ai-sdk/mcp/mcp-stdio';
+  import { experimental_createMCPClient } from '@omni-stack/mcp';
+  import { Experimental_StdioMCPTransport } from '@omni-stack/mcp/mcp-stdio';
   ```

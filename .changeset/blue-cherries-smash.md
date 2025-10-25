@@ -1,13 +1,13 @@
 ---
-'@ai-sdk/openai-compatible': patch
-'@ai-sdk/amazon-bedrock': patch
-'@ai-sdk/provider-utils': patch
-'@ai-sdk/anthropic': patch
-'@ai-sdk/provider': patch
-'@ai-sdk/gateway': patch
-'@ai-sdk/google': patch
-'@ai-sdk/openai': patch
-'@ai-sdk/groq': patch
+'@omni-stack/openai-compatible': patch
+'@omni-stack/amazon-bedrock': patch
+'@omni-stack/provider-utils': patch
+'@omni-stack/anthropic': patch
+'@omni-stack/provider': patch
+'@omni-stack/gateway': patch
+'@omni-stack/google': patch
+'@omni-stack/openai': patch
+'@omni-stack/groq': patch
 'ai': patch
 ---
 

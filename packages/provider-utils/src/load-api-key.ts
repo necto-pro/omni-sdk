@@ -1,4 +1,4 @@
-import { LoadAPIKeyError } from '@ai-sdk/provider';
+import { LoadAPIKeyError } from '@omni-stack/provider';
 
 export function loadApiKey({
   apiKey,

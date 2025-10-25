@@ -2,7 +2,7 @@ import {
   JSONSchema7,
   LanguageModelV3Message,
   LanguageModelV3Prompt,
-} from '@ai-sdk/provider';
+} from '@omni-stack/provider';
 
 const DEFAULT_SCHEMA_PREFIX = 'JSON schema:';
 const DEFAULT_SCHEMA_SUFFIX =

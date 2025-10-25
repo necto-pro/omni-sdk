@@ -65,7 +65,7 @@ You can use FriendliAI language models to generate text with the `generateText` 
 
 ```ts
 import { friendli } from '@friendliai/ai-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: friendli('meta-llama-3.1-8b-instruct'),
@@ -82,7 +82,7 @@ You can use the `extractReasoningMiddleware` to extract this reasoning and expos
 
 ```ts
 import { friendli } from '@friendliai/ai-provider';
-import { wrapLanguageModel, extractReasoningMiddleware } from 'ai';
+import { wrapLanguageModel, extractReasoningMiddleware } from '@omni-stack/core';
 
 const enhancedModel = wrapLanguageModel({
   model: friendli('deepseek-r1'),
@@ -108,7 +108,7 @@ For a deeper understanding of how to effectively use regex patterns with LLMs, c
 
 ```ts highlight="6"
 import { friendli } from '@friendliai/ai-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: friendli('meta-llama-3.1-8b-instruct', {
@@ -126,7 +126,7 @@ Structured outputs are a form of guided generation. The JSON schema is used as a
 
 ```ts
 import { friendli } from '@friendliai/ai-provider';
-import { generateObject } from 'ai';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const { object } = await generateObject({
@@ -154,7 +154,7 @@ Built-in tools allow models to use tools to generate better answers. For example
 
 ```ts highlight="1,5,6,7"
 import { friendli } from '@friendliai/ai-provider';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: friendli('meta-llama-3.3-70b-instruct', {
@@ -175,7 +175,7 @@ To use a custom model via a dedicated endpoint, you can use the `friendli` insta
 
 ```ts
 import { friendli } from '@friendliai/ai-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: friendli('YOUR_ENDPOINT_ID'),
@@ -189,7 +189,7 @@ You can use the code below to force requests to dedicated endpoints. By default,
 
 ```ts highlight="5,6,7"
 import { friendli } from '@friendliai/ai-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: friendli("YOUR_ENDPOINT_ID", {
@@ -221,10 +221,10 @@ FriendliAI language models can also be used in the `streamText`, `generateObject
 
 ### OpenAI Compatibility
 
-You can also use `@ai-sdk/openai` as the APIs are OpenAI-compatible.
+You can also use `@omni-stack/openai` as the APIs are OpenAI-compatible.
 
 ```ts
-import { createOpenAI } from '@ai-sdk/openai';
+import { createOpenAI } from '@omni-stack/openai';
 
 const friendli = createOpenAI({
   baseURL: 'https://api.friendli.ai/serverless/v1',
@@ -235,7 +235,7 @@ const friendli = createOpenAI({
 If you are using dedicated endpoints
 
 ```ts
-import { createOpenAI } from '@ai-sdk/openai';
+import { createOpenAI } from '@omni-stack/openai';
 
 const friendli = createOpenAI({
   baseURL: 'https://api.friendli.ai/dedicated/v1',

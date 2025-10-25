@@ -7,53 +7,53 @@ When adding new packages under `packages`, please ensure they are added to `/tsc
 | Package          | NPM Name                 | Description                             |
 | ---------------- | ------------------------ | --------------------------------------- |
 | `ai`             | `ai`                     | Main package                            |
-| `provider`       | `@ai-sdk/provider`       | Provider specifications                 |
-| `provider-utils` | `@ai-sdk/provider-utils` | Shared provider and ai code             |
-| `codemod`        | `@ai-sdk/codemod`        | Automated migrations for major releases |
+| `provider`       | `@omni-stack/provider`       | Provider specifications                 |
+| `provider-utils` | `@omni-stack/provider-utils` | Shared provider and ai code             |
+| `codemod`        | `@omni-stack/codemod`        | Automated migrations for major releases |
 
 ## AI/LLM Providers
 
 | Package             | NPM Name                    | Provider                    |
 | ------------------- | --------------------------- | --------------------------- |
-| `openai`            | `@ai-sdk/openai`            | OpenAI                      |
-| `anthropic`         | `@ai-sdk/anthropic`         | Anthropic (Claude)          |
-| `google`            | `@ai-sdk/google`            | Google AI (Gemini)          |
-| `google-vertex`     | `@ai-sdk/google-vertex`     | Google Vertex AI            |
-| `azure`             | `@ai-sdk/azure`             | Azure OpenAI                |
-| `amazon-bedrock`    | `@ai-sdk/amazon-bedrock`    | Amazon Bedrock              |
-| `cohere`            | `@ai-sdk/cohere`            | Cohere                      |
-| `mistral`           | `@ai-sdk/mistral`           | Mistral AI                  |
-| `groq`              | `@ai-sdk/groq`              | Groq                        |
-| `cerebras`          | `@ai-sdk/cerebras`          | Cerebras                    |
-| `deepinfra`         | `@ai-sdk/deepinfra`         | DeepInfra                   |
-| `deepseek`          | `@ai-sdk/deepseek`          | DeepSeek                    |
-| `fireworks`         | `@ai-sdk/fireworks`         | Fireworks AI                |
-| `perplexity`        | `@ai-sdk/perplexity`        | Perplexity                  |
-| `replicate`         | `@ai-sdk/replicate`         | Replicate                   |
-| `togetherai`        | `@ai-sdk/togetherai`        | Together AI                 |
-| `xai`               | `@ai-sdk/xai`               | xAI (Grok)                  |
-| `vercel`            | `@ai-sdk/vercel`            | Vercel AI                   |
-| `gateway`           | `@ai-sdk/gateway`           | AI Gateway                  |
-| `openai-compatible` | `@ai-sdk/openai-compatible` | OpenAI-compatible providers |
-| `elevenlabs`        | `@ai-sdk/elevenlabs`        | ElevenLabs (Audio)          |
-| `assemblyai`        | `@ai-sdk/assemblyai`        | AssemblyAI (Speech)         |
-| `deepgram`          | `@ai-sdk/deepgram`          | Deepgram (Speech)           |
-| `gladia`            | `@ai-sdk/gladia`            | Gladia (Speech)             |
-| `revai`             | `@ai-sdk/revai`             | Rev.ai (Speech)             |
-| `luma`              | `@ai-sdk/luma`              | Luma (Video)                |
-| `fal`               | `@ai-sdk/fal`               | Fal.ai                      |
-| `hume`              | `@ai-sdk/hume`              | Hume AI                     |
-| `lmnt`              | `@ai-sdk/lmnt`              | LMNT (Speech)               |
-| `langchain`         | `@ai-sdk/langchain`         | LangChain integration       |
-| `llamaindex`        | `@ai-sdk/llamaindex`        | LlamaIndex integration      |
-| `valibot`           | `@ai-sdk/valibot`           | Valibot schema validation   |
+| `openai`            | `@omni-stack/openai`            | OpenAI                      |
+| `anthropic`         | `@omni-stack/anthropic`         | Anthropic (Claude)          |
+| `google`            | `@omni-stack/google`            | Google AI (Gemini)          |
+| `google-vertex`     | `@omni-stack/google-vertex`     | Google Vertex AI            |
+| `azure`             | `@omni-stack/azure`             | Azure OpenAI                |
+| `amazon-bedrock`    | `@omni-stack/amazon-bedrock`    | Amazon Bedrock              |
+| `cohere`            | `@omni-stack/cohere`            | Cohere                      |
+| `mistral`           | `@omni-stack/mistral`           | Mistral AI                  |
+| `groq`              | `@omni-stack/groq`              | Groq                        |
+| `cerebras`          | `@omni-stack/cerebras`          | Cerebras                    |
+| `deepinfra`         | `@omni-stack/deepinfra`         | DeepInfra                   |
+| `deepseek`          | `@omni-stack/deepseek`          | DeepSeek                    |
+| `fireworks`         | `@omni-stack/fireworks`         | Fireworks AI                |
+| `perplexity`        | `@omni-stack/perplexity`        | Perplexity                  |
+| `replicate`         | `@omni-stack/replicate`         | Replicate                   |
+| `togetherai`        | `@omni-stack/togetherai`        | Together AI                 |
+| `xai`               | `@omni-stack/xai`               | xAI (Grok)                  |
+| `vercel`            | `@omni-stack/vercel`            | Vercel AI                   |
+| `gateway`           | `@omni-stack/gateway`           | AI Gateway                  |
+| `openai-compatible` | `@omni-stack/openai-compatible` | OpenAI-compatible providers |
+| `elevenlabs`        | `@omni-stack/elevenlabs`        | ElevenLabs (Audio)          |
+| `assemblyai`        | `@omni-stack/assemblyai`        | AssemblyAI (Speech)         |
+| `deepgram`          | `@omni-stack/deepgram`          | Deepgram (Speech)           |
+| `gladia`            | `@omni-stack/gladia`            | Gladia (Speech)             |
+| `revai`             | `@omni-stack/revai`             | Rev.ai (Speech)             |
+| `luma`              | `@omni-stack/luma`              | Luma (Video)                |
+| `fal`               | `@omni-stack/fal`               | Fal.ai                      |
+| `hume`              | `@omni-stack/hume`              | Hume AI                     |
+| `lmnt`              | `@omni-stack/lmnt`              | LMNT (Speech)               |
+| `langchain`         | `@omni-stack/langchain`         | LangChain integration       |
+| `llamaindex`        | `@omni-stack/llamaindex`        | LlamaIndex integration      |
+| `valibot`           | `@omni-stack/valibot`           | Valibot schema validation   |
 
 ## UI Framework Integrations
 
 | Package   | NPM Name          | Framework                   |
 | --------- | ----------------- | --------------------------- |
-| `react`   | `@ai-sdk/react`   | React hooks and utilities   |
-| `vue`     | `@ai-sdk/vue`     | Vue composables             |
-| `svelte`  | `@ai-sdk/svelte`  | Svelte stores and utilities |
-| `angular` | `@ai-sdk/angular` | Angular services            |
-| `rsc`     | `@ai-sdk/rsc`     | React Server Components     |
+| `react`   | `@omni-stack/react`   | React hooks and utilities   |
+| `vue`     | `@omni-stack/vue`     | Vue composables             |
+| `svelte`  | `@omni-stack/svelte`  | Svelte stores and utilities |
+| `angular` | `@omni-stack/angular` | Angular services            |
+| `rsc`     | `@omni-stack/rsc`     | React Server Components     |

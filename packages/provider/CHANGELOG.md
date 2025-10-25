@@ -1,4 +1,4 @@
-# @ai-sdk/provider
+# @omni-stack/provider
 
 ## 3.0.0-beta.8
 
@@ -124,7 +124,7 @@
   Before
 
   ```ts
-  import { convertUint8ArrayToBase64 } from '@ai-sdk/provider-utils';
+  import { convertUint8ArrayToBase64 } from '@omni-stack/provider-utils';
 
   // Had to manually convert binary data to base64
   const fileData = new Uint8Array([0, 1, 2, 3]);
@@ -657,13 +657,13 @@
 
 ### Patch Changes
 
-- 102ca22f: fix (@ai-sdk/provider): fix TypeValidationError.isTypeValidationError
+- 102ca22f: fix (@omni-stack/provider): fix TypeValidationError.isTypeValidationError
 
 ## 0.0.9
 
 ### Patch Changes
 
-- 09295e2e: feat (@ai-sdk/provider): add DownloadError
+- 09295e2e: feat (@omni-stack/provider): add DownloadError
 
 ## 0.0.8
 

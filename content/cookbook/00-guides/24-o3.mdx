@@ -54,8 +54,8 @@ The AI SDK abstracts away the differences between model providers, eliminates bo
 At the center of the AI SDK is [AI SDK Core](/docs/ai-sdk-core/overview), which provides a unified API to call any LLM. The code snippet below is all you need to call OpenAI o3-mini with the AI SDK:
 
 ```ts
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const { text } = await generateText({
   model: openai('o3-mini'),
@@ -64,7 +64,7 @@ const { text } = await generateText({
 ```
 
 <Note>
-  To use o3-mini, you must be using @ai-sdk/openai version 1.1.9 or greater.
+  To use o3-mini, you must be using @omni-stack/openai version 1.1.9 or greater.
 </Note>
 
 <Note>
@@ -77,8 +77,8 @@ You can control the amount of reasoning effort expended by o3-mini through the `
 This parameter can be set to `low`, `medium`, or `high` to adjust how much time and computation the model spends on internal reasoning before producing a response.
 
 ```ts highlight="9"
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 // Reduce reasoning effort for faster responses
 const { text } = await generateText({
@@ -95,8 +95,8 @@ const { text } = await generateText({
 While text generation can be useful, you might want to generate structured JSON data. For example, you might want to extract information from text, classify data, or generate synthetic data. AI SDK Core provides two functions ([`generateObject`](/docs/reference/ai-sdk-core/generate-object) and [`streamObject`](/docs/reference/ai-sdk-core/stream-object)) to generate structured data, allowing you to constrain model outputs to a specific schema.
 
 ```ts
-import { generateObject } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateObject } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 const { object } = await generateObject({
@@ -119,8 +119,8 @@ This code snippet will generate a type-safe recipe that conforms to the specifie
 o3-mini supports tool calling out of the box, allowing it to interact with external systems and perform discrete tasks. Here's an example of using tool calling with the AI SDK:
 
 ```ts
-import { generateText, tool } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText, tool } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 const { text } = await generateText({
@@ -155,13 +155,13 @@ Let's explore building a chatbot with [Next.js](https://nextjs.org), the AI SDK,
 
 In a new Next.js application, first install the AI SDK and the DeepSeek provider:
 
-<Snippet text="pnpm install ai @ai-sdk/openai @ai-sdk/react" />
+<Snippet text="pnpm install ai @omni-stack/openai @omni-stack/react" />
 
 Then, create a route handler for the chat endpoint:
 
 ```tsx filename="app/api/chat/route.ts"
-import { openai } from '@ai-sdk/openai';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 // Allow responses up to 5 minutes
 export const maxDuration = 300;
@@ -183,7 +183,7 @@ Finally, update the root page (`app/page.tsx`) to use the `useChat` hook:
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@omni-stack/react';
 
 export default function Page() {
   const { messages, input, handleInputChange, handleSubmit, error } = useChat();

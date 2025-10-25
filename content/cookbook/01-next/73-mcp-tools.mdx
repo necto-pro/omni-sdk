@@ -17,9 +17,9 @@ If you prefer to use the official transports (optional), install the official Ty
 <Snippet text="pnpm install @modelcontextprotocol/sdk" />
 
 ```ts filename="app/api/completion/route.ts"
-import { experimental_createMCPClient, streamText } from '@ai-sdk/mcp';
-import { Experimental_StdioMCPTransport } from '@ai-sdk/mcp/mcp-stdio';
-import { openai } from '@ai-sdk/openai';
+import { experimental_createMCPClient, streamText } from '@omni-stack/mcp';
+import { Experimental_StdioMCPTransport } from '@omni-stack/mcp/mcp-stdio';
+import { openai } from '@omni-stack/openai';
 // Optional: Official transports if you prefer them
 // import { StdioClientTransport } from '@modelcontextprotocol/sdk/client/stdio';
 // import { SSEClientTransport } from '@modelcontextprotocol/sdk/client/sse';
@@ -111,12 +111,12 @@ export async function POST(req: Request) {
 
 ## Client
 
-Let's create a simple React component that imports the `useCompletion` hook from the `@ai-sdk/react` module. The `useCompletion` hook will call the `/api/completion` endpoint when a button is clicked. The endpoint will generate text based on the input prompt and stream it to the client.
+Let's create a simple React component that imports the `useCompletion` hook from the `@omni-stack/react` module. The `useCompletion` hook will call the `/api/completion` endpoint when a button is clicked. The endpoint will generate text based on the input prompt and stream it to the client.
 
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useCompletion } from '@ai-sdk/react';
+import { useCompletion } from '@omni-stack/react';
 
 export default function Page() {
   const { completion, complete } = useCompletion({

@@ -1,7 +1,7 @@
 import type {
   EmbeddingModelV3,
   SharedV3ProviderMetadata,
-} from '@ai-sdk/provider';
+} from '@omni-stack/provider';
 import {
   combineHeaders,
   createJsonErrorResponseHandler,
@@ -11,7 +11,7 @@ import {
   resolve,
   zodSchema,
   type Resolvable,
-} from '@ai-sdk/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { asGatewayError } from './errors';
 import { parseAuthMethod } from './errors/parse-auth-method';

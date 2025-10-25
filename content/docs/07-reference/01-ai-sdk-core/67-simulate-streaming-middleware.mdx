@@ -8,7 +8,7 @@ description: Middleware that simulates streaming for non-streaming language mode
 `simulateStreamingMiddleware` is a middleware function that simulates streaming behavior with responses from non-streaming language models. This is useful when you want to maintain a consistent streaming interface even when using models that only provide complete responses.
 
 ```ts
-import { simulateStreamingMiddleware } from 'ai';
+import { simulateStreamingMiddleware } from '@omni-stack/core';
 
 const middleware = simulateStreamingMiddleware();
 ```
@@ -42,9 +42,9 @@ Returns a middleware object that:
 ### Usage Example
 
 ```ts
-import { streamText } from 'ai';
-import { wrapLanguageModel } from 'ai';
-import { simulateStreamingMiddleware } from 'ai';
+import { streamText } from '@omni-stack/core';
+import { wrapLanguageModel } from '@omni-stack/core';
+import { simulateStreamingMiddleware } from '@omni-stack/core';
 
 // Example with a non-streaming model
 const result = streamText({

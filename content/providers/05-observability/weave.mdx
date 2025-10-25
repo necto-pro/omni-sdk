@@ -45,8 +45,8 @@ OTEL_EXPORTER_OTLP_HEADERS="Authorization=Basic <BASE64_AUTH_STRING>,project_id=
 You can then use the `experimental_telemetry` option to enable telemetry on supported AI SDK function calls:
 
 ```typescript
-import { openai } from '@ai-sdk/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: openai('gpt-4o-mini'),

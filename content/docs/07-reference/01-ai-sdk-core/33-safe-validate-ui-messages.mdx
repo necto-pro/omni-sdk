@@ -12,7 +12,7 @@ description: API Reference for safeValidateUIMessages
 Simple validation without custom schemas:
 
 ```typescript
-import { safeValidateUIMessages } from 'ai';
+import { safeValidateUIMessages } from '@omni-stack/core';
 
 const messages = [
   {
@@ -38,7 +38,7 @@ if (!result.success) {
 Comprehensive validation with custom metadata, data parts, and tools:
 
 ```typescript
-import { safeValidateUIMessages, tool } from 'ai';
+import { safeValidateUIMessages, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 // Define schemas

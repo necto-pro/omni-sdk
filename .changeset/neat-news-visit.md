@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/gateway': patch
+'@omni-stack/gateway': patch
 ---
 
 add getCredits() gateway method

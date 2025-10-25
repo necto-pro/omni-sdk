@@ -1,4 +1,4 @@
-import { InvalidArgumentError } from '@ai-sdk/provider';
+import { InvalidArgumentError } from '@omni-stack/provider';
 
 /**
 Creates an ID generator.

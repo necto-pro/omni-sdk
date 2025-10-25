@@ -1,12 +1,12 @@
 ---
-'@ai-sdk/openai': patch
+'@omni-stack/openai': patch
 ---
 
 feat(provider/openai): `OpenAIChatLanguageModelOptions` type
 
 ```ts
-import { openai, type OpenAIChatLanguageModelOptions } from '@ai-sdk/openai';
-import { generateText } from 'ai';
+import { openai, type OpenAIChatLanguageModelOptions } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 await generateText({
   model: openai.chat('gpt-4o'),

@@ -1,4 +1,4 @@
-import { APICallError } from '@ai-sdk/provider';
+import { APICallError } from '@omni-stack/provider';
 import { describe, it, expect, vi } from 'vitest';
 import { getFromApi } from './get-from-api';
 import {

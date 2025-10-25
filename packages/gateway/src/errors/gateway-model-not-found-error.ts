@@ -1,6 +1,6 @@
 import { z } from 'zod/v4';
 import { GatewayError } from './gateway-error';
-import { lazySchema, zodSchema } from '@ai-sdk/provider-utils';
+import { lazySchema, zodSchema } from '@omni-stack/provider-utils';
 
 const name = 'GatewayModelNotFoundError';
 const marker = `vercel.ai.gateway.error.${name}`;

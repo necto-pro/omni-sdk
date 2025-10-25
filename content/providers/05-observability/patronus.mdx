@@ -57,8 +57,8 @@ export function register() {
 The AI SDK emits a span only when you opt in with `experimental_telemetry`:
 
 ```ts
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const result = await generateText({
   model: openai('gpt-4o'),
@@ -79,8 +79,8 @@ Every attribute inside `metadata` becomes an OTEL attribute and is indexed by Pa
 
 ```ts filename="app/api/chat/route.ts"
 import { trace } from '@opentelemetry/api';
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 export async function POST(req: Request) {
   const body = await req.json();

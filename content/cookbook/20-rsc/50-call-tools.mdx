@@ -87,8 +87,8 @@ We will use zod to specify the schema for the `celsiusToFahrenheit` function's p
 ```tsx filename='app/actions.ts'
 'use server';
 
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 export interface Message {

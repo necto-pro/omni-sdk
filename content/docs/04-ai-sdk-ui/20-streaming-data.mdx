@@ -23,7 +23,7 @@ The data is streamed as part of the response stream using Server-Sent Events.
 First, define your custom message type with data part schemas for type safety:
 
 ```tsx filename="ai/types.ts"
-import { UIMessage } from 'ai';
+import { UIMessage } from '@omni-stack/core';
 
 // Define your custom message type with data part schemas
 export type MyUIMessage = UIMessage<
@@ -47,13 +47,13 @@ export type MyUIMessage = UIMessage<
 In your server-side route handler, you can create a `UIMessageStream` and then pass it to `createUIMessageStreamResponse`:
 
 ```tsx filename="route.ts"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@omni-stack/openai';
 import {
   createUIMessageStream,
   createUIMessageStreamResponse,
   streamText,
   convertToModelMessages,
-} from 'ai';
+} from '@omni-stack/core';
 import type { MyUIMessage } from '@/ai/types';
 
 export async function POST(req: Request) {
@@ -198,7 +198,7 @@ The reconciliation happens automatically - simply use the same `id` when writing
 The `onData` callback is essential for handling streaming data, especially transient parts:
 
 ```tsx filename="page.tsx"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@omni-stack/react';
 import type { MyUIMessage } from '@/ai/types';
 
 const { messages } = useChat<MyUIMessage>({
@@ -272,7 +272,7 @@ const result = (
 ```tsx filename="page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@omni-stack/react';
 import { useState } from 'react';
 import type { MyUIMessage } from '@/ai/types';
 

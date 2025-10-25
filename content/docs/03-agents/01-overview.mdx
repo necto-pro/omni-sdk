@@ -20,7 +20,7 @@ These components work together:
 The ToolLoopAgent class handles these three components. Here's an agent that uses multiple tools in a loop to accomplish a task:
 
 ```ts
-import { ToolLoopAgent, stepCountIs, tool } from 'ai';
+import { ToolLoopAgent, stepCountIs, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 const weatherAgent = new ToolLoopAgent({

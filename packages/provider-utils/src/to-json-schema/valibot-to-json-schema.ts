@@ -1,4 +1,4 @@
-import { JSONSchema7 } from '@ai-sdk/provider';
+import { JSONSchema7 } from '@omni-stack/provider';
 
 export const valibotToJsonSchema = (schema: unknown) => {
   return async (): Promise<JSONSchema7> => {

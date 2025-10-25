@@ -123,7 +123,7 @@ This provider is capable of using hybrid reasoning models such as qwen3, allowin
 
 ```ts
 import { ollama } from 'ollama-ai-provider-v2';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: ollama('qwen3:4b'),

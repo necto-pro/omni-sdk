@@ -101,7 +101,7 @@ You can use AnthropicVertex language models to generate text with the `generateT
 
 ```ts
 import { anthropicVertex } from 'anthropic-vertex-ai';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: anthropicVertex('claude-3-sonnet@20240229'),

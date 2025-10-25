@@ -14,7 +14,7 @@ The `createAgentUIStream` function runs an [Agent](/docs/reference/ai-sdk-core/a
 ## Usage
 
 ```ts
-import { ToolLoopAgent, createAgentUIStream } from 'ai';
+import { ToolLoopAgent, createAgentUIStream } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -70,7 +70,7 @@ A `Promise<AsyncIterableStream<UIMessageChunk>>`, where each yielded value is a 
 ## Example
 
 ```ts
-import { createAgentUIStream } from 'ai';
+import { createAgentUIStream } from '@omni-stack/core';
 
 const stream = await createAgentUIStream({
   agent,

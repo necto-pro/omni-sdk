@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/anthropic': patch
+'@omni-stack/anthropic': patch
 ---
 
 feat(anthropic): add prompt caching validation

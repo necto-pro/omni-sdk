@@ -25,13 +25,13 @@ Chat completion can sometimes take a long time to finish, especially when the re
 
 ## Client
 
-Let's create a React component that imports the `useChat` hook from the `@ai-sdk/react` module. The `useChat` hook will call the `/api/chat` endpoint when the user sends a message. The endpoint will generate the assistant's response based on the conversation history and stream it to the client.
+Let's create a React component that imports the `useChat` hook from the `@omni-stack/react` module. The `useChat` hook will call the `/api/chat` endpoint when the user sends a message. The endpoint will generate the assistant's response based on the conversation history and stream it to the client.
 
 ```tsx filename='app/page.tsx'
 'use client';
 
-import { useChat } from '@ai-sdk/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Page() {
@@ -78,8 +78,8 @@ export default function Page() {
 Next, let's create the `/api/chat` endpoint that generates the assistant's response based on the conversation history.
 
 ```typescript filename='app/api/chat/route.ts'
-import { openai } from '@ai-sdk/openai';
-import { convertToModelMessages, streamText, type UIMessage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamText, type UIMessage } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();

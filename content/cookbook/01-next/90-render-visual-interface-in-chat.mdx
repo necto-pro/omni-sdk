@@ -44,11 +44,11 @@ Let's build an assistant that gets the weather for any city by calling the `getW
 ```tsx filename='app/page.tsx'
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@omni-stack/react';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithToolCalls,
-} from 'ai';
+} from '@omni-stack/core';
 import { useState } from 'react';
 import { ChatMessage } from './api/chat/route';
 
@@ -205,7 +205,7 @@ export default function Chat() {
 ## Server
 
 ```tsx filename='api/chat.ts'
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@omni-stack/openai';
 import {
   type InferUITools,
   type ToolSet,
@@ -215,7 +215,7 @@ import {
   stepCountIs,
   streamText,
   tool,
-} from 'ai';
+} from '@omni-stack/core';
 import { z } from 'zod';
 
 const tools = {

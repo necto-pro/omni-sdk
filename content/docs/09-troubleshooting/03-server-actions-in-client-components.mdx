@@ -24,8 +24,8 @@ Learn more about [Server Actions and Mutations](https://nextjs.org/docs/app/api-
 ```ts file='actions.ts'
 'use server';
 
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 export async function getAnswer(question: string) {
   'use server';

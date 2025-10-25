@@ -1,4 +1,4 @@
-import { AISDKError } from '@ai-sdk/provider';
+import { AISDKError } from '@omni-stack/provider';
 
 const name = 'AI_MCPClientError';
 const marker = `vercel.ai.error.${name}`;

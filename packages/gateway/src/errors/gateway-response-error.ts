@@ -1,4 +1,4 @@
-import { TypeValidationError } from '@ai-sdk/provider';
+import { TypeValidationError } from '@omni-stack/provider';
 import { GatewayError } from './gateway-error';
 
 const name = 'GatewayResponseError';

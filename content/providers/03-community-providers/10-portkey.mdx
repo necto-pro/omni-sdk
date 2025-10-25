@@ -78,7 +78,7 @@ You can use Portkey language models with the `generateText` or `streamText` func
 
 ```javascript
 import { createPortkey } from '@portkey-ai/vercel-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const portkey = createPortkey({
   apiKey: 'YOUR_PORTKEY_API_KEY',
@@ -97,7 +97,7 @@ console.log(text);
 
 ```javascript
 import { createPortkey } from '@portkey-ai/vercel-provider';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const portkey = createPortkey({
   apiKey: 'YOUR_PORTKEY_API_KEY',

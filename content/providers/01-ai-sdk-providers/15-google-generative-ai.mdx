@@ -10,36 +10,36 @@ the [Google Generative AI](https://ai.google.dev/api/rest) APIs.
 
 ## Setup
 
-The Google provider is available in the `@ai-sdk/google` module. You can install it with
+The Google provider is available in the `@omni-stack/google` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/google" dark />
+    <Snippet text="pnpm add @omni-stack/google" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/google" dark />
+    <Snippet text="npm install @omni-stack/google" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/google" dark />
+    <Snippet text="yarn add @omni-stack/google" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/google" dark />
+    <Snippet text="bun add @omni-stack/google" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `google` from `@ai-sdk/google`:
+You can import the default provider instance `google` from `@omni-stack/google`:
 
 ```ts
-import { google } from '@ai-sdk/google';
+import { google } from '@omni-stack/google';
 ```
 
-If you need a customized setup, you can import `createGoogleGenerativeAI` from `@ai-sdk/google` and create a provider instance with your settings:
+If you need a customized setup, you can import `createGoogleGenerativeAI` from `@omni-stack/google` and create a provider instance with your settings:
 
 ```ts
-import { createGoogleGenerativeAI } from '@ai-sdk/google';
+import { createGoogleGenerativeAI } from '@omni-stack/google';
 
 const google = createGoogleGenerativeAI({
   // custom settings
@@ -82,8 +82,8 @@ const model = google('gemini-2.5-flash');
 You can use Google Generative AI language models to generate text with the `generateText` function:
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: google('gemini-2.5-flash'),
@@ -198,8 +198,8 @@ The Gemini 2.5 series models use an internal "thinking process" that significant
 You can control thinking budgets and enable a thought summary by setting the `thinkingConfig` parameter.
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const model = google('gemini-2.5-flash');
 
@@ -226,8 +226,8 @@ console.log(reasoning); // Reasoning summary
 The Google Generative AI provider supports file inputs, e.g. PDF files.
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: google('gemini-2.5-flash'),
@@ -253,8 +253,8 @@ const result = await generateText({
 You can also use YouTube URLs directly:
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: google('gemini-2.5-flash'),
@@ -304,8 +304,8 @@ To maximize cache hits with implicit caching:
   - Gemini 2.5 Pro: 2048 tokens minimum
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 // Structure prompts with consistent content at the beginning
 const baseContext =
@@ -339,7 +339,7 @@ console.log('Cached tokens:', providerMetadata.google?.usageMetadata);
 ```
 
 <Note>
-  Usage metadata was added to `providerMetadata` in `@ai-sdk/google@1.2.23`. If
+  Usage metadata was added to `providerMetadata` in `@omni-stack/google@1.2.23`. If
   you are using an older version, usage metadata is available in the raw HTTP
   `response` body returned as part of the return value from `generateText`.
 </Note>
@@ -349,9 +349,9 @@ console.log('Cached tokens:', providerMetadata.google?.usageMetadata);
 For guaranteed cost savings, you can still use explicit caching with Gemini 2.5 and 2.0 models. See the [models page](https://ai.google.dev/gemini-api/docs/models) to check if caching is supported for the used model:
 
 ```ts
-import { google } from '@ai-sdk/google';
+import { google } from '@omni-stack/google';
 import { GoogleAICacheManager } from '@google/generative-ai/server';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const cacheManager = new GoogleAICacheManager(
   process.env.GOOGLE_GENERATIVE_AI_API_KEY,
@@ -398,9 +398,9 @@ With [Code Execution](https://ai.google.dev/gemini-api/docs/code-execution), cer
 You can enable code execution by adding the `code_execution` tool to your request.
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { googleTools } from '@ai-sdk/google/internal';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { googleTools } from '@omni-stack/google/internal';
+import { generateText } from '@omni-stack/core';
 
 const { text, toolCalls, toolResults } = await generateText({
   model: google('gemini-2.5-pro'),
@@ -418,9 +418,9 @@ the model has access to the latest information using Google search.
 Google search can be used to provide answers around current events:
 
 ```ts highlight="8,17-20"
-import { google } from '@ai-sdk/google';
-import { GoogleGenerativeAIProviderMetadata } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { GoogleGenerativeAIProviderMetadata } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const { text, sources, providerMetadata } = await generateText({
   model: google('gemini-2.5-flash'),
@@ -496,8 +496,8 @@ Google provides a provider-defined URL context tool.
 The URL context tool allows the you to provide specific URLs that you want the model to analyze directly in from the prompt.
 
 ```ts highlight="9,13-17"
-import { google } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const { text, sources, providerMetadata } = await generateText({
   model: google('gemini-2.5-flash'),
@@ -554,7 +554,7 @@ With the URL context tool, you will also get the `groundingMetadata`.
             "segment": {
                 "startIndex": 67,
                 "endIndex": 157,
-                "text": "**Installation**: Install the `@ai-sdk/google` module using your preferred package manager"
+                "text": "**Installation**: Install the `@omni-stack/google` module using your preferred package manager"
             },
             "groundingChunkIndices": [
                 0
@@ -577,8 +577,8 @@ With the URL context tool, you will also get the `groundingMetadata`.
 You can combine the URL context tool with search grounding to provide the model with the latest information from the web.
 
 ```ts highlight="9-10"
-import { google } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const { text, sources, providerMetadata } = await generateText({
   model: google('gemini-2.5-flash'),
@@ -602,8 +602,8 @@ const urlContextMetadata = metadata?.urlContextMetadata;
 Gemini models with image generation capabilities (`gemini-2.5-flash-image-preview`) support image generation. Images are exposed as files in the response.
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: google('gemini-2.5-flash-image-preview'),
@@ -735,8 +735,8 @@ You can use [Gemma models](https://deepmind.google/models/gemma/) with the Googl
 Gemma models don't natively support the `systemInstruction` parameter, but the provider automatically handles system instructions by prepending them to the first user message. This allows you to use system instructions with Gemma models seamlessly:
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: google('gemma-3-27b-it'),
@@ -764,8 +764,8 @@ The Google Generative AI provider sends API calls to the right endpoint based on
 Google Generative AI embedding models support aditional settings. You can pass them as an options argument:
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { embed } from 'ai';
+import { google } from '@omni-stack/google';
+import { embed } from '@omni-stack/core';
 
 const model = google.textEmbedding('gemini-embedding-001');
 
@@ -813,8 +813,8 @@ You can create [Imagen](https://ai.google.dev/gemini-api/imagen) models that cal
 For more on image generation with the AI SDK see [generateImage()](/docs/reference/ai-sdk-core/generate-image).
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { experimental_generateImage as generateImage } from 'ai';
+import { google } from '@omni-stack/google';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: google.image('imagen-3.0-generate-002'),
@@ -826,9 +826,9 @@ const { image } = await generateImage({
 Further configuration can be done using Google provider options. You can validate the provider options using the `GoogleGenerativeAIImageProviderOptions` type.
 
 ```ts
-import { google } from '@ai-sdk/google';
-import { GoogleGenerativeAIImageProviderOptions } from '@ai-sdk/google';
-import { experimental_generateImage as generateImage } from 'ai';
+import { google } from '@omni-stack/google';
+import { GoogleGenerativeAIImageProviderOptions } from '@omni-stack/google';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: google.image('imagen-3.0-generate-002'),

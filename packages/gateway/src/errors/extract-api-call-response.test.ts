@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { APICallError } from '@ai-sdk/provider';
+import { APICallError } from '@omni-stack/provider';
 import { extractApiCallResponse } from './extract-api-call-response';
 
 describe('extractResponseFromAPICallError', () => {

@@ -14,7 +14,7 @@ test('happy path', async () => {
   };
 
   const readFile = mock.fn(async path => {
-    return `---\nai: patch\n@ai-sdk/provider: patch\n---\n## Test changeset`;
+    return `---\nai: patch\n@omni-stack/provider: patch\n---\n## Test changeset`;
   });
 
   await verifyChangesets(event, env, readFile);
@@ -107,7 +107,7 @@ test('minor update', async () => {
       return `---\nai: patch\n---\n## Test changeset`;
     }
 
-    return `---\n@ai-sdk/provider: minor\n---\n## Test changeset`;
+    return `---\n@omni-stack/provider: minor\n---\n## Test changeset`;
   });
 
   await assert.rejects(
@@ -118,7 +118,7 @@ test('minor update', async () => {
       ),
       {
         path: '.changeset/minor-update.md',
-        content: '---\n@ai-sdk/provider: minor\n---\n## Test changeset',
+        content: '---\n@omni-stack/provider: minor\n---\n## Test changeset',
       },
     ),
   );
@@ -153,7 +153,7 @@ test('minor update - with "minor" label', async () => {
       return `---\nai: patch\n---\n## Test changeset`;
     }
 
-    return `---\n@ai-sdk/provider: minor\n---\n## Test changeset`;
+    return `---\n@omni-stack/provider: minor\n---\n## Test changeset`;
   });
 
   const message = await verifyChangesets(event, env, readFile);
@@ -182,7 +182,7 @@ test('major update - with "major" label', async () => {
       return `---\nai: patch\n---\n## Test changeset`;
     }
 
-    return `---\n@ai-sdk/provider: major\n---\n## Test changeset`;
+    return `---\n@omni-stack/provider: major\n---\n## Test changeset`;
   });
 
   const message = await verifyChangesets(event, env, readFile);

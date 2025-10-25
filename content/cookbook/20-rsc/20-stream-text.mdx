@@ -20,14 +20,14 @@ Text generation can sometimes take a long time to complete, especially when you'
 
 ## Client
 
-Let's create a simple React component that will call the `generate` function when a button is clicked. The `generate` function will call the `streamText` function, which will then generate text based on the input prompt. To consume the stream of text in the client, we will use the `readStreamableValue` function from the `@ai-sdk/rsc` module.
+Let's create a simple React component that will call the `generate` function when a button is clicked. The `generate` function will call the `streamText` function, which will then generate text based on the input prompt. To consume the stream of text in the client, we will use the `readStreamableValue` function from the `@omni-stack/rsc` module.
 
 ```tsx filename="app/page.tsx"
 'use client';
 
 import { useState } from 'react';
 import { generate } from './actions';
-import { readStreamableValue } from '@ai-sdk/rsc';
+import { readStreamableValue } from '@omni-stack/rsc';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;
@@ -64,9 +64,9 @@ Using DevTools, we can see the text generation being streamed to the client in r
 ```typescript filename='app/actions.ts'
 'use server';
 
-import { streamText } from 'ai';
-import { openai } from '@ai-sdk/openai';
-import { createStreamableValue } from '@ai-sdk/rsc';
+import { streamText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
+import { createStreamableValue } from '@omni-stack/rsc';
 
 export async function generate(input: string) {
   const stream = createStreamableValue('');

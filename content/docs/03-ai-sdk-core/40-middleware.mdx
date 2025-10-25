@@ -19,7 +19,7 @@ It takes a language model and a language model middleware and returns a new
 language model that incorporates the middleware.
 
 ```ts
-import { wrapLanguageModel } from 'ai';
+import { wrapLanguageModel } from '@omni-stack/core';
 
 const wrappedLanguageModel = wrapLanguageModel({
   model: yourModel,
@@ -66,7 +66,7 @@ e.g. &lt;think&gt; and &lt;/think&gt;.
 The `extractReasoningMiddleware` function can be used to extract this reasoning information and expose it as a `reasoning` property on the result.
 
 ```ts
-import { wrapLanguageModel, extractReasoningMiddleware } from 'ai';
+import { wrapLanguageModel, extractReasoningMiddleware } from '@omni-stack/core';
 
 const model = wrapLanguageModel({
   model: yourModel,
@@ -87,7 +87,7 @@ The `simulateStreamingMiddleware` function can be used to simulate streaming beh
 This is useful when you want to maintain a consistent streaming interface even when using models that only provide complete responses.
 
 ```ts
-import { wrapLanguageModel, simulateStreamingMiddleware } from 'ai';
+import { wrapLanguageModel, simulateStreamingMiddleware } from '@omni-stack/core';
 
 const model = wrapLanguageModel({
   model: yourModel,
@@ -100,7 +100,7 @@ const model = wrapLanguageModel({
 The `defaultSettingsMiddleware` function can be used to apply default settings to a language model.
 
 ```ts
-import { wrapLanguageModel, defaultSettingsMiddleware } from 'ai';
+import { wrapLanguageModel, defaultSettingsMiddleware } from '@omni-stack/core';
 
 const model = wrapLanguageModel({
   model: yourModel,
@@ -141,7 +141,7 @@ The `@ai-sdk-tool/parser` package offers three middleware variants:
 Here's how you can enable function calls with Gemma models that don't support them natively:
 
 ```ts
-import { wrapLanguageModel } from 'ai';
+import { wrapLanguageModel } from '@omni-stack/core';
 import { gemmaToolMiddleware } from '@ai-sdk-tool/parser';
 
 const model = wrapLanguageModel({
@@ -185,7 +185,7 @@ This example shows how to log the parameters and generated text of a language mo
 import type {
   LanguageModelV3Middleware,
   LanguageModelV3StreamPart,
-} from '@ai-sdk/provider';
+} from '@omni-stack/provider';
 
 export const yourLogMiddleware: LanguageModelV3Middleware = {
   wrapGenerate: async ({ doGenerate, params }) => {
@@ -256,7 +256,7 @@ export const yourLogMiddleware: LanguageModelV3Middleware = {
 This example shows how to build a simple cache for the generated text of a language model call.
 
 ```ts
-import type { LanguageModelV3Middleware } from '@ai-sdk/provider';
+import type { LanguageModelV3Middleware } from '@omni-stack/provider';
 
 const cache = new Map<string, any>();
 
@@ -290,7 +290,7 @@ This example shows how to use RAG as middleware.
 </Note>
 
 ```ts
-import type { LanguageModelV3Middleware } from '@ai-sdk/provider';
+import type { LanguageModelV3Middleware } from '@omni-stack/provider';
 
 export const yourRagMiddleware: LanguageModelV3Middleware = {
   transformParams: async ({ params }) => {
@@ -319,7 +319,7 @@ Guard rails are a way to ensure that the generated text of a language model call
 is safe and appropriate. This example shows how to use guardrails as middleware.
 
 ```ts
-import type { LanguageModelV3Middleware } from '@ai-sdk/provider';
+import type { LanguageModelV3Middleware } from '@omni-stack/provider';
 
 export const yourGuardrailMiddleware: LanguageModelV3Middleware = {
   wrapGenerate: async ({ doGenerate }) => {
@@ -342,9 +342,9 @@ export const yourGuardrailMiddleware: LanguageModelV3Middleware = {
 To send and access custom metadata in Middleware, you can use `providerOptions`. This is useful when building logging middleware where you want to pass additional context like user IDs, timestamps, or other contextual data that can help with tracking and debugging.
 
 ```ts
-import { openai } from '@ai-sdk/openai';
-import { generateText, wrapLanguageModel } from 'ai';
-import type { LanguageModelV3Middleware } from '@ai-sdk/provider';
+import { openai } from '@omni-stack/openai';
+import { generateText, wrapLanguageModel } from '@omni-stack/core';
+import type { LanguageModelV3Middleware } from '@omni-stack/provider';
 
 export const yourLogMiddleware: LanguageModelV3Middleware = {
   wrapGenerate: async ({ doGenerate, params }) => {

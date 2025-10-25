@@ -5,7 +5,7 @@ description: Use OpenAI compatible providers with the AI SDK.
 
 # OpenAI Compatible Providers
 
-You can use the [OpenAI Compatible Provider](https://www.npmjs.com/package/@ai-sdk/openai-compatible) package to use language model providers that implement the OpenAI API.
+You can use the [OpenAI Compatible Provider](https://www.npmjs.com/package/@omni-stack/openai-compatible) package to use language model providers that implement the OpenAI API.
 
 Below we focus on the general setup and provider instance creation. You can also [write a custom provider package leveraging the OpenAI Compatible package](/providers/openai-compatible-providers/custom-providers).
 
@@ -19,30 +19,30 @@ The general setup and provider instance creation is the same for all of these pr
 
 ## Setup
 
-The OpenAI Compatible provider is available via the `@ai-sdk/openai-compatible` module. You can install it with:
+The OpenAI Compatible provider is available via the `@omni-stack/openai-compatible` module. You can install it with:
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/openai-compatible" dark />
+    <Snippet text="pnpm add @omni-stack/openai-compatible" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/openai-compatible" dark />
+    <Snippet text="npm install @omni-stack/openai-compatible" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/openai-compatible" dark />
+    <Snippet text="yarn add @omni-stack/openai-compatible" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/openai-compatible" dark />
+    <Snippet text="bun add @omni-stack/openai-compatible" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-To use an OpenAI compatible provider, you can create a custom provider instance with the `createOpenAICompatible` function from `@ai-sdk/openai-compatible`:
+To use an OpenAI compatible provider, you can create a custom provider instance with the `createOpenAICompatible` function from `@omni-stack/openai-compatible`:
 
 ```ts
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@omni-stack/openai-compatible';
 
 const provider = createOpenAICompatible({
   name: 'provider-name',
@@ -102,8 +102,8 @@ const model = provider('model-id');
 You can use provider language models to generate text with the `generateText` function:
 
 ```ts
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
-import { generateText } from 'ai';
+import { createOpenAICompatible } from '@omni-stack/openai-compatible';
+import { generateText } from '@omni-stack/core';
 
 const provider = createOpenAICompatible({
   name: 'provider-name',
@@ -120,8 +120,8 @@ const { text } = await generateText({
 ### Including model ids for auto-completion
 
 ```ts
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
-import { generateText } from 'ai';
+import { createOpenAICompatible } from '@omni-stack/openai-compatible';
+import { generateText } from '@omni-stack/core';
 
 type ExampleChatModelIds =
   | 'meta-llama/Llama-3-70b-chat-hf'
@@ -169,7 +169,7 @@ You can set these via the optional `queryParams` provider setting. These will be
 added to all requests made by the provider.
 
 ```ts highlight="7-9"
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@omni-stack/openai-compatible';
 
 const provider = createOpenAICompatible({
   name: 'provider-name',

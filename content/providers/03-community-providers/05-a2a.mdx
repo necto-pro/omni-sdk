@@ -56,7 +56,7 @@ You can now use the provider with the AI SDK like this:
 
 ```ts
 import { a2a } from 'a2a-ai-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: a2a('https://your-a2a-server.example.com'),
@@ -70,7 +70,7 @@ console.log(result.text);
 
 ```ts
 import { a2a } from 'a2a-ai-provider';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const chatId = 'unique-chat-id'; // for each conversation to keep history in a2a server
 

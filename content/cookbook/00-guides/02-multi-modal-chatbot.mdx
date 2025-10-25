@@ -46,7 +46,7 @@ Navigate to the newly created directory:
 
 ### Install dependencies
 
-Install `ai` and `@ai-sdk/openai`, the AI SDK package and the AI SDK's [ OpenAI provider ](/providers/ai-sdk-providers/openai) respectively.
+Install `ai` and `@omni-stack/openai`, the AI SDK package and the AI SDK's [ OpenAI provider ](/providers/ai-sdk-providers/openai) respectively.
 
 <Note>
   The AI SDK is designed to be a unified interface to interact with any large
@@ -58,17 +58,17 @@ Install `ai` and `@ai-sdk/openai`, the AI SDK package and the AI SDK's [ OpenAI 
 <div className="my-4">
   <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
     <Tab>
-      <Snippet text="pnpm add ai @ai-sdk/react @ai-sdk/openai" dark />
+      <Snippet text="pnpm add ai @omni-stack/react @omni-stack/openai" dark />
     </Tab>
     <Tab>
-      <Snippet text="npm install ai @ai-sdk/react @ai-sdk/openai" dark />
+      <Snippet text="npm install ai @omni-stack/react @omni-stack/openai" dark />
     </Tab>
     <Tab>
-      <Snippet text="yarn add ai @ai-sdk/react @ai-sdk/openai" dark />
+      <Snippet text="yarn add ai @omni-stack/react @omni-stack/openai" dark />
     </Tab>
 
     <Tab>
-      <Snippet text="bun add ai @ai-sdk/react @ai-sdk/openai" dark />
+      <Snippet text="bun add ai @omni-stack/react @omni-stack/openai" dark />
     </Tab>
 
   </Tabs>
@@ -106,8 +106,8 @@ To build a multi-modal agent, you will need to:
 Create a route handler, `app/api/chat/route.ts` and add the following code:
 
 ```tsx filename="app/api/chat/route.ts"
-import { openai } from '@ai-sdk/openai';
-import { streamText, convertToModelMessages, type UIMessage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText, convertToModelMessages, type UIMessage } from '@omni-stack/core';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;
@@ -128,7 +128,7 @@ Let's take a look at what is happening in this code:
 
 1. Define an asynchronous `POST` request handler and extract `messages` from the body of the request. The `messages` variable contains a history of the conversation between you and the agent and provides the agent with the necessary context to make the next generation.
 2. Convert the UI messages to model messages using `convertToModelMessages`, which transforms the UI-focused message format to the format expected by the language model.
-3. Call [`streamText`](/docs/reference/ai-sdk-core/stream-text), which is imported from the `ai` package. This function accepts a configuration object that contains a `model` provider (imported from `@ai-sdk/openai`) and `messages` (converted in step 2). You can pass additional [settings](/docs/ai-sdk-core/settings) to further customise the model's behaviour.
+3. Call [`streamText`](/docs/reference/ai-sdk-core/stream-text), which is imported from the `ai` package. This function accepts a configuration object that contains a `model` provider (imported from `@omni-stack/openai`) and `messages` (converted in step 2). You can pass additional [settings](/docs/ai-sdk-core/settings) to further customise the model's behaviour.
 4. The `streamText` function returns a [`StreamTextResult`](/docs/reference/ai-sdk-core/stream-text#result-object). This result object contains the [ `toUIMessageStreamResponse` ](/docs/reference/ai-sdk-core/stream-text#to-ui-message-stream-response) function which converts the result to a streamed response object.
 5. Finally, return the result to the client to stream the response.
 
@@ -143,8 +143,8 @@ Update your root page (`app/page.tsx`) with the following code to show a list of
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Chat() {
@@ -214,8 +214,8 @@ Update your root page (`app/page.tsx`) with the following code:
 ```tsx filename="app/page.tsx" highlight="4-5,10-12,15-39,46-81,87-97"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { useRef, useState } from 'react';
 import Image from 'next/image';
 
@@ -362,21 +362,21 @@ With the AI SDK's unified provider interface you can easily switch to other prov
 
 ```tsx filename="app/api/chat/route.ts"
 // Using Anthropic
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@omni-stack/anthropic';
 const result = streamText({
   model: anthropic('claude-sonnet-4-20250514'),
   messages: convertToModelMessages(messages),
 });
 
 // Using Google
-import { google } from '@ai-sdk/google';
+import { google } from '@omni-stack/google';
 const result = streamText({
   model: google('gemini-2.5-flash'),
   messages: convertToModelMessages(messages),
 });
 ```
 
-Install the provider package (`@ai-sdk/anthropic` or `@ai-sdk/google`) and update your API keys in `.env.local`. The rest of your code remains the same.
+Install the provider package (`@omni-stack/anthropic` or `@omni-stack/google`) and update your API keys in `.env.local`. The rest of your code remains the same.
 
 <Note>
   Different providers may have varying file size limits and performance

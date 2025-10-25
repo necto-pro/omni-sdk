@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/anthropic': patch
+'@omni-stack/anthropic': patch
 ---
 
 feat(provider/anthropic): add web fetch tool

@@ -28,8 +28,8 @@ curl -X POST http://localhost:8080
 You can use the `toDataStream` method to get a data stream from the result and then pipe it to the response.
 
 ```ts filename='index.ts'
-import { openai } from '@ai-sdk/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 import Fastify from 'fastify';
 
 const fastify = Fastify({ logger: true });
@@ -55,8 +55,8 @@ fastify.listen({ port: 8080 });
 `createDataStream` can be used to send custom data to the client.
 
 ```ts filename='index.ts' highlight="8-11,18"
-import { openai } from '@ai-sdk/openai';
-import { createDataStream, streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { createDataStream, streamText } from '@omni-stack/core';
 import Fastify from 'fastify';
 
 const fastify = Fastify({ logger: true });
@@ -96,8 +96,8 @@ fastify.listen({ port: 8080 });
 You can use the `textStream` property to get a text stream from the result and then pipe it to the response.
 
 ```ts filename='index.ts' highlight="15"
-import { openai } from '@ai-sdk/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 import Fastify from 'fastify';
 
 const fastify = Fastify({ logger: true });

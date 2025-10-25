@@ -17,8 +17,8 @@ When we define multiple functions in [`tools`](/docs/reference/ai-sdk-core/gener
 
 import { useState } from 'react';
 import { ClientMessage } from './actions';
-import { useActions, useUIState } from '@ai-sdk/rsc';
-import { generateId } from 'ai';
+import { useActions, useUIState } from '@omni-stack/rsc';
+import { generateId } from '@omni-stack/core';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;
@@ -112,11 +112,11 @@ export async function Flight({ flightNumber }) {
 ```tsx filename='app/actions.tsx'
 'use server';
 
-import { getMutableAIState, streamUI } from '@ai-sdk/rsc';
-import { openai } from '@ai-sdk/openai';
+import { getMutableAIState, streamUI } from '@omni-stack/rsc';
+import { openai } from '@omni-stack/openai';
 import { ReactNode } from 'react';
 import { z } from 'zod';
-import { generateId } from 'ai';
+import { generateId } from '@omni-stack/core';
 import { Stock } from '@/components/stock';
 import { Flight } from '@/components/flight';
 
@@ -206,7 +206,7 @@ export async function continueConversation(
 ```
 
 ```typescript filename='app/ai.ts'
-import { createAI } from '@ai-sdk/rsc';
+import { createAI } from '@omni-stack/rsc';
 import { ServerMessage, ClientMessage, continueConversation } from './actions';
 
 export const AI = createAI<ServerMessage[], ClientMessage[]>({

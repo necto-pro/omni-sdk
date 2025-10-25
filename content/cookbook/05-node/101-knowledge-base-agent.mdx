@@ -34,7 +34,7 @@ pnpm init
 Install the AI SDK, OpenAI provider, Upstash Search packages, and tsx as a dev dependency:
 
 ```bash
-pnpm i ai zod @ai-sdk/openai @upstash/search
+pnpm i ai zod @omni-stack/openai @upstash/search
 pnpm i -D tsx
 ```
 
@@ -113,8 +113,8 @@ Navigate to the Upstash Console and check the data browser of your Search databa
 Now let's create an agent that can interact with this knowledge base. Create a new file called `agent.ts`:
 
 ```ts filename="agent.ts"
-import { openai } from '@ai-sdk/openai';
-import { tool, stepCountIs, generateText, generateId } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { tool, stepCountIs, generateText, generateId } from '@omni-stack/core';
 import { z } from 'zod';
 import { Search } from '@upstash/search';
 

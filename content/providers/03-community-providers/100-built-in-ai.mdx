@@ -150,7 +150,7 @@ The provider allows using a ton of popular open-source models from Huggingface w
 #### `@built-in-ai/core`
 
 ```ts
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 import { builtInAI } from '@built-in-ai/core';
 
 const result = streamText({
@@ -166,7 +166,7 @@ for await (const chunk of result.textStream) {
 #### `@built-in-ai/web-llm`
 
 ```ts
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 import { webLLM } from '@built-in-ai/web-llm';
 
 const result = streamText({
@@ -182,7 +182,7 @@ for await (const chunk of result.textStream) {
 #### `@built-in-ai/transformers-js`
 
 ```ts
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 import { transformersJS } from '@built-in-ai/transformers-js';
 
 const result = streamText({

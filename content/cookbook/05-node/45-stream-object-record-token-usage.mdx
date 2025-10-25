@@ -15,8 +15,8 @@ You can use the `onFinish` callback to record token usage.
 It is called when the stream is finished.
 
 ```ts file='index.ts' highlight={"15-17"}
-import { openai } from '@ai-sdk/openai';
-import { streamObject } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const result = streamObject({
@@ -40,8 +40,8 @@ const result = streamObject({
 The [`streamObject`](/docs/reference/ai-sdk-core/stream-object) result contains a `usage` promise that resolves to the total token usage.
 
 ```ts file='index.ts' highlight={"29,32"}
-import { openai } from '@ai-sdk/openai';
-import { streamObject, TokenUsage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamObject, TokenUsage } from '@omni-stack/core';
 import { z } from 'zod';
 
 const result = streamObject({

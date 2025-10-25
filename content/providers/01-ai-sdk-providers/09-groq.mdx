@@ -9,38 +9,38 @@ The [Groq](https://groq.com/) provider contains language model support for the G
 
 ## Setup
 
-The Groq provider is available via the `@ai-sdk/groq` module.
+The Groq provider is available via the `@omni-stack/groq` module.
 You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/groq" dark />
+    <Snippet text="pnpm add @omni-stack/groq" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/groq" dark />
+    <Snippet text="npm install @omni-stack/groq" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/groq" dark />
+    <Snippet text="yarn add @omni-stack/groq" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/groq" dark />
+    <Snippet text="bun add @omni-stack/groq" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `groq` from `@ai-sdk/groq`:
+You can import the default provider instance `groq` from `@omni-stack/groq`:
 
 ```ts
-import { groq } from '@ai-sdk/groq';
+import { groq } from '@omni-stack/groq';
 ```
 
-If you need a customized setup, you can import `createGroq` from `@ai-sdk/groq`
+If you need a customized setup, you can import `createGroq` from `@omni-stack/groq`
 and create a provider instance with your settings:
 
 ```ts
-import { createGroq } from '@ai-sdk/groq';
+import { createGroq } from '@omni-stack/groq';
 
 const groq = createGroq({
   // custom settings
@@ -86,8 +86,8 @@ You can configure how the reasoning is exposed in the generated text by using th
 It supports the options `parsed`, `hidden`, and `raw`.
 
 ```ts
-import { groq } from '@ai-sdk/groq';
-import { generateText } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: groq('qwen/qwen3-32b'),
@@ -162,8 +162,8 @@ Structured outputs are enabled by default for Groq models.
 You can disable them by setting the `structuredOutputs` option to `false`.
 
 ```ts
-import { groq } from '@ai-sdk/groq';
-import { generateObject } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const result = await generateObject({
@@ -184,8 +184,8 @@ console.log(JSON.stringify(result.object, null, 2));
 You can disable structured outputs for models that don't support them:
 
 ```ts highlight="9"
-import { groq } from '@ai-sdk/groq';
-import { generateObject } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const result = await generateObject({
@@ -221,8 +221,8 @@ console.log(JSON.stringify(result.object, null, 2));
 You can use Groq language models to generate text with the `generateText` function:
 
 ```ts
-import { groq } from '@ai-sdk/groq';
-import { generateText } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: groq('gemma2-9b-it'),
@@ -235,8 +235,8 @@ const { text } = await generateText({
 Groq's multi-modal models like `meta-llama/llama-4-scout-17b-16e-instruct` support image inputs. You can include images in your messages using either URLs or base64-encoded data:
 
 ```ts
-import { groq } from '@ai-sdk/groq';
-import { generateText } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: groq('meta-llama/llama-4-scout-17b-16e-instruct'),
@@ -258,8 +258,8 @@ const { text } = await generateText({
 You can also use base64-encoded images:
 
 ```ts
-import { groq } from '@ai-sdk/groq';
-import { generateText } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { generateText } from '@omni-stack/core';
 import { readFileSync } from 'fs';
 
 const imageData = readFileSync('path/to/image.jpg', 'base64');
@@ -332,8 +332,8 @@ Browser search is only available for these specific models:
 ### Basic Usage
 
 ```ts
-import { groq } from '@ai-sdk/groq';
-import { generateText } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: groq('openai/gpt-oss-120b'), // Must use supported model
@@ -351,8 +351,8 @@ console.log(result.text);
 ### Streaming Example
 
 ```ts
-import { groq } from '@ai-sdk/groq';
-import { streamText } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: groq('openai/gpt-oss-120b'),
@@ -424,8 +424,8 @@ const model = groq.transcription('whisper-large-v3');
 You can also pass additional provider-specific options using the `providerOptions` argument. For example, supplying the input language in ISO-639-1 (e.g. `en`) format will improve accuracy and latency.
 
 ```ts highlight="6"
-import { experimental_transcribe as transcribe } from 'ai';
-import { groq } from '@ai-sdk/groq';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
+import { groq } from '@omni-stack/groq';
 import { readFile } from 'fs/promises';
 
 const result = await transcribe({

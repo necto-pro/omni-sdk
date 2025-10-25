@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/openai': patch
+'@omni-stack/openai': patch
 ---
 
 fix(provider/openai): add providerExecuted flag to tool start chunks

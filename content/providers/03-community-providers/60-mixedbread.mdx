@@ -80,7 +80,7 @@ You can use Mixedbread embedding models to generate embeddings with the `embed` 
 
 ```ts
 import { mixedbread } from 'mixedbread-ai-provider';
-import { embed } from 'ai';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: mixedbread.textEmbeddingModel('mixedbread-ai/mxbai-embed-large-v1'),
@@ -92,7 +92,7 @@ Mixedbread embedding models support additional provider options that can be pass
 
 ```ts
 import { mixedbread } from 'mixedbread-ai-provider';
-import { embed } from 'ai';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: mixedbread.textEmbeddingModel('mixedbread-ai/mxbai-embed-large-v1'),

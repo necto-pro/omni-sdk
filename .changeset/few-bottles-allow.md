@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/cerebras': patch
+'@omni-stack/cerebras': patch
 ---
 
 Add support for 5 new Cerebras models:

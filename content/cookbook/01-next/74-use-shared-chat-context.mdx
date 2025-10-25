@@ -16,8 +16,8 @@ First, create a context that will hold your chat instance and provide methods to
 'use client';
 
 import React, { createContext, useContext, ReactNode, useState } from 'react';
-import { Chat } from '@ai-sdk/react';
-import { DefaultChatTransport, UIMessage } from 'ai';
+import { Chat } from '@omni-stack/react';
+import { DefaultChatTransport, UIMessage } from '@omni-stack/core';
 
 interface ChatContextValue {
   // replace with your custom message type
@@ -82,7 +82,7 @@ Create a component that displays messages and provides a button to clear the cha
 ```tsx filename='app/page.tsx'
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@omni-stack/react';
 import { useSharedChatContext } from './chat-context';
 import ChatInput from './chat-input';
 
@@ -120,7 +120,7 @@ export default function Chat() {
 Create an input component that uses the shared chat context to send messages.
 
 ```tsx filename='app/chat-input.tsx'
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@omni-stack/react';
 import { useState } from 'react';
 import { useSharedChatContext } from './chat-context';
 
@@ -159,8 +159,8 @@ export default function ChatInput() {
 Create an API route to handle the chat messages using the AI SDK.
 
 ```tsx filename='app/api/chat/route.ts'
-import { openai } from '@ai-sdk/openai';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 export const maxDuration = 30;
 

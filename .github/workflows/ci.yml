@@ -197,13 +197,13 @@ jobs:
         include:
           - module: 'ai'
             max-load-time: 95
-          - module: '@ai-sdk/openai'
+          - module: '@omni-stack/openai'
             max-load-time: 65
-          - module: '@ai-sdk/openai-compatible'
+          - module: '@omni-stack/openai-compatible'
             max-load-time: 65
-          - module: '@ai-sdk/anthropic'
+          - module: '@omni-stack/anthropic'
             max-load-time: 60
-          - module: '@ai-sdk/google'
+          - module: '@omni-stack/google'
             max-load-time: 60
     steps:
       - name: Checkout

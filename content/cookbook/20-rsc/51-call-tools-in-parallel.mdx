@@ -86,8 +86,8 @@ Let's update the tools object to now use the `getWeather` function instead.
 ```ts filename='app/actions.ts'
 'use server';
 
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 export interface Message {

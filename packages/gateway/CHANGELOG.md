@@ -1,4 +1,4 @@
-# @ai-sdk/gateway
+# @omni-stack/gateway
 
 ## 2.0.0-beta.37
 
@@ -11,15 +11,15 @@
 ### Patch Changes
 
 - Updated dependencies [fca786b]
-  - @ai-sdk/provider-utils@4.0.0-beta.20
+  - @omni-stack/provider-utils@4.0.0-beta.20
 
 ## 2.0.0-beta.35
 
 ### Patch Changes
 
 - Updated dependencies [3794514]
-  - @ai-sdk/provider-utils@4.0.0-beta.19
-  - @ai-sdk/provider@3.0.0-beta.8
+  - @omni-stack/provider-utils@4.0.0-beta.19
+  - @omni-stack/provider@3.0.0-beta.8
 
 ## 2.0.0-beta.34
 
@@ -38,15 +38,15 @@
 ### Patch Changes
 
 - Updated dependencies [81d4308]
-  - @ai-sdk/provider@3.0.0-beta.7
-  - @ai-sdk/provider-utils@4.0.0-beta.18
+  - @omni-stack/provider@3.0.0-beta.7
+  - @omni-stack/provider-utils@4.0.0-beta.18
 
 ## 2.0.0-beta.31
 
 ### Patch Changes
 
 - Updated dependencies [703459a]
-  - @ai-sdk/provider-utils@4.0.0-beta.17
+  - @omni-stack/provider-utils@4.0.0-beta.17
 
 ## 2.0.0-beta.30
 
@@ -59,7 +59,7 @@
 ### Patch Changes
 
 - Updated dependencies [6306603]
-  - @ai-sdk/provider-utils@4.0.0-beta.16
+  - @omni-stack/provider-utils@4.0.0-beta.16
 
 ## 2.0.0-beta.28
 
@@ -67,28 +67,28 @@
 
 - f0b2157: fix: revert zod import change
 - Updated dependencies [f0b2157]
-  - @ai-sdk/provider-utils@4.0.0-beta.15
+  - @omni-stack/provider-utils@4.0.0-beta.15
 
 ## 2.0.0-beta.27
 
 ### Patch Changes
 
 - Updated dependencies [3b1d015]
-  - @ai-sdk/provider-utils@4.0.0-beta.14
+  - @omni-stack/provider-utils@4.0.0-beta.14
 
 ## 2.0.0-beta.26
 
 ### Patch Changes
 
 - Updated dependencies [d116b4b]
-  - @ai-sdk/provider-utils@4.0.0-beta.13
+  - @omni-stack/provider-utils@4.0.0-beta.13
 
 ## 2.0.0-beta.25
 
 ### Patch Changes
 
 - Updated dependencies [7e32fea]
-  - @ai-sdk/provider-utils@4.0.0-beta.12
+  - @omni-stack/provider-utils@4.0.0-beta.12
 
 ## 2.0.0-beta.24
 
@@ -109,7 +109,7 @@
 - 95f65c2: chore: use import \* from zod/v4
 - Updated dependencies [95f65c2]
 - Updated dependencies [95f65c2]
-  - @ai-sdk/provider-utils@4.0.0-beta.11
+  - @omni-stack/provider-utils@4.0.0-beta.11
 
 ## 2.0.0-beta.21
 
@@ -128,22 +128,22 @@
 ### Patch Changes
 
 - Updated dependencies [dee8b05]
-  - @ai-sdk/provider@3.0.0-beta.6
-  - @ai-sdk/provider-utils@4.0.0-beta.10
+  - @omni-stack/provider@3.0.0-beta.6
+  - @omni-stack/provider-utils@4.0.0-beta.10
 
 ## 1.1.0-beta.19
 
 ### Patch Changes
 
 - Updated dependencies [521c537]
-  - @ai-sdk/provider-utils@3.1.0-beta.9
+  - @omni-stack/provider-utils@3.1.0-beta.9
 
 ## 1.1.0-beta.18
 
 ### Patch Changes
 
 - Updated dependencies [e06565c]
-  - @ai-sdk/provider-utils@3.1.0-beta.8
+  - @omni-stack/provider-utils@3.1.0-beta.8
 
 ## 1.1.0-beta.17
 
@@ -157,8 +157,8 @@
 
 - Updated dependencies [046aa3b]
 - Updated dependencies [e8109d3]
-  - @ai-sdk/provider@2.1.0-beta.5
-  - @ai-sdk/provider-utils@3.1.0-beta.7
+  - @omni-stack/provider@2.1.0-beta.5
+  - @omni-stack/provider-utils@3.1.0-beta.7
 
 ## 1.1.0-beta.15
 
@@ -179,8 +179,8 @@
 - 0adc679: feat(provider): shared spec v3
 - Updated dependencies [0adc679]
 - Updated dependencies [2b0caef]
-  - @ai-sdk/provider-utils@3.1.0-beta.6
-  - @ai-sdk/provider@2.1.0-beta.4
+  - @omni-stack/provider-utils@3.1.0-beta.6
+  - @omni-stack/provider@2.1.0-beta.4
 
 ## 1.1.0-beta.12
 
@@ -206,8 +206,8 @@
 
 - 8dac895: feat: `LanguageModelV3`
 - Updated dependencies [8dac895]
-  - @ai-sdk/provider-utils@3.1.0-beta.5
-  - @ai-sdk/provider@2.1.0-beta.3
+  - @omni-stack/provider-utils@3.1.0-beta.5
+  - @omni-stack/provider@2.1.0-beta.3
 
 ## 1.1.0-beta.8
 
@@ -221,7 +221,7 @@
 
 - 4616b86: chore: update zod peer depenedency version
 - Updated dependencies [4616b86]
-  - @ai-sdk/provider-utils@3.1.0-beta.4
+  - @omni-stack/provider-utils@3.1.0-beta.4
 
 ## 1.1.0-beta.6
 
@@ -231,8 +231,8 @@
 - ed329cb: feat: `Provider-V3`
 - Updated dependencies [ed329cb]
 - Updated dependencies [522f6b8]
-  - @ai-sdk/provider@2.1.0-beta.2
-  - @ai-sdk/provider-utils@3.1.0-beta.3
+  - @omni-stack/provider@2.1.0-beta.2
+  - @omni-stack/provider-utils@3.1.0-beta.3
 
 ## 1.1.0-beta.5
 
@@ -242,8 +242,8 @@
 - 0c4822d: feat: `EmbeddingModelV3`
 - 1cad0ab: feat: add provider version to user-agent header
 - Updated dependencies [0c4822d]
-  - @ai-sdk/provider@2.1.0-beta.1
-  - @ai-sdk/provider-utils@3.1.0-beta.2
+  - @omni-stack/provider@2.1.0-beta.1
+  - @omni-stack/provider-utils@3.1.0-beta.2
 
 ## 1.1.0-beta.4
 
@@ -270,7 +270,7 @@
 ### Patch Changes
 
 - Updated dependencies [cbb1d35]
-  - @ai-sdk/provider-utils@3.1.0-beta.1
+  - @omni-stack/provider-utils@3.1.0-beta.1
 
 ## 1.1.0-beta.0
 
@@ -281,8 +281,8 @@
 ### Patch Changes
 
 - Updated dependencies [78928cb]
-  - @ai-sdk/provider@2.1.0-beta.0
-  - @ai-sdk/provider-utils@3.1.0-beta.0
+  - @omni-stack/provider@2.1.0-beta.0
+  - @omni-stack/provider-utils@3.1.0-beta.0
 
 ## 1.0.23
 
@@ -295,7 +295,7 @@
 ### Patch Changes
 
 - Updated dependencies [0294b58]
-  - @ai-sdk/provider-utils@3.0.9
+  - @omni-stack/provider-utils@3.0.9
 
 ## 1.0.21
 
@@ -333,7 +333,7 @@
 ### Patch Changes
 
 - Updated dependencies [99964ed]
-  - @ai-sdk/provider-utils@3.0.8
+  - @omni-stack/provider-utils@3.0.8
 
 ## 1.0.15
 
@@ -347,7 +347,7 @@
 ### Patch Changes
 
 - Updated dependencies [886e7cd]
-  - @ai-sdk/provider-utils@3.0.7
+  - @omni-stack/provider-utils@3.0.7
 
 ## 1.0.13
 
@@ -355,7 +355,7 @@
 
 - c9994f9: feat(provider/gateway): Add cache pricing fields to model metadata
 - Updated dependencies [1b5a3d3]
-  - @ai-sdk/provider-utils@3.0.6
+  - @omni-stack/provider-utils@3.0.6
 
 ## 1.0.12
 
@@ -376,7 +376,7 @@
 ### Patch Changes
 
 - Updated dependencies [0857788]
-  - @ai-sdk/provider-utils@3.0.5
+  - @omni-stack/provider-utils@3.0.5
 
 ## 1.0.9
 
@@ -389,7 +389,7 @@
 ### Patch Changes
 
 - Updated dependencies [68751f9]
-  - @ai-sdk/provider-utils@3.0.4
+  - @omni-stack/provider-utils@3.0.4
 
 ## 1.0.7
 
@@ -404,7 +404,7 @@
 - eefa730: refactor(provider/gateway): Make claude-sonnet-4 and similar the primary model slug for Anthropic v4 models
 - Updated dependencies [034e229]
 - Updated dependencies [f25040d]
-  - @ai-sdk/provider-utils@3.0.3
+  - @omni-stack/provider-utils@3.0.3
 
 ## 1.0.5
 
@@ -412,7 +412,7 @@
 
 - cf7b2ad: feat(provider/gateway): Add GLM-4.5V
 - Updated dependencies [38ac190]
-  - @ai-sdk/provider-utils@3.0.2
+  - @omni-stack/provider-utils@3.0.2
 
 ## 1.0.4
 
@@ -439,7 +439,7 @@
 - 028fb9c: refactor(provider/gateway): Cleanup old gateway-embedding-options file
 - 6331826: feat(provider/gateway): Hide Cohere embedding models with no pricing info
 - Updated dependencies [90d212f]
-  - @ai-sdk/provider-utils@3.0.1
+  - @omni-stack/provider-utils@3.0.1
 
 ## 1.0.0
 
@@ -573,8 +573,8 @@
 - Updated dependencies [383cbfa]
 - Updated dependencies [27deb4d]
 - Updated dependencies [c4df419]
-  - @ai-sdk/provider-utils@3.0.0
-  - @ai-sdk/provider@2.0.0
+  - @omni-stack/provider-utils@3.0.0
+  - @omni-stack/provider@2.0.0
 
 ## 1.0.0-beta.19
 
@@ -582,7 +582,7 @@
 
 - 721775e: feat(provider/gateway): Generate new Gateway embedding model settings file
 - Updated dependencies [88a8ee5]
-  - @ai-sdk/provider-utils@3.0.0-beta.10
+  - @omni-stack/provider-utils@3.0.0-beta.10
 
 ## 1.0.0-beta.18
 
@@ -590,15 +590,15 @@
 
 - 27deb4d: feat (provider/gateway): Add providerMetadata to embeddings response
 - Updated dependencies [27deb4d]
-  - @ai-sdk/provider@2.0.0-beta.2
-  - @ai-sdk/provider-utils@3.0.0-beta.9
+  - @omni-stack/provider@2.0.0-beta.2
+  - @omni-stack/provider-utils@3.0.0-beta.9
 
 ## 1.0.0-beta.17
 
 ### Patch Changes
 
 - Updated dependencies [dd5fd43]
-  - @ai-sdk/provider-utils@3.0.0-beta.8
+  - @omni-stack/provider-utils@3.0.0-beta.8
 
 ## 1.0.0-beta.16
 
@@ -611,14 +611,14 @@
 ### Patch Changes
 
 - Updated dependencies [e7fcc86]
-  - @ai-sdk/provider-utils@3.0.0-beta.7
+  - @omni-stack/provider-utils@3.0.0-beta.7
 
 ## 1.0.0-beta.14
 
 ### Patch Changes
 
 - Updated dependencies [ac34802]
-  - @ai-sdk/provider-utils@3.0.0-beta.6
+  - @omni-stack/provider-utils@3.0.0-beta.6
 
 ## 1.0.0-beta.13
 
@@ -647,7 +647,7 @@
 
 - Updated dependencies [57edfcb]
 - Updated dependencies [383cbfa]
-  - @ai-sdk/provider-utils@3.0.0-beta.5
+  - @omni-stack/provider-utils@3.0.0-beta.5
 
 ## 1.0.0-beta.9
 
@@ -655,14 +655,14 @@
 
 - 205077b: fix: improve Zod compatibility
 - Updated dependencies [205077b]
-  - @ai-sdk/provider-utils@3.0.0-beta.4
+  - @omni-stack/provider-utils@3.0.0-beta.4
 
 ## 1.0.0-beta.8
 
 ### Patch Changes
 
 - Updated dependencies [05d2819]
-  - @ai-sdk/provider-utils@3.0.0-beta.3
+  - @omni-stack/provider-utils@3.0.0-beta.3
 
 ## 1.0.0-beta.7
 
@@ -704,7 +704,7 @@
 - Updated dependencies [0571b98]
 - Updated dependencies [39a4fab]
 - Updated dependencies [d1a034f]
-  - @ai-sdk/provider-utils@3.0.0-beta.2
+  - @omni-stack/provider-utils@3.0.0-beta.2
 
 ## 1.0.0-beta.1
 
@@ -728,8 +728,8 @@
 - Updated dependencies [5e57fae]
 - Updated dependencies [71f938d]
 - Updated dependencies [28a5ed5]
-  - @ai-sdk/provider@2.0.0-beta.1
-  - @ai-sdk/provider-utils@3.0.0-beta.1
+  - @omni-stack/provider@2.0.0-beta.1
+  - @omni-stack/provider-utils@3.0.0-beta.1
 
 ## 1.0.0-alpha.15
 
@@ -738,8 +738,8 @@
 - c145d62: feat (providers/gateway): add createGateway shorthand alias for createGatewayProvider
 - Updated dependencies [48d257a]
 - Updated dependencies [8ba77a7]
-  - @ai-sdk/provider@2.0.0-alpha.15
-  - @ai-sdk/provider-utils@3.0.0-alpha.15
+  - @omni-stack/provider@2.0.0-alpha.15
+  - @omni-stack/provider-utils@3.0.0-alpha.15
 
 ## 1.0.0-alpha.14
 
@@ -748,16 +748,16 @@
 - Updated dependencies [b5da06a]
 - Updated dependencies [63f9e9b]
 - Updated dependencies [2e13791]
-  - @ai-sdk/provider@2.0.0-alpha.14
-  - @ai-sdk/provider-utils@3.0.0-alpha.14
+  - @omni-stack/provider@2.0.0-alpha.14
+  - @omni-stack/provider-utils@3.0.0-alpha.14
 
 ## 1.0.0-alpha.13
 
 ### Patch Changes
 
 - Updated dependencies [68ecf2f]
-  - @ai-sdk/provider@2.0.0-alpha.13
-  - @ai-sdk/provider-utils@3.0.0-alpha.13
+  - @omni-stack/provider@2.0.0-alpha.13
+  - @omni-stack/provider-utils@3.0.0-alpha.13
 
 ## 1.0.0-alpha.12
 
@@ -765,24 +765,24 @@
 
 - e2aceaf: feat: add raw chunk support
 - Updated dependencies [e2aceaf]
-  - @ai-sdk/provider@2.0.0-alpha.12
-  - @ai-sdk/provider-utils@3.0.0-alpha.12
+  - @omni-stack/provider@2.0.0-alpha.12
+  - @omni-stack/provider-utils@3.0.0-alpha.12
 
 ## 1.0.0-alpha.11
 
 ### Patch Changes
 
 - Updated dependencies [c1e6647]
-  - @ai-sdk/provider@2.0.0-alpha.11
-  - @ai-sdk/provider-utils@3.0.0-alpha.11
+  - @omni-stack/provider@2.0.0-alpha.11
+  - @omni-stack/provider-utils@3.0.0-alpha.11
 
 ## 1.0.0-alpha.10
 
 ### Patch Changes
 
 - Updated dependencies [c4df419]
-  - @ai-sdk/provider@2.0.0-alpha.10
-  - @ai-sdk/provider-utils@3.0.0-alpha.10
+  - @omni-stack/provider@2.0.0-alpha.10
+  - @omni-stack/provider-utils@3.0.0-alpha.10
 
 ## 1.0.0-alpha.9
 
@@ -790,8 +790,8 @@
 
 - 26b6dd0: feat (providers/gateway): include deployment and request id
 - Updated dependencies [811dff3]
-  - @ai-sdk/provider@2.0.0-alpha.9
-  - @ai-sdk/provider-utils@3.0.0-alpha.9
+  - @omni-stack/provider@2.0.0-alpha.9
+  - @omni-stack/provider-utils@3.0.0-alpha.9
 
 ## 1.0.0-alpha.8
 
@@ -802,16 +802,16 @@
 - 7742ba3: feat (providers/gateway): add gateway error types with error detail
 - Updated dependencies [4fef487]
 - Updated dependencies [9222aeb]
-  - @ai-sdk/provider-utils@3.0.0-alpha.8
-  - @ai-sdk/provider@2.0.0-alpha.8
+  - @omni-stack/provider-utils@3.0.0-alpha.8
+  - @omni-stack/provider@2.0.0-alpha.8
 
 ## 1.0.0-alpha.7
 
 ### Patch Changes
 
 - Updated dependencies [5c56081]
-  - @ai-sdk/provider@2.0.0-alpha.7
-  - @ai-sdk/provider-utils@3.0.0-alpha.7
+  - @omni-stack/provider@2.0.0-alpha.7
+  - @omni-stack/provider-utils@3.0.0-alpha.7
 
 ## 1.0.0-alpha.6
 
@@ -819,5 +819,5 @@
 
 - 6c2c708: feat (providers/gateway): initial gateway provider
 - Updated dependencies [0d2c085]
-  - @ai-sdk/provider@2.0.0-alpha.6
-  - @ai-sdk/provider-utils@3.0.0-alpha.6
+  - @omni-stack/provider@2.0.0-alpha.6
+  - @omni-stack/provider-utils@3.0.0-alpha.6

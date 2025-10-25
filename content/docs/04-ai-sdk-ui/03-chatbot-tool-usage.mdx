@@ -49,8 +49,8 @@ In this example, we'll use three tools:
 ### API route
 
 ```tsx filename='app/api/chat/route.ts'
-import { openai } from '@ai-sdk/openai';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 import { z } from 'zod';
 
 // Allow streaming responses up to 30 seconds
@@ -123,11 +123,11 @@ There are three things worth mentioning:
 ```tsx filename='app/page.tsx' highlight="2,6,10,14-20"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@omni-stack/react';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithToolCalls,
-} from 'ai';
+} from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Chat() {
@@ -303,11 +303,11 @@ Sometimes an error may occur during client-side tool execution. Use the `addTool
 ```tsx filename='app/page.tsx' highlight="19,36-41"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@omni-stack/react';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithToolCalls,
-} from 'ai';
+} from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Chat() {
@@ -477,8 +477,8 @@ You can also use multi-step calls on the server-side with `streamText`.
 This works when all invoked tools have an `execute` function on the server side.
 
 ```tsx filename='app/api/chat/route.ts' highlight="15-21,24"
-import { openai } from '@ai-sdk/openai';
-import { convertToModelMessages, streamText, UIMessage, stepCountIs } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamText, UIMessage, stepCountIs } from '@omni-stack/core';
 import { z } from 'zod';
 
 export async function POST(req: Request) {

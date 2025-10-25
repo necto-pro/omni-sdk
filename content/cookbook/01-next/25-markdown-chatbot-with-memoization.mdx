@@ -25,8 +25,8 @@ npm install react-markdown marked
 On the server, you use a simple route handler that streams the response from the language model.
 
 ```tsx filename='app/api/chat/route.ts'
-import { openai } from '@ai-sdk/openai';
-import { convertToModelMessages, streamText, type UIMessage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamText, type UIMessage } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();
@@ -88,7 +88,7 @@ Finally, on the client, use the `useChat` hook to manage the chat state and rend
 ```typescript filename='app/page.tsx'
 "use client";
 
-import { Chat, useChat } from "@ai-sdk/react";
+import { Chat, useChat } from "@omni-stack/react";
 import { DefaultChatTransport } from "ai";
 import { useState } from "react";
 import { MemoizedMarkdown } from "@/components/memoized-markdown";

@@ -32,7 +32,7 @@ pnpm init
 
 ### Install Dependencies
 
-Install `ai` and `@ai-sdk/openai`, the AI SDK's OpenAI provider, along with other necessary dependencies.
+Install `ai` and `@omni-stack/openai`, the AI SDK's OpenAI provider, along with other necessary dependencies.
 
 <Note>
   The AI SDK is designed to be a unified interface to interact with any large
@@ -43,11 +43,11 @@ Install `ai` and `@ai-sdk/openai`, the AI SDK's OpenAI provider, along with othe
 </Note>
 
 ```bash
-pnpm add ai@beta @ai-sdk/openai@beta zod dotenv
+pnpm add ai@beta @omni-stack/openai@beta zod dotenv
 pnpm add -D @types/node tsx typescript
 ```
 
-The `ai` and `@ai-sdk/openai` packages contain the AI SDK and the [ AI SDK OpenAI provider](/providers/ai-sdk-providers/openai), respectively. You will use `zod` to define type-safe schemas that you will pass to the large language model (LLM). You will use `dotenv` to access environment variables (your OpenAI key) within your application. There are also three development dependencies, installed with the `-D` flag, that are necessary to run your Typescript code.
+The `ai` and `@omni-stack/openai` packages contain the AI SDK and the [ AI SDK OpenAI provider](/providers/ai-sdk-providers/openai), respectively. You will use `zod` to define type-safe schemas that you will pass to the large language model (LLM). You will use `dotenv` to access environment variables (your OpenAI key) within your application. There are also three development dependencies, installed with the `-D` flag, that are necessary to run your Typescript code.
 
 ### Configure OpenAI API key
 
@@ -73,8 +73,8 @@ Replace `xxxxxxxxx` with your actual OpenAI API key.
 Create an `index.ts` file in the root of your project and add the following code:
 
 ```ts filename="index.ts"
-import { openai } from '@ai-sdk/openai';
-import { ModelMessage, streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { ModelMessage, streamText } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 
@@ -146,8 +146,8 @@ Let's enhance your chatbot by adding a simple weather tool.
 Modify your `index.ts` file to include the new weather tool:
 
 ```ts filename="index.ts" highlight="2,4,25-38"
-import { openai } from '@ai-sdk/openai';
-import { ModelMessage, streamText, tool } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { ModelMessage, streamText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import * as readline from 'node:readline/promises';
@@ -218,8 +218,8 @@ Try asking something like "What's the weather in New York?" and see how the mode
 Notice the blank "assistant" response? This is because instead of generating a text response, the model generated a tool call. You can access the tool call and subsequent tool result in the `toolCall` and `toolResult` keys of the result object.
 
 ```typescript highlight="47-48"
-import { openai } from '@ai-sdk/openai';
-import { ModelMessage, streamText, tool } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { ModelMessage, streamText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import * as readline from 'node:readline/promises';
@@ -289,8 +289,8 @@ To solve this, you can enable multi-step tool calls using `stopWhen`. This featu
 Modify your `index.ts` file to configure stopping conditions with `stopWhen`:
 
 ```ts filename="index.ts" highlight="39-42"
-import { openai } from '@ai-sdk/openai';
-import { ModelMessage, streamText, tool, stepCountIs } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { ModelMessage, streamText, tool, stepCountIs } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import * as readline from 'node:readline/promises';
@@ -365,8 +365,8 @@ By setting `stopWhen: stepCountIs(5)`, you're allowing the model to use up to 5 
 Update your `index.ts` file to add a new tool to convert the temperature from Celsius to Fahrenheit:
 
 ```ts filename="index.ts" highlight="38-49"
-import { openai } from '@ai-sdk/openai';
-import { ModelMessage, streamText, tool, stepCountIs } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { ModelMessage, streamText, tool, stepCountIs } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import * as readline from 'node:readline/promises';

@@ -12,8 +12,8 @@ It can be used to force the language model to return structured data, e.g. for i
 #### Example: generate an object using a schema
 
 ```ts
-import { openai } from '@ai-sdk/openai';
-import { generateObject } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const { object } = await generateObject({
@@ -36,8 +36,8 @@ console.log(JSON.stringify(object, null, 2));
 For arrays, you specify the schema of the array items.
 
 ```ts highlight="7"
-import { openai } from '@ai-sdk/openai';
-import { generateObject } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const { object } = await generateObject({
@@ -60,7 +60,7 @@ When you want to generate a specific enum value, you can set the output strategy
 and provide the list of possible values in the `enum` parameter.
 
 ```ts highlight="5-6"
-import { generateObject } from 'ai';
+import { generateObject } from '@omni-stack/core';
 
 const { object } = await generateObject({
   model: 'openai/gpt-4.1',
@@ -76,8 +76,8 @@ const { object } = await generateObject({
 #### Example: generate JSON without a schema
 
 ```ts highlight="6"
-import { openai } from '@ai-sdk/openai';
-import { generateObject } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateObject } from '@omni-stack/core';
 
 const { object } = await generateObject({
   model: openai('gpt-4.1'),

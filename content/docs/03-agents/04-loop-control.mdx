@@ -25,7 +25,7 @@ When you provide `stopWhen`, the agent continues executing after tool calls unti
 The AI SDK provides several built-in stopping conditions:
 
 ```ts
-import { ToolLoopAgent, stepCountIs } from 'ai';
+import { ToolLoopAgent, stepCountIs } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -45,7 +45,7 @@ const result = await agent.generate({
 Combine multiple stopping conditions. The loop stops when it meets any condition:
 
 ```ts
-import { ToolLoopAgent, stepCountIs, hasToolCall } from 'ai';
+import { ToolLoopAgent, stepCountIs, hasToolCall } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -68,7 +68,7 @@ const result = await agent.generate({
 Build custom stopping conditions for specific requirements:
 
 ```ts
-import { ToolLoopAgent, StopCondition, ToolSet } from 'ai';
+import { ToolLoopAgent, StopCondition, ToolSet } from '@omni-stack/core';
 
 const tools = {
   // your tools
@@ -117,7 +117,7 @@ The `prepareStep` callback runs before each step in the loop and defaults to the
 Switch models based on step requirements:
 
 ```ts
-import { ToolLoopAgent } from 'ai';
+import { ToolLoopAgent } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o-mini', // Default model
@@ -146,7 +146,7 @@ const result = await agent.generate({
 Manage growing conversation history in long-running loops:
 
 ```ts
-import { ToolLoopAgent } from 'ai';
+import { ToolLoopAgent } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -177,7 +177,7 @@ const result = await agent.generate({
 Control which tools are available at each step:
 
 ```ts
-import { ToolLoopAgent } from 'ai';
+import { ToolLoopAgent } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -242,7 +242,7 @@ prepareStep: async ({ stepNumber }) => {
 Transform messages before sending them to the model:
 
 ```ts
-import { ToolLoopAgent } from 'ai';
+import { ToolLoopAgent } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -305,7 +305,7 @@ For scenarios requiring complete control over the agent loop, you can use AI SDK
 Build your own agent loop when you need full control over execution:
 
 ```ts
-import { generateText, ModelMessage } from 'ai';
+import { generateText, ModelMessage } from '@omni-stack/core';
 
 const messages: ModelMessage[] = [{ role: 'user', content: '...' }];
 

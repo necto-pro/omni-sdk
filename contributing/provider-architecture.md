@@ -6,10 +6,10 @@ The AI SDK uses a layered provider architecture that follows the adapter pattern
 
 ```mermaid
 graph LR
-    AI["Main Package<br/>ai"] --> PROVIDER["Specifications<br/>@ai-sdk/provider"]
-    AI --> UTILS["Shared Utilities<br/>@ai-sdk/provider-utils"]
+    AI["Main Package<br/>ai"] --> PROVIDER["Specifications<br/>@omni-stack/provider"]
+    AI --> UTILS["Shared Utilities<br/>@omni-stack/provider-utils"]
     UTILS --> PROVIDER
-    OPENAI["Provider<br/>e.g. @ai-sdk/openai"] --> PROVIDER
+    OPENAI["Provider<br/>e.g. @omni-stack/openai"] --> PROVIDER
     OPENAI --> UTILS
     OPENAI --> OPENAI_API["Provider API<br/>e.g. OpenAI API<br/>(External)"]
 

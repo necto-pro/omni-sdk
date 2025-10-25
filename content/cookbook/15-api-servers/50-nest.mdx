@@ -20,8 +20,8 @@ You can use the `pipeUIMessageStreamToResponse` method to pipe the stream data t
 
 ```ts filename='app.controller.ts'
 import { Controller, Post, Res } from '@nestjs/common';
-import { openai } from '@ai-sdk/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 import { Response } from 'express';
 
 @Controller()
@@ -44,12 +44,12 @@ export class AppController {
 
 ```ts filename='app.controller.ts'
 import { Controller, Post, Res } from '@nestjs/common';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@omni-stack/openai';
 import {
   createUIMessageStream,
   streamText,
   pipeUIMessageStreamToResponse,
-} from 'ai';
+} from '@omni-stack/core';
 import { Response } from 'express';
 
 @Controller()
@@ -95,8 +95,8 @@ You can use the `pipeTextStreamToResponse` method to get a text stream from the 
 
 ```ts filename='app.controller.ts'
 import { Controller, Post, Res } from '@nestjs/common';
-import { openai } from '@ai-sdk/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 import { Response } from 'express';
 
 @Controller()

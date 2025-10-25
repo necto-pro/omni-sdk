@@ -1,34 +1,34 @@
 ---
-'@ai-sdk/openai-compatible': patch
-'@ai-sdk/amazon-bedrock': patch
-'@ai-sdk/google-vertex': patch
-'@ai-sdk/assemblyai': patch
-'@ai-sdk/elevenlabs': patch
-'@ai-sdk/perplexity': patch
-'@ai-sdk/togetherai': patch
-'@ai-sdk/anthropic': patch
-'@ai-sdk/deepinfra': patch
-'@ai-sdk/fireworks': patch
-'@ai-sdk/replicate': patch
-'@ai-sdk/deepgram': patch
-'@ai-sdk/angular': patch
-'@ai-sdk/mistral': patch
-'@ai-sdk/cohere': patch
-'@ai-sdk/gladia': patch
-'@ai-sdk/google': patch
-'@ai-sdk/openai': patch
-'@ai-sdk/svelte': patch
-'@ai-sdk/azure': patch
-'@ai-sdk/react': patch
-'@ai-sdk/revai': patch
-'@ai-sdk/groq': patch
-'@ai-sdk/hume': patch
-'@ai-sdk/lmnt': patch
-'@ai-sdk/luma': patch
-'@ai-sdk/fal': patch
-'@ai-sdk/vue': patch
-'@ai-sdk/xai': patch
+'@omni-stack/openai-compatible': patch
+'@omni-stack/amazon-bedrock': patch
+'@omni-stack/google-vertex': patch
+'@omni-stack/assemblyai': patch
+'@omni-stack/elevenlabs': patch
+'@omni-stack/perplexity': patch
+'@omni-stack/togetherai': patch
+'@omni-stack/anthropic': patch
+'@omni-stack/deepinfra': patch
+'@omni-stack/fireworks': patch
+'@omni-stack/replicate': patch
+'@omni-stack/deepgram': patch
+'@omni-stack/angular': patch
+'@omni-stack/mistral': patch
+'@omni-stack/cohere': patch
+'@omni-stack/gladia': patch
+'@omni-stack/google': patch
+'@omni-stack/openai': patch
+'@omni-stack/svelte': patch
+'@omni-stack/azure': patch
+'@omni-stack/react': patch
+'@omni-stack/revai': patch
+'@omni-stack/groq': patch
+'@omni-stack/hume': patch
+'@omni-stack/lmnt': patch
+'@omni-stack/luma': patch
+'@omni-stack/fal': patch
+'@omni-stack/vue': patch
+'@omni-stack/xai': patch
 'ai': patch
 ---
 
-fix: moved dependency `@ai-sdk/test-server` to devDependencies
+fix: moved dependency `@omni-stack/test-server` to devDependencies

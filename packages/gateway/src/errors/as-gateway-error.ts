@@ -1,4 +1,4 @@
-import { APICallError } from '@ai-sdk/provider';
+import { APICallError } from '@omni-stack/provider';
 import { extractApiCallResponse, GatewayError } from '.';
 import { createGatewayErrorFromResponse } from './create-gateway-error';
 

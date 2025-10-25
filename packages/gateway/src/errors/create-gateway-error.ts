@@ -15,7 +15,7 @@ import {
   safeValidateTypes,
   validateTypes,
   zodSchema,
-} from '@ai-sdk/provider-utils';
+} from '@omni-stack/provider-utils';
 
 export async function createGatewayErrorFromResponse({
   response,

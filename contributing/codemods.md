@@ -29,7 +29,7 @@ Depending on the complexity of the changes, you can instruct the AI to review ch
 Before:
 
 ```ts
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = await streamText({
   model: someModel,
@@ -50,7 +50,7 @@ for await (const delta of result.fullStream) {
 After:
 
 ```ts
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = await streamText({
   model: someModel,

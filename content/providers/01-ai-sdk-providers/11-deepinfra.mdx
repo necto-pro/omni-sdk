@@ -9,36 +9,36 @@ The [DeepInfra](https://deepinfra.com) provider contains support for state-of-th
 
 ## Setup
 
-The DeepInfra provider is available via the `@ai-sdk/deepinfra` module. You can install it with:
+The DeepInfra provider is available via the `@omni-stack/deepinfra` module. You can install it with:
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/deepinfra" dark />
+    <Snippet text="pnpm add @omni-stack/deepinfra" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/deepinfra" dark />
+    <Snippet text="npm install @omni-stack/deepinfra" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/deepinfra" dark />
+    <Snippet text="yarn add @omni-stack/deepinfra" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/deepinfra" dark />
+    <Snippet text="bun add @omni-stack/deepinfra" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `deepinfra` from `@ai-sdk/deepinfra`:
+You can import the default provider instance `deepinfra` from `@omni-stack/deepinfra`:
 
 ```ts
-import { deepinfra } from '@ai-sdk/deepinfra';
+import { deepinfra } from '@omni-stack/deepinfra';
 ```
 
-If you need a customized setup, you can import `createDeepInfra` from `@ai-sdk/deepinfra` and create a provider instance with your settings:
+If you need a customized setup, you can import `createDeepInfra` from `@omni-stack/deepinfra` and create a provider instance with your settings:
 
 ```ts
-import { createDeepInfra } from '@ai-sdk/deepinfra';
+import { createDeepInfra } from '@omni-stack/deepinfra';
 
 const deepinfra = createDeepInfra({
   apiKey: process.env.DEEPINFRA_API_KEY ?? '',
@@ -76,8 +76,8 @@ You can use the following optional settings to customize the DeepInfra provider 
 You can create language models using a provider instance. The first argument is the model ID, for example:
 
 ```ts
-import { deepinfra } from '@ai-sdk/deepinfra';
-import { generateText } from 'ai';
+import { deepinfra } from '@omni-stack/deepinfra';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: deepinfra('meta-llama/Meta-Llama-3.1-70B-Instruct'),
@@ -128,8 +128,8 @@ You can create DeepInfra image models using the `.image()` factory method.
 For more on image generation with the AI SDK see [generateImage()](/docs/reference/ai-sdk-core/generate-image).
 
 ```ts
-import { deepinfra } from '@ai-sdk/deepinfra';
-import { experimental_generateImage as generateImage } from 'ai';
+import { deepinfra } from '@omni-stack/deepinfra';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: deepinfra.image('stabilityai/sd3.5'),
@@ -150,8 +150,8 @@ const { image } = await generateImage({
 You can pass model-specific parameters using the `providerOptions.deepinfra` field:
 
 ```ts
-import { deepinfra } from '@ai-sdk/deepinfra';
-import { experimental_generateImage as generateImage } from 'ai';
+import { deepinfra } from '@omni-stack/deepinfra';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: deepinfra.image('stabilityai/sd3.5'),
@@ -194,8 +194,8 @@ You can create DeepInfra embedding models using the `.textEmbedding()` factory m
 For more on embedding models with the AI SDK see [embed()](/docs/reference/ai-sdk-core/embed).
 
 ```ts
-import { deepinfra } from '@ai-sdk/deepinfra';
-import { embed } from 'ai';
+import { deepinfra } from '@omni-stack/deepinfra';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: deepinfra.textEmbedding('BAAI/bge-large-en-v1.5'),

@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/google': patch
+'@omni-stack/google': patch
 ---
 
 fix(provider/google): lazy schema loading

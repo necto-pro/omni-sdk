@@ -1,4 +1,4 @@
-import { delay } from '@ai-sdk/provider-utils';
+import { delay } from '@omni-stack/provider-utils';
 import { createStreamableValue } from './create-streamable-value';
 import { readStreamableValue } from './read-streamable-value';
 import { it, expect } from 'vitest';

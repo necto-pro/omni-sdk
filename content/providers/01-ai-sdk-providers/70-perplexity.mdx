@@ -11,36 +11,36 @@ API keys can be obtained from the [Perplexity Platform](https://docs.perplexity.
 
 ## Setup
 
-The Perplexity provider is available via the `@ai-sdk/perplexity` module. You can install it with:
+The Perplexity provider is available via the `@omni-stack/perplexity` module. You can install it with:
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/perplexity" dark />
+    <Snippet text="pnpm add @omni-stack/perplexity" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/perplexity" dark />
+    <Snippet text="npm install @omni-stack/perplexity" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/perplexity" dark />
+    <Snippet text="yarn add @omni-stack/perplexity" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/perplexity" dark />
+    <Snippet text="bun add @omni-stack/perplexity" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `perplexity` from `@ai-sdk/perplexity`:
+You can import the default provider instance `perplexity` from `@omni-stack/perplexity`:
 
 ```ts
-import { perplexity } from '@ai-sdk/perplexity';
+import { perplexity } from '@omni-stack/perplexity';
 ```
 
 For custom configuration, you can import `createPerplexity` and create a provider instance with your settings:
 
 ```ts
-import { createPerplexity } from '@ai-sdk/perplexity';
+import { createPerplexity } from '@omni-stack/perplexity';
 
 const perplexity = createPerplexity({
   apiKey: process.env.PERPLEXITY_API_KEY ?? '',
@@ -72,8 +72,8 @@ You can use the following optional settings to customize the Perplexity provider
 You can create Perplexity models using a provider instance:
 
 ```ts
-import { perplexity } from '@ai-sdk/perplexity';
-import { generateText } from 'ai';
+import { perplexity } from '@omni-stack/perplexity';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: perplexity('sonar-pro'),
@@ -86,8 +86,8 @@ const { text } = await generateText({
 Websites that have been used to generate the response are included in the `sources` property of the result:
 
 ```ts
-import { perplexity } from '@ai-sdk/perplexity';
-import { generateText } from 'ai';
+import { perplexity } from '@omni-stack/perplexity';
+import { generateText } from '@omni-stack/core';
 
 const { text, sources } = await generateText({
   model: perplexity('sonar-pro'),

@@ -118,7 +118,7 @@ const { text } = await generateText({
 For granular control over applying provider options at the message level, you can pass `providerOptions` to the message object:
 
 ```ts
-import { ModelMessage } from 'ai';
+import { ModelMessage } from '@omni-stack/core';
 
 const messages: ModelMessage[] = [
   {
@@ -137,7 +137,7 @@ const messages: ModelMessage[] = [
 Certain provider-specific options require configuration at the message part level:
 
 ```ts
-import { ModelMessage } from 'ai';
+import { ModelMessage } from '@omni-stack/core';
 
 const messages: ModelMessage[] = [
   {
@@ -305,8 +305,8 @@ You need to specify the MIME type of the file you are sending.
 ##### Example: PDF file from Buffer
 
 ```ts highlight="12-15"
-import { google } from '@ai-sdk/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: google('gemini-1.5-flash'),
@@ -330,8 +330,8 @@ const result = await generateText({
 ##### Example: mp3 audio file from Buffer
 
 ```ts highlight="12-14"
-import { openai } from '@ai-sdk/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: openai('gpt-4o-audio-preview'),

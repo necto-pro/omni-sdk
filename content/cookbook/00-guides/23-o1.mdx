@@ -50,8 +50,8 @@ The AI SDK abstracts away the differences between model providers, eliminates bo
 At the center of the AI SDK is [AI SDK Core](/docs/ai-sdk-core/overview), which provides a unified API to call any LLM. The code snippet below is all you need to call OpenAI o1 with the AI SDK:
 
 ```ts
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const { text } = await generateText({
   model: openai('o1'),
@@ -60,15 +60,15 @@ const { text } = await generateText({
 ```
 
 <Note>
-  To use the o1 model, you must either be using @ai-sdk/openai version 0.0.59 or
+  To use the o1 model, you must either be using @omni-stack/openai version 0.0.59 or
   greater, or set `temperature: 1`.
 </Note>
 
 AI SDK Core abstracts away the differences between model providers, allowing you to focus on building great applications. The unified interface also means that you can easily switch between models by changing just one line of code.
 
 ```ts highlight="5"
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const { text } = await generateText({
   model: openai('o1'),
@@ -86,8 +86,8 @@ You can control the amount of reasoning effort expended by o1 through the `reaso
 This parameter can be set to `'low'`, `'medium'`, or `'high'` to adjust how much time and computation the model spends on internal reasoning before producing a response.
 
 ```ts highlight="9"
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 // Reduce reasoning effort for faster responses
 const { text } = await generateText({
@@ -109,8 +109,8 @@ const { text } = await generateText({
 While text generation can be useful, you might want to generate structured JSON data. For example, you might want to extract information from text, classify data, or generate synthetic data. AI SDK Core provides two functions ([`generateObject`](/docs/reference/ai-sdk-core/generate-object) and [`streamObject`](/docs/reference/ai-sdk-core/stream-object)) to generate structured data, allowing you to constrain model outputs to a specific schema.
 
 ```ts
-import { generateObject } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateObject } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 const { object } = await generateObject({
@@ -141,8 +141,8 @@ The AI SDK supports tool usage across several of its functions, like [`generateT
 Here's an example of how you can use a tool with the AI SDK and o1:
 
 ```ts
-import { generateText, tool } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText, tool } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 const { text } = await generateText({
@@ -178,8 +178,8 @@ With four main hooks — [`useChat`](/docs/reference/ai-sdk-ui/use-chat), [`useC
 Let's explore building a chatbot with [Next.js](https://nextjs.org), the AI SDK, and OpenAI o1:
 
 ```tsx filename="app/api/chat/route.ts"
-import { openai } from '@ai-sdk/openai';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 // Allow responses up to 5 minutes
 export const maxDuration = 300;
@@ -199,7 +199,7 @@ export async function POST(req: Request) {
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@omni-stack/react';
 
 export default function Page() {
   const { messages, input, handleInputChange, handleSubmit, error } = useChat();

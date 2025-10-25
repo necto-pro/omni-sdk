@@ -1,11 +1,11 @@
-import { JSONSchema7 } from '@ai-sdk/provider';
+import { JSONSchema7 } from '@omni-stack/provider';
 import {
   dynamicTool,
   jsonSchema,
   Tool,
   tool,
   ToolCallOptions,
-} from '@ai-sdk/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { MCPClientError } from '../error/mcp-client-error';
 import {

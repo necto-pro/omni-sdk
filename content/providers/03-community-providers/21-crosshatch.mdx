@@ -36,7 +36,7 @@ You can install it with:
   </Tab>
 </Tabs>
 
-The [Crosshatch](https://crosshatch.io/) provider supports all of their available models such as OpenAI's GPT and Anthropic's Claude. This provider also supports the querying interface for controlling Crosshatch's custom data integration behaviors. This provider wraps the existing underlying providers ([@ai-sdk/openai](/providers/ai-sdk-providers/openai), [@ai-sdk/anthropic](/providers/ai-sdk-providers/openai).
+The [Crosshatch](https://crosshatch.io/) provider supports all of their available models such as OpenAI's GPT and Anthropic's Claude. This provider also supports the querying interface for controlling Crosshatch's custom data integration behaviors. This provider wraps the existing underlying providers ([@omni-stack/openai](/providers/ai-sdk-providers/openai), [@omni-stack/anthropic](/providers/ai-sdk-providers/openai).
 
 ### Credentials
 
@@ -71,7 +71,7 @@ You can use Crosshatch to get generated text based on permissioned user context 
 This example uses `gpt-4o-mini` to generate text.
 
 ```ts
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 import createCrosshatch from '@crosshatch/ai-provider':
 const crosshatch = createCrosshatch();
 
@@ -102,7 +102,7 @@ const { text } = await generateText({
 Use crosshatch to re-rank items based on recent user purchases.
 
 ```ts
-import { streamObject } from 'ai';
+import { streamObject } from '@omni-stack/core';
 import createCrosshatch from `@crosshatch/ai-provider`
 const crosshatch = createCrosshatch();
 

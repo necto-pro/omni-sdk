@@ -114,8 +114,8 @@ depending on what the provider supports. For example, some observability provide
 headers such as `Prompt-Id`.
 
 ```ts
-import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const result = await generateText({
   model: openai('gpt-4o'),

@@ -17,8 +17,8 @@ On the frontend, use the `useChat` hook to manage the message state and user int
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Chat() {
@@ -69,7 +69,7 @@ export default function Chat() {
 On the backend, create a route handler (API Route) that returns a `UIMessageStreamResponse`. Within the execute function of `createUIMessageStream`, call `streamText` and pass in the converted `messages` (sent from the client). Finally, merge the resulting generation into the `UIMessageStream`.
 
 ```ts filename="api/chat/route.ts"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@omni-stack/openai';
 import {
   createUIMessageStreamResponse,
   createUIMessageStream,
@@ -78,7 +78,7 @@ import {
   convertToModelMessages,
   stepCountIs,
   UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 import { z } from 'zod';
 
 export async function POST(req: Request) {
@@ -137,7 +137,7 @@ At a high level, you will:
 To implement HITL functionality, you start by omitting the `execute` function from the tool definition. This allows the frontend to intercept the tool call and handle the responsibility of adding the final tool result to the tool call.
 
 ```ts filename="api/chat/route.ts" highlight="19"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@omni-stack/openai';
 import {
   createUIMessageStreamResponse,
   createUIMessageStream,
@@ -145,7 +145,7 @@ import {
   tool,
   convertToModelMessages,
   stepCountIs,
-} from 'ai';
+} from '@omni-stack/core';
 import { z } from 'zod';
 
 export async function POST(req: Request) {
@@ -190,8 +190,8 @@ You can check if the tool requiring confirmation has been called and, if so, pre
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
-import { DefaultChatTransport, isToolUIPart, getToolName } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport, isToolUIPart, getToolName } from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Chat() {
@@ -290,7 +290,7 @@ export default function Chat() {
 Adding a tool result and sending the message will trigger another call to your route handler. Before sending the new messages to the language model, you pull out the last message and map through the message parts to see if the tool requiring confirmation was called and whether it's in a "result" state. If those conditions are met, you check the confirmation state (the tool result state that you set on the frontend with the `addToolResult` function).
 
 ```ts filename="api/chat/route.ts"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@omni-stack/openai';
 import {
   createUIMessageStreamResponse,
   createUIMessageStream,
@@ -301,7 +301,7 @@ import {
   isToolUIPart,
   getToolName,
   UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 import { z } from 'zod';
 
 export async function POST(req: Request) {
@@ -401,7 +401,7 @@ The solution above is low-level and not very friendly to use in a production env
 First, you will need to move tool declarations to their own file:
 
 ```ts filename="tools.ts"
-import { tool, ToolSet } from 'ai';
+import { tool, ToolSet } from '@omni-stack/core';
 import { z } from 'zod';
 
 const getWeatherInformation = tool({
@@ -435,7 +435,7 @@ In this file, you have two tools, `getWeatherInformation` (requires confirmation
 Create a types file to define a custom message type:
 
 ```ts filename="types.ts"
-import { InferUITools, UIDataTypes, UIMessage } from 'ai';
+import { InferUITools, UIDataTypes, UIMessage } from '@omni-stack/core';
 import { tools } from './tools';
 
 export type MyTools = InferUITools<typeof tools>;
@@ -459,7 +459,7 @@ import {
   UIMessageStreamWriter,
   getToolName,
   isToolUIPart,
-} from 'ai';
+} from '@omni-stack/core';
 import { HumanInTheLoopUIMessage } from './types';
 
 // Approval string to be shared across frontend and backend
@@ -593,14 +593,14 @@ Finally, you declare a function called `getToolsRequiringConfirmation` that take
 Update your route handler to use the `processToolCalls` utility function.
 
 ```ts filename="app/api/chat/route.ts"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@omni-stack/openai';
 import {
   createUIMessageStreamResponse,
   createUIMessageStream,
   streamText,
   convertToModelMessages,
   stepCountIs,
-} from 'ai';
+} from '@omni-stack/core';
 import { processToolCalls } from './utils';
 import { tools } from './tools';
 import { HumanInTheLoopUIMessage } from './types';
@@ -658,8 +658,8 @@ Finally, update the frontend to use the new `getToolsRequiringConfirmation` func
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
-import { DefaultChatTransport, getToolName, isToolUIPart } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport, getToolName, isToolUIPart } from '@omni-stack/core';
 import { tools } from '../api/chat/tools';
 import { APPROVAL, getToolsRequiringConfirmation } from '../api/chat/utils';
 import { useState } from 'react';

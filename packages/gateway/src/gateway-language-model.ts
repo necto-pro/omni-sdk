@@ -4,7 +4,7 @@ import type {
   LanguageModelV3CallWarning,
   LanguageModelV3FilePart,
   LanguageModelV3StreamPart,
-} from '@ai-sdk/provider';
+} from '@omni-stack/provider';
 import {
   combineHeaders,
   createEventSourceResponseHandler,
@@ -14,7 +14,7 @@ import {
   resolve,
   type ParseResult,
   type Resolvable,
-} from '@ai-sdk/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import type { GatewayConfig } from './gateway-config';
 import type { GatewayModelId } from './gateway-language-model-settings';

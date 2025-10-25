@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/anthropic': patch
+'@omni-stack/anthropic': patch
 ---
 
 chore: add model ID for Haiku 4.5

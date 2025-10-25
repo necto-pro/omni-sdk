@@ -12,9 +12,9 @@ You may want to use these models to generate structured data. However, most (lik
 One solution is to pass the output from a reasoning model through a smaller model that can output structured data (like gpt-4o-mini). These lightweight models can efficiently extract the structured data while adding very little overhead in terms of speed and cost.
 
 ```ts
-import { deepseek } from '@ai-sdk/deepseek';
-import { openai } from '@ai-sdk/openai';
-import { generateObject, generateText } from 'ai';
+import { deepseek } from '@omni-stack/deepseek';
+import { openai } from '@omni-stack/openai';
+import { generateObject, generateText } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 
