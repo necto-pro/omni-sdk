@@ -1,4 +1,4 @@
-import { ImageModelV3, ImageModelV3ProviderMetadata } from '@omni-stack/provider';
+import { ActionV1 } from '@omni-stack/provider';
 import { ProviderOptions, withUserAgentSuffix } from '@omni-stack/provider-utils';
 import { NoImageGeneratedError } from '../error/no-image-generated-error';
 import {
@@ -6,7 +6,6 @@ import {
   imageMediaTypeSignatures,
 } from '../util/detect-media-type';
 import { prepareRetries } from '../util/prepare-retries';
-import { UnsupportedModelVersionError } from '../error/unsupported-model-version-error';
 import {
   DefaultGeneratedFile,
   GeneratedFile,
@@ -16,6 +15,7 @@ import { ImageModelResponseMetadata } from '../types/image-model-response-metada
 import { GenerateImageResult } from './generate-image-result';
 import { logWarnings } from '../logger/log-warnings';
 import { VERSION } from '../version';
+import { execute } from '../execute';
 
 /**
 Generates images using an image model.
@@ -38,169 +38,92 @@ export async function generateImage({
   model,
   prompt,
   n = 1,
-  maxImagesPerCall,
   size,
   aspectRatio,
   seed,
   providerOptions,
-  maxRetries: maxRetriesArg,
+  maxRetries,
   abortSignal,
   headers,
 }: {
-  /**
-The image model to use.
-     */
-  model: ImageModelV3;
-
-  /**
-The prompt that should be used to generate the image.
-   */
+  model: ActionV1;
   prompt: string;
-
-  /**
-Number of images to generate.
-   */
   n?: number;
-
-  /**
-Number of images to generate.
-   */
-  maxImagesPerCall?: number;
-
-  /**
-Size of the images to generate. Must have the format `{width}x{height}`. If not provided, the default size will be used.
-   */
   size?: `${number}x${number}`;
-
-  /**
-Aspect ratio of the images to generate. Must have the format `{width}:{height}`. If not provided, the default aspect ratio will be used.
-   */
   aspectRatio?: `${number}:${number}`;
-
-  /**
-Seed for the image generation. If not provided, the default seed will be used.
-   */
   seed?: number;
-
-  /**
-Additional provider-specific options that are passed through to the provider
-as body parameters.
-
-The outer record is keyed by the provider name, and the inner
-record is keyed by the provider-specific metadata key.
-```ts
-{
-  "openai": {
-    "style": "vivid"
-  }
-}
-```
-     */
   providerOptions?: ProviderOptions;
-
-  /**
-Maximum number of retries per embedding model call. Set to 0 to disable retries.
-
-@default 2
-   */
   maxRetries?: number;
-
-  /**
-Abort signal.
- */
   abortSignal?: AbortSignal;
-
-  /**
-Additional headers to include in the request.
-Only applicable for HTTP-based providers.
- */
   headers?: Record<string, string>;
 }): Promise<GenerateImageResult> {
-  if (model.specificationVersion !== 'v3') {
-    throw new UnsupportedModelVersionError({
-      version: model.specificationVersion,
-      provider: model.provider,
-      modelId: model.modelId,
-    });
-  }
-
   const headersWithUserAgent = withUserAgentSuffix(
     headers ?? {},
     `ai/${VERSION}`,
   );
 
   const { retry } = prepareRetries({
-    maxRetries: maxRetriesArg,
+    maxRetries: maxRetries,
     abortSignal,
   });
 
-  // default to 1 if the model has not specified limits on
-  // how many images can be generated in a single call
-  const maxImagesPerCallWithDefault =
-    maxImagesPerCall ?? (await invokeModelMaxImagesPerCall(model)) ?? 1;
-
-  // parallelize calls to the model:
-  const callCount = Math.ceil(n / maxImagesPerCallWithDefault);
-  const callImageCounts = Array.from({ length: callCount }, (_, i) => {
-    if (i < callCount - 1) {
-      return maxImagesPerCallWithDefault;
-    }
-
-    const remainder = n % maxImagesPerCallWithDefault;
-    return remainder === 0 ? maxImagesPerCallWithDefault : remainder;
+  const response = await retry(async () => {
+    return await execute({
+      type: 'image.generate',
+      model,
+      input: prompt,
+      parameters: {
+        n,
+        size,
+        aspectRatio,
+        seed,
+      },
+      stream: false,
+      providerOptions,
+      headers: headersWithUserAgent,
+    });
   });
 
-  const results = await Promise.all(
-    callImageCounts.map(async callImageCount =>
-      retry(() =>
-        model.doGenerate({
-          prompt,
-          n: callImageCount,
-          abortSignal,
-          headers: headersWithUserAgent,
-          size,
-          aspectRatio,
-          seed,
-          providerOptions: providerOptions ?? {},
-        }),
-      ),
-    ),
+  // Type assertion since we know this is an image generation response
+  const imageResponse = response as { images: Array<{ base64?: string; url?: string; data?: Uint8Array }>; warnings?: Array<{ type: string; message: string }>; providerMetadata?: any };
+
+  const images: Array<DefaultGeneratedFile> = imageResponse.images.map(
+    (image: { base64?: string; url?: string; data?: Uint8Array }) => {
+      let data: string | Uint8Array;
+      let mediaType: string | undefined;
+
+      if (image.data) {
+        data = image.data;
+        mediaType = detectMediaType({
+          data: image.data,
+          signatures: imageMediaTypeSignatures,
+        }) ?? 'image/png';
+      } else if (image.base64) {
+        data = Buffer.from(image.base64, 'base64');
+        mediaType = detectMediaType({
+          data: data,
+          signatures: imageMediaTypeSignatures,
+        }) ?? 'image/png';
+      } else if (image.url) {
+        data = image.url;
+        mediaType = undefined; // Will be detected when loaded
+      } else {
+        throw new Error('Image data is missing');
+      }
+
+      return new DefaultGeneratedFile({
+        data,
+        mediaType: mediaType ?? 'image/png',
+      });
+    }
   );
 
-  // collect result images, warnings, and response metadata
-  const images: Array<DefaultGeneratedFile> = [];
-  const warnings: Array<ImageGenerationWarning> = [];
-  const responses: Array<ImageModelResponseMetadata> = [];
-  const providerMetadata: ImageModelV3ProviderMetadata = {};
-  for (const result of results) {
-    images.push(
-      ...result.images.map(
-        image =>
-          new DefaultGeneratedFile({
-            data: image,
-            mediaType:
-              detectMediaType({
-                data: image,
-                signatures: imageMediaTypeSignatures,
-              }) ?? 'image/png',
-          }),
-      ),
-    );
-    warnings.push(...result.warnings);
-
-    if (result.providerMetadata) {
-      for (const [providerName, metadata] of Object.entries<{
-        images: unknown;
-      }>(result.providerMetadata)) {
-        providerMetadata[providerName] ??= { images: [] };
-        providerMetadata[providerName].images.push(
-          ...result.providerMetadata[providerName].images,
-        );
-      }
-    }
-
-    responses.push(result.response);
-  }
+  const warnings: Array<ImageGenerationWarning> = (imageResponse.warnings || []).map(w => ({
+    type: 'other' as const,
+    message: w.message,
+  }));
+  const responses: Array<ImageModelResponseMetadata> = []; // Will be populated by provider
+  const providerMetadata: any = imageResponse.providerMetadata || {};
 
   logWarnings(warnings);
 
@@ -220,13 +143,13 @@ class DefaultGenerateImageResult implements GenerateImageResult {
   readonly images: Array<GeneratedFile>;
   readonly warnings: Array<ImageGenerationWarning>;
   readonly responses: Array<ImageModelResponseMetadata>;
-  readonly providerMetadata: ImageModelV3ProviderMetadata;
+  readonly providerMetadata: any;
 
   constructor(options: {
     images: Array<GeneratedFile>;
     warnings: Array<ImageGenerationWarning>;
     responses: Array<ImageModelResponseMetadata>;
-    providerMetadata: ImageModelV3ProviderMetadata;
+    providerMetadata: any;
   }) {
     this.images = options.images;
     this.warnings = options.warnings;
@@ -237,16 +160,4 @@ class DefaultGenerateImageResult implements GenerateImageResult {
   get image() {
     return this.images[0];
   }
-}
-
-async function invokeModelMaxImagesPerCall(model: ImageModelV3) {
-  const isFunction = model.maxImagesPerCall instanceof Function;
-
-  if (!isFunction) {
-    return model.maxImagesPerCall;
-  }
-
-  return model.maxImagesPerCall({
-    modelId: model.modelId,
-  });
 }
