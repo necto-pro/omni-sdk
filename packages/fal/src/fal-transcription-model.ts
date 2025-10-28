@@ -2,7 +2,7 @@ import {
   AISDKError,
   TranscriptionModelV3,
   TranscriptionModelV3CallWarning,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   combineHeaders,
   convertUint8ArrayToBase64,
@@ -12,7 +12,7 @@ import {
   getFromApi,
   parseProviderOptions,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { FalConfig } from './fal-config';
 import { falErrorDataSchema, falFailedResponseHandler } from './fal-error';

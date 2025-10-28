@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Completion } from '@open-stack/angular';
+import { Completion } from '@omni-stack/angular';
 import { FormsModule } from '@angular/forms';
 
 @Component({

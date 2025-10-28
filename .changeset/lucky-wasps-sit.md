@@ -1,8 +1,8 @@
 ---
-'@open-stack/angular': patch
-'@open-stack/svelte': patch
-'@open-stack/react': patch
-'@open-stack/vue': patch
+'@omni-stack/angular': patch
+'@omni-stack/svelte': patch
+'@omni-stack/react': patch
+'@omni-stack/vue': patch
 'ai': patch
 ---
 

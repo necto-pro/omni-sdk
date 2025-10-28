@@ -2,7 +2,7 @@ import {
   TranscriptionModelV3,
   TranscriptionModelV3CallOptions,
   TranscriptionModelV3CallWarning,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   combineHeaders,
   convertBase64ToUint8Array,
@@ -10,7 +10,7 @@ import {
   mediaTypeToExtension,
   parseProviderOptions,
   postFormDataToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { OpenAIConfig } from '../openai-config';
 import { openaiFailedResponseHandler } from '../openai-error';
 import { openaiTranscriptionResponseSchema } from './openai-transcription-api';

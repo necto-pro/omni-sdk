@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { createCohere } from '../cohere-provider';
 import { describe, it, expect, beforeEach } from 'vitest';
 import fs from 'node:fs';

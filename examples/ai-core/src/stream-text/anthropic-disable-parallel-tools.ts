@@ -1,5 +1,5 @@
-import { anthropic } from '@open-stack/anthropic';
-import { streamText, tool } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { streamText, tool } from '@omni-stack/core';
 import { z } from 'zod';
 import 'dotenv/config';
 

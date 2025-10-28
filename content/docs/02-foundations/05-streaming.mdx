@@ -46,7 +46,7 @@ While streaming interfaces can greatly enhance user experiences, especially with
 However, regardless of the speed of your model, the AI SDK is designed to make implementing streaming UIs as simple as possible. In the example below, we stream text generation from OpenAI's `gpt-4.1` in under 10 lines of code using the SDK's [`streamText`](/docs/reference/ai-sdk-core/stream-text) function:
 
 ```ts
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const { textStream } = streamText({
   model: 'openai/gpt-4.1',

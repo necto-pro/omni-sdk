@@ -1,5 +1,5 @@
-import { vercel } from '@open-stack/vercel';
-import { streamObject } from 'ai';
+import { vercel } from '@omni-stack/vercel';
+import { streamObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

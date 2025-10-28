@@ -1,6 +1,6 @@
-import { LanguageModelV3Prompt } from '@open-stack/provider';
-import { createTestServer } from '@open-stack/test-server/with-vitest';
-import { convertReadableStreamToArray } from '@open-stack/provider-utils/test';
+import { LanguageModelV3Prompt } from '@omni-stack/provider';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
+import { convertReadableStreamToArray } from '@omni-stack/provider-utils/test';
 import { BedrockChatLanguageModel } from './bedrock-chat-language-model';
 import { beforeEach, describe, expect, vi, it } from 'vitest';
 import { injectFetchHeaders } from './inject-fetch-headers';
@@ -8,14 +8,14 @@ import {
   BedrockReasoningContentBlock,
   BedrockRedactedReasoningContentBlock,
 } from './bedrock-api-types';
-import { anthropicTools, prepareTools } from '@open-stack/anthropic/internal';
+import { anthropicTools, prepareTools } from '@omni-stack/anthropic/internal';
 import { z } from 'zod/v4';
 
 const mockPrepareAnthropicTools = vi.mocked(prepareTools);
 
-vi.mock('@open-stack/anthropic/internal', async importOriginal => {
+vi.mock('@omni-stack/anthropic/internal', async importOriginal => {
   const original =
-    await importOriginal<typeof import('@open-stack/anthropic/internal')>();
+    await importOriginal<typeof import('@omni-stack/anthropic/internal')>();
   return {
     ...original,
     prepareTools: vi.fn(),

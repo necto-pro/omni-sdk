@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { deepinfra as provider } from '@open-stack/deepinfra';
+import { deepinfra as provider } from '@omni-stack/deepinfra';
 import {
   createEmbeddingModelWithCapabilities,
   createFeatureTestSuite,

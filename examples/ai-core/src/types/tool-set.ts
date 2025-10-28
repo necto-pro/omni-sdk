@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { StaticToolCall, StaticToolResult, generateText, tool } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { StaticToolCall, StaticToolResult, generateText, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 const myToolSet = {

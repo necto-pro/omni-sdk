@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { cohere as provider } from '@open-stack/cohere';
+import { cohere as provider } from '@omni-stack/cohere';
 import {
   createFeatureTestSuite,
   createLanguageModelWithCapabilities,

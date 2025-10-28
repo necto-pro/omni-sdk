@@ -2,12 +2,12 @@ import {
   TranscriptionModelV3,
   ProviderV3,
   NoSuchModelError,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { GladiaTranscriptionModel } from './gladia-transcription-model';
 import { VERSION } from './version';
 

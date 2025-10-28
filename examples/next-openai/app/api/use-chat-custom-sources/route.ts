@@ -1,11 +1,11 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   convertToModelMessages,
   createUIMessageStream,
   createUIMessageStreamResponse,
   streamText,
   UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();

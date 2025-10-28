@@ -1,11 +1,11 @@
-import { ImageModelV3, ImageModelV3CallWarning } from '@open-stack/provider';
+import { ImageModelV3, ImageModelV3CallWarning } from '@omni-stack/provider';
 import {
   combineHeaders,
   createJsonErrorResponseHandler,
   createJsonResponseHandler,
   FetchFunction,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import {
   defaultOpenAICompatibleErrorStructure,

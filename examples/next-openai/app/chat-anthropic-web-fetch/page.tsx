@@ -6,8 +6,8 @@ import ChatInput from '@/components/chat-input';
 import { ReasoningView } from '@/components/reasoning-view';
 import SourcesView from '@/components/sources-view';
 import AnthropicWebFetchView from '@/components/tool/anthropic-web-fetch-view';
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 export default function TestAnthropicWebFetch() {
   const { error, status, sendMessage, messages, regenerate } =

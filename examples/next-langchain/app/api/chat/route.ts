@@ -1,7 +1,7 @@
-import { toUIMessageStream } from '@open-stack/langchain';
+import { toUIMessageStream } from '@omni-stack/langchain';
 import { AIMessage, HumanMessage } from '@langchain/core/messages';
 import { ChatOpenAI } from '@langchain/openai';
-import { createUIMessageStreamResponse, UIMessage } from 'ai';
+import { createUIMessageStreamResponse, UIMessage } from '@omni-stack/core';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;

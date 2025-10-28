@@ -1,5 +1,5 @@
-import { streamText } from 'ai';
-import { gateway } from '@open-stack/gateway';
+import { streamText } from '@omni-stack/core';
+import { gateway } from '@omni-stack/gateway';
 import 'dotenv/config';
 
 // An integration test for Vercel AI Gateway provider authentication. There are

@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createAnthropic } from '@open-stack/anthropic';
+import { createAnthropic } from '@omni-stack/anthropic';
 
 const anthropic = createAnthropic({
   apiKey: 'key',

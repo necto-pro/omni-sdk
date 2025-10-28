@@ -1,5 +1,5 @@
-import { huggingface } from '@open-stack/huggingface';
-import { generateText, streamText, generateObject, streamObject } from 'ai';
+import { huggingface } from '@omni-stack/huggingface';
+import { generateText, streamText, generateObject, streamObject } from '@omni-stack/core';
 import { describe, it, expect } from 'vitest';
 import { z } from 'zod/v4';
 import 'dotenv/config';

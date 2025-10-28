@@ -1,5 +1,5 @@
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { rerank } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { rerank } from '@omni-stack/core';
 import { run } from '../lib/run';
 import { print } from '../lib/print';
 import { documents } from './documents';

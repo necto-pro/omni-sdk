@@ -1,7 +1,7 @@
 // @ts-nocheck
-import { generateText } from 'ai';
-import { createCohere } from '@open-stack/cohere';
-import { nanoid } from 'ai';
+import { generateText } from '@omni-stack/core';
+import { createCohere } from '@omni-stack/cohere';
+import { nanoid } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

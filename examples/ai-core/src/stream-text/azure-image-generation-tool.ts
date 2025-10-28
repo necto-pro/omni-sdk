@@ -1,5 +1,5 @@
-import { createAzure } from '@open-stack/azure';
-import { streamText } from 'ai';
+import { createAzure } from '@omni-stack/azure';
+import { streamText } from '@omni-stack/core';
 import { presentImages } from '../lib/present-image';
 import { run } from '../lib/run';
 import { convertBase64ToUint8Array } from '../lib/convert-base64';

@@ -1,5 +1,5 @@
-import { groq } from '@open-stack/groq';
-import { experimental_transcribe as transcribe } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

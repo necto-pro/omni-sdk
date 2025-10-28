@@ -37,7 +37,7 @@ export default createTransformer((fileInfo, api, options, context) => {
       path =>
         path.node.source.value === 'ai' ||
         (typeof path.node.source.value === 'string' &&
-          path.node.source.value.startsWith('@open-stack/')),
+          path.node.source.value.startsWith('@omni-stack/')),
     )
     .forEach(path => {
       path.node.specifiers?.forEach(spec => {

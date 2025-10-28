@@ -62,8 +62,8 @@ This approach ensures that the most up-to-date values are always sent with each 
 For static values that don't change during the component lifecycle, use the `DefaultChatTransport`:
 
 ```tsx
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 const { messages, sendMessage } = useChat({
   transport: new DefaultChatTransport({
@@ -86,8 +86,8 @@ const { messages, sendMessage } = useChat({
 If you need dynamic values at the hook level, you can use functions that return configuration values. However, request-level configuration is generally preferred for better reliability:
 
 ```tsx
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 const { messages, sendMessage } = useChat({
   transport: new DefaultChatTransport({

@@ -1,5 +1,5 @@
-import { createMistral } from '@open-stack/mistral';
-import { generateText } from 'ai';
+import { createMistral } from '@omni-stack/mistral';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 const mistral = createMistral({

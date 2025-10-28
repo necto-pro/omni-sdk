@@ -5,25 +5,25 @@ contains language model support for the OpenAI chat and completion APIs and embe
 
 ## Setup
 
-The OpenAI provider is available in the `@open-stack/openai` module. You can install it with
+The OpenAI provider is available in the `@omni-stack/openai` module. You can install it with
 
 ```bash
-npm i @open-stack/openai
+npm i @omni-stack/openai
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `openai` from `@open-stack/openai`:
+You can import the default provider instance `openai` from `@omni-stack/openai`:
 
 ```ts
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 ```
 
 ## Example
 
 ```ts
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: openai('gpt-4-turbo'),

@@ -12,25 +12,25 @@ Key features include:
 
 ## Setup
 
-The Vercel provider is available in the `@open-stack/vercel` module. You can install it with
+The Vercel provider is available in the `@omni-stack/vercel` module. You can install it with
 
 ```bash
-npm i @open-stack/vercel
+npm i @omni-stack/vercel
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `vercel` from `@open-stack/vercel`:
+You can import the default provider instance `vercel` from `@omni-stack/vercel`:
 
 ```ts
-import { vercel } from '@open-stack/vercel';
+import { vercel } from '@omni-stack/vercel';
 ```
 
 ## Example
 
 ```ts
-import { vercel } from '@open-stack/vercel';
-import { generateText } from 'ai';
+import { vercel } from '@omni-stack/vercel';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: vercel('v0-1.0-md'),

@@ -62,108 +62,111 @@ importers:
 
   examples/ai-core:
     dependencies:
-      '@open-stack/amazon-bedrock':
-        specifier: workspace:*
-        version: link:../../packages/amazon-bedrock
-      '@open-stack/anthropic':
-        specifier: workspace:*
-        version: link:../../packages/anthropic
-      '@open-stack/assemblyai':
-        specifier: workspace:*
-        version: link:../../packages/assemblyai
-      '@open-stack/azure':
-        specifier: workspace:*
-        version: link:../../packages/azure
-      '@open-stack/baseten':
-        specifier: workspace:*
-        version: link:../../packages/baseten
-      '@open-stack/cerebras':
-        specifier: workspace:*
-        version: link:../../packages/cerebras
-      '@open-stack/cohere':
-        specifier: workspace:*
-        version: link:../../packages/cohere
-      '@open-stack/deepgram':
-        specifier: workspace:*
-        version: link:../../packages/deepgram
-      '@open-stack/deepinfra':
-        specifier: workspace:*
-        version: link:../../packages/deepinfra
-      '@open-stack/deepseek':
-        specifier: workspace:*
-        version: link:../../packages/deepseek
-      '@open-stack/elevenlabs':
-        specifier: workspace:*
-        version: link:../../packages/elevenlabs
-      '@open-stack/fal':
-        specifier: workspace:*
-        version: link:../../packages/fal
-      '@open-stack/fireworks':
-        specifier: workspace:*
-        version: link:../../packages/fireworks
-      '@open-stack/gateway':
-        specifier: workspace:*
-        version: link:../../packages/gateway
-      '@open-stack/gladia':
-        specifier: workspace:*
-        version: link:../../packages/gladia
-      '@open-stack/google':
-        specifier: workspace:*
-        version: link:../../packages/google
-      '@open-stack/google-vertex':
-        specifier: workspace:*
-        version: link:../../packages/google-vertex
-      '@open-stack/groq':
-        specifier: workspace:*
-        version: link:../../packages/groq
-      '@open-stack/huggingface':
-        specifier: workspace:*
-        version: link:../../packages/huggingface
-      '@open-stack/hume':
-        specifier: workspace:*
-        version: link:../../packages/hume
-      '@open-stack/lmnt':
-        specifier: workspace:*
-        version: link:../../packages/lmnt
-      '@open-stack/luma':
-        specifier: workspace:*
-        version: link:../../packages/luma
-      '@open-stack/mistral':
-        specifier: workspace:*
-        version: link:../../packages/mistral
-      '@open-stack/openai':
-        specifier: 3.0.0-beta.42
-        version: link:../../packages/openai
-      '@open-stack/openai-compatible':
-        specifier: workspace:*
-        version: link:../../packages/openai-compatible
-      '@open-stack/perplexity':
-        specifier: workspace:*
-        version: link:../../packages/perplexity
-      '@open-stack/provider':
-        specifier: workspace:*
-        version: link:../../packages/provider
-      '@open-stack/replicate':
-        specifier: workspace:*
-        version: link:../../packages/replicate
-      '@open-stack/revai':
-        specifier: workspace:*
-        version: link:../../packages/revai
-      '@open-stack/togetherai':
-        specifier: workspace:*
-        version: link:../../packages/togetherai
-      '@open-stack/valibot':
-        specifier: workspace:*
-        version: link:../../packages/valibot
-      '@open-stack/vercel':
-        specifier: workspace:*
-        version: link:../../packages/vercel
-      '@open-stack/xai':
-        specifier: workspace:*
-        version: link:../../packages/xai
       '@google/generative-ai':
         specifier: 0.21.0
         version: 0.21.0
+      '@omni-stack/amazon-bedrock':
+        specifier: workspace:*
+        version: link:../../packages/amazon-bedrock
+      '@omni-stack/anthropic':
+        specifier: workspace:*
+        version: link:../../packages/anthropic
+      '@omni-stack/assemblyai':
+        specifier: workspace:*
+        version: link:../../packages/assemblyai
+      '@omni-stack/azure':
+        specifier: workspace:*
+        version: link:../../packages/azure
+      '@omni-stack/baseten':
+        specifier: workspace:*
+        version: link:../../packages/baseten
+      '@omni-stack/cerebras':
+        specifier: workspace:*
+        version: link:../../packages/cerebras
+      '@omni-stack/cohere':
+        specifier: workspace:*
+        version: link:../../packages/cohere
+      '@omni-stack/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@omni-stack/deepgram':
+        specifier: workspace:*
+        version: link:../../packages/deepgram
+      '@omni-stack/deepinfra':
+        specifier: workspace:*
+        version: link:../../packages/deepinfra
+      '@omni-stack/deepseek':
+        specifier: workspace:*
+        version: link:../../packages/deepseek
+      '@omni-stack/elevenlabs':
+        specifier: workspace:*
+        version: link:../../packages/elevenlabs
+      '@omni-stack/fal':
+        specifier: workspace:*
+        version: link:../../packages/fal
+      '@omni-stack/fireworks':
+        specifier: workspace:*
+        version: link:../../packages/fireworks
+      '@omni-stack/gateway':
+        specifier: workspace:*
+        version: link:../../packages/gateway
+      '@omni-stack/gladia':
+        specifier: workspace:*
+        version: link:../../packages/gladia
+      '@omni-stack/google':
+        specifier: workspace:*
+        version: link:../../packages/google
+      '@omni-stack/google-vertex':
+        specifier: workspace:*
+        version: link:../../packages/google-vertex
+      '@omni-stack/groq':
+        specifier: workspace:*
+        version: link:../../packages/groq
+      '@omni-stack/huggingface':
+        specifier: workspace:*
+        version: link:../../packages/huggingface
+      '@omni-stack/hume':
+        specifier: workspace:*
+        version: link:../../packages/hume
+      '@omni-stack/lmnt':
+        specifier: workspace:*
+        version: link:../../packages/lmnt
+      '@omni-stack/luma':
+        specifier: workspace:*
+        version: link:../../packages/luma
+      '@omni-stack/mistral':
+        specifier: workspace:*
+        version: link:../../packages/mistral
+      '@omni-stack/openai':
+        specifier: 3.0.0-beta.42
+        version: link:../../packages/openai
+      '@omni-stack/openai-compatible':
+        specifier: workspace:*
+        version: link:../../packages/openai-compatible
+      '@omni-stack/perplexity':
+        specifier: workspace:*
+        version: link:../../packages/perplexity
+      '@omni-stack/provider':
+        specifier: workspace:*
+        version: link:../../packages/provider
+      '@omni-stack/replicate':
+        specifier: workspace:*
+        version: link:../../packages/replicate
+      '@omni-stack/revai':
+        specifier: workspace:*
+        version: link:../../packages/revai
+      '@omni-stack/togetherai':
+        specifier: workspace:*
+        version: link:../../packages/togetherai
+      '@omni-stack/valibot':
+        specifier: workspace:*
+        version: link:../../packages/valibot
+      '@omni-stack/vercel':
+        specifier: workspace:*
+        version: link:../../packages/vercel
+      '@omni-stack/xai':
+        specifier: workspace:*
+        version: link:../../packages/xai
       '@opentelemetry/auto-instrumentations-node':
         specifier: 0.54.0
         version: 0.54.0(@opentelemetry/api@1.9.0)
@@ -179,9 +182,6 @@ importers:
       '@valibot/to-json-schema':
         specifier: ^1.3.0
         version: 1.3.0(valibot@1.1.0(typescript@5.8.3))
-      ai:
-        specifier: workspace:*
-        version: link:../../packages/ai
       arktype:
         specifier: 2.1.22
         version: 2.1.22
@@ -222,12 +222,6 @@ importers:
 
   examples/angular:
     dependencies:
-      '@open-stack/angular':
-        specifier: 2.0.0-beta.81
-        version: link:../../packages/angular
-      '@open-stack/openai':
-        specifier: 3.0.0-beta.42
-        version: link:../../packages/openai
       '@angular/common':
         specifier: ^20.3.2
         version: 20.3.2(@angular/core@20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
@@ -249,9 +243,15 @@ importers:
       '@angular/router':
         specifier: ^20.3.2
         version: 20.3.2(@angular/common@20.3.2(@angular/core@20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.2(@angular/common@20.3.2(@angular/core@20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1)))(rxjs@7.8.2)
+      '@omni-stack/angular':
+        specifier: 2.0.0-beta.81
+        version: link:../../packages/angular
+      '@omni-stack/openai':
+        specifier: 3.0.0-beta.42
+        version: link:../../packages/openai
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -298,12 +298,12 @@ importers:
 
   examples/express:
     dependencies:
-      '@open-stack/openai':
+      '@omni-stack/openai':
         specifier: 3.0.0-beta.42
         version: link:../../packages/openai
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -326,12 +326,12 @@ importers:
 
   examples/fastify:
     dependencies:
-      '@open-stack/openai':
+      '@omni-stack/openai':
         specifier: 3.0.0-beta.42
         version: link:../../packages/openai
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -351,15 +351,15 @@ importers:
 
   examples/hono:
     dependencies:
-      '@open-stack/openai':
-        specifier: 3.0.0-beta.42
-        version: link:../../packages/openai
       '@hono/node-server':
         specifier: 1.13.7
         version: 1.13.7(hono@4.6.9)
+      '@omni-stack/openai':
+        specifier: 3.0.0-beta.42
+        version: link:../../packages/openai
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -379,15 +379,15 @@ importers:
 
   examples/mcp:
     dependencies:
-      '@open-stack/openai':
-        specifier: 3.0.0-beta.42
-        version: link:../../packages/openai
       '@modelcontextprotocol/sdk':
         specifier: ^1.10.2
         version: 1.17.3
+      '@omni-stack/openai':
+        specifier: 3.0.0-beta.42
+        version: link:../../packages/openai
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -398,7 +398,7 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
     devDependencies:
-      '@open-stack/mcp':
+      '@omni-stack/mcp':
         specifier: workspace:*
         version: link:../../packages/mcp
       '@types/express':
@@ -416,9 +416,6 @@ importers:
 
   examples/nest:
     dependencies:
-      '@open-stack/openai':
-        specifier: 3.0.0-beta.42
-        version: link:../../packages/openai
       '@nestjs/common':
         specifier: ^10.4.15
         version: 10.4.15(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -428,9 +425,12 @@ importers:
       '@nestjs/platform-express':
         specifier: ^10.4.9
         version: 10.4.9(@nestjs/common@10.4.15(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@10.4.2)
+      '@omni-stack/openai':
+        specifier: 3.0.0-beta.42
+        version: link:../../packages/openai
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       reflect-metadata:
         specifier: ^0.2.0
         version: 0.2.2
@@ -504,7 +504,7 @@ importers:
 
   examples/next:
     dependencies:
-      '@open-stack/react':
+      '@omni-stack/react':
         specifier: 3.0.0-beta.81
         version: link:../../packages/react
       '@vercel/blob':
@@ -512,7 +512,7 @@ importers:
         version: 0.26.0
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       next:
         specifier: ^15.5.4
         version: 15.5.4(@opentelemetry/api@1.9.0)(@playwright/test@1.50.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0)
@@ -565,10 +565,10 @@ importers:
 
   examples/next-agent:
     dependencies:
-      '@open-stack/openai':
+      '@omni-stack/openai':
         specifier: 3.0.0-beta.42
         version: link:../../packages/openai
-      '@open-stack/react':
+      '@omni-stack/react':
         specifier: 3.0.0-beta.81
         version: link:../../packages/react
       '@vercel/blob':
@@ -576,7 +576,7 @@ importers:
         version: 0.26.0
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       next:
         specifier: ^15.5.4
         version: 15.5.4(@opentelemetry/api@1.9.0)(@playwright/test@1.50.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0)
@@ -626,12 +626,12 @@ importers:
 
   examples/next-fastapi:
     dependencies:
-      '@open-stack/react':
+      '@omni-stack/react':
         specifier: 3.0.0-beta.81
         version: link:../../packages/react
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       geist:
         specifier: ^1.3.1
         version: 1.3.1(next@15.5.4(@opentelemetry/api@1.9.0)(@playwright/test@1.50.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0))
@@ -678,12 +678,12 @@ importers:
 
   examples/next-google-vertex:
     dependencies:
-      '@open-stack/google-vertex':
+      '@omni-stack/google-vertex':
         specifier: 4.0.0-beta.53
         version: link:../../packages/google-vertex
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       geist:
         specifier: ^1.3.1
         version: 1.3.1(next@15.5.4(@opentelemetry/api@1.9.0)(@playwright/test@1.50.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0))
@@ -721,21 +721,21 @@ importers:
 
   examples/next-langchain:
     dependencies:
-      '@open-stack/langchain':
-        specifier: 2.0.0-beta.81
-        version: link:../../packages/langchain
-      '@open-stack/react':
-        specifier: 3.0.0-beta.81
-        version: link:../../packages/react
       '@langchain/core':
         specifier: 0.1.63
         version: 0.1.63(openai@5.6.0(ws@8.18.0)(zod@3.25.76))
       '@langchain/openai':
         specifier: 0.0.28
         version: 0.0.28(encoding@0.1.13)
+      '@omni-stack/langchain':
+        specifier: 2.0.0-beta.81
+        version: link:../../packages/langchain
+      '@omni-stack/react':
+        specifier: 3.0.0-beta.81
+        version: link:../../packages/react
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       langchain:
         specifier: 0.1.36
         version: 0.1.36(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.663.0)(@aws-sdk/credential-provider-node@3.662.0(@aws-sdk/client-sso-oidc@3.662.0(@aws-sdk/client-sts@3.662.0))(@aws-sdk/client-sts@3.662.0))(@smithy/util-utf8@2.3.0)(@upstash/redis@1.34.3)(@vercel/kv@0.2.4)(encoding@0.1.13)(fast-xml-parser@4.4.1)(ignore@5.3.2)(ioredis@5.4.1)(jsdom@26.0.0)(lodash@4.17.21)(openai@5.6.0(ws@8.18.0)(zod@3.25.76))(playwright@1.50.1)(redis@4.7.0)(ws@8.18.0)
@@ -779,57 +779,57 @@ importers:
 
   examples/next-openai:
     dependencies:
-      '@open-stack/amazon-bedrock':
-        specifier: 4.0.0-beta.50
-        version: link:../../packages/amazon-bedrock
-      '@open-stack/anthropic':
-        specifier: 3.0.0-beta.45
-        version: link:../../packages/anthropic
-      '@open-stack/cohere':
-        specifier: 3.0.0-beta.27
-        version: link:../../packages/cohere
-      '@open-stack/deepseek':
-        specifier: 2.0.0-beta.27
-        version: link:../../packages/deepseek
-      '@open-stack/fireworks':
-        specifier: 2.0.0-beta.27
-        version: link:../../packages/fireworks
-      '@open-stack/google':
-        specifier: 3.0.0-beta.33
-        version: link:../../packages/google
-      '@open-stack/google-vertex':
-        specifier: 4.0.0-beta.53
-        version: link:../../packages/google-vertex
-      '@open-stack/groq':
-        specifier: 3.0.0-beta.26
-        version: link:../../packages/groq
-      '@open-stack/mcp':
-        specifier: 1.0.0-beta.7
-        version: link:../../packages/mcp
-      '@open-stack/mistral':
-        specifier: 3.0.0-beta.27
-        version: link:../../packages/mistral
-      '@open-stack/openai':
-        specifier: 3.0.0-beta.42
-        version: link:../../packages/openai
-      '@open-stack/perplexity':
-        specifier: 3.0.0-beta.26
-        version: link:../../packages/perplexity
-      '@open-stack/provider-utils':
-        specifier: 4.0.0-beta.26
-        version: link:../../packages/provider-utils
-      '@open-stack/react':
-        specifier: 3.0.0-beta.81
-        version: link:../../packages/react
-      '@open-stack/rsc':
-        specifier: 2.0.0-beta.81
-        version: link:../../packages/rsc
-      '@open-stack/xai':
-        specifier: 3.0.0-beta.29
-        version: link:../../packages/xai
       '@modelcontextprotocol/sdk':
         specifier: ^1.10.2
         version: 1.17.3
+      '@omni-stack/amazon-bedrock':
+        specifier: 4.0.0-beta.50
+        version: link:../../packages/amazon-bedrock
+      '@omni-stack/anthropic':
+        specifier: 3.0.0-beta.45
+        version: link:../../packages/anthropic
+      '@omni-stack/cohere':
+        specifier: 3.0.0-beta.27
+        version: link:../../packages/cohere
+      '@omni-stack/deepseek':
+        specifier: 2.0.0-beta.27
+        version: link:../../packages/deepseek
+      '@omni-stack/fireworks':
+        specifier: 2.0.0-beta.27
+        version: link:../../packages/fireworks
+      '@omni-stack/google':
+        specifier: 3.0.0-beta.33
+        version: link:../../packages/google
+      '@omni-stack/google-vertex':
+        specifier: 4.0.0-beta.53
+        version: link:../../packages/google-vertex
+      '@omni-stack/groq':
+        specifier: 3.0.0-beta.26
+        version: link:../../packages/groq
+      '@omni-stack/mcp':
+        specifier: 1.0.0-beta.7
+        version: link:../../packages/mcp
+      '@omni-stack/mistral':
+        specifier: 3.0.0-beta.27
+        version: link:../../packages/mistral
+      '@omni-stack/openai':
+        specifier: 3.0.0-beta.42
+        version: link:../../packages/openai
+      '@omni-stack/perplexity':
+        specifier: 3.0.0-beta.26
+        version: link:../../packages/perplexity
+      '@omni-stack/provider-utils':
+        specifier: 4.0.0-beta.26
+        version: link:../../packages/provider-utils
+      '@omni-stack/react':
+        specifier: 3.0.0-beta.81
+        version: link:../../packages/react
+      '@omni-stack/rsc':
+        specifier: 2.0.0-beta.81
+        version: link:../../packages/rsc
+      '@omni-stack/xai':
+        specifier: 3.0.0-beta.29
+        version: link:../../packages/xai
       '@radix-ui/react-collapsible':
         specifier: ^1.1.12
         version: 1.1.12(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -847,7 +847,7 @@ importers:
         version: 0.0.21
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -921,10 +921,10 @@ importers:
 
   examples/next-openai-kasada-bot-protection:
     dependencies:
-      '@open-stack/openai':
+      '@omni-stack/openai':
         specifier: 3.0.0-beta.42
         version: link:../../packages/openai
-      '@open-stack/react':
+      '@omni-stack/react':
         specifier: 3.0.0-beta.81
         version: link:../../packages/react
       '@vercel/functions':
@@ -932,7 +932,7 @@ importers:
         version: 3.1.0(@aws-sdk/credential-provider-web-identity@3.662.0(@aws-sdk/client-sts@3.662.0))
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       next:
         specifier: ^15.5.4
         version: 15.5.4(@opentelemetry/api@1.9.0)(@playwright/test@1.50.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0)
@@ -976,15 +976,15 @@ importers:
 
   examples/next-openai-pages:
     dependencies:
-      '@open-stack/openai':
+      '@omni-stack/openai':
         specifier: 3.0.0-beta.42
         version: link:../../packages/openai
-      '@open-stack/react':
+      '@omni-stack/react':
         specifier: 3.0.0-beta.81
         version: link:../../packages/react
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.4.5)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       next:
         specifier: ^15.5.4
         version: 15.5.4(@opentelemetry/api@1.9.0)(@playwright/test@1.50.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0)
@@ -1028,10 +1028,10 @@ importers:
 
   examples/next-openai-telemetry:
     dependencies:
-      '@open-stack/openai':
+      '@omni-stack/openai':
         specifier: 3.0.0-beta.42
         version: link:../../packages/openai
-      '@open-stack/react':
+      '@omni-stack/react':
         specifier: 3.0.0-beta.81
         version: link:../../packages/react
       '@opentelemetry/api-logs':
@@ -1048,7 +1048,7 @@ importers:
         version: 1.10.0(@opentelemetry/api-logs@0.55.0)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.52.1(@opentelemetry/api@1.9.0))(@opentelemetry/resources@2.1.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-logs@0.55.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-metrics@1.29.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@2.1.0(@opentelemetry/api@1.9.0))
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.6.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       next:
         specifier: ^15.5.4
         version: 15.5.4(@opentelemetry/api@1.9.0)(@playwright/test@1.50.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0)
@@ -1092,10 +1092,10 @@ importers:
 
   examples/next-openai-telemetry-sentry:
     dependencies:
-      '@open-stack/openai':
+      '@omni-stack/openai':
         specifier: 3.0.0-beta.42
         version: link:../../packages/openai
-      '@open-stack/react':
+      '@omni-stack/react':
         specifier: 3.0.0-beta.81
         version: link:../../packages/react
       '@opentelemetry/api-logs':
@@ -1118,7 +1118,7 @@ importers:
         version: 1.10.0(@opentelemetry/api-logs@0.55.0)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.52.1(@opentelemetry/api@1.9.0))(@opentelemetry/resources@2.1.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-logs@0.55.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-metrics@1.29.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@2.1.0(@opentelemetry/api@1.9.0))
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       next:
         specifier: ^15.5.4
         version: 15.5.4(@opentelemetry/api@1.9.0)(@playwright/test@1.50.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0)
@@ -1162,10 +1162,10 @@ importers:
 
   examples/next-openai-upstash-rate-limits:
     dependencies:
-      '@open-stack/openai':
+      '@omni-stack/openai':
         specifier: 3.0.0-beta.42
         version: link:../../packages/openai
-      '@open-stack/react':
+      '@omni-stack/react':
         specifier: 3.0.0-beta.81
         version: link:../../packages/react
       '@upstash/ratelimit':
@@ -1176,7 +1176,7 @@ importers:
         version: 0.2.4
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       next:
         specifier: ^15.5.4
         version: 15.5.4(@opentelemetry/api@1.9.0)(@playwright/test@1.50.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.90.0)
@@ -1220,12 +1220,12 @@ importers:
 
   examples/node-http-server:
     dependencies:
-      '@open-stack/openai':
+      '@omni-stack/openai':
         specifier: 3.0.0-beta.42
         version: link:../../packages/openai
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -1245,15 +1245,15 @@ importers:
 
   examples/nuxt-openai:
     dependencies:
-      '@open-stack/openai':
+      '@omni-stack/openai':
         specifier: 3.0.0-beta.42
         version: link:../../packages/openai
-      '@open-stack/vue':
+      '@omni-stack/vue':
         specifier: 3.0.0-beta.81
         version: link:../../packages/vue
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       zod:
         specifier: 3.25.76
         version: 3.25.76
@@ -1300,21 +1300,21 @@ importers:
 
   examples/sveltekit-openai:
     devDependencies:
-      '@open-stack/openai':
-        specifier: 3.0.0-beta.42
-        version: link:../../packages/openai
-      '@open-stack/provider-utils':
-        specifier: 4.0.0-beta.26
-        version: link:../../packages/provider-utils
-      '@open-stack/svelte':
-        specifier: 4.0.0-beta.81
-        version: link:../../packages/svelte
       '@eslint/compat':
         specifier: ^1.2.5
         version: 1.2.7(eslint@9.21.0(jiti@2.4.0))
       '@eslint/js':
         specifier: ^9.18.0
         version: 9.21.0
+      '@omni-stack/openai':
+        specifier: 3.0.0-beta.42
+        version: link:../../packages/openai
+      '@omni-stack/provider-utils':
+        specifier: 4.0.0-beta.26
+        version: link:../../packages/provider-utils
+      '@omni-stack/svelte':
+        specifier: 4.0.0-beta.81
+        version: link:../../packages/svelte
       '@sveltejs/adapter-vercel':
         specifier: ^5.5.2
         version: 5.6.3(@sveltejs/kit@2.18.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.32.1)(vite@6.2.7(@types/node@22.7.4)(jiti@2.4.0)(less@4.4.0)(sass@1.90.0)(terser@5.43.1)(tsx@4.19.2)(yaml@2.7.0)))(svelte@5.32.1)(vite@6.2.7(@types/node@22.7.4)(jiti@2.4.0)(less@4.4.0)(sass@1.90.0)(terser@5.43.1)(tsx@4.19.2)(yaml@2.7.0)))(encoding@0.1.13)(rollup@4.52.3)
@@ -1326,7 +1326,7 @@ importers:
         version: 5.0.3(svelte@5.32.1)(vite@6.2.7(@types/node@22.7.4)(jiti@2.4.0)(less@4.4.0)(sass@1.90.0)(terser@5.43.1)(tsx@4.19.2)(yaml@2.7.0))
       ai:
         specifier: 6.0.0-beta.81
-        version: link:../../packages/ai
+        version: 6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.21(postcss@8.5.3)
@@ -1379,67 +1379,15 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
 
-  packages/ai:
-    dependencies:
-      '@open-stack/gateway':
-        specifier: workspace:*
-        version: link:../gateway
-      '@open-stack/provider':
-        specifier: workspace:*
-        version: link:../provider
-      '@open-stack/provider-utils':
-        specifier: workspace:*
-        version: link:../provider-utils
-      '@opentelemetry/api':
-        specifier: 1.9.0
-        version: 1.9.0
-    devDependencies:
-      '@open-stack/test-server':
-        specifier: workspace:*
-        version: link:../test-server
-      '@edge-runtime/vm':
-        specifier: ^5.0.0
-        version: 5.0.0
-      '@types/json-schema':
-        specifier: 7.0.15
-        version: 7.0.15
-      '@types/node':
-        specifier: 20.17.24
-        version: 20.17.24
-      '@vercel/ai-tsconfig':
-        specifier: workspace:*
-        version: link:../../tools/tsconfig
-      esbuild:
-        specifier: ^0.24.2
-        version: 0.24.2
-      eslint:
-        specifier: 8.57.1
-        version: 8.57.1
-      eslint-config-vercel-ai:
-        specifier: workspace:*
-        version: link:../../tools/eslint-config
-      tsup:
-        specifier: ^7.2.0
-        version: 7.2.0(postcss@8.5.6)(ts-node@10.9.2(@types/node@20.17.24)(typescript@5.8.3))(typescript@5.8.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.19.2
-      typescript:
-        specifier: 5.8.3
-        version: 5.8.3
-      zod:
-        specifier: 3.25.76
-        version: 3.25.76
-
   packages/amazon-bedrock:
     dependencies:
-      '@open-stack/anthropic':
+      '@omni-stack/anthropic':
         specifier: workspace:*
         version: link:../anthropic
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
       '@smithy/eventstream-codec':
@@ -1452,7 +1400,7 @@ importers:
         specifier: ^1.0.20
         version: 1.0.20
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1473,17 +1421,17 @@ importers:
 
   packages/angular:
     dependencies:
-      '@open-stack/provider-utils':
-        specifier: workspace:*
-        version: link:../provider-utils
       '@angular/core':
         specifier: '>=16.0.0'
         version: 20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1)
-      ai:
+      '@omni-stack/core':
         specifier: workspace:*
-        version: link:../ai
+        version: link:../core
+      '@omni-stack/provider-utils':
+        specifier: workspace:*
+        version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1516,14 +1464,14 @@ importers:
 
   packages/anthropic:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1544,14 +1492,14 @@ importers:
 
   packages/assemblyai:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1572,17 +1520,17 @@ importers:
 
   packages/azure:
     dependencies:
-      '@open-stack/openai':
+      '@omni-stack/openai':
         specifier: workspace:*
         version: link:../openai
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1603,18 +1551,18 @@ importers:
 
   packages/baseten:
     dependencies:
-      '@open-stack/openai-compatible':
-        specifier: workspace:*
-        version: link:../openai-compatible
-      '@open-stack/provider':
-        specifier: workspace:*
-        version: link:../provider
-      '@open-stack/provider-utils':
-        specifier: workspace:*
-        version: link:../provider-utils
       '@basetenlabs/performance-client':
         specifier: ^0.0.10
         version: 0.0.10
+      '@omni-stack/openai-compatible':
+        specifier: workspace:*
+        version: link:../openai-compatible
+      '@omni-stack/provider':
+        specifier: workspace:*
+        version: link:../provider
+      '@omni-stack/provider-utils':
+        specifier: workspace:*
+        version: link:../provider-utils
     devDependencies:
       '@types/node':
         specifier: 20.17.24
@@ -1634,13 +1582,13 @@ importers:
 
   packages/cerebras:
     dependencies:
-      '@open-stack/openai-compatible':
+      '@omni-stack/openai-compatible':
         specifier: workspace:*
         version: link:../openai-compatible
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
@@ -1675,6 +1623,9 @@ importers:
         specifier: ^17.1.1
         version: 17.1.1(@babel/preset-env@7.28.3(@babel/core@7.25.2))
     devDependencies:
+      '@omni-stack/core':
+        specifier: workspace:*
+        version: link:../core
       '@types/cli-progress':
         specifier: ^3.11.6
         version: 3.11.6
@@ -1693,9 +1644,6 @@ importers:
       '@vercel/ai-tsconfig':
         specifier: workspace:*
         version: link:../../tools/tsconfig
-      ai:
-        specifier: workspace:*
-        version: link:../ai
       msw:
         specifier: 2.6.4
         version: 2.6.4(@types/node@20.17.24)(typescript@5.8.3)
@@ -1714,14 +1662,14 @@ importers:
 
   packages/cohere:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1740,16 +1688,68 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
 
-  packages/deepgram:
+  packages/core:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/gateway':
+        specifier: workspace:*
+        version: link:../gateway
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
+        specifier: workspace:*
+        version: link:../provider-utils
+      '@opentelemetry/api':
+        specifier: 1.9.0
+        version: 1.9.0
+    devDependencies:
+      '@edge-runtime/vm':
+        specifier: ^5.0.0
+        version: 5.0.0
+      '@omni-stack/test-server':
+        specifier: workspace:*
+        version: link:../test-server
+      '@types/json-schema':
+        specifier: 7.0.15
+        version: 7.0.15
+      '@types/node':
+        specifier: 20.17.24
+        version: 20.17.24
+      '@vercel/ai-tsconfig':
+        specifier: workspace:*
+        version: link:../../tools/tsconfig
+      esbuild:
+        specifier: ^0.24.2
+        version: 0.24.2
+      eslint:
+        specifier: 8.57.1
+        version: 8.57.1
+      eslint-config-vercel-ai:
+        specifier: workspace:*
+        version: link:../../tools/eslint-config
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(postcss@8.5.6)(ts-node@10.9.2(@types/node@20.17.24)(typescript@5.8.3))(typescript@5.8.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.19.2
+      typescript:
+        specifier: 5.8.3
+        version: 5.8.3
+      zod:
+        specifier: 3.25.76
+        version: 3.25.76
+
+  packages/deepgram:
+    dependencies:
+      '@omni-stack/provider':
+        specifier: workspace:*
+        version: link:../provider
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1770,17 +1770,17 @@ importers:
 
   packages/deepinfra:
     dependencies:
-      '@open-stack/openai-compatible':
+      '@omni-stack/openai-compatible':
         specifier: workspace:*
         version: link:../openai-compatible
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1801,13 +1801,13 @@ importers:
 
   packages/deepseek:
     dependencies:
-      '@open-stack/openai-compatible':
+      '@omni-stack/openai-compatible':
         specifier: workspace:*
         version: link:../openai-compatible
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
@@ -1829,14 +1829,14 @@ importers:
 
   packages/elevenlabs:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1857,14 +1857,14 @@ importers:
 
   packages/fal:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1885,17 +1885,17 @@ importers:
 
   packages/fireworks:
     dependencies:
-      '@open-stack/openai-compatible':
+      '@omni-stack/openai-compatible':
         specifier: workspace:*
         version: link:../openai-compatible
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1916,17 +1916,17 @@ importers:
 
   packages/gateway:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
       '@vercel/oidc':
         specifier: 3.0.3
         version: 3.0.3
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1947,14 +1947,14 @@ importers:
 
   packages/gladia:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -1975,14 +1975,14 @@ importers:
 
   packages/google:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2003,23 +2003,23 @@ importers:
 
   packages/google-vertex:
     dependencies:
-      '@open-stack/anthropic':
+      '@omni-stack/anthropic':
         specifier: workspace:*
         version: link:../anthropic
-      '@open-stack/google':
+      '@omni-stack/google':
         specifier: workspace:*
         version: link:../google
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
       google-auth-library:
         specifier: ^9.15.0
         version: 9.15.0(encoding@0.1.13)
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2040,14 +2040,14 @@ importers:
 
   packages/groq:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2068,17 +2068,17 @@ importers:
 
   packages/huggingface:
     dependencies:
-      '@open-stack/openai-compatible':
+      '@omni-stack/openai-compatible':
         specifier: workspace:*
         version: link:../openai-compatible
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2099,14 +2099,14 @@ importers:
 
   packages/hume:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2127,9 +2127,9 @@ importers:
 
   packages/langchain:
     dependencies:
-      ai:
+      '@omni-stack/core':
         specifier: workspace:*
-        version: link:../ai
+        version: link:../core
     devDependencies:
       '@types/node':
         specifier: 20.17.24
@@ -2146,9 +2146,9 @@ importers:
 
   packages/llamaindex:
     dependencies:
-      ai:
+      '@omni-stack/core':
         specifier: workspace:*
-        version: link:../ai
+        version: link:../core
     devDependencies:
       '@types/node':
         specifier: 20.17.24
@@ -2165,14 +2165,14 @@ importers:
 
   packages/lmnt:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2193,14 +2193,14 @@ importers:
 
   packages/luma:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2221,17 +2221,17 @@ importers:
 
   packages/mcp:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
       pkce-challenge:
         specifier: ^5.0.0
         version: 5.0.0
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2252,14 +2252,14 @@ importers:
 
   packages/mistral:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2280,14 +2280,14 @@ importers:
 
   packages/openai:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2308,14 +2308,14 @@ importers:
 
   packages/openai-compatible:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2336,14 +2336,14 @@ importers:
 
   packages/perplexity:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2386,7 +2386,7 @@ importers:
 
   packages/provider-utils:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
       '@standard-schema/spec':
@@ -2429,12 +2429,12 @@ importers:
 
   packages/react:
     dependencies:
-      '@open-stack/provider-utils':
+      '@omni-stack/core':
+        specifier: workspace:*
+        version: link:../core
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
-      ai:
-        specifier: workspace:*
-        version: link:../ai
       react:
         specifier: ^18 || ^19 || ^19.0.0-rc
         version: 19.0.0-rc.1
@@ -2445,7 +2445,7 @@ importers:
         specifier: 2.1.0
         version: 2.1.0
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@testing-library/jest-dom':
@@ -2496,14 +2496,14 @@ importers:
 
   packages/replicate:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2524,14 +2524,14 @@ importers:
 
   packages/revai:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2552,15 +2552,15 @@ importers:
 
   packages/rsc:
     dependencies:
-      '@open-stack/provider':
+      '@omni-stack/core':
+        specifier: workspace:*
+        version: link:../core
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
-      ai:
-        specifier: workspace:*
-        version: link:../ai
       jsondiffpatch:
         specifier: 0.6.0
         version: 0.6.0
@@ -2620,39 +2620,24 @@ importers:
         specifier: 3.25.76
         version: 3.25.76
 
-  packages/rsc/tests/e2e/next-server:
-    dependencies:
-      ai:
-        specifier: workspace:*
-        version: link:../../../../ai
-      next:
-        specifier: canary
-        version: 15.6.0-canary.39(@opentelemetry/api@1.9.0)(@playwright/test@1.50.1)(react-dom@19.0.0-rc.1(react@19.0.0-rc.1))(react@19.0.0-rc.1)(sass@1.90.0)
-      react:
-        specifier: rc
-        version: 19.0.0-rc.1
-      react-dom:
-        specifier: rc
-        version: 19.0.0-rc.1(react@19.0.0-rc.1)
-
   packages/svelte:
     dependencies:
-      '@open-stack/provider-utils':
+      '@omni-stack/core':
+        specifier: workspace:*
+        version: link:../core
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
-      ai:
-        specifier: workspace:*
-        version: link:../ai
     devDependencies:
-      '@open-stack/test-server':
-        specifier: workspace:*
-        version: link:../test-server
       '@eslint/compat':
         specifier: ^1.2.5
         version: 1.2.7(eslint@9.21.0(jiti@2.4.0))
       '@eslint/js':
         specifier: ^9.18.0
         version: 9.21.0
+      '@omni-stack/test-server':
+        specifier: workspace:*
+        version: link:../test-server
       '@sveltejs/package':
         specifier: ^2.0.0
         version: 2.3.10(svelte@5.32.1)(typescript@5.8.3)
@@ -2728,17 +2713,17 @@ importers:
 
   packages/togetherai:
     dependencies:
-      '@open-stack/openai-compatible':
+      '@omni-stack/openai-compatible':
         specifier: workspace:*
         version: link:../openai-compatible
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2759,7 +2744,7 @@ importers:
 
   packages/valibot:
     dependencies:
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
@@ -2784,13 +2769,13 @@ importers:
 
   packages/vercel:
     dependencies:
-      '@open-stack/openai-compatible':
+      '@omni-stack/openai-compatible':
         specifier: workspace:*
         version: link:../openai-compatible
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
@@ -2812,12 +2797,12 @@ importers:
 
   packages/vue:
     dependencies:
-      '@open-stack/provider-utils':
+      '@omni-stack/core':
+        specifier: workspace:*
+        version: link:../core
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
-      ai:
-        specifier: workspace:*
-        version: link:../ai
       swrv:
         specifier: ^1.0.4
         version: 1.0.4(vue@3.5.13(typescript@5.8.3))
@@ -2825,7 +2810,7 @@ importers:
         specifier: ^3.3.4
         version: 3.5.13(typescript@5.8.3)
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@testing-library/jest-dom':
@@ -2873,17 +2858,17 @@ importers:
 
   packages/xai:
     dependencies:
-      '@open-stack/openai-compatible':
+      '@omni-stack/openai-compatible':
         specifier: workspace:*
         version: link:../openai-compatible
-      '@open-stack/provider':
+      '@omni-stack/provider':
         specifier: workspace:*
         version: link:../provider
-      '@open-stack/provider-utils':
+      '@omni-stack/provider-utils':
         specifier: workspace:*
         version: link:../provider-utils
     devDependencies:
-      '@open-stack/test-server':
+      '@omni-stack/test-server':
         specifier: workspace:*
         version: link:../test-server
       '@types/node':
@@ -2941,6 +2926,32 @@ packages:
 
   '@adobe/css-tools@4.4.0':
     resolution: {integrity: sha512-Ff9+ksdQQB3rMncgqDK78uLznstjyfIf2Arnh22pW8kBpLs6rpKDwgnZT46hin5Hl1WzazzK64DOrhSwYpS7bQ==}
+
+  '@ai-sdk/gateway@2.0.0-beta.44':
+    resolution: {integrity: sha512-FZ6G88+Y8kFuI5ZjqOnM9OWtvG6aIwdTRtfIIWDStqXbTY4MuE6k2j4ip9sPflZG20V7I3LzVQDYbA8NZVmC6A==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.25.76 || ^4.1.8
+
+  '@ai-sdk/provider-utils@4.0.0-beta.26':
+    resolution: {integrity: sha512-s+SBYUbXm/BD8w5jXEJpZ7dOUpazp8B8WxQg1nUc/ObHAnf5ynVocNuKYDcKHhYbh75fwbCauMl9G1P1ZZkvhg==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@valibot/to-json-schema': ^1.3.0
+      arktype: ^2.1.22
+      effect: ^3.18.4
+      zod: ^3.25.76 || ^4.1.8
+    peerDependenciesMeta:
+      '@valibot/to-json-schema':
+        optional: true
+      arktype:
+        optional: true
+      effect:
+        optional: true
+
+  '@ai-sdk/provider@3.0.0-beta.12':
+    resolution: {integrity: sha512-Fd99yLeJ0Idh4TZ2UeVzyedhHBbekAzhnkY0o8Eqb5abzi0wiS8i7yyiC9PRVPra6lxfUgQcqxk+yf9xnn2k2A==}
+    engines: {node: '>=18'}
 
   '@algolia/abtesting@1.1.0':
     resolution: {integrity: sha512-sEyWjw28a/9iluA37KLGu8vjxEIlb60uxznfTUmXImy7H5NvbpSO6yYgmgH5KiD7j+zTUUihiST0jEP12IoXow==}
@@ -6952,9 +6963,6 @@ packages:
   '@next/env@15.5.4':
     resolution: {integrity: sha512-27SQhYp5QryzIT5uO8hq99C69eLQ7qkzkDPsk3N+GuS2XgOgoYEeOav7Pf8Tn4drECOVDsDg8oj+/DVy8qQL2A==}
 
-  '@next/env@15.6.0-canary.39':
-    resolution: {integrity: sha512-WvJxtTel5Yt+z1QmCfgdFTOwk3edEzvhh6G1AuV45g2JJfx/8PljYEGVApJlUe2pjfKpW3K3K56qmeaaa+h7pw==}
-
   '@next/eslint-plugin-next@14.2.3':
     resolution: {integrity: sha512-L3oDricIIjgj1AVnRdRor21gI7mShlSwU/1ZGHmqM3LzHhXXhdkrfeNY5zif25Bi5Dd7fiJHsbhoZCHfXYvlAw==}
 
@@ -6966,12 +6974,6 @@ packages:
 
   '@next/swc-darwin-arm64@15.5.4':
     resolution: {integrity: sha512-nopqz+Ov6uvorej8ndRX6HlxCYWCO3AHLfKK2TYvxoSB2scETOcfm/HSS3piPqc3A+MUgyHoqE6je4wnkjfrOA==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@next/swc-darwin-arm64@15.6.0-canary.39':
-    resolution: {integrity: sha512-/JP8D3GHAHiPhRw4Tl1sRDvkijzciieWgmYdhEsg14V4ElZmk8cTZVJIybh9Vv/BN3avOfMZ0N2KT+b2K/ZdRg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -6988,12 +6990,6 @@ packages:
     cpu: [x64]
     os: [darwin]
 
-  '@next/swc-darwin-x64@15.6.0-canary.39':
-    resolution: {integrity: sha512-ia/xFDPLliYYzPTdJ+LhQTuaxvgmWYuddutA1JfZyBu511Q5P2h8NnxOonME+N4kXgi1dp0wezgZ4H58J31fnQ==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [darwin]
-
   '@next/swc-linux-arm64-gnu@15.0.0-canary.23':
     resolution: {integrity: sha512-VceywUaF8xg9zZ2PnElzMOI1CjmKFSV1EJ0O1V/OSnf8RPtD+yisXvaFSvMH1b1aZsb1wBhYFZSjVSDNFsQrzA==}
     engines: {node: '>= 10'}
@@ -7002,12 +6998,6 @@ packages:
 
   '@next/swc-linux-arm64-gnu@15.5.4':
     resolution: {integrity: sha512-eRD5zkts6jS3VfE/J0Kt1VxdFqTnMc3QgO5lFE5GKN3KDI/uUpSyK3CjQHmfEkYR4wCOl0R0XrsjpxfWEA++XA==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [linux]
-
-  '@next/swc-linux-arm64-gnu@15.6.0-canary.39':
-    resolution: {integrity: sha512-/FzkyPY0bOJ2OrGQMf55Jv/2MKCe6gUny1JTU0eyhJnjKleDGWTqH6NAULa0eElr8sxxooaUFtog/jnBd35CPQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -7024,12 +7014,6 @@ packages:
     cpu: [arm64]
     os: [linux]
 
-  '@next/swc-linux-arm64-musl@15.6.0-canary.39':
-    resolution: {integrity: sha512-v4yzGa1wlQV9SHGNMLOFTLJuZc71G+j+6TOGa9DcLf6jLH+KXKiJZG0djfclscReVID4UOJ+aZwEivU0AsYEbg==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [linux]
-
   '@next/swc-linux-x64-gnu@15.0.0-canary.23':
     resolution: {integrity: sha512-3CY4UcqOc3LPJ9iIXRN8/UHNZ96f5VKNaWWLq+EYqDOKRx5RBwedNSoaap/fx3+MHIw+lUpizWxHFx+amlMVZQ==}
     engines: {node: '>= 10'}
@@ -7038,12 +7022,6 @@ packages:
 
   '@next/swc-linux-x64-gnu@15.5.4':
     resolution: {integrity: sha512-7HKolaj+481FSW/5lL0BcTkA4Ueam9SPYWyN/ib/WGAFZf0DGAN8frNpNZYFHtM4ZstrHZS3LY3vrwlIQfsiMA==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [linux]
-
-  '@next/swc-linux-x64-gnu@15.6.0-canary.39':
-    resolution: {integrity: sha512-w7GUgYcIjp1tzi/qNqMACLfQ+piMtJu/f942ysLnbGVBxCyoZ/XtkoiF8H76y0JkpbxrYnT7TqpeUITvZTuZPA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -7060,12 +7038,6 @@ packages:
     cpu: [x64]
     os: [linux]
 
-  '@next/swc-linux-x64-musl@15.6.0-canary.39':
-    resolution: {integrity: sha512-WNWb3nb6XjFpit8U0OpjgkGB6sluZ+IGftSCS89U4gbS8iaDT7vBssgWf8GiXGaydbI7t+g+6c2Q9hWJXmq0dQ==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [linux]
-
   '@next/swc-win32-arm64-msvc@15.0.0-canary.23':
     resolution: {integrity: sha512-FM2RSVvVOnOWriLZhsZUbXGdBQQErLE1BDObnPQ7T5AtISpjtFXIHt6Oh/bmJ5HmB4logtUGDJYT8kW94E2Wew==}
     engines: {node: '>= 10'}
@@ -7074,12 +7046,6 @@ packages:
 
   '@next/swc-win32-arm64-msvc@15.5.4':
     resolution: {integrity: sha512-PcR2bN7FlM32XM6eumklmyWLLbu2vs+D7nJX8OAIoWy69Kef8mfiN4e8TUv2KohprwifdpFKPzIP1njuCjD0YA==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [win32]
-
-  '@next/swc-win32-arm64-msvc@15.6.0-canary.39':
-    resolution: {integrity: sha512-c0JMiJj+6V1k7WX8T3olM4XLpRwN5PJ18dm0z15rRCsd7syCZnnkD0wuYB/ybUxeovJMOwwhWRpayxEdtVrpFA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
@@ -7098,12 +7064,6 @@ packages:
 
   '@next/swc-win32-x64-msvc@15.5.4':
     resolution: {integrity: sha512-1ur2tSHZj8Px/KMAthmuI9FMp/YFusMMGoRNJaRZMOlSkgvLjzosSdQI0cJAKogdHl3qXUQKL9MGaYvKwA7DXg==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [win32]
-
-  '@next/swc-win32-x64-msvc@15.6.0-canary.39':
-    resolution: {integrity: sha512-PRHFb/FwmBLND8VfN0LPhkNw6T4x6vF58ZSiQXHAkH96K5NnxgHdVAZHibzflJgcIh6l2g9UU11qA4rjrhe5cA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -10155,6 +10115,12 @@ packages:
   agentkeepalive@4.5.0:
     resolution: {integrity: sha512-5GG/5IbQQpC9FpkRGsSvZI5QYeSCzlJHdpBQntCsuTOxhKD8lqKhrleg2Yi7yvMIf82Ycmmqln9U8V9qwEiJew==}
     engines: {node: '>= 8.0.0'}
+
+  ai@6.0.0-beta.81:
+    resolution: {integrity: sha512-etsjeEO035J+K7Lorf0/78VRp3m191znxNaGenP/7TFIxvIIXm+TIZGKw+KQhwqmKMCbUK62/j2w9WTHzIDldg==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.25.76 || ^4.1.8
 
   ajv-formats@2.1.1:
     resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
@@ -14837,27 +14803,6 @@ packages:
       sass:
         optional: true
 
-  next@15.6.0-canary.39:
-    resolution: {integrity: sha512-pF/49/XGll60UBL+d57XwzsmHpdfSBwY5JxoKEgrrW4oHUfoQoxDN4AdexGfTI5fpo/GNuO92tXC5jLExI3rCg==}
-    engines: {node: '>=20.9.0'}
-    hasBin: true
-    peerDependencies:
-      '@opentelemetry/api': ^1.1.0
-      '@playwright/test': ^1.51.1
-      babel-plugin-react-compiler: '*'
-      react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
-      react-dom: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
-      sass: ^1.3.0
-    peerDependenciesMeta:
-      '@opentelemetry/api':
-        optional: true
-      '@playwright/test':
-        optional: true
-      babel-plugin-react-compiler:
-        optional: true
-      sass:
-        optional: true
-
   nitropack@2.10.4:
     resolution: {integrity: sha512-sJiG/MIQlZCVSw2cQrFG1H6mLeSqHlYfFerRjLKz69vUfdu0EL2l0WdOxlQbzJr3mMv/l4cOlCCLzVRzjzzF/g==}
     engines: {node: ^16.11.0 || >=17.0.0}
@@ -18567,6 +18512,76 @@ snapshots:
 
   '@adobe/css-tools@4.4.0': {}
 
+  '@ai-sdk/gateway@2.0.0-beta.44(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.4.5)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)':
+    dependencies:
+      '@ai-sdk/provider': 3.0.0-beta.12
+      '@ai-sdk/provider-utils': 4.0.0-beta.26(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.4.5)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
+      '@vercel/oidc': 3.0.3
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - '@valibot/to-json-schema'
+      - arktype
+      - effect
+
+  '@ai-sdk/gateway@2.0.0-beta.44(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.6.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)':
+    dependencies:
+      '@ai-sdk/provider': 3.0.0-beta.12
+      '@ai-sdk/provider-utils': 4.0.0-beta.26(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.6.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
+      '@vercel/oidc': 3.0.3
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - '@valibot/to-json-schema'
+      - arktype
+      - effect
+
+  '@ai-sdk/gateway@2.0.0-beta.44(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)':
+    dependencies:
+      '@ai-sdk/provider': 3.0.0-beta.12
+      '@ai-sdk/provider-utils': 4.0.0-beta.26(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
+      '@vercel/oidc': 3.0.3
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - '@valibot/to-json-schema'
+      - arktype
+      - effect
+
+  '@ai-sdk/provider-utils@4.0.0-beta.26(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.4.5)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)':
+    dependencies:
+      '@ai-sdk/provider': 3.0.0-beta.12
+      '@standard-schema/spec': 1.0.0
+      eventsource-parser: 3.0.5
+      zod: 3.25.76
+    optionalDependencies:
+      '@valibot/to-json-schema': 1.3.0(valibot@1.1.0(typescript@5.4.5))
+      arktype: 2.1.22
+      effect: 3.18.4
+
+  '@ai-sdk/provider-utils@4.0.0-beta.26(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.6.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)':
+    dependencies:
+      '@ai-sdk/provider': 3.0.0-beta.12
+      '@standard-schema/spec': 1.0.0
+      eventsource-parser: 3.0.5
+      zod: 3.25.76
+    optionalDependencies:
+      '@valibot/to-json-schema': 1.3.0(valibot@1.1.0(typescript@5.6.3))
+      arktype: 2.1.22
+      effect: 3.18.4
+
+  '@ai-sdk/provider-utils@4.0.0-beta.26(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)':
+    dependencies:
+      '@ai-sdk/provider': 3.0.0-beta.12
+      '@standard-schema/spec': 1.0.0
+      eventsource-parser: 3.0.5
+      zod: 3.25.76
+    optionalDependencies:
+      '@valibot/to-json-schema': 1.3.0(valibot@1.1.0(typescript@5.8.3))
+      arktype: 2.1.22
+      effect: 3.18.4
+
+  '@ai-sdk/provider@3.0.0-beta.12':
+    dependencies:
+      json-schema: 0.4.0
+
   '@algolia/abtesting@1.1.0':
     dependencies:
       '@algolia/client-common': 5.35.0
@@ -18669,7 +18684,7 @@ snapshots:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2003.3(chokidar@4.0.3)
-      '@angular-devkit/build-webpack': 0.2003.3(chokidar@4.0.3)(webpack-dev-server@5.2.2(webpack@5.101.2))(webpack@5.101.2)
+      '@angular-devkit/build-webpack': 0.2003.3(chokidar@4.0.3)(webpack-dev-server@5.2.2(webpack@5.101.2))(webpack@5.101.2(esbuild@0.25.9))
       '@angular-devkit/core': 20.3.3(chokidar@4.0.3)
       '@angular/build': 20.3.3(@angular/compiler-cli@20.3.2(@angular/compiler@20.3.2)(typescript@5.8.3))(@angular/compiler@20.3.2)(@angular/core@20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.2(@angular/common@20.3.2(@angular/core@20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1)))(@types/node@20.17.24)(chokidar@4.0.3)(jiti@2.4.0)(less@4.4.0)(postcss@8.5.6)(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@20.17.24)(typescript@5.8.3)))(terser@5.43.1)(tslib@2.8.1)(tsx@4.19.2)(typescript@5.8.3)(vitest@2.1.4(@edge-runtime/vm@5.0.0)(@types/node@22.7.4)(jsdom@26.0.0)(less@4.4.0)(msw@2.7.0(@types/node@22.7.4)(typescript@5.8.3))(sass@1.90.0)(terser@5.43.1))(yaml@2.7.0)
       '@angular/compiler-cli': 20.3.2(@angular/compiler@20.3.2)(typescript@5.8.3)
@@ -18683,13 +18698,13 @@ snapshots:
       '@babel/preset-env': 7.28.3(@babel/core@7.28.3)
       '@babel/runtime': 7.28.3
       '@discoveryjs/json-ext': 0.6.3
-      '@ngtools/webpack': 20.3.3(@angular/compiler-cli@20.3.2(@angular/compiler@20.3.2)(typescript@5.8.3))(typescript@5.8.3)(webpack@5.101.2)
+      '@ngtools/webpack': 20.3.3(@angular/compiler-cli@20.3.2(@angular/compiler@20.3.2)(typescript@5.8.3))(typescript@5.8.3)(webpack@5.101.2(esbuild@0.25.9))
       ansi-colors: 4.1.3
       autoprefixer: 10.4.21(postcss@8.5.6)
-      babel-loader: 10.0.0(@babel/core@7.28.3)(webpack@5.101.2)
+      babel-loader: 10.0.0(@babel/core@7.28.3)(webpack@5.101.2(esbuild@0.25.9))
       browserslist: 4.25.1
-      copy-webpack-plugin: 13.0.1(webpack@5.101.2)
-      css-loader: 7.1.2(webpack@5.101.2)
+      copy-webpack-plugin: 13.0.1(webpack@5.101.2(esbuild@0.25.9))
+      css-loader: 7.1.2(webpack@5.101.2(esbuild@0.25.9))
       esbuild-wasm: 0.25.9
       fast-glob: 3.3.3
       http-proxy-middleware: 3.0.5
@@ -18697,22 +18712,22 @@ snapshots:
       jsonc-parser: 3.3.1
       karma-source-map-support: 1.4.0
       less: 4.4.0
-      less-loader: 12.3.0(less@4.4.0)(webpack@5.101.2)
-      license-webpack-plugin: 4.0.2(webpack@5.101.2)
+      less-loader: 12.3.0(less@4.4.0)(webpack@5.101.2(esbuild@0.25.9))
+      license-webpack-plugin: 4.0.2(webpack@5.101.2(esbuild@0.25.9))
       loader-utils: 3.3.1
-      mini-css-extract-plugin: 2.9.4(webpack@5.101.2)
+      mini-css-extract-plugin: 2.9.4(webpack@5.101.2(esbuild@0.25.9))
       open: 10.2.0
       ora: 8.2.0
       picomatch: 4.0.3
       piscina: 5.1.3
       postcss: 8.5.6
-      postcss-loader: 8.1.1(postcss@8.5.6)(typescript@5.8.3)(webpack@5.101.2)
+      postcss-loader: 8.1.1(postcss@8.5.6)(typescript@5.8.3)(webpack@5.101.2(esbuild@0.25.9))
       resolve-url-loader: 5.0.0
       rxjs: 7.8.2
       sass: 1.90.0
-      sass-loader: 16.0.5(sass@1.90.0)(webpack@5.101.2)
+      sass-loader: 16.0.5(sass@1.90.0)(webpack@5.101.2(esbuild@0.25.9))
       semver: 7.7.2
-      source-map-loader: 5.0.0(webpack@5.101.2)
+      source-map-loader: 5.0.0(webpack@5.101.2(esbuild@0.25.9))
       source-map-support: 0.5.21
       terser: 5.43.1
       tree-kill: 1.2.2
@@ -18722,7 +18737,7 @@ snapshots:
       webpack-dev-middleware: 7.4.2(webpack@5.101.2)
       webpack-dev-server: 5.2.2(webpack@5.101.2)
       webpack-merge: 6.0.1
-      webpack-subresource-integrity: 5.1.0(webpack@5.101.2)
+      webpack-subresource-integrity: 5.1.0(webpack@5.101.2(esbuild@0.25.9))
     optionalDependencies:
       '@angular/core': 20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1)
       '@angular/platform-browser': 20.3.2(@angular/common@20.3.2(@angular/core@20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.2(@angular/compiler@20.3.2)(rxjs@7.8.2)(zone.js@0.15.1))
@@ -18752,7 +18767,7 @@ snapshots:
       - webpack-cli
       - yaml
 
-  '@angular-devkit/build-webpack@0.2003.3(chokidar@4.0.3)(webpack-dev-server@5.2.2(webpack@5.101.2))(webpack@5.101.2)':
+  '@angular-devkit/build-webpack@0.2003.3(chokidar@4.0.3)(webpack-dev-server@5.2.2(webpack@5.101.2))(webpack@5.101.2(esbuild@0.25.9))':
     dependencies:
       '@angular-devkit/architect': 0.2003.3(chokidar@4.0.3)
       rxjs: 7.8.2
@@ -23673,8 +23688,6 @@ snapshots:
 
   '@next/env@15.5.4': {}
 
-  '@next/env@15.6.0-canary.39': {}
-
   '@next/eslint-plugin-next@14.2.3':
     dependencies:
       glob: 10.3.10
@@ -23685,16 +23698,10 @@ snapshots:
   '@next/swc-darwin-arm64@15.5.4':
     optional: true
 
-  '@next/swc-darwin-arm64@15.6.0-canary.39':
-    optional: true
-
   '@next/swc-darwin-x64@15.0.0-canary.23':
     optional: true
 
   '@next/swc-darwin-x64@15.5.4':
-    optional: true
-
-  '@next/swc-darwin-x64@15.6.0-canary.39':
     optional: true
 
   '@next/swc-linux-arm64-gnu@15.0.0-canary.23':
@@ -23703,16 +23710,10 @@ snapshots:
   '@next/swc-linux-arm64-gnu@15.5.4':
     optional: true
 
-  '@next/swc-linux-arm64-gnu@15.6.0-canary.39':
-    optional: true
-
   '@next/swc-linux-arm64-musl@15.0.0-canary.23':
     optional: true
 
   '@next/swc-linux-arm64-musl@15.5.4':
-    optional: true
-
-  '@next/swc-linux-arm64-musl@15.6.0-canary.39':
     optional: true
 
   '@next/swc-linux-x64-gnu@15.0.0-canary.23':
@@ -23721,25 +23722,16 @@ snapshots:
   '@next/swc-linux-x64-gnu@15.5.4':
     optional: true
 
-  '@next/swc-linux-x64-gnu@15.6.0-canary.39':
-    optional: true
-
   '@next/swc-linux-x64-musl@15.0.0-canary.23':
     optional: true
 
   '@next/swc-linux-x64-musl@15.5.4':
     optional: true
 
-  '@next/swc-linux-x64-musl@15.6.0-canary.39':
-    optional: true
-
   '@next/swc-win32-arm64-msvc@15.0.0-canary.23':
     optional: true
 
   '@next/swc-win32-arm64-msvc@15.5.4':
-    optional: true
-
-  '@next/swc-win32-arm64-msvc@15.6.0-canary.39':
     optional: true
 
   '@next/swc-win32-ia32-msvc@15.0.0-canary.23':
@@ -23751,10 +23743,7 @@ snapshots:
   '@next/swc-win32-x64-msvc@15.5.4':
     optional: true
 
-  '@next/swc-win32-x64-msvc@15.6.0-canary.39':
-    optional: true
-
-  '@ngtools/webpack@20.3.3(@angular/compiler-cli@20.3.2(@angular/compiler@20.3.2)(typescript@5.8.3))(typescript@5.8.3)(webpack@5.101.2)':
+  '@ngtools/webpack@20.3.3(@angular/compiler-cli@20.3.2(@angular/compiler@20.3.2)(typescript@5.8.3))(typescript@5.8.3)(webpack@5.101.2(esbuild@0.25.9))':
     dependencies:
       '@angular/compiler-cli': 20.3.2(@angular/compiler@20.3.2)(typescript@5.8.3)
       typescript: 5.8.3
@@ -27349,6 +27338,16 @@ snapshots:
     dependencies:
       crypto-js: 4.2.0
 
+  '@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.4.5))':
+    dependencies:
+      valibot: 1.1.0(typescript@5.4.5)
+    optional: true
+
+  '@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.6.3))':
+    dependencies:
+      valibot: 1.1.0(typescript@5.6.3)
+    optional: true
+
   '@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3))':
     dependencies:
       valibot: 1.1.0(typescript@5.8.3)
@@ -27976,6 +27975,42 @@ snapshots:
     dependencies:
       humanize-ms: 1.2.1
 
+  ai@6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.4.5)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76):
+    dependencies:
+      '@ai-sdk/gateway': 2.0.0-beta.44(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.4.5)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
+      '@ai-sdk/provider': 3.0.0-beta.12
+      '@ai-sdk/provider-utils': 4.0.0-beta.26(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.4.5)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
+      '@opentelemetry/api': 1.9.0
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - '@valibot/to-json-schema'
+      - arktype
+      - effect
+
+  ai@6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.6.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76):
+    dependencies:
+      '@ai-sdk/gateway': 2.0.0-beta.44(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.6.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
+      '@ai-sdk/provider': 3.0.0-beta.12
+      '@ai-sdk/provider-utils': 4.0.0-beta.26(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.6.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
+      '@opentelemetry/api': 1.9.0
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - '@valibot/to-json-schema'
+      - arktype
+      - effect
+
+  ai@6.0.0-beta.81(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76):
+    dependencies:
+      '@ai-sdk/gateway': 2.0.0-beta.44(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
+      '@ai-sdk/provider': 3.0.0-beta.12
+      '@ai-sdk/provider-utils': 4.0.0-beta.26(@valibot/to-json-schema@1.3.0(valibot@1.1.0(typescript@5.8.3)))(arktype@2.1.22)(effect@3.18.4)(zod@3.25.76)
+      '@opentelemetry/api': 1.9.0
+      zod: 3.25.76
+    transitivePeerDependencies:
+      - '@valibot/to-json-schema'
+      - arktype
+      - effect
+
   ajv-formats@2.1.1(ajv@8.12.0):
     optionalDependencies:
       ajv: 8.12.0
@@ -28336,7 +28371,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-loader@10.0.0(@babel/core@7.28.3)(webpack@5.101.2):
+  babel-loader@10.0.0(@babel/core@7.28.3)(webpack@5.101.2(esbuild@0.25.9)):
     dependencies:
       '@babel/core': 7.28.3
       find-up: 5.0.0
@@ -29053,7 +29088,7 @@ snapshots:
     dependencies:
       is-what: 4.1.16
 
-  copy-webpack-plugin@13.0.1(webpack@5.101.2):
+  copy-webpack-plugin@13.0.1(webpack@5.101.2(esbuild@0.25.9)):
     dependencies:
       glob-parent: 6.0.2
       normalize-path: 3.0.0
@@ -29145,7 +29180,7 @@ snapshots:
     dependencies:
       postcss: 8.5.3
 
-  css-loader@7.1.2(webpack@5.101.2):
+  css-loader@7.1.2(webpack@5.101.2(esbuild@0.25.9)):
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.6)
       postcss: 8.5.6
@@ -33098,7 +33133,7 @@ snapshots:
     dependencies:
       readable-stream: 2.3.8
 
-  less-loader@12.3.0(less@4.4.0)(webpack@5.101.2):
+  less-loader@12.3.0(less@4.4.0)(webpack@5.101.2(esbuild@0.25.9)):
     dependencies:
       less: 4.4.0
     optionalDependencies:
@@ -33125,7 +33160,7 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
-  license-webpack-plugin@4.0.2(webpack@5.101.2):
+  license-webpack-plugin@4.0.2(webpack@5.101.2(esbuild@0.25.9)):
     dependencies:
       webpack-sources: 3.3.3
     optionalDependencies:
@@ -33900,7 +33935,7 @@ snapshots:
 
   min-indent@1.0.1: {}
 
-  mini-css-extract-plugin@2.9.4(webpack@5.101.2):
+  mini-css-extract-plugin@2.9.4(webpack@5.101.2(esbuild@0.25.9)):
     dependencies:
       schema-utils: 4.3.2
       tapable: 2.2.1
@@ -34241,32 +34276,6 @@ snapshots:
       '@next/swc-linux-x64-musl': 15.5.4
       '@next/swc-win32-arm64-msvc': 15.5.4
       '@next/swc-win32-x64-msvc': 15.5.4
-      '@opentelemetry/api': 1.9.0
-      '@playwright/test': 1.50.1
-      sass: 1.90.0
-      sharp: 0.34.4
-    transitivePeerDependencies:
-      - '@babel/core'
-      - babel-plugin-macros
-
-  next@15.6.0-canary.39(@opentelemetry/api@1.9.0)(@playwright/test@1.50.1)(react-dom@19.0.0-rc.1(react@19.0.0-rc.1))(react@19.0.0-rc.1)(sass@1.90.0):
-    dependencies:
-      '@next/env': 15.6.0-canary.39
-      '@swc/helpers': 0.5.15
-      caniuse-lite: 1.0.30001727
-      postcss: 8.4.31
-      react: 19.0.0-rc.1
-      react-dom: 19.0.0-rc.1(react@19.0.0-rc.1)
-      styled-jsx: 5.1.6(react@19.0.0-rc.1)
-    optionalDependencies:
-      '@next/swc-darwin-arm64': 15.6.0-canary.39
-      '@next/swc-darwin-x64': 15.6.0-canary.39
-      '@next/swc-linux-arm64-gnu': 15.6.0-canary.39
-      '@next/swc-linux-arm64-musl': 15.6.0-canary.39
-      '@next/swc-linux-x64-gnu': 15.6.0-canary.39
-      '@next/swc-linux-x64-musl': 15.6.0-canary.39
-      '@next/swc-win32-arm64-msvc': 15.6.0-canary.39
-      '@next/swc-win32-x64-msvc': 15.6.0-canary.39
       '@opentelemetry/api': 1.9.0
       '@playwright/test': 1.50.1
       sass: 1.90.0
@@ -35326,7 +35335,7 @@ snapshots:
       tsx: 4.19.2
       yaml: 2.7.0
 
-  postcss-loader@8.1.1(postcss@8.5.6)(typescript@5.8.3)(webpack@5.101.2):
+  postcss-loader@8.1.1(postcss@8.5.6)(typescript@5.8.3)(webpack@5.101.2(esbuild@0.25.9)):
     dependencies:
       cosmiconfig: 9.0.0(typescript@5.8.3)
       jiti: 1.21.6
@@ -36238,7 +36247,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass-loader@16.0.5(sass@1.90.0)(webpack@5.101.2):
+  sass-loader@16.0.5(sass@1.90.0)(webpack@5.101.2(esbuild@0.25.9)):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
@@ -36591,7 +36600,7 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  source-map-loader@5.0.0(webpack@5.101.2):
+  source-map-loader@5.0.0(webpack@5.101.2(esbuild@0.25.9)):
     dependencies:
       iconv-lite: 0.6.3
       source-map-js: 1.2.1
@@ -36859,11 +36868,6 @@ snapshots:
     dependencies:
       client-only: 0.0.1
       react: 19.0.0-rc-cc1ec60d0d-20240607
-
-  styled-jsx@5.1.6(react@19.0.0-rc.1):
-    dependencies:
-      client-only: 0.0.1
-      react: 19.0.0-rc.1
 
   stylehacks@7.0.4(postcss@8.5.3):
     dependencies:
@@ -38065,6 +38069,16 @@ snapshots:
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
 
+  valibot@1.1.0(typescript@5.4.5):
+    optionalDependencies:
+      typescript: 5.4.5
+    optional: true
+
+  valibot@1.1.0(typescript@5.6.3):
+    optionalDependencies:
+      typescript: 5.6.3
+    optional: true
+
   valibot@1.1.0(typescript@5.8.3):
     optionalDependencies:
       typescript: 5.8.3
@@ -38656,7 +38670,7 @@ snapshots:
 
   webpack-sources@3.3.3: {}
 
-  webpack-subresource-integrity@5.1.0(webpack@5.101.2):
+  webpack-subresource-integrity@5.1.0(webpack@5.101.2(esbuild@0.25.9)):
     dependencies:
       typed-assert: 1.0.9
       webpack: 5.101.2(esbuild@0.25.9)

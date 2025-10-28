@@ -3,11 +3,11 @@
 import { DynamicWeatherWithApprovalAgentUIMessage } from '@/agent/dynamic-weather-with-approval-agent';
 import ChatInput from '@/components/chat-input';
 import DynamicToolWithApprovalView from '@/components/tool/dynamic-tool-with-approval-view';
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithApprovalResponses,
-} from 'ai';
+} from '@omni-stack/core';
 
 export default function TestToolApproval() {
   const { status, sendMessage, messages, addToolApprovalResponse } =

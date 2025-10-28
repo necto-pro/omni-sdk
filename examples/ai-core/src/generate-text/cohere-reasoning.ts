@@ -1,5 +1,5 @@
-import { cohere, type CohereChatModelOptions } from '@open-stack/cohere';
-import { generateText } from 'ai';
+import { cohere, type CohereChatModelOptions } from '@omni-stack/cohere';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

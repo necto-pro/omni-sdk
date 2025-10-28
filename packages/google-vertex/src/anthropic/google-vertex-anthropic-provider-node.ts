@@ -1,4 +1,4 @@
-import { resolve } from '@open-stack/provider-utils';
+import { resolve } from '@omni-stack/provider-utils';
 import { GoogleAuthOptions } from 'google-auth-library';
 import { generateAuthToken } from '../google-vertex-auth-google-auth-library';
 import {

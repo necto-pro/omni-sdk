@@ -1,5 +1,5 @@
-import { createAzure } from '@open-stack/azure';
-import { experimental_transcribe as transcribe } from 'ai';
+import { createAzure } from '@omni-stack/azure';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

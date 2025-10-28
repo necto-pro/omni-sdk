@@ -1,8 +1,8 @@
 import { describe, it, expect, vi, beforeEach, Mock } from 'vitest';
 import { createXai } from './xai-provider';
-import { loadApiKey } from '@open-stack/provider-utils';
+import { loadApiKey } from '@omni-stack/provider-utils';
 import { XaiChatLanguageModel } from './xai-chat-language-model';
-import { OpenAICompatibleImageModel } from '@open-stack/openai-compatible';
+import { OpenAICompatibleImageModel } from '@omni-stack/openai-compatible';
 
 const XaiChatLanguageModelMock = XaiChatLanguageModel as unknown as Mock;
 const OpenAICompatibleImageModelMock =
@@ -12,7 +12,7 @@ vi.mock('./xai-chat-language-model', () => ({
   XaiChatLanguageModel: vi.fn(),
 }));
 
-vi.mock('@open-stack/openai-compatible', () => ({
+vi.mock('@omni-stack/openai-compatible', () => ({
   OpenAICompatibleChatLanguageModel: vi.fn(),
   OpenAICompatibleCompletionLanguageModel: vi.fn(),
   OpenAICompatibleEmbeddingModel: vi.fn(),
@@ -23,8 +23,8 @@ vi.mock('./xai-image-model', () => ({
   XaiImageModel: vi.fn(),
 }));
 
-vi.mock('@open-stack/provider-utils', async () => {
-  const actual = await vi.importActual('@open-stack/provider-utils');
+vi.mock('@omni-stack/provider-utils', async () => {
+  const actual = await vi.importActual('@omni-stack/provider-utils');
   return {
     ...actual,
     loadApiKey: vi.fn().mockReturnValue('mock-api-key'),

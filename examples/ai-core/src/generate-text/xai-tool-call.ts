@@ -1,5 +1,5 @@
-import { xai } from '@open-stack/xai';
-import { generateText, tool } from 'ai';
+import { xai } from '@omni-stack/xai';
+import { generateText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import { weatherTool } from '../tools/weather-tool';

@@ -1,5 +1,5 @@
-import { cerebras } from '@open-stack/cerebras';
-import { streamText } from 'ai';
+import { cerebras } from '@omni-stack/cerebras';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

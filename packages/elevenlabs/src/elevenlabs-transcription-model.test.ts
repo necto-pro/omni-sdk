@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { ElevenLabsTranscriptionModel } from './elevenlabs-transcription-model';
 import { createElevenLabs } from './elevenlabs-provider';
 import { readFile } from 'node:fs/promises';

@@ -1,7 +1,7 @@
 'use client';
 
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport, isToolUIPart } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport, isToolUIPart } from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Page() {

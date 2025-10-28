@@ -1,5 +1,5 @@
-import { azure } from '@open-stack/azure';
-import { experimental_generateSpeech as generateSpeech } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
 import 'dotenv/config';
 import { saveAudioFile } from '../lib/save-audio';
 

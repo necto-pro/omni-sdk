@@ -10,37 +10,37 @@ It is a popular choice for running image generation models.
 
 ## Setup
 
-The Replicate provider is available via the `@open-stack/replicate` module. You can install it with
+The Replicate provider is available via the `@omni-stack/replicate` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @open-stack/replicate" dark />
+    <Snippet text="pnpm add @omni-stack/replicate" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @open-stack/replicate" dark />
+    <Snippet text="npm install @omni-stack/replicate" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @open-stack/replicate" dark />
+    <Snippet text="yarn add @omni-stack/replicate" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @open-stack/replicate" dark />
+    <Snippet text="bun add @omni-stack/replicate" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `replicate` from `@open-stack/replicate`:
+You can import the default provider instance `replicate` from `@omni-stack/replicate`:
 
 ```ts
-import { replicate } from '@open-stack/replicate';
+import { replicate } from '@omni-stack/replicate';
 ```
 
-If you need a customized setup, you can import `createReplicate` from `@open-stack/replicate`
+If you need a customized setup, you can import `createReplicate` from `@omni-stack/replicate`
 and create a provider instance with your settings:
 
 ```ts
-import { createReplicate } from '@open-stack/replicate';
+import { createReplicate } from '@omni-stack/replicate';
 
 const replicate = createReplicate({
   apiToken: process.env.REPLICATE_API_TOKEN ?? '',
@@ -122,8 +122,8 @@ The id for versioned models is the Replicate model id followed by a colon and th
 ### Basic Usage
 
 ```ts
-import { replicate } from '@open-stack/replicate';
-import { experimental_generateImage as generateImage } from 'ai';
+import { replicate } from '@omni-stack/replicate';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import { writeFile } from 'node:fs/promises';
 
 const { image } = await generateImage({
@@ -140,8 +140,8 @@ console.log('Image saved as image.webp');
 ### Model-specific options
 
 ```ts highlight="9-11"
-import { replicate } from '@open-stack/replicate';
-import { experimental_generateImage as generateImage } from 'ai';
+import { replicate } from '@omni-stack/replicate';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: replicate.image('recraft-ai/recraft-v3'),
@@ -158,8 +158,8 @@ const { image } = await generateImage({
 ### Versioned Models
 
 ```ts
-import { replicate } from '@open-stack/replicate';
-import { experimental_generateImage as generateImage } from 'ai';
+import { replicate } from '@omni-stack/replicate';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: replicate.image(

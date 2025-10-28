@@ -1,5 +1,5 @@
 ---
-'@open-stack/assemblyai': patch
+'@omni-stack/assemblyai': patch
 ---
 
 fix(providers/assemblyai): remove topics

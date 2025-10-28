@@ -1,5 +1,5 @@
-import { elevenlabs } from '@open-stack/elevenlabs';
-import { experimental_transcribe as transcribe } from 'ai';
+import { elevenlabs } from '@omni-stack/elevenlabs';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

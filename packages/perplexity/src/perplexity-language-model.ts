@@ -5,7 +5,7 @@ import {
   LanguageModelV3FinishReason,
   LanguageModelV3StreamPart,
   LanguageModelV3Usage,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   ParseResult,
@@ -14,7 +14,7 @@ import {
   createJsonErrorResponseHandler,
   createJsonResponseHandler,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { convertToPerplexityMessages } from './convert-to-perplexity-messages';
 import { mapPerplexityFinishReason } from './map-perplexity-finish-reason';

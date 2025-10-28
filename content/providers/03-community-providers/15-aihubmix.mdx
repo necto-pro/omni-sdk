@@ -60,7 +60,7 @@ import { aihubmix } from '@aihubmix/ai-sdk-provider';
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: aihubmix('o4-mini'),
@@ -72,7 +72,7 @@ const { text } = await generateText({
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: aihubmix('claude-3-7-sonnet-20250219'),
@@ -84,7 +84,7 @@ const { text } = await generateText({
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: aihubmix('gemini-2.5-flash'),
@@ -96,7 +96,7 @@ const { text } = await generateText({
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { experimental_generateImage as generateImage } from 'ai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: aihubmix.image('gpt-image-1'),
@@ -108,7 +108,7 @@ const { image } = await generateImage({
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { embed } from 'ai';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: aihubmix.embedding('text-embedding-ada-002'),
@@ -120,7 +120,7 @@ const { embedding } = await embed({
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { experimental_transcribe as transcribe } from 'ai';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 
 const { text } = await transcribe({
   model: aihubmix.transcription('whisper-1'),
@@ -132,7 +132,7 @@ const { text } = await transcribe({
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: aihubmix('gpt-3.5-turbo'),
@@ -156,7 +156,7 @@ console.log('Finish reason:', await result.finishReason);
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { generateObject } from 'ai';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const result = await generateObject({
@@ -185,7 +185,7 @@ console.log('Finish reason:', result.finishReason);
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { streamObject } from 'ai';
+import { streamObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const result = streamObject({
@@ -217,7 +217,7 @@ console.log('Final object:', await result.object);
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { embedMany } from 'ai';
+import { embedMany } from '@omni-stack/core';
 
 const { embeddings, usage } = await embedMany({
   model: aihubmix.embedding('text-embedding-3-small'),
@@ -236,7 +236,7 @@ console.log('Usage:', usage);
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { experimental_generateSpeech as generateSpeech } from 'ai';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
 
 const { audio } = await generateSpeech({
   model: aihubmix.speech('tts-1'),
@@ -250,7 +250,7 @@ The Aihubmix provider supports various tools including web search:
 
 ```ts
 import { aihubmix } from '@aihubmix/ai-sdk-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: aihubmix('gpt-4'),

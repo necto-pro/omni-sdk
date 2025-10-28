@@ -1,6 +1,6 @@
 'use client';
 
-import { useCompletion } from '@open-stack/react';
+import { useCompletion } from '@omni-stack/react';
 import { useLayoutEffect, useRef } from 'react';
 
 export default function Chat() {

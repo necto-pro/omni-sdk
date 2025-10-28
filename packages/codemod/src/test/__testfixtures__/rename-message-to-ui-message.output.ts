@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { UIMessage, CreateUIMessage, generateText } from 'ai';
+import { UIMessage, CreateUIMessage, generateText } from '@omni-stack/core';
 
 // Basic usage with type annotations
 export function handleMessage(message: UIMessage): void {

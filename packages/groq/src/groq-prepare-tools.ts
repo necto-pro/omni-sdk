@@ -2,7 +2,7 @@ import {
   LanguageModelV3CallOptions,
   LanguageModelV3CallWarning,
   UnsupportedFunctionalityError,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   getSupportedModelsString,
   isBrowserSearchSupportedModel,

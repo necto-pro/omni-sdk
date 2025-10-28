@@ -1,18 +1,18 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   convertToModelMessages,
   stepCountIs,
   streamText,
   createUIMessageStream,
   createUIMessageStreamResponse,
-} from 'ai';
+} from '@omni-stack/core';
 import {
   experimental_createMCPClient,
   auth,
   type OAuthClientInformation,
   type OAuthClientMetadata,
   type OAuthTokens,
-} from '@open-stack/mcp';
+} from '@omni-stack/mcp';
 import { createServer } from 'node:http';
 
 type AuthGlobalState = {

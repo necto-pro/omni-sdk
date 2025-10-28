@@ -5,25 +5,25 @@ contains language model support for the DeepInfra API, giving you access to mode
 
 ## Setup
 
-The DeepInfra provider is available in the `@open-stack/deepinfra` module. You can install it with
+The DeepInfra provider is available in the `@omni-stack/deepinfra` module. You can install it with
 
 ```bash
-npm i @open-stack/deepinfra
+npm i @omni-stack/deepinfra
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `deepinfra` from `@open-stack/deepinfra`:
+You can import the default provider instance `deepinfra` from `@omni-stack/deepinfra`:
 
 ```ts
-import { deepinfra } from '@open-stack/deepinfra';
+import { deepinfra } from '@omni-stack/deepinfra';
 ```
 
 ## Example
 
 ```ts
-import { deepinfra } from '@open-stack/deepinfra';
-import { generateText } from 'ai';
+import { deepinfra } from '@omni-stack/deepinfra';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: deepinfra('meta-llama/Llama-3.3-70B-Instruct'),

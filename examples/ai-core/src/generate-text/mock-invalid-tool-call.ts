@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { generateText, stepCountIs, tool } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText, stepCountIs, tool } from '@omni-stack/core';
 import { MockLanguageModelV3 } from 'ai/test';
 import 'dotenv/config';
 import { z } from 'zod';

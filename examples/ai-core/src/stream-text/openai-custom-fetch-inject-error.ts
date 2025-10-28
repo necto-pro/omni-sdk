@@ -1,5 +1,5 @@
-import { createOpenAI } from '@open-stack/openai';
-import { streamText } from 'ai';
+import { createOpenAI } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 const openai = createOpenAI({

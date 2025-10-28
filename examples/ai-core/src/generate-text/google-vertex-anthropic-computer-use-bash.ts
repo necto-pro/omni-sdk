@@ -1,5 +1,5 @@
-import { vertexAnthropic } from '@open-stack/google-vertex/anthropic';
-import { generateText, stepCountIs } from 'ai';
+import { vertexAnthropic } from '@omni-stack/google-vertex/anthropic';
+import { generateText, stepCountIs } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

@@ -33,8 +33,8 @@ The AI SDK abstracts away the differences between model providers, eliminates bo
 At the center of the AI SDK is [AI SDK Core](/docs/ai-sdk-core/overview), which provides a unified API to call any LLM. The code snippet below is all you need to call Claude 4 Sonnet with the AI SDK:
 
 ```ts
-import { anthropic } from '@open-stack/anthropic';
-import { generateText } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { generateText } from '@omni-stack/core';
 
 const { text, reasoningText, reasoning } = await generateText({
   model: anthropic('claude-sonnet-4-20250514'),
@@ -48,8 +48,8 @@ console.log(text);
 Claude 4 enhances the extended thinking capabilities first introduced in Claude 3.7 Sonnet—the ability to solve complex problems with careful, step-by-step reasoning. Additionally, both Opus 4 and Sonnet 4 can now use tools during extended thinking, allowing Claude to alternate between reasoning and tool use to improve responses. You can enable extended thinking using the `thinking` provider option and specifying a thinking budget in tokens. For interleaved thinking (where Claude can think in between tool calls) you'll need to enable a beta feature using the `anthropic-beta` header:
 
 ```ts
-import { anthropic, AnthropicProviderOptions } from '@open-stack/anthropic';
-import { generateText } from 'ai';
+import { anthropic, AnthropicProviderOptions } from '@omni-stack/anthropic';
+import { generateText } from '@omni-stack/core';
 
 const { text, reasoningText, reasoning } = await generateText({
   model: anthropic('claude-sonnet-4-20250514'),
@@ -81,13 +81,13 @@ Let's explore building a chatbot with [Next.js](https://nextjs.org), the AI SDK,
 
 In a new Next.js application, first install the AI SDK and the Anthropic provider:
 
-<Snippet text="pnpm install ai @open-stack/anthropic" />
+<Snippet text="pnpm install ai @omni-stack/anthropic" />
 
 Then, create a route handler for the chat endpoint:
 
 ```tsx filename="app/api/chat/route.ts"
-import { anthropic, AnthropicProviderOptions } from '@open-stack/anthropic';
-import { streamText, convertToModelMessages, type UIMessage } from 'ai';
+import { anthropic, AnthropicProviderOptions } from '@omni-stack/anthropic';
+import { streamText, convertToModelMessages, type UIMessage } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();
@@ -121,8 +121,8 @@ Finally, update the root page (`app/page.tsx`) to use the `useChat` hook:
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Page() {

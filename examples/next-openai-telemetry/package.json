@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@open-stack/openai": "3.0.0-beta.42",
-    "@open-stack/react": "3.0.0-beta.81",
+    "@omni-stack/openai": "3.0.0-beta.42",
+    "@omni-stack/react": "3.0.0-beta.81",
     "@opentelemetry/api-logs": "0.55.0",
     "@opentelemetry/sdk-logs": "0.55.0",
     "@opentelemetry/instrumentation": "0.52.1",

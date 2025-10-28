@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { streamObject } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamObject } from '@omni-stack/core';
 import { notificationSchema } from './schema';
 
 // Allow streaming responses up to 30 seconds

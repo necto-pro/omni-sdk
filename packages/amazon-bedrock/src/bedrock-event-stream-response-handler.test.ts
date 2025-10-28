@@ -1,4 +1,4 @@
-import { EmptyResponseBodyError } from '@open-stack/provider';
+import { EmptyResponseBodyError } from '@omni-stack/provider';
 import { createBedrockEventStreamResponseHandler } from './bedrock-event-stream-response-handler';
 import { EventStreamCodec } from '@smithy/eventstream-codec';
 import { z } from 'zod/v4';

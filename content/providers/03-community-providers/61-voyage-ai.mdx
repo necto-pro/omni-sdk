@@ -82,7 +82,7 @@ You can use Voyage embedding models to generate embeddings with the `embed` or `
 
 ```ts
 import { voyage } from 'voyage-ai-provider';
-import { embed } from 'ai';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: voyage.textEmbeddingModel('voyage-3.5-lite'),
@@ -99,7 +99,7 @@ Voyage embedding models support additional provider options that can be passed v
 
 ```ts
 import { voyage } from 'voyage-ai-provider';
-import { embed } from 'ai';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: voyage.textEmbeddingModel('voyage-3.5-lite'),
@@ -176,7 +176,7 @@ You can find more models on the [Voyage Library](https://docs.voyageai.com/docs/
 
 ```ts
 import { voyage, ImageEmbeddingInput } from 'voyage-ai-provider';
-import { embedMany } from 'ai';
+import { embedMany } from '@omni-stack/core';
 
 const imageModel = voyage.imageEmbeddingModel('voyage-multimodal-3');
 
@@ -203,7 +203,7 @@ const { embeddings } = await embedMany<ImageEmbeddingInput>({
 
 ```ts
 import { voyage, ImageEmbeddingInput } from 'voyage-ai-provider';
-import { embedMany } from 'ai';
+import { embedMany } from '@omni-stack/core';
 
 const imageModel = voyage.imageEmbeddingModel('voyage-multimodal-3');
 
@@ -233,7 +233,7 @@ const { embeddings } = await embedMany<ImageEmbeddingInput>({
 
 ```ts
 import { voyage, MultimodalEmbeddingInput } from 'voyage-ai-provider';
-import { embedMany } from 'ai';
+import { embedMany } from '@omni-stack/core';
 
 const multimodalModel = voyage.multimodalEmbeddingModel('voyage-multimodal-3');
 
@@ -264,7 +264,7 @@ Voyage multimodal embedding models support additional provider options that can 
 
 ```ts
 import { voyage, MultimodalEmbeddingInput } from 'voyage-ai-provider';
-import { embedMany } from 'ai';
+import { embedMany } from '@omni-stack/core';
 
 const multimodalModel = voyage.multimodalEmbeddingModel('voyage-multimodal-3');
 

@@ -1,5 +1,5 @@
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
-import { Output, stepCountIs, streamText } from 'ai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
+import { Output, stepCountIs, streamText } from '@omni-stack/core';
 import { z } from 'zod';
 import { run } from '../lib/run';
 import { weatherTool } from '../tools/weather-tool';

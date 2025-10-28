@@ -1,38 +1,38 @@
-# @open-stack/google-vertex
+# @omni-stack/google-vertex
 
 ## 4.0.0-beta.53
 
 ### Patch Changes
 
 - Updated dependencies [f4e4a95]
-  - @open-stack/anthropic@3.0.0-beta.45
+  - @omni-stack/anthropic@3.0.0-beta.45
 
 ## 4.0.0-beta.52
 
 ### Patch Changes
 
 - Updated dependencies [cf4e2a9]
-  - @open-stack/anthropic@3.0.0-beta.44
+  - @omni-stack/anthropic@3.0.0-beta.44
 
 ## 4.0.0-beta.51
 
 ### Patch Changes
 
 - Updated dependencies [d1bdadb]
-  - @open-stack/provider@3.0.0-beta.12
-  - @open-stack/anthropic@3.0.0-beta.43
-  - @open-stack/google@3.0.0-beta.33
-  - @open-stack/provider-utils@4.0.0-beta.26
+  - @omni-stack/provider@3.0.0-beta.12
+  - @omni-stack/anthropic@3.0.0-beta.43
+  - @omni-stack/google@3.0.0-beta.33
+  - @omni-stack/provider-utils@4.0.0-beta.26
 
 ## 4.0.0-beta.50
 
 ### Patch Changes
 
 - Updated dependencies [4c44a5b]
-  - @open-stack/provider@3.0.0-beta.11
-  - @open-stack/anthropic@3.0.0-beta.42
-  - @open-stack/google@3.0.0-beta.32
-  - @open-stack/provider-utils@4.0.0-beta.25
+  - @omni-stack/provider@3.0.0-beta.11
+  - @omni-stack/anthropic@3.0.0-beta.42
+  - @omni-stack/google@3.0.0-beta.32
+  - @omni-stack/provider-utils@4.0.0-beta.25
 
 ## 4.0.0-beta.49
 
@@ -40,106 +40,106 @@
 
 - 0c3b58b: fix(provider): add specificationVersion to ProviderV3
 - Updated dependencies [0c3b58b]
-  - @open-stack/anthropic@3.0.0-beta.41
-  - @open-stack/provider@3.0.0-beta.10
-  - @open-stack/google@3.0.0-beta.31
-  - @open-stack/provider-utils@4.0.0-beta.24
+  - @omni-stack/anthropic@3.0.0-beta.41
+  - @omni-stack/provider@3.0.0-beta.10
+  - @omni-stack/google@3.0.0-beta.31
+  - @omni-stack/provider-utils@4.0.0-beta.24
 
 ## 4.0.0-beta.48
 
 ### Patch Changes
 
 - Updated dependencies [a755db5]
-  - @open-stack/provider@3.0.0-beta.9
-  - @open-stack/anthropic@3.0.0-beta.40
-  - @open-stack/google@3.0.0-beta.30
-  - @open-stack/provider-utils@4.0.0-beta.23
+  - @omni-stack/provider@3.0.0-beta.9
+  - @omni-stack/anthropic@3.0.0-beta.40
+  - @omni-stack/google@3.0.0-beta.30
+  - @omni-stack/provider-utils@4.0.0-beta.23
 
 ## 4.0.0-beta.47
 
 ### Patch Changes
 
 - Updated dependencies [58920e0]
-  - @open-stack/provider-utils@4.0.0-beta.22
-  - @open-stack/anthropic@3.0.0-beta.39
-  - @open-stack/google@3.0.0-beta.29
+  - @omni-stack/provider-utils@4.0.0-beta.22
+  - @omni-stack/anthropic@3.0.0-beta.39
+  - @omni-stack/google@3.0.0-beta.29
 
 ## 4.0.0-beta.46
 
 ### Patch Changes
 
 - Updated dependencies [293a6b7]
-  - @open-stack/provider-utils@4.0.0-beta.21
-  - @open-stack/anthropic@3.0.0-beta.38
-  - @open-stack/google@3.0.0-beta.28
+  - @omni-stack/provider-utils@4.0.0-beta.21
+  - @omni-stack/anthropic@3.0.0-beta.38
+  - @omni-stack/google@3.0.0-beta.28
 
 ## 4.0.0-beta.45
 
 ### Patch Changes
 
 - Updated dependencies [7c4328e]
-  - @open-stack/anthropic@3.0.0-beta.37
+  - @omni-stack/anthropic@3.0.0-beta.37
 
 ## 4.0.0-beta.44
 
 ### Patch Changes
 
 - Updated dependencies [21f378c]
-  - @open-stack/anthropic@3.0.0-beta.36
+  - @omni-stack/anthropic@3.0.0-beta.36
 
 ## 4.0.0-beta.43
 
 ### Patch Changes
 
 - Updated dependencies [80894b3]
-  - @open-stack/anthropic@3.0.0-beta.35
+  - @omni-stack/anthropic@3.0.0-beta.35
 
 ## 4.0.0-beta.42
 
 ### Patch Changes
 
 - Updated dependencies [fca786b]
-  - @open-stack/provider-utils@4.0.0-beta.20
-  - @open-stack/anthropic@3.0.0-beta.34
-  - @open-stack/google@3.0.0-beta.27
+  - @omni-stack/provider-utils@4.0.0-beta.20
+  - @omni-stack/anthropic@3.0.0-beta.34
+  - @omni-stack/google@3.0.0-beta.27
 
 ## 4.0.0-beta.41
 
 ### Patch Changes
 
 - Updated dependencies [0e38a79]
-  - @open-stack/anthropic@3.0.0-beta.33
+  - @omni-stack/anthropic@3.0.0-beta.33
 
 ## 4.0.0-beta.40
 
 ### Patch Changes
 
 - Updated dependencies [f4db7b5]
-  - @open-stack/anthropic@3.0.0-beta.32
+  - @omni-stack/anthropic@3.0.0-beta.32
 
 ## 4.0.0-beta.39
 
 ### Patch Changes
 
 - Updated dependencies [ca07285]
-  - @open-stack/anthropic@3.0.0-beta.31
+  - @omni-stack/anthropic@3.0.0-beta.31
 
 ## 4.0.0-beta.38
 
 ### Patch Changes
 
 - Updated dependencies [9354297]
-  - @open-stack/anthropic@3.0.0-beta.30
+  - @omni-stack/anthropic@3.0.0-beta.30
 
 ## 4.0.0-beta.37
 
 ### Patch Changes
 
 - Updated dependencies [3794514]
-  - @open-stack/provider-utils@4.0.0-beta.19
-  - @open-stack/anthropic@3.0.0-beta.29
-  - @open-stack/provider@3.0.0-beta.8
-  - @open-stack/google@3.0.0-beta.26
+  - @omni-stack/provider-utils@4.0.0-beta.19
+  - @omni-stack/anthropic@3.0.0-beta.29
+  - @omni-stack/provider@3.0.0-beta.8
+  - @omni-stack/google@3.0.0-beta.26
 
 ## 4.0.0-beta.36
 
@@ -147,47 +147,47 @@
 
 - Updated dependencies [81d4308]
 - Updated dependencies [81d4308]
-  - @open-stack/anthropic@3.0.0-beta.28
-  - @open-stack/provider@3.0.0-beta.7
-  - @open-stack/google@3.0.0-beta.25
-  - @open-stack/provider-utils@4.0.0-beta.18
+  - @omni-stack/anthropic@3.0.0-beta.28
+  - @omni-stack/provider@3.0.0-beta.7
+  - @omni-stack/google@3.0.0-beta.25
+  - @omni-stack/provider-utils@4.0.0-beta.18
 
 ## 4.0.0-beta.35
 
 ### Patch Changes
 
 - Updated dependencies [4c5a6be]
-  - @open-stack/anthropic@3.0.0-beta.27
+  - @omni-stack/anthropic@3.0.0-beta.27
 
 ## 4.0.0-beta.34
 
 ### Patch Changes
 
 - Updated dependencies [f33a018]
-  - @open-stack/anthropic@3.0.0-beta.26
+  - @omni-stack/anthropic@3.0.0-beta.26
 
 ## 4.0.0-beta.33
 
 ### Patch Changes
 
 - Updated dependencies [703459a]
-  - @open-stack/provider-utils@4.0.0-beta.17
-  - @open-stack/anthropic@3.0.0-beta.25
-  - @open-stack/google@3.0.0-beta.24
+  - @omni-stack/provider-utils@4.0.0-beta.17
+  - @omni-stack/anthropic@3.0.0-beta.25
+  - @omni-stack/google@3.0.0-beta.24
 
 ## 4.0.0-beta.32
 
 ### Patch Changes
 
 - Updated dependencies [d08308b]
-  - @open-stack/anthropic@3.0.0-beta.24
+  - @omni-stack/anthropic@3.0.0-beta.24
 
 ## 4.0.0-beta.31
 
 ### Patch Changes
 
 - Updated dependencies [6f845b4]
-  - @open-stack/anthropic@3.0.0-beta.23
+  - @omni-stack/anthropic@3.0.0-beta.23
 
 ## 4.0.0-beta.30
 
@@ -195,80 +195,80 @@
 
 - f8c981f: Fix adding google search along with url context in vertex ai
 - Updated dependencies [f8c981f]
-  - @open-stack/google@3.0.0-beta.23
+  - @omni-stack/google@3.0.0-beta.23
 
 ## 4.0.0-beta.29
 
 ### Patch Changes
 
 - Updated dependencies [09ba2dd]
-  - @open-stack/google@3.0.0-beta.22
+  - @omni-stack/google@3.0.0-beta.22
 
 ## 4.0.0-beta.28
 
 ### Patch Changes
 
 - Updated dependencies [ed537e1]
-  - @open-stack/anthropic@3.0.0-beta.22
+  - @omni-stack/anthropic@3.0.0-beta.22
 
 ## 4.0.0-beta.27
 
 ### Patch Changes
 
 - Updated dependencies [6306603]
-  - @open-stack/provider-utils@4.0.0-beta.16
-  - @open-stack/anthropic@3.0.0-beta.21
-  - @open-stack/google@3.0.0-beta.21
+  - @omni-stack/provider-utils@4.0.0-beta.16
+  - @omni-stack/anthropic@3.0.0-beta.21
+  - @omni-stack/google@3.0.0-beta.21
 
 ## 4.0.0-beta.26
 
 ### Patch Changes
 
 - Updated dependencies [f0b2157]
-  - @open-stack/provider-utils@4.0.0-beta.15
-  - @open-stack/anthropic@3.0.0-beta.20
-  - @open-stack/google@3.0.0-beta.20
+  - @omni-stack/provider-utils@4.0.0-beta.15
+  - @omni-stack/anthropic@3.0.0-beta.20
+  - @omni-stack/google@3.0.0-beta.20
 
 ## 4.0.0-beta.25
 
 ### Patch Changes
 
 - Updated dependencies [3b1d015]
-  - @open-stack/provider-utils@4.0.0-beta.14
-  - @open-stack/anthropic@3.0.0-beta.19
-  - @open-stack/google@3.0.0-beta.19
+  - @omni-stack/provider-utils@4.0.0-beta.14
+  - @omni-stack/anthropic@3.0.0-beta.19
+  - @omni-stack/google@3.0.0-beta.19
 
 ## 4.0.0-beta.24
 
 ### Patch Changes
 
 - Updated dependencies [d116b4b]
-  - @open-stack/provider-utils@4.0.0-beta.13
-  - @open-stack/anthropic@3.0.0-beta.18
-  - @open-stack/google@3.0.0-beta.18
+  - @omni-stack/provider-utils@4.0.0-beta.13
+  - @omni-stack/anthropic@3.0.0-beta.18
+  - @omni-stack/google@3.0.0-beta.18
 
 ## 4.0.0-beta.23
 
 ### Patch Changes
 
 - Updated dependencies [7e32fea]
-  - @open-stack/provider-utils@4.0.0-beta.12
-  - @open-stack/anthropic@3.0.0-beta.17
-  - @open-stack/google@3.0.0-beta.17
+  - @omni-stack/provider-utils@4.0.0-beta.12
+  - @omni-stack/anthropic@3.0.0-beta.17
+  - @omni-stack/google@3.0.0-beta.17
 
 ## 4.0.0-beta.22
 
 ### Patch Changes
 
 - Updated dependencies [ee50cc5]
-  - @open-stack/google@3.0.0-beta.16
+  - @omni-stack/google@3.0.0-beta.16
 
 ## 4.0.0-beta.21
 
 ### Patch Changes
 
 - Updated dependencies [9cff587]
-  - @open-stack/anthropic@3.0.0-beta.16
+  - @omni-stack/anthropic@3.0.0-beta.16
 
 ## 4.0.0-beta.20
 
@@ -277,9 +277,9 @@
 - 95f65c2: chore: use import \* from zod/v4
 - Updated dependencies [95f65c2]
 - Updated dependencies [95f65c2]
-  - @open-stack/provider-utils@4.0.0-beta.11
-  - @open-stack/anthropic@3.0.0-beta.15
-  - @open-stack/google@3.0.0-beta.15
+  - @omni-stack/provider-utils@4.0.0-beta.11
+  - @omni-stack/anthropic@3.0.0-beta.15
+  - @omni-stack/google@3.0.0-beta.15
 
 ## 4.0.0-beta.19
 
@@ -296,35 +296,35 @@
 ### Patch Changes
 
 - Updated dependencies [dee8b05]
-  - @open-stack/anthropic@3.0.0-beta.14
-  - @open-stack/google@3.0.0-beta.14
-  - @open-stack/provider@3.0.0-beta.6
-  - @open-stack/provider-utils@4.0.0-beta.10
+  - @omni-stack/anthropic@3.0.0-beta.14
+  - @omni-stack/google@3.0.0-beta.14
+  - @omni-stack/provider@3.0.0-beta.6
+  - @omni-stack/provider-utils@4.0.0-beta.10
 
 ## 3.1.0-beta.17
 
 ### Patch Changes
 
 - Updated dependencies [521c537]
-  - @open-stack/provider-utils@3.1.0-beta.9
-  - @open-stack/anthropic@2.1.0-beta.13
-  - @open-stack/google@2.1.0-beta.13
+  - @omni-stack/provider-utils@3.1.0-beta.9
+  - @omni-stack/anthropic@2.1.0-beta.13
+  - @omni-stack/google@2.1.0-beta.13
 
 ## 3.1.0-beta.16
 
 ### Patch Changes
 
 - Updated dependencies [e06565c]
-  - @open-stack/provider-utils@3.1.0-beta.8
-  - @open-stack/anthropic@2.1.0-beta.12
-  - @open-stack/google@2.1.0-beta.12
+  - @omni-stack/provider-utils@3.1.0-beta.8
+  - @omni-stack/anthropic@2.1.0-beta.12
+  - @omni-stack/google@2.1.0-beta.12
 
 ## 3.1.0-beta.15
 
 ### Patch Changes
 
 - Updated dependencies [9a728c8]
-  - @open-stack/google@2.1.0-beta.11
+  - @omni-stack/google@2.1.0-beta.11
 
 ## 3.1.0-beta.14
 
@@ -333,17 +333,17 @@
 - e8109d3: feat: tool execution approval
 - Updated dependencies [046aa3b]
 - Updated dependencies [e8109d3]
-  - @open-stack/provider@2.1.0-beta.5
-  - @open-stack/provider-utils@3.1.0-beta.7
-  - @open-stack/anthropic@2.1.0-beta.11
-  - @open-stack/google@2.1.0-beta.10
+  - @omni-stack/provider@2.1.0-beta.5
+  - @omni-stack/provider-utils@3.1.0-beta.7
+  - @omni-stack/anthropic@2.1.0-beta.11
+  - @omni-stack/google@2.1.0-beta.10
 
 ## 3.1.0-beta.13
 
 ### Patch Changes
 
 - Updated dependencies [dedf206]
-  - @open-stack/anthropic@2.1.0-beta.10
+  - @omni-stack/anthropic@2.1.0-beta.10
 
 ## 3.1.0-beta.12
 
@@ -351,44 +351,44 @@
 
 - Updated dependencies [0adc679]
 - Updated dependencies [2b0caef]
-  - @open-stack/provider-utils@3.1.0-beta.6
-  - @open-stack/anthropic@2.1.0-beta.9
-  - @open-stack/provider@2.1.0-beta.4
-  - @open-stack/google@2.1.0-beta.9
+  - @omni-stack/provider-utils@3.1.0-beta.6
+  - @omni-stack/anthropic@2.1.0-beta.9
+  - @omni-stack/provider@2.1.0-beta.4
+  - @omni-stack/google@2.1.0-beta.9
 
 ## 3.1.0-beta.11
 
 ### Patch Changes
 
 - Updated dependencies [7728ac5]
-  - @open-stack/google@2.1.0-beta.8
+  - @omni-stack/google@2.1.0-beta.8
 
 ## 3.1.0-beta.10
 
 ### Patch Changes
 
 - Updated dependencies [a5a8db4]
-  - @open-stack/anthropic@2.1.0-beta.8
+  - @omni-stack/anthropic@2.1.0-beta.8
 
 ## 3.1.0-beta.9
 
 ### Patch Changes
 
 - Updated dependencies [e1e2821]
-  - @open-stack/anthropic@2.1.0-beta.7
+  - @omni-stack/anthropic@2.1.0-beta.7
 
 ## 3.1.0-beta.8
 
 ### Patch Changes
 
 - 8dac895: feat: `LanguageModelV3`
-- 10c1322: fix: moved dependency `@open-stack/test-server` to devDependencies
+- 10c1322: fix: moved dependency `@omni-stack/test-server` to devDependencies
 - Updated dependencies [8dac895]
 - Updated dependencies [10c1322]
-  - @open-stack/provider-utils@3.1.0-beta.5
-  - @open-stack/anthropic@2.1.0-beta.6
-  - @open-stack/provider@2.1.0-beta.3
-  - @open-stack/google@2.1.0-beta.7
+  - @omni-stack/provider-utils@3.1.0-beta.5
+  - @omni-stack/anthropic@2.1.0-beta.6
+  - @omni-stack/provider@2.1.0-beta.3
+  - @omni-stack/google@2.1.0-beta.7
 
 ## 3.1.0-beta.7
 
@@ -399,7 +399,7 @@
 - Updated dependencies [f6603b7]
 - Updated dependencies [fa35e95]
 - Updated dependencies [c5440c5]
-  - @open-stack/anthropic@2.1.0-beta.5
+  - @omni-stack/anthropic@2.1.0-beta.5
 
 ## 3.1.0-beta.6
 
@@ -407,7 +407,7 @@
 
 - e833473: chore (provider/google): Add preview modelIds for gemini 2.5 flash and lite
 - Updated dependencies [e833473]
-  - @open-stack/google@2.1.0-beta.6
+  - @omni-stack/google@2.1.0-beta.6
 
 ## 3.1.0-beta.5
 
@@ -415,9 +415,9 @@
 
 - 4616b86: chore: update zod peer depenedency version
 - Updated dependencies [4616b86]
-  - @open-stack/provider-utils@3.1.0-beta.4
-  - @open-stack/anthropic@2.1.0-beta.4
-  - @open-stack/google@2.1.0-beta.5
+  - @omni-stack/provider-utils@3.1.0-beta.4
+  - @omni-stack/anthropic@2.1.0-beta.4
+  - @omni-stack/google@2.1.0-beta.5
 
 ## 3.1.0-beta.4
 
@@ -427,10 +427,10 @@
 - 522f6b8: feat: `ImageModelV3`
 - Updated dependencies [ed329cb]
 - Updated dependencies [522f6b8]
-  - @open-stack/anthropic@2.1.0-beta.3
-  - @open-stack/provider@2.1.0-beta.2
-  - @open-stack/google@2.1.0-beta.4
-  - @open-stack/provider-utils@3.1.0-beta.3
+  - @omni-stack/anthropic@2.1.0-beta.3
+  - @omni-stack/provider@2.1.0-beta.2
+  - @omni-stack/google@2.1.0-beta.4
+  - @omni-stack/provider-utils@3.1.0-beta.3
 
 ## 3.1.0-beta.3
 
@@ -440,17 +440,17 @@
 - 1cad0ab: feat: add provider version to user-agent header
 - Updated dependencies [0c4822d]
 - Updated dependencies [1cad0ab]
-  - @open-stack/provider@2.1.0-beta.1
-  - @open-stack/google@2.1.0-beta.3
-  - @open-stack/anthropic@2.1.0-beta.2
-  - @open-stack/provider-utils@3.1.0-beta.2
+  - @omni-stack/provider@2.1.0-beta.1
+  - @omni-stack/google@2.1.0-beta.3
+  - @omni-stack/anthropic@2.1.0-beta.2
+  - @omni-stack/provider-utils@3.1.0-beta.2
 
 ## 3.1.0-beta.2
 
 ### Patch Changes
 
 - Updated dependencies [7dea60e]
-  - @open-stack/google@2.1.0-beta.2
+  - @omni-stack/google@2.1.0-beta.2
 
 ## 3.1.0-beta.1
 
@@ -458,10 +458,10 @@
 
 - Updated dependencies [953d0f2]
 - Updated dependencies [cbb1d35]
-  - @open-stack/test-server@1.0.0-beta.0
-  - @open-stack/provider-utils@3.1.0-beta.1
-  - @open-stack/anthropic@2.1.0-beta.1
-  - @open-stack/google@2.1.0-beta.1
+  - @omni-stack/test-server@1.0.0-beta.0
+  - @omni-stack/provider-utils@3.1.0-beta.1
+  - @omni-stack/anthropic@2.1.0-beta.1
+  - @omni-stack/google@2.1.0-beta.1
 
 ## 3.1.0-beta.0
 
@@ -472,40 +472,40 @@
 ### Patch Changes
 
 - Updated dependencies [78928cb]
-  - @open-stack/anthropic@2.1.0-beta.0
-  - @open-stack/google@2.1.0-beta.0
-  - @open-stack/provider@2.1.0-beta.0
-  - @open-stack/provider-utils@3.1.0-beta.0
+  - @omni-stack/anthropic@2.1.0-beta.0
+  - @omni-stack/google@2.1.0-beta.0
+  - @omni-stack/provider@2.1.0-beta.0
+  - @omni-stack/provider-utils@3.1.0-beta.0
 
 ## 3.0.27
 
 ### Patch Changes
 
 - Updated dependencies [da92132]
-  - @open-stack/anthropic@2.0.17
+  - @omni-stack/anthropic@2.0.17
 
 ## 3.0.26
 
 ### Patch Changes
 
 - Updated dependencies [0294b58]
-  - @open-stack/provider-utils@3.0.9
-  - @open-stack/anthropic@2.0.16
-  - @open-stack/google@2.0.14
+  - @omni-stack/provider-utils@3.0.9
+  - @omni-stack/anthropic@2.0.16
+  - @omni-stack/google@2.0.14
 
 ## 3.0.25
 
 ### Patch Changes
 
 - Updated dependencies [c8aab0a]
-  - @open-stack/anthropic@2.0.15
+  - @omni-stack/anthropic@2.0.15
 
 ## 3.0.24
 
 ### Patch Changes
 
 - Updated dependencies [2338c79]
-  - @open-stack/anthropic@2.0.14
+  - @omni-stack/anthropic@2.0.14
 
 ## 3.0.23
 
@@ -519,8 +519,8 @@
 
 - Updated dependencies [cd458a8]
 - Updated dependencies [5a3ef3a]
-  - @open-stack/anthropic@2.0.13
-  - @open-stack/google@2.0.13
+  - @omni-stack/anthropic@2.0.13
+  - @omni-stack/google@2.0.13
 
 ## 3.0.21
 
@@ -539,37 +539,37 @@
 ### Patch Changes
 
 - Updated dependencies [99964ed]
-  - @open-stack/provider-utils@3.0.8
-  - @open-stack/anthropic@2.0.12
-  - @open-stack/google@2.0.12
+  - @omni-stack/provider-utils@3.0.8
+  - @omni-stack/anthropic@2.0.12
+  - @omni-stack/google@2.0.12
 
 ## 3.0.18
 
 ### Patch Changes
 
 - Updated dependencies [c7fee29]
-  - @open-stack/anthropic@2.0.11
+  - @omni-stack/anthropic@2.0.11
 
 ## 3.0.17
 
 ### Patch Changes
 
 - Updated dependencies [c152ef7]
-  - @open-stack/anthropic@2.0.10
+  - @omni-stack/anthropic@2.0.10
 
 ## 3.0.16
 
 ### Patch Changes
 
 - Updated dependencies [cdc6b7a]
-  - @open-stack/anthropic@2.0.9
+  - @omni-stack/anthropic@2.0.9
 
 ## 3.0.15
 
 ### Patch Changes
 
 - Updated dependencies [a14fc2b]
-  - @open-stack/google@2.0.11
+  - @omni-stack/google@2.0.11
 
 ## 3.0.14
 
@@ -577,18 +577,18 @@
 
 - a8a73c5: Update Claude model IDs in Google Vertex Anthropic provider and documentation link
 - Updated dependencies [886e7cd]
-  - @open-stack/provider-utils@3.0.7
-  - @open-stack/anthropic@2.0.8
-  - @open-stack/google@2.0.10
+  - @omni-stack/provider-utils@3.0.7
+  - @omni-stack/anthropic@2.0.8
+  - @omni-stack/google@2.0.10
 
 ## 3.0.13
 
 ### Patch Changes
 
 - Updated dependencies [1b5a3d3]
-  - @open-stack/provider-utils@3.0.6
-  - @open-stack/anthropic@2.0.7
-  - @open-stack/google@2.0.9
+  - @omni-stack/provider-utils@3.0.6
+  - @omni-stack/anthropic@2.0.7
+  - @omni-stack/google@2.0.9
 
 ## 3.0.12
 
@@ -601,25 +601,25 @@
 ### Patch Changes
 
 - Updated dependencies [0857788]
-  - @open-stack/provider-utils@3.0.5
-  - @open-stack/anthropic@2.0.6
-  - @open-stack/google@2.0.8
+  - @omni-stack/provider-utils@3.0.5
+  - @omni-stack/anthropic@2.0.6
+  - @omni-stack/google@2.0.8
 
 ## 3.0.10
 
 ### Patch Changes
 
 - Updated dependencies [68751f9]
-  - @open-stack/provider-utils@3.0.4
-  - @open-stack/anthropic@2.0.5
-  - @open-stack/google@2.0.7
+  - @omni-stack/provider-utils@3.0.4
+  - @omni-stack/anthropic@2.0.5
+  - @omni-stack/google@2.0.7
 
 ## 3.0.9
 
 ### Patch Changes
 
 - Updated dependencies [ae859ce]
-  - @open-stack/anthropic@2.0.4
+  - @omni-stack/anthropic@2.0.4
 
 ## 3.0.8
 
@@ -634,41 +634,41 @@
 
 - Updated dependencies [034e229]
 - Updated dependencies [f25040d]
-  - @open-stack/provider-utils@3.0.3
-  - @open-stack/anthropic@2.0.3
-  - @open-stack/google@2.0.6
+  - @omni-stack/provider-utils@3.0.3
+  - @omni-stack/anthropic@2.0.3
+  - @omni-stack/google@2.0.6
 
 ## 3.0.6
 
 ### Patch Changes
 
 - Updated dependencies [38ac190]
-  - @open-stack/provider-utils@3.0.2
-  - @open-stack/anthropic@2.0.2
-  - @open-stack/google@2.0.5
+  - @omni-stack/provider-utils@3.0.2
+  - @omni-stack/anthropic@2.0.2
+  - @omni-stack/google@2.0.5
 
 ## 3.0.5
 
 ### Patch Changes
 
 - Updated dependencies [961dda1]
-  - @open-stack/google@2.0.4
+  - @omni-stack/google@2.0.4
 
 ## 3.0.4
 
 ### Patch Changes
 
 - Updated dependencies [9fb0252]
-  - @open-stack/google@2.0.3
+  - @omni-stack/google@2.0.3
 
 ## 3.0.3
 
 ### Patch Changes
 
 - Updated dependencies [90d212f]
-  - @open-stack/provider-utils@3.0.1
-  - @open-stack/anthropic@2.0.1
-  - @open-stack/google@2.0.2
+  - @omni-stack/provider-utils@3.0.1
+  - @omni-stack/anthropic@2.0.1
+  - @omni-stack/google@2.0.2
 
 ## 3.0.2
 
@@ -676,7 +676,7 @@
 
 - b9cd900: feat(providers/google-vertex) Add TaskType support for Text Embedding Model
 - Updated dependencies [f5464aa]
-  - @open-stack/google@2.0.1
+  - @omni-stack/google@2.0.1
 
 ## 3.0.1
 
@@ -897,19 +897,19 @@
 - Updated dependencies [383cbfa]
 - Updated dependencies [27deb4d]
 - Updated dependencies [c4df419]
-  - @open-stack/provider-utils@3.0.0
-  - @open-stack/provider@2.0.0
-  - @open-stack/google@2.0.0
-  - @open-stack/anthropic@2.0.0
+  - @omni-stack/provider-utils@3.0.0
+  - @omni-stack/provider@2.0.0
+  - @omni-stack/google@2.0.0
+  - @omni-stack/anthropic@2.0.0
 
 ## 3.0.0-beta.21
 
 ### Patch Changes
 
 - Updated dependencies [88a8ee5]
-  - @open-stack/provider-utils@3.0.0-beta.10
-  - @open-stack/anthropic@2.0.0-beta.13
-  - @open-stack/google@2.0.0-beta.19
+  - @omni-stack/provider-utils@3.0.0-beta.10
+  - @omni-stack/anthropic@2.0.0-beta.13
+  - @omni-stack/google@2.0.0-beta.19
 
 ## 3.0.0-beta.20
 
@@ -919,10 +919,10 @@
 - Updated dependencies [0f05690]
 - Updated dependencies [f418dd7]
 - Updated dependencies [27deb4d]
-  - @open-stack/google@2.0.0-beta.18
-  - @open-stack/anthropic@2.0.0-beta.12
-  - @open-stack/provider@2.0.0-beta.2
-  - @open-stack/provider-utils@3.0.0-beta.9
+  - @omni-stack/google@2.0.0-beta.18
+  - @omni-stack/anthropic@2.0.0-beta.12
+  - @omni-stack/provider@2.0.0-beta.2
+  - @omni-stack/provider-utils@3.0.0-beta.9
 
 ## 3.0.0-beta.19
 
@@ -930,9 +930,9 @@
 
 - Updated dependencies [eb173f1]
 - Updated dependencies [dd5fd43]
-  - @open-stack/anthropic@2.0.0-beta.11
-  - @open-stack/google@2.0.0-beta.17
-  - @open-stack/provider-utils@3.0.0-beta.8
+  - @omni-stack/anthropic@2.0.0-beta.11
+  - @omni-stack/google@2.0.0-beta.17
+  - @omni-stack/provider-utils@3.0.0-beta.8
 
 ## 3.0.0-beta.18
 
@@ -940,9 +940,9 @@
 
 - Updated dependencies [e7fcc86]
 - Updated dependencies [269683f]
-  - @open-stack/provider-utils@3.0.0-beta.7
-  - @open-stack/anthropic@2.0.0-beta.10
-  - @open-stack/google@2.0.0-beta.16
+  - @omni-stack/provider-utils@3.0.0-beta.7
+  - @omni-stack/anthropic@2.0.0-beta.10
+  - @omni-stack/google@2.0.0-beta.16
 
 ## 3.0.0-beta.17
 
@@ -951,16 +951,16 @@
 - Updated dependencies [4f26d59]
 - Updated dependencies [ac34802]
 - Updated dependencies [a753b3a]
-  - @open-stack/anthropic@2.0.0-beta.9
-  - @open-stack/provider-utils@3.0.0-beta.6
-  - @open-stack/google@2.0.0-beta.15
+  - @omni-stack/anthropic@2.0.0-beta.9
+  - @omni-stack/provider-utils@3.0.0-beta.6
+  - @omni-stack/google@2.0.0-beta.15
 
 ## 3.0.0-beta.16
 
 ### Patch Changes
 
 - Updated dependencies [75f03b1]
-  - @open-stack/google@2.0.0-beta.14
+  - @omni-stack/google@2.0.0-beta.14
 
 ## 3.0.0-beta.15
 
@@ -968,9 +968,9 @@
 
 - Updated dependencies [57edfcb]
 - Updated dependencies [383cbfa]
-  - @open-stack/provider-utils@3.0.0-beta.5
-  - @open-stack/anthropic@2.0.0-beta.8
-  - @open-stack/google@2.0.0-beta.13
+  - @omni-stack/provider-utils@3.0.0-beta.5
+  - @omni-stack/anthropic@2.0.0-beta.8
+  - @omni-stack/google@2.0.0-beta.13
 
 ## 3.0.0-beta.14
 
@@ -978,16 +978,16 @@
 
 - 205077b: fix: improve Zod compatibility
 - Updated dependencies [205077b]
-  - @open-stack/provider-utils@3.0.0-beta.4
-  - @open-stack/anthropic@2.0.0-beta.7
-  - @open-stack/google@2.0.0-beta.12
+  - @omni-stack/provider-utils@3.0.0-beta.4
+  - @omni-stack/anthropic@2.0.0-beta.7
+  - @omni-stack/google@2.0.0-beta.12
 
 ## 3.0.0-beta.13
 
 ### Patch Changes
 
 - Updated dependencies [6a16dcf]
-  - @open-stack/google@2.0.0-beta.11
+  - @omni-stack/google@2.0.0-beta.11
 
 ## 3.0.0-beta.12
 
@@ -999,37 +999,37 @@
 
 - Updated dependencies [05d2819]
 - Updated dependencies [7badba2]
-  - @open-stack/provider-utils@3.0.0-beta.3
-  - @open-stack/google@2.0.0-beta.10
-  - @open-stack/anthropic@2.0.0-beta.6
+  - @omni-stack/provider-utils@3.0.0-beta.3
+  - @omni-stack/google@2.0.0-beta.10
+  - @omni-stack/anthropic@2.0.0-beta.6
 
 ## 3.0.0-beta.11
 
 ### Patch Changes
 
 - Updated dependencies [8af9e03]
-  - @open-stack/google@2.0.0-beta.9
+  - @omni-stack/google@2.0.0-beta.9
 
 ## 3.0.0-beta.10
 
 ### Patch Changes
 
 - Updated dependencies [b9ddcdd]
-  - @open-stack/anthropic@2.0.0-beta.5
+  - @omni-stack/anthropic@2.0.0-beta.5
 
 ## 3.0.0-beta.9
 
 ### Patch Changes
 
 - Updated dependencies [2e06f14]
-  - @open-stack/google@2.0.0-beta.8
+  - @omni-stack/google@2.0.0-beta.8
 
 ## 3.0.0-beta.8
 
 ### Patch Changes
 
 - Updated dependencies [19a4336]
-  - @open-stack/google@2.0.0-beta.7
+  - @omni-stack/google@2.0.0-beta.7
 
 ## 3.0.0-beta.7
 
@@ -1037,21 +1037,21 @@
 
 - Updated dependencies [fdff8a4]
 - Updated dependencies [84577c8]
-  - @open-stack/anthropic@2.0.0-beta.4
+  - @omni-stack/anthropic@2.0.0-beta.4
 
 ## 3.0.0-beta.6
 
 ### Patch Changes
 
 - Updated dependencies [878bf45]
-  - @open-stack/google@2.0.0-beta.6
+  - @omni-stack/google@2.0.0-beta.6
 
 ## 3.0.0-beta.5
 
 ### Patch Changes
 
 - Updated dependencies [42fcd32]
-  - @open-stack/google@2.0.0-beta.5
+  - @omni-stack/google@2.0.0-beta.5
 
 ## 3.0.0-beta.4
 
@@ -1059,7 +1059,7 @@
 
 - Updated dependencies [c68931f]
 - Updated dependencies [8e6b69d]
-  - @open-stack/google@2.0.0-beta.4
+  - @omni-stack/google@2.0.0-beta.4
 
 ## 3.0.0-beta.3
 
@@ -1072,9 +1072,9 @@
 - Updated dependencies [39a4fab]
 - Updated dependencies [d1a034f]
 - Updated dependencies [0b678b2]
-  - @open-stack/provider-utils@3.0.0-beta.2
-  - @open-stack/anthropic@2.0.0-beta.3
-  - @open-stack/google@2.0.0-beta.3
+  - @omni-stack/provider-utils@3.0.0-beta.2
+  - @omni-stack/anthropic@2.0.0-beta.3
+  - @omni-stack/google@2.0.0-beta.3
 
 ## 3.0.0-beta.2
 
@@ -1082,8 +1082,8 @@
 
 - Updated dependencies [a313780]
 - Updated dependencies [d601ed9]
-  - @open-stack/google@2.0.0-beta.2
-  - @open-stack/anthropic@2.0.0-beta.2
+  - @omni-stack/google@2.0.0-beta.2
+  - @omni-stack/anthropic@2.0.0-beta.2
 
 ## 3.0.0-beta.1
 
@@ -1110,10 +1110,10 @@
 - Updated dependencies [71f938d]
 - Updated dependencies [28a5ed5]
 - Updated dependencies [399e056]
-  - @open-stack/provider@2.0.0-beta.1
-  - @open-stack/provider-utils@3.0.0-beta.1
-  - @open-stack/anthropic@2.0.0-beta.1
-  - @open-stack/google@2.0.0-beta.1
+  - @omni-stack/provider@2.0.0-beta.1
+  - @omni-stack/provider-utils@3.0.0-beta.1
+  - @omni-stack/anthropic@2.0.0-beta.1
+  - @omni-stack/google@2.0.0-beta.1
 
 ## 3.0.0-alpha.15
 
@@ -1121,10 +1121,10 @@
 
 - Updated dependencies [48d257a]
 - Updated dependencies [8ba77a7]
-  - @open-stack/provider@2.0.0-alpha.15
-  - @open-stack/provider-utils@3.0.0-alpha.15
-  - @open-stack/anthropic@2.0.0-alpha.15
-  - @open-stack/google@2.0.0-alpha.15
+  - @omni-stack/provider@2.0.0-alpha.15
+  - @omni-stack/provider-utils@3.0.0-alpha.15
+  - @omni-stack/anthropic@2.0.0-alpha.15
+  - @omni-stack/google@2.0.0-alpha.15
 
 ## 3.0.0-alpha.14
 
@@ -1134,10 +1134,10 @@
 - Updated dependencies [63f9e9b]
 - Updated dependencies [2e13791]
 - Updated dependencies [6392f60]
-  - @open-stack/provider@2.0.0-alpha.14
-  - @open-stack/anthropic@2.0.0-alpha.14
-  - @open-stack/google@2.0.0-alpha.14
-  - @open-stack/provider-utils@3.0.0-alpha.14
+  - @omni-stack/provider@2.0.0-alpha.14
+  - @omni-stack/anthropic@2.0.0-alpha.14
+  - @omni-stack/google@2.0.0-alpha.14
+  - @omni-stack/provider-utils@3.0.0-alpha.14
 
 ## 3.0.0-alpha.13
 
@@ -1146,10 +1146,10 @@
 - Updated dependencies [8dfcb11]
 - Updated dependencies [68ecf2f]
 - Updated dependencies [ee5a9c0]
-  - @open-stack/anthropic@2.0.0-alpha.13
-  - @open-stack/provider@2.0.0-alpha.13
-  - @open-stack/google@2.0.0-alpha.13
-  - @open-stack/provider-utils@3.0.0-alpha.13
+  - @omni-stack/anthropic@2.0.0-alpha.13
+  - @omni-stack/provider@2.0.0-alpha.13
+  - @omni-stack/google@2.0.0-alpha.13
+  - @omni-stack/provider-utils@3.0.0-alpha.13
 
 ## 3.0.0-alpha.12
 
@@ -1157,10 +1157,10 @@
 
 - e2aceaf: feat: add raw chunk support
 - Updated dependencies [e2aceaf]
-  - @open-stack/anthropic@2.0.0-alpha.12
-  - @open-stack/google@2.0.0-alpha.12
-  - @open-stack/provider@2.0.0-alpha.12
-  - @open-stack/provider-utils@3.0.0-alpha.12
+  - @omni-stack/anthropic@2.0.0-alpha.12
+  - @omni-stack/google@2.0.0-alpha.12
+  - @omni-stack/provider@2.0.0-alpha.12
+  - @omni-stack/provider-utils@3.0.0-alpha.12
 
 ## 3.0.0-alpha.11
 
@@ -1168,10 +1168,10 @@
 
 - Updated dependencies [25f3454]
 - Updated dependencies [c1e6647]
-  - @open-stack/anthropic@2.0.0-alpha.11
-  - @open-stack/provider@2.0.0-alpha.11
-  - @open-stack/google@2.0.0-alpha.11
-  - @open-stack/provider-utils@3.0.0-alpha.11
+  - @omni-stack/anthropic@2.0.0-alpha.11
+  - @omni-stack/provider@2.0.0-alpha.11
+  - @omni-stack/google@2.0.0-alpha.11
+  - @omni-stack/provider-utils@3.0.0-alpha.11
 
 ## 3.0.0-alpha.10
 
@@ -1180,10 +1180,10 @@
 - bb13f18: Add reasoning token output support for gemini models via Vertex AI Provider
 - Updated dependencies [581a9be]
 - Updated dependencies [c4df419]
-  - @open-stack/google@2.0.0-alpha.10
-  - @open-stack/provider@2.0.0-alpha.10
-  - @open-stack/anthropic@2.0.0-alpha.10
-  - @open-stack/provider-utils@3.0.0-alpha.10
+  - @omni-stack/google@2.0.0-alpha.10
+  - @omni-stack/provider@2.0.0-alpha.10
+  - @omni-stack/anthropic@2.0.0-alpha.10
+  - @omni-stack/provider-utils@3.0.0-alpha.10
 
 ## 3.0.0-alpha.9
 
@@ -1191,10 +1191,10 @@
 
 - Updated dependencies [362b048]
 - Updated dependencies [811dff3]
-  - @open-stack/anthropic@2.0.0-alpha.9
-  - @open-stack/provider@2.0.0-alpha.9
-  - @open-stack/google@2.0.0-alpha.9
-  - @open-stack/provider-utils@3.0.0-alpha.9
+  - @omni-stack/anthropic@2.0.0-alpha.9
+  - @omni-stack/provider@2.0.0-alpha.9
+  - @omni-stack/google@2.0.0-alpha.9
+  - @omni-stack/provider-utils@3.0.0-alpha.9
 
 ## 3.0.0-alpha.8
 
@@ -1205,30 +1205,30 @@
 - Updated dependencies [1a635b5]
 - Updated dependencies [9222aeb]
 - Updated dependencies [075711d]
-  - @open-stack/anthropic@2.0.0-alpha.8
-  - @open-stack/provider-utils@3.0.0-alpha.8
-  - @open-stack/google@2.0.0-alpha.8
-  - @open-stack/provider@2.0.0-alpha.8
+  - @omni-stack/anthropic@2.0.0-alpha.8
+  - @omni-stack/provider-utils@3.0.0-alpha.8
+  - @omni-stack/google@2.0.0-alpha.8
+  - @omni-stack/provider@2.0.0-alpha.8
 
 ## 3.0.0-alpha.7
 
 ### Patch Changes
 
 - Updated dependencies [5c56081]
-  - @open-stack/provider@2.0.0-alpha.7
-  - @open-stack/anthropic@2.0.0-alpha.7
-  - @open-stack/google@2.0.0-alpha.7
-  - @open-stack/provider-utils@3.0.0-alpha.7
+  - @omni-stack/provider@2.0.0-alpha.7
+  - @omni-stack/anthropic@2.0.0-alpha.7
+  - @omni-stack/google@2.0.0-alpha.7
+  - @omni-stack/provider-utils@3.0.0-alpha.7
 
 ## 3.0.0-alpha.6
 
 ### Patch Changes
 
 - Updated dependencies [0d2c085]
-  - @open-stack/provider@2.0.0-alpha.6
-  - @open-stack/anthropic@2.0.0-alpha.6
-  - @open-stack/google@2.0.0-alpha.6
-  - @open-stack/provider-utils@3.0.0-alpha.6
+  - @omni-stack/provider@2.0.0-alpha.6
+  - @omni-stack/anthropic@2.0.0-alpha.6
+  - @omni-stack/google@2.0.0-alpha.6
+  - @omni-stack/provider-utils@3.0.0-alpha.6
 
 ## 3.0.0-alpha.4
 
@@ -1237,58 +1237,58 @@
 - 9ccce3a: feat (google-vertex): Set `.providerMetaData` for image model responses
 - Updated dependencies [dc714f3]
 - Updated dependencies [ca8aac6]
-  - @open-stack/provider@2.0.0-alpha.4
-  - @open-stack/anthropic@2.0.0-alpha.4
-  - @open-stack/google@2.0.0-alpha.4
-  - @open-stack/provider-utils@3.0.0-alpha.4
+  - @omni-stack/provider@2.0.0-alpha.4
+  - @omni-stack/anthropic@2.0.0-alpha.4
+  - @omni-stack/google@2.0.0-alpha.4
+  - @omni-stack/provider-utils@3.0.0-alpha.4
 
 ## 3.0.0-alpha.3
 
 ### Patch Changes
 
 - Updated dependencies [6b98118]
-  - @open-stack/provider@2.0.0-alpha.3
-  - @open-stack/anthropic@2.0.0-alpha.3
-  - @open-stack/google@2.0.0-alpha.3
-  - @open-stack/provider-utils@3.0.0-alpha.3
+  - @omni-stack/provider@2.0.0-alpha.3
+  - @omni-stack/anthropic@2.0.0-alpha.3
+  - @omni-stack/google@2.0.0-alpha.3
+  - @omni-stack/provider-utils@3.0.0-alpha.3
 
 ## 3.0.0-alpha.2
 
 ### Patch Changes
 
 - Updated dependencies [26535e0]
-  - @open-stack/provider@2.0.0-alpha.2
-  - @open-stack/anthropic@2.0.0-alpha.2
-  - @open-stack/google@2.0.0-alpha.2
-  - @open-stack/provider-utils@3.0.0-alpha.2
+  - @omni-stack/provider@2.0.0-alpha.2
+  - @omni-stack/anthropic@2.0.0-alpha.2
+  - @omni-stack/google@2.0.0-alpha.2
+  - @omni-stack/provider-utils@3.0.0-alpha.2
 
 ## 3.0.0-alpha.1
 
 ### Patch Changes
 
 - Updated dependencies [3f2f00c]
-  - @open-stack/provider@2.0.0-alpha.1
-  - @open-stack/anthropic@2.0.0-alpha.1
-  - @open-stack/google@2.0.0-alpha.1
-  - @open-stack/provider-utils@3.0.0-alpha.1
+  - @omni-stack/provider@2.0.0-alpha.1
+  - @omni-stack/anthropic@2.0.0-alpha.1
+  - @omni-stack/google@2.0.0-alpha.1
+  - @omni-stack/provider-utils@3.0.0-alpha.1
 
 ## 3.0.0-canary.20
 
 ### Patch Changes
 
 - Updated dependencies [faf8446]
-  - @open-stack/provider-utils@3.0.0-canary.19
-  - @open-stack/anthropic@2.0.0-canary.19
-  - @open-stack/google@2.0.0-canary.20
+  - @omni-stack/provider-utils@3.0.0-canary.19
+  - @omni-stack/anthropic@2.0.0-canary.19
+  - @omni-stack/google@2.0.0-canary.20
 
 ## 3.0.0-canary.19
 
 ### Patch Changes
 
 - Updated dependencies [40acf9b]
-  - @open-stack/provider-utils@3.0.0-canary.18
-  - @open-stack/anthropic@2.0.0-canary.18
-  - @open-stack/google@2.0.0-canary.19
+  - @omni-stack/provider-utils@3.0.0-canary.18
+  - @omni-stack/anthropic@2.0.0-canary.18
+  - @omni-stack/google@2.0.0-canary.19
 
 ## 3.0.0-canary.18
 
@@ -1331,18 +1331,18 @@
 
 - Updated dependencies [f07a6d4]
 - Updated dependencies [ea7a7c9]
-  - @open-stack/google@2.0.0-canary.18
-  - @open-stack/provider-utils@3.0.0-canary.17
-  - @open-stack/anthropic@2.0.0-canary.17
+  - @omni-stack/google@2.0.0-canary.18
+  - @omni-stack/provider-utils@3.0.0-canary.17
+  - @omni-stack/anthropic@2.0.0-canary.17
 
 ## 3.0.0-canary.17
 
 ### Patch Changes
 
 - Updated dependencies [87b828f]
-  - @open-stack/provider-utils@3.0.0-canary.16
-  - @open-stack/anthropic@2.0.0-canary.16
-  - @open-stack/google@2.0.0-canary.17
+  - @omni-stack/provider-utils@3.0.0-canary.16
+  - @omni-stack/anthropic@2.0.0-canary.16
+  - @omni-stack/google@2.0.0-canary.17
 
 ## 3.0.0-canary.16
 
@@ -1352,10 +1352,10 @@
 - Updated dependencies [a8c8bd5]
 - Updated dependencies [7979f7f]
 - Updated dependencies [41fa418]
-  - @open-stack/provider-utils@3.0.0-canary.15
-  - @open-stack/provider@2.0.0-canary.14
-  - @open-stack/anthropic@2.0.0-canary.15
-  - @open-stack/google@2.0.0-canary.16
+  - @omni-stack/provider-utils@3.0.0-canary.15
+  - @omni-stack/provider@2.0.0-canary.14
+  - @omni-stack/anthropic@2.0.0-canary.15
+  - @omni-stack/google@2.0.0-canary.16
 
 ## 3.0.0-canary.15
 
@@ -1363,10 +1363,10 @@
 
 - Updated dependencies [957b739]
 - Updated dependencies [9bd5ab5]
-  - @open-stack/provider-utils@3.0.0-canary.14
-  - @open-stack/provider@2.0.0-canary.13
-  - @open-stack/anthropic@2.0.0-canary.14
-  - @open-stack/google@2.0.0-canary.15
+  - @omni-stack/provider-utils@3.0.0-canary.14
+  - @omni-stack/provider@2.0.0-canary.13
+  - @omni-stack/anthropic@2.0.0-canary.14
+  - @omni-stack/google@2.0.0-canary.15
 
 ## 3.0.0-canary.14
 
@@ -1377,10 +1377,10 @@
 - Updated dependencies [f916255]
 - Updated dependencies [7b3ae3f]
 - Updated dependencies [0ff02bb]
-  - @open-stack/google@2.0.0-canary.14
-  - @open-stack/provider@2.0.0-canary.12
-  - @open-stack/provider-utils@3.0.0-canary.13
-  - @open-stack/anthropic@2.0.0-canary.13
+  - @omni-stack/google@2.0.0-canary.14
+  - @omni-stack/provider@2.0.0-canary.12
+  - @omni-stack/provider-utils@3.0.0-canary.13
+  - @omni-stack/anthropic@2.0.0-canary.13
 
 ## 3.0.0-canary.13
 
@@ -1393,10 +1393,10 @@
 - Updated dependencies [7378473]
 - Updated dependencies [4617fab]
 - Updated dependencies [e030615]
-  - @open-stack/anthropic@2.0.0-canary.12
-  - @open-stack/provider@2.0.0-canary.11
-  - @open-stack/google@2.0.0-canary.13
-  - @open-stack/provider-utils@3.0.0-canary.12
+  - @omni-stack/anthropic@2.0.0-canary.12
+  - @omni-stack/provider@2.0.0-canary.11
+  - @omni-stack/google@2.0.0-canary.13
+  - @omni-stack/provider-utils@3.0.0-canary.12
 
 ## 3.0.0-canary.12
 
@@ -1408,20 +1408,20 @@
 - Updated dependencies [66962ed]
 - Updated dependencies [9301f86]
 - Updated dependencies [a3f768e]
-  - @open-stack/google@2.0.0-canary.12
-  - @open-stack/provider-utils@3.0.0-canary.11
-  - @open-stack/anthropic@2.0.0-canary.11
-  - @open-stack/provider@2.0.0-canary.10
+  - @omni-stack/google@2.0.0-canary.12
+  - @omni-stack/provider-utils@3.0.0-canary.11
+  - @omni-stack/anthropic@2.0.0-canary.11
+  - @omni-stack/provider@2.0.0-canary.10
 
 ## 3.0.0-canary.11
 
 ### Patch Changes
 
 - Updated dependencies [e86be6f]
-  - @open-stack/provider@2.0.0-canary.9
-  - @open-stack/anthropic@2.0.0-canary.10
-  - @open-stack/google@2.0.0-canary.11
-  - @open-stack/provider-utils@3.0.0-canary.10
+  - @omni-stack/provider@2.0.0-canary.9
+  - @omni-stack/anthropic@2.0.0-canary.10
+  - @omni-stack/google@2.0.0-canary.11
+  - @omni-stack/provider-utils@3.0.0-canary.10
 
 ## 3.0.0-canary.10
 
@@ -1432,10 +1432,10 @@
 - Updated dependencies [3259565]
 - Updated dependencies [fd98925]
 - Updated dependencies [7ea4132]
-  - @open-stack/provider@2.0.0-canary.8
-  - @open-stack/google@2.0.0-canary.10
-  - @open-stack/anthropic@2.0.0-canary.9
-  - @open-stack/provider-utils@3.0.0-canary.9
+  - @omni-stack/provider@2.0.0-canary.8
+  - @omni-stack/google@2.0.0-canary.10
+  - @omni-stack/anthropic@2.0.0-canary.9
+  - @omni-stack/provider-utils@3.0.0-canary.9
 
 ## 3.0.0-canary.9
 
@@ -1445,10 +1445,10 @@
 - Updated dependencies [b6b43c7]
 - Updated dependencies [8aa9e20]
 - Updated dependencies [3795467]
-  - @open-stack/provider-utils@3.0.0-canary.8
-  - @open-stack/provider@2.0.0-canary.7
-  - @open-stack/anthropic@2.0.0-canary.8
-  - @open-stack/google@2.0.0-canary.9
+  - @omni-stack/provider-utils@3.0.0-canary.8
+  - @omni-stack/provider@2.0.0-canary.7
+  - @omni-stack/anthropic@2.0.0-canary.8
+  - @omni-stack/google@2.0.0-canary.9
 
 ## 3.0.0-canary.8
 
@@ -1469,10 +1469,10 @@
 - Updated dependencies [fd65bc6]
 - Updated dependencies [393138b]
 - Updated dependencies [7182d14]
-  - @open-stack/provider@2.0.0-canary.6
-  - @open-stack/google@2.0.0-canary.8
-  - @open-stack/anthropic@2.0.0-canary.7
-  - @open-stack/provider-utils@3.0.0-canary.7
+  - @omni-stack/provider@2.0.0-canary.6
+  - @omni-stack/google@2.0.0-canary.8
+  - @omni-stack/anthropic@2.0.0-canary.7
+  - @omni-stack/provider-utils@3.0.0-canary.7
 
 ## 3.0.0-canary.7
 
@@ -1483,30 +1483,30 @@
 - Updated dependencies [ad80501]
 - Updated dependencies [1766ede]
 - Updated dependencies [f10304b]
-  - @open-stack/provider@2.0.0-canary.5
-  - @open-stack/anthropic@2.0.0-canary.6
-  - @open-stack/google@2.0.0-canary.7
-  - @open-stack/provider-utils@3.0.0-canary.6
+  - @omni-stack/provider@2.0.0-canary.5
+  - @omni-stack/anthropic@2.0.0-canary.6
+  - @omni-stack/google@2.0.0-canary.7
+  - @omni-stack/provider-utils@3.0.0-canary.6
 
 ## 3.0.0-canary.6
 
 ### Patch Changes
 
 - Updated dependencies [6f6bb89]
-  - @open-stack/provider@2.0.0-canary.4
-  - @open-stack/anthropic@2.0.0-canary.5
-  - @open-stack/google@2.0.0-canary.6
-  - @open-stack/provider-utils@3.0.0-canary.5
+  - @omni-stack/provider@2.0.0-canary.4
+  - @omni-stack/anthropic@2.0.0-canary.5
+  - @omni-stack/google@2.0.0-canary.6
+  - @omni-stack/provider-utils@3.0.0-canary.5
 
 ## 3.0.0-canary.5
 
 ### Patch Changes
 
 - Updated dependencies [d1a1aa1]
-  - @open-stack/provider@2.0.0-canary.3
-  - @open-stack/anthropic@2.0.0-canary.4
-  - @open-stack/google@2.0.0-canary.5
-  - @open-stack/provider-utils@3.0.0-canary.4
+  - @omni-stack/provider@2.0.0-canary.3
+  - @omni-stack/anthropic@2.0.0-canary.4
+  - @omni-stack/google@2.0.0-canary.5
+  - @omni-stack/provider-utils@3.0.0-canary.4
 
 ## 3.0.0-canary.4
 
@@ -1518,10 +1518,10 @@
 - Updated dependencies [0a87932]
 - Updated dependencies [6dc848c]
 - Updated dependencies [61ab528]
-  - @open-stack/provider-utils@3.0.0-canary.3
-  - @open-stack/provider@2.0.0-canary.2
-  - @open-stack/anthropic@2.0.0-canary.3
-  - @open-stack/google@2.0.0-canary.4
+  - @omni-stack/provider-utils@3.0.0-canary.3
+  - @omni-stack/provider@2.0.0-canary.2
+  - @omni-stack/anthropic@2.0.0-canary.3
+  - @omni-stack/google@2.0.0-canary.4
 
 ## 3.0.0-canary.3
 
@@ -1529,17 +1529,17 @@
 
 - Updated dependencies [c57e248]
 - Updated dependencies [33f4a6a]
-  - @open-stack/provider@2.0.0-canary.1
-  - @open-stack/anthropic@2.0.0-canary.2
-  - @open-stack/google@2.0.0-canary.3
-  - @open-stack/provider-utils@3.0.0-canary.2
+  - @omni-stack/provider@2.0.0-canary.1
+  - @omni-stack/anthropic@2.0.0-canary.2
+  - @omni-stack/google@2.0.0-canary.3
+  - @omni-stack/provider-utils@3.0.0-canary.2
 
 ## 3.0.0-canary.2
 
 ### Patch Changes
 
 - Updated dependencies [5cf30ea]
-  - @open-stack/google@2.0.0-canary.2
+  - @omni-stack/google@2.0.0-canary.2
 
 ## 3.0.0-canary.1
 
@@ -1550,9 +1550,9 @@
 - Updated dependencies [0c0c0b3]
 - Updated dependencies [779d916]
 - Updated dependencies [63d791d]
-  - @open-stack/provider-utils@3.0.0-canary.1
-  - @open-stack/google@2.0.0-canary.1
-  - @open-stack/anthropic@2.0.0-canary.1
+  - @omni-stack/provider-utils@3.0.0-canary.1
+  - @omni-stack/google@2.0.0-canary.1
+  - @omni-stack/anthropic@2.0.0-canary.1
 
 ## 3.0.0-canary.0
 
@@ -1565,28 +1565,28 @@
 - 91715e5: fix (provider/google-vertex): fix anthropic support for image urls in messages
 - Updated dependencies [d5f588f]
 - Updated dependencies [91715e5]
-  - @open-stack/provider-utils@3.0.0-canary.0
-  - @open-stack/anthropic@2.0.0-canary.0
-  - @open-stack/google@2.0.0-canary.0
-  - @open-stack/provider@2.0.0-canary.0
+  - @omni-stack/provider-utils@3.0.0-canary.0
+  - @omni-stack/anthropic@2.0.0-canary.0
+  - @omni-stack/google@2.0.0-canary.0
+  - @omni-stack/provider@2.0.0-canary.0
 
 ## 2.2.7
 
 ### Patch Changes
 
 - Updated dependencies [28be004]
-  - @open-stack/provider-utils@2.2.3
-  - @open-stack/anthropic@1.2.4
-  - @open-stack/google@1.2.5
+  - @omni-stack/provider-utils@2.2.3
+  - @omni-stack/anthropic@1.2.4
+  - @omni-stack/google@1.2.5
 
 ## 2.2.6
 
 ### Patch Changes
 
 - Updated dependencies [b01120e]
-  - @open-stack/provider-utils@2.2.2
-  - @open-stack/anthropic@1.2.3
-  - @open-stack/google@1.2.4
+  - @omni-stack/provider-utils@2.2.2
+  - @omni-stack/anthropic@1.2.3
+  - @omni-stack/google@1.2.4
 
 ## 2.2.5
 
@@ -1599,30 +1599,30 @@
 ### Patch Changes
 
 - Updated dependencies [aeaa92b]
-  - @open-stack/anthropic@1.2.2
+  - @omni-stack/anthropic@1.2.2
 
 ## 2.2.3
 
 ### Patch Changes
 
 - Updated dependencies [871df87]
-  - @open-stack/google@1.2.3
+  - @omni-stack/google@1.2.3
 
 ## 2.2.2
 
 ### Patch Changes
 
 - Updated dependencies [f10f0fa]
-  - @open-stack/provider-utils@2.2.1
-  - @open-stack/anthropic@1.2.1
-  - @open-stack/google@1.2.2
+  - @omni-stack/provider-utils@2.2.1
+  - @omni-stack/anthropic@1.2.1
+  - @omni-stack/google@1.2.2
 
 ## 2.2.1
 
 ### Patch Changes
 
 - Updated dependencies [994a13b]
-  - @open-stack/google@1.2.1
+  - @omni-stack/google@1.2.1
 
 ## 2.2.0
 
@@ -1633,79 +1633,79 @@
 ### Patch Changes
 
 - Updated dependencies [5bc638d]
-  - @open-stack/anthropic@1.2.0
-  - @open-stack/google@1.2.0
-  - @open-stack/provider@1.1.0
-  - @open-stack/provider-utils@2.2.0
+  - @omni-stack/anthropic@1.2.0
+  - @omni-stack/google@1.2.0
+  - @omni-stack/provider@1.1.0
+  - @omni-stack/provider-utils@2.2.0
 
 ## 2.1.31
 
 ### Patch Changes
 
 - Updated dependencies [d0c4659]
-  - @open-stack/provider-utils@2.1.15
-  - @open-stack/google@1.1.27
-  - @open-stack/anthropic@1.1.19
+  - @omni-stack/provider-utils@2.1.15
+  - @omni-stack/google@1.1.27
+  - @omni-stack/anthropic@1.1.19
 
 ## 2.1.30
 
 ### Patch Changes
 
 - Updated dependencies [0bd5bc6]
-  - @open-stack/provider@1.0.12
-  - @open-stack/google@1.1.26
-  - @open-stack/anthropic@1.1.18
-  - @open-stack/provider-utils@2.1.14
+  - @omni-stack/provider@1.0.12
+  - @omni-stack/google@1.1.26
+  - @omni-stack/anthropic@1.1.18
+  - @omni-stack/provider-utils@2.1.14
 
 ## 2.1.29
 
 ### Patch Changes
 
 - Updated dependencies [2e1101a]
-  - @open-stack/provider@1.0.11
-  - @open-stack/anthropic@1.1.17
-  - @open-stack/google@1.1.25
-  - @open-stack/provider-utils@2.1.13
+  - @omni-stack/provider@1.0.11
+  - @omni-stack/anthropic@1.1.17
+  - @omni-stack/google@1.1.25
+  - @omni-stack/provider-utils@2.1.13
 
 ## 2.1.28
 
 ### Patch Changes
 
 - Updated dependencies [5261762]
-  - @open-stack/google@1.1.24
+  - @omni-stack/google@1.1.24
 
 ## 2.1.27
 
 ### Patch Changes
 
 - Updated dependencies [413f5a7]
-  - @open-stack/google@1.1.23
+  - @omni-stack/google@1.1.23
 
 ## 2.1.26
 
 ### Patch Changes
 
 - Updated dependencies [62f46fd]
-  - @open-stack/google@1.1.22
+  - @omni-stack/google@1.1.22
 
 ## 2.1.25
 
 ### Patch Changes
 
 - Updated dependencies [1531959]
-  - @open-stack/provider-utils@2.1.12
-  - @open-stack/anthropic@1.1.16
-  - @open-stack/google@1.1.21
+  - @omni-stack/provider-utils@2.1.12
+  - @omni-stack/anthropic@1.1.16
+  - @omni-stack/google@1.1.21
 
 ## 2.1.24
 
 ### Patch Changes
 
 - Updated dependencies [e1d3d42]
-  - @open-stack/anthropic@1.1.15
-  - @open-stack/provider@1.0.10
-  - @open-stack/google@1.1.20
-  - @open-stack/provider-utils@2.1.11
+  - @omni-stack/anthropic@1.1.15
+  - @omni-stack/provider@1.0.10
+  - @omni-stack/google@1.1.20
+  - @omni-stack/provider-utils@2.1.11
 
 ## 2.1.23
 
@@ -1713,29 +1713,29 @@
 
 - Updated dependencies [2c27583]
 - Updated dependencies [0e8b66c]
-  - @open-stack/google@1.1.19
-  - @open-stack/anthropic@1.1.14
+  - @omni-stack/google@1.1.19
+  - @omni-stack/anthropic@1.1.14
 
 ## 2.1.22
 
 ### Patch Changes
 
 - Updated dependencies [5c8f512]
-  - @open-stack/google@1.1.18
+  - @omni-stack/google@1.1.18
 
 ## 2.1.21
 
 ### Patch Changes
 
 - Updated dependencies [3004b14]
-  - @open-stack/anthropic@1.1.13
+  - @omni-stack/anthropic@1.1.13
 
 ## 2.1.20
 
 ### Patch Changes
 
 - Updated dependencies [b3e5a15]
-  - @open-stack/anthropic@1.1.12
+  - @omni-stack/anthropic@1.1.12
 
 ## 2.1.19
 
@@ -1743,66 +1743,66 @@
 
 - Updated dependencies [00276ae]
 - Updated dependencies [a4f8714]
-  - @open-stack/anthropic@1.1.11
+  - @omni-stack/anthropic@1.1.11
 
 ## 2.1.18
 
 ### Patch Changes
 
 - Updated dependencies [ddf9740]
-  - @open-stack/anthropic@1.1.10
-  - @open-stack/provider@1.0.9
-  - @open-stack/google@1.1.17
-  - @open-stack/provider-utils@2.1.10
+  - @omni-stack/anthropic@1.1.10
+  - @omni-stack/provider@1.0.9
+  - @omni-stack/google@1.1.17
+  - @omni-stack/provider-utils@2.1.10
 
 ## 2.1.17
 
 ### Patch Changes
 
 - Updated dependencies [1b2e2a0]
-  - @open-stack/google@1.1.16
+  - @omni-stack/google@1.1.16
 
 ## 2.1.16
 
 ### Patch Changes
 
 - Updated dependencies [2761f06]
-  - @open-stack/provider@1.0.8
-  - @open-stack/anthropic@1.1.9
-  - @open-stack/google@1.1.15
-  - @open-stack/provider-utils@2.1.9
+  - @omni-stack/provider@1.0.8
+  - @omni-stack/anthropic@1.1.9
+  - @omni-stack/google@1.1.15
+  - @omni-stack/provider-utils@2.1.9
 
 ## 2.1.15
 
 ### Patch Changes
 
 - Updated dependencies [08a3641]
-  - @open-stack/google@1.1.14
+  - @omni-stack/google@1.1.14
 
 ## 2.1.14
 
 ### Patch Changes
 
 - Updated dependencies [2e898b4]
-  - @open-stack/provider-utils@2.1.8
-  - @open-stack/anthropic@1.1.8
-  - @open-stack/google@1.1.13
+  - @omni-stack/provider-utils@2.1.8
+  - @omni-stack/anthropic@1.1.8
+  - @omni-stack/google@1.1.13
 
 ## 2.1.13
 
 ### Patch Changes
 
 - Updated dependencies [3ff4ef8]
-  - @open-stack/provider-utils@2.1.7
-  - @open-stack/anthropic@1.1.7
-  - @open-stack/google@1.1.12
+  - @omni-stack/provider-utils@2.1.7
+  - @omni-stack/anthropic@1.1.7
+  - @omni-stack/google@1.1.12
 
 ## 2.1.12
 
 ### Patch Changes
 
 - Updated dependencies [6eb7fc4]
-  - @open-stack/google@1.1.11
+  - @omni-stack/google@1.1.11
 
 ## 2.1.11
 
@@ -1815,14 +1815,14 @@
 ### Patch Changes
 
 - Updated dependencies [e5567f7]
-  - @open-stack/google@1.1.10
+  - @omni-stack/google@1.1.10
 
 ## 2.1.9
 
 ### Patch Changes
 
 - Updated dependencies [b2573de]
-  - @open-stack/google@1.1.9
+  - @omni-stack/google@1.1.9
 
 ## 2.1.8
 
@@ -1830,10 +1830,10 @@
 
 - d89c3b9: feat (provider): add image model support to provider specification
 - Updated dependencies [d89c3b9]
-  - @open-stack/provider@1.0.7
-  - @open-stack/anthropic@1.1.6
-  - @open-stack/google@1.1.8
-  - @open-stack/provider-utils@2.1.6
+  - @omni-stack/provider@1.0.7
+  - @omni-stack/anthropic@1.1.6
+  - @omni-stack/google@1.1.8
+  - @omni-stack/provider-utils@2.1.6
 
 ## 2.1.7
 
@@ -1841,41 +1841,41 @@
 
 - d399f25: feat (provider/google-vertex): support public file urls in messages
 - Updated dependencies [d399f25]
-  - @open-stack/google@1.1.7
+  - @omni-stack/google@1.1.7
 
 ## 2.1.6
 
 ### Patch Changes
 
 - Updated dependencies [e012cd8]
-  - @open-stack/google@1.1.6
+  - @omni-stack/google@1.1.6
 
 ## 2.1.5
 
 ### Patch Changes
 
 - Updated dependencies [3a602ca]
-  - @open-stack/provider-utils@2.1.5
-  - @open-stack/anthropic@1.1.5
-  - @open-stack/google@1.1.5
+  - @omni-stack/provider-utils@2.1.5
+  - @omni-stack/anthropic@1.1.5
+  - @omni-stack/google@1.1.5
 
 ## 2.1.4
 
 ### Patch Changes
 
 - Updated dependencies [066206e]
-  - @open-stack/provider-utils@2.1.4
-  - @open-stack/anthropic@1.1.4
-  - @open-stack/google@1.1.4
+  - @omni-stack/provider-utils@2.1.4
+  - @omni-stack/anthropic@1.1.4
+  - @omni-stack/google@1.1.4
 
 ## 2.1.3
 
 ### Patch Changes
 
 - Updated dependencies [39e5c1f]
-  - @open-stack/provider-utils@2.1.3
-  - @open-stack/anthropic@1.1.3
-  - @open-stack/google@1.1.3
+  - @omni-stack/provider-utils@2.1.3
+  - @omni-stack/anthropic@1.1.3
+  - @omni-stack/google@1.1.3
 
 ## 2.1.2
 
@@ -1884,10 +1884,10 @@
 - 3a58a2e: feat (ai/core): throw NoImageGeneratedError from generateImage when no predictions are returned.
 - Updated dependencies [ed012d2]
 - Updated dependencies [3a58a2e]
-  - @open-stack/provider-utils@2.1.2
-  - @open-stack/provider@1.0.6
-  - @open-stack/anthropic@1.1.2
-  - @open-stack/google@1.1.2
+  - @omni-stack/provider-utils@2.1.2
+  - @omni-stack/provider@1.0.6
+  - @omni-stack/anthropic@1.1.2
+  - @omni-stack/google@1.1.2
 
 ## 2.1.1
 
@@ -1898,10 +1898,10 @@
 - Updated dependencies [858f934]
 - Updated dependencies [b284e2c]
 - Updated dependencies [0a699f1]
-  - @open-stack/provider-utils@2.1.1
-  - @open-stack/anthropic@1.1.1
-  - @open-stack/provider@1.0.5
-  - @open-stack/google@1.1.1
+  - @omni-stack/provider-utils@2.1.1
+  - @omni-stack/anthropic@1.1.1
+  - @omni-stack/provider@1.0.5
+  - @omni-stack/google@1.1.1
 
 ## 2.1.0
 
@@ -1912,18 +1912,18 @@
 ### Patch Changes
 
 - Updated dependencies [62ba5ad]
-  - @open-stack/anthropic@1.1.0
-  - @open-stack/google@1.1.0
-  - @open-stack/provider-utils@2.1.0
+  - @omni-stack/anthropic@1.1.0
+  - @omni-stack/google@1.1.0
+  - @omni-stack/provider-utils@2.1.0
 
 ## 2.0.19
 
 ### Patch Changes
 
 - Updated dependencies [00114c5]
-  - @open-stack/provider-utils@2.0.8
-  - @open-stack/anthropic@1.0.9
-  - @open-stack/google@1.0.17
+  - @omni-stack/provider-utils@2.0.8
+  - @omni-stack/anthropic@1.0.9
+  - @omni-stack/google@1.0.17
 
 ## 2.0.18
 
@@ -1936,14 +1936,14 @@
 ### Patch Changes
 
 - Updated dependencies [4eb9b41]
-  - @open-stack/google@1.0.16
+  - @omni-stack/google@1.0.16
 
 ## 2.0.16
 
 ### Patch Changes
 
 - Updated dependencies [7611964]
-  - @open-stack/google@1.0.15
+  - @omni-stack/google@1.0.15
 
 ## 2.0.15
 
@@ -1952,9 +1952,9 @@
 - Updated dependencies [90fb95a]
 - Updated dependencies [e6dfef4]
 - Updated dependencies [6636db6]
-  - @open-stack/provider-utils@2.0.7
-  - @open-stack/anthropic@1.0.8
-  - @open-stack/google@1.0.14
+  - @omni-stack/provider-utils@2.0.7
+  - @omni-stack/anthropic@1.0.8
+  - @omni-stack/google@1.0.14
 
 ## 2.0.14
 
@@ -1965,10 +1965,10 @@
 - Updated dependencies [19a2ce7]
 - Updated dependencies [19a2ce7]
 - Updated dependencies [6337688]
-  - @open-stack/provider@1.0.4
-  - @open-stack/provider-utils@2.0.6
-  - @open-stack/anthropic@1.0.7
-  - @open-stack/google@1.0.13
+  - @omni-stack/provider@1.0.4
+  - @omni-stack/provider-utils@2.0.6
+  - @omni-stack/anthropic@1.0.7
+  - @omni-stack/google@1.0.13
 
 ## 2.0.13
 
@@ -1983,10 +1983,10 @@
 
 - 5ed5e45: chore (config): Use ts-library.json tsconfig for no-UI libs.
 - Updated dependencies [5ed5e45]
-  - @open-stack/provider-utils@2.0.5
-  - @open-stack/anthropic@1.0.6
-  - @open-stack/provider@1.0.3
-  - @open-stack/google@1.0.12
+  - @omni-stack/provider-utils@2.0.5
+  - @omni-stack/anthropic@1.0.6
+  - @omni-stack/provider@1.0.3
+  - @omni-stack/google@1.0.12
 
 ## 2.0.11
 
@@ -2005,7 +2005,7 @@
 ### Patch Changes
 
 - Updated dependencies [db31e74]
-  - @open-stack/google@1.0.11
+  - @omni-stack/google@1.0.11
 
 ## 2.0.8
 
@@ -2017,14 +2017,14 @@
 - Updated dependencies [e07439a]
 - Updated dependencies [4017b0f]
 - Updated dependencies [a9df182]
-  - @open-stack/google@1.0.10
+  - @omni-stack/google@1.0.10
 
 ## 2.0.7
 
 ### Patch Changes
 
 - Updated dependencies [c0b1c7e]
-  - @open-stack/google@1.0.9
+  - @omni-stack/google@1.0.9
 
 ## 2.0.6
 
@@ -2033,17 +2033,17 @@
 - b7372dc: feat (provider/google): Include optional response grounding metadata.
 - 8224964: feat (provider/google-vertex): Add support for baseURL in API calls.
 - Updated dependencies [b7372dc]
-  - @open-stack/google@1.0.8
+  - @omni-stack/google@1.0.8
 
 ## 2.0.5
 
 ### Patch Changes
 
 - Updated dependencies [09a9cab]
-  - @open-stack/provider@1.0.2
-  - @open-stack/anthropic@1.0.5
-  - @open-stack/google@1.0.7
-  - @open-stack/provider-utils@2.0.4
+  - @omni-stack/provider@1.0.2
+  - @omni-stack/anthropic@1.0.5
+  - @omni-stack/google@1.0.7
+  - @omni-stack/provider-utils@2.0.4
 
 ## 2.0.4
 
@@ -2056,7 +2056,7 @@
 ### Patch Changes
 
 - Updated dependencies [9e54403]
-  - @open-stack/google@1.0.6
+  - @omni-stack/google@1.0.6
 
 ## 2.0.2
 
@@ -2070,7 +2070,7 @@
 
 - bcd892e: feat (provider/google-vertex): Add support for Anthropic models.
 - Updated dependencies [bcd892e]
-  - @open-stack/anthropic@1.0.4
+  - @omni-stack/anthropic@1.0.4
 
 ## 2.0.0
 
@@ -2083,8 +2083,8 @@
 - 0984f0b: chore (providers/google-vertex): Remove unref'd base default provider.
 - Updated dependencies [0984f0b]
 - Updated dependencies [0984f0b]
-  - @open-stack/google@1.0.5
-  - @open-stack/provider-utils@2.0.3
+  - @omni-stack/google@1.0.5
+  - @omni-stack/provider-utils@2.0.3
 
 ## 1.0.4
 
@@ -2097,8 +2097,8 @@
 ### Patch Changes
 
 - Updated dependencies [b446ae5]
-  - @open-stack/provider@1.0.1
-  - @open-stack/provider-utils@2.0.2
+  - @omni-stack/provider@1.0.1
+  - @omni-stack/provider-utils@2.0.2
 
 ## 1.0.2
 
@@ -2111,7 +2111,7 @@
 ### Patch Changes
 
 - Updated dependencies [c3ab5de]
-  - @open-stack/provider-utils@2.0.1
+  - @omni-stack/provider-utils@2.0.1
 
 ## 1.0.0
 
@@ -2129,15 +2129,15 @@
 - Updated dependencies [dce4158]
 - Updated dependencies [8426f55]
 - Updated dependencies [db46ce5]
-  - @open-stack/provider-utils@2.0.0
-  - @open-stack/provider@1.0.0
+  - @omni-stack/provider-utils@2.0.0
+  - @omni-stack/provider@1.0.0
 
 ## 1.0.0-canary.3
 
 ### Patch Changes
 
 - Updated dependencies [8426f55]
-  - @open-stack/provider-utils@2.0.0-canary.3
+  - @omni-stack/provider-utils@2.0.0-canary.3
 
 ## 1.0.0-canary.2
 
@@ -2145,7 +2145,7 @@
 
 - Updated dependencies [dce4158]
 - Updated dependencies [dce4158]
-  - @open-stack/provider-utils@2.0.0-canary.2
+  - @omni-stack/provider-utils@2.0.0-canary.2
 
 ## 1.0.0-canary.1
 
@@ -2156,7 +2156,7 @@
 ### Patch Changes
 
 - Updated dependencies [b1da952]
-  - @open-stack/provider-utils@2.0.0-canary.1
+  - @omni-stack/provider-utils@2.0.0-canary.1
 
 ## 1.0.0-canary.0
 
@@ -2169,8 +2169,8 @@
 - Updated dependencies [b469a7e]
 - Updated dependencies [c0ddc24]
 - Updated dependencies [db46ce5]
-  - @open-stack/provider-utils@2.0.0-canary.0
-  - @open-stack/provider@1.0.0-canary.0
+  - @omni-stack/provider-utils@2.0.0-canary.0
+  - @omni-stack/provider@1.0.0-canary.0
 
 ## 0.0.43
 
@@ -2192,16 +2192,16 @@
 - Updated dependencies [7b937c5]
 - Updated dependencies [3b1b69a]
 - Updated dependencies [811a317]
-  - @open-stack/provider-utils@1.0.22
-  - @open-stack/provider@0.0.26
+  - @omni-stack/provider-utils@1.0.22
+  - @omni-stack/provider@0.0.26
 
 ## 0.0.41
 
 ### Patch Changes
 
 - Updated dependencies [b9b0d7b]
-  - @open-stack/provider@0.0.25
-  - @open-stack/provider-utils@1.0.21
+  - @omni-stack/provider@0.0.25
+  - @omni-stack/provider-utils@1.0.21
 
 ## 0.0.40
 
@@ -2223,15 +2223,15 @@
 
 - d595d0d: feat (ai/core): file content parts
 - Updated dependencies [d595d0d]
-  - @open-stack/provider@0.0.24
-  - @open-stack/provider-utils@1.0.20
+  - @omni-stack/provider@0.0.24
+  - @omni-stack/provider-utils@1.0.20
 
 ## 0.0.37
 
 ### Patch Changes
 
 - Updated dependencies [273f696]
-  - @open-stack/provider-utils@1.0.19
+  - @omni-stack/provider-utils@1.0.19
 
 ## 0.0.36
 
@@ -2239,8 +2239,8 @@
 
 - Updated dependencies [03313cd]
 - Updated dependencies [3be7c1c]
-  - @open-stack/provider-utils@1.0.18
-  - @open-stack/provider@0.0.23
+  - @omni-stack/provider-utils@1.0.18
+  - @omni-stack/provider@0.0.23
 
 ## 0.0.35
 
@@ -2248,30 +2248,30 @@
 
 - 26515cb: feat (ai/provider): introduce ProviderV1 specification
 - Updated dependencies [26515cb]
-  - @open-stack/provider@0.0.22
-  - @open-stack/provider-utils@1.0.17
+  - @omni-stack/provider@0.0.22
+  - @omni-stack/provider-utils@1.0.17
 
 ## 0.0.34
 
 ### Patch Changes
 
 - Updated dependencies [09f895f]
-  - @open-stack/provider-utils@1.0.16
+  - @omni-stack/provider-utils@1.0.16
 
 ## 0.0.33
 
 ### Patch Changes
 
 - Updated dependencies [d67fa9c]
-  - @open-stack/provider-utils@1.0.15
+  - @omni-stack/provider-utils@1.0.15
 
 ## 0.0.32
 
 ### Patch Changes
 
 - Updated dependencies [f2c025e]
-  - @open-stack/provider@0.0.21
-  - @open-stack/provider-utils@1.0.14
+  - @omni-stack/provider@0.0.21
+  - @omni-stack/provider-utils@1.0.14
 
 ## 0.0.31
 
@@ -2284,15 +2284,15 @@
 ### Patch Changes
 
 - Updated dependencies [6ac355e]
-  - @open-stack/provider@0.0.20
-  - @open-stack/provider-utils@1.0.13
+  - @omni-stack/provider@0.0.20
+  - @omni-stack/provider-utils@1.0.13
 
 ## 0.0.29
 
 ### Patch Changes
 
 - Updated dependencies [dd712ac]
-  - @open-stack/provider-utils@1.0.12
+  - @omni-stack/provider-utils@1.0.12
 
 ## 0.0.28
 
@@ -2300,8 +2300,8 @@
 
 - 89b18ca: fix (ai/provider): send finish reason 'unknown' by default
 - Updated dependencies [dd4a0f5]
-  - @open-stack/provider@0.0.19
-  - @open-stack/provider-utils@1.0.11
+  - @omni-stack/provider@0.0.19
+  - @omni-stack/provider-utils@1.0.11
 
 ## 0.0.27
 
@@ -2315,8 +2315,8 @@
 
 - Updated dependencies [4bd27a9]
 - Updated dependencies [845754b]
-  - @open-stack/provider-utils@1.0.10
-  - @open-stack/provider@0.0.18
+  - @omni-stack/provider-utils@1.0.10
+  - @omni-stack/provider@0.0.18
 
 ## 0.0.25
 
@@ -2335,24 +2335,24 @@
 ### Patch Changes
 
 - Updated dependencies [029af4c]
-  - @open-stack/provider@0.0.17
-  - @open-stack/provider-utils@1.0.9
+  - @omni-stack/provider@0.0.17
+  - @omni-stack/provider-utils@1.0.9
 
 ## 0.0.22
 
 ### Patch Changes
 
 - Updated dependencies [d58517b]
-  - @open-stack/provider@0.0.16
-  - @open-stack/provider-utils@1.0.8
+  - @omni-stack/provider@0.0.16
+  - @omni-stack/provider-utils@1.0.8
 
 ## 0.0.21
 
 ### Patch Changes
 
 - Updated dependencies [96aed25]
-  - @open-stack/provider@0.0.15
-  - @open-stack/provider-utils@1.0.7
+  - @omni-stack/provider@0.0.15
+  - @omni-stack/provider-utils@1.0.7
 
 ## 0.0.20
 
@@ -2360,7 +2360,7 @@
 
 - Updated dependencies [9614584]
 - Updated dependencies [0762a22]
-  - @open-stack/provider-utils@1.0.6
+  - @omni-stack/provider-utils@1.0.6
 
 ## 0.0.19
 
@@ -2368,15 +2368,15 @@
 
 - a8d1c9e9: feat (ai/core): parallel image download
 - Updated dependencies [a8d1c9e9]
-  - @open-stack/provider-utils@1.0.5
-  - @open-stack/provider@0.0.14
+  - @omni-stack/provider-utils@1.0.5
+  - @omni-stack/provider@0.0.14
 
 ## 0.0.18
 
 ### Patch Changes
 
 - Updated dependencies [4f88248f]
-  - @open-stack/provider-utils@1.0.4
+  - @omni-stack/provider-utils@1.0.4
 
 ## 0.0.17
 
@@ -2390,8 +2390,8 @@
 - Updated dependencies [a5b58845]
 - Updated dependencies [4aa8deb3]
 - Updated dependencies [13b27ec6]
-  - @open-stack/provider@0.0.13
-  - @open-stack/provider-utils@1.0.3
+  - @omni-stack/provider@0.0.13
+  - @omni-stack/provider-utils@1.0.3
 
 ## 0.0.16
 
@@ -2410,15 +2410,15 @@
 ### Patch Changes
 
 - Updated dependencies [b7290943]
-  - @open-stack/provider@0.0.12
-  - @open-stack/provider-utils@1.0.2
+  - @omni-stack/provider@0.0.12
+  - @omni-stack/provider-utils@1.0.2
 
 ## 0.0.13
 
 ### Patch Changes
 
 - Updated dependencies [d481729f]
-  - @open-stack/provider-utils@1.0.1
+  - @omni-stack/provider-utils@1.0.1
 
 ## 0.0.12
 
@@ -2428,15 +2428,15 @@
 - Updated dependencies [5edc6110]
 - Updated dependencies [5edc6110]
 - Updated dependencies [5edc6110]
-  - @open-stack/provider@0.0.11
-  - @open-stack/provider-utils@1.0.0
+  - @omni-stack/provider@0.0.11
+  - @omni-stack/provider-utils@1.0.0
 
 ## 0.0.11
 
 ### Patch Changes
 
 - Updated dependencies [02f6a088]
-  - @open-stack/provider-utils@0.0.16
+  - @omni-stack/provider-utils@0.0.16
 
 ## 0.0.10
 
@@ -2444,7 +2444,7 @@
 
 - Updated dependencies [85712895]
 - Updated dependencies [85712895]
-  - @open-stack/provider-utils@0.0.15
+  - @omni-stack/provider-utils@0.0.15
 
 ## 0.0.9
 
@@ -2452,26 +2452,26 @@
 
 - 4728c37f: feat (core): add text embedding model support to provider registry
 - Updated dependencies [7910ae84]
-  - @open-stack/provider-utils@0.0.14
+  - @omni-stack/provider-utils@0.0.14
 
 ## 0.0.8
 
 ### Patch Changes
 
 - Updated dependencies [102ca22f]
-  - @open-stack/provider@0.0.10
-  - @open-stack/provider-utils@0.0.13
+  - @omni-stack/provider@0.0.10
+  - @omni-stack/provider-utils@0.0.13
 
 ## 0.0.7
 
 ### Patch Changes
 
-- 09295e2e: feat (@open-stack/google-vertex): automatically download image URLs
+- 09295e2e: feat (@omni-stack/google-vertex): automatically download image URLs
 - Updated dependencies [09295e2e]
 - Updated dependencies [09295e2e]
 - Updated dependencies [043a5de2]
-  - @open-stack/provider@0.0.9
-  - @open-stack/provider-utils@0.0.12
+  - @omni-stack/provider@0.0.9
+  - @omni-stack/provider-utils@0.0.12
 
 ## 0.0.6
 
@@ -2499,8 +2499,8 @@
 
 - f39c0dd2: feat (provider): implement toolChoice support
 - Updated dependencies [f39c0dd2]
-  - @open-stack/provider@0.0.8
-  - @open-stack/provider-utils@0.0.11
+  - @omni-stack/provider@0.0.8
+  - @omni-stack/provider-utils@0.0.11
 
 ## 0.0.2
 
@@ -2508,8 +2508,8 @@
 
 - 24683b72: fix (provider/google-vertex): zod is not a dependency
 - Updated dependencies [8e780288]
-  - @open-stack/provider@0.0.7
-  - @open-stack/provider-utils@0.0.10
+  - @omni-stack/provider@0.0.7
+  - @omni-stack/provider-utils@0.0.10
 
 ## 0.0.1
 
@@ -2518,5 +2518,5 @@
 - 6a50ac4: feat (provider/google-vertex): add Google Vertex provider (text generation and streaming only)
 - Updated dependencies [6a50ac4]
 - Updated dependencies [6a50ac4]
-  - @open-stack/provider@0.0.6
-  - @open-stack/provider-utils@0.0.9
+  - @omni-stack/provider@0.0.6
+  - @omni-stack/provider-utils@0.0.9

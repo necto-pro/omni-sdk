@@ -35,7 +35,7 @@ and get the chat ID from the database.
 That being said, the function interfaces are designed to be easily replaced with other implementations.
 
 ```tsx filename="util/chat-store.ts"
-import { generateId } from 'ai';
+import { generateId } from '@omni-stack/core';
 import { existsSync, mkdirSync } from 'fs';
 import { writeFile } from 'fs/promises';
 import path from 'path';
@@ -60,7 +60,7 @@ When the user navigates to the chat page with a chat ID, we need to load the cha
 The `loadChat` function in our file-based chat store is implemented as follows:
 
 ```tsx filename="util/chat-store.ts"
-import { UIMessage } from 'ai';
+import { UIMessage } from '@omni-stack/core';
 import { readFile } from 'fs/promises';
 
 export async function loadChat(id: string): Promise<UIMessage[]> {
@@ -85,10 +85,10 @@ import {
   UIMessage,
   validateUIMessages,
   tool,
-} from 'ai';
+} from '@omni-stack/core';
 import { z } from 'zod';
 import { loadChat, saveChat } from '@util/chat-store';
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { dataPartsSchema, metadataSchema } from '@util/schemas';
 
 // Define your tools
@@ -149,7 +149,7 @@ import {
   streamText,
   validateUIMessages,
   TypeValidationError,
-} from 'ai';
+} from '@omni-stack/core';
 import { type MyUIMessage } from '@/types';
 
 export async function POST(req: Request) {
@@ -202,8 +202,8 @@ The chat component uses the `useChat` hook to manage the conversation:
 ```tsx filename="ui/chat.tsx" highlight="10-16"
 'use client';
 
-import { UIMessage, useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { UIMessage, useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Chat({
@@ -272,9 +272,9 @@ Storing messages is done in the `onFinish` callback of the `toUIMessageStreamRes
 `onFinish` receives the complete messages including the new AI response as `UIMessage[]`.
 
 ```tsx filename="app/api/chat/route.ts" highlight="6,11-17"
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { saveChat } from '@util/chat-store';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages, chatId }: { messages: UIMessage[]; chatId: string } =
@@ -298,7 +298,7 @@ The actual storage of the messages is done in the `saveChat` function, which in
 our file-based chat store is implemented as follows:
 
 ```tsx filename="util/chat-store.ts"
-import { UIMessage } from 'ai';
+import { UIMessage } from '@omni-stack/core';
 import { writeFile } from 'fs/promises';
 
 export async function saveChat({
@@ -342,7 +342,7 @@ When implementing persistence, you have two options for generating server-side I
 You can control the ID format by providing ID generators using [`createIdGenerator()`](/docs/reference/ai-sdk-core/create-id-generator):
 
 ```tsx filename="app/api/chat/route.ts" highlight="7-11"
-import { createIdGenerator, streamText } from 'ai';
+import { createIdGenerator, streamText } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   // ...
@@ -374,7 +374,7 @@ import {
   streamText,
   createUIMessageStream,
   createUIMessageStreamResponse,
-} from 'ai';
+} from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages, chatId } = await req.json();
@@ -408,8 +408,8 @@ export async function POST(req: Request) {
   For client-side applications that don't require persistence, you can still customize client-side ID generation:
 
 ```tsx filename="ui/chat.tsx"
-import { createIdGenerator } from 'ai';
-import { useChat } from '@open-stack/react';
+import { createIdGenerator } from '@omni-stack/core';
+import { useChat } from '@omni-stack/react';
 
 const { ... } = useChat({
   generateId: createIdGenerator({
@@ -431,8 +431,8 @@ To achieve this, you can provide a `prepareSendMessagesRequest` function to the 
 This function receives the messages and the chat ID, and returns the request body to be sent to the server.
 
 ```tsx filename="ui/chat.tsx" highlight="7-12"
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 const {
   // ...
@@ -451,7 +451,7 @@ const {
 On the server, you can then load the previous messages and append the new message to the previous messages. If your messages contain tools, metadata, or custom data parts, you should validate them:
 
 ```tsx filename="app/api/chat/route.ts" highlight="2-11,14-18"
-import { convertToModelMessages, UIMessage, validateUIMessages } from 'ai';
+import { convertToModelMessages, UIMessage, validateUIMessages } from '@omni-stack/core';
 // import your tools and schemas
 
 export async function POST(req: Request) {
@@ -498,7 +498,7 @@ and then save the result as usual.
 meaning that the result is stored even when the client has already disconnected.
 
 ```tsx filename="app/api/chat/route.ts" highlight="19-21"
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 import { saveChat } from '@util/chat-store';
 
 export async function POST(req: Request) {

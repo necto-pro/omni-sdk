@@ -1,5 +1,5 @@
 ---
-'@open-stack/amazon-bedrock': patch
+'@omni-stack/amazon-bedrock': patch
 ---
 
 Added support for reranking models

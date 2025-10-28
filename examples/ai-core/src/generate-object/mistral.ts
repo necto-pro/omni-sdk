@@ -1,5 +1,5 @@
-import { mistral } from '@open-stack/mistral';
-import { generateObject } from 'ai';
+import { mistral } from '@omni-stack/mistral';
+import { generateObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

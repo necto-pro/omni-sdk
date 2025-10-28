@@ -1,10 +1,10 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { Controller, Post, Res } from '@nestjs/common';
 import {
   createUIMessageStream,
   streamText,
   pipeUIMessageStreamToResponse,
-} from 'ai';
+} from '@omni-stack/core';
 import { Response } from 'express';
 
 @Controller()

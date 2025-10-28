@@ -84,8 +84,8 @@ Create a model instance by passing an array of models to the `aigateway` provide
 
 ```typescript
 import { createAiGateway } from 'ai-gateway-provider';
-import { createOpenAI } from '@open-stack/openai';
-import { createAnthropic } from '@open-stack/anthropic';
+import { createOpenAI } from '@omni-stack/openai';
+import { createAnthropic } from '@omni-stack/anthropic';
 
 const aigateway = createAiGateway({
   accountId: 'your-cloudflare-account-id',
@@ -145,8 +145,8 @@ Generate non-streaming text using the Cloudflare AI Gateway Provider:
 
 ```typescript
 import { createAiGateway } from 'ai-gateway-provider';
-import { createOpenAI } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { createOpenAI } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const aigateway = createAiGateway({
   accountId: 'your-cloudflare-account-id',
@@ -170,8 +170,8 @@ Stream text responses using the Cloudflare AI Gateway Provider:
 
 ```typescript
 import { createAiGateway } from 'ai-gateway-provider';
-import { createOpenAI } from '@open-stack/openai';
-import { streamText } from 'ai';
+import { createOpenAI } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 
 const aigateway = createAiGateway({
   accountId: 'your-cloudflare-account-id',

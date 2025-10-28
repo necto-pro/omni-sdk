@@ -1,4 +1,4 @@
-import { InferUITools, UIDataTypes, UIMessage } from 'ai';
+import { InferUITools, UIDataTypes, UIMessage } from '@omni-stack/core';
 import { tools } from './tools';
 
 export type MyTools = InferUITools<typeof tools>;

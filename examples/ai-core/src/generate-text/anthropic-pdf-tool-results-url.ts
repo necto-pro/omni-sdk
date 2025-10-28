@@ -1,7 +1,7 @@
-import { generateText, stepCountIs, tool } from 'ai';
+import { generateText, stepCountIs, tool } from '@omni-stack/core';
 import { run } from '../lib/run';
 import { z } from 'zod';
-import { anthropic } from '@open-stack/anthropic';
+import { anthropic } from '@omni-stack/anthropic';
 
 run(async () => {
   const readPDFDocument = tool({

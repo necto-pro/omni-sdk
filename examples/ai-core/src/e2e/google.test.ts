@@ -1,5 +1,5 @@
-import { GoogleErrorData, google as provider } from '@open-stack/google';
-import { APICallError, ImageModelV3, LanguageModelV3 } from '@open-stack/provider';
+import { GoogleErrorData, google as provider } from '@omni-stack/google';
+import { APICallError, ImageModelV3, LanguageModelV3 } from '@omni-stack/provider';
 import 'dotenv/config';
 import { expect } from 'vitest';
 import {
@@ -10,8 +10,8 @@ import {
   createImageModelWithCapabilities,
   defaultChatModelCapabilities,
 } from './feature-test-suite';
-import { wrapLanguageModel } from 'ai';
-import { defaultSettingsMiddleware } from 'ai';
+import { wrapLanguageModel } from '@omni-stack/core';
+import { defaultSettingsMiddleware } from '@omni-stack/core';
 
 const createChatModel = (
   modelId: string,

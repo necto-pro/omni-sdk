@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isToolUIPart } from 'ai';
+import { isToolUIPart } from '@omni-stack/core';
 import { Chat } from './chat.vue';
 
 const chat = new Chat({

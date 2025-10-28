@@ -3,7 +3,7 @@ import { createTransformer } from '../lib/create-transformer';
 export default createTransformer((fileInfo, api, options, context) => {
   const { j, root } = context;
 
-  // Replace import specifiers from 'ai' package
+  // Replace import specifiers from '@omni-stack/core' package
   root
     .find(j.ImportDeclaration)
     .filter(path => {

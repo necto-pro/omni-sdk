@@ -17,7 +17,7 @@ The `createAgentUIStreamResponse` function executes an [Agent](/docs/reference/a
 ## Usage
 
 ```ts
-import { ToolLoopAgent, createAgentUIStreamResponse } from 'ai';
+import { ToolLoopAgent, createAgentUIStreamResponse } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -72,7 +72,7 @@ A `Promise<Response>` whose body is a stream of UI messages from the agent—sui
 ## Example: Next.js API Route Handler
 
 ```ts
-import { createAgentUIStreamResponse } from 'ai';
+import { createAgentUIStreamResponse } from '@omni-stack/core';
 import { MyCustomAgent } from '@/agent/my-custom-agent';
 
 export async function POST(request: Request) {

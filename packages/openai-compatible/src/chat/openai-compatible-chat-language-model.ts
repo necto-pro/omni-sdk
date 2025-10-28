@@ -7,7 +7,7 @@ import {
   LanguageModelV3FinishReason,
   LanguageModelV3StreamPart,
   SharedV3ProviderMetadata,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   combineHeaders,
   createEventSourceResponseHandler,
@@ -20,7 +20,7 @@ import {
   ParseResult,
   postJsonToApi,
   ResponseHandler,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { convertToOpenAICompatibleChatMessages } from './convert-to-openai-compatible-chat-messages';
 import { getResponseMetadata } from './get-response-metadata';

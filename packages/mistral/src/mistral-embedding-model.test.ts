@@ -1,5 +1,5 @@
-import { EmbeddingModelV3Embedding } from '@open-stack/provider';
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { EmbeddingModelV3Embedding } from '@omni-stack/provider';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { createMistral } from './mistral-provider';
 import { describe, it, expect, vi } from 'vitest';
 

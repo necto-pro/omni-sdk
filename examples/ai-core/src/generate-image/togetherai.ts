@@ -1,5 +1,5 @@
-import { togetherai } from '@open-stack/togetherai';
-import { experimental_generateImage as generateImage } from 'ai';
+import { togetherai } from '@omni-stack/togetherai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';
 

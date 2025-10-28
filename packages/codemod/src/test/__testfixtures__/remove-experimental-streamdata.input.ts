@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { StreamData } from 'ai';
+import { StreamData } from '@omni-stack/core';
 import { experimental_StreamData as StreamDataLegacy } from 'other-pkg';
 
 // Should rename - class extension

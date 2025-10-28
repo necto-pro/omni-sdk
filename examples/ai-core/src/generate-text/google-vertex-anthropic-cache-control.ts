@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { vertexAnthropic } from '@open-stack/google-vertex/anthropic';
-import { generateText } from 'ai';
+import { vertexAnthropic } from '@omni-stack/google-vertex/anthropic';
+import { generateText } from '@omni-stack/core';
 import fs from 'node:fs';
 
 const errorMessage = fs.readFileSync('data/error-message.txt', 'utf8');

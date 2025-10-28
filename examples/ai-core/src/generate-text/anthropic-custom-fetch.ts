@@ -1,5 +1,5 @@
-import { createAnthropic } from '@open-stack/anthropic';
-import { generateText } from 'ai';
+import { createAnthropic } from '@omni-stack/anthropic';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 const anthropic = createAnthropic({

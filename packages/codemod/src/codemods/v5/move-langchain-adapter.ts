@@ -34,9 +34,9 @@ export default createTransformer(
             context.hasChanges = true;
           }
         });
-        path.node.source.value = '@open-stack/langchain';
+        path.node.source.value = '@omni-stack/langchain';
         context.messages.push(
-          "Updated import of LangChainAdapter from 'ai' to '@open-stack/langchain' and renamed to toDataStreamResponse",
+          "Updated import of LangChainAdapter from '@omni-stack/core' to '@omni-stack/langchain' and renamed to toDataStreamResponse",
         );
       });
 

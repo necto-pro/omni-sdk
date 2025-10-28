@@ -1,4 +1,4 @@
-import { experimental_transcribe as transcribe } from 'ai';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 import { readFile } from 'fs/promises';
 import { registry } from './setup-registry';
 

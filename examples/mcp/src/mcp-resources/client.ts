@@ -1,6 +1,6 @@
-import { experimental_createMCPClient } from '@open-stack/mcp';
-import { openai } from '@open-stack/openai';
-import { generateText, stepCountIs } from 'ai';
+import { experimental_createMCPClient } from '@omni-stack/mcp';
+import { openai } from '@omni-stack/openai';
+import { generateText, stepCountIs } from '@omni-stack/core';
 
 async function main() {
   const mcpClient = await experimental_createMCPClient({

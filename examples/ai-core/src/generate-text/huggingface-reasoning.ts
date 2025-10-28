@@ -1,9 +1,9 @@
-import { huggingface } from '@open-stack/huggingface';
+import { huggingface } from '@omni-stack/huggingface';
 import {
   extractReasoningMiddleware,
   generateText,
   wrapLanguageModel,
-} from 'ai';
+} from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

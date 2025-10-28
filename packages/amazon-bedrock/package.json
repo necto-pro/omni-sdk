@@ -1,5 +1,5 @@
 {
-  "name": "@open-stack/amazon-bedrock",
+  "name": "@omni-stack/amazon-bedrock",
   "version": "4.0.0-beta.50",
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -32,15 +32,15 @@
     }
   },
   "dependencies": {
-    "@open-stack/anthropic": "workspace:*",
-    "@open-stack/provider": "workspace:*",
-    "@open-stack/provider-utils": "workspace:*",
+    "@omni-stack/anthropic": "workspace:*",
+    "@omni-stack/provider": "workspace:*",
+    "@omni-stack/provider-utils": "workspace:*",
     "@smithy/eventstream-codec": "^4.0.1",
     "@smithy/util-utf8": "^4.0.0",
     "aws4fetch": "^1.0.20"
   },
   "devDependencies": {
-    "@open-stack/test-server": "workspace:*",
+    "@omni-stack/test-server": "workspace:*",
     "@types/node": "20.17.24",
     "@vercel/ai-tsconfig": "workspace:*",
     "tsup": "^8.3.0",

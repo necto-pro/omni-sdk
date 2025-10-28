@@ -1,4 +1,4 @@
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

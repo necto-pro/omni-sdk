@@ -1,5 +1,5 @@
-import { groq } from '@open-stack/groq';
-import { stepCountIs, ModelMessage, streamText, tool } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { stepCountIs, ModelMessage, streamText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { z } from 'zod';

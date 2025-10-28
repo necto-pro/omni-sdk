@@ -1,5 +1,5 @@
-import { anthropic, AnthropicProviderOptions } from '@open-stack/anthropic';
-import { ToolLoopAgent, InferAgentUIMessage } from 'ai';
+import { anthropic, AnthropicProviderOptions } from '@omni-stack/anthropic';
+import { ToolLoopAgent, InferAgentUIMessage } from '@omni-stack/core';
 
 export const anthropicMcpAgent = new ToolLoopAgent({
   model: anthropic('claude-sonnet-4-5'),

@@ -1,5 +1,5 @@
-import { cerebras } from '@open-stack/cerebras';
-import { streamObject } from 'ai';
+import { cerebras } from '@omni-stack/cerebras';
+import { streamObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

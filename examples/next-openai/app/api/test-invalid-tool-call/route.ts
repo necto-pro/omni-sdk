@@ -1,4 +1,4 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   convertToModelMessages,
   InferUITools,
@@ -7,7 +7,7 @@ import {
   tool,
   UIDataTypes,
   UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 import { convertArrayToReadableStream, MockLanguageModelV3 } from 'ai/test';
 import { z } from 'zod';
 

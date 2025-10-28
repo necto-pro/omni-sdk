@@ -1,5 +1,5 @@
-import { mistral } from '@open-stack/mistral';
-import { generateText, tool } from 'ai';
+import { mistral } from '@omni-stack/mistral';
+import { generateText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import { weatherTool } from '../tools/weather-tool';

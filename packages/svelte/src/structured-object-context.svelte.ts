@@ -1,4 +1,4 @@
-import type { DeepPartial } from 'ai';
+import type { DeepPartial } from '@omni-stack/core';
 import { createContext, KeyedStore } from './utils.svelte.js';
 
 export class StructuredObjectStore<RESULT> {

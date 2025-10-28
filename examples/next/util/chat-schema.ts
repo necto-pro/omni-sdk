@@ -1,4 +1,4 @@
-import { UIDataTypes, UIMessage } from 'ai';
+import { UIDataTypes, UIMessage } from '@omni-stack/core';
 import { z } from 'zod';
 
 export const myMessageMetadataSchema = z.object({

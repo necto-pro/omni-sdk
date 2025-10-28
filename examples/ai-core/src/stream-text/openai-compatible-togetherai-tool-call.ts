@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { createOpenAICompatible } from '@open-stack/openai-compatible';
-import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
+import { createOpenAICompatible } from '@omni-stack/openai-compatible';
+import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from '@omni-stack/core';
 import { weatherTool } from '../tools/weather-tool';
 
 const messages: ModelMessage[] = [];

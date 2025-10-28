@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { InferAgentUIMessage, ToolLoopAgent } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { InferAgentUIMessage, ToolLoopAgent } from '@omni-stack/core';
 
 export const openaiImageGenerationAgent = new ToolLoopAgent({
   model: openai('gpt-5-nano'),

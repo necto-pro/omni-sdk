@@ -1,12 +1,12 @@
 import 'dotenv/config';
 import { expect } from 'vitest';
-import { deepseek as provider } from '@open-stack/deepseek';
-import { APICallError } from 'ai';
+import { deepseek as provider } from '@omni-stack/deepseek';
+import { APICallError } from '@omni-stack/core';
 import {
   createFeatureTestSuite,
   createLanguageModelWithCapabilities,
 } from './feature-test-suite';
-import { DeepSeekErrorData } from '@open-stack/deepseek';
+import { DeepSeekErrorData } from '@omni-stack/deepseek';
 
 const createChatModel = (modelId: string) =>
   createLanguageModelWithCapabilities(provider.chat(modelId));

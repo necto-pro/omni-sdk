@@ -1,9 +1,9 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   createUIMessageStream,
   createUIMessageStreamResponse,
   streamText,
-} from 'ai';
+} from '@omni-stack/core';
 import 'dotenv/config';
 import Fastify from 'fastify';
 

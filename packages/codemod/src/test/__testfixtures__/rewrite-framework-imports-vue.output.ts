@@ -1,2 +1,2 @@
 // @ts-nocheck
-import { useChat } from '@open-stack/vue';
+import { useChat } from '@omni-stack/vue';

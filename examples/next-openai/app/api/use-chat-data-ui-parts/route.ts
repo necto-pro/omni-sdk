@@ -1,12 +1,12 @@
-import { openai } from '@open-stack/openai';
-import { delay } from '@open-stack/provider-utils';
+import { openai } from '@omni-stack/openai';
+import { delay } from '@omni-stack/provider-utils';
 import {
   convertToModelMessages,
   createUIMessageStream,
   createUIMessageStreamResponse,
   stepCountIs,
   streamText,
-} from 'ai';
+} from '@omni-stack/core';
 import { z } from 'zod';
 
 export async function POST(req: Request) {

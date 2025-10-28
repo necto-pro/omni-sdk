@@ -53,8 +53,8 @@ const result = await generateText({
 The integration supports streaming functions like `streamText`. Each streamed call will produce `ai.streamText` spans in Braintrust.
 
 ```typescript
-import { openai } from '@open-stack/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { prompt } = await req.json();
@@ -78,15 +78,15 @@ If you are using Node.js without a framework, you must configure the `NodeSDK` d
 First, install the necessary dependencies:
 
 ```bash
-npm install ai @open-stack/openai braintrust @opentelemetry/sdk-node @opentelemetry/sdk-trace-base zod
+npm install ai @omni-stack/openai braintrust @opentelemetry/sdk-node @opentelemetry/sdk-trace-base zod
 ```
 
 Then, set up the OpenTelemetry SDK:
 
 ```typescript
 import { NodeSDK } from '@opentelemetry/sdk-node';
-import { generateText, tool } from 'ai';
-import { openai } from '@open-stack/openai';
+import { generateText, tool } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 import { BraintrustSpanProcessor } from 'braintrust';
 

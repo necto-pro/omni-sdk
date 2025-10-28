@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { google } from '@open-stack/google';
-import { streamObject } from 'ai';
+import { google } from '@omni-stack/google';
+import { streamObject } from '@omni-stack/core';
 import fs from 'node:fs';
 import { z } from 'zod';
 

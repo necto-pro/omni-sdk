@@ -1,4 +1,4 @@
-import { UIMessageChunk } from 'ai';
+import { UIMessageChunk } from '@omni-stack/core';
 import {
   createCallbacksTransformer,
   StreamCallbacks,

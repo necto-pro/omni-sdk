@@ -1,6 +1,6 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { loadChat, saveChat } from '@util/chat-store';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { message, chatId }: { message: UIMessage; chatId: string } =

@@ -1,6 +1,6 @@
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import { useState } from 'react';
 
 export default function Chat() {

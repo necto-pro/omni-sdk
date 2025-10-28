@@ -24,8 +24,8 @@ There are several models that offer native web-searching capabilities (Perplexit
 OpenAI's Responses API has a built-in web search tool that can be used to search the web and return search results. This tool is called `web_search_preview` and is accessed via the `openai` provider.
 
 ```ts
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const { text, sources } = await generateText({
   model: openai.responses('gpt-4o-mini'),
@@ -44,8 +44,8 @@ console.log(sources);
 Perplexity's Sonar models combines real-time web search with natural language processing. Each response is grounded in current web data and includes detailed citations.
 
 ```ts
-import { perplexity } from '@open-stack/perplexity';
-import { generateText } from 'ai';
+import { perplexity } from '@omni-stack/perplexity';
+import { generateText } from '@omni-stack/core';
 
 const { text, sources } = await generateText({
   model: perplexity('sonar-pro'),
@@ -61,8 +61,8 @@ console.log(sources);
 With compatible Gemini models, you can enable search grounding to give the model access to the latest information using Google search.
 
 ```ts
-import { google } from '@open-stack/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 
 const { text, sources, providerMetadata } = await generateText({
   model: google('gemini-2.5-flash'),
@@ -102,7 +102,7 @@ Unlike the native web search examples where searching is built into the model, u
 [Exa](https://exa.ai/) is a search API designed for AI. Let's look at how you could implement a search tool using Exa:
 
 ```ts
-import { generateText, tool, stepCountIs } from 'ai';
+import { generateText, tool, stepCountIs } from '@omni-stack/core';
 import { z } from 'zod';
 import Exa from 'exa-js';
 
@@ -142,7 +142,7 @@ const { text } = await generateText({
 [Firecrawl](https://firecrawl.dev) provides an API for web scraping and crawling. Let's look at how you could implement a scraping tool using Firecrawl:
 
 ```ts
-import { generateText, tool, stepCountIs } from 'ai';
+import { generateText, tool, stepCountIs } from '@omni-stack/core';
 import { z } from 'zod';
 import FirecrawlApp from '@mendable/firecrawl-js';
 import 'dotenv/config';

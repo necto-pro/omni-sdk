@@ -4,7 +4,7 @@ import {
   ChatState,
   ChatStatus,
   UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 import { Ref, ref } from 'vue';
 
 class VueChatState<UI_MESSAGE extends UIMessage>

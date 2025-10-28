@@ -1,5 +1,5 @@
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
-import { openai } from '@open-stack/openai';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 export async function POST(req: Request) {

@@ -1,4 +1,4 @@
-import { createProviderDefinedToolFactory } from '@open-stack/provider-utils';
+import { createProviderDefinedToolFactory } from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 
 /**

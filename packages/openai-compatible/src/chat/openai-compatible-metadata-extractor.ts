@@ -1,4 +1,4 @@
-import { SharedV3ProviderMetadata } from '@open-stack/provider';
+import { SharedV3ProviderMetadata } from '@omni-stack/provider';
 
 /**
 Extracts provider-specific metadata from API responses.

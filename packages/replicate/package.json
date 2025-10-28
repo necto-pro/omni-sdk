@@ -1,5 +1,5 @@
 {
-  "name": "@open-stack/replicate",
+  "name": "@omni-stack/replicate",
   "version": "2.0.0-beta.26",
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -32,11 +32,11 @@
     }
   },
   "dependencies": {
-    "@open-stack/provider": "workspace:*",
-    "@open-stack/provider-utils": "workspace:*"
+    "@omni-stack/provider": "workspace:*",
+    "@omni-stack/provider-utils": "workspace:*"
   },
   "devDependencies": {
-    "@open-stack/test-server": "workspace:*",
+    "@omni-stack/test-server": "workspace:*",
     "@types/node": "20.17.24",
     "@vercel/ai-tsconfig": "workspace:*",
     "tsup": "^8",

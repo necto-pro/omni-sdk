@@ -61,7 +61,7 @@ Generate text using Apple's on-device language models:
 
 ```ts
 import { apple } from '@react-native-ai/apple';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: apple(),
@@ -75,7 +75,7 @@ For real-time text generation:
 
 ```ts
 import { apple } from '@react-native-ai/apple';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: apple(),
@@ -93,7 +93,7 @@ Generate structured data using Zod schemas:
 
 ```ts
 import { apple } from '@react-native-ai/apple';
-import { generateObject } from 'ai';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const result = await generateObject({
@@ -128,7 +128,7 @@ The Apple provider supports tool calling, where tools are executed by Apple Inte
 
 ```ts
 import { createAppleProvider } from '@react-native-ai/apple';
-import { generateText, tool } from 'ai';
+import { generateText, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 const getWeather = tool({
@@ -168,7 +168,7 @@ Apple provides multilingual text embeddings using `NLContextualEmbedding`, avail
 
 ```ts
 import { apple } from '@react-native-ai/apple';
-import { embed } from 'ai';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: apple.textEmbeddingModel(),
@@ -182,7 +182,7 @@ Apple provides speech-to-text transcription using `SpeechAnalyzer` and `SpeechTr
 
 ```ts
 import { apple } from '@react-native-ai/apple';
-import { experimental_transcribe } from 'ai';
+import { experimental_transcribe } from '@omni-stack/core';
 
 const response = await experimental_transcribe({
   model: apple.transcriptionModel(),
@@ -202,7 +202,7 @@ Convert text to speech:
 
 ```ts
 import { apple } from '@react-native-ai/apple';
-import { experimental_generateSpeech } from 'ai';
+import { experimental_generateSpeech } from '@omni-stack/core';
 
 const response = await experimental_generateSpeech({
   model: apple.speechModel(),

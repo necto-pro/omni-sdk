@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Chat } from '@open-stack/vue';
+import { Chat } from '@omni-stack/vue';
 import { computed, ref } from 'vue';
 
 const chat = new Chat({});

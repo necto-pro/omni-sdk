@@ -5,13 +5,13 @@ import {
   LanguageModelV3Prompt,
   SharedV3ProviderMetadata,
   UnsupportedFunctionalityError,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   convertToBase64,
   parseProviderOptions,
   validateTypes,
   isNonNullable,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import {
   AnthropicAssistantMessage,
   AnthropicMessagesPrompt,

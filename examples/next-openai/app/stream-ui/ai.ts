@@ -1,6 +1,6 @@
-import { createAI } from '@open-stack/rsc';
+import { createAI } from '@omni-stack/rsc';
 import { AIState, submitUserMessage, UIState } from './actions';
-import { generateId } from 'ai';
+import { generateId } from '@omni-stack/core';
 
 export const AI = createAI({
   actions: { submitUserMessage },

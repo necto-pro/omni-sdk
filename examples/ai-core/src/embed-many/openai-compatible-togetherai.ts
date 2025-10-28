@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { createOpenAICompatible } from '@open-stack/openai-compatible';
-import { embedMany } from 'ai';
+import { createOpenAICompatible } from '@omni-stack/openai-compatible';
+import { embedMany } from '@omni-stack/core';
 
 async function main() {
   const togetherai = createOpenAICompatible({

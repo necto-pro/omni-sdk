@@ -1,5 +1,5 @@
 ---
-'@open-stack/anthropic': patch
+'@omni-stack/anthropic': patch
 ---
 
 feat(provider/anthropic): add text_editor_20250728 tool support

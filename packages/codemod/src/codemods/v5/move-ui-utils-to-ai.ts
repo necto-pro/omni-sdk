@@ -4,7 +4,7 @@ export default createTransformer((fileInfo, api, options, context) => {
   const { j, root } = context;
 
   root
-    .find(j.ImportDeclaration, { source: { value: '@open-stack/ui-utils' } })
+    .find(j.ImportDeclaration, { source: { value: '@omni-stack/ui-utils' } })
     .forEach(path => {
       path.node.source.value = 'ai';
       context.hasChanges = true;

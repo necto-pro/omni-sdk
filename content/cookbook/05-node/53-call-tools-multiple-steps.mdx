@@ -13,8 +13,8 @@ You can enable multi-step tool calls in `generateText` by defining stopping cond
 This allows you to define the conditions for which your agent should stop when the model generates a tool call.
 
 ```ts highlight={"7"}
-import { generateText, tool, stepCountIs } from 'ai';
-import { openai } from '@open-stack/openai';
+import { generateText, tool, stepCountIs } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 const { text, steps } = await generateText({

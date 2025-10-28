@@ -1,4 +1,4 @@
-import { DeepPartial } from 'ai';
+import { DeepPartial } from '@omni-stack/core';
 import * as v from 'valibot';
 
 // define a schema for the notifications

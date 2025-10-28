@@ -1,5 +1,5 @@
 ---
-'@open-stack/gateway': patch
+'@omni-stack/gateway': patch
 ---
 
 feat(provider/gateway): Add gpt-5-codex to Gateway model string autocomplete

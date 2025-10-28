@@ -1,5 +1,5 @@
-import { groq } from '@open-stack/groq';
-import { generateObject } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 import 'dotenv/config';
 

@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { convertToModelMessages, streamText, UIDataTypes, UIMessage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamText, UIDataTypes, UIMessage } from '@omni-stack/core';
 import { z } from 'zod';
 
 // Allow streaming responses up to 30 seconds

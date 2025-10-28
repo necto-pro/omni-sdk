@@ -1,5 +1,5 @@
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { streamText } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 import fs from 'node:fs';
 

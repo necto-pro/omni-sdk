@@ -1,11 +1,11 @@
-import { RerankingModelV3, SharedV3Warning } from '@open-stack/provider';
+import { RerankingModelV3, SharedV3Warning } from '@omni-stack/provider';
 import {
   combineHeaders,
   createJsonResponseHandler,
   FetchFunction,
   parseProviderOptions,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { cohereFailedResponseHandler } from '../cohere-error';
 import {
   CohereRerankingInput,

@@ -1,5 +1,5 @@
-import { azure } from '@open-stack/azure';
-import { experimental_generateImage as generateImage } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';
 

@@ -1,9 +1,9 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   UIToolInvocation,
   tool,
   experimental_generateImage as generateImage,
-} from 'ai';
+} from '@omni-stack/core';
 import { z } from 'zod';
 
 export const generateImageTool = tool({

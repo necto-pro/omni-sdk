@@ -8,10 +8,10 @@ const renameMappings = {
 export default createTransformer((fileInfo, api, options, context) => {
   const { j, root } = context;
 
-  // Track which identifiers were imported from 'ai' and should be renamed
+  // Track which identifiers were imported from '@omni-stack/core' and should be renamed
   const importedFromAi = new Set<string>();
 
-  // Find import declarations from 'ai' and collect the imported names
+  // Find import declarations from '@omni-stack/core' and collect the imported names
   root.find(j.ImportDeclaration).forEach(importPath => {
     const node = importPath.node;
 
@@ -48,12 +48,12 @@ export default createTransformer((fileInfo, api, options, context) => {
     }
   });
 
-  // Only rename identifiers that were imported from 'ai'
+  // Only rename identifiers that were imported from '@omni-stack/core'
   if (importedFromAi.size > 0) {
     root.find(j.Identifier).forEach(identifierPath => {
       const node = identifierPath.node;
 
-      // Only rename if this identifier was imported from 'ai'
+      // Only rename if this identifier was imported from '@omni-stack/core'
       if (
         importedFromAi.has(node.name) &&
         renameMappings[node.name as keyof typeof renameMappings]

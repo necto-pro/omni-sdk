@@ -1,5 +1,5 @@
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { experimental_generateImage as generateImage } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';
 

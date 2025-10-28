@@ -1,18 +1,18 @@
-import { anthropic } from '@open-stack/anthropic';
-import { elevenlabs } from '@open-stack/elevenlabs';
-import { fal } from '@open-stack/fal';
-import { groq } from '@open-stack/groq';
-import { luma } from '@open-stack/luma';
-import { mistral } from '@open-stack/mistral';
-import { openai } from '@open-stack/openai';
-import { replicate } from '@open-stack/replicate';
-import { xai } from '@open-stack/xai';
+import { anthropic } from '@omni-stack/anthropic';
+import { elevenlabs } from '@omni-stack/elevenlabs';
+import { fal } from '@omni-stack/fal';
+import { groq } from '@omni-stack/groq';
+import { luma } from '@omni-stack/luma';
+import { mistral } from '@omni-stack/mistral';
+import { openai } from '@omni-stack/openai';
+import { replicate } from '@omni-stack/replicate';
+import { xai } from '@omni-stack/xai';
 import {
   createProviderRegistry,
   customProvider,
   defaultSettingsMiddleware,
   wrapLanguageModel,
-} from 'ai';
+} from '@omni-stack/core';
 import 'dotenv/config';
 
 // custom provider with alias names:

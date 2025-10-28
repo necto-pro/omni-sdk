@@ -1,5 +1,5 @@
-import { cohere } from '@open-stack/cohere';
-import { embedMany } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { embedMany } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

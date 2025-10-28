@@ -5,8 +5,8 @@ import { GoogleGenerativeAIEmbeddingModel } from './google-generative-ai-embeddi
 import { GoogleGenerativeAIImageModel } from './google-generative-ai-image-model';
 
 // Mock the imported modules using a partial mock to preserve original exports
-vi.mock('@open-stack/provider-utils', async importOriginal => {
-  const mod = await importOriginal<typeof import('@open-stack/provider-utils')>();
+vi.mock('@omni-stack/provider-utils', async importOriginal => {
+  const mod = await importOriginal<typeof import('@omni-stack/provider-utils')>();
   return {
     ...mod,
     loadApiKey: vi.fn().mockImplementation(({ apiKey }) => apiKey),

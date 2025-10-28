@@ -1,5 +1,5 @@
-import { elevenlabs } from '@open-stack/elevenlabs';
-import { experimental_generateSpeech as generateSpeech } from 'ai';
+import { elevenlabs } from '@omni-stack/elevenlabs';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
 import 'dotenv/config';
 import { saveAudioFile } from '../lib/save-audio';
 

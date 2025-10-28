@@ -4,7 +4,7 @@ import {
   SourcesContent,
   SourcesTrigger,
 } from './ai-elements/sources';
-import { SourceUrlUIPart } from 'ai';
+import { SourceUrlUIPart } from '@omni-stack/core';
 
 const SourcesView = ({ sources }: { sources: SourceUrlUIPart[] }) => {
   if (sources.length === 0) {

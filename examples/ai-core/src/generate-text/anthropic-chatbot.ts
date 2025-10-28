@@ -1,5 +1,5 @@
-import { anthropic } from '@open-stack/anthropic';
-import { ModelMessage, generateText } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { ModelMessage, generateText } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { weatherTool } from '../tools/weather-tool';

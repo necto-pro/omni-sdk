@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages } = await req.json();

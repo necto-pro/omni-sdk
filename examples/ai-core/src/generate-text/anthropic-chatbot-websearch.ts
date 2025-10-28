@@ -1,5 +1,5 @@
-import { createAnthropic } from '@open-stack/anthropic';
-import { ModelMessage, generateText, stepCountIs } from 'ai';
+import { createAnthropic } from '@omni-stack/anthropic';
+import { ModelMessage, generateText, stepCountIs } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 

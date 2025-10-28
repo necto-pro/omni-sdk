@@ -16,9 +16,9 @@ can access by their ids in the format `providerId:modelId`.
 You can create a registry with multiple providers and models using `createProviderRegistry`.
 
 ```ts
-import { anthropic } from '@open-stack/anthropic';
-import { createOpenAI } from '@open-stack/openai';
-import { createProviderRegistry } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { createOpenAI } from '@omni-stack/openai';
+import { createProviderRegistry } from '@omni-stack/core';
 
 export const registry = createProviderRegistry({
   // register provider with prefix and default setup:
@@ -54,7 +54,7 @@ You can access language models by using the `languageModel` method on the regist
 The provider id will become the prefix of the model id: `providerId:modelId`.
 
 ```ts highlight={"5"}
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 import { registry } from './registry';
 
 const { text } = await generateText({
@@ -69,7 +69,7 @@ You can access text embedding models by using the `textEmbeddingModel` method on
 The provider id will become the prefix of the model id: `providerId:modelId`.
 
 ```ts highlight={"5"}
-import { embed } from 'ai';
+import { embed } from '@omni-stack/core';
 import { registry } from './registry';
 
 const { embedding } = await embed({
@@ -84,7 +84,7 @@ You can access image models by using the `imageModel` method on the registry.
 The provider id will become the prefix of the model id: `providerId:modelId`.
 
 ```ts highlight={"5"}
-import { generateImage } from 'ai';
+import { generateImage } from '@omni-stack/core';
 import { registry } from './registry';
 
 const { image } = await generateImage({

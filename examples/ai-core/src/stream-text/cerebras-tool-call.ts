@@ -1,5 +1,5 @@
-import { cerebras } from '@open-stack/cerebras';
-import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
+import { cerebras } from '@omni-stack/cerebras';
+import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from '@omni-stack/core';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';
 

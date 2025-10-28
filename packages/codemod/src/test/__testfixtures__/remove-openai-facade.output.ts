@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createOpenAI } from '@open-stack/openai';
+import { createOpenAI } from '@omni-stack/openai';
 
 const openai = createOpenAI({
   apiKey: 'key',

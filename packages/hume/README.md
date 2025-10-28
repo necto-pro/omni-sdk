@@ -5,25 +5,25 @@ contains support for the Hume API.
 
 ## Setup
 
-The Hume provider is available in the `@open-stack/hume` module. You can install it with
+The Hume provider is available in the `@omni-stack/hume` module. You can install it with
 
 ```bash
-npm i @open-stack/hume
+npm i @omni-stack/hume
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `hume` from `@open-stack/hume`:
+You can import the default provider instance `hume` from `@omni-stack/hume`:
 
 ```ts
-import { hume } from '@open-stack/hume';
+import { hume } from '@omni-stack/hume';
 ```
 
 ## Example
 
 ```ts
-import { hume } from '@open-stack/hume';
-import { experimental_generateSpeech as generateSpeech } from 'ai';
+import { hume } from '@omni-stack/hume';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
 
 const result = await generateSpeech({
   model: hume.speech('aurora'),

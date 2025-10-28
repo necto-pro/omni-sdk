@@ -1,17 +1,17 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { createVertex } from './google-vertex-provider';
-import { GoogleGenerativeAILanguageModel } from '@open-stack/google/internal';
+import { GoogleGenerativeAILanguageModel } from '@omni-stack/google/internal';
 import { GoogleVertexEmbeddingModel } from './google-vertex-embedding-model';
 import { GoogleVertexImageModel } from './google-vertex-image-model';
 
 // Mock the imported modules
-vi.mock('@open-stack/provider-utils', () => ({
+vi.mock('@omni-stack/provider-utils', () => ({
   loadSetting: vi.fn().mockImplementation(({ settingValue }) => settingValue),
   generateId: vi.fn().mockReturnValue('mock-id'),
   withoutTrailingSlash: vi.fn().mockImplementation(url => url),
 }));
 
-vi.mock('@open-stack/google/internal', () => ({
+vi.mock('@omni-stack/google/internal', () => ({
   GoogleGenerativeAILanguageModel: vi.fn(),
   googleTools: {
     googleSearch: vi.fn(),

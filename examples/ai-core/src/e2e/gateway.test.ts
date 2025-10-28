@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { gateway as provider } from '@open-stack/gateway';
+import { gateway as provider } from '@omni-stack/gateway';
 import {
   createFeatureTestSuite,
   createLanguageModelWithCapabilities,

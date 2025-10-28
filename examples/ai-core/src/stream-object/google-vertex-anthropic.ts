@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { vertexAnthropic } from '@open-stack/google-vertex/anthropic';
-import { streamObject } from 'ai';
+import { vertexAnthropic } from '@omni-stack/google-vertex/anthropic';
+import { streamObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 async function main() {

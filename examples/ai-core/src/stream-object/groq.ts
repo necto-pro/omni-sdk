@@ -1,5 +1,5 @@
-import { groq } from '@open-stack/groq';
-import { streamObject } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { streamObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

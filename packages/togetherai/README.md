@@ -4,25 +4,25 @@ The **[Together.ai provider](https://ai-sdk.dev/providers/ai-sdk-providers/toget
 
 ## Setup
 
-The Together.ai provider is available in the `@open-stack/togetherai` module. You can install it with
+The Together.ai provider is available in the `@omni-stack/togetherai` module. You can install it with
 
 ```bash
-npm i @open-stack/togetherai
+npm i @omni-stack/togetherai
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `togetherai` from `@open-stack/togetherai`:
+You can import the default provider instance `togetherai` from `@omni-stack/togetherai`:
 
 ```ts
-import { togetherai } from '@open-stack/togetherai';
+import { togetherai } from '@omni-stack/togetherai';
 ```
 
 ## Example
 
 ```ts
-import { togetherai } from '@open-stack/togetherai';
-import { generateText } from 'ai';
+import { togetherai } from '@omni-stack/togetherai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: togetherai('meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo'),

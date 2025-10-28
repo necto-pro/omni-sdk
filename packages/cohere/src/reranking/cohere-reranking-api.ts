@@ -1,4 +1,4 @@
-import { lazySchema, zodSchema } from '@open-stack/provider-utils';
+import { lazySchema, zodSchema } from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 
 // https://docs.cohere.com/v2/reference/rerank

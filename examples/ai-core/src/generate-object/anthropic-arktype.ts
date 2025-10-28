@@ -1,5 +1,5 @@
-import { anthropic } from '@open-stack/anthropic';
-import { generateObject } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { generateObject } from '@omni-stack/core';
 import { type } from 'arktype';
 import { run } from '../lib/run';
 

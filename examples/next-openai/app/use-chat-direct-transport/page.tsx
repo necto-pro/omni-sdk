@@ -1,9 +1,9 @@
 'use client';
 
-import { UIMessage, useChat } from '@open-stack/react';
+import { UIMessage, useChat } from '@omni-stack/react';
 import ChatInput from '@/components/chat-input';
-import { ChatTransport, convertToModelMessages, streamText } from 'ai';
-import { createOpenAI } from '@open-stack/openai';
+import { ChatTransport, convertToModelMessages, streamText } from '@omni-stack/core';
+import { createOpenAI } from '@omni-stack/openai';
 
 // Note: this needs a client-side OpenAI API key to work.
 // DO NOT USE THIS IN ENVIRONMENTS WHERE THE API KEY IS CONFIDENTIAL.

@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 async function handler(req, res) {
   const stream = streamText({

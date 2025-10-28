@@ -1,5 +1,5 @@
-import { vercel } from '@open-stack/vercel';
-import { streamText, ToolCallPart, ToolResultPart, ModelMessage } from 'ai';
+import { vercel } from '@omni-stack/vercel';
+import { streamText, ToolCallPart, ToolResultPart, ModelMessage } from '@omni-stack/core';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';
 

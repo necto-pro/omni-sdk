@@ -1,2 +1,2 @@
 // @ts-nocheck
-import { useChat } from '@open-stack/solid';
+import { useChat } from '@omni-stack/solid';

@@ -52,7 +52,7 @@ LETTA_API_KEY=<your_api_key>
 
 ```ts
 import { lettaCloud } from '@letta-ai/vercel-ai-sdk-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: lettaCloud('your_agent_id'),
@@ -64,7 +64,7 @@ const { text } = await generateText({
 
 ```ts
 import { lettaLocal } from '@letta-ai/vercel-ai-sdk-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: lettaLocal('your_agent_id'),
@@ -76,7 +76,7 @@ const { text } = await generateText({
 
 ```ts
 import { createLetta } from '@letta-ai/vercel-ai-sdk-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const letta = createLetta({
   baseUrl: '<your_base_url>',

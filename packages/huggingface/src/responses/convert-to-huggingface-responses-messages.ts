@@ -2,7 +2,7 @@ import {
   LanguageModelV3CallWarning,
   LanguageModelV3Prompt,
   UnsupportedFunctionalityError,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 
 export async function convertToHuggingFaceResponsesMessages({
   prompt,

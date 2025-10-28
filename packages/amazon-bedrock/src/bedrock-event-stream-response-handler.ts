@@ -1,11 +1,11 @@
-import { EmptyResponseBodyError } from '@open-stack/provider';
+import { EmptyResponseBodyError } from '@omni-stack/provider';
 import {
   ParseResult,
   safeParseJSON,
   extractResponseHeaders,
   ResponseHandler,
   safeValidateTypes,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { EventStreamCodec } from '@smithy/eventstream-codec';
 import { toUtf8, fromUtf8 } from '@smithy/util-utf8';
 import { ZodType } from 'zod/v4';

@@ -1,5 +1,5 @@
-import { anthropic } from '@open-stack/anthropic';
-import { streamObject } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { streamObject } from '@omni-stack/core';
 import { z } from 'zod';
 import { run } from '../lib/run';
 

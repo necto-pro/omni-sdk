@@ -1,6 +1,6 @@
 import { env } from '$env/dynamic/private';
-import { createOpenAI } from '@open-stack/openai';
-import { convertToModelMessages, streamText, stepCountIs } from 'ai';
+import { createOpenAI } from '@omni-stack/openai';
+import { convertToModelMessages, streamText, stepCountIs } from '@omni-stack/core';
 import { z } from 'zod';
 
 const openai = createOpenAI({

@@ -1,5 +1,5 @@
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   try {

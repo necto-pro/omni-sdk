@@ -1,5 +1,5 @@
 {
-  "name": "@open-stack/react",
+  "name": "@omni-stack/react",
   "version": "3.0.0-beta.81",
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -30,13 +30,13 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@open-stack/provider-utils": "workspace:*",
-    "ai": "workspace:*",
+    "@omni-stack/provider-utils": "workspace:*",
+    "@omni-stack/core": "workspace:*",
     "swr": "^2.2.5",
     "throttleit": "2.1.0"
   },
   "devDependencies": {
-    "@open-stack/test-server": "workspace:*",
+    "@omni-stack/test-server": "workspace:*",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/user-event": "^14.5.2",
     "@testing-library/react": "^16.0.1",

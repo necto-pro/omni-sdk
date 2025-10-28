@@ -1,5 +1,5 @@
-import { openai, type OpenAIChatLanguageModelOptions } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai, type OpenAIChatLanguageModelOptions } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

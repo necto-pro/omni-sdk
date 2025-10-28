@@ -1,5 +1,5 @@
-import { fireworks } from '@open-stack/fireworks';
-import { generateText } from 'ai';
+import { fireworks } from '@omni-stack/fireworks';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

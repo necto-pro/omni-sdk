@@ -9,7 +9,7 @@ interface FacadeConfig {
 export function removeFacade(config: FacadeConfig) {
   return createTransformer((fileInfo, api, options, context) => {
     const { j, root } = context;
-    const importPath = `@open-stack/${config.packageName}`;
+    const importPath = `@omni-stack/${config.packageName}`;
 
     // Track which imports came from our target package
     const targetImports = new Set<string>();

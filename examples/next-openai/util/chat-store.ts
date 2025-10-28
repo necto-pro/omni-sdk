@@ -1,4 +1,4 @@
-import { generateId, UIMessage } from 'ai';
+import { generateId, UIMessage } from '@omni-stack/core';
 import { existsSync, mkdirSync } from 'fs';
 import { readFile, writeFile } from 'fs/promises';
 import path from 'path';

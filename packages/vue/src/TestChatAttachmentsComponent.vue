@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { generateId } from 'ai';
+import { generateId } from '@omni-stack/core';
 import { mockId } from 'ai/test';
 import { computed, ref } from 'vue';
 import { Chat } from './chat.vue';

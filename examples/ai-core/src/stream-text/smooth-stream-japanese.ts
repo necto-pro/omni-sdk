@@ -1,4 +1,4 @@
-import { simulateReadableStream, smoothStream, streamText } from 'ai';
+import { simulateReadableStream, smoothStream, streamText } from '@omni-stack/core';
 import { MockLanguageModelV3 } from 'ai/test';
 
 async function main() {

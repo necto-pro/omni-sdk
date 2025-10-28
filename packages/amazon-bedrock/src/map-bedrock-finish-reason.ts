@@ -1,4 +1,4 @@
-import { LanguageModelV3FinishReason } from '@open-stack/provider';
+import { LanguageModelV3FinishReason } from '@omni-stack/provider';
 import { BedrockStopReason } from './bedrock-api-types';
 
 export function mapBedrockFinishReason(

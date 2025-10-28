@@ -1,6 +1,6 @@
 import { z } from 'zod/v4';
 import { openaiErrorDataSchema } from '../openai-error';
-import { InferSchema, lazySchema, zodSchema } from '@open-stack/provider-utils';
+import { InferSchema, lazySchema, zodSchema } from '@omni-stack/provider-utils';
 
 // limited version of the schema, focussed on what is needed for the implementation
 // this approach limits breakages when the API changes and increases efficiency

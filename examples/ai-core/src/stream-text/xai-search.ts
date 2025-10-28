@@ -1,5 +1,5 @@
-import { xai } from '@open-stack/xai';
-import { streamText } from 'ai';
+import { xai } from '@omni-stack/xai';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

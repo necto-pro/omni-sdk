@@ -1,9 +1,9 @@
-import { SpeechModelV3, ProviderV3 } from '@open-stack/provider';
+import { SpeechModelV3, ProviderV3 } from '@omni-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { LMNTSpeechModel } from './lmnt-speech-model';
 import { LMNTSpeechModelId } from './lmnt-speech-options';
 import { VERSION } from './version';

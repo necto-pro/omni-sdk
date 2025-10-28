@@ -1,4 +1,4 @@
-import { safeParseJSON } from '@open-stack/provider-utils';
+import { safeParseJSON } from '@omni-stack/provider-utils';
 import { falErrorDataSchema } from './fal-error';
 import { describe, it, expect } from 'vitest';
 

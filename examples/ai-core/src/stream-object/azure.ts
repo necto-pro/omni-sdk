@@ -1,5 +1,5 @@
-import { azure } from '@open-stack/azure';
-import { streamObject } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { streamObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

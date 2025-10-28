@@ -1,5 +1,5 @@
-import { fal } from '@open-stack/fal';
-import { experimental_transcribe as transcribe } from 'ai';
+import { fal } from '@omni-stack/fal';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

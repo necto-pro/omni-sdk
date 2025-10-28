@@ -1,9 +1,9 @@
-import type { GoogleGenerativeAIProviderMetadata } from '@open-stack/google';
+import type { GoogleGenerativeAIProviderMetadata } from '@omni-stack/google';
 import type {
   EmbeddingModelV3,
   ImageModelV3,
   LanguageModelV3,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   APICallError,
   embed,
@@ -14,7 +14,7 @@ import {
   stepCountIs,
   streamObject,
   streamText,
-} from 'ai';
+} from '@omni-stack/core';
 import fs from 'fs';
 import { describe, expect, it, vi } from 'vitest';
 import { z } from 'zod';

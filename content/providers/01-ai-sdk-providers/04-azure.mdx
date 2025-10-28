@@ -9,36 +9,36 @@ The [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai
 
 ## Setup
 
-The Azure OpenAI provider is available in the `@open-stack/azure` module. You can install it with
+The Azure OpenAI provider is available in the `@omni-stack/azure` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @open-stack/azure" dark />
+    <Snippet text="pnpm add @omni-stack/azure" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @open-stack/azure" dark />
+    <Snippet text="npm install @omni-stack/azure" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @open-stack/azure" dark />
+    <Snippet text="yarn add @omni-stack/azure" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @open-stack/azure" dark />
+    <Snippet text="bun add @omni-stack/azure" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `azure` from `@open-stack/azure`:
+You can import the default provider instance `azure` from `@omni-stack/azure`:
 
 ```ts
-import { azure } from '@open-stack/azure';
+import { azure } from '@omni-stack/azure';
 ```
 
-If you need a customized setup, you can import `createAzure` from `@open-stack/azure` and create a provider instance with your settings:
+If you need a customized setup, you can import `createAzure` from `@omni-stack/azure` and create a provider instance with your settings:
 
 ```ts
-import { createAzure } from '@open-stack/azure';
+import { createAzure } from '@omni-stack/azure';
 
 const azure = createAzure({
   resourceName: 'your-resource-name', // Azure resource name
@@ -112,8 +112,8 @@ Azure exposes the thinking of `DeepSeek-R1` in the generated text using the `<th
 You can use the `extractReasoningMiddleware` to extract this reasoning and expose it as a `reasoning` property on the result:
 
 ```ts
-import { azure } from '@open-stack/azure';
-import { wrapLanguageModel, extractReasoningMiddleware } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { wrapLanguageModel, extractReasoningMiddleware } from '@omni-stack/core';
 
 const enhancedModel = wrapLanguageModel({
   model: azure('your-deepseek-r1-deployment-name'),
@@ -128,8 +128,8 @@ You can then use that enhanced model in functions like `generateText` and `strea
 You can use OpenAI language models to generate text with the `generateText` function:
 
 ```ts
-import { azure } from '@open-stack/azure';
-import { generateText } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: azure('your-deployment-name'),
@@ -191,8 +191,8 @@ Azure OpenAI chat models support also some model specific settings that are not 
 You can pass them as an options argument:
 
 ```ts
-import { azure } from '@open-stack/azure';
-import { generateText } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: azure('your-deployment-name'),
@@ -258,8 +258,8 @@ Further configuration can be done using OpenAI provider options.
 You can validate the provider options using the `OpenAIResponsesProviderOptions` type.
 
 ```ts
-import { azure, OpenAIResponsesProviderOptions } from '@open-stack/azure';
-import { generateText } from 'ai';
+import { azure, OpenAIResponsesProviderOptions } from '@omni-stack/azure';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: azure.responses('your-deployment-name'),
@@ -370,8 +370,8 @@ Availability is restricted to specific models (for example, `gpt-5` variants).
 You can use the image tool with `generateText`.
 
 ```ts
-import { createAzure } from '@open-stack/azure';
-import { generateText } from 'ai';
+import { createAzure } from '@omni-stack/azure';
+import { generateText } from '@omni-stack/core';
 
 const azure = createAzure({
   headers: {
@@ -413,8 +413,8 @@ for (const toolResult of result.staticToolResults) {
 The Azure OpenAI responses API supports the code interpreter tool through the `azure.tools.codeInterpreter` tool. This allows models to write and execute Python code.
 
 ```ts
-import { azure } from '@open-stack/azure';
-import { generateText } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: azure.responses('gpt-5'),
@@ -487,8 +487,8 @@ OpenAI completion models support also some model specific settings that are not 
 You can pass them as an options argument:
 
 ```ts
-import { azure } from '@open-stack/azure';
-import { generateText } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: azure.completion('your-gpt-35-turbo-instruct-deployment'),
@@ -562,8 +562,8 @@ Azure OpenAI embedding models support several additional settings.
 You can pass them as an options argument:
 
 ```ts
-import { azure } from '@open-stack/azure';
-import { embed } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: azure.textEmbedding('your-embedding-deployment'),
@@ -618,8 +618,8 @@ await generateImage({
 You can use Azure OpenAI image models to generate images with the `generateImage` function:
 
 ```ts
-import { azure } from '@open-stack/azure';
-import { experimental_generateImage as generateImage } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: azure.image('your-dalle-deployment-name'),
@@ -678,8 +678,8 @@ const model = azure.transcription('whisper-1');
 You can also pass additional provider-specific options using the `providerOptions` argument. For example, supplying the input language in ISO-639-1 (e.g. `en`) format will improve accuracy and latency.
 
 ```ts highlight="6"
-import { experimental_transcribe as transcribe } from 'ai';
-import { azure } from '@open-stack/azure';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
+import { azure } from '@omni-stack/azure';
 import { readFile } from 'fs/promises';
 
 const result = await transcribe({

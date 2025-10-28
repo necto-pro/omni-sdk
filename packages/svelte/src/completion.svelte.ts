@@ -3,7 +3,7 @@ import {
   generateId,
   type CompletionRequestOptions,
   type UseCompletionOptions,
-} from 'ai';
+} from '@omni-stack/core';
 import {
   KeyedCompletionStore,
   getCompletionContext,

@@ -2,12 +2,12 @@ import {
   LanguageModelV3,
   LanguageModelV3FunctionTool,
   LanguageModelV3Prompt,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   convertReadableStreamToArray,
   mockId,
-} from '@open-stack/provider-utils/test';
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+} from '@omni-stack/provider-utils/test';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import fs from 'node:fs';
 import { beforeEach, describe, expect, it } from 'vitest';
 import { OpenAIResponsesLanguageModel } from './openai-responses-language-model';

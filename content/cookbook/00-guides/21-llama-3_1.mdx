@@ -44,8 +44,8 @@ The AI SDK abstracts away the differences between model providers, eliminates bo
 At the center of the AI SDK is [AI SDK Core](/docs/ai-sdk-core/overview), which provides a unified API to call any LLM. The code snippet below is all you need to call Llama 3.1 (using [DeepInfra](https://deepinfra.com)) with the AI SDK:
 
 ```ts
-import { deepinfra } from '@open-stack/deepinfra';
-import { generateText } from 'ai';
+import { deepinfra } from '@omni-stack/deepinfra';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: deepinfra('meta-llama/Meta-Llama-3.1-405B-Instruct'),
@@ -64,8 +64,8 @@ const { text } = await generateText({
 AI SDK Core abstracts away the differences between model providers, allowing you to focus on building great applications. Prefer to use [Amazon Bedrock](/providers/ai-sdk-providers/amazon-bedrock)? The unified interface also means that you can easily switch between models by changing just two lines of code.
 
 ```tsx highlight="2,5"
-import { generateText } from 'ai';
-import { bedrock } from '@open-stack/amazon-bedrock';
+import { generateText } from '@omni-stack/core';
+import { bedrock } from '@omni-stack/amazon-bedrock';
 
 const { text } = await generateText({
   model: bedrock('meta.llama3-1-405b-instruct-v1'),
@@ -78,8 +78,8 @@ const { text } = await generateText({
 To stream the model's response as it's being generated, update your code snippet to use the [`streamText`](/docs/reference/ai-sdk-core/stream-text) function.
 
 ```tsx
-import { streamText } from 'ai';
-import { deepinfra } from '@open-stack/deepinfra';
+import { streamText } from '@omni-stack/core';
+import { deepinfra } from '@omni-stack/deepinfra';
 
 const { textStream } = streamText({
   model: deepinfra('meta-llama/Meta-Llama-3.1-405B-Instruct'),
@@ -92,8 +92,8 @@ const { textStream } = streamText({
 While text generation can be useful, you might want to generate structured JSON data. For example, you might want to extract information from text, classify data, or generate synthetic data. AI SDK Core provides two functions ([`generateObject`](/docs/reference/ai-sdk-core/generate-object) and [`streamObject`](/docs/reference/ai-sdk-core/stream-object)) to generate structured data, allowing you to constrain model outputs to a specific schema.
 
 ```ts
-import { generateObject } from 'ai';
-import { deepinfra } from '@open-stack/deepinfra';
+import { generateObject } from '@omni-stack/core';
+import { deepinfra } from '@omni-stack/deepinfra';
 import { z } from 'zod';
 
 const { object } = await generateObject({
@@ -122,8 +122,8 @@ The AI SDK supports tool usage across several of its functions, including [`gene
 Here's an example of how you can use a tool with the AI SDK and Llama 3.1:
 
 ```ts
-import { generateText, tool } from 'ai';
-import { deepinfra } from '@open-stack/deepinfra';
+import { generateText, tool } from '@omni-stack/core';
+import { deepinfra } from '@omni-stack/deepinfra';
 import { z } from 'zod';
 
 const { text } = await generateText({
@@ -159,8 +159,8 @@ The AI SDK supports agent implementation through the `maxSteps` parameter. This 
 Here's an example of an agent that solves math problems:
 
 ```tsx
-import { generateText, tool } from 'ai';
-import { deepinfra } from '@open-stack/deepinfra';
+import { generateText, tool } from '@omni-stack/core';
+import { deepinfra } from '@omni-stack/deepinfra';
 import * as mathjs from 'mathjs';
 import { z } from 'zod';
 
@@ -196,8 +196,8 @@ With four main hooks — [`useChat`](/docs/reference/ai-sdk-ui/use-chat), [`useC
 Let's explore building a chatbot with [Next.js](https://nextjs.org), the AI SDK, and Llama 3.1 (via [DeepInfra](https://deepinfra.com)):
 
 ```tsx filename="app/api/chat/route.ts"
-import { deepinfra } from '@open-stack/deepinfra';
-import { convertToModelMessages, streamText } from 'ai';
+import { deepinfra } from '@omni-stack/deepinfra';
+import { convertToModelMessages, streamText } from '@omni-stack/core';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;
@@ -217,7 +217,7 @@ export async function POST(req: Request) {
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 
 export default function Page() {
   const { messages, input, handleInputChange, handleSubmit } = useChat();
@@ -254,8 +254,8 @@ First, create a Server Action.
 ```tsx filename="app/actions.tsx"
 'use server';
 
-import { streamUI } from '@open-stack/rsc';
-import { deepinfra } from '@open-stack/deepinfra';
+import { streamUI } from '@omni-stack/rsc';
+import { deepinfra } from '@omni-stack/deepinfra';
 import { z } from 'zod';
 
 export async function streamComponent() {
@@ -323,8 +323,8 @@ Here's how simple the migration process can be:
 **OpenAI Example:**
 
 ```tsx
-import { generateText } from 'ai';
-import { openai } from '@open-stack/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const { text } = await generateText({
   model: openai('gpt-4.1'),
@@ -335,8 +335,8 @@ const { text } = await generateText({
 **Llama on DeepInfra Example:**
 
 ```tsx
-import { generateText } from 'ai';
-import { deepinfra } from '@open-stack/deepinfra';
+import { generateText } from '@omni-stack/core';
+import { deepinfra } from '@omni-stack/deepinfra';
 
 const { text } = await generateText({
   model: deepinfra('meta-llama/Meta-Llama-3.1-70B-Instruct'),

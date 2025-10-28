@@ -1,5 +1,5 @@
 // Test various usages of delta.file.mediaType and delta.file.data
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 // Mock function for testing
 function processFile(mediaType: string, data: any) {

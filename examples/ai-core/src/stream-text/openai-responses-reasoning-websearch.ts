@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { openai } from '@open-stack/openai';
-import { generateText, streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText, streamText } from '@omni-stack/core';
 
 async function main() {
   const result = streamText({

@@ -1,5 +1,5 @@
-import { togetherai, TogetherAIRerankingOptions } from '@open-stack/togetherai';
-import { rerank } from 'ai';
+import { togetherai, TogetherAIRerankingOptions } from '@omni-stack/togetherai';
+import { rerank } from '@omni-stack/core';
 import { print } from '../lib/print';
 import { run } from '../lib/run';
 import { documents } from './documents';

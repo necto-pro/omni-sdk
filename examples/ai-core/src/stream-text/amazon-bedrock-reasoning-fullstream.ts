@@ -1,5 +1,5 @@
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { stepCountIs, streamText, ToolCallPart, ToolResultPart } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { stepCountIs, streamText, ToolCallPart, ToolResultPart } from '@omni-stack/core';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';
 

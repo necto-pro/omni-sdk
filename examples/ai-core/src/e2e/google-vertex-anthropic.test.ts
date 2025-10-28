@@ -2,13 +2,13 @@ import {
   createVertexAnthropic as createVertexAnthropicNode,
   vertexAnthropic,
   vertexAnthropic as vertexAnthropicNode,
-} from '@open-stack/google-vertex/anthropic';
+} from '@omni-stack/google-vertex/anthropic';
 import {
   createVertexAnthropic as createVertexAnthropicEdge,
   vertexAnthropic as vertexAnthropicEdge,
-} from '@open-stack/google-vertex/anthropic/edge';
-import { LanguageModelV3 } from '@open-stack/provider';
-import { APICallError, generateText, stepCountIs } from 'ai';
+} from '@omni-stack/google-vertex/anthropic/edge';
+import { LanguageModelV3 } from '@omni-stack/provider';
+import { APICallError, generateText, stepCountIs } from '@omni-stack/core';
 import 'dotenv/config';
 import fs from 'fs';
 import { describe, expect, it } from 'vitest';

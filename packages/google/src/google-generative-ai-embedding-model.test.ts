@@ -1,5 +1,5 @@
-import { EmbeddingModelV3Embedding } from '@open-stack/provider';
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { EmbeddingModelV3Embedding } from '@omni-stack/provider';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { GoogleGenerativeAIEmbeddingModel } from './google-generative-ai-embedding-model';
 import { createGoogleGenerativeAI } from './google-provider';
 import { describe, it, expect, vi } from 'vitest';

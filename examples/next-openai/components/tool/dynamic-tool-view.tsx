@@ -1,4 +1,4 @@
-import type { DynamicToolUIPart } from 'ai';
+import type { DynamicToolUIPart } from '@omni-stack/core';
 
 export default function WeatherWithApprovalView({
   invocation,

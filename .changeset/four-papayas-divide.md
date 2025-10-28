@@ -1,5 +1,5 @@
 ---
-'@open-stack/gateway': patch
+'@omni-stack/gateway': patch
 ---
 
 feat (provider/gateway): add models provider option for model routing

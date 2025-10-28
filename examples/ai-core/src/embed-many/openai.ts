@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { embedMany } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { embedMany } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

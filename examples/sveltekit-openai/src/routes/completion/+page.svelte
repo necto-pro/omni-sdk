@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Textarea } from '$lib/components/ui/textarea/index.js';
-  import { Completion } from '@open-stack/svelte';
+  import { Completion } from '@omni-stack/svelte';
 
   const completion = new Completion();
 

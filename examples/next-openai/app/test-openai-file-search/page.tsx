@@ -2,8 +2,8 @@
 
 import ChatInput from '@/components/chat-input';
 import FileSearchView from '@/components/tool/openai-file-search-view';
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { OpenAIFileSearchMessage } from '../api/chat-openai-file-search/route';
 
 export default function TestOpenAIFileSearch() {

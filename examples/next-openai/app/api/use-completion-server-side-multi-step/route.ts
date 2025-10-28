@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { stepCountIs, streamText, tool } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { stepCountIs, streamText, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 // Allow streaming responses up to 60 seconds

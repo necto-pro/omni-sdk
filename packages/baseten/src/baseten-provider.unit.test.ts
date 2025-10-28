@@ -4,12 +4,12 @@ import {
   LanguageModelV3,
   EmbeddingModelV3,
   NoSuchModelError,
-} from '@open-stack/provider';
-import { loadApiKey } from '@open-stack/provider-utils';
+} from '@omni-stack/provider';
+import { loadApiKey } from '@omni-stack/provider-utils';
 import {
   OpenAICompatibleChatLanguageModel,
   OpenAICompatibleEmbeddingModel,
-} from '@open-stack/openai-compatible';
+} from '@omni-stack/openai-compatible';
 
 // Mock the OpenAI-compatible classes
 const OpenAICompatibleChatLanguageModelMock =
@@ -17,7 +17,7 @@ const OpenAICompatibleChatLanguageModelMock =
 const OpenAICompatibleEmbeddingModelMock =
   OpenAICompatibleEmbeddingModel as unknown as Mock;
 
-vi.mock('@open-stack/openai-compatible', () => {
+vi.mock('@omni-stack/openai-compatible', () => {
   const createMockConstructor = (providerName: string) => {
     const mockConstructor = vi.fn().mockImplementation(function (
       this: any,
@@ -39,8 +39,8 @@ vi.mock('@open-stack/openai-compatible', () => {
   };
 });
 
-vi.mock('@open-stack/provider-utils', async () => {
-  const actual = await vi.importActual('@open-stack/provider-utils');
+vi.mock('@omni-stack/provider-utils', async () => {
+  const actual = await vi.importActual('@omni-stack/provider-utils');
   return {
     ...actual,
     loadApiKey: vi.fn().mockReturnValue('mock-api-key'),

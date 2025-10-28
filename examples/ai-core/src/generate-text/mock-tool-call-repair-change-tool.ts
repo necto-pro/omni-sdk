@@ -1,4 +1,4 @@
-import { generateText, tool } from 'ai';
+import { generateText, tool } from '@omni-stack/core';
 import { MockLanguageModelV3 } from 'ai/test';
 import 'dotenv/config';
 import { z } from 'zod';

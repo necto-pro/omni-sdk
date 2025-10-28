@@ -1,5 +1,5 @@
-import { createOpenAI } from '@open-stack/openai';
-import { generateText, tool } from 'ai';
+import { createOpenAI } from '@omni-stack/openai';
+import { generateText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

@@ -1,5 +1,5 @@
-import { convertUint8ArrayToBase64 } from '@open-stack/provider-utils';
-import { UIToolInvocation, tool } from 'ai';
+import { convertUint8ArrayToBase64 } from '@omni-stack/provider-utils';
+import { UIToolInvocation, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 export const fetchPdfTool = tool({

@@ -72,7 +72,7 @@ You can use Cloudflare Workers AI language models to generate text with the **`g
 
 ```typescript
 import { createWorkersAI } from 'workers-ai-provider';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 type Env = {
   AI: Ai;
@@ -95,7 +95,7 @@ export default {
 
 ```typescript
 import { createWorkersAI } from 'workers-ai-provider';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 type Env = {
   AI: Ai;
@@ -128,7 +128,7 @@ Some Cloudflare Workers AI language models can also be used with the `generateOb
 
 ```typescript
 import { createWorkersAI } from 'workers-ai-provider';
-import { generateObject } from 'ai';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 type Env = {

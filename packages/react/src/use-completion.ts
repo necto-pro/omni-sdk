@@ -2,7 +2,7 @@ import {
   CompletionRequestOptions,
   UseCompletionOptions,
   callCompletionApi,
-} from 'ai';
+} from '@omni-stack/core';
 import { useCallback, useEffect, useId, useRef, useState } from 'react';
 import useSWR from 'swr';
 import { throttle } from './throttle';

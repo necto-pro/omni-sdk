@@ -1,6 +1,6 @@
-import { streamText, simulateReadableStream } from 'ai';
+import { streamText, simulateReadableStream } from '@omni-stack/core';
 import { MockLanguageModelV3 } from 'ai/test';
-import { LanguageModelV3StreamPart } from '@open-stack/provider';
+import { LanguageModelV3StreamPart } from '@omni-stack/provider';
 
 const generateLongContent = (tokens: number, includeTools = false) => {
   const chunks: LanguageModelV3StreamPart[] = [

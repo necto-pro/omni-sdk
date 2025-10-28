@@ -1,6 +1,6 @@
-import { streamObject } from 'ai';
+import { streamObject } from '@omni-stack/core';
 import { notificationSchema } from '../../structured-object/schema.js';
-import { createOpenAI } from '@open-stack/openai';
+import { createOpenAI } from '@omni-stack/openai';
 import { env } from '$env/dynamic/private';
 
 const openai = createOpenAI({

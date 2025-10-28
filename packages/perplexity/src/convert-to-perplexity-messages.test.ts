@@ -1,5 +1,5 @@
 import { convertToPerplexityMessages } from './convert-to-perplexity-messages';
-import { UnsupportedFunctionalityError } from '@open-stack/provider';
+import { UnsupportedFunctionalityError } from '@omni-stack/provider';
 import { describe, it, expect } from 'vitest';
 
 describe('convertToPerplexityMessages', () => {

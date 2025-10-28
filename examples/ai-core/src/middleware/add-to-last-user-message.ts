@@ -1,4 +1,4 @@
-import { LanguageModelV3CallOptions } from '@open-stack/provider';
+import { LanguageModelV3CallOptions } from '@omni-stack/provider';
 
 export function addToLastUserMessage({
   text,

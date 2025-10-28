@@ -1,6 +1,6 @@
 import { GoogleAIFileManager } from '@google/generative-ai/server';
-import { google } from '@open-stack/google';
-import { generateObject } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateObject } from '@omni-stack/core';
 import path from 'path';
 import 'dotenv/config';
 import { z } from 'zod';

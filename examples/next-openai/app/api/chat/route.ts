@@ -1,10 +1,10 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   consumeStream,
   convertToModelMessages,
   streamText,
   UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 
 export const maxDuration = 30;
 

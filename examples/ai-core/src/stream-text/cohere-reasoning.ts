@@ -1,5 +1,5 @@
-import { cohere } from '@open-stack/cohere';
-import { streamText } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

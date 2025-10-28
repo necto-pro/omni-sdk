@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { vertexAnthropic } from '@open-stack/google-vertex/anthropic';
-import { ModelMessage, generateText } from 'ai';
+import { vertexAnthropic } from '@omni-stack/google-vertex/anthropic';
+import { ModelMessage, generateText } from '@omni-stack/core';
 import * as readline from 'node:readline/promises';
 import { weatherTool } from '../tools/weather-tool';
 

@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { azure } from '@open-stack/azure';
-import { streamText } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { streamText } from '@omni-stack/core';
 
 async function main() {
   const result = streamText({

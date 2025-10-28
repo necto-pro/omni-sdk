@@ -1,5 +1,5 @@
-import { google } from '@open-stack/google';
-import { generateText } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 import { presentImages } from '../lib/present-image';
 

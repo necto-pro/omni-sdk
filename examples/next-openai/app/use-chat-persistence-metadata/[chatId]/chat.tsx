@@ -1,9 +1,9 @@
 'use client';
 
 import ChatInput from '@/components/chat-input';
-import { zodSchema } from '@open-stack/provider-utils';
-import { UIMessage, useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { zodSchema } from '@omni-stack/provider-utils';
+import { UIMessage, useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { z } from 'zod';
 
 export default function Chat({

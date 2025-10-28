@@ -1,11 +1,11 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { serve } from '@hono/node-server';
 import {
   createAgentUIStreamResponse,
   createUIMessageStream,
   createUIMessageStreamResponse,
   streamText,
-} from 'ai';
+} from '@omni-stack/core';
 import 'dotenv/config';
 import { Hono } from 'hono';
 import { cors } from 'hono/cors';

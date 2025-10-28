@@ -2,7 +2,7 @@ import {
   createProviderDefinedToolFactory,
   lazySchema,
   zodSchema,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 
 // https://ai.google.dev/gemini-api/docs/google-search

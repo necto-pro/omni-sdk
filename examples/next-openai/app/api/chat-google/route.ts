@@ -1,5 +1,5 @@
-import { google } from '@open-stack/google';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { google } from '@omni-stack/google';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 export const maxDuration = 30;
 

@@ -1,6 +1,6 @@
-import { NoSuchModelError, ProviderV3 } from '@open-stack/provider';
-import type { FetchFunction } from '@open-stack/provider-utils';
-import { loadApiKey, withUserAgentSuffix } from '@open-stack/provider-utils';
+import { NoSuchModelError, ProviderV3 } from '@omni-stack/provider';
+import type { FetchFunction } from '@omni-stack/provider-utils';
+import { loadApiKey, withUserAgentSuffix } from '@omni-stack/provider-utils';
 import { ReplicateImageModel } from './replicate-image-model';
 import { ReplicateImageModelId } from './replicate-image-settings';
 import { VERSION } from './version';

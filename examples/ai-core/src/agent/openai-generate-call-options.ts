@@ -1,5 +1,5 @@
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
-import { LanguageModel, ToolLoopAgent } from 'ai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
+import { LanguageModel, ToolLoopAgent } from '@omni-stack/core';
 import { z } from 'zod';
 import { print } from '../lib/print';
 import { run } from '../lib/run';

@@ -1,5 +1,5 @@
 ---
-'@open-stack/gateway': patch
+'@omni-stack/gateway': patch
 ---
 
 feat(provider/gateway): Add GPT-5 pro to Gateway model string autocomplete

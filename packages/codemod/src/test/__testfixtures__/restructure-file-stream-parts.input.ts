@@ -1,7 +1,7 @@
 // @ts-nocheck
 // Test file for restructure-file-stream-parts codemod
 
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 // Test streamText usage and fullStream iteration
 const result = streamText({
@@ -40,7 +40,7 @@ const fileStreamPart = {
   uint8Array: new Uint8Array([1, 2, 3])
 };
 
-import type { ModelMessage } from 'ai';
+import type { ModelMessage } from '@omni-stack/core';
 
 export const TEST_PROMPTS: Record<string, ModelMessage> = {
   USER_IMAGE_ATTACHMENT: {

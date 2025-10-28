@@ -5,18 +5,18 @@ contains language model support for the Groq chat and completion APIs, transcrip
 
 ## Setup
 
-The Groq provider is available in the `@open-stack/groq` module. You can install it with
+The Groq provider is available in the `@omni-stack/groq` module. You can install it with
 
 ```bash
-npm i @open-stack/groq
+npm i @omni-stack/groq
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `groq` from `@open-stack/groq`:
+You can import the default provider instance `groq` from `@omni-stack/groq`:
 
 ```ts
-import { groq } from '@open-stack/groq';
+import { groq } from '@omni-stack/groq';
 ```
 
 ## Browser Search Tool
@@ -35,8 +35,8 @@ Browser search is only available for these models:
 ### Basic Usage
 
 ```ts
-import { groq } from '@open-stack/groq';
-import { generateText } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: groq('openai/gpt-oss-120b'), // Must use supported model
@@ -54,8 +54,8 @@ console.log(result.text);
 ### Streaming Example
 
 ```ts
-import { groq } from '@open-stack/groq';
-import { streamText } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: groq('openai/gpt-oss-120b'),
@@ -110,8 +110,8 @@ const result = await generateText({
 ## Basic Text Generation
 
 ```ts
-import { groq } from '@open-stack/groq';
-import { generateText } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: groq('gemma2-9b-it'),

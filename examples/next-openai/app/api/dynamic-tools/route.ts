@@ -1,4 +1,4 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   convertToModelMessages,
   dynamicTool,
@@ -9,7 +9,7 @@ import {
   ToolSet,
   UIDataTypes,
   UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 import { z } from 'zod';
 
 // Allow streaming responses up to 30 seconds

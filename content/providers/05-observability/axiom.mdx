@@ -131,8 +131,8 @@ initAxiomAI({ tracer, redactionPolicy: RedactionPolicy.AxiomDefault });
 In your application code, import `wrapAISDKModel` from Axiom and use it to wrap your existing AI SDK model client.
 
 ```typescript
-import { createOpenAI } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { createOpenAI } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 import { wrapAISDKModel } from 'axiom/ai';
 
 // 1. Create your standard AI model provider

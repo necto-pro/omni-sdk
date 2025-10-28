@@ -50,8 +50,8 @@ Use the `resume` option in the `useChat` hook to enable stream resumption. When 
 ```tsx filename="app/chat/[chatId]/chat.tsx"
 'use client';
 
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport, type UIMessage } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport, type UIMessage } from '@omni-stack/core';
 
 export function Chat({
   chatData,
@@ -95,14 +95,14 @@ Let's start by creating the POST handler to create the resumable stream.
 The POST handler creates resumable streams using the `consumeSseStream` callback:
 
 ```ts filename="app/api/chat/route.ts"
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { readChat, saveChat } from '@util/chat-store';
 import {
   convertToModelMessages,
   generateId,
   streamText,
   type UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 import { after } from 'next/server';
 import { createResumableStreamContext } from 'resumable-stream';
 
@@ -160,7 +160,7 @@ Create a GET handler at `/api/chat/[id]/stream` that:
 
 ```ts filename="app/api/chat/[id]/stream/route.ts"
 import { readChat } from '@util/chat-store';
-import { UI_MESSAGE_STREAM_HEADERS } from 'ai';
+import { UI_MESSAGE_STREAM_HEADERS } from '@omni-stack/core';
 import { after } from 'next/server';
 import { createResumableStreamContext } from 'resumable-stream';
 
@@ -214,8 +214,8 @@ The diagram above shows the complete lifecycle of a resumable stream:
 By default, the `useChat` hook makes a GET request to `/api/chat/[id]/stream` when resuming. Customize this endpoint, credentials, and headers, using the `prepareReconnectToStreamRequest` option in `DefaultChatTransport`:
 
 ```tsx filename="app/chat/[chatId]/chat.tsx"
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 export function Chat({ chatData, resume }) {
   const { messages, sendMessage } = useChat({

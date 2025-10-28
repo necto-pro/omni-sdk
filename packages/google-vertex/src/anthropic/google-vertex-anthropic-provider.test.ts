@@ -1,13 +1,13 @@
 import { createVertexAnthropic } from './google-vertex-anthropic-provider';
-import { NoSuchModelError } from '@open-stack/provider';
+import { NoSuchModelError } from '@omni-stack/provider';
 import {
   AnthropicMessagesLanguageModel,
   anthropicTools,
-} from '@open-stack/anthropic/internal';
+} from '@omni-stack/anthropic/internal';
 import { vi, describe, beforeEach, it, expect } from 'vitest';
 
 // Mock the imported modules
-vi.mock('@open-stack/provider-utils', () => ({
+vi.mock('@omni-stack/provider-utils', () => ({
   loadOptionalSetting: vi
     .fn()
     .mockImplementation(({ settingValue }) => settingValue),
@@ -19,8 +19,8 @@ vi.mock('@open-stack/provider-utils', () => ({
   zodSchema: vi.fn(),
 }));
 
-vi.mock('@open-stack/anthropic/internal', async () => {
-  const originalModule = await vi.importActual('@open-stack/anthropic/internal');
+vi.mock('@omni-stack/anthropic/internal', async () => {
+  const originalModule = await vi.importActual('@omni-stack/anthropic/internal');
   return {
     ...originalModule,
     AnthropicMessagesLanguageModel: vi.fn(),

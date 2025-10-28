@@ -1,6 +1,6 @@
 'use client';
 
-import { experimental_useObject as useObject } from '@open-stack/react';
+import { experimental_useObject as useObject } from '@omni-stack/react';
 import {
   Expense,
   expenseSchema,

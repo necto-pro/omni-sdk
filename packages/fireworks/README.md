@@ -4,25 +4,25 @@ The **[Fireworks provider](https://ai-sdk.dev/providers/ai-sdk-providers/firewor
 
 ## Setup
 
-The Fireworks provider is available in the `@open-stack/fireworks` module. You can install it with
+The Fireworks provider is available in the `@omni-stack/fireworks` module. You can install it with
 
 ```bash
-npm i @open-stack/fireworks
+npm i @omni-stack/fireworks
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `fireworks` from `@open-stack/fireworks`:
+You can import the default provider instance `fireworks` from `@omni-stack/fireworks`:
 
 ```ts
-import { fireworks } from '@open-stack/fireworks';
+import { fireworks } from '@omni-stack/fireworks';
 ```
 
 ## Language Model Example
 
 ```ts
-import { fireworks } from '@open-stack/fireworks';
-import { generateText } from 'ai';
+import { fireworks } from '@omni-stack/fireworks';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: fireworks('accounts/fireworks/models/deepseek-v3'),
@@ -33,8 +33,8 @@ const { text } = await generateText({
 ## Image Model Examples
 
 ```ts
-import { fireworks } from '@open-stack/fireworks';
-import { experimental_generateImage as generateImage } from 'ai';
+import { fireworks } from '@omni-stack/fireworks';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import fs from 'fs';
 
 const { image } = await generateImage({

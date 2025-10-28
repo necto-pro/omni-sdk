@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { readUIMessageStream, stepCountIs, streamText, tool } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { readUIMessageStream, stepCountIs, streamText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

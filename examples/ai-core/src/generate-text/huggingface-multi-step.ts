@@ -1,5 +1,5 @@
-import { huggingface } from '@open-stack/huggingface';
-import { generateText, stepCountIs, tool } from 'ai';
+import { huggingface } from '@omni-stack/huggingface';
+import { generateText, stepCountIs, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod/v4';
 

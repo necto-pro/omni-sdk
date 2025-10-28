@@ -3,12 +3,12 @@ import {
   LanguageModelV3CallOptions,
   LanguageModelV3CallWarning,
   UnsupportedFunctionalityError,
-} from '@open-stack/provider';
-import { asSchema } from '@open-stack/provider-utils';
+} from '@omni-stack/provider';
+import { asSchema } from '@omni-stack/provider-utils';
 import {
   anthropicTools,
   prepareTools as prepareAnthropicTools,
-} from '@open-stack/anthropic/internal';
+} from '@omni-stack/anthropic/internal';
 import { BedrockTool, BedrockToolConfiguration } from './bedrock-api-types';
 
 export async function prepareTools({

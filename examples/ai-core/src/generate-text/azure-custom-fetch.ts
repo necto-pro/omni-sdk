@@ -1,5 +1,5 @@
-import { createAzure } from '@open-stack/azure';
-import { generateText } from 'ai';
+import { createAzure } from '@omni-stack/azure';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 const azure = createAzure({

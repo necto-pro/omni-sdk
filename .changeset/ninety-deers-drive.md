@@ -1,5 +1,5 @@
 ---
-'@open-stack/provider': patch
+'@omni-stack/provider': patch
 ---
 
 feat(provider): Add SharedV3Warning type

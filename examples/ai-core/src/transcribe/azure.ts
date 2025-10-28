@@ -1,5 +1,5 @@
-import { azure } from '@open-stack/azure';
-import { experimental_transcribe as transcribe } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 import 'dotenv/config';
 import { readFile } from 'fs/promises';
 

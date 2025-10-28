@@ -1,5 +1,5 @@
-import { google, GoogleGenerativeAIImageProviderOptions } from '@open-stack/google';
-import { experimental_generateImage as generateImage } from 'ai';
+import { google, GoogleGenerativeAIImageProviderOptions } from '@omni-stack/google';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';
 

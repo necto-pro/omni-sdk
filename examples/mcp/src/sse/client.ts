@@ -1,6 +1,6 @@
-import { openai } from '@open-stack/openai';
-import { generateText, stepCountIs } from 'ai';
-import { experimental_createMCPClient } from '@open-stack/mcp';
+import { openai } from '@omni-stack/openai';
+import { generateText, stepCountIs } from '@omni-stack/core';
+import { experimental_createMCPClient } from '@omni-stack/mcp';
 
 import 'dotenv/config';
 

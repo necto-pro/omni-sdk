@@ -85,8 +85,8 @@ Now let's implement the `getNotifications` function. We'll use the `generateObje
 ```typescript filename='app/actions.ts'
 'use server';
 
-import { generateObject } from 'ai';
-import { openai } from '@open-stack/openai';
+import { generateObject } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 export async function getNotifications(input: string) {

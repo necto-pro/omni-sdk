@@ -1,6 +1,6 @@
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { anthropicTools } from '@open-stack/anthropic/internal';
-import { stepCountIs, streamText, ToolCallPart, ToolResultPart } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { anthropicTools } from '@omni-stack/anthropic/internal';
+import { stepCountIs, streamText, ToolCallPart, ToolResultPart } from '@omni-stack/core';
 import 'dotenv/config';
 
 // This will throw a warning as web_search is not supported on amazon bedrock

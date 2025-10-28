@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { GoogleVertexImageModel } from './google-vertex-image-model';
 import { createVertex } from './google-vertex-provider';
 import { describe, it, expect, vi } from 'vitest';

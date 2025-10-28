@@ -28,10 +28,10 @@ export default createTransformer((fileInfo, api, options, context) => {
   });
 
   if (needsToUIMessageStreamImport) {
-    // Add import for toUIMessageStream from @open-stack/llamaindex
+    // Add import for toUIMessageStream from @omni-stack/llamaindex
     const llamaIndexImport = j.importDeclaration(
       [j.importSpecifier(j.identifier('toUIMessageStream'))],
-      j.literal('@open-stack/llamaindex'),
+      j.literal('@omni-stack/llamaindex'),
     );
 
     // Find the first import declaration to add the new import after it

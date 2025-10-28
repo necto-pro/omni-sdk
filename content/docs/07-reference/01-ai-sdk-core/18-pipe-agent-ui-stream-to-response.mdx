@@ -17,7 +17,7 @@ The `pipeAgentUIStreamToResponse` function executes an [Agent](/docs/reference/a
 ## Usage
 
 ```ts
-import { pipeAgentUIStreamToResponse } from 'ai';
+import { pipeAgentUIStreamToResponse } from '@omni-stack/core';
 import { MyCustomAgent } from './agent';
 
 export async function handler(req, res) {
@@ -74,7 +74,7 @@ A `Promise<void>`. This function returns a promise that resolves when piping the
 ## Example: Hono/Express Route Handler
 
 ```ts
-import { pipeAgentUIStreamToResponse } from 'ai';
+import { pipeAgentUIStreamToResponse } from '@omni-stack/core';
 import { openaiWebSearchAgent } from './openai-web-search-agent';
 
 // Hono/Express handler signature

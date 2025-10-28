@@ -3,10 +3,10 @@ import { createTransformer } from '../lib/create-transformer';
 export default createTransformer((fileInfo, api, options, context) => {
   const { j, root } = context;
 
-  // Track if formatStreamPart is imported from 'ai'
+  // Track if formatStreamPart is imported from '@omni-stack/core'
   const targetImports = new Set<string>();
 
-  // Find and update imports from 'ai'
+  // Find and update imports from '@omni-stack/core'
   root
     .find(j.ImportDeclaration)
     .filter(path => path.node.source.value === 'ai')

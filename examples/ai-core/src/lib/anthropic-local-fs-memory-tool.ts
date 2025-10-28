@@ -1,4 +1,4 @@
-import { anthropic } from '@open-stack/anthropic';
+import { anthropic } from '@omni-stack/anthropic';
 import * as fsSync from 'fs';
 import * as fs from 'fs/promises';
 import * as path from 'path';

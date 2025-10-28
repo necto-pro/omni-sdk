@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { UIToolInvocation } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { UIToolInvocation } from '@omni-stack/core';
 
 export default function OpenAIWebSearchView({
   invocation,

@@ -47,9 +47,9 @@ For more information, see the [AI SDK 5 Migration MCP Server repository](https:/
 You need to update the following packages to the following versions in your `package.json` file(s):
 
 - `ai` package: `5.0.0`
-- `@open-stack/provider` package: `2.0.0`
-- `@open-stack/provider-utils` package: `3.0.0`
-- `@open-stack/*` packages: `2.0.0` (other `@open-stack` packages)
+- `@omni-stack/provider` package: `2.0.0`
+- `@omni-stack/provider-utils` package: `3.0.0`
+- `@omni-stack/*` packages: `2.0.0` (other `@omni-stack` packages)
 
 Additionally, you need to update the following peer dependencies:
 
@@ -58,7 +58,7 @@ Additionally, you need to update the following peer dependencies:
 An example upgrade command would be:
 
 ```
-npm install ai @open-stack/react @open-stack/openai zod@^4.1.8
+npm install ai @omni-stack/react @omni-stack/openai zod@^4.1.8
 ```
 
 <Note>
@@ -88,30 +88,30 @@ You can run all codemods provided as part of the 5.0 upgrade process by running
 the following command from the root of your project:
 
 ```sh
-npx @open-stack/codemod upgrade
+npx @omni-stack/codemod upgrade
 ```
 
 To run only the v5 codemods (v4 → v5 migration):
 
 ```sh
-npx @open-stack/codemod v5
+npx @omni-stack/codemod v5
 ```
 
 Individual codemods can be run by specifying the name of the codemod:
 
 ```sh
-npx @open-stack/codemod <codemod-name> <path>
+npx @omni-stack/codemod <codemod-name> <path>
 ```
 
 For example, to run a specific v5 codemod:
 
 ```sh
-npx @open-stack/codemod v5/rename-format-stream-part src/
+npx @omni-stack/codemod v5/rename-format-stream-part src/
 ```
 
 See also the [table of codemods](#codemod-table). In addition, the latest set of
 codemods can be found in the
-[`@open-stack/codemod`](https://github.com/vercel/ai/tree/main/packages/codemod/src/codemods)
+[`@omni-stack/codemod`](https://github.com/vercel/ai/tree/main/packages/codemod/src/codemods)
 repository.
 
 ## AI SDK Core Changes
@@ -145,28 +145,28 @@ const result = await generateText({
 ##### `CoreMessage` → `ModelMessage`
 
 ```tsx filename="AI SDK 4.0"
-import { CoreMessage } from 'ai';
+import { CoreMessage } from '@omni-stack/core';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { ModelMessage } from 'ai';
+import { ModelMessage } from '@omni-stack/core';
 ```
 
 ##### `Message` → `UIMessage`
 
 ```tsx filename="AI SDK 4.0"
-import { Message, CreateMessage } from 'ai';
+import { Message, CreateMessage } from '@omni-stack/core';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { UIMessage, CreateUIMessage } from 'ai';
+import { UIMessage, CreateUIMessage } from '@omni-stack/core';
 ```
 
 ##### `convertToCoreMessages` → `convertToModelMessages`
 
 ```tsx filename="AI SDK 4.0"
-import { convertToCoreMessages, streamText } from 'ai';
-import { openai } from '@open-stack/openai';
+import { convertToCoreMessages, streamText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const result = await streamText({
   model: openai('gpt-4'),
@@ -175,8 +175,8 @@ const result = await streamText({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { convertToModelMessages, streamText } from 'ai';
-import { openai } from '@open-stack/openai';
+import { convertToModelMessages, streamText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const result = await streamText({
   model: openai('gpt-4'),
@@ -196,7 +196,7 @@ const result = await streamText({
 For `UIMessage`s (previously called `Message`), the `.content` property has been replaced with a `parts` array structure.
 
 ```tsx filename="AI SDK 4.0"
-import { type Message } from 'ai'; // v4 Message type
+import { type Message } from '@omni-stack/core'; // v4 Message type
 
 // Messages (useChat) - had content property
 const message: Message = {
@@ -207,7 +207,7 @@ const message: Message = {
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { type UIMessage, type ModelMessage } from 'ai';
+import { type UIMessage, type ModelMessage } from '@omni-stack/core';
 
 // UIMessages (useChat) - now use parts array
 const uiMessage: UIMessage = {
@@ -352,7 +352,7 @@ File parts now use `.url` instead of `.data` and `.mimeType`.
 The `StreamData` class has been completely removed and replaced with UI message streams for custom data.
 
 ```tsx filename="AI SDK 4.0"
-import { StreamData } from 'ai';
+import { StreamData } from '@omni-stack/core';
 
 const streamData = new StreamData();
 streamData.append('custom-data');
@@ -360,7 +360,7 @@ streamData.close();
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { createUIMessageStream, createUIMessageStreamResponse } from 'ai';
+import { createUIMessageStream, createUIMessageStreamResponse } from '@omni-stack/core';
 
 const stream = createUIMessageStream({
   execute({ writer }) {
@@ -389,8 +389,8 @@ return createUIMessageStreamResponse({ stream });
 The `writeMessageAnnotation` and `writeData` methods from `DataStreamWriter` have been removed. Instead, use custom data parts with the new `UIMessage` stream architecture.
 
 ```tsx filename="AI SDK 4.0"
-import { openai } from '@open-stack/openai';
-import { createDataStreamResponse, streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { createDataStreamResponse, streamText } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages } = await req.json();
@@ -428,13 +428,13 @@ export async function POST(req: Request) {
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   createUIMessageStream,
   createUIMessageStreamResponse,
   streamText,
   generateId,
-} from 'ai';
+} from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages } = await req.json();
@@ -522,7 +522,7 @@ console.log(result.providerMetadata?.openai);
 Tool definitions have been updated to use `inputSchema` instead of `parameters` and error classes have been renamed.
 
 ```tsx filename="AI SDK 4.0"
-import { tool } from 'ai';
+import { tool } from '@omni-stack/core';
 
 const weatherTool = tool({
   description: 'Get the weather for a city',
@@ -536,7 +536,7 @@ const weatherTool = tool({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { tool } from 'ai';
+import { tool } from '@omni-stack/core';
 
 const weatherTool = tool({
   description: 'Get the weather for a city',
@@ -617,7 +617,7 @@ for await (const part of result.fullStream) {
 The `ToolExecutionError` class has been removed. Tool execution errors now appear as `tool-error` content parts in the result steps, enabling automated LLM roundtrips in multi-step scenarios.
 
 ```tsx filename="AI SDK 4.0"
-import { ToolExecutionError } from 'ai';
+import { ToolExecutionError } from '@omni-stack/core';
 
 try {
   const result = await generateText({
@@ -718,7 +718,7 @@ AI SDK 5.0 introduces dynamic tools for handling tools with unknown types at dev
 The new `dynamicTool` helper function allows you to define tools where the input and output types are not known at compile time.
 
 ```tsx filename="AI SDK 5.0"
-import { dynamicTool } from 'ai';
+import { dynamicTool } from '@omni-stack/core';
 import { z } from 'zod';
 
 // Define a dynamic tool
@@ -737,7 +737,7 @@ const runtimeTool = dynamicTool({
 MCP tools that don't provide schemas are now automatically treated as dynamic tools:
 
 ```tsx filename="AI SDK 5.0"
-import { MCPClient } from 'ai';
+import { MCPClient } from '@omni-stack/core';
 
 const client = new MCPClient({
   /* ... */
@@ -942,7 +942,7 @@ In v4, you typically rendered tool invocations using a catch-all `tool-invocatio
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { isToolUIPart, getToolName } from 'ai';
+import { isToolUIPart, getToolName } from '@omni-stack/core';
 
 {
   message.parts.map((part, index) => {
@@ -1168,7 +1168,7 @@ const { messages } = useChat({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { stepCountIs, hasToolCall } from 'ai';
+import { stepCountIs, hasToolCall } from '@omni-stack/core';
 
 // V5: Server-side - flexible stopping conditions with stopWhen
 const result = await generateText({
@@ -1232,34 +1232,34 @@ console.log(result.totalUsage);
 
 ### Package Structure Changes
 
-### `@open-stack/rsc` Package Extraction
+### `@omni-stack/rsc` Package Extraction
 
-The `ai/rsc` export has been extracted to a separate package `@open-stack/rsc`.
+The `ai/rsc` export has been extracted to a separate package `@omni-stack/rsc`.
 
 ```tsx filename="AI SDK 4.0"
 import { createStreamableValue } from 'ai/rsc';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { createStreamableValue } from '@open-stack/rsc';
+import { createStreamableValue } from '@omni-stack/rsc';
 ```
 
-<Note>Don't forget to install the new package: `npm install @open-stack/rsc`</Note>
+<Note>Don't forget to install the new package: `npm install @omni-stack/rsc`</Note>
 
-### React UI Hooks Moved to `@open-stack/react`
+### React UI Hooks Moved to `@omni-stack/react`
 
-The deprecated `ai/react` export has been removed in favor of `@open-stack/react`.
+The deprecated `ai/react` export has been removed in favor of `@omni-stack/react`.
 
 ```tsx filename="AI SDK 4.0"
 import { useChat } from 'ai/react';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 ```
 
 <Note>
-  Don't forget to install the new package: `npm install @open-stack/react`
+  Don't forget to install the new package: `npm install @omni-stack/react`
 </Note>
 
 ### useChat Changes
@@ -1278,8 +1278,8 @@ const { messages, sendMessage } = useChat({
 
 ```tsx filename="AI SDK 5.0"
 // Server-side: Use stopWhen for multi-step control
-import { streamText, convertToModelMessages, stepCountIs } from 'ai';
-import { openai } from '@open-stack/openai';
+import { streamText, convertToModelMessages, stepCountIs } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const result = await streamText({
   model: openai('gpt-4'),
@@ -1288,11 +1288,11 @@ const result = await streamText({
 });
 
 // Client-side: Configure automatic submission
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithToolCalls,
-} from 'ai';
+} from '@omni-stack/core';
 
 const { messages, sendMessage, addToolResult } = useChat({
   // Automatically submit when all tool results are available
@@ -1327,7 +1327,7 @@ For more details on the new tool submission approach, see the [Tool Result Submi
 The `initialMessages` option has been renamed to `messages`.
 
 ```tsx filename="AI SDK 4.0"
-import { useChat, type Message } from '@open-stack/react';
+import { useChat, type Message } from '@omni-stack/react';
 
 function ChatComponent({ initialMessages }: { initialMessages: Message[] }) {
   const { messages } = useChat({
@@ -1340,7 +1340,7 @@ function ChatComponent({ initialMessages }: { initialMessages: Message[] }) {
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat, type UIMessage } from '@open-stack/react';
+import { useChat, type UIMessage } from '@omni-stack/react';
 
 function ChatComponent({ initialMessages }: { initialMessages: UIMessage[] }) {
   const { messages } = useChat({
@@ -1397,7 +1397,7 @@ For a complete example of sharing chat state across components, see the [Share C
 Configuration is now handled through transport objects instead of direct API options.
 
 ```tsx filename="AI SDK 4.0"
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 
 const { messages } = useChat({
   api: '/api/chat',
@@ -1407,8 +1407,8 @@ const { messages } = useChat({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 const { messages } = useChat({
   transport: new DefaultChatTransport({
@@ -1424,7 +1424,7 @@ const { messages } = useChat({
 The `useChat` hook no longer manages input state internally. You must now manage input state manually.
 
 ```tsx filename="AI SDK 4.0"
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 
 export default function Page() {
   const { messages, input, handleInputChange, handleSubmit } = useChat({
@@ -1441,8 +1441,8 @@ export default function Page() {
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Page() {
@@ -1606,11 +1606,11 @@ sendMessage(
 `RequestOptions` has been renamed to `CompletionRequestOptions`.
 
 ```tsx filename="AI SDK 4.0"
-import type { RequestOptions } from 'ai';
+import type { RequestOptions } from '@omni-stack/core';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import type { CompletionRequestOptions } from 'ai';
+import type { CompletionRequestOptions } from '@omni-stack/core';
 ```
 
 #### addToolResult Changes
@@ -1664,11 +1664,11 @@ const { messages, sendMessage, addToolResult } = useChat({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithToolCalls,
-} from 'ai';
+} from '@omni-stack/core';
 
 const { messages, sendMessage, addToolResult } = useChat({
   // Automatic submission with helper
@@ -1782,13 +1782,13 @@ const { messages } = useChat({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   convertToModelMessages,
   streamText,
   UIMessage,
   type LanguageModelUsage,
-} from 'ai';
+} from '@omni-stack/core';
 
 // Create a new metadata type (optional for type-safety)
 type MyMetadata = {
@@ -1823,9 +1823,9 @@ Then, on the client, you can access the message-level metadata.
 ```tsx filename="AI SDK 5.0 - Client"
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import type { MyUIMessage } from './api/chat/route';
-import { DefaultChatTransport } from 'ai';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 export default function Chat() {
   // Use custom message type defined on the server (optional for type-safety)
@@ -1861,9 +1861,9 @@ You can also access your metadata from the `onFinish` callback of `useChat`:
 ```tsx filename="AI SDK 5.0 - onFinish"
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import type { MyUIMessage } from './api/chat/route';
-import { DefaultChatTransport } from 'ai';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 export default function Chat() {
   // Use custom message type defined on the server (optional for type-safety)
@@ -1884,7 +1884,7 @@ export default function Chat() {
 The `experimental_prepareRequestBody` option has been replaced with `prepareSendMessagesRequest` in the transport configuration.
 
 ```tsx filename="AI SDK 4.0"
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 
 const { messages } = useChat({
   api: '/api/chat',
@@ -1896,8 +1896,8 @@ const { messages } = useChat({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 const { messages } = useChat({
   transport: new DefaultChatTransport({
@@ -1910,15 +1910,15 @@ const { messages } = useChat({
 });
 ```
 
-### `@open-stack/vue` Changes
+### `@omni-stack/vue` Changes
 
 The Vue.js integration has been completely restructured, replacing the `useChat` composable with a `Chat` class.
 
 #### useChat Replaced with Chat Class
 
-```typescript filename="@open-stack/vue v1"
+```typescript filename="@omni-stack/vue v1"
 <script setup>
-import { useChat } from '@open-stack/vue';
+import { useChat } from '@omni-stack/vue';
 
 const { messages, input, handleSubmit } = useChat({
   api: '/api/chat',
@@ -1926,10 +1926,10 @@ const { messages, input, handleSubmit } = useChat({
 </script>
 ```
 
-```typescript filename="@open-stack/vue v2"
+```typescript filename="@omni-stack/vue v2"
 <script setup>
-import { Chat } from '@open-stack/vue';
-import { DefaultChatTransport } from 'ai';
+import { Chat } from '@omni-stack/vue';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { ref } from 'vue';
 
 const input = ref('');
@@ -1949,7 +1949,7 @@ const handleSubmit = (e: Event) => {
 
 Messages now use a `parts` array instead of a `content` string.
 
-```typescript filename="@open-stack/vue v1"
+```typescript filename="@omni-stack/vue v1"
 <template>
   <div v-for="message in messages" :key="message.id">
     <div>{{ message.role }}: {{ message.content }}</div>
@@ -1957,7 +1957,7 @@ Messages now use a `parts` array instead of a `content` string.
 </template>
 ```
 
-```typescript filename="@open-stack/vue v2"
+```typescript filename="@omni-stack/vue v2"
 <template>
   <div v-for="message in chat.messages" :key="message.id">
     <div>{{ message.role }}:</div>
@@ -1968,23 +1968,23 @@ Messages now use a `parts` array instead of a `content` string.
 </template>
 ```
 
-### `@open-stack/svelte` Changes
+### `@omni-stack/svelte` Changes
 
 The Svelte integration has also been updated with new constructor patterns and readonly properties.
 
 #### Constructor API Changes
 
-```js filename="@open-stack/svelte v1"
-import { Chat } from '@open-stack/svelte';
+```js filename="@omni-stack/svelte v1"
+import { Chat } from '@omni-stack/svelte';
 
 const chatInstance = Chat({
   api: '/api/chat',
 });
 ```
 
-```js filename="@open-stack/svelte v2"
-import { Chat } from '@open-stack/svelte';
-import { DefaultChatTransport } from 'ai';
+```js filename="@omni-stack/svelte v2"
+import { Chat } from '@omni-stack/svelte';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 const chatInstance = Chat(() => ({
   transport: new DefaultChatTransport({ api: '/api/chat' }),
@@ -1995,12 +1995,12 @@ const chatInstance = Chat(() => ({
 
 Properties are now readonly and must be updated using setter methods.
 
-```js filename="@open-stack/svelte v1"
+```js filename="@omni-stack/svelte v1"
 // Direct property mutation was allowed
 chatInstance.messages = [...chatInstance.messages, newMessage];
 ```
 
-```js filename="@open-stack/svelte v2"
+```js filename="@omni-stack/svelte v2"
 // Must use setter methods
 chatInstance.setMessages([...chatInstance.messages, newMessage]);
 ```
@@ -2009,12 +2009,12 @@ chatInstance.setMessages([...chatInstance.messages, newMessage]);
 
 Like React and Vue, input management has been removed from the Svelte integration.
 
-```js filename="@open-stack/svelte v1"
+```js filename="@omni-stack/svelte v1"
 // Input was managed internally
 const { messages, input, handleSubmit } = chatInstance;
 ```
 
-```js filename="@open-stack/svelte v2"
+```js filename="@omni-stack/svelte v2"
 // Must manage input state manually
 let input = '';
 const { messages, sendMessage } = chatInstance;
@@ -2025,16 +2025,16 @@ const handleSubmit = () => {
 };
 ```
 
-#### `@open-stack/ui-utils` Package Removal
+#### `@omni-stack/ui-utils` Package Removal
 
-The `@open-stack/ui-utils` package has been removed and its exports moved to the main `ai` package.
+The `@omni-stack/ui-utils` package has been removed and its exports moved to the main `ai` package.
 
 ```tsx filename="AI SDK 4.0"
-import { getTextFromDataUrl } from '@open-stack/ui-utils';
+import { getTextFromDataUrl } from '@omni-stack/ui-utils';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { getTextFromDataUrl } from 'ai';
+import { getTextFromDataUrl } from '@omni-stack/core';
 ```
 
 **Note**: `processDataStream` was removed entirely in v5.0. Use `readUIMessageStream` instead for processing UI message streams, or use the more configurable Chat/useChat APIs for most use cases.
@@ -2064,7 +2064,7 @@ const {
 The `useAssistant` hook has been removed.
 
 ```tsx filename="AI SDK 4.0"
-import { useAssistant } from '@open-stack/react';
+import { useAssistant } from '@omni-stack/react';
 ```
 
 ```tsx filename="AI SDK 5.0"
@@ -2175,19 +2175,19 @@ const { embeddings, usage } = await embedMany({
 });
 ```
 
-#### LangChain Adapter Moved to `@open-stack/langchain`
+#### LangChain Adapter Moved to `@omni-stack/langchain`
 
-The `LangChainAdapter` has been moved to `@open-stack/langchain` and the API has been updated to use UI message streams.
+The `LangChainAdapter` has been moved to `@omni-stack/langchain` and the API has been updated to use UI message streams.
 
 ```tsx filename="AI SDK 4.0"
-import { LangChainAdapter } from 'ai';
+import { LangChainAdapter } from '@omni-stack/core';
 
 const response = LangChainAdapter.toDataStreamResponse(stream);
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { toUIMessageStream } from '@open-stack/langchain';
-import { createUIMessageStreamResponse } from 'ai';
+import { toUIMessageStream } from '@omni-stack/langchain';
+import { createUIMessageStreamResponse } from '@omni-stack/core';
 
 const response = createUIMessageStreamResponse({
   stream: toUIMessageStream(stream),
@@ -2195,22 +2195,22 @@ const response = createUIMessageStreamResponse({
 ```
 
 <Note>
-  Don't forget to install the new package: `npm install @open-stack/langchain`
+  Don't forget to install the new package: `npm install @omni-stack/langchain`
 </Note>
 
-#### LlamaIndex Adapter Moved to `@open-stack/llamaindex`
+#### LlamaIndex Adapter Moved to `@omni-stack/llamaindex`
 
-The `LlamaIndexAdapter` has been extracted to a separate package `@open-stack/llamaindex` and follows the same UI message stream pattern.
+The `LlamaIndexAdapter` has been extracted to a separate package `@omni-stack/llamaindex` and follows the same UI message stream pattern.
 
 ```tsx filename="AI SDK 4.0"
-import { LlamaIndexAdapter } from 'ai';
+import { LlamaIndexAdapter } from '@omni-stack/core';
 
 const response = LlamaIndexAdapter.toDataStreamResponse(stream);
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { toUIMessageStream } from '@open-stack/llamaindex';
-import { createUIMessageStreamResponse } from 'ai';
+import { toUIMessageStream } from '@omni-stack/llamaindex';
+import { createUIMessageStreamResponse } from '@omni-stack/core';
 
 const response = createUIMessageStreamResponse({
   stream: toUIMessageStream(stream),
@@ -2218,7 +2218,7 @@ const response = createUIMessageStreamResponse({
 ```
 
 <Note>
-  Don't forget to install the new package: `npm install @open-stack/llamaindex`
+  Don't forget to install the new package: `npm install @omni-stack/llamaindex`
 </Note>
 
 ## Streaming Architecture
@@ -2490,7 +2490,7 @@ for await (const part of result.fullStream) {
 The data stream protocol has been updated to use Server-Sent Events.
 
 ```tsx filename="AI SDK 4.0"
-import { createDataStream, formatDataStreamPart } from 'ai';
+import { createDataStream, formatDataStreamPart } from '@omni-stack/core';
 
 const dataStream = createDataStream({
   execute: writer => {
@@ -2508,7 +2508,7 @@ const dataStream = createDataStream({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { createUIMessageStream } from 'ai';
+import { createUIMessageStream } from '@omni-stack/core';
 
 const stream = createUIMessageStream({
   execute: ({ writer }) => {
@@ -2576,11 +2576,11 @@ return result.toUIMessageStreamResponse();
 Various stream-related functions have been renamed for consistency.
 
 ```tsx filename="AI SDK 4.0"
-import { DataStreamToSSETransformStream } from 'ai';
+import { DataStreamToSSETransformStream } from '@omni-stack/core';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { JsonToSseTransformStream } from 'ai';
+import { JsonToSseTransformStream } from '@omni-stack/core';
 ```
 
 #### Error Handling: getErrorMessage → onError
@@ -2638,25 +2638,25 @@ const id = generator(); // Fixed size from creation
 The type name has been updated.
 
 ```tsx filename="AI SDK 4.0"
-import { IDGenerator } from 'ai';
+import { IDGenerator } from '@omni-stack/core';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { IdGenerator } from 'ai';
+import { IdGenerator } from '@omni-stack/core';
 ```
 
 ### Provider Interface Changes
 
 #### Language Model V2 Import
 
-`LanguageModelV3` must now be imported from `@open-stack/provider`.
+`LanguageModelV3` must now be imported from `@omni-stack/provider`.
 
 ```tsx filename="AI SDK 4.0"
-import { LanguageModelV3 } from 'ai';
+import { LanguageModelV3 } from '@omni-stack/core';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { LanguageModelV3 } from '@open-stack/provider';
+import { LanguageModelV3 } from '@omni-stack/provider';
 ```
 
 #### Middleware Rename
@@ -2664,11 +2664,11 @@ import { LanguageModelV3 } from '@open-stack/provider';
 `LanguageModelV1Middleware` has been renamed and moved.
 
 ```tsx filename="AI SDK 4.0"
-import { LanguageModelV1Middleware } from 'ai';
+import { LanguageModelV1Middleware } from '@omni-stack/core';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { LanguageModelV3Middleware } from '@open-stack/provider';
+import { LanguageModelV3Middleware } from '@omni-stack/provider';
 ```
 
 #### Usage Token Properties
@@ -2810,11 +2810,11 @@ Provider response objects have been updated.
 #### `wrapLanguageModel` now stable
 
 ```tsx filename="AI SDK 4.0"
-import { experimental_wrapLanguageModel } from 'ai';
+import { experimental_wrapLanguageModel } from '@omni-stack/core';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { wrapLanguageModel } from 'ai';
+import { wrapLanguageModel } from '@omni-stack/core';
 ```
 
 #### `activeTools` No Longer Experimental
@@ -2916,8 +2916,8 @@ import {
   convertToModelMessages,
   appendClientMessage,
   appendResponseMessages,
-} from 'ai';
-import { openai } from '@open-stack/openai';
+} from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const updatedMessages = appendClientMessage({
   messages,
@@ -2944,8 +2944,8 @@ const result = streamText({
 In v5, message persistence is now handled through the `toUIMessageStreamResponse` method, which automatically formats response messages in the `UIMessage` format:
 
 ```tsx filename="AI SDK 5.0"
-import { streamText, convertToModelMessages, UIMessage } from 'ai';
-import { openai } from '@open-stack/openai';
+import { streamText, convertToModelMessages, UIMessage } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const messages: UIMessage[] = [
   // Your existing messages in UIMessage format
@@ -3015,8 +3015,8 @@ import {
   streamText,
   convertToModelMessages,
   UIMessage,
-} from 'ai';
-import { openai } from '@open-stack/openai';
+} from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const stream = createUIMessageStream({
   originalMessages: messages,
@@ -3054,13 +3054,13 @@ return createUIMessageStreamResponse({ stream });
 In AI SDK 5, the default OpenAI provider instance uses the Responses API, while AI SDK 4 used the Chat Completions API. The Chat Completions API remains fully supported and you can use it with `openai.chat(...)`.
 
 ```tsx filename="AI SDK 4.0"
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 
 const defaultModel = openai('gpt-4.1-mini'); // Chat Completions API
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 
 const defaultModel = openai('gpt-4.1-mini'); // Responses API
 
@@ -3081,8 +3081,8 @@ In AI SDK 4.0, you could set the `strictSchemas` option on Responses models (whi
 
 ```tsx filename="AI SDK 4.0"
 import { z } from 'zod';
-import { generateObject } from 'ai';
-import { openai, type OpenAIResponsesProviderOptions } from '@open-stack/openai';
+import { generateObject } from '@omni-stack/core';
+import { openai, type OpenAIResponsesProviderOptions } from '@omni-stack/openai';
 
 const result = await generateObject({
   model: openai.responses('gpt-4.1'),
@@ -3099,8 +3099,8 @@ const result = await generateObject({
 
 ```tsx filename="AI SDK 5.0"
 import { z } from 'zod';
-import { generateObject } from 'ai';
-import { openai, type OpenAIResponsesProviderOptions } from '@open-stack/openai';
+import { generateObject } from '@omni-stack/core';
+import { openai, type OpenAIResponsesProviderOptions } from '@omni-stack/openai';
 
 const result = await generateObject({
   model: openai('gpt-4.1-2024'), // uses Responses API
@@ -3123,8 +3123,8 @@ The `structuredOutputs` option is now configured using provider options rather t
 
 ```tsx filename="AI SDK 4.0"
 import { z } from 'zod';
-import { generateObject } from 'ai';
-import { openai } from '@open-stack/openai';
+import { generateObject } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const result = await generateObject({
   model: openai('gpt-4.1', { structuredOutputs: true }), // use Chat Completions API
@@ -3134,8 +3134,8 @@ const result = await generateObject({
 
 ```tsx filename="AI SDK 5.0 (Chat Completions API)"
 import { z } from 'zod';
-import { generateObject } from 'ai';
-import { openai, type OpenAIChatLanguageModelOptions } from '@open-stack/openai';
+import { generateObject } from '@omni-stack/core';
+import { openai, type OpenAIChatLanguageModelOptions } from '@omni-stack/openai';
 
 const result = await generateObject({
   model: openai.chat('gpt-4.1'), // use Chat Completions API
@@ -3192,7 +3192,7 @@ const result = generateText({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { simulateStreamingMiddleware, wrapLanguageModel } from 'ai';
+import { simulateStreamingMiddleware, wrapLanguageModel } from '@omni-stack/core';
 
 const model = wrapLanguageModel({
   model: openai('gpt-4.1'),
@@ -3221,7 +3221,7 @@ const { text, providerMetadata } = await generateText({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { google } from '@open-stack/google';
+import { google } from '@omni-stack/google';
 const { text, sources, providerMetadata } = await generateText({
   model: google('gemini-1.5-pro'),
   prompt:
@@ -3277,7 +3277,7 @@ import {
   CoreToolResultUnion,
   CoreToolCallUnion,
   CoreToolChoice,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 ```
 
 ```tsx filename="AI SDK 5.0"
@@ -3287,7 +3287,7 @@ import {
   TypedToolResult,
   TypedToolCall,
   ToolChoice,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 ```
 
 ## Troubleshooting

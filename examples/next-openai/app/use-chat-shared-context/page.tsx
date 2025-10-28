@@ -1,6 +1,6 @@
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import { useSharedChatContext } from './chat-context';
 import ChatInput from './chat-input';
 

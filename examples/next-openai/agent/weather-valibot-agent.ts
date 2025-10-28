@@ -1,6 +1,6 @@
 import { weatherToolValibot } from '@/tool/weather-tool-valibot';
-import { anthropic } from '@open-stack/anthropic';
-import { ToolLoopAgent, InferAgentUIMessage } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { ToolLoopAgent, InferAgentUIMessage } from '@omni-stack/core';
 
 export const weatherValibotAgent = new ToolLoopAgent({
   model: anthropic('claude-sonnet-4-5'),

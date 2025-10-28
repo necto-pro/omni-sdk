@@ -1,8 +1,8 @@
-import { generateText, tool } from 'ai';
+import { generateText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import { weatherTool } from '../tools/weather-tool';
-import { bedrock } from '@open-stack/amazon-bedrock';
+import { bedrock } from '@omni-stack/amazon-bedrock';
 
 async function main() {
   const result = await generateText({

@@ -1,5 +1,5 @@
-import { JSONObject } from '@open-stack/provider';
-import { lazySchema, zodSchema } from '@open-stack/provider-utils';
+import { JSONObject } from '@omni-stack/provider';
+import { lazySchema, zodSchema } from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 
 // https://docs.together.ai/reference/rerank-1

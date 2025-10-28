@@ -1,9 +1,9 @@
 
-> @open-stack/vercel@0.0.0 test /Users/shaper/workspace/ai/packages/vercel
+> @omni-stack/vercel@0.0.0 test /Users/shaper/workspace/ai/packages/vercel
 > pnpm test:node && pnpm test:edge
 
 
-> @open-stack/vercel@0.0.0 test:node /Users/shaper/workspace/ai/packages/vercel
+> @omni-stack/vercel@0.0.0 test:node /Users/shaper/workspace/ai/packages/vercel
 > vitest --config vitest.node.config.js --run
 
 [33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m

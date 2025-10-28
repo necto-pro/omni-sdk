@@ -32,7 +32,7 @@ Let's create a simple conversation between a user and a model, and place a butto
 
 import { useState } from 'react';
 import { Message, continueConversation } from './actions';
-import { readStreamableValue } from '@open-stack/rsc';
+import { readStreamableValue } from '@omni-stack/rsc';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;
@@ -93,9 +93,9 @@ Now, let's implement the `continueConversation` function that will insert the us
 ```typescript filename='app/actions.ts'
 'use server';
 
-import { streamText } from 'ai';
-import { openai } from '@open-stack/openai';
-import { createStreamableValue } from '@open-stack/rsc';
+import { streamText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
+import { createStreamableValue } from '@omni-stack/rsc';
 
 export interface Message {
   role: 'user' | 'assistant';

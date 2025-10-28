@@ -1,11 +1,11 @@
 import {
   createTestServer,
   TestResponseController,
-} from '@open-stack/test-server/with-vitest';
+} from '@omni-stack/test-server/with-vitest';
 import '@testing-library/jest-dom/vitest';
 import userEvent from '@testing-library/user-event';
 import { findByText, screen } from '@testing-library/vue';
-import { UIMessageChunk } from 'ai';
+import { UIMessageChunk } from '@omni-stack/core';
 import TestCompletionComponent from './TestCompletionComponent.vue';
 import TestCompletionTextStreamComponent from './TestCompletionTextStreamComponent.vue';
 import { setupTestComponent } from './setup-test-component';

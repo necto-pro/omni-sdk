@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { experimental_useObject as useObject } from '@open-stack/vue';
+import { experimental_useObject as useObject } from '@omni-stack/vue';
 import { notificationSchema } from '~/shared/notification-schema';
 
 const { submit, isLoading, object, stop, error, clear } = useObject({

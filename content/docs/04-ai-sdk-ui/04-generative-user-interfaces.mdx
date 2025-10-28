@@ -31,7 +31,7 @@ Start with a basic chat implementation using the `useChat` hook:
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import { useState } from 'react';
 
 export default function Page() {
@@ -76,8 +76,8 @@ export default function Page() {
 To handle the chat requests and model responses, set up an API route:
 
 ```ts filename="app/api/chat/route.ts"
-import { openai } from '@open-stack/openai';
-import { streamText, convertToModelMessages, UIMessage, stepCountIs } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText, convertToModelMessages, UIMessage, stepCountIs } from '@omni-stack/core';
 
 export async function POST(request: Request) {
   const { messages }: { messages: UIMessage[] } = await request.json();
@@ -102,7 +102,7 @@ Before enhancing your chat interface with dynamic UI elements, you need to creat
 Create a new file called `ai/tools.ts` with the following content:
 
 ```ts filename="ai/tools.ts"
-import { tool as createTool } from 'ai';
+import { tool as createTool } from '@omni-stack/core';
 import { z } from 'zod';
 
 export const weatherTool = createTool({
@@ -128,8 +128,8 @@ In this file, you've created a tool called `weatherTool`. This tool simulates fe
 Update the API route to include the tool you've defined:
 
 ```ts filename="app/api/chat/route.ts" highlight="3,8,14"
-import { openai } from '@open-stack/openai';
-import { streamText, convertToModelMessages, UIMessage, stepCountIs } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText, convertToModelMessages, UIMessage, stepCountIs } from '@omni-stack/core';
 import { tools } from '@/ai/tools';
 
 export async function POST(request: Request) {
@@ -184,7 +184,7 @@ Update your `page.tsx` file:
 ```tsx filename="app/page.tsx" highlight="4,9,14-15,19-46"
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import { useState } from 'react';
 import { Weather } from '@/components/weather';
 
@@ -307,7 +307,7 @@ Finally, update your `page.tsx` file to include the new Stock component:
 ```tsx
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import { useState } from 'react';
 import { Weather } from '@/components/weather';
 import { Stock } from '@/components/stock';

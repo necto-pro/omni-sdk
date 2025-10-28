@@ -1,5 +1,5 @@
-import { google } from '@open-stack/google';
-import { generateText, Output } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText, Output } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

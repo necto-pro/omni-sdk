@@ -1,5 +1,5 @@
 {
-  "name": "@open-stack/deepseek",
+  "name": "@omni-stack/deepseek",
   "version": "2.0.0-beta.27",
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -32,9 +32,9 @@
     }
   },
   "dependencies": {
-    "@open-stack/openai-compatible": "workspace:*",
-    "@open-stack/provider": "workspace:*",
-    "@open-stack/provider-utils": "workspace:*"
+    "@omni-stack/openai-compatible": "workspace:*",
+    "@omni-stack/provider": "workspace:*",
+    "@omni-stack/provider-utils": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "20.17.24",

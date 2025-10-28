@@ -1,5 +1,5 @@
-import { streamText } from 'ai';
-import { openai } from '@open-stack/openai';
+import { streamText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 export async function POST(req: Request) {
   const { prompt }: { prompt: string } = await req.json();

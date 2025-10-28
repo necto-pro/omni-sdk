@@ -1,5 +1,5 @@
-import { cohere } from '@open-stack/cohere';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 export const maxDuration = 30;
 

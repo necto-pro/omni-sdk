@@ -1,11 +1,11 @@
-import { anthropic } from '@open-stack/anthropic';
+import { anthropic } from '@omni-stack/anthropic';
 import {
   convertToModelMessages,
   InferUITool,
   streamText,
   UIDataTypes,
   UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 
 export type SourcesChatMessage = UIMessage<
   never,

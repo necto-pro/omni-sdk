@@ -1,7 +1,7 @@
-import { LanguageModelV3Prompt } from '@open-stack/provider';
+import { LanguageModelV3Prompt } from '@omni-stack/provider';
 import { describe, it, expect, vi } from 'vitest';
-import { createTestServer } from '@open-stack/test-server/with-vitest';
-import { convertReadableStreamToArray } from '@open-stack/provider-utils/test';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
+import { convertReadableStreamToArray } from '@omni-stack/provider-utils/test';
 import { XaiChatLanguageModel } from './xai-chat-language-model';
 import { createXai } from './xai-provider';
 

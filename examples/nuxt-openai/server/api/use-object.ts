@@ -1,5 +1,5 @@
-import { createOpenAI } from '@open-stack/openai';
-import { streamObject } from 'ai';
+import { createOpenAI } from '@omni-stack/openai';
+import { streamObject } from '@omni-stack/core';
 import { notificationSchema } from '~/shared/notification-schema';
 
 export default defineLazyEventHandler(async () => {

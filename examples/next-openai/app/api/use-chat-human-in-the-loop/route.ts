@@ -1,11 +1,11 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   createUIMessageStreamResponse,
   streamText,
   createUIMessageStream,
   convertToModelMessages,
   stepCountIs,
-} from 'ai';
+} from '@omni-stack/core';
 import { processToolCalls } from './utils';
 import { tools } from './tools';
 import { HumanInTheLoopUIMessage } from './types';

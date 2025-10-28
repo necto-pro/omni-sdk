@@ -1,7 +1,7 @@
 import {
   LanguageModelV3Content,
   LanguageModelV3Middleware,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 
 export const yourGuardrailMiddleware: LanguageModelV3Middleware = {
   wrapGenerate: async ({ doGenerate }) => {

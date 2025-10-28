@@ -9,36 +9,36 @@ The [Gladia](https://gladia.io/) provider contains language model support for th
 
 ## Setup
 
-The Gladia provider is available in the `@open-stack/gladia` module. You can install it with
+The Gladia provider is available in the `@omni-stack/gladia` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @open-stack/gladia" dark />
+    <Snippet text="pnpm add @omni-stack/gladia" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @open-stack/gladia" dark />
+    <Snippet text="npm install @omni-stack/gladia" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @open-stack/gladia" dark />
+    <Snippet text="yarn add @omni-stack/gladia" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @open-stack/gladia" dark />
+    <Snippet text="bun add @omni-stack/gladia" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `gladia` from `@open-stack/gladia`:
+You can import the default provider instance `gladia` from `@omni-stack/gladia`:
 
 ```ts
-import { gladia } from '@open-stack/gladia';
+import { gladia } from '@omni-stack/gladia';
 ```
 
-If you need a customized setup, you can import `createGladia` from `@open-stack/gladia` and create a provider instance with your settings:
+If you need a customized setup, you can import `createGladia` from `@omni-stack/gladia` and create a provider instance with your settings:
 
 ```ts
-import { createGladia } from '@open-stack/gladia';
+import { createGladia } from '@omni-stack/gladia';
 
 const gladia = createGladia({
   // custom settings, e.g.
@@ -76,8 +76,8 @@ const model = gladia.transcription();
 You can also pass additional provider-specific options using the `providerOptions` argument. For example, supplying the `summarize` option will enable summaries for sections of content.
 
 ```ts highlight="6"
-import { experimental_transcribe as transcribe } from 'ai';
-import { gladia } from '@open-stack/gladia';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
+import { gladia } from '@omni-stack/gladia';
 import { readFile } from 'fs/promises';
 
 const result = await transcribe({

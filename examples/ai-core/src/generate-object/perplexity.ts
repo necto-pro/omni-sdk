@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { perplexity } from '@open-stack/perplexity';
-import { generateObject, generateText } from 'ai';
+import { perplexity } from '@omni-stack/perplexity';
+import { generateObject, generateText } from '@omni-stack/core';
 import { z } from 'zod';
 
 async function main() {

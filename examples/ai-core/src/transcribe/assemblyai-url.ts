@@ -1,5 +1,5 @@
-import { assemblyai } from '@open-stack/assemblyai';
-import { experimental_transcribe as transcribe } from 'ai';
+import { assemblyai } from '@omni-stack/assemblyai';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

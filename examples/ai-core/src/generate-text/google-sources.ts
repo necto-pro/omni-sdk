@@ -1,5 +1,5 @@
-import { google, GoogleGenerativeAIProviderMetadata } from '@open-stack/google';
-import { generateText } from 'ai';
+import { google, GoogleGenerativeAIProviderMetadata } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

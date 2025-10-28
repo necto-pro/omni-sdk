@@ -1,5 +1,5 @@
-import { vercel } from '@open-stack/vercel';
-import { generateObject } from 'ai';
+import { vercel } from '@omni-stack/vercel';
+import { generateObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

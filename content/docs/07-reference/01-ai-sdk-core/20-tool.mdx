@@ -13,7 +13,7 @@ Without this helper function, TypeScript is unable to connect the `inputSchema` 
 and the argument types of `execute` cannot be inferred.
 
 ```ts highlight={"1,4,9,10"}
-import { tool } from 'ai';
+import { tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 export const weatherTool = tool({

@@ -94,7 +94,7 @@ Here are examples of using Requesty with the AI SDK:
 
 ```javascript
 import { requesty } from '@requesty/ai-sdk';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: requesty('openai/gpt-4o'),
@@ -108,7 +108,7 @@ console.log(text);
 
 ```javascript
 import { requesty } from '@requesty/ai-sdk';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: requesty('anthropic/claude-3.5-sonnet'),
@@ -124,7 +124,7 @@ for await (const chunk of result.textStream) {
 
 ```javascript
 import { requesty } from '@requesty/ai-sdk';
-import { generateObject } from 'ai';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const { object } = await generateObject({
@@ -150,7 +150,7 @@ Requesty provides advanced reasoning capabilities with configurable effort level
 
 ```javascript
 import { createRequesty } from '@requesty/ai-sdk';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const requesty = createRequesty({ apiKey: process.env.REQUESTY_API_KEY });
 

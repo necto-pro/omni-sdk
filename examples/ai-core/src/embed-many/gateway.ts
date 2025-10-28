@@ -1,4 +1,4 @@
-import { embedMany } from 'ai';
+import { embedMany } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

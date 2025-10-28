@@ -1,5 +1,5 @@
 ---
-'@open-stack/cohere': patch
+'@omni-stack/cohere': patch
 ---
 
 Added reranking feature

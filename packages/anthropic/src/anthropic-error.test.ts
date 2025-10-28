@@ -1,4 +1,4 @@
-import { safeValidateTypes } from '@open-stack/provider-utils';
+import { safeValidateTypes } from '@omni-stack/provider-utils';
 import { anthropicErrorDataSchema } from './anthropic-error';
 import { describe, it, expect } from 'vitest';
 

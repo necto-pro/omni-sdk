@@ -1,5 +1,5 @@
-import { groq } from '@open-stack/groq';
-import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from '@omni-stack/core';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';
 

@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { GladiaTranscriptionModel } from './gladia-transcription-model';
 import { createGladia } from './gladia-provider';
 import { readFile } from 'node:fs/promises';

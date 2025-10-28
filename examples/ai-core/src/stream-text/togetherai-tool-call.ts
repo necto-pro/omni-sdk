@@ -1,5 +1,5 @@
-import { togetherai } from '@open-stack/togetherai';
-import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
+import { togetherai } from '@omni-stack/togetherai';
+import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from '@omni-stack/core';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';
 

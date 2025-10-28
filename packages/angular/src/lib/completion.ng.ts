@@ -4,7 +4,7 @@ import {
   generateId,
   type CompletionRequestOptions,
   type UseCompletionOptions,
-} from 'ai';
+} from '@omni-stack/core';
 
 export type CompletionOptions = Readonly<UseCompletionOptions>;
 

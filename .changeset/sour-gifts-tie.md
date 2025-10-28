@@ -1,5 +1,5 @@
 ---
-'@open-stack/google': patch
+'@omni-stack/google': patch
 ---
 
 Support `imageConfig.aspectRatio` configuration for Gemini models

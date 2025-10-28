@@ -1,5 +1,5 @@
-import { JSONSchema7 } from '@open-stack/provider';
-import { InferSchema, lazySchema, zodSchema } from '@open-stack/provider-utils';
+import { JSONSchema7 } from '@omni-stack/provider';
+import { InferSchema, lazySchema, zodSchema } from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { openaiErrorDataSchema } from '../openai-error';
 

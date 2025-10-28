@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createMistral } from '@open-stack/mistral';
+import { createMistral } from '@omni-stack/mistral';
 
 const mistral = createMistral({
   apiKey: 'key',

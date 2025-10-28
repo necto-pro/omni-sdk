@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 export const maxDuration = 30;
 

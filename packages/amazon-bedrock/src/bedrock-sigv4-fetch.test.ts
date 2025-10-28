@@ -10,8 +10,8 @@ vi.mock('./version', () => ({
 }));
 
 // Mock provider-utils to control runtime environment detection
-vi.mock('@open-stack/provider-utils', async () => {
-  const actual = await vi.importActual('@open-stack/provider-utils');
+vi.mock('@omni-stack/provider-utils', async () => {
+  const actual = await vi.importActual('@omni-stack/provider-utils');
   return {
     ...actual,
     getRuntimeEnvironmentUserAgent: vi.fn(() => 'runtime/testenv'),

@@ -1,9 +1,9 @@
 'use client';
 
 import ChatInput from '@/components/chat-input';
-import { UIMessage, useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
-import { createIdGenerator } from 'ai';
+import { UIMessage, useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
+import { createIdGenerator } from '@omni-stack/core';
 
 export default function Chat({
   id,

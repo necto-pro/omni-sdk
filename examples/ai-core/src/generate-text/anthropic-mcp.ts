@@ -1,5 +1,5 @@
-import { anthropic, AnthropicProviderOptions } from '@open-stack/anthropic';
-import { generateText } from 'ai';
+import { anthropic, AnthropicProviderOptions } from '@omni-stack/anthropic';
+import { generateText } from '@omni-stack/core';
 import { run } from '../lib/run';
 import { print } from '../lib/print';
 

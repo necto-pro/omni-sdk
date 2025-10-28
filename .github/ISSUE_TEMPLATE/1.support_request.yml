@@ -21,8 +21,8 @@ body:
       placeholder: |
         Examples:
         - ai: 4.1.2
-        - @open-stack/react: 2.1.0
-        - @open-stack/openai: 0.5.2
+        - @omni-stack/react: 2.1.0
+        - @omni-stack/openai: 0.5.2
     validations:
       required: false
   - type: checkboxes

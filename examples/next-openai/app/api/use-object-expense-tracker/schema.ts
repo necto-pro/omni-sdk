@@ -1,4 +1,4 @@
-import { DeepPartial } from 'ai';
+import { DeepPartial } from '@omni-stack/core';
 import { z } from 'zod';
 
 export const expenseSchema = z.object({

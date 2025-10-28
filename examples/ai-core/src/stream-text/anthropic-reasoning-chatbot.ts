@@ -1,5 +1,5 @@
-import { AnthropicProviderOptions, createAnthropic } from '@open-stack/anthropic';
-import { stepCountIs, ModelMessage, streamText, tool } from 'ai';
+import { AnthropicProviderOptions, createAnthropic } from '@omni-stack/anthropic';
+import { stepCountIs, ModelMessage, streamText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { z } from 'zod';

@@ -1,4 +1,4 @@
-import { lazySchema, zodSchema } from '@open-stack/provider-utils';
+import { lazySchema, zodSchema } from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 
 // https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_Rerank.html

@@ -1,9 +1,9 @@
 import {
   createTestServer,
   TestResponseController,
-} from '@open-stack/test-server/with-vitest';
+} from '@omni-stack/test-server/with-vitest';
 import { render } from '@testing-library/svelte';
-import type { UIMessageChunk } from 'ai';
+import type { UIMessageChunk } from '@omni-stack/core';
 import { Completion } from './completion.svelte.js';
 import CompletionSynchronization from './tests/completion-synchronization.svelte';
 import { describe, it, expect, vi } from 'vitest';

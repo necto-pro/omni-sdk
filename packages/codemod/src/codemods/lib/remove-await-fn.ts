@@ -4,7 +4,7 @@ export function removeAwaitFn(functionName: string) {
   return createTransformer((fileInfo, api, options, context) => {
     const { j, root } = context;
 
-    // Find import of the specified function from 'ai'
+    // Find import of the specified function from '@omni-stack/core'
     const functionImportNames = new Set<string>();
 
     root

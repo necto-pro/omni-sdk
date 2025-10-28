@@ -1,4 +1,4 @@
-# @open-stack/codemod
+# @omni-stack/codemod
 
 ## 3.0.0-beta.2
 
@@ -50,15 +50,15 @@
   Codemod behavior before the fix
 
   ```diff
-  - import { LanguageModelV2 } from 'ai';
-  + import { LanguageModelV2 } from '@open-stack/provider';
+  - import { LanguageModelV2 } from '@omni-stack/core';
+  + import { LanguageModelV2 } from '@omni-stack/provider';
   ```
 
   After
 
   ```diff
-  + import { LanguageModelV2 } from 'ai';
-  - import { LanguageModelV2 } from '@open-stack/provider';
+  + import { LanguageModelV2 } from '@omni-stack/core';
+  - import { LanguageModelV2 } from '@omni-stack/provider';
   ```
 
 - 7ae8e57: fix(codemod): avoid false positive in `v5/restructure-file-stream-parts`
@@ -106,7 +106,7 @@
   Before:
 
   ```ts
-  import { createIdGenerator } from 'ai';
+  import { createIdGenerator } from '@omni-stack/core';
 
   const generator = createIdGenerator({ prefix: 'msg' });
   const id2 = generator(16); // Custom size at call time
@@ -115,7 +115,7 @@
   After:
 
   ```ts
-  import { createIdGenerator } from 'ai';
+  import { createIdGenerator } from '@omni-stack/core';
 
   const generator32 = createIdGenerator({ size: 32 });
   const id1 = generator32(); // Fixed size from creation
@@ -129,13 +129,13 @@
   This change adds a new codemod which handles the change from
 
   ```ts
-  import { IDGenerator } from 'ai';
+  import { IDGenerator } from '@omni-stack/core';
   ```
 
   to
 
   ```ts
-  import { IdGenerator } from 'ai';
+  import { IdGenerator } from '@omni-stack/core';
   ```
 
 ## 2.0.0
@@ -239,7 +239,7 @@
 - 66373dd: fix (packages/codemod): Only mutate files when changes are needed.
 - c33e632: feat (packages/codemod): Add codemod to rm experimental_StreamData.
 - 030f327: feat (packages/codemod): Add more automated transformations for 4.0.
-- b1d9efb: fix (packages/codemod): Only rename nanoid on import from 'ai'.
+- b1d9efb: fix (packages/codemod): Only rename nanoid on import from '@omni-stack/core'.
 - 29556ed: feat (packages/codemod): Add script to scaffold new codemod.
 - 575e7da: feat (packages/codemod): Add codemod to remove ExperimentalTool.
 - 94c51ae: fix (packages/codemod): Only replace ai-sdk provider ctors.
@@ -262,7 +262,7 @@
 
 - 7326f22: fix (packages/codemod): Remove package version check pre-upgrade.
 - a2e0f02: fix (packages/codemod): Ignore code under dot-prefixed dirs.
-- b1d9efb: fix (packages/codemod): Only rename nanoid on import from 'ai'.
+- b1d9efb: fix (packages/codemod): Only rename nanoid on import from '@omni-stack/core'.
 - b183ed0: feat (packages/codemod): Improve error handling and logging.
 - 45feb29: feat (packages/codemod): codemod to rm await from streamText/Object.
 

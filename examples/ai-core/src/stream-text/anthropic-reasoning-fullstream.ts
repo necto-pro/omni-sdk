@@ -1,4 +1,4 @@
-import { anthropic } from '@open-stack/anthropic';
+import { anthropic } from '@omni-stack/anthropic';
 import {
   extractReasoningMiddleware,
   stepCountIs,
@@ -6,7 +6,7 @@ import {
   ToolCallPart,
   ToolResultPart,
   wrapLanguageModel,
-} from 'ai';
+} from '@omni-stack/core';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';
 

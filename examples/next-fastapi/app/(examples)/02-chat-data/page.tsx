@@ -1,8 +1,8 @@
 'use client';
 
 import { Card } from '@/app/components';
-import { useChat } from '@open-stack/react';
-import { getToolName, isToolUIPart } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { getToolName, isToolUIPart } from '@omni-stack/core';
 import { GeistMono } from 'geist/font/mono';
 import { useState } from 'react';
 

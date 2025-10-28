@@ -1,7 +1,7 @@
 import {
   EmbeddingModelV3,
   TooManyEmbeddingValuesForCallError,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   Resolvable,
@@ -11,7 +11,7 @@ import {
   parseProviderOptions,
   postJsonToApi,
   resolve,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import {
   BedrockEmbeddingModelId,
   bedrockEmbeddingProviderOptions,

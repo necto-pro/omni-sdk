@@ -1,4 +1,4 @@
-import { JSONValue } from '@open-stack/provider';
+import { JSONValue } from '@omni-stack/provider';
 
 export type OpenAICompatibleChatPrompt = Array<OpenAICompatibleMessage>;
 

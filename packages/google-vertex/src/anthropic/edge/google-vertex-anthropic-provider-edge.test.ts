@@ -1,4 +1,4 @@
-import { resolve } from '@open-stack/provider-utils';
+import { resolve } from '@omni-stack/provider-utils';
 import * as edgeAuth from '../../edge/google-vertex-auth-edge';
 import { createVertexAnthropic as createVertexAnthropicOriginal } from '../google-vertex-anthropic-provider';
 import { createVertexAnthropic as createVertexAnthropicEdge } from './google-vertex-anthropic-provider-edge';

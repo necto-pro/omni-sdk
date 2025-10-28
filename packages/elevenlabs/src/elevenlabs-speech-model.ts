@@ -1,10 +1,10 @@
-import { SpeechModelV3, SpeechModelV3CallWarning } from '@open-stack/provider';
+import { SpeechModelV3, SpeechModelV3CallWarning } from '@omni-stack/provider';
 import {
   combineHeaders,
   createBinaryResponseHandler,
   parseProviderOptions,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { ElevenLabsConfig } from './elevenlabs-config';
 import { elevenlabsFailedResponseHandler } from './elevenlabs-error';

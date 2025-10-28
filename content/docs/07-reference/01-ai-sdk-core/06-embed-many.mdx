@@ -12,8 +12,8 @@ by the embedding model.
 has a limit on how many embeddings can be generated in a single call.
 
 ```ts
-import { openai } from '@open-stack/openai';
-import { embedMany } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { embedMany } from '@omni-stack/core';
 
 const { embeddings } = await embedMany({
   model: openai.textEmbeddingModel('text-embedding-3-small'),

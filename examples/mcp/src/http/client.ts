@@ -1,11 +1,11 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/streamableHttp.js';
-import { generateText, stepCountIs } from 'ai';
+import { generateText, stepCountIs } from '@omni-stack/core';
 import 'dotenv/config';
 import {
   experimental_createMCPClient as createMCPClient,
   experimental_MCPClient as MCPClient,
-} from '@open-stack/mcp';
+} from '@omni-stack/mcp';
 
 async function main() {
   const transport = new StreamableHTTPClientTransport(

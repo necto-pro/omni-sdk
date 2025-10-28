@@ -1,5 +1,5 @@
-import { createBaseten } from '@open-stack/baseten';
-import { embedMany } from 'ai';
+import { createBaseten } from '@omni-stack/baseten';
+import { embedMany } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

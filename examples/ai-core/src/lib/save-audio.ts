@@ -1,4 +1,4 @@
-import { GeneratedAudioFile } from 'ai';
+import { GeneratedAudioFile } from '@omni-stack/core';
 import fs from 'node:fs';
 import path from 'node:path';
 

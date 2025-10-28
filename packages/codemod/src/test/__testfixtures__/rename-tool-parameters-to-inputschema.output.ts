@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { tool } from 'ai';
+import { tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 // Using tool() function

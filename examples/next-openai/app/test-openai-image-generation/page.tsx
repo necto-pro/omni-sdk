@@ -3,8 +3,8 @@
 import { OpenAIImageGenerationMessage } from '@/agent/openai-image-generation-agent';
 import ChatInput from '@/components/chat-input';
 import ImageGenerationView from '@/components/tool/openai-image-generation-view';
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 export default function TestOpenAIWebSearch() {
   const { status, sendMessage, messages } =

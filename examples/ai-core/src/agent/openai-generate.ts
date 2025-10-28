@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { ToolLoopAgent } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { ToolLoopAgent } from '@omni-stack/core';
 import { run } from '../lib/run';
 import { print } from '../lib/print';
 

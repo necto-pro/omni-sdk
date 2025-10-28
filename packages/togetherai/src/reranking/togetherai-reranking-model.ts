@@ -1,4 +1,4 @@
-import { RerankingModelV3 } from '@open-stack/provider';
+import { RerankingModelV3 } from '@omni-stack/provider';
 import {
   combineHeaders,
   createJsonErrorResponseHandler,
@@ -6,7 +6,7 @@ import {
   FetchFunction,
   parseProviderOptions,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import {
   togetheraiErrorSchema,
   TogetherAIRerankingInput,

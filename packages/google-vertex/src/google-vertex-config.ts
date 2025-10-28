@@ -1,4 +1,4 @@
-import { FetchFunction, Resolvable } from '@open-stack/provider-utils';
+import { FetchFunction, Resolvable } from '@omni-stack/provider-utils';
 
 export interface GoogleVertexConfig {
   provider: string;

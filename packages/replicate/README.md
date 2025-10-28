@@ -4,17 +4,17 @@ The **[Replicate provider](https://ai-sdk.dev/providers/ai-sdk-providers/replica
 
 ## Setup
 
-The Replicate provider is available in the `@open-stack/replicate` module. You can install it with
+The Replicate provider is available in the `@omni-stack/replicate` module. You can install it with
 
 ```bash
-npm i @open-stack/replicate
+npm i @omni-stack/replicate
 ```
 
 ## Usage
 
 ```ts
-import { replicate } from '@open-stack/replicate';
-import { experimental_generateImage as generateImage } from 'ai';
+import { replicate } from '@omni-stack/replicate';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 const { image } = await generateImage({
   model: replicate.image('black-forest-labs/flux-schnell'),

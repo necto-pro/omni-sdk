@@ -1,5 +1,5 @@
-import { anthropic } from '@open-stack/anthropic';
-import { generateText } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { generateText } from '@omni-stack/core';
 import { run } from '../lib/run';
 import * as fs from 'fs';
 

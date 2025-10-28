@@ -4,25 +4,25 @@ The **[fal provider](https://ai-sdk.dev/providers/ai-sdk-providers/fal)** for th
 
 ## Setup
 
-The fal provider is available in the `@open-stack/fal` module. You can install it with
+The fal provider is available in the `@omni-stack/fal` module. You can install it with
 
 ```bash
-npm i @open-stack/fal
+npm i @omni-stack/fal
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `fal` from `@open-stack/fal`:
+You can import the default provider instance `fal` from `@omni-stack/fal`:
 
 ```ts
-import { fal } from '@open-stack/fal';
+import { fal } from '@omni-stack/fal';
 ```
 
 ## Image Generation Example
 
 ```ts
-import { fal } from '@open-stack/fal';
-import { experimental_generateImage as generateImage } from 'ai';
+import { fal } from '@omni-stack/fal';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import fs from 'fs';
 const { image } = await generateImage({
   model: fal.image('fal-ai/flux/schnell'),

@@ -9,36 +9,36 @@ The [ElevenLabs](https://elevenlabs.io/) provider contains language model suppor
 
 ## Setup
 
-The ElevenLabs provider is available in the `@open-stack/elevenlabs` module. You can install it with
+The ElevenLabs provider is available in the `@omni-stack/elevenlabs` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @open-stack/elevenlabs" dark />
+    <Snippet text="pnpm add @omni-stack/elevenlabs" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @open-stack/elevenlabs" dark />
+    <Snippet text="npm install @omni-stack/elevenlabs" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @open-stack/elevenlabs" dark />
+    <Snippet text="yarn add @omni-stack/elevenlabs" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @open-stack/elevenlabs" dark />
+    <Snippet text="bun add @omni-stack/elevenlabs" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `elevenlabs` from `@open-stack/elevenlabs`:
+You can import the default provider instance `elevenlabs` from `@omni-stack/elevenlabs`:
 
 ```ts
-import { elevenlabs } from '@open-stack/elevenlabs';
+import { elevenlabs } from '@omni-stack/elevenlabs';
 ```
 
-If you need a customized setup, you can import `createElevenLabs` from `@open-stack/elevenlabs` and create a provider instance with your settings:
+If you need a customized setup, you can import `createElevenLabs` from `@omni-stack/elevenlabs` and create a provider instance with your settings:
 
 ```ts
-import { createElevenLabs } from '@open-stack/elevenlabs';
+import { createElevenLabs } from '@omni-stack/elevenlabs';
 
 const elevenlabs = createElevenLabs({
   // custom settings, e.g.
@@ -78,8 +78,8 @@ const model = elevenlabs.speech('eleven_multilingual_v2');
 You can also pass additional provider-specific options using the `providerOptions` argument. For example, supplying a voice to use for the generated audio.
 
 ```ts highlight="6"
-import { experimental_generateSpeech as generateSpeech } from 'ai';
-import { elevenlabs } from '@open-stack/elevenlabs';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
+import { elevenlabs } from '@omni-stack/elevenlabs';
 
 const result = await generateSpeech({
   model: elevenlabs.speech('eleven_multilingual_v2'),
@@ -166,8 +166,8 @@ const model = elevenlabs.transcription('scribe_v1');
 You can also pass additional provider-specific options using the `providerOptions` argument. For example, supplying the input language in ISO-639-1 (e.g. `en`) format can sometimes improve transcription performance if known beforehand.
 
 ```ts highlight="6"
-import { experimental_transcribe as transcribe } from 'ai';
-import { elevenlabs } from '@open-stack/elevenlabs';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
+import { elevenlabs } from '@omni-stack/elevenlabs';
 
 const result = await transcribe({
   model: elevenlabs.transcription('scribe_v1'),

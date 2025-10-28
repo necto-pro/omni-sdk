@@ -1,11 +1,11 @@
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import ChatInput from '@/components/chat-input';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithToolCalls,
-} from 'ai';
+} from '@omni-stack/core';
 import { StreamingToolCallsMessage } from '../api/use-chat-streaming-tool-calls/route';
 
 export default function Chat() {

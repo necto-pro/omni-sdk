@@ -1,8 +1,8 @@
 'use server';
 
-import { openai } from '@open-stack/openai';
-import { streamText } from 'ai';
-import { createStreamableValue } from '@open-stack/rsc';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
+import { createStreamableValue } from '@omni-stack/rsc';
 
 export async function generateCompletion(prompt: string) {
   const result = streamText({

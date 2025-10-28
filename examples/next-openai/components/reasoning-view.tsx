@@ -1,4 +1,4 @@
-import { ReasoningUIPart } from 'ai';
+import { ReasoningUIPart } from '@omni-stack/core';
 import {
   Reasoning,
   ReasoningContent,

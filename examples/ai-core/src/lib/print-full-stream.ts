@@ -1,4 +1,4 @@
-import { StreamTextResult } from 'ai';
+import { StreamTextResult } from '@omni-stack/core';
 import { print } from './print';
 
 export async function printFullStream({

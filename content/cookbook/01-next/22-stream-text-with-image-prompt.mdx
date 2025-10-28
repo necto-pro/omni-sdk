@@ -15,8 +15,8 @@ Vision models such as GPT-4o can process both text and images. In this example, 
 The server route uses `convertToModelMessages` to handle the conversion from `UIMessage`s to model messages, which automatically handles multimodal content including images.
 
 ```tsx filename='app/api/chat/route.ts' highlight="8,9,23"
-import { openai } from '@open-stack/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 
 export const maxDuration = 60;
 
@@ -41,8 +41,8 @@ On the client side, we use the new `useChat` hook and send multimodal messages u
 ```typescript filename='app/page.tsx'
 'use client';
 
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { useState } from 'react';
 
 // Allow streaming responses up to 30 seconds

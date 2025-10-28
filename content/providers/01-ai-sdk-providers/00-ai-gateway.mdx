@@ -26,7 +26,7 @@ For most use cases, you can use the AI Gateway directly with a model string:
 
 ```ts
 // use plain model string with global provider
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: 'openai/gpt-5',
@@ -36,7 +36,7 @@ const { text } = await generateText({
 
 ```ts
 // use provider instance (requires version 5.0.36 or later)
-import { generateText, gateway } from 'ai';
+import { generateText, gateway } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: gateway('openai/gpt-5'),
@@ -56,7 +56,7 @@ The AI SDK automatically uses the AI Gateway when you pass a model string in the
 You can also import the default provider instance `gateway` from `ai`:
 
 ```ts
-import { gateway } from 'ai';
+import { gateway } from '@omni-stack/core';
 ```
 
 You may want to create a custom provider instance when you need to:
@@ -69,7 +69,7 @@ You may want to create a custom provider instance when you need to:
 To create a custom provider instance, import `createGateway` from `ai`:
 
 ```ts
-import { createGateway } from 'ai';
+import { createGateway } from '@omni-stack/core';
 
 const gateway = createGateway({
   apiKey: process.env.AI_GATEWAY_API_KEY ?? '',
@@ -117,7 +117,7 @@ AI_GATEWAY_API_KEY=your_api_key_here
 Or pass it directly to the provider:
 
 ```ts
-import { createGateway } from 'ai';
+import { createGateway } from '@omni-stack/core';
 
 const gateway = createGateway({
   apiKey: 'your_api_key_here',
@@ -166,7 +166,7 @@ Learn more in the [BYOK documentation](https://vercel.com/docs/ai-gateway/byok).
 You can create language models using a provider instance. The first argument is the model ID in the format `creator/model-name`:
 
 ```ts
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: 'openai/gpt-5',
@@ -187,7 +187,7 @@ For the complete list of available models, see the [AI Gateway documentation](ht
 You can discover available models programmatically:
 
 ```ts
-import { gateway, generateText } from 'ai';
+import { gateway, generateText } from '@omni-stack/core';
 
 const availableModels = await gateway.getAvailableModels();
 
@@ -225,7 +225,7 @@ const { text } = await generateText({
 You can check your team's current credit balance and usage:
 
 ```ts
-import { gateway } from 'ai';
+import { gateway } from '@omni-stack/core';
 
 const credits = await gateway.getCredits();
 
@@ -243,7 +243,7 @@ The `getCredits()` method returns your team's credit information based on the au
 ### Basic Text Generation
 
 ```ts
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: 'anthropic/claude-sonnet-4',
@@ -256,7 +256,7 @@ console.log(text);
 ### Streaming
 
 ```ts
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const { textStream } = await streamText({
   model: 'openai/gpt-5',
@@ -271,7 +271,7 @@ for await (const textPart of textStream) {
 ### Tool Usage
 
 ```ts
-import { generateText, tool } from 'ai';
+import { generateText, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 const { text } = await generateText({
@@ -297,8 +297,8 @@ const { text } = await generateText({
 Some providers offer tools that are executed by the provider itself, such as [OpenAI's web search tool](/providers/ai-sdk-providers/openai#web-search-tool). To use these tools through AI Gateway, import the provider to access the tool definitions:
 
 ```ts
-import { generateText, stepCountIs } from 'ai';
-import { openai } from '@open-stack/openai';
+import { generateText, stepCountIs } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const result = await generateText({
   model: 'openai/gpt-5-mini',
@@ -323,8 +323,8 @@ console.dir(result.text);
 Track usage per end-user and categorize requests with tags:
 
 ```ts
-import type { GatewayProviderOptions } from '@open-stack/gateway';
-import { generateText } from 'ai';
+import type { GatewayProviderOptions } from '@omni-stack/gateway';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: 'openai/gpt-5',
@@ -353,8 +353,8 @@ The AI Gateway provider accepts provider options that control routing behavior a
 You can use the `gateway` key in `providerOptions` to control how AI Gateway routes requests:
 
 ```ts
-import type { GatewayProviderOptions } from '@open-stack/gateway';
-import { generateText } from 'ai';
+import type { GatewayProviderOptions } from '@omni-stack/gateway';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: 'anthropic/claude-sonnet-4',
@@ -403,8 +403,8 @@ The following gateway provider options are available:
 You can combine these options to have fine-grained control over routing and tracking:
 
 ```ts
-import type { GatewayProviderOptions } from '@open-stack/gateway';
-import { generateText } from 'ai';
+import type { GatewayProviderOptions } from '@omni-stack/gateway';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: 'anthropic/claude-sonnet-4',
@@ -423,8 +423,8 @@ const { text } = await generateText({
 The `models` option enables automatic fallback to alternative models when the primary model fails:
 
 ```ts
-import type { GatewayProviderOptions } from '@open-stack/gateway';
-import { generateText } from 'ai';
+import type { GatewayProviderOptions } from '@omni-stack/gateway';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: 'openai/gpt-4o', // Primary model
@@ -448,9 +448,9 @@ const { text } = await generateText({
 When using provider-specific options through AI Gateway, use the actual provider name (e.g. `anthropic`, `openai`, not `gateway`) as the key:
 
 ```ts
-import type { AnthropicProviderOptions } from '@open-stack/anthropic';
-import type { GatewayProviderOptions } from '@open-stack/gateway';
-import { generateText } from 'ai';
+import type { AnthropicProviderOptions } from '@omni-stack/anthropic';
+import type { GatewayProviderOptions } from '@omni-stack/gateway';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: 'anthropic/claude-sonnet-4',

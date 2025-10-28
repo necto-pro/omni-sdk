@@ -6,7 +6,7 @@ import {
   OpenAIResponsesLanguageModel,
   OpenAISpeechModel,
   OpenAITranscriptionModel,
-} from '@open-stack/openai/internal';
+} from '@omni-stack/openai/internal';
 import {
   EmbeddingModelV3,
   LanguageModelV3,
@@ -14,13 +14,13 @@ import {
   ImageModelV3,
   SpeechModelV3,
   TranscriptionModelV3,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   loadSetting,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { azureOpenaiTools } from './azure-openai-tools';
 import { VERSION } from './version';
 

@@ -1,6 +1,6 @@
 // @ts-nocheck
-import { APICallError, TypeValidationError } from 'ai';
-import { NoSuchModelError } from '@open-stack/provider';
+import { APICallError, TypeValidationError } from '@omni-stack/core';
+import { NoSuchModelError } from '@omni-stack/provider';
 import { CustomError } from 'other-pkg';
 
 if (APICallError.isInstance(error)) {

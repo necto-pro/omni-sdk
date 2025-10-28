@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { APICallError } from 'ai';
+import { APICallError } from '@omni-stack/core';
 import { print } from './print';
 
 export function run(fn: () => Promise<void>) {

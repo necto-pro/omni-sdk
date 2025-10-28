@@ -1,5 +1,5 @@
-import { mistral, type MistralLanguageModelOptions } from '@open-stack/mistral';
-import { generateText } from 'ai';
+import { mistral, type MistralLanguageModelOptions } from '@omni-stack/mistral';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

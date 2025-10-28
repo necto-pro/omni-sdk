@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import fs from 'node:fs';
 import { beforeEach, describe, expect, it } from 'vitest';
 import { createTogetherAI } from '../togetherai-provider';

@@ -1,5 +1,5 @@
-import { cohere } from '@open-stack/cohere';
-import { generateText, tool } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { generateText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import { weatherTool } from '../tools/weather-tool';

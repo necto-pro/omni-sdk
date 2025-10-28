@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { createOpenAICompatible } from '@open-stack/openai-compatible';
-import { streamObject } from 'ai';
+import { createOpenAICompatible } from '@omni-stack/openai-compatible';
+import { streamObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 async function main() {

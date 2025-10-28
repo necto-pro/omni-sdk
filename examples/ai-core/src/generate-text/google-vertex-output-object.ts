@@ -1,5 +1,5 @@
-import { vertex } from '@open-stack/google-vertex';
-import { generateText, Output } from 'ai';
+import { vertex } from '@omni-stack/google-vertex';
+import { generateText, Output } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

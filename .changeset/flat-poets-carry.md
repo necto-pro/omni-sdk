@@ -1,7 +1,7 @@
 ---
-'@open-stack/amazon-bedrock': patch
-'@open-stack/togetherai': patch
-'@open-stack/cohere': patch
+'@omni-stack/amazon-bedrock': patch
+'@omni-stack/togetherai': patch
+'@omni-stack/cohere': patch
 ---
 
 feat: shorthand names for reranking models

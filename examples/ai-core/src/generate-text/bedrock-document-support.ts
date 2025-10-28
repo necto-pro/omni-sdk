@@ -1,5 +1,5 @@
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { generateText } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { generateText } from '@omni-stack/core';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import 'dotenv/config';

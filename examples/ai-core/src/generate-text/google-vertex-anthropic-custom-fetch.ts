@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { createVertexAnthropic } from '@open-stack/google-vertex/anthropic';
-import { generateText } from 'ai';
+import { createVertexAnthropic } from '@omni-stack/google-vertex/anthropic';
+import { generateText } from '@omni-stack/core';
 
 const vertexAnthropic = createVertexAnthropic({
   // example fetch wrapper that logs the URL:

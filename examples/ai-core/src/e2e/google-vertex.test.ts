@@ -1,7 +1,7 @@
-import { vertex as vertexNode } from '@open-stack/google-vertex';
-import { vertex as vertexEdge } from '@open-stack/google-vertex/edge';
-import { ImageModelV3, LanguageModelV3 } from '@open-stack/provider';
-import { APICallError, experimental_generateImage as generateImage } from 'ai';
+import { vertex as vertexNode } from '@omni-stack/google-vertex';
+import { vertex as vertexEdge } from '@omni-stack/google-vertex/edge';
+import { ImageModelV3, LanguageModelV3 } from '@omni-stack/provider';
+import { APICallError, experimental_generateImage as generateImage } from '@omni-stack/core';
 import 'dotenv/config';
 import { describe, expect, it, vi } from 'vitest';
 import {
@@ -12,8 +12,8 @@ import {
   defaultChatModelCapabilities,
   ModelWithCapabilities,
 } from './feature-test-suite';
-import { wrapLanguageModel } from 'ai';
-import { defaultSettingsMiddleware } from 'ai';
+import { wrapLanguageModel } from '@omni-stack/core';
+import { defaultSettingsMiddleware } from '@omni-stack/core';
 
 const RUNTIME_VARIANTS = {
   edge: {

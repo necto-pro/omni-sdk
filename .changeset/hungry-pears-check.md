@@ -1,5 +1,5 @@
 ---
-'@open-stack/gateway': major
+'@omni-stack/gateway': major
 ---
 
 fix(gateway): bump `@vercel/oidc` to latest

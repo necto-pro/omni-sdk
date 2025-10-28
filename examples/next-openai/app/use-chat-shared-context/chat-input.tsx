@@ -1,4 +1,4 @@
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import { useState } from 'react';
 import { useSharedChatContext } from './chat-context';
 

@@ -1,9 +1,9 @@
-import { ImageModelV3, ImageModelV3CallWarning } from '@open-stack/provider';
+import { ImageModelV3, ImageModelV3CallWarning } from '@omni-stack/provider';
 import {
   combineHeaders,
   createJsonResponseHandler,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { OpenAIConfig } from '../openai-config';
 import { openaiFailedResponseHandler } from '../openai-error';
 import { openaiImageResponseSchema } from './openai-image-api';

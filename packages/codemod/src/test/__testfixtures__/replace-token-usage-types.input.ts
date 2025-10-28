@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { TokenUsage, CompletionTokenUsage, EmbeddingTokenUsage } from 'ai';
+import { TokenUsage, CompletionTokenUsage, EmbeddingTokenUsage } from '@omni-stack/core';
 
 function recordUsage(usage: TokenUsage) {
   console.log(usage);

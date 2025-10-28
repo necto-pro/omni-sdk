@@ -1,18 +1,18 @@
 ---
-'@open-stack/openai-compatible': patch
-'@open-stack/amazon-bedrock': patch
-'@open-stack/google-vertex': patch
-'@open-stack/togetherai': patch
-'@open-stack/deepinfra': patch
-'@open-stack/fireworks': patch
-'@open-stack/replicate': patch
-'@open-stack/provider': patch
-'@open-stack/google': patch
-'@open-stack/openai': patch
-'@open-stack/azure': patch
-'@open-stack/luma': patch
-'@open-stack/fal': patch
-'@open-stack/xai': patch
+'@omni-stack/openai-compatible': patch
+'@omni-stack/amazon-bedrock': patch
+'@omni-stack/google-vertex': patch
+'@omni-stack/togetherai': patch
+'@omni-stack/deepinfra': patch
+'@omni-stack/fireworks': patch
+'@omni-stack/replicate': patch
+'@omni-stack/provider': patch
+'@omni-stack/google': patch
+'@omni-stack/openai': patch
+'@omni-stack/azure': patch
+'@omni-stack/luma': patch
+'@omni-stack/fal': patch
+'@omni-stack/xai': patch
 'ai': patch
 ---
 

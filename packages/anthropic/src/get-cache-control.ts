@@ -1,7 +1,7 @@
 import {
   LanguageModelV3CallWarning,
   SharedV3ProviderMetadata,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import { AnthropicCacheControl } from './anthropic-messages-api';
 
 // Anthropic allows a maximum of 4 cache breakpoints per request

@@ -10,7 +10,7 @@ export default createTransformer((fileInfo, api, options, context) => {
     .find(j.ImportDeclaration)
     .filter(path => {
       return !!(
-        path.node.source.value === '@open-stack/provider' &&
+        path.node.source.value === '@omni-stack/provider' &&
         path.node.specifiers &&
         path.node.specifiers.some(
           spec =>

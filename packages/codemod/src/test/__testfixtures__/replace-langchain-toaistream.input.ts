@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { LangChainAdapter } from 'ai';
+import { LangChainAdapter } from '@omni-stack/core';
 import { model } from 'langchain';
 
 const /* WARNING: toAIStream has been removed from streamText.

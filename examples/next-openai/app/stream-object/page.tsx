@@ -1,6 +1,6 @@
 'use client';
 
-import { StreamableValue, useStreamableValue } from '@open-stack/rsc';
+import { StreamableValue, useStreamableValue } from '@omni-stack/rsc';
 import { useState } from 'react';
 import { generateNotifications } from './actions';
 import { PartialNotification } from './schema';

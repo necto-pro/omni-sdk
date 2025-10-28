@@ -1,5 +1,5 @@
-import { createGoogleGenerativeAI } from '@open-stack/google';
-import { generateText } from 'ai';
+import { createGoogleGenerativeAI } from '@omni-stack/google';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 const google = createGoogleGenerativeAI({

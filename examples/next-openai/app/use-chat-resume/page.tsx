@@ -1,5 +1,5 @@
 import { Chat } from './chat';
-import { createIdGenerator } from 'ai';
+import { createIdGenerator } from '@omni-stack/core';
 
 const generateId = createIdGenerator({ size: 32 });
 

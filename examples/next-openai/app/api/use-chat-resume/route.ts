@@ -3,7 +3,7 @@ import {
   appendStreamId,
   saveChat,
 } from '@/util/chat-store';
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   convertToModelMessages,
   createUIMessageStream,
@@ -11,7 +11,7 @@ import {
   JsonToSseTransformStream,
   streamText,
   UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 import { after } from 'next/server';
 import { createResumableStreamContext } from 'resumable-stream';
 

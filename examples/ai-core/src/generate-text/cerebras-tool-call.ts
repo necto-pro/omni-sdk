@@ -1,5 +1,5 @@
-import { cerebras } from '@open-stack/cerebras';
-import { generateText, tool } from 'ai';
+import { cerebras } from '@omni-stack/cerebras';
+import { generateText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import { weatherTool } from '../tools/weather-tool';

@@ -11,7 +11,7 @@ to smooth out text streaming by buffering and releasing complete words with conf
 This creates a more natural reading experience when streaming text responses.
 
 ```ts highlight={"6-9"}
-import { smoothStream, streamText } from 'ai';
+import { smoothStream, streamText } from '@omni-stack/core';
 
 const result = streamText({
   model,
@@ -60,7 +60,7 @@ For these languages we recommend using a custom regex, like the following:
 - Japanese - `/[\u3040-\u309F\u30A0-\u30FF]|\S+\s+/`
 
 ```tsx filename="Japanese example"
-import { smoothStream, streamText } from 'ai';
+import { smoothStream, streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: 'openai/gpt-4.1',
@@ -72,7 +72,7 @@ const result = streamText({
 ```
 
 ```tsx filename="Chinese example"
-import { smoothStream, streamText } from 'ai';
+import { smoothStream, streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: 'openai/gpt-4.1',

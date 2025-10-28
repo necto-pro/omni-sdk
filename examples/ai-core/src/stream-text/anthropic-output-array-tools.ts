@@ -1,5 +1,5 @@
-import { anthropic } from '@open-stack/anthropic';
-import { Output, stepCountIs, streamText } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { Output, stepCountIs, streamText } from '@omni-stack/core';
 import z from 'zod';
 import { run } from '../lib/run';
 import { weatherTool } from '../tools/weather-tool';

@@ -1,14 +1,14 @@
 'use client';
 
 import ChatInput from '@/components/chat-input';
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import {
   DefaultChatTransport,
   isToolOrDynamicToolUIPart,
   getToolOrDynamicToolName,
   type DynamicToolUIPart,
   type ToolUIPart,
-} from 'ai';
+} from '@omni-stack/core';
 
 export default function Chat() {
   const { error, status, sendMessage, messages, regenerate, stop } = useChat({

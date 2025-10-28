@@ -1,5 +1,5 @@
-import { fireworks } from '@open-stack/fireworks';
-import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
+import { fireworks } from '@omni-stack/fireworks';
+import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from '@omni-stack/core';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';
 

@@ -1,5 +1,5 @@
-import { anthropic } from '@open-stack/anthropic';
-import { ToolLoopAgent, dynamicTool, InferAgentUIMessage, ToolSet } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { ToolLoopAgent, dynamicTool, InferAgentUIMessage, ToolSet } from '@omni-stack/core';
 import { z } from 'zod';
 
 function randomWeather() {

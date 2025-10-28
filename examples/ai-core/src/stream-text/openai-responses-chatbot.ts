@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { stepCountIs, ModelMessage, streamText, tool } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { stepCountIs, ModelMessage, streamText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { z } from 'zod';

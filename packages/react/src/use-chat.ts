@@ -3,7 +3,7 @@ import {
   ChatInit,
   type CreateUIMessage,
   type UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 import { useCallback, useEffect, useRef, useSyncExternalStore } from 'react';
 import { Chat } from './chat.react';
 

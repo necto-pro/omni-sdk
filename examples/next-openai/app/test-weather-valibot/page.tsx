@@ -1,10 +1,10 @@
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithApprovalResponses,
-} from 'ai';
+} from '@omni-stack/core';
 import ChatInput from '@/components/chat-input';
 import { WeatherValibotAgentUIMessage } from '@/agent/weather-valibot-agent';
 import WeatherValibotView from '@/components/tool/weather-valibot-view';

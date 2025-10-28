@@ -1,5 +1,5 @@
-import { vertex } from '@open-stack/google-vertex';
-import { streamObject } from 'ai';
+import { vertex } from '@omni-stack/google-vertex';
+import { streamObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

@@ -1,5 +1,5 @@
 ---
-'@open-stack/provider': patch
+'@omni-stack/provider': patch
 ---
 
 fix(spec): allow `undefined` values in `JSONObject` type

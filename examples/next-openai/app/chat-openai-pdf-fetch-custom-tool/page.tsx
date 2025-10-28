@@ -2,8 +2,8 @@
 
 import ChatInput from '@/components/chat-input';
 import FetchPDFView from '@/components/tool/fetch-pdf-view';
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { OpenAIFetchPdfCustomToolMessage } from '@/agent/openai-fetch-pdf-custom-tool-agent';
 
 export default function TestOpenAIFileGenerationPDF() {

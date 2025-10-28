@@ -4,23 +4,23 @@ import {
   OpenAICompatibleChatLanguageModel,
   OpenAICompatibleCompletionLanguageModel,
   OpenAICompatibleEmbeddingModel,
-} from '@open-stack/openai-compatible';
-import { LanguageModelV3, EmbeddingModelV3 } from '@open-stack/provider';
-import { loadApiKey } from '@open-stack/provider-utils';
+} from '@omni-stack/openai-compatible';
+import { LanguageModelV3, EmbeddingModelV3 } from '@omni-stack/provider';
+import { loadApiKey } from '@omni-stack/provider-utils';
 import { describe, it, expect, vi, beforeEach, Mock } from 'vitest';
 
 // Add type assertion for the mocked class
 const OpenAICompatibleChatLanguageModelMock =
   OpenAICompatibleChatLanguageModel as unknown as Mock;
 
-vi.mock('@open-stack/openai-compatible', () => ({
+vi.mock('@omni-stack/openai-compatible', () => ({
   OpenAICompatibleChatLanguageModel: vi.fn(),
   OpenAICompatibleCompletionLanguageModel: vi.fn(),
   OpenAICompatibleEmbeddingModel: vi.fn(),
 }));
 
-vi.mock('@open-stack/provider-utils', async () => {
-  const actual = await vi.importActual('@open-stack/provider-utils');
+vi.mock('@omni-stack/provider-utils', async () => {
+  const actual = await vi.importActual('@omni-stack/provider-utils');
   return {
     ...actual,
     loadApiKey: vi.fn().mockReturnValue('mock-api-key'),

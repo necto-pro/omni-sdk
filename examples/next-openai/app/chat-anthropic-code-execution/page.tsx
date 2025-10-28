@@ -4,8 +4,8 @@ import { AnthropicCodeExecutionMessage } from '@/agent/anthropic-code-execution-
 import { Response } from '@/components/ai-elements/response';
 import ChatInput from '@/components/chat-input';
 import AnthropicCodeExecutionView from '@/components/tool/anthropic-code-execution-view';
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 export default function TestAnthropicCodeExecution() {
   const { error, status, sendMessage, messages, regenerate } =

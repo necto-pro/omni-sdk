@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { CoreMessage, CoreUserMessage, CoreAssistantMessage, CoreToolMessage } from 'ai';
+import { CoreMessage, CoreUserMessage, CoreAssistantMessage, CoreToolMessage } from '@omni-stack/core';
 
 function processMessage(message: CoreMessage) {
   console.log(message);

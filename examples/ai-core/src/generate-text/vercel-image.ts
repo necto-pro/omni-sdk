@@ -1,5 +1,5 @@
-import { vercel } from '@open-stack/vercel';
-import { generateText } from 'ai';
+import { vercel } from '@omni-stack/vercel';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 import fs from 'node:fs';
 

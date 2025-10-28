@@ -1,5 +1,5 @@
-import { mistral } from '@open-stack/mistral';
-import { embedMany } from 'ai';
+import { mistral } from '@omni-stack/mistral';
+import { embedMany } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

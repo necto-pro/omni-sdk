@@ -3,7 +3,7 @@ import {
   loadSetting,
   withUserAgentSuffix,
   getRuntimeEnvironmentUserAgent,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { VERSION } from '../version';
 
 export interface GoogleCredentials {

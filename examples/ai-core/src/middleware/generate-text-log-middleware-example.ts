@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { generateText, wrapLanguageModel } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText, wrapLanguageModel } from '@omni-stack/core';
 import 'dotenv/config';
 import { yourLogMiddleware } from './your-log-middleware';
 

@@ -5,25 +5,25 @@ contains language model support for the ElevenLabs chat and completion APIs and 
 
 ## Setup
 
-The ElevenLabs provider is available in the `@open-stack/elevenlabs` module. You can install it with
+The ElevenLabs provider is available in the `@omni-stack/elevenlabs` module. You can install it with
 
 ```bash
-npm i @open-stack/elevenlabs
+npm i @omni-stack/elevenlabs
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `elevenlabs` from `@open-stack/elevenlabs`:
+You can import the default provider instance `elevenlabs` from `@omni-stack/elevenlabs`:
 
 ```ts
-import { elevenlabs } from '@open-stack/elevenlabs';
+import { elevenlabs } from '@omni-stack/elevenlabs';
 ```
 
 ## Example
 
 ```ts
-import { elevenlabs } from '@open-stack/elevenlabs';
-import { experimental_transcribe as transcribe } from 'ai';
+import { elevenlabs } from '@omni-stack/elevenlabs';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 
 const { text } = await transcribe({
   model: elevenlabs.transcription('scribe_v1'),

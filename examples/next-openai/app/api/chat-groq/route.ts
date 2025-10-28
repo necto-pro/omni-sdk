@@ -1,5 +1,5 @@
-import { groq } from '@open-stack/groq';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;

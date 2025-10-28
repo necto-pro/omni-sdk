@@ -1,5 +1,5 @@
 import { readChat, saveChat } from '@util/chat-store';
-import { UI_MESSAGE_STREAM_HEADERS } from 'ai';
+import { UI_MESSAGE_STREAM_HEADERS } from '@omni-stack/core';
 import { after } from 'next/server';
 import { createResumableStreamContext } from 'resumable-stream';
 

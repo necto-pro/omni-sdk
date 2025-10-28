@@ -1,8 +1,8 @@
 'use client';
 
 import React, { createContext, useContext, ReactNode, useState } from 'react';
-import { Chat } from '@open-stack/react';
-import { DefaultChatTransport, UIMessage } from 'ai';
+import { Chat } from '@omni-stack/react';
+import { DefaultChatTransport, UIMessage } from '@omni-stack/core';
 
 interface ChatContextValue {
   // replace with your custom message type

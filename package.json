@@ -4,7 +4,7 @@
   "scripts": {
     "build": "turbo build --concurrency 16",
     "build:examples": "turbo build --filter=@example/*",
-    "build:packages": "turbo build --filter=@open-stack/* --filter=ai",
+    "build:packages": "turbo build --filter=@omni-stack/* --filter=ai",
     "changeset": "changeset",
     "clean": "turbo clean",
     "dev": "turbo dev --no-cache --concurrency 16 --continue",

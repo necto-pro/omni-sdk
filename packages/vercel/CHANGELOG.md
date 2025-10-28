@@ -1,22 +1,22 @@
-# @open-stack/vercel
+# @omni-stack/vercel
 
 ## 2.0.0-beta.27
 
 ### Patch Changes
 
 - Updated dependencies [d1bdadb]
-  - @open-stack/provider@3.0.0-beta.12
-  - @open-stack/openai-compatible@2.0.0-beta.27
-  - @open-stack/provider-utils@4.0.0-beta.26
+  - @omni-stack/provider@3.0.0-beta.12
+  - @omni-stack/openai-compatible@2.0.0-beta.27
+  - @omni-stack/provider-utils@4.0.0-beta.26
 
 ## 2.0.0-beta.26
 
 ### Patch Changes
 
 - Updated dependencies [4c44a5b]
-  - @open-stack/provider@3.0.0-beta.11
-  - @open-stack/openai-compatible@2.0.0-beta.26
-  - @open-stack/provider-utils@4.0.0-beta.25
+  - @omni-stack/provider@3.0.0-beta.11
+  - @omni-stack/openai-compatible@2.0.0-beta.26
+  - @omni-stack/provider-utils@4.0.0-beta.25
 
 ## 2.0.0-beta.25
 
@@ -24,115 +24,115 @@
 
 - 0c3b58b: fix(provider): add specificationVersion to ProviderV3
 - Updated dependencies [0c3b58b]
-  - @open-stack/openai-compatible@2.0.0-beta.25
-  - @open-stack/provider@3.0.0-beta.10
-  - @open-stack/provider-utils@4.0.0-beta.24
+  - @omni-stack/openai-compatible@2.0.0-beta.25
+  - @omni-stack/provider@3.0.0-beta.10
+  - @omni-stack/provider-utils@4.0.0-beta.24
 
 ## 2.0.0-beta.24
 
 ### Patch Changes
 
 - Updated dependencies [a755db5]
-  - @open-stack/provider@3.0.0-beta.9
-  - @open-stack/openai-compatible@2.0.0-beta.24
-  - @open-stack/provider-utils@4.0.0-beta.23
+  - @omni-stack/provider@3.0.0-beta.9
+  - @omni-stack/openai-compatible@2.0.0-beta.24
+  - @omni-stack/provider-utils@4.0.0-beta.23
 
 ## 2.0.0-beta.23
 
 ### Patch Changes
 
 - Updated dependencies [58920e0]
-  - @open-stack/provider-utils@4.0.0-beta.22
-  - @open-stack/openai-compatible@2.0.0-beta.23
+  - @omni-stack/provider-utils@4.0.0-beta.22
+  - @omni-stack/openai-compatible@2.0.0-beta.23
 
 ## 2.0.0-beta.22
 
 ### Patch Changes
 
 - Updated dependencies [293a6b7]
-  - @open-stack/provider-utils@4.0.0-beta.21
-  - @open-stack/openai-compatible@2.0.0-beta.22
+  - @omni-stack/provider-utils@4.0.0-beta.21
+  - @omni-stack/openai-compatible@2.0.0-beta.22
 
 ## 2.0.0-beta.21
 
 ### Patch Changes
 
 - Updated dependencies [fca786b]
-  - @open-stack/provider-utils@4.0.0-beta.20
-  - @open-stack/openai-compatible@2.0.0-beta.21
+  - @omni-stack/provider-utils@4.0.0-beta.20
+  - @omni-stack/openai-compatible@2.0.0-beta.21
 
 ## 2.0.0-beta.20
 
 ### Patch Changes
 
 - Updated dependencies [3794514]
-  - @open-stack/provider-utils@4.0.0-beta.19
-  - @open-stack/provider@3.0.0-beta.8
-  - @open-stack/openai-compatible@2.0.0-beta.20
+  - @omni-stack/provider-utils@4.0.0-beta.19
+  - @omni-stack/provider@3.0.0-beta.8
+  - @omni-stack/openai-compatible@2.0.0-beta.20
 
 ## 2.0.0-beta.19
 
 ### Patch Changes
 
 - Updated dependencies [81d4308]
-  - @open-stack/provider@3.0.0-beta.7
-  - @open-stack/openai-compatible@2.0.0-beta.19
-  - @open-stack/provider-utils@4.0.0-beta.18
+  - @omni-stack/provider@3.0.0-beta.7
+  - @omni-stack/openai-compatible@2.0.0-beta.19
+  - @omni-stack/provider-utils@4.0.0-beta.18
 
 ## 2.0.0-beta.18
 
 ### Patch Changes
 
 - Updated dependencies [703459a]
-  - @open-stack/provider-utils@4.0.0-beta.17
-  - @open-stack/openai-compatible@2.0.0-beta.18
+  - @omni-stack/provider-utils@4.0.0-beta.17
+  - @omni-stack/openai-compatible@2.0.0-beta.18
 
 ## 2.0.0-beta.17
 
 ### Patch Changes
 
 - Updated dependencies [b689220]
-  - @open-stack/openai-compatible@2.0.0-beta.17
+  - @omni-stack/openai-compatible@2.0.0-beta.17
 
 ## 2.0.0-beta.16
 
 ### Patch Changes
 
 - Updated dependencies [6306603]
-  - @open-stack/provider-utils@4.0.0-beta.16
-  - @open-stack/openai-compatible@2.0.0-beta.16
+  - @omni-stack/provider-utils@4.0.0-beta.16
+  - @omni-stack/openai-compatible@2.0.0-beta.16
 
 ## 2.0.0-beta.15
 
 ### Patch Changes
 
 - Updated dependencies [f0b2157]
-  - @open-stack/provider-utils@4.0.0-beta.15
-  - @open-stack/openai-compatible@2.0.0-beta.15
+  - @omni-stack/provider-utils@4.0.0-beta.15
+  - @omni-stack/openai-compatible@2.0.0-beta.15
 
 ## 2.0.0-beta.14
 
 ### Patch Changes
 
 - Updated dependencies [3b1d015]
-  - @open-stack/provider-utils@4.0.0-beta.14
-  - @open-stack/openai-compatible@2.0.0-beta.14
+  - @omni-stack/provider-utils@4.0.0-beta.14
+  - @omni-stack/openai-compatible@2.0.0-beta.14
 
 ## 2.0.0-beta.13
 
 ### Patch Changes
 
 - Updated dependencies [d116b4b]
-  - @open-stack/provider-utils@4.0.0-beta.13
-  - @open-stack/openai-compatible@2.0.0-beta.13
+  - @omni-stack/provider-utils@4.0.0-beta.13
+  - @omni-stack/openai-compatible@2.0.0-beta.13
 
 ## 2.0.0-beta.12
 
 ### Patch Changes
 
 - Updated dependencies [7e32fea]
-  - @open-stack/provider-utils@4.0.0-beta.12
-  - @open-stack/openai-compatible@2.0.0-beta.12
+  - @omni-stack/provider-utils@4.0.0-beta.12
+  - @omni-stack/openai-compatible@2.0.0-beta.12
 
 ## 2.0.0-beta.11
 
@@ -140,8 +140,8 @@
 
 - Updated dependencies [95f65c2]
 - Updated dependencies [95f65c2]
-  - @open-stack/openai-compatible@2.0.0-beta.11
-  - @open-stack/provider-utils@4.0.0-beta.11
+  - @omni-stack/openai-compatible@2.0.0-beta.11
+  - @omni-stack/provider-utils@4.0.0-beta.11
 
 ## 2.0.0-beta.10
 
@@ -152,25 +152,25 @@
 ### Patch Changes
 
 - Updated dependencies [dee8b05]
-  - @open-stack/openai-compatible@2.0.0-beta.10
-  - @open-stack/provider@3.0.0-beta.6
-  - @open-stack/provider-utils@4.0.0-beta.10
+  - @omni-stack/openai-compatible@2.0.0-beta.10
+  - @omni-stack/provider@3.0.0-beta.6
+  - @omni-stack/provider-utils@4.0.0-beta.10
 
 ## 1.1.0-beta.9
 
 ### Patch Changes
 
 - Updated dependencies [521c537]
-  - @open-stack/provider-utils@3.1.0-beta.9
-  - @open-stack/openai-compatible@1.1.0-beta.9
+  - @omni-stack/provider-utils@3.1.0-beta.9
+  - @omni-stack/openai-compatible@1.1.0-beta.9
 
 ## 1.1.0-beta.8
 
 ### Patch Changes
 
 - Updated dependencies [e06565c]
-  - @open-stack/provider-utils@3.1.0-beta.8
-  - @open-stack/openai-compatible@1.1.0-beta.8
+  - @omni-stack/provider-utils@3.1.0-beta.8
+  - @omni-stack/openai-compatible@1.1.0-beta.8
 
 ## 1.1.0-beta.7
 
@@ -178,9 +178,9 @@
 
 - Updated dependencies [046aa3b]
 - Updated dependencies [e8109d3]
-  - @open-stack/provider@2.1.0-beta.5
-  - @open-stack/openai-compatible@1.1.0-beta.7
-  - @open-stack/provider-utils@3.1.0-beta.7
+  - @omni-stack/provider@2.1.0-beta.5
+  - @omni-stack/openai-compatible@1.1.0-beta.7
+  - @omni-stack/provider-utils@3.1.0-beta.7
 
 ## 1.1.0-beta.6
 
@@ -188,9 +188,9 @@
 
 - Updated dependencies [0adc679]
 - Updated dependencies [2b0caef]
-  - @open-stack/openai-compatible@1.1.0-beta.6
-  - @open-stack/provider-utils@3.1.0-beta.6
-  - @open-stack/provider@2.1.0-beta.4
+  - @omni-stack/openai-compatible@1.1.0-beta.6
+  - @omni-stack/provider-utils@3.1.0-beta.6
+  - @omni-stack/provider@2.1.0-beta.4
 
 ## 1.1.0-beta.5
 
@@ -199,9 +199,9 @@
 - 8dac895: feat: `LanguageModelV3`
 - Updated dependencies [8dac895]
 - Updated dependencies [10c1322]
-  - @open-stack/openai-compatible@1.1.0-beta.5
-  - @open-stack/provider-utils@3.1.0-beta.5
-  - @open-stack/provider@2.1.0-beta.3
+  - @omni-stack/openai-compatible@1.1.0-beta.5
+  - @omni-stack/provider-utils@3.1.0-beta.5
+  - @omni-stack/provider@2.1.0-beta.3
 
 ## 1.1.0-beta.4
 
@@ -209,8 +209,8 @@
 
 - 4616b86: chore: update zod peer depenedency version
 - Updated dependencies [4616b86]
-  - @open-stack/openai-compatible@1.1.0-beta.4
-  - @open-stack/provider-utils@3.1.0-beta.4
+  - @omni-stack/openai-compatible@1.1.0-beta.4
+  - @omni-stack/provider-utils@3.1.0-beta.4
 
 ## 1.1.0-beta.3
 
@@ -219,9 +219,9 @@
 - ed329cb: feat: `Provider-V3`
 - Updated dependencies [ed329cb]
 - Updated dependencies [522f6b8]
-  - @open-stack/openai-compatible@1.1.0-beta.3
-  - @open-stack/provider@2.1.0-beta.2
-  - @open-stack/provider-utils@3.1.0-beta.3
+  - @omni-stack/openai-compatible@1.1.0-beta.3
+  - @omni-stack/provider@2.1.0-beta.2
+  - @omni-stack/provider-utils@3.1.0-beta.3
 
 ## 1.1.0-beta.2
 
@@ -229,17 +229,17 @@
 
 - 1cad0ab: feat: add provider version to user-agent header
 - Updated dependencies [0c4822d]
-  - @open-stack/openai-compatible@1.1.0-beta.2
-  - @open-stack/provider@2.1.0-beta.1
-  - @open-stack/provider-utils@3.1.0-beta.2
+  - @omni-stack/openai-compatible@1.1.0-beta.2
+  - @omni-stack/provider@2.1.0-beta.1
+  - @omni-stack/provider-utils@3.1.0-beta.2
 
 ## 1.1.0-beta.1
 
 ### Patch Changes
 
 - Updated dependencies [cbb1d35]
-  - @open-stack/provider-utils@3.1.0-beta.1
-  - @open-stack/openai-compatible@1.1.0-beta.1
+  - @omni-stack/provider-utils@3.1.0-beta.1
+  - @omni-stack/openai-compatible@1.1.0-beta.1
 
 ## 1.1.0-beta.0
 
@@ -250,92 +250,92 @@
 ### Patch Changes
 
 - Updated dependencies [78928cb]
-  - @open-stack/openai-compatible@1.1.0-beta.0
-  - @open-stack/provider@2.1.0-beta.0
-  - @open-stack/provider-utils@3.1.0-beta.0
+  - @omni-stack/openai-compatible@1.1.0-beta.0
+  - @omni-stack/provider@2.1.0-beta.0
+  - @omni-stack/provider-utils@3.1.0-beta.0
 
 ## 1.0.18
 
 ### Patch Changes
 
 - Updated dependencies [28363da]
-  - @open-stack/openai-compatible@1.0.18
+  - @omni-stack/openai-compatible@1.0.18
 
 ## 1.0.17
 
 ### Patch Changes
 
 - Updated dependencies [3aed04c]
-  - @open-stack/openai-compatible@1.0.17
+  - @omni-stack/openai-compatible@1.0.17
 
 ## 1.0.16
 
 ### Patch Changes
 
 - Updated dependencies [0294b58]
-  - @open-stack/provider-utils@3.0.9
-  - @open-stack/openai-compatible@1.0.16
+  - @omni-stack/provider-utils@3.0.9
+  - @omni-stack/openai-compatible@1.0.16
 
 ## 1.0.15
 
 ### Patch Changes
 
 - Updated dependencies [99964ed]
-  - @open-stack/provider-utils@3.0.8
-  - @open-stack/openai-compatible@1.0.15
+  - @omni-stack/provider-utils@3.0.8
+  - @omni-stack/openai-compatible@1.0.15
 
 ## 1.0.14
 
 ### Patch Changes
 
 - Updated dependencies [818f021]
-  - @open-stack/openai-compatible@1.0.14
+  - @omni-stack/openai-compatible@1.0.14
 
 ## 1.0.13
 
 ### Patch Changes
 
 - Updated dependencies [886e7cd]
-  - @open-stack/provider-utils@3.0.7
-  - @open-stack/openai-compatible@1.0.13
+  - @omni-stack/provider-utils@3.0.7
+  - @omni-stack/openai-compatible@1.0.13
 
 ## 1.0.12
 
 ### Patch Changes
 
 - Updated dependencies [1b5a3d3]
-  - @open-stack/provider-utils@3.0.6
-  - @open-stack/openai-compatible@1.0.12
+  - @omni-stack/provider-utils@3.0.6
+  - @omni-stack/openai-compatible@1.0.12
 
 ## 1.0.11
 
 ### Patch Changes
 
 - Updated dependencies [0857788]
-  - @open-stack/provider-utils@3.0.5
-  - @open-stack/openai-compatible@1.0.11
+  - @omni-stack/provider-utils@3.0.5
+  - @omni-stack/openai-compatible@1.0.11
 
 ## 1.0.10
 
 ### Patch Changes
 
 - Updated dependencies [7ca3aee]
-  - @open-stack/openai-compatible@1.0.10
+  - @omni-stack/openai-compatible@1.0.10
 
 ## 1.0.9
 
 ### Patch Changes
 
 - Updated dependencies [68751f9]
-  - @open-stack/provider-utils@3.0.4
-  - @open-stack/openai-compatible@1.0.9
+  - @omni-stack/provider-utils@3.0.4
+  - @omni-stack/openai-compatible@1.0.9
 
 ## 1.0.8
 
 ### Patch Changes
 
 - Updated dependencies [515c891]
-  - @open-stack/openai-compatible@1.0.8
+  - @omni-stack/openai-compatible@1.0.8
 
 ## 1.0.7
 
@@ -343,16 +343,16 @@
 
 - Updated dependencies [034e229]
 - Updated dependencies [f25040d]
-  - @open-stack/provider-utils@3.0.3
-  - @open-stack/openai-compatible@1.0.7
+  - @omni-stack/provider-utils@3.0.3
+  - @omni-stack/openai-compatible@1.0.7
 
 ## 1.0.6
 
 ### Patch Changes
 
 - Updated dependencies [38ac190]
-  - @open-stack/provider-utils@3.0.2
-  - @open-stack/openai-compatible@1.0.6
+  - @omni-stack/provider-utils@3.0.2
+  - @omni-stack/openai-compatible@1.0.6
 
 ## 1.0.5
 
@@ -360,7 +360,7 @@
 
 - Updated dependencies [8f8a521]
 - Updated dependencies [e92b78b]
-  - @open-stack/openai-compatible@1.0.5
+  - @omni-stack/openai-compatible@1.0.5
 
 ## 1.0.4
 
@@ -368,14 +368,14 @@
 
 - Updated dependencies [5f4c71f]
 - Updated dependencies [da314cd]
-  - @open-stack/openai-compatible@1.0.4
+  - @omni-stack/openai-compatible@1.0.4
 
 ## 1.0.3
 
 ### Patch Changes
 
 - Updated dependencies [a0934f8]
-  - @open-stack/openai-compatible@1.0.3
+  - @omni-stack/openai-compatible@1.0.3
 
 ## 1.0.2
 
@@ -383,15 +383,15 @@
 
 - Updated dependencies [b499112]
 - Updated dependencies [90d212f]
-  - @open-stack/openai-compatible@1.0.2
-  - @open-stack/provider-utils@3.0.1
+  - @omni-stack/openai-compatible@1.0.2
+  - @omni-stack/provider-utils@3.0.1
 
 ## 1.0.1
 
 ### Patch Changes
 
 - Updated dependencies [0e8ed8e]
-  - @open-stack/openai-compatible@1.0.1
+  - @omni-stack/openai-compatible@1.0.1
 
 ## 1.0.0
 
@@ -515,42 +515,42 @@
 - Updated dependencies [27deb4d]
 - Updated dependencies [c4df419]
 - Updated dependencies [281bb1c]
-  - @open-stack/provider-utils@3.0.0
-  - @open-stack/provider@2.0.0
-  - @open-stack/openai-compatible@1.0.0
+  - @omni-stack/provider-utils@3.0.0
+  - @omni-stack/provider@2.0.0
+  - @omni-stack/openai-compatible@1.0.0
 
 ## 1.0.0-beta.14
 
 ### Patch Changes
 
 - Updated dependencies [88a8ee5]
-  - @open-stack/provider-utils@3.0.0-beta.10
-  - @open-stack/openai-compatible@1.0.0-beta.13
+  - @omni-stack/provider-utils@3.0.0-beta.10
+  - @omni-stack/openai-compatible@1.0.0-beta.13
 
 ## 1.0.0-beta.13
 
 ### Patch Changes
 
 - Updated dependencies [27deb4d]
-  - @open-stack/provider@2.0.0-beta.2
-  - @open-stack/openai-compatible@1.0.0-beta.12
-  - @open-stack/provider-utils@3.0.0-beta.9
+  - @omni-stack/provider@2.0.0-beta.2
+  - @omni-stack/openai-compatible@1.0.0-beta.12
+  - @omni-stack/provider-utils@3.0.0-beta.9
 
 ## 1.0.0-beta.12
 
 ### Patch Changes
 
 - Updated dependencies [dd5fd43]
-  - @open-stack/provider-utils@3.0.0-beta.8
-  - @open-stack/openai-compatible@1.0.0-beta.11
+  - @omni-stack/provider-utils@3.0.0-beta.8
+  - @omni-stack/openai-compatible@1.0.0-beta.11
 
 ## 1.0.0-beta.11
 
 ### Patch Changes
 
 - Updated dependencies [e7fcc86]
-  - @open-stack/provider-utils@3.0.0-beta.7
-  - @open-stack/openai-compatible@1.0.0-beta.10
+  - @omni-stack/provider-utils@3.0.0-beta.7
+  - @omni-stack/openai-compatible@1.0.0-beta.10
 
 ## 1.0.0-beta.10
 
@@ -558,8 +558,8 @@
 
 - Updated dependencies [737f1e2]
 - Updated dependencies [ac34802]
-  - @open-stack/openai-compatible@1.0.0-beta.9
-  - @open-stack/provider-utils@3.0.0-beta.6
+  - @omni-stack/openai-compatible@1.0.0-beta.9
+  - @omni-stack/provider-utils@3.0.0-beta.6
 
 ## 1.0.0-beta.9
 
@@ -573,8 +573,8 @@
 
 - Updated dependencies [57edfcb]
 - Updated dependencies [383cbfa]
-  - @open-stack/provider-utils@3.0.0-beta.5
-  - @open-stack/openai-compatible@1.0.0-beta.8
+  - @omni-stack/provider-utils@3.0.0-beta.5
+  - @omni-stack/openai-compatible@1.0.0-beta.8
 
 ## 1.0.0-beta.7
 
@@ -582,37 +582,37 @@
 
 - 205077b: fix: improve Zod compatibility
 - Updated dependencies [205077b]
-  - @open-stack/openai-compatible@1.0.0-beta.7
-  - @open-stack/provider-utils@3.0.0-beta.4
+  - @omni-stack/openai-compatible@1.0.0-beta.7
+  - @omni-stack/provider-utils@3.0.0-beta.4
 
 ## 1.0.0-beta.6
 
 ### Patch Changes
 
 - Updated dependencies [281bb1c]
-  - @open-stack/openai-compatible@1.0.0-beta.6
+  - @omni-stack/openai-compatible@1.0.0-beta.6
 
 ## 1.0.0-beta.5
 
 ### Patch Changes
 
 - Updated dependencies [05d2819]
-  - @open-stack/provider-utils@3.0.0-beta.3
-  - @open-stack/openai-compatible@1.0.0-beta.5
+  - @omni-stack/provider-utils@3.0.0-beta.3
+  - @omni-stack/openai-compatible@1.0.0-beta.5
 
 ## 1.0.0-beta.4
 
 ### Patch Changes
 
 - Updated dependencies [1b101e1]
-  - @open-stack/openai-compatible@1.0.0-beta.4
+  - @omni-stack/openai-compatible@1.0.0-beta.4
 
 ## 1.0.0-beta.3
 
 ### Patch Changes
 
 - Updated dependencies [7b069ed]
-  - @open-stack/openai-compatible@1.0.0-beta.3
+  - @omni-stack/openai-compatible@1.0.0-beta.3
 
 ## 1.0.0-beta.2
 
@@ -621,8 +621,8 @@
 - Updated dependencies [0571b98]
 - Updated dependencies [39a4fab]
 - Updated dependencies [d1a034f]
-  - @open-stack/provider-utils@3.0.0-beta.2
-  - @open-stack/openai-compatible@1.0.0-beta.2
+  - @omni-stack/provider-utils@3.0.0-beta.2
+  - @omni-stack/openai-compatible@1.0.0-beta.2
 
 ## 1.0.0-beta.1
 
@@ -645,9 +645,9 @@
 - Updated dependencies [5e57fae]
 - Updated dependencies [71f938d]
 - Updated dependencies [28a5ed5]
-  - @open-stack/provider@2.0.0-beta.1
-  - @open-stack/provider-utils@3.0.0-beta.1
-  - @open-stack/openai-compatible@1.0.0-beta.1
+  - @omni-stack/provider@2.0.0-beta.1
+  - @omni-stack/provider-utils@3.0.0-beta.1
+  - @omni-stack/openai-compatible@1.0.0-beta.1
 
 ## 1.0.0-alpha.15
 
@@ -655,9 +655,9 @@
 
 - Updated dependencies [48d257a]
 - Updated dependencies [8ba77a7]
-  - @open-stack/provider@2.0.0-alpha.15
-  - @open-stack/provider-utils@3.0.0-alpha.15
-  - @open-stack/openai-compatible@1.0.0-alpha.15
+  - @omni-stack/provider@2.0.0-alpha.15
+  - @omni-stack/provider-utils@3.0.0-alpha.15
+  - @omni-stack/openai-compatible@1.0.0-alpha.15
 
 ## 1.0.0-alpha.14
 
@@ -666,18 +666,18 @@
 - Updated dependencies [b5da06a]
 - Updated dependencies [63f9e9b]
 - Updated dependencies [2e13791]
-  - @open-stack/provider@2.0.0-alpha.14
-  - @open-stack/openai-compatible@1.0.0-alpha.14
-  - @open-stack/provider-utils@3.0.0-alpha.14
+  - @omni-stack/provider@2.0.0-alpha.14
+  - @omni-stack/openai-compatible@1.0.0-alpha.14
+  - @omni-stack/provider-utils@3.0.0-alpha.14
 
 ## 1.0.0-alpha.13
 
 ### Patch Changes
 
 - Updated dependencies [68ecf2f]
-  - @open-stack/provider@2.0.0-alpha.13
-  - @open-stack/openai-compatible@1.0.0-alpha.13
-  - @open-stack/provider-utils@3.0.0-alpha.13
+  - @omni-stack/provider@2.0.0-alpha.13
+  - @omni-stack/openai-compatible@1.0.0-alpha.13
+  - @omni-stack/provider-utils@3.0.0-alpha.13
 
 ## 1.0.0-alpha.12
 
@@ -685,36 +685,36 @@
 
 - e2aceaf: feat: add raw chunk support
 - Updated dependencies [e2aceaf]
-  - @open-stack/openai-compatible@1.0.0-alpha.12
-  - @open-stack/provider@2.0.0-alpha.12
-  - @open-stack/provider-utils@3.0.0-alpha.12
+  - @omni-stack/openai-compatible@1.0.0-alpha.12
+  - @omni-stack/provider@2.0.0-alpha.12
+  - @omni-stack/provider-utils@3.0.0-alpha.12
 
 ## 1.0.0-alpha.11
 
 ### Patch Changes
 
 - Updated dependencies [c1e6647]
-  - @open-stack/provider@2.0.0-alpha.11
-  - @open-stack/openai-compatible@1.0.0-alpha.11
-  - @open-stack/provider-utils@3.0.0-alpha.11
+  - @omni-stack/provider@2.0.0-alpha.11
+  - @omni-stack/openai-compatible@1.0.0-alpha.11
+  - @omni-stack/provider-utils@3.0.0-alpha.11
 
 ## 1.0.0-alpha.10
 
 ### Patch Changes
 
 - Updated dependencies [c4df419]
-  - @open-stack/provider@2.0.0-alpha.10
-  - @open-stack/openai-compatible@1.0.0-alpha.10
-  - @open-stack/provider-utils@3.0.0-alpha.10
+  - @omni-stack/provider@2.0.0-alpha.10
+  - @omni-stack/openai-compatible@1.0.0-alpha.10
+  - @omni-stack/provider-utils@3.0.0-alpha.10
 
 ## 1.0.0-alpha.9
 
 ### Patch Changes
 
 - Updated dependencies [811dff3]
-  - @open-stack/provider@2.0.0-alpha.9
-  - @open-stack/openai-compatible@1.0.0-alpha.9
-  - @open-stack/provider-utils@3.0.0-alpha.9
+  - @omni-stack/provider@2.0.0-alpha.9
+  - @omni-stack/openai-compatible@1.0.0-alpha.9
+  - @omni-stack/provider-utils@3.0.0-alpha.9
 
 ## 1.0.0-alpha.8
 
@@ -722,27 +722,27 @@
 
 - Updated dependencies [4fef487]
 - Updated dependencies [9222aeb]
-  - @open-stack/provider-utils@3.0.0-alpha.8
-  - @open-stack/provider@2.0.0-alpha.8
-  - @open-stack/openai-compatible@1.0.0-alpha.8
+  - @omni-stack/provider-utils@3.0.0-alpha.8
+  - @omni-stack/provider@2.0.0-alpha.8
+  - @omni-stack/openai-compatible@1.0.0-alpha.8
 
 ## 1.0.0-alpha.7
 
 ### Patch Changes
 
 - Updated dependencies [5c56081]
-  - @open-stack/provider@2.0.0-alpha.7
-  - @open-stack/openai-compatible@1.0.0-alpha.7
-  - @open-stack/provider-utils@3.0.0-alpha.7
+  - @omni-stack/provider@2.0.0-alpha.7
+  - @omni-stack/openai-compatible@1.0.0-alpha.7
+  - @omni-stack/provider-utils@3.0.0-alpha.7
 
 ## 1.0.0-alpha.6
 
 ### Patch Changes
 
 - Updated dependencies [0d2c085]
-  - @open-stack/provider@2.0.0-alpha.6
-  - @open-stack/openai-compatible@1.0.0-alpha.6
-  - @open-stack/provider-utils@3.0.0-alpha.6
+  - @omni-stack/provider@2.0.0-alpha.6
+  - @omni-stack/openai-compatible@1.0.0-alpha.6
+  - @omni-stack/provider-utils@3.0.0-alpha.6
 
 ## 1.0.0-alpha.5
 

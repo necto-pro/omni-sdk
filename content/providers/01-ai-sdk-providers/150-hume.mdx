@@ -9,36 +9,36 @@ The [Hume](https://hume.ai/) provider contains language model support for the Hu
 
 ## Setup
 
-The Hume provider is available in the `@open-stack/hume` module. You can install it with
+The Hume provider is available in the `@omni-stack/hume` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @open-stack/hume" dark />
+    <Snippet text="pnpm add @omni-stack/hume" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @open-stack/hume" dark />
+    <Snippet text="npm install @omni-stack/hume" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @open-stack/hume" dark />
+    <Snippet text="yarn add @omni-stack/hume" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @open-stack/hume" dark />
+    <Snippet text="bun add @omni-stack/hume" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `hume` from `@open-stack/hume`:
+You can import the default provider instance `hume` from `@omni-stack/hume`:
 
 ```ts
-import { hume } from '@open-stack/hume';
+import { hume } from '@omni-stack/hume';
 ```
 
-If you need a customized setup, you can import `createHume` from `@open-stack/hume` and create a provider instance with your settings:
+If you need a customized setup, you can import `createHume` from `@omni-stack/hume` and create a provider instance with your settings:
 
 ```ts
-import { createHume } from '@open-stack/hume';
+import { createHume } from '@omni-stack/hume';
 
 const hume = createHume({
   // custom settings, e.g.
@@ -76,8 +76,8 @@ const model = hume.speech();
 You can also pass additional provider-specific options using the `providerOptions` argument. For example, supplying a voice to use for the generated audio.
 
 ```ts highlight="6"
-import { experimental_generateSpeech as generateSpeech } from 'ai';
-import { hume } from '@open-stack/hume';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
+import { hume } from '@omni-stack/hume';
 
 const result = await generateSpeech({
   model: hume.speech(),

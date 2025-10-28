@@ -1,5 +1,5 @@
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
-import { generateText, Output, stepCountIs } from 'ai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
+import { generateText, Output, stepCountIs } from '@omni-stack/core';
 import { z } from 'zod';
 import { print } from '../lib/print';
 import { run } from '../lib/run';

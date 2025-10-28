@@ -1,4 +1,4 @@
-import { InferSchema, Tool } from '@open-stack/provider-utils';
+import { InferSchema, Tool } from '@omni-stack/provider-utils';
 import { describe, expectTypeOf, it } from 'vitest';
 import { webSearch, webSearchOutputSchema } from './web-search';
 

@@ -1,5 +1,5 @@
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
-import { APICallError, streamText, UserModelMessage } from 'ai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
+import { APICallError, streamText, UserModelMessage } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

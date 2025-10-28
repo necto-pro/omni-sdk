@@ -1,5 +1,5 @@
 ---
-'@open-stack/gateway': patch
+'@omni-stack/gateway': patch
 ---
 
 getCredits style improvements

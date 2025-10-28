@@ -1,5 +1,5 @@
-import { deepseek } from '@open-stack/deepseek';
-import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
+import { deepseek } from '@omni-stack/deepseek';
+import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from '@omni-stack/core';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';
 

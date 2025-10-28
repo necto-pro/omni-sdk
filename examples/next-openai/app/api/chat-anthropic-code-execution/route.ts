@@ -1,6 +1,6 @@
 import { anthropicCodeExecutionAgent } from '@/agent/anthropic-code-execution-agent';
-import { AnthropicMessageMetadata } from '@open-stack/anthropic';
-import { createAgentUIStreamResponse, UIMessage, validateUIMessages } from 'ai';
+import { AnthropicMessageMetadata } from '@omni-stack/anthropic';
+import { createAgentUIStreamResponse, UIMessage, validateUIMessages } from '@omni-stack/core';
 
 export async function POST(request: Request) {
   const { messages } = await request.json();

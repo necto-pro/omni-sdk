@@ -1,10 +1,10 @@
 # Add new provider
 
-## `@open-stack/<provider>` vs 3rd party package
+## `@omni-stack/<provider>` vs 3rd party package
 
 Every provider is welcome to create a 3rd party package. We are happy to link to it from our documentation.
 
-If you would prefer a 1st party `@open-stack/<provider>` package, please create an issue first to discuss.
+If you would prefer a 1st party `@omni-stack/<provider>` package, please create an issue first to discuss.
 
 ## Example
 

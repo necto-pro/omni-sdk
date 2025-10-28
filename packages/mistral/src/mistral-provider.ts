@@ -3,13 +3,13 @@ import {
   LanguageModelV3,
   NoSuchModelError,
   ProviderV3,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { MistralChatLanguageModel } from './mistral-chat-language-model';
 import { MistralChatModelId } from './mistral-chat-options';
 import { MistralEmbeddingModel } from './mistral-embedding-model';

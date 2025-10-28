@@ -1,5 +1,5 @@
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
-import { stepCountIs, streamText, tool } from 'ai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
+import { stepCountIs, streamText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { RevaiTranscriptionModel } from './revai-transcription-model';
 import { createRevai } from './revai-provider';
 import { readFile } from 'node:fs/promises';

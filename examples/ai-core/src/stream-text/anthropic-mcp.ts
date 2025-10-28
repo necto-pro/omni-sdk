@@ -1,5 +1,5 @@
-import { anthropic, AnthropicProviderOptions } from '@open-stack/anthropic';
-import { streamText } from 'ai';
+import { anthropic, AnthropicProviderOptions } from '@omni-stack/anthropic';
+import { streamText } from '@omni-stack/core';
 import { run } from '../lib/run';
 import { print } from '../lib/print';
 import { printFullStream } from '../lib/print-full-stream';

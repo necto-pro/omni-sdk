@@ -1,5 +1,5 @@
-import { fireworks } from '@open-stack/fireworks';
-import { generateObject } from 'ai';
+import { fireworks } from '@omni-stack/fireworks';
+import { generateObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

@@ -1,9 +1,9 @@
-import { fireworks } from '@open-stack/fireworks';
+import { fireworks } from '@omni-stack/fireworks';
 import {
   extractReasoningMiddleware,
   generateText,
   wrapLanguageModel,
-} from 'ai';
+} from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

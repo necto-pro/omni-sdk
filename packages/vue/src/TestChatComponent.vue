@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { UIMessage } from 'ai';
+import { UIMessage } from '@omni-stack/core';
 import { reactive } from 'vue';
 import { Chat } from './chat.vue';
 

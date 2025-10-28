@@ -1,4 +1,4 @@
-import { ModelMessage } from 'ai';
+import { ModelMessage } from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Page() {

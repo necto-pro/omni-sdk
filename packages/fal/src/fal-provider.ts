@@ -4,12 +4,12 @@ import {
   ProviderV3,
   SpeechModelV3,
   TranscriptionModelV3,
-} from '@open-stack/provider';
-import type { FetchFunction } from '@open-stack/provider-utils';
+} from '@omni-stack/provider';
+import type { FetchFunction } from '@omni-stack/provider-utils';
 import {
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { FalImageModel } from './fal-image-model';
 import { FalImageModelId } from './fal-image-settings';
 import { FalTranscriptionModelId } from './fal-transcription-options';

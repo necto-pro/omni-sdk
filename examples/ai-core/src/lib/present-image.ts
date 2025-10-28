@@ -1,4 +1,4 @@
-import { Experimental_GeneratedImage as GeneratedImage } from 'ai';
+import { Experimental_GeneratedImage as GeneratedImage } from '@omni-stack/core';
 import fs from 'node:fs';
 import imageType from 'image-type';
 import path from 'node:path';

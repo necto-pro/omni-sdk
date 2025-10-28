@@ -1,4 +1,4 @@
-import { tool } from 'ai';
+import { tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 const conditions = [

@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { google } from '@open-stack/google';
-import { streamText } from 'ai';
+import { google } from '@omni-stack/google';
+import { streamText } from '@omni-stack/core';
 import fs from 'node:fs';
 
 const errorMessage = fs.readFileSync('data/error-message.txt', 'utf8');

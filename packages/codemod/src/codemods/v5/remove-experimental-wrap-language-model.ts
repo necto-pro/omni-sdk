@@ -6,7 +6,7 @@ export default createTransformer((fileInfo, api, options, context) => {
   // Track if the experimental function was imported and what local name it uses
   let importedLocalName: string | null = null;
 
-  // Find import declarations from 'ai' and rename experimental_wrapLanguageModel
+  // Find import declarations from '@omni-stack/core' and rename experimental_wrapLanguageModel
   root.find(j.ImportDeclaration).forEach(importPath => {
     const node = importPath.node;
 

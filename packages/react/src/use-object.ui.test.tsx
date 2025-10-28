@@ -1,7 +1,7 @@
 import {
   createTestServer,
   TestResponseController,
-} from '@open-stack/test-server/with-vitest';
+} from '@omni-stack/test-server/with-vitest';
 import '@testing-library/jest-dom/vitest';
 import { cleanup, render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';

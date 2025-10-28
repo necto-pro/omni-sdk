@@ -1,5 +1,5 @@
 import type { MyUIMessage } from '@/util/chat-schema';
-import { ChatStatus } from 'ai';
+import { ChatStatus } from '@omni-stack/core';
 
 export default function Message({
   message,

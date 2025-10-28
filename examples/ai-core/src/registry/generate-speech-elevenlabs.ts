@@ -1,4 +1,4 @@
-import { experimental_generateSpeech as generateSpeech } from 'ai';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
 import 'dotenv/config';
 import { registry } from './setup-registry';
 

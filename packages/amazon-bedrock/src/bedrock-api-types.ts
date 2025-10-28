@@ -1,4 +1,4 @@
-import { JSONObject } from '@open-stack/provider';
+import { JSONObject } from '@omni-stack/provider';
 
 export interface BedrockConverseInput {
   system?: BedrockSystemMessages;

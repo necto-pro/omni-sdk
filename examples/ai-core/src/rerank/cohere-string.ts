@@ -1,5 +1,5 @@
-import { cohere, CohereRerankingOptions } from '@open-stack/cohere';
-import { rerank } from 'ai';
+import { cohere, CohereRerankingOptions } from '@omni-stack/cohere';
+import { rerank } from '@omni-stack/core';
 import { run } from '../lib/run';
 import { print } from '../lib/print';
 

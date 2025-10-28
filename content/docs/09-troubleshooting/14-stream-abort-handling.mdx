@@ -45,7 +45,7 @@ Add `consumeStream` to the `toUIMessageStreamResponse` configuration. This ensur
 
 ```tsx
 // other imports...
-import { consumeStream } from 'ai';
+import { consumeStream } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages } = await req.json();

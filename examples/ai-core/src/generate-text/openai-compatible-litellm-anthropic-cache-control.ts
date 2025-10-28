@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { createOpenAICompatible } from '@open-stack/openai-compatible';
-import { generateText } from 'ai';
+import { createOpenAICompatible } from '@omni-stack/openai-compatible';
+import { generateText } from '@omni-stack/core';
 
 async function main() {
   // See ../../../litellm/README.md for instructions on how to run a LiteLLM

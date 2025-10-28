@@ -1,5 +1,5 @@
-import { createOpenAI } from '@open-stack/openai';
-import { convertToModelMessages, stepCountIs, streamText } from 'ai';
+import { createOpenAI } from '@omni-stack/openai';
+import { convertToModelMessages, stepCountIs, streamText } from '@omni-stack/core';
 import { z } from 'zod';
 
 export default defineLazyEventHandler(async () => {

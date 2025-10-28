@@ -1,7 +1,7 @@
-import { openai } from '@open-stack/openai';
-import { anthropic } from '@open-stack/anthropic';
-import { google } from '@open-stack/google';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { anthropic } from '@omni-stack/anthropic';
+import { google } from '@omni-stack/google';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 import { describe, expect, it, vi } from 'vitest';
 

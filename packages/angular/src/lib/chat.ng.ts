@@ -5,7 +5,7 @@ import {
   type UIMessage,
   type ChatInit,
   AbstractChat,
-} from 'ai';
+} from '@omni-stack/core';
 
 export class Chat<
   UI_MESSAGE extends UIMessage = UIMessage,

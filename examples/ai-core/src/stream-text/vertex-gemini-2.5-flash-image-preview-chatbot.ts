@@ -1,5 +1,5 @@
-import { vertex } from '@open-stack/google-vertex';
-import { ModelMessage, streamText } from 'ai';
+import { vertex } from '@omni-stack/google-vertex';
+import { ModelMessage, streamText } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { presentImages } from '../lib/present-image';

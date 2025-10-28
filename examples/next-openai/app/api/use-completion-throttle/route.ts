@@ -1,4 +1,4 @@
-import { createUIMessageStreamResponse, simulateReadableStream } from 'ai';
+import { createUIMessageStreamResponse, simulateReadableStream } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   return createUIMessageStreamResponse({

@@ -1,4 +1,4 @@
-import { LanguageModelV3FinishReason } from '@open-stack/provider';
+import { LanguageModelV3FinishReason } from '@omni-stack/provider';
 
 /**
  * @see https://docs.anthropic.com/en/api/messages#response-stop-reason

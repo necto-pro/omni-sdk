@@ -1,5 +1,5 @@
 import { z } from 'zod/v4';
-import { createJsonErrorResponseHandler } from '@open-stack/provider-utils';
+import { createJsonErrorResponseHandler } from '@omni-stack/provider-utils';
 
 export const lmntErrorDataSchema = z.object({
   error: z.object({

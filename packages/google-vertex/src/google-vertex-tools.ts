@@ -1,4 +1,4 @@
-import { googleTools } from '@open-stack/google/internal';
+import { googleTools } from '@omni-stack/google/internal';
 
 export const googleVertexTools = {
   googleSearch: googleTools.googleSearch,

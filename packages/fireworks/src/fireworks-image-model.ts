@@ -1,11 +1,11 @@
-import { ImageModelV3, ImageModelV3CallWarning } from '@open-stack/provider';
+import { ImageModelV3, ImageModelV3CallWarning } from '@omni-stack/provider';
 import {
   combineHeaders,
   createBinaryResponseHandler,
   createStatusCodeErrorResponseHandler,
   FetchFunction,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { FireworksImageModelId } from './fireworks-image-options';
 
 interface FireworksImageModelBackendConfig {

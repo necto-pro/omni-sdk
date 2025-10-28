@@ -2,7 +2,7 @@ import {
   isAbortError,
   safeValidateTypes,
   type FetchFunction,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import {
   asSchema,
   isDeepEqualData,
@@ -10,7 +10,7 @@ import {
   type DeepPartial,
   type FlexibleSchema,
   type InferSchema,
-} from 'ai';
+} from '@omni-stack/core';
 import swrv from 'swrv';
 import { ref, type Ref } from 'vue';
 

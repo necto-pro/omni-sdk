@@ -1,13 +1,13 @@
 import {
   createTestServer,
   TestResponseController,
-} from '@open-stack/test-server/with-vitest';
-import { mockId } from '@open-stack/provider-utils/test';
+} from '@omni-stack/test-server/with-vitest';
+import { mockId } from '@omni-stack/provider-utils/test';
 import {
   DefaultChatTransport,
   isToolUIPart,
   TextStreamChatTransport,
-} from 'ai';
+} from '@omni-stack/core';
 import { Chat } from './chat.ng';
 import { beforeEach, describe, it, expect, vi } from 'vitest';
 

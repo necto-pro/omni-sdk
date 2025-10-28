@@ -1,4 +1,4 @@
-import { FetchFunction } from '@open-stack/provider-utils';
+import { FetchFunction } from '@omni-stack/provider-utils';
 
 export type FalConfig = {
   provider: string;

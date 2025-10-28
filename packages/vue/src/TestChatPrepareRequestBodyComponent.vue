@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { DefaultChatTransport } from 'ai';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { computed, ref } from 'vue';
 import { Chat } from './chat.vue';
 

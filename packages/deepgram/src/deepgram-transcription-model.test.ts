@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { DeepgramTranscriptionModel } from './deepgram-transcription-model';
 import { createDeepgram } from './deepgram-provider';
 import { readFile } from 'node:fs/promises';

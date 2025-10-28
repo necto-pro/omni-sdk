@@ -1,4 +1,4 @@
-import { createJsonErrorResponseHandler } from '@open-stack/provider-utils';
+import { createJsonErrorResponseHandler } from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 
 const mistralErrorDataSchema = z.object({

@@ -1,5 +1,5 @@
-import { deepseek } from '@open-stack/deepseek';
-import { generateText } from 'ai';
+import { deepseek } from '@omni-stack/deepseek';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

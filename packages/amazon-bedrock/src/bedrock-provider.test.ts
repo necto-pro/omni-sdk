@@ -3,7 +3,7 @@ import { createAmazonBedrock } from './bedrock-provider';
 import { BedrockChatLanguageModel } from './bedrock-chat-language-model';
 import { BedrockEmbeddingModel } from './bedrock-embedding-model';
 import { BedrockImageModel } from './bedrock-image-model';
-import { anthropicTools } from '@open-stack/anthropic/internal';
+import { anthropicTools } from '@omni-stack/anthropic/internal';
 
 // Add type assertions for the mocked classes
 const BedrockChatLanguageModelMock =
@@ -28,8 +28,8 @@ vi.mock('./bedrock-sigv4-fetch', () => ({
   createApiKeyFetchFunction: vi.fn(),
 }));
 
-vi.mock('@open-stack/anthropic', async importOriginal => {
-  const original = await importOriginal<typeof import('@open-stack/anthropic')>();
+vi.mock('@omni-stack/anthropic', async importOriginal => {
+  const original = await importOriginal<typeof import('@omni-stack/anthropic')>();
   return {
     ...original,
     anthropicTools: { mock: 'tools' },
@@ -37,9 +37,9 @@ vi.mock('@open-stack/anthropic', async importOriginal => {
   };
 });
 
-vi.mock('@open-stack/provider-utils', async importOriginal => {
+vi.mock('@omni-stack/provider-utils', async importOriginal => {
   const original =
-    await importOriginal<typeof import('@open-stack/provider-utils')>();
+    await importOriginal<typeof import('@omni-stack/provider-utils')>();
   return {
     ...original,
     loadSetting: vi
@@ -69,7 +69,7 @@ import {
   createSigV4FetchFunction,
   createApiKeyFetchFunction,
 } from './bedrock-sigv4-fetch';
-import { loadOptionalSetting } from '@open-stack/provider-utils';
+import { loadOptionalSetting } from '@omni-stack/provider-utils';
 
 const mockCreateSigV4FetchFunction = vi.mocked(createSigV4FetchFunction);
 const mockCreateApiKeyFetchFunction = vi.mocked(createApiKeyFetchFunction);

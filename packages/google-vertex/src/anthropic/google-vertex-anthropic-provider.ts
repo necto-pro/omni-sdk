@@ -2,17 +2,17 @@ import {
   LanguageModelV3,
   NoSuchModelError,
   ProviderV3,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   Resolvable,
   loadOptionalSetting,
   withoutTrailingSlash,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import {
   anthropicTools,
   AnthropicMessagesLanguageModel,
-} from '@open-stack/anthropic/internal';
+} from '@omni-stack/anthropic/internal';
 import { GoogleVertexAnthropicMessagesModelId } from './google-vertex-anthropic-messages-options';
 export interface GoogleVertexAnthropicProvider extends ProviderV3 {
   /**

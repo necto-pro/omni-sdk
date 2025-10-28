@@ -1,5 +1,5 @@
-import { perplexity } from '@open-stack/perplexity';
-import { streamText } from 'ai';
+import { perplexity } from '@omni-stack/perplexity';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

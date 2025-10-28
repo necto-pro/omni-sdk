@@ -9,7 +9,7 @@ import {
   LanguageModelV3Usage,
   SharedV3ProviderMetadata,
   LanguageModelV3FunctionTool,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   ParseResult,
@@ -20,7 +20,7 @@ import {
   parseProviderOptions,
   postJsonToApi,
   resolve,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import {
   BEDROCK_STOP_REASONS,

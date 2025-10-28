@@ -1,5 +1,5 @@
 import { dynamicWeatherWithApprovalAgent } from '@/agent/dynamic-weather-with-approval-agent';
-import { createAgentUIStreamResponse } from 'ai';
+import { createAgentUIStreamResponse } from '@omni-stack/core';
 
 export async function POST(request: Request) {
   const body = await request.json();

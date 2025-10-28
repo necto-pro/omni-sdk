@@ -1,5 +1,5 @@
-import { baseten } from '@open-stack/baseten';
-import { generateText } from 'ai';
+import { baseten } from '@omni-stack/baseten';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

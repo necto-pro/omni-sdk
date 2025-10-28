@@ -1,4 +1,4 @@
-import { streamObject } from 'ai';
+import { streamObject } from '@omni-stack/core';
 import { convertArrayToReadableStream, MockLanguageModelV3 } from 'ai/test';
 import 'dotenv/config';
 import { z } from 'zod';

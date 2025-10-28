@@ -81,7 +81,7 @@ You can use Jina embedding models to generate embeddings with the `embed` or `em
 
 ```ts
 import { jina } from 'jina-ai-provider';
-import { embedMany } from 'ai';
+import { embedMany } from '@omni-stack/core';
 
 const textEmbeddingModel = jina.textEmbeddingModel('jina-embeddings-v3');
 
@@ -113,7 +113,7 @@ You can create models that call the Jina multimodal (text + image) embeddings AP
 
 ```ts
 import { jina, type MultimodalEmbeddingInput } from 'jina-ai-provider';
-import { embedMany } from 'ai';
+import { embedMany } from '@omni-stack/core';
 
 const multimodalModel = jina.multiModalEmbeddingModel('jina-clip-v2');
 

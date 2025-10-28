@@ -1,11 +1,11 @@
-import { ImageModelV3, ImageModelV3CallWarning } from '@open-stack/provider';
+import { ImageModelV3, ImageModelV3CallWarning } from '@omni-stack/provider';
 import {
   FetchFunction,
   combineHeaders,
   createJsonErrorResponseHandler,
   createJsonResponseHandler,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { DeepInfraImageModelId } from './deepinfra-image-settings';
 import { z } from 'zod/v4';
 

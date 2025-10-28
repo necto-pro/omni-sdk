@@ -26,16 +26,16 @@ The code snippets below will use the [AI SDK's OpenAI provider](/providers/ai-sd
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @open-stack/openai langsmith" dark />
+    <Snippet text="pnpm add @omni-stack/openai langsmith" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @open-stack/openai langsmith" dark />
+    <Snippet text="npm install @omni-stack/openai langsmith" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @open-stack/openai langsmith" dark />
+    <Snippet text="yarn add @omni-stack/openai langsmith" dark />
   </Tab>
   <Tab>
-    <Snippet text="bun add @open-stack/openai langsmith" dark />
+    <Snippet text="bun add @omni-stack/openai langsmith" dark />
   </Tab>
 </Tabs>
 
@@ -53,8 +53,8 @@ export OPENAI_API_KEY=<your-openai-api-key> # The examples use OpenAI (replace w
 To start tracing, you will need to import and call the `wrapAISDK` method at the start of your code:
 
 ```ts highlight="6-7"
-import { openai } from '@open-stack/openai';
-import * as ai from 'ai';
+import { openai } from '@omni-stack/openai';
+import * as ai from '@omni-stack/core';
 
 import { wrapAISDK } from 'langsmith/experimental/vercel';
 
@@ -72,9 +72,9 @@ You should see a trace in your LangSmith dashboard [like this one](https://smith
 You can also trace runs with tool calls:
 
 ```ts
-import * as ai from 'ai';
-import { tool, stepCountIs } from 'ai';
-import { openai } from '@open-stack/openai';
+import * as ai from '@omni-stack/core';
+import { tool, stepCountIs } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 import { wrapAISDK } from 'langsmith/experimental/vercel';
@@ -118,9 +118,9 @@ You can wrap `traceable` calls around AI SDK calls or within AI SDK tool calls. 
 want to group runs together in LangSmith:
 
 ```ts
-import * as ai from 'ai';
-import { tool, stepCountIs } from 'ai';
-import { openai } from '@open-stack/openai';
+import * as ai from '@omni-stack/core';
+import { tool, stepCountIs } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { z } from 'zod';
 
 import { traceable } from 'langsmith/traceable';

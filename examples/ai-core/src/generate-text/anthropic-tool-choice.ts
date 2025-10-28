@@ -1,5 +1,5 @@
-import { anthropic } from '@open-stack/anthropic';
-import { generateText, tool } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { generateText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import { weatherTool } from '../tools/weather-tool';

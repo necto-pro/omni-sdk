@@ -4,7 +4,7 @@ import {
   normalizeHeaders,
   withUserAgentSuffix,
   getRuntimeEnvironmentUserAgent,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { AwsV4Signer } from 'aws4fetch';
 import { VERSION } from './version';
 

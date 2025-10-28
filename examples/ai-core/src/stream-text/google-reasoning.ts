@@ -1,5 +1,5 @@
-import { google, GoogleGenerativeAIProviderOptions } from '@open-stack/google';
-import { stepCountIs, streamText } from 'ai';
+import { google, GoogleGenerativeAIProviderOptions } from '@omni-stack/google';
+import { stepCountIs, streamText } from '@omni-stack/core';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';
 

@@ -1,5 +1,5 @@
-import { lmnt } from '@open-stack/lmnt';
-import { experimental_generateSpeech as generateSpeech } from 'ai';
+import { lmnt } from '@omni-stack/lmnt';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
 import 'dotenv/config';
 import { saveAudioFile } from '../lib/save-audio';
 

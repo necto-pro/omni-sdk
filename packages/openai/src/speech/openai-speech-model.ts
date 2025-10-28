@@ -1,10 +1,10 @@
-import { SpeechModelV3, SpeechModelV3CallWarning } from '@open-stack/provider';
+import { SpeechModelV3, SpeechModelV3CallWarning } from '@omni-stack/provider';
 import {
   combineHeaders,
   createBinaryResponseHandler,
   parseProviderOptions,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { OpenAIConfig } from '../openai-config';
 import { openaiFailedResponseHandler } from '../openai-error';
 import { OpenAISpeechAPITypes } from './openai-speech-api';

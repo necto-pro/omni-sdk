@@ -1,5 +1,5 @@
 {
-  "name": "@open-stack/angular",
+  "name": "@omni-stack/angular",
   "version": "2.0.0-beta.81",
   "description": "Angular implementation of ai-sdk.",
   "license": "Apache-2.0",
@@ -30,11 +30,11 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@open-stack/provider-utils": "workspace:*",
-    "ai": "workspace:*"
+    "@omni-stack/provider-utils": "workspace:*",
+    "@omni-stack/core": "workspace:*"
   },
   "devDependencies": {
-    "@open-stack/test-server": "workspace:*",
+    "@omni-stack/test-server": "workspace:*",
     "@types/node": "20.17.24",
     "@vercel/ai-tsconfig": "workspace:*",
     "eslint": "8.57.1",

@@ -1,10 +1,10 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   createUIMessageStream,
   pipeAgentUIStreamToResponse,
   pipeUIMessageStreamToResponse,
   streamText,
-} from 'ai';
+} from '@omni-stack/core';
 import 'dotenv/config';
 import express, { Request, Response } from 'express';
 import { openaiWebSearchAgent } from './openai-web-search-agent.js';

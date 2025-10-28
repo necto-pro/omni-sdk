@@ -1,5 +1,5 @@
 import { openaiWebSearchAgent } from '@/agent/openai-web-search-agent';
-import { createAgentUIStreamResponse } from 'ai';
+import { createAgentUIStreamResponse } from '@omni-stack/core';
 
 export async function POST(req: Request) {
   const { messages } = await req.json();

@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { generateText, Experimental_Warning } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText, Experimental_Warning } from '@omni-stack/core';
 import 'dotenv/config';
 
 // globalThis.AI_SDK_LOG_WARNINGS = false;

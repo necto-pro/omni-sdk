@@ -1,14 +1,14 @@
 import {
   createTestServer,
   TestResponseController,
-} from '@open-stack/test-server/with-vitest';
-import { mockId } from '@open-stack/provider-utils/test';
+} from '@omni-stack/test-server/with-vitest';
+import { mockId } from '@omni-stack/provider-utils/test';
 import {
   DefaultChatTransport,
   isToolUIPart,
   TextStreamChatTransport,
   type UIMessageChunk,
-} from 'ai';
+} from '@omni-stack/core';
 import { flushSync } from 'svelte';
 import { Chat } from './chat.svelte.js';
 import { promiseWithResolvers } from './utils.svelte.js';

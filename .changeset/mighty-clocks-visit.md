@@ -1,5 +1,5 @@
 ---
-'@open-stack/amazon-bedrock': patch
+'@omni-stack/amazon-bedrock': patch
 ---
 
 chore: add model ID for Haiku 4.5

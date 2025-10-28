@@ -9,36 +9,36 @@ The [OpenAI](https://openai.com/) provider contains language model support for t
 
 ## Setup
 
-The OpenAI provider is available in the `@open-stack/openai` module. You can install it with
+The OpenAI provider is available in the `@omni-stack/openai` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @open-stack/openai" dark />
+    <Snippet text="pnpm add @omni-stack/openai" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @open-stack/openai" dark />
+    <Snippet text="npm install @omni-stack/openai" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @open-stack/openai" dark />
+    <Snippet text="yarn add @omni-stack/openai" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @open-stack/openai" dark />
+    <Snippet text="bun add @omni-stack/openai" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `openai` from `@open-stack/openai`:
+You can import the default provider instance `openai` from `@omni-stack/openai`:
 
 ```ts
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 ```
 
-If you need a customized setup, you can import `createOpenAI` from `@open-stack/openai` and create a provider instance with your settings:
+If you need a customized setup, you can import `createOpenAI` from `@omni-stack/openai` and create a provider instance with your settings:
 
 ```ts
-import { createOpenAI } from '@open-stack/openai';
+import { createOpenAI } from '@omni-stack/openai';
 
 const openai = createOpenAI({
   // custom settings, e.g.
@@ -114,8 +114,8 @@ If you want to explicitly select a specific model API, you can use `.responses`,
 You can use OpenAI language models to generate text with the `generateText` function:
 
 ```ts
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: openai('gpt-5'),
@@ -138,8 +138,8 @@ Further configuration can be done using OpenAI provider options.
 You can validate the provider options using the `OpenAIResponsesProviderOptions` type.
 
 ```ts
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: openai('gpt-5'), // or openai.responses('gpt-5')
@@ -247,8 +247,8 @@ The following OpenAI-specific metadata is returned:
 For reasoning models like `gpt-5`, you can enable reasoning summaries to see the model's thought process. Different models support different summarizers—for example, `o4-mini` supports detailed summaries. Set `reasoningSummary: "auto"` to automatically receive the richest level available.
 
 ```ts highlight="8-9,16"
-import { openai } from '@open-stack/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: openai('gpt-5'),
@@ -272,8 +272,8 @@ for await (const part of result.fullStream) {
 For non-streaming calls with `generateText`, the reasoning summaries are available in the `reasoning` field of the response:
 
 ```ts highlight="8-9,13"
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: openai('gpt-5'),
@@ -294,8 +294,8 @@ Learn more about reasoning summaries in the [OpenAI documentation](https://platf
 You can control the length and detail of model responses using the `textVerbosity` parameter:
 
 ```ts
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: openai('gpt-5-mini'),
@@ -390,8 +390,8 @@ Availability is restricted to specific models (for example, `gpt-5` variants).
 You can use the image tool with either `generateText` or `streamText`:
 
 ```ts
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: openai('gpt-5'),
@@ -410,8 +410,8 @@ for (const toolResult of result.staticToolResults) {
 ```
 
 ```ts
-import { openai } from '@open-stack/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 
 const result = streamText({
   model: openai('gpt-5'),
@@ -450,8 +450,8 @@ The OpenAI responses API supports the code interpreter tool through the `openai.
 This allows models to write and execute Python code.
 
 ```ts
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: openai('gpt-5'),
@@ -483,8 +483,8 @@ The OpenAI responses API support the local shell tool for Codex models through t
 Local shell is a tool that allows agents to run shell commands locally on a machine you or the user provides.
 
 ```ts
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: openai.responses('gpt-5-codex'),
@@ -657,7 +657,7 @@ OpenAI chat models support also some model specific provider options that are no
 You can pass them in the `providerOptions` argument:
 
 ```ts
-import { openai, type OpenAIChatLanguageModelOptions } from '@open-stack/openai';
+import { openai, type OpenAIChatLanguageModelOptions } from '@omni-stack/openai';
 
 const model = openai.chat('gpt-5');
 
@@ -783,8 +783,8 @@ They support additional settings and response metadata:
 - You can use response `providerMetadata` to access the number of reasoning tokens that the model generated.
 
 ```ts highlight="4,7-11,17"
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const { text, usage, providerMetadata } = await generateText({
   model: openai.chat('gpt-5'),
@@ -825,8 +825,8 @@ Structured outputs are enabled by default.
 You can disable them by setting the `structuredOutputs` option to `false`.
 
 ```ts highlight="7"
-import { openai } from '@open-stack/openai';
-import { generateObject } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const result = await generateObject({
@@ -871,8 +871,8 @@ OpenAI provides logprobs information for completion/chat models.
 You can access it in the `providerMetadata` object.
 
 ```ts highlight="11"
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: openai.chat('gpt-5'),
@@ -1072,8 +1072,8 @@ If you want to store a generation for use in the distillation process, you can a
 This will save the generation to the OpenAI platform for later use in distillation.
 
 ```typescript highlight="9-16"
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {
@@ -1111,8 +1111,8 @@ including `gpt-4o` and `gpt-4o-mini`.
   to an hour.
 
 ```ts highlight="11"
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const { text, usage, providerMetadata } = await generateText({
   model: openai.chat('gpt-4o-mini'),
@@ -1128,8 +1128,8 @@ console.log(`usage:`, {
 To improve cache hit rates, you can manually control caching using the `promptCacheKey` option:
 
 ```ts highlight="7-11"
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const { text, usage, providerMetadata } = await generateText({
   model: openai.chat('gpt-5'),
@@ -1157,8 +1157,8 @@ With the `gpt-4o-audio-preview` model, you can pass audio files to the model.
 </Note>
 
 ```ts highlight="12-14"
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 
 const result = await generateText({
   model: openai.chat('gpt-4o-audio-preview'),
@@ -1287,8 +1287,8 @@ OpenAI embedding models support several additional provider options.
 You can pass them as an options argument:
 
 ```ts
-import { openai } from '@open-stack/openai';
-import { embed } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: openai.textEmbedding('text-embedding-3-large'),
@@ -1377,8 +1377,8 @@ const model = openai.transcription('whisper-1');
 You can also pass additional provider-specific options using the `providerOptions` argument. For example, supplying the input language in ISO-639-1 (e.g. `en`) format will improve accuracy and latency.
 
 ```ts highlight="6"
-import { experimental_transcribe as transcribe } from 'ai';
-import { openai } from '@open-stack/openai';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const result = await transcribe({
   model: openai.transcription('whisper-1'),
@@ -1390,8 +1390,8 @@ const result = await transcribe({
 To get word-level timestamps, specify the granularity:
 
 ```ts highlight="8-9"
-import { experimental_transcribe as transcribe } from 'ai';
-import { openai } from '@open-stack/openai';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const result = await transcribe({
   model: openai.transcription('whisper-1'),
@@ -1454,8 +1454,8 @@ const model = openai.speech('tts-1');
 You can also pass additional provider-specific options using the `providerOptions` argument. For example, supplying a voice to use for the generated audio.
 
 ```ts highlight="6"
-import { experimental_generateSpeech as generateSpeech } from 'ai';
-import { openai } from '@open-stack/openai';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const result = await generateSpeech({
   model: openai.speech('tts-1'),

@@ -1,6 +1,6 @@
 'use client';
 
-import { readStreamableValue } from '@open-stack/rsc';
+import { readStreamableValue } from '@omni-stack/rsc';
 import { useState } from 'react';
 import { generateCompletion } from './generate-completion';
 

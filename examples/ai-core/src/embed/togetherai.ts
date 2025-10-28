@@ -1,5 +1,5 @@
-import { togetherai } from '@open-stack/togetherai';
-import { embed } from 'ai';
+import { togetherai } from '@omni-stack/togetherai';
+import { embed } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

@@ -1,6 +1,6 @@
-import { openai as provider } from '@open-stack/openai';
-import { LanguageModelV3 } from '@open-stack/provider';
-import { APICallError } from 'ai';
+import { openai as provider } from '@omni-stack/openai';
+import { LanguageModelV3 } from '@omni-stack/provider';
+import { APICallError } from '@omni-stack/core';
 import 'dotenv/config';
 import { expect } from 'vitest';
 import {

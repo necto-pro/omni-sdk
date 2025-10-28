@@ -1,8 +1,8 @@
 import {
   EmbeddingModelV3Embedding,
   LanguageModelV3Prompt,
-} from '@open-stack/provider';
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+} from '@omni-stack/provider';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { createAzure } from './azure-openai-provider';
 import { describe, it, expect, vi } from 'vitest';
 

@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { createOpenAI } from '../openai-provider';
 import { OpenAISpeechModel } from './openai-speech-model';
 import { describe, it, expect, vi } from 'vitest';

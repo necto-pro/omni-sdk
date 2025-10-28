@@ -2,12 +2,12 @@ import {
   TranscriptionModelV3,
   ProviderV3,
   NoSuchModelError,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { RevaiTranscriptionModel } from './revai-transcription-model';
 import { RevaiTranscriptionModelId } from './revai-transcription-options';
 import { VERSION } from './version';

@@ -1,7 +1,7 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/streamableHttp.js';
-import { convertToModelMessages, stepCountIs, streamText } from 'ai';
-import { experimental_createMCPClient } from '@open-stack/mcp';
+import { convertToModelMessages, stepCountIs, streamText } from '@omni-stack/core';
+import { experimental_createMCPClient } from '@omni-stack/mcp';
 
 export async function POST(req: Request) {
   const requestUrl = new URL(req.url);

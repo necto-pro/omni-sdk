@@ -1,4 +1,4 @@
-import { UIToolInvocation, tool } from 'ai';
+import { UIToolInvocation, tool } from '@omni-stack/core';
 import * as v from 'valibot';
 
 function randomWeather() {

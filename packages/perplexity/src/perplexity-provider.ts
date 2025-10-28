@@ -2,14 +2,14 @@ import {
   LanguageModelV3,
   NoSuchModelError,
   ProviderV3,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   generateId,
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { PerplexityLanguageModel } from './perplexity-language-model';
 import { PerplexityLanguageModelId } from './perplexity-language-model-options';
 import { VERSION } from './version';

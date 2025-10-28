@@ -1,6 +1,6 @@
-import { openai } from '@open-stack/openai';
-import { LanguageModelV3Middleware } from '@open-stack/provider';
-import { generateText, wrapLanguageModel } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { LanguageModelV3Middleware } from '@omni-stack/provider';
+import { generateText, wrapLanguageModel } from '@omni-stack/core';
 import 'dotenv/config';
 
 const logProviderMetadataMiddleware: LanguageModelV3Middleware = {

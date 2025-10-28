@@ -16,14 +16,14 @@ allowing you to have different steps in a single assistant UI message.
 ## Server
 
 ```typescript filename='app/api/chat/route.ts'
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   convertToModelMessages,
   createUIMessageStream,
   createUIMessageStreamResponse,
   streamText,
   tool,
-} from 'ai';
+} from '@omni-stack/core';
 import { z } from 'zod';
 
 export async function POST(req: Request) {
@@ -78,7 +78,7 @@ export async function POST(req: Request) {
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import { useState } from 'react';
 
 export default function Chat() {

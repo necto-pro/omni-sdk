@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { useChat, DefaultChatTransport } from '@open-stack/react';
+import { useChat, DefaultChatTransport } from '@omni-stack/react';
 
 export function ChatWithApiString() {
   const { messages, sendMessage } = useChat({
@@ -65,7 +65,7 @@ export function EmptyUseChat() {
 }
 
 // Test with new import syntax
-import { useChat as useChatNew } from '@open-stack/react';
+import { useChat as useChatNew } from '@omni-stack/react';
 
 export function ChatWithNewImportSyntax() {
   const { messages, sendMessage } = useChatNew({

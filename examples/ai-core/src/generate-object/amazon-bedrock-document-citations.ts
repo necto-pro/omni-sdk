@@ -1,5 +1,5 @@
-import { bedrock, BedrockProviderOptions } from '@open-stack/amazon-bedrock';
-import { generateObject } from 'ai';
+import { bedrock, BedrockProviderOptions } from '@omni-stack/amazon-bedrock';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 import fs from 'fs';
 import 'dotenv/config';

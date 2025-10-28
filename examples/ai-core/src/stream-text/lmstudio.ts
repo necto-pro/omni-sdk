@@ -1,5 +1,5 @@
-import { createOpenAICompatible } from '@open-stack/openai-compatible';
-import { streamText } from 'ai';
+import { createOpenAICompatible } from '@omni-stack/openai-compatible';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 const lmstudio = createOpenAICompatible({

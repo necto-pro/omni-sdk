@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 globalThis.AI_SDK_DEFAULT_PROVIDER = openai;

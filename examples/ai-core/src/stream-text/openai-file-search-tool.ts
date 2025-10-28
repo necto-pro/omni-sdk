@@ -1,5 +1,5 @@
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
-import { streamText } from 'ai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 import { run } from '../lib/run';
 
 run(async () => {

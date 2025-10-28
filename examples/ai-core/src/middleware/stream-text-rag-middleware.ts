@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { streamText, wrapLanguageModel } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText, wrapLanguageModel } from '@omni-stack/core';
 import 'dotenv/config';
 import { yourRagMiddleware } from './your-rag-middleware';
 

@@ -1,4 +1,4 @@
-import { StreamTextResult } from 'ai';
+import { StreamTextResult } from '@omni-stack/core';
 import fs from 'fs';
 
 export async function saveRawChunks({

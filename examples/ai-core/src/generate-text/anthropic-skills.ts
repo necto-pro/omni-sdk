@@ -2,8 +2,8 @@ import {
   anthropic,
   AnthropicMessageMetadata,
   AnthropicProviderOptions,
-} from '@open-stack/anthropic';
-import { generateText } from 'ai';
+} from '@omni-stack/anthropic';
+import { generateText } from '@omni-stack/core';
 import { print } from '../lib/print';
 import { run } from '../lib/run';
 

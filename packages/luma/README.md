@@ -16,25 +16,25 @@ For more detailed information about the Luma models and their capabilities, plea
 
 ## Setup
 
-The Luma provider is available in the `@open-stack/luma` module. You can install it with:
+The Luma provider is available in the `@omni-stack/luma` module. You can install it with:
 
 ```bash
-npm i @open-stack/luma
+npm i @omni-stack/luma
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `luma` from `@open-stack/luma`:
+You can import the default provider instance `luma` from `@omni-stack/luma`:
 
 ```ts
-import { luma } from '@open-stack/luma';
+import { luma } from '@omni-stack/luma';
 ```
 
 ## Image Generation Example
 
 ```ts
-import { luma } from '@open-stack/luma';
-import { experimental_generateImage as generateImage } from 'ai';
+import { luma } from '@omni-stack/luma';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import fs from 'fs';
 
 const { image } = await generateImage({

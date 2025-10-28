@@ -1,5 +1,5 @@
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { streamText, tool, ModelMessage } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { streamText, tool, ModelMessage } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

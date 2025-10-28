@@ -10,8 +10,8 @@ description: API Reference for generateSpeech.
 Generates speech audio from text.
 
 ```ts
-import { experimental_generateSpeech as generateSpeech } from 'ai';
-import { openai } from '@open-stack/openai';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const { audio } = await generateSpeech({
   model: openai.speech('tts-1'),
@@ -27,8 +27,8 @@ console.log(audio);
 ### OpenAI
 
 ```ts
-import { experimental_generateSpeech as generateSpeech } from 'ai';
-import { openai } from '@open-stack/openai';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const { audio } = await generateSpeech({
   model: openai.speech('tts-1'),
@@ -40,8 +40,8 @@ const { audio } = await generateSpeech({
 ### ElevenLabs
 
 ```ts
-import { experimental_generateSpeech as generateSpeech } from 'ai';
-import { elevenlabs } from '@open-stack/elevenlabs';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
+import { elevenlabs } from '@omni-stack/elevenlabs';
 
 const { audio } = await generateSpeech({
   model: elevenlabs.speech('eleven_multilingual_v2'),

@@ -23,7 +23,7 @@ The ToolLoopAgent class provides a single place to define your agent's behavior.
 Define an agent by instantiating the ToolLoopAgent class with your desired configuration:
 
 ```ts
-import { ToolLoopAgent } from 'ai';
+import { ToolLoopAgent } from '@omni-stack/core';
 
 const myAgent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -41,7 +41,7 @@ The Agent class accepts all the same settings as `generateText` and `streamText`
 ### Model and System Prompt
 
 ```ts
-import { ToolLoopAgent } from 'ai';
+import { ToolLoopAgent } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -54,7 +54,7 @@ const agent = new ToolLoopAgent({
 Provide tools that the agent can use to accomplish tasks:
 
 ```ts
-import { ToolLoopAgent, tool } from 'ai';
+import { ToolLoopAgent, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 const codeAgent = new ToolLoopAgent({
@@ -81,7 +81,7 @@ By default, agents run for 20 steps (`stopWhen: stepCountIs(20)`). In each step,
 To let agents call multiple tools in sequence, configure `stopWhen` to allow more steps. After each tool execution, the agent triggers a new generation where the model can call another tool or generate text:
 
 ```ts
-import { ToolLoopAgent, stepCountIs } from 'ai';
+import { ToolLoopAgent, stepCountIs } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -99,7 +99,7 @@ Each step represents one generation (which results in either text or a tool call
 You can combine multiple conditions:
 
 ```ts
-import { ToolLoopAgent, stepCountIs } from 'ai';
+import { ToolLoopAgent, stepCountIs } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -117,7 +117,7 @@ Learn more about [loop control and stop conditions](/docs/agents/loop-control).
 Control how the agent uses tools:
 
 ```ts
-import { ToolLoopAgent } from 'ai';
+import { ToolLoopAgent } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -133,7 +133,7 @@ const agent = new ToolLoopAgent({
 You can also force the use of a specific tool:
 
 ```ts
-import { ToolLoopAgent } from 'ai';
+import { ToolLoopAgent } from '@omni-stack/core';
 
 const agent = new ToolLoopAgent({
   model: 'openai/gpt-4o',
@@ -153,7 +153,7 @@ const agent = new ToolLoopAgent({
 Define structured output schemas:
 
 ```ts
-import { ToolLoopAgent, Output, stepCountIs } from 'ai';
+import { ToolLoopAgent, Output, stepCountIs } from '@omni-stack/core';
 import { z } from 'zod';
 
 const analysisAgent = new ToolLoopAgent({
@@ -309,7 +309,7 @@ Use `createAgentUIStreamResponse()` to create API responses for client applicati
 
 ```ts
 // In your API route (e.g., app/api/chat/route.ts)
-import { createAgentUIStreamResponse } from 'ai';
+import { createAgentUIStreamResponse } from '@omni-stack/core';
 
 export async function POST(request: Request) {
   const { messages } = await request.json();
@@ -326,7 +326,7 @@ export async function POST(request: Request) {
 You can infer types for your agent's `UIMessage`s:
 
 ```ts
-import { ToolLoopAgent, InferAgentUIMessage } from 'ai';
+import { ToolLoopAgent, InferAgentUIMessage } from '@omni-stack/core';
 
 const myAgent = new ToolLoopAgent({
   // ... configuration
@@ -341,7 +341,7 @@ Use this type in your client components with `useChat`:
 ```tsx filename="components/chat.tsx"
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import type { MyAgentUIMessage } from '@/agent/my-agent';
 
 export function Chat() {

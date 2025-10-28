@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { generateText, stepCountIs } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText, stepCountIs } from '@omni-stack/core';
 import { run } from '../lib/run';
 
 run(async () => {

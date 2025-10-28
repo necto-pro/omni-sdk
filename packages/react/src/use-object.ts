@@ -4,8 +4,8 @@ import {
   InferSchema,
   isAbortError,
   safeValidateTypes,
-} from '@open-stack/provider-utils';
-import { asSchema, DeepPartial, isDeepEqualData, parsePartialJson } from 'ai';
+} from '@omni-stack/provider-utils';
+import { asSchema, DeepPartial, isDeepEqualData, parsePartialJson } from '@omni-stack/core';
 import { useCallback, useId, useRef, useState } from 'react';
 import useSWR from 'swr';
 

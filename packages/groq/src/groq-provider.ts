@@ -3,13 +3,13 @@ import {
   NoSuchModelError,
   ProviderV3,
   TranscriptionModelV3,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { GroqChatLanguageModel } from './groq-chat-language-model';
 import { GroqChatModelId } from './groq-chat-options';
 import { GroqTranscriptionModelId } from './groq-transcription-options';

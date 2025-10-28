@@ -1,5 +1,5 @@
-import { azure } from '@open-stack/azure';
-import { streamText } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 import fs from 'node:fs';
 

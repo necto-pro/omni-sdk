@@ -1,4 +1,4 @@
-import { resolve } from '@open-stack/provider-utils';
+import { resolve } from '@omni-stack/provider-utils';
 import {
   createVertex as createVertexOriginal,
   GoogleVertexProvider,

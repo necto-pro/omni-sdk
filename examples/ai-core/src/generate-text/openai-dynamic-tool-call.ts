@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { dynamicTool, generateText, stepCountIs, ToolSet } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { dynamicTool, generateText, stepCountIs, ToolSet } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import { weatherTool } from '../tools/weather-tool';

@@ -3,16 +3,16 @@ import { createTransformer } from '../lib/create-transformer';
 export default createTransformer((fileInfo, api, options, context) => {
   const { j, root } = context;
 
-  // Track which createOpenAI identifiers are imported from @open-stack/openai
+  // Track which createOpenAI identifiers are imported from @omni-stack/openai
   const createOpenAIFromOpenAI = new Set<string>();
 
-  // Find imports from @open-stack/openai and track createOpenAI identifiers
+  // Find imports from @omni-stack/openai and track createOpenAI identifiers
   root
     .find(j.ImportDeclaration)
     .filter(path => {
       return (
         path.node.source.type === 'StringLiteral' &&
-        path.node.source.value === '@open-stack/openai'
+        path.node.source.value === '@omni-stack/openai'
       );
     })
     .forEach(path => {
@@ -31,7 +31,7 @@ export default createTransformer((fileInfo, api, options, context) => {
       }
     });
 
-  // Only process createOpenAI calls that were imported from @open-stack/openai
+  // Only process createOpenAI calls that were imported from @omni-stack/openai
   if (createOpenAIFromOpenAI.size > 0) {
     // Find createOpenAI function calls
     root

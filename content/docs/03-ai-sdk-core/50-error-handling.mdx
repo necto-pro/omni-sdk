@@ -10,7 +10,7 @@ description: Learn how to handle errors in the AI SDK Core
 Regular errors are thrown and can be handled using the `try/catch` block.
 
 ```ts highlight="3,8-10"
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 try {
   const { text } = await generateText({
@@ -31,7 +31,7 @@ the error is thrown as a regular error.
 You can handle these errors using the `try/catch` block.
 
 ```ts highlight="3,12-14"
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 try {
   const { textStream } = streamText({
@@ -55,7 +55,7 @@ It is recommended to also add a try-catch block for errors that
 happen outside of the streaming.
 
 ```ts highlight="13-21"
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 try {
   const { fullStream } = streamText({
@@ -97,7 +97,7 @@ When streams are aborted (e.g., via chat stop button), you may want to perform c
 The `onAbort` callback is called when a stream is aborted via `AbortSignal`, but `onFinish` is not called. This ensures you can still update your UI state appropriately.
 
 ```ts highlight="5-9"
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const { textStream } = streamText({
   model: 'openai/gpt-4.1',
@@ -124,7 +124,7 @@ The `onAbort` callback receives:
 You can also handle abort events directly in the stream:
 
 ```ts highlight="10-13"
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const { fullStream } = streamText({
   model: 'openai/gpt-4.1',

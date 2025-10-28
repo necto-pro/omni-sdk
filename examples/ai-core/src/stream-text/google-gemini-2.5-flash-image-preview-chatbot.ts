@@ -1,5 +1,5 @@
-import { google } from '@open-stack/google';
-import { ModelMessage, streamText } from 'ai';
+import { google } from '@omni-stack/google';
+import { ModelMessage, streamText } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { presentImages } from '../lib/present-image';

@@ -1,5 +1,5 @@
-import { vertex } from '@open-stack/google-vertex';
-import { ModelMessage, streamText, ToolCallPart, ToolResultPart } from 'ai';
+import { vertex } from '@omni-stack/google-vertex';
+import { ModelMessage, streamText, ToolCallPart, ToolResultPart } from '@omni-stack/core';
 import 'dotenv/config';
 import * as process from 'process';
 

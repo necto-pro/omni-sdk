@@ -3,7 +3,7 @@ import {
   getRuntimeEnvironmentUserAgent,
   normalizeHeaders,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { VERSION } from './version';
 
 /**

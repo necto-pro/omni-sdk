@@ -1,9 +1,9 @@
 import {
   LanguageModelV3Prompt,
   UnsupportedFunctionalityError,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import { MistralPrompt } from './mistral-chat-prompt';
-import { convertToBase64 } from '@open-stack/provider-utils';
+import { convertToBase64 } from '@omni-stack/provider-utils';
 
 export function convertToMistralChatMessages(
   prompt: LanguageModelV3Prompt,

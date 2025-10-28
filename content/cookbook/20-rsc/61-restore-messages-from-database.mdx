@@ -39,8 +39,8 @@ export default function RootLayout({
 
 import { useState, useEffect } from 'react';
 import { ClientMessage } from './actions';
-import { useActions, useUIState } from '@open-stack/rsc';
-import { generateId } from 'ai';
+import { useActions, useUIState } from '@omni-stack/rsc';
+import { generateId } from '@omni-stack/core';
 
 export default function Home() {
   const [conversation, setConversation] = useUIState();
@@ -97,10 +97,10 @@ export default function Home() {
 The server-side implementation handles the restoration of messages and their transformation into the appropriate format for display.
 
 ```tsx filename='app/ai.ts'
-import { createAI } from '@open-stack/rsc';
+import { createAI } from '@omni-stack/rsc';
 import { ServerMessage, ClientMessage, continueConversation } from './actions';
 import { Stock } from '@ai-studio/components/stock';
-import { generateId } from 'ai';
+import { generateId } from '@omni-stack/core';
 
 export const AI = createAI<ServerMessage[], ClientMessage[]>({
   actions: {
@@ -126,7 +126,7 @@ export const AI = createAI<ServerMessage[], ClientMessage[]>({
 ```tsx filename='app/actions.tsx'
 'use server';
 
-import { getAIState } from '@open-stack/rsc';
+import { getAIState } from '@omni-stack/rsc';
 
 export interface ServerMessage {
   role: 'user' | 'assistant' | 'function';

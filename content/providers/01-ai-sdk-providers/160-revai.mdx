@@ -9,36 +9,36 @@ The [Rev.ai](https://www.rev.ai/) provider contains language model support for t
 
 ## Setup
 
-The Rev.ai provider is available in the `@open-stack/revai` module. You can install it with
+The Rev.ai provider is available in the `@omni-stack/revai` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @open-stack/revai" dark />
+    <Snippet text="pnpm add @omni-stack/revai" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @open-stack/revai" dark />
+    <Snippet text="npm install @omni-stack/revai" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @open-stack/revai" dark />
+    <Snippet text="yarn add @omni-stack/revai" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @open-stack/revai" dark />
+    <Snippet text="bun add @omni-stack/revai" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `revai` from `@open-stack/revai`:
+You can import the default provider instance `revai` from `@omni-stack/revai`:
 
 ```ts
-import { revai } from '@open-stack/revai';
+import { revai } from '@omni-stack/revai';
 ```
 
-If you need a customized setup, you can import `createRevai` from `@open-stack/revai` and create a provider instance with your settings:
+If you need a customized setup, you can import `createRevai` from `@omni-stack/revai` and create a provider instance with your settings:
 
 ```ts
-import { createRevai } from '@open-stack/revai';
+import { createRevai } from '@omni-stack/revai';
 
 const revai = createRevai({
   // custom settings, e.g.
@@ -78,8 +78,8 @@ const model = revai.transcription('machine');
 You can also pass additional provider-specific options using the `providerOptions` argument. For example, supplying the input language in ISO-639-1 (e.g. `en`) format can sometimes improve transcription performance if known beforehand.
 
 ```ts highlight="6"
-import { experimental_transcribe as transcribe } from 'ai';
-import { revai } from '@open-stack/revai';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
+import { revai } from '@omni-stack/revai';
 import { readFile } from 'fs/promises';
 
 const result = await transcribe({

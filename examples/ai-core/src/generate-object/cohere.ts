@@ -1,5 +1,5 @@
-import { cohere } from '@open-stack/cohere';
-import { generateObject } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { generateObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

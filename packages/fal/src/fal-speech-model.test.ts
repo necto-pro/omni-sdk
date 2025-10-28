@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { createFal } from './fal-provider';
 import { FalSpeechModel } from './fal-speech-model';
 import { describe, it, expect } from 'vitest';

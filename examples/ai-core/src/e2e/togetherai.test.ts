@@ -3,8 +3,8 @@ import { expect } from 'vitest';
 import {
   togetherai as provider,
   TogetherAIErrorData,
-} from '@open-stack/togetherai';
-import { APICallError } from 'ai';
+} from '@omni-stack/togetherai';
+import { APICallError } from '@omni-stack/core';
 import {
   createEmbeddingModelWithCapabilities,
   createFeatureTestSuite,

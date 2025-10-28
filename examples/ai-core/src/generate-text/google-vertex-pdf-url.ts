@@ -1,5 +1,5 @@
-import { vertex } from '@open-stack/google-vertex';
-import { generateText } from 'ai';
+import { vertex } from '@omni-stack/google-vertex';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

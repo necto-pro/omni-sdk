@@ -5,25 +5,25 @@ contains transcription model support for the Deepgram transcription API.
 
 ## Setup
 
-The Deepgram provider is available in the `@open-stack/deepgram` module. You can install it with
+The Deepgram provider is available in the `@omni-stack/deepgram` module. You can install it with
 
 ```bash
-npm i @open-stack/deepgram
+npm i @omni-stack/deepgram
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `deepgram` from `@open-stack/deepgram`:
+You can import the default provider instance `deepgram` from `@omni-stack/deepgram`:
 
 ```ts
-import { deepgram } from '@open-stack/deepgram';
+import { deepgram } from '@omni-stack/deepgram';
 ```
 
 ## Example
 
 ```ts
-import { deepgram } from '@open-stack/deepgram';
-import { experimental_transcribe as transcribe } from 'ai';
+import { deepgram } from '@omni-stack/deepgram';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 
 const { text } = await transcribe({
   model: deepgram.transcription('nova-3'),

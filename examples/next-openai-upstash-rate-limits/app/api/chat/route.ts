@@ -1,7 +1,7 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { Ratelimit } from '@upstash/ratelimit';
 import { kv } from '@vercel/kv';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;

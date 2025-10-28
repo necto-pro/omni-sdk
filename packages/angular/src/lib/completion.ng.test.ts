@@ -1,7 +1,7 @@
 import {
   createTestServer,
   TestResponseController,
-} from '@open-stack/test-server/with-vitest';
+} from '@omni-stack/test-server/with-vitest';
 import { Completion } from './completion.ng';
 import { beforeAll } from 'vitest';
 import { describe, it, expect, vi } from 'vitest';

@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { experimental_generateSpeech as generateSpeech } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
 import 'dotenv/config';
 import { saveAudioFile } from '../lib/save-audio';
 

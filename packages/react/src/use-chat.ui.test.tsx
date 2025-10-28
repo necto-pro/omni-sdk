@@ -3,8 +3,8 @@
 import {
   createTestServer,
   TestResponseController,
-} from '@open-stack/test-server/with-vitest';
-import { mockId } from '@open-stack/provider-utils/test';
+} from '@omni-stack/test-server/with-vitest';
+import { mockId } from '@omni-stack/provider-utils/test';
 import '@testing-library/jest-dom/vitest';
 import { screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
@@ -14,7 +14,7 @@ import {
   TextStreamChatTransport,
   UIMessage,
   UIMessageChunk,
-} from 'ai';
+} from '@omni-stack/core';
 import React, { act, useRef, useState } from 'react';
 import { Chat } from './chat.react';
 import { setupTestComponent } from './setup-test-component';

@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { azure } from '@open-stack/azure';
-import { generateText } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { generateText } from '@omni-stack/core';
 
 async function main() {
   const result = await generateText({

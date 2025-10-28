@@ -16,9 +16,9 @@
   },
   "type": "module",
   "devDependencies": {
-    "@open-stack/openai": "3.0.0-beta.42",
-    "@open-stack/provider-utils": "4.0.0-beta.26",
-    "@open-stack/svelte": "4.0.0-beta.81",
+    "@omni-stack/openai": "3.0.0-beta.42",
+    "@omni-stack/provider-utils": "4.0.0-beta.26",
+    "@omni-stack/svelte": "4.0.0-beta.81",
     "@eslint/compat": "^1.2.5",
     "@eslint/js": "^9.18.0",
     "@sveltejs/adapter-vercel": "^5.5.2",

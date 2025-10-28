@@ -6,7 +6,7 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
-import { Chat } from '@open-stack/angular';
+import { Chat } from '@omni-stack/angular';
 
 @Component({
   selector: 'app-chat',

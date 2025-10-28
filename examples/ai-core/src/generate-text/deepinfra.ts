@@ -1,5 +1,5 @@
-import { deepinfra } from '@open-stack/deepinfra';
-import { generateText } from 'ai';
+import { deepinfra } from '@omni-stack/deepinfra';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

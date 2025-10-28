@@ -1,5 +1,5 @@
-import { deepgram } from '@open-stack/deepgram';
-import { experimental_transcribe as transcribe } from 'ai';
+import { deepgram } from '@omni-stack/deepgram';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 import 'dotenv/config';
 import { readFile } from 'fs/promises';
 

@@ -1,5 +1,5 @@
-import type { GatewayProviderOptions } from '@open-stack/gateway';
-import { streamText } from 'ai';
+import type { GatewayProviderOptions } from '@omni-stack/gateway';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

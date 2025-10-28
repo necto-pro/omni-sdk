@@ -1,5 +1,5 @@
-import { togetherai } from '@open-stack/togetherai';
-import { generateText } from 'ai';
+import { togetherai } from '@omni-stack/togetherai';
+import { generateText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

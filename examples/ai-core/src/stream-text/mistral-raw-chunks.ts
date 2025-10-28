@@ -1,5 +1,5 @@
-import { mistral } from '@open-stack/mistral';
-import { streamText } from 'ai';
+import { mistral } from '@omni-stack/mistral';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

@@ -1,11 +1,11 @@
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
 import {
   convertToModelMessages,
   InferUITools,
   streamText,
   UIDataTypes,
   UIMessage,
-} from 'ai';
+} from '@omni-stack/core';
 
 const tools = {
   web_search: openai.tools.webSearch({

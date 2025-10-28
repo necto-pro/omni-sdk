@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { vertexAnthropic } from '@open-stack/google-vertex/anthropic';
-import { streamText } from 'ai';
+import { vertexAnthropic } from '@omni-stack/google-vertex/anthropic';
+import { streamText } from '@omni-stack/core';
 import fs from 'node:fs';
 
 async function main() {

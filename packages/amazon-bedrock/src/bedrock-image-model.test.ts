@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { createAmazonBedrock } from './bedrock-provider';
 import { BedrockImageModel } from './bedrock-image-model';
 import { injectFetchHeaders } from './inject-fetch-headers';

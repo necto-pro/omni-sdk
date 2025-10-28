@@ -5,8 +5,8 @@ import {
   appendClientMessage,
   appendResponseMessages,
   StreamData,
-} from 'ai';
-import { openai } from '@open-stack/openai';
+} from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 const updatedMessages = appendClientMessage({
   messages,

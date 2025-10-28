@@ -1,5 +1,5 @@
-import { mistral } from '@open-stack/mistral';
-import { ModelMessage, generateText } from 'ai';
+import { mistral } from '@omni-stack/mistral';
+import { ModelMessage, generateText } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { weatherTool } from '../tools/weather-tool';

@@ -48,7 +48,7 @@ Create models for text generation with `aimlapi` and use them with `generateText
 
 ```ts
 import { aimlapi } from '@ai-ml.api/aimlapi-vercel-ai';
-import { generateText } from 'ai';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: aimlapi('gpt-4o'),
@@ -84,7 +84,7 @@ AI/ML API also supports embedding models:
 
 ```ts
 import { aimlapi } from '@ai-ml.api/aimlapi-vercel-ai';
-import { embed } from 'ai';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: aimlapi.textEmbeddingModel('text-embedding-3-large'),

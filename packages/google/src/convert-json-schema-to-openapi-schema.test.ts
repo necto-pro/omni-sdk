@@ -1,4 +1,4 @@
-import { JSONSchema7 } from '@open-stack/provider';
+import { JSONSchema7 } from '@omni-stack/provider';
 import { convertJSONSchemaToOpenAPISchema } from './convert-json-schema-to-openapi-schema';
 import { it, expect } from 'vitest';
 

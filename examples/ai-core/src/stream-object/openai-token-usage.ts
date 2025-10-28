@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { streamObject, LanguageModelUsage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamObject, LanguageModelUsage } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

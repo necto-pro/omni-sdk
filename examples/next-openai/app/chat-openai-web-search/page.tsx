@@ -6,8 +6,8 @@ import ChatInput from '@/components/chat-input';
 import { ReasoningView } from '@/components/reasoning-view';
 import SourcesView from '@/components/sources-view';
 import OpenAIWebSearchView from '@/components/tool/openai-web-search-view';
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 
 export default function TestOpenAIWebSearch() {
   const { error, status, sendMessage, messages, regenerate } =

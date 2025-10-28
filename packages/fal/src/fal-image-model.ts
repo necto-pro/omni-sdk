@@ -2,8 +2,8 @@ import type {
   ImageModelV3,
   ImageModelV3CallWarning,
   JSONObject,
-} from '@open-stack/provider';
-import type { Resolvable } from '@open-stack/provider-utils';
+} from '@omni-stack/provider';
+import type { Resolvable } from '@omni-stack/provider-utils';
 import {
   FetchFunction,
   combineHeaders,
@@ -14,7 +14,7 @@ import {
   getFromApi,
   postJsonToApi,
   resolve,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { FalImageModelId, FalImageSize } from './fal-image-settings';
 

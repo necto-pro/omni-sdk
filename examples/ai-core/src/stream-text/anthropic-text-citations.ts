@@ -1,5 +1,5 @@
-import { anthropic } from '@open-stack/anthropic';
-import { streamText } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

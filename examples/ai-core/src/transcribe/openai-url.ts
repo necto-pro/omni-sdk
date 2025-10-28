@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { experimental_transcribe as transcribe } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

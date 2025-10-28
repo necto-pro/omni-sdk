@@ -1,4 +1,4 @@
-import { ImageModelV3, ImageModelV3CallWarning } from '@open-stack/provider';
+import { ImageModelV3, ImageModelV3CallWarning } from '@omni-stack/provider';
 import {
   FetchFunction,
   Resolvable,
@@ -7,7 +7,7 @@ import {
   createJsonResponseHandler,
   postJsonToApi,
   resolve,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import {
   BedrockImageModelId,
   modelMaxImagesPerCall,

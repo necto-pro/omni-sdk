@@ -3,7 +3,7 @@ import {
   createUIMessageStreamResponse,
   createUIMessageStream,
   UIMessageStreamWriter,
-} from 'ai';
+} from '@omni-stack/core';
 
 async function handler() {
   const stream = await createUIMessageStream();

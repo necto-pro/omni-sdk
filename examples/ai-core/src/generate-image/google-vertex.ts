@@ -1,8 +1,8 @@
 import {
   GoogleVertexImageProviderOptions,
   vertex,
-} from '@open-stack/google-vertex';
-import { experimental_generateImage as generateImage } from 'ai';
+} from '@omni-stack/google-vertex';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import 'dotenv/config';
 import { presentImages } from '../lib/present-image';
 

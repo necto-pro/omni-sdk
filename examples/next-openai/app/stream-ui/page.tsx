@@ -2,10 +2,10 @@
 
 import { Fragment, useState } from 'react';
 import type { AI } from './ai';
-import { useActions } from '@open-stack/rsc';
+import { useActions } from '@omni-stack/rsc';
 
-import { useAIState, useUIState } from '@open-stack/rsc';
-import { generateId } from 'ai';
+import { useAIState, useUIState } from '@omni-stack/rsc';
+import { generateId } from '@omni-stack/core';
 import { Message } from './message';
 
 export default function Home() {

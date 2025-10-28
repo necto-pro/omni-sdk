@@ -1,5 +1,5 @@
-import { xai } from '@open-stack/xai';
-import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
+import { xai } from '@omni-stack/xai';
+import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from '@omni-stack/core';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';
 

@@ -1,5 +1,5 @@
-import { fal } from '@open-stack/fal';
-import { experimental_generateImage as generateImage } from 'ai';
+import { fal } from '@omni-stack/fal';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';
 

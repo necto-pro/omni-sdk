@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText } from '@omni-stack/core';
 import { convertBase64ToUint8Array } from '../lib/convert-base64';
 import { presentImages } from '../lib/present-image';
 import { run } from '../lib/run';

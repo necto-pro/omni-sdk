@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { UIMessage } from 'ai';
-import { Chat } from '@open-stack/vue';
-import { createIdGenerator } from 'ai';
+import type { UIMessage } from '@omni-stack/core';
+import { Chat } from '@omni-stack/vue';
+import { createIdGenerator } from '@omni-stack/core';
 import { computed, ref } from 'vue';
 
 const messages = ref<UIMessage[]>([

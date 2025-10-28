@@ -1,4 +1,4 @@
-import { JSONSchema7Definition } from '@open-stack/provider';
+import { JSONSchema7Definition } from '@omni-stack/provider';
 
 /**
  * Converts JSON Schema 7 to OpenAPI Schema 3.0

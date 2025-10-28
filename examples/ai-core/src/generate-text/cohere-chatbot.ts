@@ -1,8 +1,8 @@
-import { ModelMessage, generateText } from 'ai';
+import { ModelMessage, generateText } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { weatherTool } from '../tools/weather-tool';
-import { cohere } from '@open-stack/cohere';
+import { cohere } from '@omni-stack/cohere';
 
 const terminal = readline.createInterface({
   input: process.stdin,

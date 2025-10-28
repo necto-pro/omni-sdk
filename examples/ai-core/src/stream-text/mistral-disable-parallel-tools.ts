@@ -1,7 +1,7 @@
-import { streamText, tool } from 'ai';
+import { streamText, tool } from '@omni-stack/core';
 import { z } from 'zod';
 import 'dotenv/config';
-import { mistral } from '@open-stack/mistral';
+import { mistral } from '@omni-stack/mistral';
 
 async function main() {
   const result = streamText({

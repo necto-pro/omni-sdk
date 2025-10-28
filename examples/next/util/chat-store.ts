@@ -1,4 +1,4 @@
-import { generateId } from 'ai';
+import { generateId } from '@omni-stack/core';
 import { existsSync, mkdirSync } from 'fs';
 import { readdir, readFile, writeFile } from 'fs/promises';
 import path from 'path';

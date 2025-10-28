@@ -1,5 +1,5 @@
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { streamText, tool, stepCountIs } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { streamText, tool, stepCountIs } from '@omni-stack/core';
 import { z } from 'zod';
 import 'dotenv/config';
 

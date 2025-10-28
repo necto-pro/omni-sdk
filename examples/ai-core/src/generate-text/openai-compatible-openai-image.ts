@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { createOpenAICompatible } from '@open-stack/openai-compatible';
-import { generateText } from 'ai';
+import { createOpenAICompatible } from '@omni-stack/openai-compatible';
+import { generateText } from '@omni-stack/core';
 import fs from 'node:fs';
 
 async function main() {

@@ -1,5 +1,5 @@
 ---
-'@open-stack/openai-compatible': patch
+'@omni-stack/openai-compatible': patch
 ---
 
 Add textVerbosity provider option support

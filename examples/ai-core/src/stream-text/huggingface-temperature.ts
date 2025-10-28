@@ -1,5 +1,5 @@
-import { huggingface } from '@open-stack/huggingface';
-import { streamText } from 'ai';
+import { huggingface } from '@omni-stack/huggingface';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

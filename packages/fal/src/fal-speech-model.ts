@@ -1,4 +1,4 @@
-import { SpeechModelV3, SpeechModelV3CallWarning } from '@open-stack/provider';
+import { SpeechModelV3, SpeechModelV3CallWarning } from '@omni-stack/provider';
 import {
   combineHeaders,
   createBinaryResponseHandler,
@@ -7,7 +7,7 @@ import {
   getFromApi,
   parseProviderOptions,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { FalConfig } from './fal-config';
 import { falFailedResponseHandler } from './fal-error';

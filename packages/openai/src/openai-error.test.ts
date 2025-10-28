@@ -1,4 +1,4 @@
-import { safeParseJSON } from '@open-stack/provider-utils';
+import { safeParseJSON } from '@omni-stack/provider-utils';
 import { openaiErrorDataSchema } from './openai-error';
 import { describe, it, expect } from 'vitest';
 

@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { HumeSpeechModel } from './hume-speech-model';
 import { createHume } from './hume-provider';
 import { describe, it, expect, vi } from 'vitest';

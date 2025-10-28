@@ -1,7 +1,7 @@
 'use client';
 
 /* eslint-disable @next/next/no-img-element */
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import { useRef, useState } from 'react';
 
 export default function Page() {

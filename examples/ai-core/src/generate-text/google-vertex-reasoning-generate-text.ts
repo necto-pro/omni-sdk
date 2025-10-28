@@ -1,5 +1,5 @@
-import { vertex } from '@open-stack/google-vertex';
-import { generateText } from 'ai';
+import { vertex } from '@omni-stack/google-vertex';
+import { generateText } from '@omni-stack/core';
 
 async function main() {
   const result = await generateText({

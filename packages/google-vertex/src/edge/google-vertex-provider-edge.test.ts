@@ -1,4 +1,4 @@
-import { resolve } from '@open-stack/provider-utils';
+import { resolve } from '@omni-stack/provider-utils';
 import { createVertex as createVertexEdge } from './google-vertex-provider-edge';
 import { createVertex as createVertexOriginal } from '../google-vertex-provider';
 import * as edgeAuth from './google-vertex-auth-edge';

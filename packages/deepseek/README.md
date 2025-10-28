@@ -4,25 +4,25 @@ The **[DeepSeek provider](https://ai-sdk.dev/providers/ai-sdk-providers/deepseek
 
 ## Setup
 
-The DeepSeek provider is available in the `@open-stack/deepseek` module. You can install it with
+The DeepSeek provider is available in the `@omni-stack/deepseek` module. You can install it with
 
 ```bash
-npm i @open-stack/deepseek
+npm i @omni-stack/deepseek
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `deepseek` from `@open-stack/deepseek`:
+You can import the default provider instance `deepseek` from `@omni-stack/deepseek`:
 
 ```ts
-import { deepseek } from '@open-stack/deepseek';
+import { deepseek } from '@omni-stack/deepseek';
 ```
 
 ## Example
 
 ```ts
-import { deepseek } from '@open-stack/deepseek';
-import { generateText } from 'ai';
+import { deepseek } from '@omni-stack/deepseek';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: deepseek('deepseek-chat'),

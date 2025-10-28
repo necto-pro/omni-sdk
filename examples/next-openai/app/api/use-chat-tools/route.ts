@@ -1,4 +1,4 @@
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
 import {
   convertToModelMessages,
   InferUITools,
@@ -8,7 +8,7 @@ import {
   UIDataTypes,
   UIMessage,
   validateUIMessages,
-} from 'ai';
+} from '@omni-stack/core';
 import { z } from 'zod';
 
 // Allow streaming responses up to 30 seconds

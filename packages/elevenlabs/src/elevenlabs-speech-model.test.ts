@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { describe, expect, it, vi } from 'vitest';
 import { createElevenLabs } from './elevenlabs-provider';
 

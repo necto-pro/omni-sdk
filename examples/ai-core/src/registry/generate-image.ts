@@ -1,4 +1,4 @@
-import { experimental_generateImage as generateImage } from 'ai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import 'dotenv/config';
 import fs from 'node:fs';
 import { myImageModels } from './setup-registry';

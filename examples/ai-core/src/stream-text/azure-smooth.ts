@@ -1,5 +1,5 @@
-import { azure } from '@open-stack/azure';
-import { smoothStream, streamText } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { smoothStream, streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

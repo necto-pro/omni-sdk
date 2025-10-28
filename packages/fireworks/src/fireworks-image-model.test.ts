@@ -1,5 +1,5 @@
-import { FetchFunction } from '@open-stack/provider-utils';
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { FetchFunction } from '@omni-stack/provider-utils';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { describe, expect, it, vi } from 'vitest';
 import { FireworksImageModel } from './fireworks-image-model';
 

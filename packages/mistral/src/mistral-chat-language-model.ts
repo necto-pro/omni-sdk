@@ -5,7 +5,7 @@ import {
   LanguageModelV3FinishReason,
   LanguageModelV3StreamPart,
   LanguageModelV3Usage,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   combineHeaders,
   createEventSourceResponseHandler,
@@ -16,7 +16,7 @@ import {
   parseProviderOptions,
   ParseResult,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { convertToMistralChatMessages } from './convert-to-mistral-chat-messages';
 import { getResponseMetadata } from './get-response-metadata';

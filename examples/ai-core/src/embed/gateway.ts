@@ -1,4 +1,4 @@
-import { embed } from 'ai';
+import { embed } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

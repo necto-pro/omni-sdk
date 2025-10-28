@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { cohere } from '@open-stack/cohere';
-import { streamText } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { streamText } from '@omni-stack/core';
 
 async function main() {
   const result = streamText({

@@ -12,12 +12,12 @@ Let's create a simple chat interface that uses [`LanguageModelMiddleware`](/docs
 
 ## Client
 
-Let's create a simple chat interface that allows users to send messages to the assistant and receive responses. You will integrate the `useChat` hook from `@open-stack/react` to stream responses.
+Let's create a simple chat interface that allows users to send messages to the assistant and receive responses. You will integrate the `useChat` hook from `@omni-stack/react` to stream responses.
 
 ```tsx filename='app/page.tsx'
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 
 export default function Chat() {
   const { messages, input, handleInputChange, handleSubmit, error } = useChat();
@@ -71,7 +71,7 @@ import {
   type LanguageModelV3Middleware,
   type LanguageModelV1StreamPart,
   simulateReadableStream,
-} from 'ai';
+} from '@omni-stack/core';
 
 const redis = new Redis({
   url: process.env.KV_URL,
@@ -165,8 +165,8 @@ Finally, you will create an API route for `api/chat` to handle the assistant's m
 
 ```tsx filename='app/api/chat/route.ts'
 import { cacheMiddleware } from '@/ai/middleware';
-import { openai } from '@open-stack/openai';
-import { wrapLanguageModel, streamText, tool } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { wrapLanguageModel, streamText, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 const wrappedModel = wrapLanguageModel({

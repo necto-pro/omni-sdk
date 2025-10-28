@@ -1,6 +1,6 @@
 import { expect } from 'vitest';
-import { luma as provider, LumaErrorData } from '@open-stack/luma';
-import { APICallError } from '@open-stack/provider';
+import { luma as provider, LumaErrorData } from '@omni-stack/luma';
+import { APICallError } from '@omni-stack/provider';
 import {
   createFeatureTestSuite,
   createImageModelWithCapabilities,

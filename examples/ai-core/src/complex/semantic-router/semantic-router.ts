@@ -4,7 +4,7 @@ import {
   embed,
   embedMany,
   cosineSimilarity,
-} from 'ai';
+} from '@omni-stack/core';
 
 export interface Route<NAME extends string> {
   name: NAME;

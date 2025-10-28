@@ -1,19 +1,19 @@
 ---
-'@open-stack/openai-compatible': patch
-'@open-stack/amazon-bedrock': patch
-'@open-stack/google-vertex': patch
-'@open-stack/togetherai': patch
-'@open-stack/deepinfra': patch
-'@open-stack/fireworks': patch
-'@open-stack/provider': patch
+'@omni-stack/openai-compatible': patch
+'@omni-stack/amazon-bedrock': patch
+'@omni-stack/google-vertex': patch
+'@omni-stack/togetherai': patch
+'@omni-stack/deepinfra': patch
+'@omni-stack/fireworks': patch
+'@omni-stack/provider': patch
 '@example/ai-core': patch
-'@open-stack/baseten': patch
-'@open-stack/gateway': patch
-'@open-stack/mistral': patch
-'@open-stack/cohere': patch
-'@open-stack/google': patch
-'@open-stack/openai': patch
-'@open-stack/azure': patch
+'@omni-stack/baseten': patch
+'@omni-stack/gateway': patch
+'@omni-stack/mistral': patch
+'@omni-stack/cohere': patch
+'@omni-stack/google': patch
+'@omni-stack/openai': patch
+'@omni-stack/azure': patch
 'ai': patch
 ---
 

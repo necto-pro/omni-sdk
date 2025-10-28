@@ -1,5 +1,5 @@
-import { vertex } from '@open-stack/google-vertex';
-import { streamText } from 'ai';
+import { vertex } from '@omni-stack/google-vertex';
+import { streamText } from '@omni-stack/core';
 
 async function main() {
   const result = streamText({

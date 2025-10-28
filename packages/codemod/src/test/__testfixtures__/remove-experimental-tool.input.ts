@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { CoreTool } from 'ai';
+import { CoreTool } from '@omni-stack/core';
 
 interface Config {
   tool: CoreTool;

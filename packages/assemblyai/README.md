@@ -5,25 +5,25 @@ contains transcription model support for the AssemblyAI transcription API.
 
 ## Setup
 
-The AssemblyAI provider is available in the `@open-stack/assemblyai` module. You can install it with
+The AssemblyAI provider is available in the `@omni-stack/assemblyai` module. You can install it with
 
 ```bash
-npm i @open-stack/assemblyai
+npm i @omni-stack/assemblyai
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `assemblyai` from `@open-stack/assemblyai`:
+You can import the default provider instance `assemblyai` from `@omni-stack/assemblyai`:
 
 ```ts
-import { assemblyai } from '@open-stack/assemblyai';
+import { assemblyai } from '@omni-stack/assemblyai';
 ```
 
 ## Example
 
 ```ts
-import { assemblyai } from '@open-stack/assemblyai';
-import { experimental_transcribe as transcribe } from 'ai';
+import { assemblyai } from '@omni-stack/assemblyai';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 
 const { text } = await transcribe({
   model: assemblyai.transcription('best'),

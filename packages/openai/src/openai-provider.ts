@@ -5,14 +5,14 @@ import {
   ProviderV3,
   SpeechModelV3,
   TranscriptionModelV3,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   loadOptionalSetting,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { OpenAIChatLanguageModel } from './chat/openai-chat-language-model';
 import { OpenAIChatModelId } from './chat/openai-chat-options';
 import { OpenAICompletionLanguageModel } from './completion/openai-completion-language-model';

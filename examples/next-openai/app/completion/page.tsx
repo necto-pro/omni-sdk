@@ -1,6 +1,6 @@
 'use client';
 
-import { useCompletion } from '@open-stack/react';
+import { useCompletion } from '@omni-stack/react';
 
 export default function Page() {
   const {

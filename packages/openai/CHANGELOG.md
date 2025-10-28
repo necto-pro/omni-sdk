@@ -1,20 +1,20 @@
-# @open-stack/openai
+# @omni-stack/openai
 
 ## 3.0.0-beta.42
 
 ### Patch Changes
 
 - Updated dependencies [d1bdadb]
-  - @open-stack/provider@3.0.0-beta.12
-  - @open-stack/provider-utils@4.0.0-beta.26
+  - @omni-stack/provider@3.0.0-beta.12
+  - @omni-stack/provider-utils@4.0.0-beta.26
 
 ## 3.0.0-beta.41
 
 ### Patch Changes
 
 - Updated dependencies [4c44a5b]
-  - @open-stack/provider@3.0.0-beta.11
-  - @open-stack/provider-utils@4.0.0-beta.25
+  - @omni-stack/provider@3.0.0-beta.11
+  - @omni-stack/provider-utils@4.0.0-beta.25
 
 ## 3.0.0-beta.40
 
@@ -28,16 +28,16 @@
 
 - 0c3b58b: fix(provider): add specificationVersion to ProviderV3
 - Updated dependencies [0c3b58b]
-  - @open-stack/provider@3.0.0-beta.10
-  - @open-stack/provider-utils@4.0.0-beta.24
+  - @omni-stack/provider@3.0.0-beta.10
+  - @omni-stack/provider-utils@4.0.0-beta.24
 
 ## 3.0.0-beta.38
 
 ### Patch Changes
 
 - Updated dependencies [a755db5]
-  - @open-stack/provider@3.0.0-beta.9
-  - @open-stack/provider-utils@4.0.0-beta.23
+  - @omni-stack/provider@3.0.0-beta.9
+  - @omni-stack/provider-utils@4.0.0-beta.23
 
 ## 3.0.0-beta.37
 
@@ -50,21 +50,21 @@
 ### Patch Changes
 
 - Updated dependencies [58920e0]
-  - @open-stack/provider-utils@4.0.0-beta.22
+  - @omni-stack/provider-utils@4.0.0-beta.22
 
 ## 3.0.0-beta.35
 
 ### Patch Changes
 
 - Updated dependencies [293a6b7]
-  - @open-stack/provider-utils@4.0.0-beta.21
+  - @omni-stack/provider-utils@4.0.0-beta.21
 
 ## 3.0.0-beta.34
 
 ### Patch Changes
 
 - Updated dependencies [fca786b]
-  - @open-stack/provider-utils@4.0.0-beta.20
+  - @omni-stack/provider-utils@4.0.0-beta.20
 
 ## 3.0.0-beta.33
 
@@ -78,23 +78,23 @@
 
 - 3794514: feat: flexible tool output content support
 - Updated dependencies [3794514]
-  - @open-stack/provider-utils@4.0.0-beta.19
-  - @open-stack/provider@3.0.0-beta.8
+  - @omni-stack/provider-utils@4.0.0-beta.19
+  - @omni-stack/provider@3.0.0-beta.8
 
 ## 3.0.0-beta.31
 
 ### Patch Changes
 
 - Updated dependencies [81d4308]
-  - @open-stack/provider@3.0.0-beta.7
-  - @open-stack/provider-utils@4.0.0-beta.18
+  - @omni-stack/provider@3.0.0-beta.7
+  - @omni-stack/provider-utils@4.0.0-beta.18
 
 ## 3.0.0-beta.30
 
 ### Patch Changes
 
 - Updated dependencies [703459a]
-  - @open-stack/provider-utils@4.0.0-beta.17
+  - @omni-stack/provider-utils@4.0.0-beta.17
 
 ## 3.0.0-beta.29
 
@@ -125,35 +125,35 @@
 ### Patch Changes
 
 - Updated dependencies [6306603]
-  - @open-stack/provider-utils@4.0.0-beta.16
+  - @omni-stack/provider-utils@4.0.0-beta.16
 
 ## 3.0.0-beta.24
 
 ### Patch Changes
 
 - Updated dependencies [f0b2157]
-  - @open-stack/provider-utils@4.0.0-beta.15
+  - @omni-stack/provider-utils@4.0.0-beta.15
 
 ## 3.0.0-beta.23
 
 ### Patch Changes
 
 - Updated dependencies [3b1d015]
-  - @open-stack/provider-utils@4.0.0-beta.14
+  - @omni-stack/provider-utils@4.0.0-beta.14
 
 ## 3.0.0-beta.22
 
 ### Patch Changes
 
 - Updated dependencies [d116b4b]
-  - @open-stack/provider-utils@4.0.0-beta.13
+  - @omni-stack/provider-utils@4.0.0-beta.13
 
 ## 3.0.0-beta.21
 
 ### Patch Changes
 
 - Updated dependencies [7e32fea]
-  - @open-stack/provider-utils@4.0.0-beta.12
+  - @omni-stack/provider-utils@4.0.0-beta.12
 
 ## 3.0.0-beta.20
 
@@ -175,7 +175,7 @@
 - 95f65c2: chore: load zod schemas lazily
 - Updated dependencies [95f65c2]
 - Updated dependencies [95f65c2]
-  - @open-stack/provider-utils@4.0.0-beta.11
+  - @omni-stack/provider-utils@4.0.0-beta.11
 
 ## 3.0.0-beta.17
 
@@ -186,22 +186,22 @@
 ### Patch Changes
 
 - Updated dependencies [dee8b05]
-  - @open-stack/provider@3.0.0-beta.6
-  - @open-stack/provider-utils@4.0.0-beta.10
+  - @omni-stack/provider@3.0.0-beta.6
+  - @omni-stack/provider-utils@4.0.0-beta.10
 
 ## 2.1.0-beta.16
 
 ### Patch Changes
 
 - Updated dependencies [521c537]
-  - @open-stack/provider-utils@3.1.0-beta.9
+  - @omni-stack/provider-utils@3.1.0-beta.9
 
 ## 2.1.0-beta.15
 
 ### Patch Changes
 
 - Updated dependencies [e06565c]
-  - @open-stack/provider-utils@3.1.0-beta.8
+  - @omni-stack/provider-utils@3.1.0-beta.8
 
 ## 2.1.0-beta.14
 
@@ -224,8 +224,8 @@
 - 21e20c0: feat(provider): transcription model v3 spec
 - Updated dependencies [046aa3b]
 - Updated dependencies [e8109d3]
-  - @open-stack/provider@2.1.0-beta.5
-  - @open-stack/provider-utils@3.1.0-beta.7
+  - @omni-stack/provider@2.1.0-beta.5
+  - @omni-stack/provider-utils@3.1.0-beta.7
 
 ## 2.1.0-beta.11
 
@@ -235,8 +235,8 @@
 - 2b0caef: feat(provider/openai): preview image generation results
 - Updated dependencies [0adc679]
 - Updated dependencies [2b0caef]
-  - @open-stack/provider-utils@3.1.0-beta.6
-  - @open-stack/provider@2.1.0-beta.4
+  - @omni-stack/provider-utils@3.1.0-beta.6
+  - @omni-stack/provider@2.1.0-beta.4
 
 ## 2.1.0-beta.10
 
@@ -264,10 +264,10 @@
 
 - 77f2b20: enables code_interpreter and file_search capabilities in the Azure provider through the Responses API
 - 8dac895: feat: `LanguageModelV3`
-- 10c1322: fix: moved dependency `@open-stack/test-server` to devDependencies
+- 10c1322: fix: moved dependency `@omni-stack/test-server` to devDependencies
 - Updated dependencies [8dac895]
-  - @open-stack/provider-utils@3.1.0-beta.5
-  - @open-stack/provider@2.1.0-beta.3
+  - @omni-stack/provider-utils@3.1.0-beta.5
+  - @omni-stack/provider@2.1.0-beta.3
 
 ## 2.1.0-beta.6
 
@@ -281,7 +281,7 @@
 
 - 4616b86: chore: update zod peer depenedency version
 - Updated dependencies [4616b86]
-  - @open-stack/provider-utils@3.1.0-beta.4
+  - @omni-stack/provider-utils@3.1.0-beta.4
 
 ## 2.1.0-beta.4
 
@@ -291,8 +291,8 @@
 - 522f6b8: feat: `ImageModelV3`
 - Updated dependencies [ed329cb]
 - Updated dependencies [522f6b8]
-  - @open-stack/provider@2.1.0-beta.2
-  - @open-stack/provider-utils@3.1.0-beta.3
+  - @omni-stack/provider@2.1.0-beta.2
+  - @omni-stack/provider-utils@3.1.0-beta.3
 
 ## 2.1.0-beta.3
 
@@ -301,8 +301,8 @@
 - 2e86082: feat(provider/openai): `OpenAIChatLanguageModelOptions` type
 
   ```ts
-  import { openai, type OpenAIChatLanguageModelOptions } from '@open-stack/openai';
-  import { generateText } from 'ai';
+  import { openai, type OpenAIChatLanguageModelOptions } from '@omni-stack/openai';
+  import { generateText } from '@omni-stack/core';
 
   await generateText({
     model: openai.chat('gpt-4o'),
@@ -323,8 +323,8 @@
 - 0c4822d: feat: `EmbeddingModelV3`
 - 1cad0ab: feat: add provider version to user-agent header
 - Updated dependencies [0c4822d]
-  - @open-stack/provider@2.1.0-beta.1
-  - @open-stack/provider-utils@3.1.0-beta.2
+  - @omni-stack/provider@2.1.0-beta.1
+  - @omni-stack/provider-utils@3.1.0-beta.2
 
 ## 2.1.0-beta.1
 
@@ -332,8 +332,8 @@
 
 - Updated dependencies [953d0f2]
 - Updated dependencies [cbb1d35]
-  - @open-stack/test-server@1.0.0-beta.0
-  - @open-stack/provider-utils@3.1.0-beta.1
+  - @omni-stack/test-server@1.0.0-beta.0
+  - @omni-stack/provider-utils@3.1.0-beta.1
 
 ## 2.1.0-beta.0
 
@@ -344,8 +344,8 @@
 ### Patch Changes
 
 - Updated dependencies [78928cb]
-  - @open-stack/provider@2.1.0-beta.0
-  - @open-stack/provider-utils@3.1.0-beta.0
+  - @omni-stack/provider@2.1.0-beta.0
+  - @omni-stack/provider-utils@3.1.0-beta.0
 
 ## 2.0.32
 
@@ -367,7 +367,7 @@
 ### Patch Changes
 
 - Updated dependencies [0294b58]
-  - @open-stack/provider-utils@3.0.9
+  - @omni-stack/provider-utils@3.0.9
 
 ## 2.0.29
 
@@ -407,7 +407,7 @@
 
 - ad57512: fix(provider/openai): safe practice to include filename and fileExtension to avoid `experimental_transcribe` fails with valid Buffer
 - Updated dependencies [99964ed]
-  - @open-stack/provider-utils@3.0.8
+  - @omni-stack/provider-utils@3.0.8
 
 ## 2.0.23
 
@@ -421,7 +421,7 @@
 
 - 0e272ae: fix(provider/openai): make file_citation annotation fields optional for responses api compatibility
 - Updated dependencies [886e7cd]
-  - @open-stack/provider-utils@3.0.7
+  - @omni-stack/provider-utils@3.0.7
 
 ## 2.0.21
 
@@ -434,7 +434,7 @@
   https://platform.openai.com/docs/api-reference/audio/createTranscription#audio_createtranscription-response_format
 
 - Updated dependencies [1b5a3d3]
-  - @open-stack/provider-utils@3.0.6
+  - @omni-stack/provider-utils@3.0.6
 
 ## 2.0.20
 
@@ -447,7 +447,7 @@
 ### Patch Changes
 
 - Updated dependencies [0857788]
-  - @open-stack/provider-utils@3.0.5
+  - @omni-stack/provider-utils@3.0.5
 
 ## 2.0.18
 
@@ -472,7 +472,7 @@
 ### Patch Changes
 
 - Updated dependencies [68751f9]
-  - @open-stack/provider-utils@3.0.4
+  - @omni-stack/provider-utils@3.0.4
 
 ## 2.0.15
 
@@ -505,7 +505,7 @@
 - 2935ec7: fix(provider/openai): exclude gpt-5-chat from reasoning model
 - Updated dependencies [034e229]
 - Updated dependencies [f25040d]
-  - @open-stack/provider-utils@3.0.3
+  - @omni-stack/provider-utils@3.0.3
 
 ## 2.0.11
 
@@ -523,7 +523,7 @@
 - 110d167: fix(openai): add missing file_search_call handlers in responses streaming
 - 8d3c747: chore(openai): remove deprecated GPT-4.5-preview models and improve autocomplete control
 - Updated dependencies [38ac190]
-  - @open-stack/provider-utils@3.0.2
+  - @omni-stack/provider-utils@3.0.2
 
 ## 2.0.10
 
@@ -579,7 +579,7 @@
 ### Patch Changes
 
 - Updated dependencies [90d212f]
-  - @open-stack/provider-utils@3.0.1
+  - @omni-stack/provider-utils@3.0.1
 
 ## 2.0.2
 
@@ -814,15 +814,15 @@
 - Updated dependencies [383cbfa]
 - Updated dependencies [27deb4d]
 - Updated dependencies [c4df419]
-  - @open-stack/provider-utils@3.0.0
-  - @open-stack/provider@2.0.0
+  - @omni-stack/provider-utils@3.0.0
+  - @omni-stack/provider@2.0.0
 
 ## 2.0.0-beta.16
 
 ### Patch Changes
 
 - Updated dependencies [88a8ee5]
-  - @open-stack/provider-utils@3.0.0-beta.10
+  - @omni-stack/provider-utils@3.0.0-beta.10
 
 ## 2.0.0-beta.15
 
@@ -830,8 +830,8 @@
 
 - 9943464: feat(openai): add file_search_call.results support to include parameter
 - Updated dependencies [27deb4d]
-  - @open-stack/provider@2.0.0-beta.2
-  - @open-stack/provider-utils@3.0.0-beta.9
+  - @omni-stack/provider@2.0.0-beta.2
+  - @omni-stack/provider-utils@3.0.0-beta.9
 
 ## 2.0.0-beta.14
 
@@ -840,14 +840,14 @@
 - eb173f1: chore (providers): remove model shorthand deprecation warnings
 - 7032dc5: feat(openai): add priority processing service tier support
 - Updated dependencies [dd5fd43]
-  - @open-stack/provider-utils@3.0.0-beta.8
+  - @omni-stack/provider-utils@3.0.0-beta.8
 
 ## 2.0.0-beta.13
 
 ### Patch Changes
 
 - Updated dependencies [e7fcc86]
-  - @open-stack/provider-utils@3.0.0-beta.7
+  - @omni-stack/provider-utils@3.0.0-beta.7
 
 ## 2.0.0-beta.12
 
@@ -856,7 +856,7 @@
 - d521cda: feat(openai): add file_search filters and update field names
 - 0059ee2: fix(openai): update file_search fields to match API changes
 - Updated dependencies [ac34802]
-  - @open-stack/provider-utils@3.0.0-beta.6
+  - @omni-stack/provider-utils@3.0.0-beta.6
 
 ## 2.0.0-beta.11
 
@@ -864,7 +864,7 @@
 
 - Updated dependencies [57edfcb]
 - Updated dependencies [383cbfa]
-  - @open-stack/provider-utils@3.0.0-beta.5
+  - @omni-stack/provider-utils@3.0.0-beta.5
 
 ## 2.0.0-beta.10
 
@@ -873,7 +873,7 @@
 - 0fa7414: chore (provider/openai): standardize on itemId in provider metadata
 - 205077b: fix: improve Zod compatibility
 - Updated dependencies [205077b]
-  - @open-stack/provider-utils@3.0.0-beta.4
+  - @omni-stack/provider-utils@3.0.0-beta.4
 
 ## 2.0.0-beta.9
 
@@ -887,7 +887,7 @@
 
 - db64cbe: fix (provider/openai): multi-step reasoning with tool calls
 - Updated dependencies [05d2819]
-  - @open-stack/provider-utils@3.0.0-beta.3
+  - @omni-stack/provider-utils@3.0.0-beta.3
 
 ## 2.0.0-beta.7
 
@@ -931,7 +931,7 @@
 - Updated dependencies [0571b98]
 - Updated dependencies [39a4fab]
 - Updated dependencies [d1a034f]
-  - @open-stack/provider-utils@3.0.0-beta.2
+  - @omni-stack/provider-utils@3.0.0-beta.2
 
 ## 2.0.0-beta.1
 
@@ -959,8 +959,8 @@
 - Updated dependencies [5e57fae]
 - Updated dependencies [71f938d]
 - Updated dependencies [28a5ed5]
-  - @open-stack/provider@2.0.0-beta.1
-  - @open-stack/provider-utils@3.0.0-beta.1
+  - @omni-stack/provider@2.0.0-beta.1
+  - @omni-stack/provider-utils@3.0.0-beta.1
 
 ## 2.0.0-alpha.15
 
@@ -968,8 +968,8 @@
 
 - Updated dependencies [48d257a]
 - Updated dependencies [8ba77a7]
-  - @open-stack/provider@2.0.0-alpha.15
-  - @open-stack/provider-utils@3.0.0-alpha.15
+  - @omni-stack/provider@2.0.0-alpha.15
+  - @omni-stack/provider-utils@3.0.0-alpha.15
 
 ## 2.0.0-alpha.14
 
@@ -978,16 +978,16 @@
 - Updated dependencies [b5da06a]
 - Updated dependencies [63f9e9b]
 - Updated dependencies [2e13791]
-  - @open-stack/provider@2.0.0-alpha.14
-  - @open-stack/provider-utils@3.0.0-alpha.14
+  - @omni-stack/provider@2.0.0-alpha.14
+  - @omni-stack/provider-utils@3.0.0-alpha.14
 
 ## 2.0.0-alpha.13
 
 ### Patch Changes
 
 - Updated dependencies [68ecf2f]
-  - @open-stack/provider@2.0.0-alpha.13
-  - @open-stack/provider-utils@3.0.0-alpha.13
+  - @omni-stack/provider@2.0.0-alpha.13
+  - @omni-stack/provider-utils@3.0.0-alpha.13
 
 ## 2.0.0-alpha.12
 
@@ -996,8 +996,8 @@
 - 2f542fa: Add reasoning-part-finish parts for reasoning models in the responses API
 - e2aceaf: feat: add raw chunk support
 - Updated dependencies [e2aceaf]
-  - @open-stack/provider@2.0.0-alpha.12
-  - @open-stack/provider-utils@3.0.0-alpha.12
+  - @omni-stack/provider@2.0.0-alpha.12
+  - @omni-stack/provider-utils@3.0.0-alpha.12
 
 ## 2.0.0-alpha.11
 
@@ -1005,24 +1005,24 @@
 
 - 8d12da5: feat(provider/openai): add serviceTier option for flex processing
 - Updated dependencies [c1e6647]
-  - @open-stack/provider@2.0.0-alpha.11
-  - @open-stack/provider-utils@3.0.0-alpha.11
+  - @omni-stack/provider@2.0.0-alpha.11
+  - @omni-stack/provider-utils@3.0.0-alpha.11
 
 ## 2.0.0-alpha.10
 
 ### Patch Changes
 
 - Updated dependencies [c4df419]
-  - @open-stack/provider@2.0.0-alpha.10
-  - @open-stack/provider-utils@3.0.0-alpha.10
+  - @omni-stack/provider@2.0.0-alpha.10
+  - @omni-stack/provider-utils@3.0.0-alpha.10
 
 ## 2.0.0-alpha.9
 
 ### Patch Changes
 
 - Updated dependencies [811dff3]
-  - @open-stack/provider@2.0.0-alpha.9
-  - @open-stack/provider-utils@3.0.0-alpha.9
+  - @omni-stack/provider@2.0.0-alpha.9
+  - @omni-stack/provider-utils@3.0.0-alpha.9
 
 ## 2.0.0-alpha.8
 
@@ -1031,70 +1031,70 @@
 - 4af5233: Fix PDF file parts when passed as a string url or Uint8Array
 - Updated dependencies [4fef487]
 - Updated dependencies [9222aeb]
-  - @open-stack/provider-utils@3.0.0-alpha.8
-  - @open-stack/provider@2.0.0-alpha.8
+  - @omni-stack/provider-utils@3.0.0-alpha.8
+  - @omni-stack/provider@2.0.0-alpha.8
 
 ## 2.0.0-alpha.7
 
 ### Patch Changes
 
 - Updated dependencies [5c56081]
-  - @open-stack/provider@2.0.0-alpha.7
-  - @open-stack/provider-utils@3.0.0-alpha.7
+  - @omni-stack/provider@2.0.0-alpha.7
+  - @omni-stack/provider-utils@3.0.0-alpha.7
 
 ## 2.0.0-alpha.6
 
 ### Patch Changes
 
 - Updated dependencies [0d2c085]
-  - @open-stack/provider@2.0.0-alpha.6
-  - @open-stack/provider-utils@3.0.0-alpha.6
+  - @omni-stack/provider@2.0.0-alpha.6
+  - @omni-stack/provider-utils@3.0.0-alpha.6
 
 ## 2.0.0-alpha.4
 
 ### Patch Changes
 
 - Updated dependencies [dc714f3]
-  - @open-stack/provider@2.0.0-alpha.4
-  - @open-stack/provider-utils@3.0.0-alpha.4
+  - @omni-stack/provider@2.0.0-alpha.4
+  - @omni-stack/provider-utils@3.0.0-alpha.4
 
 ## 2.0.0-alpha.3
 
 ### Patch Changes
 
 - Updated dependencies [6b98118]
-  - @open-stack/provider@2.0.0-alpha.3
-  - @open-stack/provider-utils@3.0.0-alpha.3
+  - @omni-stack/provider@2.0.0-alpha.3
+  - @omni-stack/provider-utils@3.0.0-alpha.3
 
 ## 2.0.0-alpha.2
 
 ### Patch Changes
 
 - Updated dependencies [26535e0]
-  - @open-stack/provider@2.0.0-alpha.2
-  - @open-stack/provider-utils@3.0.0-alpha.2
+  - @omni-stack/provider@2.0.0-alpha.2
+  - @omni-stack/provider-utils@3.0.0-alpha.2
 
 ## 2.0.0-alpha.1
 
 ### Patch Changes
 
 - Updated dependencies [3f2f00c]
-  - @open-stack/provider@2.0.0-alpha.1
-  - @open-stack/provider-utils@3.0.0-alpha.1
+  - @omni-stack/provider@2.0.0-alpha.1
+  - @omni-stack/provider-utils@3.0.0-alpha.1
 
 ## 2.0.0-canary.20
 
 ### Patch Changes
 
 - Updated dependencies [faf8446]
-  - @open-stack/provider-utils@3.0.0-canary.19
+  - @omni-stack/provider-utils@3.0.0-canary.19
 
 ## 2.0.0-canary.19
 
 ### Patch Changes
 
 - Updated dependencies [40acf9b]
-  - @open-stack/provider-utils@3.0.0-canary.18
+  - @omni-stack/provider-utils@3.0.0-canary.18
 
 ## 2.0.0-canary.18
 
@@ -1136,7 +1136,7 @@
 ### Patch Changes
 
 - Updated dependencies [ea7a7c9]
-  - @open-stack/provider-utils@3.0.0-canary.17
+  - @omni-stack/provider-utils@3.0.0-canary.17
 
 ## 2.0.0-canary.17
 
@@ -1144,7 +1144,7 @@
 
 - 52ce942: chore(providers/openai): remove & enable strict compatibility by default
 - Updated dependencies [87b828f]
-  - @open-stack/provider-utils@3.0.0-canary.16
+  - @omni-stack/provider-utils@3.0.0-canary.16
 
 ## 2.0.0-canary.16
 
@@ -1156,8 +1156,8 @@
 - Updated dependencies [a8c8bd5]
 - Updated dependencies [7979f7f]
 - Updated dependencies [41fa418]
-  - @open-stack/provider-utils@3.0.0-canary.15
-  - @open-stack/provider@2.0.0-canary.14
+  - @omni-stack/provider-utils@3.0.0-canary.15
+  - @omni-stack/provider@2.0.0-canary.14
 
 ## 2.0.0-canary.15
 
@@ -1187,8 +1187,8 @@
 - 284353f: fix(providers/openai): zod parse error with function
 - Updated dependencies [957b739]
 - Updated dependencies [9bd5ab5]
-  - @open-stack/provider-utils@3.0.0-canary.14
-  - @open-stack/provider@2.0.0-canary.13
+  - @omni-stack/provider-utils@3.0.0-canary.14
+  - @omni-stack/provider@2.0.0-canary.13
 
 ## 2.0.0-canary.14
 
@@ -1197,8 +1197,8 @@
 - fa758ea: feat(provider/openai): add o3 & o4-mini with developer systemMessageMode
 - Updated dependencies [7b3ae3f]
 - Updated dependencies [0ff02bb]
-  - @open-stack/provider@2.0.0-canary.12
-  - @open-stack/provider-utils@3.0.0-canary.13
+  - @omni-stack/provider@2.0.0-canary.12
+  - @omni-stack/provider-utils@3.0.0-canary.13
 
 ## 2.0.0-canary.13
 
@@ -1211,8 +1211,8 @@
 - Updated dependencies [9bf7291]
 - Updated dependencies [4617fab]
 - Updated dependencies [e030615]
-  - @open-stack/provider@2.0.0-canary.11
-  - @open-stack/provider-utils@3.0.0-canary.12
+  - @omni-stack/provider@2.0.0-canary.11
+  - @omni-stack/provider-utils@3.0.0-canary.12
 
 ## 2.0.0-canary.12
 
@@ -1225,8 +1225,8 @@
 - Updated dependencies [66962ed]
 - Updated dependencies [9301f86]
 - Updated dependencies [a3f768e]
-  - @open-stack/provider-utils@3.0.0-canary.11
-  - @open-stack/provider@2.0.0-canary.10
+  - @omni-stack/provider-utils@3.0.0-canary.11
+  - @omni-stack/provider@2.0.0-canary.10
 
 ## 2.0.0-canary.11
 
@@ -1234,8 +1234,8 @@
 
 - 8493141: feat (providers/openai): add support for reasoning summaries
 - Updated dependencies [e86be6f]
-  - @open-stack/provider@2.0.0-canary.9
-  - @open-stack/provider-utils@3.0.0-canary.10
+  - @omni-stack/provider@2.0.0-canary.9
+  - @omni-stack/provider-utils@3.0.0-canary.10
 
 ## 2.0.0-canary.10
 
@@ -1244,8 +1244,8 @@
 - 3bd3c0b: chore(providers/openai): update embedding model to use providerOptions
 - Updated dependencies [95857aa]
 - Updated dependencies [7ea4132]
-  - @open-stack/provider@2.0.0-canary.8
-  - @open-stack/provider-utils@3.0.0-canary.9
+  - @omni-stack/provider@2.0.0-canary.8
+  - @omni-stack/provider-utils@3.0.0-canary.9
 
 ## 2.0.0-canary.9
 
@@ -1265,8 +1265,8 @@
 - Updated dependencies [b6b43c7]
 - Updated dependencies [8aa9e20]
 - Updated dependencies [3795467]
-  - @open-stack/provider-utils@3.0.0-canary.8
-  - @open-stack/provider@2.0.0-canary.7
+  - @omni-stack/provider-utils@3.0.0-canary.8
+  - @omni-stack/provider@2.0.0-canary.7
 
 ## 2.0.0-canary.7
 
@@ -1287,8 +1287,8 @@
 - Updated dependencies [fd65bc6]
 - Updated dependencies [393138b]
 - Updated dependencies [7182d14]
-  - @open-stack/provider@2.0.0-canary.6
-  - @open-stack/provider-utils@3.0.0-canary.7
+  - @omni-stack/provider@2.0.0-canary.6
+  - @omni-stack/provider-utils@3.0.0-canary.7
 
 ## 2.0.0-canary.6
 
@@ -1305,24 +1305,24 @@
 - Updated dependencies [ad80501]
 - Updated dependencies [1766ede]
 - Updated dependencies [f10304b]
-  - @open-stack/provider@2.0.0-canary.5
-  - @open-stack/provider-utils@3.0.0-canary.6
+  - @omni-stack/provider@2.0.0-canary.5
+  - @omni-stack/provider-utils@3.0.0-canary.6
 
 ## 2.0.0-canary.5
 
 ### Patch Changes
 
 - Updated dependencies [6f6bb89]
-  - @open-stack/provider@2.0.0-canary.4
-  - @open-stack/provider-utils@3.0.0-canary.5
+  - @omni-stack/provider@2.0.0-canary.4
+  - @omni-stack/provider-utils@3.0.0-canary.5
 
 ## 2.0.0-canary.4
 
 ### Patch Changes
 
 - Updated dependencies [d1a1aa1]
-  - @open-stack/provider@2.0.0-canary.3
-  - @open-stack/provider-utils@3.0.0-canary.4
+  - @omni-stack/provider@2.0.0-canary.3
+  - @omni-stack/provider-utils@3.0.0-canary.4
 
 ## 2.0.0-canary.3
 
@@ -1336,8 +1336,8 @@
 - Updated dependencies [9f95b35]
 - Updated dependencies [0a87932]
 - Updated dependencies [6dc848c]
-  - @open-stack/provider-utils@3.0.0-canary.3
-  - @open-stack/provider@2.0.0-canary.2
+  - @omni-stack/provider-utils@3.0.0-canary.3
+  - @omni-stack/provider@2.0.0-canary.2
 
 ## 2.0.0-canary.2
 
@@ -1345,8 +1345,8 @@
 
 - Updated dependencies [c57e248]
 - Updated dependencies [33f4a6a]
-  - @open-stack/provider@2.0.0-canary.1
-  - @open-stack/provider-utils@3.0.0-canary.2
+  - @omni-stack/provider@2.0.0-canary.1
+  - @omni-stack/provider-utils@3.0.0-canary.2
 
 ## 2.0.0-canary.1
 
@@ -1355,7 +1355,7 @@
 - Updated dependencies [060370c]
 - Updated dependencies [0c0c0b3]
 - Updated dependencies [63d791d]
-  - @open-stack/provider-utils@3.0.0-canary.1
+  - @omni-stack/provider-utils@3.0.0-canary.1
 
 ## 2.0.0-canary.0
 
@@ -1366,15 +1366,15 @@
 ### Patch Changes
 
 - Updated dependencies [d5f588f]
-  - @open-stack/provider-utils@3.0.0-canary.0
-  - @open-stack/provider@2.0.0-canary.0
+  - @omni-stack/provider-utils@3.0.0-canary.0
+  - @omni-stack/provider@2.0.0-canary.0
 
 ## 1.3.6
 
 ### Patch Changes
 
 - Updated dependencies [28be004]
-  - @open-stack/provider-utils@2.2.3
+  - @omni-stack/provider-utils@2.2.3
 
 ## 1.3.5
 
@@ -1382,7 +1382,7 @@
 
 - 52ed95f: fix (provider/openai): force web search tool
 - Updated dependencies [b01120e]
-  - @open-stack/provider-utils@2.2.2
+  - @omni-stack/provider-utils@2.2.2
 
 ## 1.3.4
 
@@ -1407,7 +1407,7 @@
 ### Patch Changes
 
 - Updated dependencies [f10f0fa]
-  - @open-stack/provider-utils@2.2.1
+  - @omni-stack/provider-utils@2.2.1
 
 ## 1.3.0
 
@@ -1418,8 +1418,8 @@
 ### Patch Changes
 
 - Updated dependencies [5bc638d]
-  - @open-stack/provider@1.1.0
-  - @open-stack/provider-utils@2.2.0
+  - @omni-stack/provider@1.1.0
+  - @omni-stack/provider-utils@2.2.0
 
 ## 1.2.8
 
@@ -1432,15 +1432,15 @@
 ### Patch Changes
 
 - Updated dependencies [d0c4659]
-  - @open-stack/provider-utils@2.1.15
+  - @omni-stack/provider-utils@2.1.15
 
 ## 1.2.6
 
 ### Patch Changes
 
 - Updated dependencies [0bd5bc6]
-  - @open-stack/provider@1.0.12
-  - @open-stack/provider-utils@2.1.14
+  - @omni-stack/provider@1.0.12
+  - @omni-stack/provider-utils@2.1.14
 
 ## 1.2.5
 
@@ -1448,8 +1448,8 @@
 
 - 2e1101a: feat (provider/openai): pdf input support
 - Updated dependencies [2e1101a]
-  - @open-stack/provider@1.0.11
-  - @open-stack/provider-utils@2.1.13
+  - @omni-stack/provider@1.0.11
+  - @omni-stack/provider-utils@2.1.13
 
 ## 1.2.4
 
@@ -1462,7 +1462,7 @@
 ### Patch Changes
 
 - Updated dependencies [1531959]
-  - @open-stack/provider-utils@2.1.12
+  - @omni-stack/provider-utils@2.1.12
 
 ## 1.2.2
 
@@ -1476,8 +1476,8 @@
 
 - e1d3d42: feat (ai): expose raw response body in generateText and generateObject
 - Updated dependencies [e1d3d42]
-  - @open-stack/provider@1.0.10
-  - @open-stack/provider-utils@2.1.11
+  - @omni-stack/provider@1.0.10
+  - @omni-stack/provider-utils@2.1.11
 
 ## 1.2.0
 
@@ -1496,16 +1496,16 @@
 ### Patch Changes
 
 - Updated dependencies [ddf9740]
-  - @open-stack/provider@1.0.9
-  - @open-stack/provider-utils@2.1.10
+  - @omni-stack/provider@1.0.9
+  - @omni-stack/provider-utils@2.1.10
 
 ## 1.1.13
 
 ### Patch Changes
 
 - Updated dependencies [2761f06]
-  - @open-stack/provider@1.0.8
-  - @open-stack/provider-utils@2.1.9
+  - @omni-stack/provider@1.0.8
+  - @omni-stack/provider-utils@2.1.9
 
 ## 1.1.12
 
@@ -1518,14 +1518,14 @@
 ### Patch Changes
 
 - Updated dependencies [2e898b4]
-  - @open-stack/provider-utils@2.1.8
+  - @omni-stack/provider-utils@2.1.8
 
 ## 1.1.10
 
 ### Patch Changes
 
 - Updated dependencies [3ff4ef8]
-  - @open-stack/provider-utils@2.1.7
+  - @omni-stack/provider-utils@2.1.7
 
 ## 1.1.9
 
@@ -1551,29 +1551,29 @@
 
 - d89c3b9: feat (provider): add image model support to provider specification
 - Updated dependencies [d89c3b9]
-  - @open-stack/provider@1.0.7
-  - @open-stack/provider-utils@2.1.6
+  - @omni-stack/provider@1.0.7
+  - @omni-stack/provider-utils@2.1.6
 
 ## 1.1.5
 
 ### Patch Changes
 
 - Updated dependencies [3a602ca]
-  - @open-stack/provider-utils@2.1.5
+  - @omni-stack/provider-utils@2.1.5
 
 ## 1.1.4
 
 ### Patch Changes
 
 - Updated dependencies [066206e]
-  - @open-stack/provider-utils@2.1.4
+  - @omni-stack/provider-utils@2.1.4
 
 ## 1.1.3
 
 ### Patch Changes
 
 - Updated dependencies [39e5c1f]
-  - @open-stack/provider-utils@2.1.3
+  - @omni-stack/provider-utils@2.1.3
 
 ## 1.1.2
 
@@ -1582,8 +1582,8 @@
 - 3a58a2e: feat (ai/core): throw NoImageGeneratedError from generateImage when no predictions are returned.
 - Updated dependencies [ed012d2]
 - Updated dependencies [3a58a2e]
-  - @open-stack/provider-utils@2.1.2
-  - @open-stack/provider@1.0.6
+  - @omni-stack/provider-utils@2.1.2
+  - @omni-stack/provider@1.0.6
 
 ## 1.1.1
 
@@ -1592,8 +1592,8 @@
 - e7a9ec9: feat (provider-utils): include raw value in json parse results
 - Updated dependencies [e7a9ec9]
 - Updated dependencies [0a699f1]
-  - @open-stack/provider-utils@2.1.1
-  - @open-stack/provider@1.0.5
+  - @omni-stack/provider-utils@2.1.1
+  - @omni-stack/provider@1.0.5
 
 ## 1.1.0
 
@@ -1604,14 +1604,14 @@
 ### Patch Changes
 
 - Updated dependencies [62ba5ad]
-  - @open-stack/provider-utils@2.1.0
+  - @omni-stack/provider-utils@2.1.0
 
 ## 1.0.20
 
 ### Patch Changes
 
 - Updated dependencies [00114c5]
-  - @open-stack/provider-utils@2.0.8
+  - @omni-stack/provider-utils@2.0.8
 
 ## 1.0.19
 
@@ -1639,7 +1639,7 @@
 - Updated dependencies [90fb95a]
 - Updated dependencies [e6dfef4]
 - Updated dependencies [6636db6]
-  - @open-stack/provider-utils@2.0.7
+  - @omni-stack/provider-utils@2.0.7
 
 ## 1.0.15
 
@@ -1658,8 +1658,8 @@
 - Updated dependencies [19a2ce7]
 - Updated dependencies [19a2ce7]
 - Updated dependencies [6337688]
-  - @open-stack/provider@1.0.4
-  - @open-stack/provider-utils@2.0.6
+  - @omni-stack/provider@1.0.4
+  - @omni-stack/provider-utils@2.0.6
 
 ## 1.0.13
 
@@ -1679,8 +1679,8 @@
 
 - 5ed5e45: chore (config): Use ts-library.json tsconfig for no-UI libs.
 - Updated dependencies [5ed5e45]
-  - @open-stack/provider-utils@2.0.5
-  - @open-stack/provider@1.0.3
+  - @omni-stack/provider-utils@2.0.5
+  - @omni-stack/provider@1.0.3
 
 ## 1.0.10
 
@@ -1702,15 +1702,15 @@
 
 - 09a9cab: feat (ai/core): add experimental generateImage function
 - Updated dependencies [09a9cab]
-  - @open-stack/provider@1.0.2
-  - @open-stack/provider-utils@2.0.4
+  - @omni-stack/provider@1.0.2
+  - @omni-stack/provider-utils@2.0.4
 
 ## 1.0.7
 
 ### Patch Changes
 
 - Updated dependencies [0984f0b]
-  - @open-stack/provider-utils@2.0.3
+  - @omni-stack/provider-utils@2.0.3
 
 ## 1.0.6
 
@@ -1729,8 +1729,8 @@
 ### Patch Changes
 
 - Updated dependencies [b446ae5]
-  - @open-stack/provider@1.0.1
-  - @open-stack/provider-utils@2.0.2
+  - @omni-stack/provider@1.0.1
+  - @omni-stack/provider-utils@2.0.2
 
 ## 1.0.3
 
@@ -1743,7 +1743,7 @@
 ### Patch Changes
 
 - Updated dependencies [c3ab5de]
-  - @open-stack/provider-utils@2.0.1
+  - @omni-stack/provider-utils@2.0.1
 
 ## 1.0.1
 
@@ -1768,15 +1768,15 @@
 - Updated dependencies [dce4158]
 - Updated dependencies [8426f55]
 - Updated dependencies [db46ce5]
-  - @open-stack/provider-utils@2.0.0
-  - @open-stack/provider@1.0.0
+  - @omni-stack/provider-utils@2.0.0
+  - @omni-stack/provider@1.0.0
 
 ## 1.0.0-canary.3
 
 ### Patch Changes
 
 - Updated dependencies [8426f55]
-  - @open-stack/provider-utils@2.0.0-canary.3
+  - @omni-stack/provider-utils@2.0.0-canary.3
 
 ## 1.0.0-canary.2
 
@@ -1784,7 +1784,7 @@
 
 - Updated dependencies [dce4158]
 - Updated dependencies [dce4158]
-  - @open-stack/provider-utils@2.0.0-canary.2
+  - @omni-stack/provider-utils@2.0.0-canary.2
 
 ## 1.0.0-canary.1
 
@@ -1796,7 +1796,7 @@
 ### Patch Changes
 
 - Updated dependencies [b1da952]
-  - @open-stack/provider-utils@2.0.0-canary.1
+  - @omni-stack/provider-utils@2.0.0-canary.1
 
 ## 1.0.0-canary.0
 
@@ -1809,8 +1809,8 @@
 - Updated dependencies [b469a7e]
 - Updated dependencies [c0ddc24]
 - Updated dependencies [db46ce5]
-  - @open-stack/provider-utils@2.0.0-canary.0
-  - @open-stack/provider@1.0.0-canary.0
+  - @omni-stack/provider-utils@2.0.0-canary.0
+  - @omni-stack/provider@1.0.0-canary.0
 
 ## 0.0.72
 
@@ -1834,8 +1834,8 @@
 - Updated dependencies [7b937c5]
 - Updated dependencies [3b1b69a]
 - Updated dependencies [811a317]
-  - @open-stack/provider-utils@1.0.22
-  - @open-stack/provider@0.0.26
+  - @omni-stack/provider-utils@1.0.22
+  - @omni-stack/provider@0.0.26
 
 ## 0.0.69
 
@@ -1843,8 +1843,8 @@
 
 - b9b0d7b: feat (ai): access raw request body
 - Updated dependencies [b9b0d7b]
-  - @open-stack/provider@0.0.25
-  - @open-stack/provider-utils@1.0.21
+  - @omni-stack/provider@0.0.25
+  - @omni-stack/provider-utils@1.0.21
 
 ## 0.0.68
 
@@ -1881,8 +1881,8 @@
 ### Patch Changes
 
 - Updated dependencies [d595d0d]
-  - @open-stack/provider@0.0.24
-  - @open-stack/provider-utils@1.0.20
+  - @omni-stack/provider@0.0.24
+  - @omni-stack/provider-utils@1.0.20
 
 ## 0.0.62
 
@@ -1901,7 +1901,7 @@
 ### Patch Changes
 
 - Updated dependencies [273f696]
-  - @open-stack/provider-utils@1.0.19
+  - @omni-stack/provider-utils@1.0.19
 
 ## 0.0.59
 
@@ -1928,8 +1928,8 @@
 - 03313cd: feat (ai): expose response id, response model, response timestamp in telemetry and api
 - Updated dependencies [03313cd]
 - Updated dependencies [3be7c1c]
-  - @open-stack/provider-utils@1.0.18
-  - @open-stack/provider@0.0.23
+  - @omni-stack/provider-utils@1.0.18
+  - @omni-stack/provider@0.0.23
 
 ## 0.0.55
 
@@ -1943,15 +1943,15 @@
 
 - 26515cb: feat (ai/provider): introduce ProviderV1 specification
 - Updated dependencies [26515cb]
-  - @open-stack/provider@0.0.22
-  - @open-stack/provider-utils@1.0.17
+  - @omni-stack/provider@0.0.22
+  - @omni-stack/provider-utils@1.0.17
 
 ## 0.0.53
 
 ### Patch Changes
 
 - Updated dependencies [09f895f]
-  - @open-stack/provider-utils@1.0.16
+  - @omni-stack/provider-utils@1.0.16
 
 ## 0.0.52
 
@@ -1964,15 +1964,15 @@
 ### Patch Changes
 
 - Updated dependencies [d67fa9c]
-  - @open-stack/provider-utils@1.0.15
+  - @omni-stack/provider-utils@1.0.15
 
 ## 0.0.50
 
 ### Patch Changes
 
 - Updated dependencies [f2c025e]
-  - @open-stack/provider@0.0.21
-  - @open-stack/provider-utils@1.0.14
+  - @omni-stack/provider@0.0.21
+  - @omni-stack/provider-utils@1.0.14
 
 ## 0.0.49
 
@@ -1985,8 +1985,8 @@
 ### Patch Changes
 
 - Updated dependencies [6ac355e]
-  - @open-stack/provider@0.0.20
-  - @open-stack/provider-utils@1.0.13
+  - @omni-stack/provider@0.0.20
+  - @omni-stack/provider-utils@1.0.13
 
 ## 0.0.47
 
@@ -1995,7 +1995,7 @@
 - 4ffbaee: fix (provider/openai): fix strict flag for structured outputs with tools
 - dd712ac: fix: use FetchFunction type to prevent self-reference
 - Updated dependencies [dd712ac]
-  - @open-stack/provider-utils@1.0.12
+  - @omni-stack/provider-utils@1.0.12
 
 ## 0.0.46
 
@@ -2003,8 +2003,8 @@
 
 - 89b18ca: fix (ai/provider): send finish reason 'unknown' by default
 - Updated dependencies [dd4a0f5]
-  - @open-stack/provider@0.0.19
-  - @open-stack/provider-utils@1.0.11
+  - @omni-stack/provider@0.0.19
+  - @omni-stack/provider-utils@1.0.11
 
 ## 0.0.45
 
@@ -2012,8 +2012,8 @@
 
 - Updated dependencies [4bd27a9]
 - Updated dependencies [845754b]
-  - @open-stack/provider-utils@1.0.10
-  - @open-stack/provider@0.0.18
+  - @omni-stack/provider-utils@1.0.10
+  - @omni-stack/provider@0.0.18
 
 ## 0.0.44
 
@@ -2021,8 +2021,8 @@
 
 - 029af4c: feat (ai/core): support schema name & description in generateObject & streamObject
 - Updated dependencies [029af4c]
-  - @open-stack/provider@0.0.17
-  - @open-stack/provider-utils@1.0.9
+  - @omni-stack/provider@0.0.17
+  - @omni-stack/provider-utils@1.0.9
 
 ## 0.0.43
 
@@ -2031,16 +2031,16 @@
 - d58517b: feat (ai/openai): structured outputs
 - c0a73ee: feat (provider/openai): add gpt-4o-2024-08-06 to list of supported models
 - Updated dependencies [d58517b]
-  - @open-stack/provider@0.0.16
-  - @open-stack/provider-utils@1.0.8
+  - @omni-stack/provider@0.0.16
+  - @omni-stack/provider-utils@1.0.8
 
 ## 0.0.42
 
 ### Patch Changes
 
 - Updated dependencies [96aed25]
-  - @open-stack/provider@0.0.15
-  - @open-stack/provider-utils@1.0.7
+  - @omni-stack/provider@0.0.15
+  - @omni-stack/provider-utils@1.0.7
 
 ## 0.0.41
 
@@ -2049,22 +2049,22 @@
 - 7a2eb27: feat (provider/openai): make role nullish to enhance provider support
 - Updated dependencies [9614584]
 - Updated dependencies [0762a22]
-  - @open-stack/provider-utils@1.0.6
+  - @omni-stack/provider-utils@1.0.6
 
 ## 0.0.40
 
 ### Patch Changes
 
 - Updated dependencies [a8d1c9e9]
-  - @open-stack/provider-utils@1.0.5
-  - @open-stack/provider@0.0.14
+  - @omni-stack/provider-utils@1.0.5
+  - @omni-stack/provider@0.0.14
 
 ## 0.0.39
 
 ### Patch Changes
 
 - Updated dependencies [4f88248f]
-  - @open-stack/provider-utils@1.0.4
+  - @omni-stack/provider-utils@1.0.4
 
 ## 0.0.38
 
@@ -2079,8 +2079,8 @@
 - Updated dependencies [a5b58845]
 - Updated dependencies [4aa8deb3]
 - Updated dependencies [13b27ec6]
-  - @open-stack/provider@0.0.13
-  - @open-stack/provider-utils@1.0.3
+  - @omni-stack/provider@0.0.13
+  - @omni-stack/provider-utils@1.0.3
 
 ## 0.0.37
 
@@ -2094,15 +2094,15 @@
 
 - b7290943: feat (ai/core): add token usage to embed and embedMany
 - Updated dependencies [b7290943]
-  - @open-stack/provider@0.0.12
-  - @open-stack/provider-utils@1.0.2
+  - @omni-stack/provider@0.0.12
+  - @omni-stack/provider-utils@1.0.2
 
 ## 0.0.35
 
 ### Patch Changes
 
 - Updated dependencies [d481729f]
-  - @open-stack/provider-utils@1.0.1
+  - @omni-stack/provider-utils@1.0.1
 
 ## 0.0.34
 
@@ -2112,28 +2112,28 @@
 - Updated dependencies [5edc6110]
 - Updated dependencies [5edc6110]
 - Updated dependencies [5edc6110]
-  - @open-stack/provider@0.0.11
-  - @open-stack/provider-utils@1.0.0
+  - @omni-stack/provider@0.0.11
+  - @omni-stack/provider-utils@1.0.0
 
 ## 0.0.33
 
 ### Patch Changes
 
 - Updated dependencies [02f6a088]
-  - @open-stack/provider-utils@0.0.16
+  - @omni-stack/provider-utils@0.0.16
 
 ## 0.0.32
 
 ### Patch Changes
 
-- 1b37b8b9: fix (@open-stack/openai): only send logprobs settings when logprobs are requested
+- 1b37b8b9: fix (@omni-stack/openai): only send logprobs settings when logprobs are requested
 
 ## 0.0.31
 
 ### Patch Changes
 
-- eba071dd: feat (@open-stack/azure): add azure openai completion support
-- 1ea890fe: feat (@open-stack/azure): add azure openai completion support
+- eba071dd: feat (@omni-stack/azure): add azure openai completion support
+- 1ea890fe: feat (@omni-stack/azure): add azure openai completion support
 
 ## 0.0.30
 
@@ -2141,7 +2141,7 @@
 
 - Updated dependencies [85712895]
 - Updated dependencies [85712895]
-  - @open-stack/provider-utils@0.0.15
+  - @omni-stack/provider-utils@0.0.15
 
 ## 0.0.29
 
@@ -2150,51 +2150,51 @@
 - 4728c37f: feat (core): add text embedding model support to provider registry
 - 7910ae84: feat (providers): support custom fetch implementations
 - Updated dependencies [7910ae84]
-  - @open-stack/provider-utils@0.0.14
+  - @omni-stack/provider-utils@0.0.14
 
 ## 0.0.28
 
 ### Patch Changes
 
-- f9db8fd6: feat (@open-stack/openai): add parallelToolCalls setting
+- f9db8fd6: feat (@omni-stack/openai): add parallelToolCalls setting
 
 ## 0.0.27
 
 ### Patch Changes
 
-- fc9552ec: fix (@open-stack/azure): allow for nullish delta
+- fc9552ec: fix (@omni-stack/azure): allow for nullish delta
 
 ## 0.0.26
 
 ### Patch Changes
 
-- 7530f861: fix (@open-stack/openai): add internal dist to bundle
+- 7530f861: fix (@omni-stack/openai): add internal dist to bundle
 
 ## 0.0.25
 
 ### Patch Changes
 
-- 8b1362a7: chore (@open-stack/openai): expose models under /internal for reuse in other providers
+- 8b1362a7: chore (@omni-stack/openai): expose models under /internal for reuse in other providers
 
 ## 0.0.24
 
 ### Patch Changes
 
-- 0e78960c: fix (@open-stack/openai): make function name and arguments nullish
+- 0e78960c: fix (@omni-stack/openai): make function name and arguments nullish
 
 ## 0.0.23
 
 ### Patch Changes
 
-- a68fe74a: fix (@open-stack/openai): allow null tool_calls value.
+- a68fe74a: fix (@omni-stack/openai): allow null tool_calls value.
 
 ## 0.0.22
 
 ### Patch Changes
 
 - Updated dependencies [102ca22f]
-  - @open-stack/provider@0.0.10
-  - @open-stack/provider-utils@0.0.13
+  - @omni-stack/provider@0.0.10
+  - @omni-stack/provider-utils@0.0.13
 
 ## 0.0.21
 
@@ -2204,8 +2204,8 @@
 - Updated dependencies [09295e2e]
 - Updated dependencies [09295e2e]
 - Updated dependencies [043a5de2]
-  - @open-stack/provider@0.0.9
-  - @open-stack/provider-utils@0.0.12
+  - @omni-stack/provider@0.0.9
+  - @omni-stack/provider-utils@0.0.12
 
 ## 0.0.20
 
@@ -2231,8 +2231,8 @@
 
 - f39c0dd2: feat (provider): implement toolChoice support
 - Updated dependencies [f39c0dd2]
-  - @open-stack/provider@0.0.8
-  - @open-stack/provider-utils@0.0.11
+  - @omni-stack/provider@0.0.8
+  - @omni-stack/provider-utils@0.0.11
 
 ## 0.0.16
 
@@ -2246,8 +2246,8 @@
 
 - 24683b72: fix (providers): Zod is required dependency
 - Updated dependencies [8e780288]
-  - @open-stack/provider@0.0.7
-  - @open-stack/provider-utils@0.0.10
+  - @omni-stack/provider@0.0.7
+  - @omni-stack/provider-utils@0.0.10
 
 ## 0.0.14
 
@@ -2255,8 +2255,8 @@
 
 - Updated dependencies [6a50ac4]
 - Updated dependencies [6a50ac4]
-  - @open-stack/provider@0.0.6
-  - @open-stack/provider-utils@0.0.9
+  - @omni-stack/provider@0.0.6
+  - @omni-stack/provider-utils@0.0.9
 
 ## 0.0.13
 
@@ -2272,38 +2272,38 @@
 - 1009594: feat (provider/openai): set stream_options/include_usage to true when streaming
 - 0f6bc4e: feat (ai/core): add embed function
 - Updated dependencies [0f6bc4e]
-  - @open-stack/provider@0.0.5
-  - @open-stack/provider-utils@0.0.8
+  - @omni-stack/provider@0.0.5
+  - @omni-stack/provider-utils@0.0.8
 
 ## 0.0.11
 
 ### Patch Changes
 
 - Updated dependencies [325ca55]
-  - @open-stack/provider@0.0.4
-  - @open-stack/provider-utils@0.0.7
+  - @omni-stack/provider@0.0.4
+  - @omni-stack/provider-utils@0.0.7
 
 ## 0.0.10
 
 ### Patch Changes
 
 - Updated dependencies [276f22b]
-  - @open-stack/provider-utils@0.0.6
+  - @omni-stack/provider-utils@0.0.6
 
 ## 0.0.9
 
 ### Patch Changes
 
 - Updated dependencies [41d5736]
-  - @open-stack/provider@0.0.3
-  - @open-stack/provider-utils@0.0.5
+  - @omni-stack/provider@0.0.3
+  - @omni-stack/provider-utils@0.0.5
 
 ## 0.0.8
 
 ### Patch Changes
 
 - Updated dependencies [56ef84a]
-  - @open-stack/provider-utils@0.0.4
+  - @omni-stack/provider-utils@0.0.4
 
 ## 0.0.7
 
@@ -2319,8 +2319,8 @@
 - 25f3350: ai/core: add support for getting raw response headers.
 - Updated dependencies [d6431ae]
 - Updated dependencies [25f3350]
-  - @open-stack/provider@0.0.2
-  - @open-stack/provider-utils@0.0.3
+  - @omni-stack/provider@0.0.2
+  - @omni-stack/provider-utils@0.0.3
 
 ## 0.0.5
 
@@ -2328,8 +2328,8 @@
 
 - eb150a6: ai/core: remove scaling of setting values (breaking change). If you were using the temperature, frequency penalty, or presence penalty settings, you need to update the providers and adjust the setting values.
 - Updated dependencies [eb150a6]
-  - @open-stack/provider-utils@0.0.2
-  - @open-stack/provider@0.0.1
+  - @omni-stack/provider-utils@0.0.2
+  - @omni-stack/provider@0.0.1
 
 ## 0.0.4
 
@@ -2356,4 +2356,4 @@
 - 7b8791d: Support streams with 'chat.completion' objects.
 - 7b8791d: Rename baseUrl to baseURL. Automatically remove trailing slashes.
 - Updated dependencies [7b8791d]
-  - @open-stack/provider-utils@0.0.1
+  - @omni-stack/provider-utils@0.0.1

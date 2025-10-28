@@ -1,6 +1,6 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import 'dotenv/config';
-import { stepCountIs, streamText, tool } from 'ai';
+import { stepCountIs, streamText, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 async function main() {

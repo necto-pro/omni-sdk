@@ -1,5 +1,5 @@
-import { gladia } from '@open-stack/gladia';
-import { experimental_transcribe as transcribe } from 'ai';
+import { gladia } from '@omni-stack/gladia';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

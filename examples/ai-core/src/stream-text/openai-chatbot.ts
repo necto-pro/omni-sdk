@@ -1,5 +1,5 @@
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
-import { stepCountIs, ModelMessage, streamText, tool, APICallError } from 'ai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
+import { stepCountIs, ModelMessage, streamText, tool, APICallError } from '@omni-stack/core';
 import * as readline from 'node:readline/promises';
 import { z } from 'zod';
 import { run } from '../lib/run';

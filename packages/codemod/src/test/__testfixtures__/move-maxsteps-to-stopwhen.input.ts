@@ -1,6 +1,6 @@
 // @ts-nocheck
-import { generateText } from 'ai';
-import { useChat } from '@open-stack/react';
+import { generateText } from '@omni-stack/core';
+import { useChat } from '@omni-stack/react';
 
 async function foo() {
   const result = await generateText({

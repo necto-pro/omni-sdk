@@ -1,5 +1,5 @@
 ---
-'@open-stack/togetherai': patch
+'@omni-stack/togetherai': patch
 ---
 
 Added reranking feature

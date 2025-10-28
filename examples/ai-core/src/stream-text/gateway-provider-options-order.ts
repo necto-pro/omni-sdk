@@ -1,4 +1,4 @@
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

@@ -1,6 +1,6 @@
 // @ts-nocheck
-import { IDGenerator } from 'ai';
-import { type IDGenerator as GeneratorType, someFunction, otherFunction } from 'ai';
+import { IDGenerator } from '@omni-stack/core';
+import { type IDGenerator as GeneratorType, someFunction, otherFunction } from '@omni-stack/core';
 
 // Variable declarations with type annotations
 const generator1: IDGenerator = createGenerator();

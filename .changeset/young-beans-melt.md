@@ -1,6 +1,6 @@
 ---
-'@open-stack/gateway': patch
-'@open-stack/provider-utils': patch
+'@omni-stack/gateway': patch
+'@omni-stack/provider-utils': patch
 ---
 
 fix: revert zod import change

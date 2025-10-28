@@ -1,11 +1,11 @@
 ---
-'@open-stack/amazon-bedrock': patch
-'@open-stack/provider-utils': patch
-'@open-stack/anthropic': patch
-'@open-stack/provider': patch
-'@open-stack/mistral': patch
-'@open-stack/google': patch
-'@open-stack/openai': patch
+'@omni-stack/amazon-bedrock': patch
+'@omni-stack/provider-utils': patch
+'@omni-stack/anthropic': patch
+'@omni-stack/provider': patch
+'@omni-stack/mistral': patch
+'@omni-stack/google': patch
+'@omni-stack/openai': patch
 'ai': patch
 ---
 

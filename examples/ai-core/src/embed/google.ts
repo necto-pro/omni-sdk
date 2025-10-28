@@ -1,5 +1,5 @@
-import { google } from '@open-stack/google';
-import { embed } from 'ai';
+import { google } from '@omni-stack/google';
+import { embed } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

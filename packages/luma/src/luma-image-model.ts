@@ -2,7 +2,7 @@ import {
   ImageModelV3,
   ImageModelV3CallWarning,
   InvalidResponseDataError,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   combineHeaders,
@@ -13,7 +13,7 @@ import {
   delay,
   getFromApi,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { LumaImageSettings } from './luma-image-settings';
 import { z } from 'zod/v4';
 

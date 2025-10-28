@@ -1,9 +1,9 @@
-import { mistral } from '@open-stack/mistral';
+import { mistral } from '@omni-stack/mistral';
 import {
   extractReasoningMiddleware,
   generateText,
   wrapLanguageModel,
-} from 'ai';
+} from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

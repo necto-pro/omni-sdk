@@ -1,5 +1,5 @@
-import { deepinfra } from '@open-stack/deepinfra';
-import { generateText, tool } from 'ai';
+import { deepinfra } from '@omni-stack/deepinfra';
+import { generateText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 import { weatherTool } from '../tools/weather-tool';

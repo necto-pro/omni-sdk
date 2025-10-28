@@ -5,25 +5,25 @@ contains language model support for the LMNT API.
 
 ## Setup
 
-The LMNT provider is available in the `@open-stack/lmnt` module. You can install it with
+The LMNT provider is available in the `@omni-stack/lmnt` module. You can install it with
 
 ```bash
-npm i @open-stack/lmnt
+npm i @omni-stack/lmnt
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `lmnt` from `@open-stack/lmnt`:
+You can import the default provider instance `lmnt` from `@omni-stack/lmnt`:
 
 ```ts
-import { lmnt } from '@open-stack/lmnt';
+import { lmnt } from '@omni-stack/lmnt';
 ```
 
 ## Example
 
 ```ts
-import { lmnt } from '@open-stack/lmnt';
-import { experimental_generateSpeech as generateSpeech } from 'ai';
+import { lmnt } from '@omni-stack/lmnt';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
 
 const result = await generateSpeech({
   model: lmnt.speech('aurora'),

@@ -1,7 +1,7 @@
 import {
   createTestServer,
   TestResponseController,
-} from '@open-stack/test-server/with-vitest';
+} from '@omni-stack/test-server/with-vitest';
 import { render } from '@testing-library/svelte';
 import { z } from 'zod/v4';
 import { StructuredObject } from './structured-object.svelte.js';

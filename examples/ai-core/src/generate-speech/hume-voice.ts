@@ -1,5 +1,5 @@
-import { hume } from '@open-stack/hume';
-import { experimental_generateSpeech as generateSpeech } from 'ai';
+import { hume } from '@omni-stack/hume';
+import { experimental_generateSpeech as generateSpeech } from '@omni-stack/core';
 import 'dotenv/config';
 import { saveAudioFile } from '../lib/save-audio';
 

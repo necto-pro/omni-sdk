@@ -1,5 +1,5 @@
-import { cerebras } from '@open-stack/cerebras';
-import { generateObject } from 'ai';
+import { cerebras } from '@omni-stack/cerebras';
+import { generateObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

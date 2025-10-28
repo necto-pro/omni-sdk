@@ -1,5 +1,5 @@
 ---
-'@open-stack/anthropic': patch
+'@omni-stack/anthropic': patch
 ---
 
 fix(provider/anthropic): correct raw usage information

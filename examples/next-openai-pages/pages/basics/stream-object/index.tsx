@@ -1,4 +1,4 @@
-import { experimental_useObject } from '@open-stack/react';
+import { experimental_useObject } from '@omni-stack/react';
 import { z } from 'zod';
 
 export default function Page() {

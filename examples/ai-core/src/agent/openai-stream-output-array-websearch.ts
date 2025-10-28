@@ -1,5 +1,5 @@
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
-import { Output, ToolLoopAgent } from 'ai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
+import { Output, ToolLoopAgent } from '@omni-stack/core';
 import { z } from 'zod';
 import { print } from '../lib/print';
 import { printFullStream } from '../lib/print-full-stream';

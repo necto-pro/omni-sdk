@@ -91,7 +91,7 @@ export async function verifyChangesets(
     //
     // ```yaml
     // 'ai': patch
-    // '@open-stack/provider': patch
+    // '@omni-stack/provider': patch
     // ```
     const lines = frontmatter.split('\n').slice(1, -1);
     const versionBumps = {};

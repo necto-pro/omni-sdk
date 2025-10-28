@@ -1,11 +1,11 @@
 import {
   createTestServer,
   TestResponseController,
-} from '@open-stack/test-server/with-vitest';
+} from '@omni-stack/test-server/with-vitest';
 import '@testing-library/jest-dom/vitest';
 import { screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { UIMessageChunk } from 'ai';
+import { UIMessageChunk } from '@omni-stack/core';
 import { setupTestComponent } from './setup-test-component';
 import { useCompletion } from './use-completion';
 import { describe, it, expect, beforeEach } from 'vitest';

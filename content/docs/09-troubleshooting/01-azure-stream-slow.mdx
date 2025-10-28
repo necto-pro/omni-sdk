@@ -23,7 +23,7 @@ This is a Microsoft Azure issue. Some users have reported the following solution
 You can use the [`smoothStream` transformation](/docs/ai-sdk-core/generating-text#smoothing-streams) to stream each word individually.
 
 ```tsx highlight="6"
-import { smoothStream, streamText } from 'ai';
+import { smoothStream, streamText } from '@omni-stack/core';
 
 const result = streamText({
   model,

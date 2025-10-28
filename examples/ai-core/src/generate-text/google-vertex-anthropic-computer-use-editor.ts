@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { vertexAnthropic } from '@open-stack/google-vertex/anthropic';
-import { generateText, stepCountIs } from 'ai';
+import { vertexAnthropic } from '@omni-stack/google-vertex/anthropic';
+import { generateText, stepCountIs } from '@omni-stack/core';
 
 async function main() {
   let editorContent = `

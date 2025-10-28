@@ -1,5 +1,5 @@
-import { luma } from '@open-stack/luma';
-import { experimental_generateImage as generateImage } from 'ai';
+import { luma } from '@omni-stack/luma';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';
 

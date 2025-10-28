@@ -2,20 +2,20 @@ import {
   OpenAICompatibleChatLanguageModel,
   OpenAICompatibleCompletionLanguageModel,
   OpenAICompatibleEmbeddingModel,
-} from '@open-stack/openai-compatible';
+} from '@omni-stack/openai-compatible';
 import {
   EmbeddingModelV3,
   ImageModelV3,
   LanguageModelV3,
   ProviderV3,
   RerankingModelV3,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { TogetherAIRerankingModel } from './reranking/togetherai-reranking-model';
 import { TogetherAIRerankingModelId } from './reranking/togetherai-reranking-options';
 import { TogetherAIChatModelId } from './togetherai-chat-options';

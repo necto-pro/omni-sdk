@@ -1,5 +1,5 @@
-import { replicate } from '@open-stack/replicate';
-import { experimental_generateImage as generateImage } from 'ai';
+import { replicate } from '@omni-stack/replicate';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';
 

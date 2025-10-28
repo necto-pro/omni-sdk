@@ -1,5 +1,5 @@
-import { vertex } from '@open-stack/google-vertex';
-import { embedMany } from 'ai';
+import { vertex } from '@omni-stack/google-vertex';
+import { embedMany } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { generateText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText } from '@omni-stack/core';
 import { presentImages } from '../lib/present-image';
 import { run } from '../lib/run';
 import { convertBase64ToUint8Array } from '../lib/convert-base64';

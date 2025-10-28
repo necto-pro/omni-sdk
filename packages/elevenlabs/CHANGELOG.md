@@ -1,20 +1,20 @@
-# @open-stack/elevenlabs
+# @omni-stack/elevenlabs
 
 ## 2.0.0-beta.26
 
 ### Patch Changes
 
 - Updated dependencies [d1bdadb]
-  - @open-stack/provider@3.0.0-beta.12
-  - @open-stack/provider-utils@4.0.0-beta.26
+  - @omni-stack/provider@3.0.0-beta.12
+  - @omni-stack/provider-utils@4.0.0-beta.26
 
 ## 2.0.0-beta.25
 
 ### Patch Changes
 
 - Updated dependencies [4c44a5b]
-  - @open-stack/provider@3.0.0-beta.11
-  - @open-stack/provider-utils@4.0.0-beta.25
+  - @omni-stack/provider@3.0.0-beta.11
+  - @omni-stack/provider-utils@4.0.0-beta.25
 
 ## 2.0.0-beta.24
 
@@ -22,95 +22,95 @@
 
 - 0c3b58b: fix(provider): add specificationVersion to ProviderV3
 - Updated dependencies [0c3b58b]
-  - @open-stack/provider@3.0.0-beta.10
-  - @open-stack/provider-utils@4.0.0-beta.24
+  - @omni-stack/provider@3.0.0-beta.10
+  - @omni-stack/provider-utils@4.0.0-beta.24
 
 ## 2.0.0-beta.23
 
 ### Patch Changes
 
 - Updated dependencies [a755db5]
-  - @open-stack/provider@3.0.0-beta.9
-  - @open-stack/provider-utils@4.0.0-beta.23
+  - @omni-stack/provider@3.0.0-beta.9
+  - @omni-stack/provider-utils@4.0.0-beta.23
 
 ## 2.0.0-beta.22
 
 ### Patch Changes
 
 - Updated dependencies [58920e0]
-  - @open-stack/provider-utils@4.0.0-beta.22
+  - @omni-stack/provider-utils@4.0.0-beta.22
 
 ## 2.0.0-beta.21
 
 ### Patch Changes
 
 - Updated dependencies [293a6b7]
-  - @open-stack/provider-utils@4.0.0-beta.21
+  - @omni-stack/provider-utils@4.0.0-beta.21
 
 ## 2.0.0-beta.20
 
 ### Patch Changes
 
 - Updated dependencies [fca786b]
-  - @open-stack/provider-utils@4.0.0-beta.20
+  - @omni-stack/provider-utils@4.0.0-beta.20
 
 ## 2.0.0-beta.19
 
 ### Patch Changes
 
 - Updated dependencies [3794514]
-  - @open-stack/provider-utils@4.0.0-beta.19
-  - @open-stack/provider@3.0.0-beta.8
+  - @omni-stack/provider-utils@4.0.0-beta.19
+  - @omni-stack/provider@3.0.0-beta.8
 
 ## 2.0.0-beta.18
 
 ### Patch Changes
 
 - Updated dependencies [81d4308]
-  - @open-stack/provider@3.0.0-beta.7
-  - @open-stack/provider-utils@4.0.0-beta.18
+  - @omni-stack/provider@3.0.0-beta.7
+  - @omni-stack/provider-utils@4.0.0-beta.18
 
 ## 2.0.0-beta.17
 
 ### Patch Changes
 
 - Updated dependencies [703459a]
-  - @open-stack/provider-utils@4.0.0-beta.17
+  - @omni-stack/provider-utils@4.0.0-beta.17
 
 ## 2.0.0-beta.16
 
 ### Patch Changes
 
 - Updated dependencies [6306603]
-  - @open-stack/provider-utils@4.0.0-beta.16
+  - @omni-stack/provider-utils@4.0.0-beta.16
 
 ## 2.0.0-beta.15
 
 ### Patch Changes
 
 - Updated dependencies [f0b2157]
-  - @open-stack/provider-utils@4.0.0-beta.15
+  - @omni-stack/provider-utils@4.0.0-beta.15
 
 ## 2.0.0-beta.14
 
 ### Patch Changes
 
 - Updated dependencies [3b1d015]
-  - @open-stack/provider-utils@4.0.0-beta.14
+  - @omni-stack/provider-utils@4.0.0-beta.14
 
 ## 2.0.0-beta.13
 
 ### Patch Changes
 
 - Updated dependencies [d116b4b]
-  - @open-stack/provider-utils@4.0.0-beta.13
+  - @omni-stack/provider-utils@4.0.0-beta.13
 
 ## 2.0.0-beta.12
 
 ### Patch Changes
 
 - Updated dependencies [7e32fea]
-  - @open-stack/provider-utils@4.0.0-beta.12
+  - @omni-stack/provider-utils@4.0.0-beta.12
 
 ## 2.0.0-beta.11
 
@@ -119,7 +119,7 @@
 - 95f65c2: chore: use import \* from zod/v4
 - Updated dependencies [95f65c2]
 - Updated dependencies [95f65c2]
-  - @open-stack/provider-utils@4.0.0-beta.11
+  - @omni-stack/provider-utils@4.0.0-beta.11
 
 ## 2.0.0-beta.10
 
@@ -130,22 +130,22 @@
 ### Patch Changes
 
 - Updated dependencies [dee8b05]
-  - @open-stack/provider@3.0.0-beta.6
-  - @open-stack/provider-utils@4.0.0-beta.10
+  - @omni-stack/provider@3.0.0-beta.6
+  - @omni-stack/provider-utils@4.0.0-beta.10
 
 ## 1.1.0-beta.9
 
 ### Patch Changes
 
 - Updated dependencies [521c537]
-  - @open-stack/provider-utils@3.1.0-beta.9
+  - @omni-stack/provider-utils@3.1.0-beta.9
 
 ## 1.1.0-beta.8
 
 ### Patch Changes
 
 - Updated dependencies [e06565c]
-  - @open-stack/provider-utils@3.1.0-beta.8
+  - @omni-stack/provider-utils@3.1.0-beta.8
 
 ## 1.1.0-beta.7
 
@@ -155,8 +155,8 @@
 - 21e20c0: feat(provider): transcription model v3 spec
 - Updated dependencies [046aa3b]
 - Updated dependencies [e8109d3]
-  - @open-stack/provider@2.1.0-beta.5
-  - @open-stack/provider-utils@3.1.0-beta.7
+  - @omni-stack/provider@2.1.0-beta.5
+  - @omni-stack/provider-utils@3.1.0-beta.7
 
 ## 1.1.0-beta.6
 
@@ -164,17 +164,17 @@
 
 - Updated dependencies [0adc679]
 - Updated dependencies [2b0caef]
-  - @open-stack/provider-utils@3.1.0-beta.6
-  - @open-stack/provider@2.1.0-beta.4
+  - @omni-stack/provider-utils@3.1.0-beta.6
+  - @omni-stack/provider@2.1.0-beta.4
 
 ## 1.1.0-beta.5
 
 ### Patch Changes
 
-- 10c1322: fix: moved dependency `@open-stack/test-server` to devDependencies
+- 10c1322: fix: moved dependency `@omni-stack/test-server` to devDependencies
 - Updated dependencies [8dac895]
-  - @open-stack/provider-utils@3.1.0-beta.5
-  - @open-stack/provider@2.1.0-beta.3
+  - @omni-stack/provider-utils@3.1.0-beta.5
+  - @omni-stack/provider@2.1.0-beta.3
 
 ## 1.1.0-beta.4
 
@@ -182,7 +182,7 @@
 
 - 4616b86: chore: update zod peer depenedency version
 - Updated dependencies [4616b86]
-  - @open-stack/provider-utils@3.1.0-beta.4
+  - @omni-stack/provider-utils@3.1.0-beta.4
 
 ## 1.1.0-beta.3
 
@@ -191,8 +191,8 @@
 - ed329cb: feat: `Provider-V3`
 - Updated dependencies [ed329cb]
 - Updated dependencies [522f6b8]
-  - @open-stack/provider@2.1.0-beta.2
-  - @open-stack/provider-utils@3.1.0-beta.3
+  - @omni-stack/provider@2.1.0-beta.2
+  - @omni-stack/provider-utils@3.1.0-beta.3
 
 ## 1.1.0-beta.2
 
@@ -200,8 +200,8 @@
 
 - 1cad0ab: feat: add provider version to user-agent header
 - Updated dependencies [0c4822d]
-  - @open-stack/provider@2.1.0-beta.1
-  - @open-stack/provider-utils@3.1.0-beta.2
+  - @omni-stack/provider@2.1.0-beta.1
+  - @omni-stack/provider-utils@3.1.0-beta.2
 
 ## 1.1.0-beta.1
 
@@ -209,8 +209,8 @@
 
 - Updated dependencies [953d0f2]
 - Updated dependencies [cbb1d35]
-  - @open-stack/test-server@1.0.0-beta.0
-  - @open-stack/provider-utils@3.1.0-beta.1
+  - @omni-stack/test-server@1.0.0-beta.0
+  - @omni-stack/provider-utils@3.1.0-beta.1
 
 ## 1.1.0-beta.0
 
@@ -221,15 +221,15 @@
 ### Patch Changes
 
 - Updated dependencies [78928cb]
-  - @open-stack/provider@2.1.0-beta.0
-  - @open-stack/provider-utils@3.1.0-beta.0
+  - @omni-stack/provider@2.1.0-beta.0
+  - @omni-stack/provider-utils@3.1.0-beta.0
 
 ## 1.0.10
 
 ### Patch Changes
 
 - Updated dependencies [0294b58]
-  - @open-stack/provider-utils@3.0.9
+  - @omni-stack/provider-utils@3.0.9
 
 ## 1.0.9
 
@@ -237,28 +237,28 @@
 
 - b5fda10: fix(provider/elevenlabs): `experimental_transcribe` fails with valid buffer`
 - Updated dependencies [99964ed]
-  - @open-stack/provider-utils@3.0.8
+  - @omni-stack/provider-utils@3.0.8
 
 ## 1.0.8
 
 ### Patch Changes
 
 - Updated dependencies [886e7cd]
-  - @open-stack/provider-utils@3.0.7
+  - @omni-stack/provider-utils@3.0.7
 
 ## 1.0.7
 
 ### Patch Changes
 
 - Updated dependencies [1b5a3d3]
-  - @open-stack/provider-utils@3.0.6
+  - @omni-stack/provider-utils@3.0.6
 
 ## 1.0.6
 
 ### Patch Changes
 
 - Updated dependencies [0857788]
-  - @open-stack/provider-utils@3.0.5
+  - @omni-stack/provider-utils@3.0.5
 
 ## 1.0.5
 
@@ -271,7 +271,7 @@
 ### Patch Changes
 
 - Updated dependencies [68751f9]
-  - @open-stack/provider-utils@3.0.4
+  - @omni-stack/provider-utils@3.0.4
 
 ## 1.0.3
 
@@ -279,21 +279,21 @@
 
 - Updated dependencies [034e229]
 - Updated dependencies [f25040d]
-  - @open-stack/provider-utils@3.0.3
+  - @omni-stack/provider-utils@3.0.3
 
 ## 1.0.2
 
 ### Patch Changes
 
 - Updated dependencies [38ac190]
-  - @open-stack/provider-utils@3.0.2
+  - @omni-stack/provider-utils@3.0.2
 
 ## 1.0.1
 
 ### Patch Changes
 
 - Updated dependencies [90d212f]
-  - @open-stack/provider-utils@3.0.1
+  - @omni-stack/provider-utils@3.0.1
 
 ## 1.0.0
 
@@ -406,44 +406,44 @@
 - Updated dependencies [383cbfa]
 - Updated dependencies [27deb4d]
 - Updated dependencies [c4df419]
-  - @open-stack/provider-utils@3.0.0
-  - @open-stack/provider@2.0.0
+  - @omni-stack/provider-utils@3.0.0
+  - @omni-stack/provider@2.0.0
 
 ## 1.0.0-beta.11
 
 ### Patch Changes
 
 - Updated dependencies [88a8ee5]
-  - @open-stack/provider-utils@3.0.0-beta.10
+  - @omni-stack/provider-utils@3.0.0-beta.10
 
 ## 1.0.0-beta.10
 
 ### Patch Changes
 
 - Updated dependencies [27deb4d]
-  - @open-stack/provider@2.0.0-beta.2
-  - @open-stack/provider-utils@3.0.0-beta.9
+  - @omni-stack/provider@2.0.0-beta.2
+  - @omni-stack/provider-utils@3.0.0-beta.9
 
 ## 1.0.0-beta.9
 
 ### Patch Changes
 
 - Updated dependencies [dd5fd43]
-  - @open-stack/provider-utils@3.0.0-beta.8
+  - @omni-stack/provider-utils@3.0.0-beta.8
 
 ## 1.0.0-beta.8
 
 ### Patch Changes
 
 - Updated dependencies [e7fcc86]
-  - @open-stack/provider-utils@3.0.0-beta.7
+  - @omni-stack/provider-utils@3.0.0-beta.7
 
 ## 1.0.0-beta.7
 
 ### Patch Changes
 
 - Updated dependencies [ac34802]
-  - @open-stack/provider-utils@3.0.0-beta.6
+  - @omni-stack/provider-utils@3.0.0-beta.6
 
 ## 1.0.0-beta.6
 
@@ -451,7 +451,7 @@
 
 - Updated dependencies [57edfcb]
 - Updated dependencies [383cbfa]
-  - @open-stack/provider-utils@3.0.0-beta.5
+  - @omni-stack/provider-utils@3.0.0-beta.5
 
 ## 1.0.0-beta.5
 
@@ -459,14 +459,14 @@
 
 - 205077b: fix: improve Zod compatibility
 - Updated dependencies [205077b]
-  - @open-stack/provider-utils@3.0.0-beta.4
+  - @omni-stack/provider-utils@3.0.0-beta.4
 
 ## 1.0.0-beta.4
 
 ### Patch Changes
 
 - Updated dependencies [05d2819]
-  - @open-stack/provider-utils@3.0.0-beta.3
+  - @omni-stack/provider-utils@3.0.0-beta.3
 
 ## 1.0.0-beta.3
 
@@ -482,7 +482,7 @@
 - Updated dependencies [0571b98]
 - Updated dependencies [39a4fab]
 - Updated dependencies [d1a034f]
-  - @open-stack/provider-utils@3.0.0-beta.2
+  - @omni-stack/provider-utils@3.0.0-beta.2
 
 ## 1.0.0-beta.1
 
@@ -506,8 +506,8 @@
 - Updated dependencies [5e57fae]
 - Updated dependencies [71f938d]
 - Updated dependencies [28a5ed5]
-  - @open-stack/provider@2.0.0-beta.1
-  - @open-stack/provider-utils@3.0.0-beta.1
+  - @omni-stack/provider@2.0.0-beta.1
+  - @omni-stack/provider-utils@3.0.0-beta.1
 
 ## 1.0.0-alpha.15
 
@@ -515,8 +515,8 @@
 
 - Updated dependencies [48d257a]
 - Updated dependencies [8ba77a7]
-  - @open-stack/provider@2.0.0-alpha.15
-  - @open-stack/provider-utils@3.0.0-alpha.15
+  - @omni-stack/provider@2.0.0-alpha.15
+  - @omni-stack/provider-utils@3.0.0-alpha.15
 
 ## 1.0.0-alpha.14
 
@@ -525,48 +525,48 @@
 - Updated dependencies [b5da06a]
 - Updated dependencies [63f9e9b]
 - Updated dependencies [2e13791]
-  - @open-stack/provider@2.0.0-alpha.14
-  - @open-stack/provider-utils@3.0.0-alpha.14
+  - @omni-stack/provider@2.0.0-alpha.14
+  - @omni-stack/provider-utils@3.0.0-alpha.14
 
 ## 1.0.0-alpha.13
 
 ### Patch Changes
 
 - Updated dependencies [68ecf2f]
-  - @open-stack/provider@2.0.0-alpha.13
-  - @open-stack/provider-utils@3.0.0-alpha.13
+  - @omni-stack/provider@2.0.0-alpha.13
+  - @omni-stack/provider-utils@3.0.0-alpha.13
 
 ## 1.0.0-alpha.12
 
 ### Patch Changes
 
 - Updated dependencies [e2aceaf]
-  - @open-stack/provider@2.0.0-alpha.12
-  - @open-stack/provider-utils@3.0.0-alpha.12
+  - @omni-stack/provider@2.0.0-alpha.12
+  - @omni-stack/provider-utils@3.0.0-alpha.12
 
 ## 1.0.0-alpha.11
 
 ### Patch Changes
 
 - Updated dependencies [c1e6647]
-  - @open-stack/provider@2.0.0-alpha.11
-  - @open-stack/provider-utils@3.0.0-alpha.11
+  - @omni-stack/provider@2.0.0-alpha.11
+  - @omni-stack/provider-utils@3.0.0-alpha.11
 
 ## 1.0.0-alpha.10
 
 ### Patch Changes
 
 - Updated dependencies [c4df419]
-  - @open-stack/provider@2.0.0-alpha.10
-  - @open-stack/provider-utils@3.0.0-alpha.10
+  - @omni-stack/provider@2.0.0-alpha.10
+  - @omni-stack/provider-utils@3.0.0-alpha.10
 
 ## 1.0.0-alpha.9
 
 ### Patch Changes
 
 - Updated dependencies [811dff3]
-  - @open-stack/provider@2.0.0-alpha.9
-  - @open-stack/provider-utils@3.0.0-alpha.9
+  - @omni-stack/provider@2.0.0-alpha.9
+  - @omni-stack/provider-utils@3.0.0-alpha.9
 
 ## 1.0.0-alpha.8
 
@@ -574,84 +574,84 @@
 
 - Updated dependencies [4fef487]
 - Updated dependencies [9222aeb]
-  - @open-stack/provider-utils@3.0.0-alpha.8
-  - @open-stack/provider@2.0.0-alpha.8
+  - @omni-stack/provider-utils@3.0.0-alpha.8
+  - @omni-stack/provider@2.0.0-alpha.8
 
 ## 1.0.0-alpha.7
 
 ### Patch Changes
 
 - Updated dependencies [5c56081]
-  - @open-stack/provider@2.0.0-alpha.7
-  - @open-stack/provider-utils@3.0.0-alpha.7
+  - @omni-stack/provider@2.0.0-alpha.7
+  - @omni-stack/provider-utils@3.0.0-alpha.7
 
 ## 1.0.0-alpha.6
 
 ### Patch Changes
 
 - Updated dependencies [0d2c085]
-  - @open-stack/provider@2.0.0-alpha.6
-  - @open-stack/provider-utils@3.0.0-alpha.6
+  - @omni-stack/provider@2.0.0-alpha.6
+  - @omni-stack/provider-utils@3.0.0-alpha.6
 
 ## 1.0.0-alpha.4
 
 ### Patch Changes
 
 - Updated dependencies [dc714f3]
-  - @open-stack/provider@2.0.0-alpha.4
-  - @open-stack/provider-utils@3.0.0-alpha.4
+  - @omni-stack/provider@2.0.0-alpha.4
+  - @omni-stack/provider-utils@3.0.0-alpha.4
 
 ## 1.0.0-alpha.3
 
 ### Patch Changes
 
 - Updated dependencies [6b98118]
-  - @open-stack/provider@2.0.0-alpha.3
-  - @open-stack/provider-utils@3.0.0-alpha.3
+  - @omni-stack/provider@2.0.0-alpha.3
+  - @omni-stack/provider-utils@3.0.0-alpha.3
 
 ## 1.0.0-alpha.2
 
 ### Patch Changes
 
 - Updated dependencies [26535e0]
-  - @open-stack/provider@2.0.0-alpha.2
-  - @open-stack/provider-utils@3.0.0-alpha.2
+  - @omni-stack/provider@2.0.0-alpha.2
+  - @omni-stack/provider-utils@3.0.0-alpha.2
 
 ## 1.0.0-alpha.1
 
 ### Patch Changes
 
 - Updated dependencies [3f2f00c]
-  - @open-stack/provider@2.0.0-alpha.1
-  - @open-stack/provider-utils@3.0.0-alpha.1
+  - @omni-stack/provider@2.0.0-alpha.1
+  - @omni-stack/provider-utils@3.0.0-alpha.1
 
 ## 1.0.0-canary.12
 
 ### Patch Changes
 
 - Updated dependencies [faf8446]
-  - @open-stack/provider-utils@3.0.0-canary.19
+  - @omni-stack/provider-utils@3.0.0-canary.19
 
 ## 1.0.0-canary.11
 
 ### Patch Changes
 
 - Updated dependencies [40acf9b]
-  - @open-stack/provider-utils@3.0.0-canary.18
+  - @omni-stack/provider-utils@3.0.0-canary.18
 
 ## 1.0.0-canary.10
 
 ### Patch Changes
 
 - Updated dependencies [ea7a7c9]
-  - @open-stack/provider-utils@3.0.0-canary.17
+  - @omni-stack/provider-utils@3.0.0-canary.17
 
 ## 1.0.0-canary.9
 
 ### Patch Changes
 
 - Updated dependencies [87b828f]
-  - @open-stack/provider-utils@3.0.0-canary.16
+  - @omni-stack/provider-utils@3.0.0-canary.16
 
 ## 1.0.0-canary.8
 
@@ -661,8 +661,8 @@
 - Updated dependencies [a8c8bd5]
 - Updated dependencies [7979f7f]
 - Updated dependencies [41fa418]
-  - @open-stack/provider-utils@3.0.0-canary.15
-  - @open-stack/provider@2.0.0-canary.14
+  - @omni-stack/provider-utils@3.0.0-canary.15
+  - @omni-stack/provider@2.0.0-canary.14
 
 ## 1.0.0-canary.7
 
@@ -670,8 +670,8 @@
 
 - Updated dependencies [957b739]
 - Updated dependencies [9bd5ab5]
-  - @open-stack/provider-utils@3.0.0-canary.14
-  - @open-stack/provider@2.0.0-canary.13
+  - @omni-stack/provider-utils@3.0.0-canary.14
+  - @omni-stack/provider@2.0.0-canary.13
 
 ## 1.0.0-canary.6
 
@@ -679,8 +679,8 @@
 
 - Updated dependencies [7b3ae3f]
 - Updated dependencies [0ff02bb]
-  - @open-stack/provider@2.0.0-canary.12
-  - @open-stack/provider-utils@3.0.0-canary.13
+  - @omni-stack/provider@2.0.0-canary.12
+  - @omni-stack/provider-utils@3.0.0-canary.13
 
 ## 1.0.0-canary.5
 
@@ -689,8 +689,8 @@
 - Updated dependencies [9bf7291]
 - Updated dependencies [4617fab]
 - Updated dependencies [e030615]
-  - @open-stack/provider@2.0.0-canary.11
-  - @open-stack/provider-utils@3.0.0-canary.12
+  - @omni-stack/provider@2.0.0-canary.11
+  - @omni-stack/provider-utils@3.0.0-canary.12
 
 ## 1.0.0-canary.4
 
@@ -699,16 +699,16 @@
 - Updated dependencies [66962ed]
 - Updated dependencies [9301f86]
 - Updated dependencies [a3f768e]
-  - @open-stack/provider-utils@3.0.0-canary.11
-  - @open-stack/provider@2.0.0-canary.10
+  - @omni-stack/provider-utils@3.0.0-canary.11
+  - @omni-stack/provider@2.0.0-canary.10
 
 ## 1.0.0-canary.3
 
 ### Patch Changes
 
 - Updated dependencies [e86be6f]
-  - @open-stack/provider@2.0.0-canary.9
-  - @open-stack/provider-utils@3.0.0-canary.10
+  - @omni-stack/provider@2.0.0-canary.9
+  - @omni-stack/provider-utils@3.0.0-canary.10
 
 ## 1.0.0-canary.2
 
@@ -716,8 +716,8 @@
 
 - Updated dependencies [95857aa]
 - Updated dependencies [7ea4132]
-  - @open-stack/provider@2.0.0-canary.8
-  - @open-stack/provider-utils@3.0.0-canary.9
+  - @omni-stack/provider@2.0.0-canary.8
+  - @omni-stack/provider-utils@3.0.0-canary.9
 
 ## 1.0.0-canary.1
 
@@ -728,5 +728,5 @@
 - Updated dependencies [b6b43c7]
 - Updated dependencies [8aa9e20]
 - Updated dependencies [3795467]
-  - @open-stack/provider-utils@3.0.0-canary.8
-  - @open-stack/provider@2.0.0-canary.7
+  - @omni-stack/provider-utils@3.0.0-canary.8
+  - @omni-stack/provider@2.0.0-canary.7

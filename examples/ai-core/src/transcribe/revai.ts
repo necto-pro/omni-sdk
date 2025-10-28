@@ -1,5 +1,5 @@
-import { revai } from '@open-stack/revai';
-import { experimental_transcribe as transcribe } from 'ai';
+import { revai } from '@omni-stack/revai';
+import { experimental_transcribe as transcribe } from '@omni-stack/core';
 import 'dotenv/config';
 import { readFile } from 'fs/promises';
 

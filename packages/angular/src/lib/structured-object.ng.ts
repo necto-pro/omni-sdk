@@ -4,7 +4,7 @@ import {
   safeValidateTypes,
   type FetchFunction,
   type InferSchema,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { signal } from '@angular/core';
 import {
   FlexibleSchema,
@@ -12,7 +12,7 @@ import {
   isDeepEqualData,
   parsePartialJson,
   type DeepPartial,
-} from 'ai';
+} from '@omni-stack/core';
 
 export type StructuredObjectOptions<
   SCHEMA extends FlexibleSchema,

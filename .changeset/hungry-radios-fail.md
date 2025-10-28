@@ -1,21 +1,21 @@
 ---
-'@open-stack/openai-compatible': patch
-'@open-stack/amazon-bedrock': patch
-'@open-stack/provider-utils': patch
-'@open-stack/google-vertex': patch
-'@open-stack/anthropic': patch
-'@open-stack/provider': patch
-'@open-stack/angular': patch
-'@open-stack/mistral': patch
-'@open-stack/cohere': patch
-'@open-stack/google': patch
-'@open-stack/openai': patch
-'@open-stack/svelte': patch
-'@open-stack/azure': patch
-'@open-stack/react': patch
-'@open-stack/groq': patch
-'@open-stack/vue': patch
-'@open-stack/xai': patch
+'@omni-stack/openai-compatible': patch
+'@omni-stack/amazon-bedrock': patch
+'@omni-stack/provider-utils': patch
+'@omni-stack/google-vertex': patch
+'@omni-stack/anthropic': patch
+'@omni-stack/provider': patch
+'@omni-stack/angular': patch
+'@omni-stack/mistral': patch
+'@omni-stack/cohere': patch
+'@omni-stack/google': patch
+'@omni-stack/openai': patch
+'@omni-stack/svelte': patch
+'@omni-stack/azure': patch
+'@omni-stack/react': patch
+'@omni-stack/groq': patch
+'@omni-stack/vue': patch
+'@omni-stack/xai': patch
 'ai': patch
 ---
 

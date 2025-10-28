@@ -1,4 +1,4 @@
-import { groq as provider } from '@open-stack/groq';
+import { groq as provider } from '@omni-stack/groq';
 import {
   createFeatureTestSuite,
   createLanguageModelWithCapabilities,

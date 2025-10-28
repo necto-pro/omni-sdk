@@ -1,5 +1,5 @@
-import { cohere } from '@open-stack/cohere';
-import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from '@omni-stack/core';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';
 

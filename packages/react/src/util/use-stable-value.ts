@@ -1,4 +1,4 @@
-import { isDeepEqualData } from 'ai';
+import { isDeepEqualData } from '@omni-stack/core';
 import { useEffect, useState } from 'react';
 
 /**

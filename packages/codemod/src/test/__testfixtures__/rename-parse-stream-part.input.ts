@@ -1,4 +1,4 @@
 // @ts-nocheck
-import { parseDataStreamPart } from 'ai';
+import { parseDataStreamPart } from '@omni-stack/core';
 
 const result = parseDataStreamPart(data);

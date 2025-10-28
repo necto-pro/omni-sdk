@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@open-stack/google-vertex": "4.0.0-beta.53",
+    "@omni-stack/google-vertex": "4.0.0-beta.53",
     "ai": "6.0.0-beta.81",
     "geist": "^1.3.1",
     "next": "^15.5.4",

@@ -1,20 +1,20 @@
 import {
   OpenAICompatibleImageModel,
   ProviderErrorStructure,
-} from '@open-stack/openai-compatible';
+} from '@omni-stack/openai-compatible';
 import {
   ImageModelV3,
   LanguageModelV3,
   NoSuchModelError,
   ProviderV3,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   FetchFunction,
   generateId,
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { XaiChatLanguageModel } from './xai-chat-language-model';
 import { XaiChatModelId } from './xai-chat-options';
 import { XaiErrorData, xaiErrorDataSchema } from './xai-error';

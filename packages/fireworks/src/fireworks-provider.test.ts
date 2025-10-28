@@ -1,19 +1,19 @@
 import { describe, it, expect, vi, beforeEach, Mock } from 'vitest';
 import { createFireworks } from './fireworks-provider';
-import { LanguageModelV3, EmbeddingModelV3 } from '@open-stack/provider';
-import { loadApiKey } from '@open-stack/provider-utils';
+import { LanguageModelV3, EmbeddingModelV3 } from '@omni-stack/provider';
+import { loadApiKey } from '@omni-stack/provider-utils';
 import {
   OpenAICompatibleChatLanguageModel,
   OpenAICompatibleCompletionLanguageModel,
   OpenAICompatibleEmbeddingModel,
-} from '@open-stack/openai-compatible';
+} from '@omni-stack/openai-compatible';
 import { FireworksImageModel } from './fireworks-image-model';
 
 // Add type assertion for the mocked class
 const OpenAICompatibleChatLanguageModelMock =
   OpenAICompatibleChatLanguageModel as unknown as Mock;
 
-vi.mock('@open-stack/openai-compatible', () => {
+vi.mock('@omni-stack/openai-compatible', () => {
   // Create mock constructor functions that behave like classes
   const createMockConstructor = (providerName: string) => {
     const mockConstructor = vi.fn().mockImplementation(function (
@@ -39,8 +39,8 @@ vi.mock('@open-stack/openai-compatible', () => {
   };
 });
 
-vi.mock('@open-stack/provider-utils', async () => {
-  const actual = await vi.importActual('@open-stack/provider-utils');
+vi.mock('@omni-stack/provider-utils', async () => {
+  const actual = await vi.importActual('@omni-stack/provider-utils');
   return {
     ...actual,
     loadApiKey: vi.fn().mockReturnValue('mock-api-key'),

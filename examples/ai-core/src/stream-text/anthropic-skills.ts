@@ -2,8 +2,8 @@ import {
   anthropic,
   AnthropicMessageMetadata,
   AnthropicProviderOptions,
-} from '@open-stack/anthropic';
-import { streamText } from 'ai';
+} from '@omni-stack/anthropic';
+import { streamText } from '@omni-stack/core';
 import { print } from '../lib/print';
 import { printFullStream } from '../lib/print-full-stream';
 import { run } from '../lib/run';

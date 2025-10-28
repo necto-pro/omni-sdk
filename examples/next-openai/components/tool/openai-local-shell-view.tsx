@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { ChatAddToolApproveResponseFunction, UIToolInvocation } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { ChatAddToolApproveResponseFunction, UIToolInvocation } from '@omni-stack/core';
 
 export default function LocalShellView({
   invocation,

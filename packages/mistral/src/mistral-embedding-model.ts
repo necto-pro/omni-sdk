@@ -1,13 +1,13 @@
 import {
   EmbeddingModelV3,
   TooManyEmbeddingValuesForCallError,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 import {
   combineHeaders,
   createJsonResponseHandler,
   FetchFunction,
   postJsonToApi,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { MistralEmbeddingModelId } from './mistral-embedding-options';
 import { mistralFailedResponseHandler } from './mistral-error';

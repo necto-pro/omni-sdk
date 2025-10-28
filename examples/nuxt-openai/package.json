@@ -10,8 +10,8 @@
     "clean": "rm -rf .nuxt"
   },
   "dependencies": {
-    "@open-stack/vue": "3.0.0-beta.81",
-    "@open-stack/openai": "3.0.0-beta.42",
+    "@omni-stack/vue": "3.0.0-beta.81",
+    "@omni-stack/openai": "3.0.0-beta.42",
     "ai": "6.0.0-beta.81",
     "zod": "3.25.76"
   },

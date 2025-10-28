@@ -1,5 +1,5 @@
-import { google } from '@open-stack/google';
-import { generateText, stepCountIs, tool } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateText, stepCountIs, tool } from '@omni-stack/core';
 import { z } from 'zod';
 import 'dotenv/config';
 import * as fs from 'fs';

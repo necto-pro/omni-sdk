@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { google } from '@open-stack/google';
-import { generateObject } from 'ai';
+import { google } from '@omni-stack/google';
+import { generateObject } from '@omni-stack/core';
 import fs from 'node:fs';
 import { z } from 'zod';
 

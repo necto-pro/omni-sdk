@@ -2,14 +2,14 @@ import {
   LanguageModelV3,
   NoSuchModelError,
   ProviderV3,
-} from '@open-stack/provider';
-import { OpenAICompatibleChatLanguageModel } from '@open-stack/openai-compatible';
+} from '@omni-stack/provider';
+import { OpenAICompatibleChatLanguageModel } from '@omni-stack/openai-compatible';
 import {
   FetchFunction,
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { VercelChatModelId } from './vercel-chat-options';
 import { VERSION } from './version';
 

@@ -21,9 +21,9 @@ description: Evaluate & Observe LLM applications with Maxim
 
 ```
 "ai"
-"@open-stack/openai"
-"@open-stack/anthropic"
-"@open-stack/google"
+"@omni-stack/openai"
+"@omni-stack/anthropic"
+"@omni-stack/google"
 "@maximai/maxim-js"
 ```
 
@@ -65,7 +65,7 @@ async function initializeMaxim() {
 ## Wrap AI SDK Models with Maxim
 
 ```javascript
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { wrapMaximAISDKModel } from '@maximai/maxim-js/vercel-ai-sdk';
 
 const model = wrapMaximAISDKModel(openai('gpt-4'), logger);
@@ -74,8 +74,8 @@ const model = wrapMaximAISDKModel(openai('gpt-4'), logger);
 ## Make LLM calls using wrapped models
 
 ```javascript
-import { generateText } from 'ai';
-import { openai } from '@open-stack/openai';
+import { generateText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { wrapMaximAISDKModel } from '@maximai/maxim-js/vercel-ai-sdk';
 
 const model = wrapMaximAISDKModel(openai('gpt-4'), logger);
@@ -98,7 +98,7 @@ The wrapped model works seamlessly with all Vercel AI SDK functions:
 ### **Generate Object**
 
 ```javascript
-import { generateObject } from 'ai';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const response = await generateObject({
@@ -118,7 +118,7 @@ console.log(response.object);
 ### **Stream Text**
 
 ```javascript
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 
 const { textStream } = await streamText({
   model: model,
@@ -180,8 +180,8 @@ const response = await generateText({
 ## Streaming Support
 
 ```javascript
-import { streamText } from 'ai';
-import { openai } from '@open-stack/openai';
+import { streamText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { wrapMaximAISDKModel, MaximVercelProviderMetadata } from '@maximai/maxim-js/vercel-ai-sdk';
 
 const model = wrapMaximAISDKModel(openai('gpt-4'), logger);
@@ -209,9 +209,9 @@ for await (const textPart of textStream) {
 ## Multiple Provider Support
 
 ```javascript
-import { openai } from '@open-stack/openai';
-import { anthropic } from '@open-stack/anthropic';
-import { google } from '@open-stack/google';
+import { openai } from '@omni-stack/openai';
+import { anthropic } from '@omni-stack/anthropic';
+import { google } from '@omni-stack/google';
 import { wrapMaximAISDKModel } from '@maximai/maxim-js/vercel-ai-sdk';
 
 // Wrap different provider models
@@ -236,8 +236,8 @@ const responses = await Promise.all([
 
 ```javascript
 // app/api/chat/route.js
-import { streamText } from 'ai';
-import { openai } from '@open-stack/openai';
+import { streamText } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 import { wrapMaximAISDKModel, MaximVercelProviderMetadata } from '@maximai/maxim-js/vercel-ai-sdk';
 import { Maxim } from "@maximai/maxim-js";
 

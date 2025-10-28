@@ -1,5 +1,5 @@
-import { deepinfra } from '@open-stack/deepinfra';
-import { experimental_generateImage as generateImage } from 'ai';
+import { deepinfra } from '@omni-stack/deepinfra';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';
 

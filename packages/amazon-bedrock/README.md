@@ -5,18 +5,18 @@ contains language model support for the Amazon Bedrock [converse API](https://do
 
 ## Setup
 
-The Amazon Bedrock provider is available in the `@open-stack/amazon-bedrock` module. You can install it with
+The Amazon Bedrock provider is available in the `@omni-stack/amazon-bedrock` module. You can install it with
 
 ```bash
-npm i @open-stack/amazon-bedrock
+npm i @omni-stack/amazon-bedrock
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `bedrock` from `@open-stack/amazon-bedrock`:
+You can import the default provider instance `bedrock` from `@omni-stack/amazon-bedrock`:
 
 ```ts
-import { bedrock } from '@open-stack/amazon-bedrock';
+import { bedrock } from '@omni-stack/amazon-bedrock';
 ```
 
 ## Authentication
@@ -36,8 +36,8 @@ export AWS_BEARER_TOKEN_BEDROCK=your-api-key-here
 ```
 
 ```ts
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { generateText } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: bedrock('anthropic.claude-3-haiku-20240307-v1:0'),
@@ -51,8 +51,8 @@ const { text } = await generateText({
 You can also pass the API key directly in the provider configuration:
 
 ```ts
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { generateText } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { generateText } from '@omni-stack/core';
 
 const bedrockWithApiKey = bedrock.withSettings({
   apiKey: process.env.AWS_BEARER_TOKEN_BEDROCK, // or your API key directly
@@ -70,8 +70,8 @@ const { text } = await generateText({
 If no API key is provided, the provider automatically falls back to AWS SigV4 authentication using standard AWS credentials:
 
 ```ts
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { generateText } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { generateText } from '@omni-stack/core';
 
 // Uses AWS credentials from environment variables or AWS credential chain
 const { text } = await generateText({
@@ -97,8 +97,8 @@ The provider uses the following authentication precedence:
 ## Example
 
 ```ts
-import { bedrock } from '@open-stack/amazon-bedrock';
-import { generateText } from 'ai';
+import { bedrock } from '@omni-stack/amazon-bedrock';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: bedrock('meta.llama3-8b-instruct-v1:0'),

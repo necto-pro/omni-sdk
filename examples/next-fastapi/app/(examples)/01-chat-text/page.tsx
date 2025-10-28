@@ -1,8 +1,8 @@
 'use client';
 
 import { Card } from '@/app/components';
-import { useChat } from '@open-stack/react';
-import { TextStreamChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { TextStreamChatTransport } from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Page() {

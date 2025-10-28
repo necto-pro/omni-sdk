@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { xai } from '@open-stack/xai';
-import { generateText } from 'ai';
+import { xai } from '@omni-stack/xai';
+import { generateText } from '@omni-stack/core';
 
 async function main() {
   const result = await generateText({

@@ -1,6 +1,6 @@
 import { weatherTool } from '@/tool/weather-tool';
-import { openai } from '@open-stack/openai';
-import { ToolLoopAgent, InferAgentUIMessage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { ToolLoopAgent, InferAgentUIMessage } from '@omni-stack/core';
 
 export const weatherAgent = new ToolLoopAgent({
   model: openai('gpt-4o'),

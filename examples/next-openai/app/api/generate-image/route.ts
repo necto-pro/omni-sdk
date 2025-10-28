@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { experimental_generateImage as generateImage } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { experimental_generateImage as generateImage } from '@omni-stack/core';
 
 // Allow responses up to 60 seconds
 export const maxDuration = 60;

@@ -1,4 +1,4 @@
-import { generateObject } from 'ai';
+import { generateObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

@@ -1,5 +1,5 @@
 ---
-'@open-stack/google': patch
+'@omni-stack/google': patch
 ---
 
 add promptFeedback outputs

@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { convertToModelMessages, streamObject, streamText } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { convertToModelMessages, streamObject, streamText } from '@omni-stack/core';
 import 'dotenv/config';
 import express, { Request, Response } from 'express';
 import z from 'zod';

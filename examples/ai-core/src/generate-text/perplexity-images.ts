@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { perplexity } from '@open-stack/perplexity';
-import { generateText } from 'ai';
+import { perplexity } from '@omni-stack/perplexity';
+import { generateText } from '@omni-stack/core';
 
 async function main() {
   const result = await generateText({

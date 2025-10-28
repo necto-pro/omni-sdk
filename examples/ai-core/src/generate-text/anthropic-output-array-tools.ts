@@ -1,5 +1,5 @@
-import { anthropic } from '@open-stack/anthropic';
-import { generateText, Output, stepCountIs } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { generateText, Output, stepCountIs } from '@omni-stack/core';
 import { z } from 'zod';
 import { print } from '../lib/print';
 import { run } from '../lib/run';

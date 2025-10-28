@@ -1,5 +1,5 @@
 import type { WeatherUIToolWithApprovalInvocation } from '@/tool/weather-tool-with-approval';
-import type { ChatAddToolApproveResponseFunction } from 'ai';
+import type { ChatAddToolApproveResponseFunction } from '@omni-stack/core';
 
 export default function WeatherWithApprovalView({
   invocation,

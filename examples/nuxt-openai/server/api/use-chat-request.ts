@@ -1,5 +1,5 @@
-import { createOpenAI } from '@open-stack/openai';
-import { convertToModelMessages, streamText, type UIMessage } from 'ai';
+import { createOpenAI } from '@omni-stack/openai';
+import { convertToModelMessages, streamText, type UIMessage } from '@omni-stack/core';
 
 export default defineLazyEventHandler(async () => {
   const openai = createOpenAI({

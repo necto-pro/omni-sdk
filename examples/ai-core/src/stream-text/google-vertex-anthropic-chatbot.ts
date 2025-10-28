@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { vertexAnthropic } from '@open-stack/google-vertex/anthropic';
-import { stepCountIs, ModelMessage, streamText, tool } from 'ai';
+import { vertexAnthropic } from '@omni-stack/google-vertex/anthropic';
+import { stepCountIs, ModelMessage, streamText, tool } from '@omni-stack/core';
 import * as readline from 'node:readline/promises';
 import { z } from 'zod';
 

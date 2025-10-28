@@ -1,7 +1,7 @@
 import {
   createTestServer,
   TestResponseController,
-} from '@open-stack/test-server/with-vitest';
+} from '@omni-stack/test-server/with-vitest';
 import { z } from 'zod/v4';
 import { StructuredObject } from './structured-object.ng';
 import { beforeEach, describe, expect, it, vi } from 'vitest';

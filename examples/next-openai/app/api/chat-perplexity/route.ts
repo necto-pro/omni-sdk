@@ -1,5 +1,5 @@
-import { perplexity } from '@open-stack/perplexity';
-import { convertToModelMessages, streamText, UIMessage } from 'ai';
+import { perplexity } from '@omni-stack/perplexity';
+import { convertToModelMessages, streamText, UIMessage } from '@omni-stack/core';
 
 export const maxDuration = 30;
 

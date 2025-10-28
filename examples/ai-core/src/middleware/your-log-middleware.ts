@@ -1,7 +1,7 @@
 import {
   LanguageModelV3Middleware,
   LanguageModelV3StreamPart,
-} from '@open-stack/provider';
+} from '@omni-stack/provider';
 
 export const yourLogMiddleware: LanguageModelV3Middleware = {
   wrapGenerate: async ({ doGenerate, params }) => {

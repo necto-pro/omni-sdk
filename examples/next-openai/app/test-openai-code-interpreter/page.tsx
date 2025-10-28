@@ -1,7 +1,7 @@
 'use client';
 
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import ChatInput from '@/components/chat-input';
 import { OpenAICodeInterpreterMessage } from '@/app/api/chat-openai-code-interpreter/route';
 import CodeInterpreterView from '@/components/tool/openai-code-interpreter-view';

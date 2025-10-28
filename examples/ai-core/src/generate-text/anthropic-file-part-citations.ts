@@ -1,5 +1,5 @@
-import { anthropic } from '@open-stack/anthropic';
-import { generateText } from 'ai';
+import { anthropic } from '@omni-stack/anthropic';
+import { generateText } from '@omni-stack/core';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import 'dotenv/config';

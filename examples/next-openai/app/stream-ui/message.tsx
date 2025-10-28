@@ -1,6 +1,6 @@
 'use client';
 
-import { StreamableValue, useStreamableValue } from '@open-stack/rsc';
+import { StreamableValue, useStreamableValue } from '@omni-stack/rsc';
 
 export function BotMessage({ textStream }: { textStream: StreamableValue }) {
   const [text] = useStreamableValue(textStream);

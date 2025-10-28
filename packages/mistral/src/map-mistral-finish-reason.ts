@@ -1,4 +1,4 @@
-import { LanguageModelV3FinishReason } from '@open-stack/provider';
+import { LanguageModelV3FinishReason } from '@omni-stack/provider';
 
 export function mapMistralFinishReason(
   finishReason: string | null | undefined,

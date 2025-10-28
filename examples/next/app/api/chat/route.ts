@@ -1,6 +1,6 @@
 import type { MyUIMessage } from '@/util/chat-schema';
 import { readChat, saveChat } from '@util/chat-store';
-import { convertToModelMessages, generateId, streamText } from 'ai';
+import { convertToModelMessages, generateId, streamText } from '@omni-stack/core';
 import { after } from 'next/server';
 import { createResumableStreamContext } from 'resumable-stream';
 import throttle from 'throttleit';

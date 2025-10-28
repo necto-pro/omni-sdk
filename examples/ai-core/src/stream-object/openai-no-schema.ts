@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { streamObject } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamObject } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

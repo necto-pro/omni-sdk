@@ -1,6 +1,6 @@
 // @ts-nocheck
-import { generateText } from 'ai';
-import { generateText as genText } from 'ai';
+import { generateText } from '@omni-stack/core';
+import { generateText as genText } from '@omni-stack/core';
 import { generateText as otherGen } from 'other-pkg';
 
 // Should rename - direct import

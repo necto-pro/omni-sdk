@@ -1,5 +1,5 @@
-import { mistral } from '@open-stack/mistral';
-import { stepCountIs, ModelMessage, streamText, tool } from 'ai';
+import { mistral } from '@omni-stack/mistral';
+import { stepCountIs, ModelMessage, streamText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { z } from 'zod';

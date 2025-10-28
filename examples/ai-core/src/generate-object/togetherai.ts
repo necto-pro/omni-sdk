@@ -1,5 +1,5 @@
-import { togetherai } from '@open-stack/togetherai';
-import { generateObject } from 'ai';
+import { togetherai } from '@omni-stack/togetherai';
+import { generateObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { cerebras as provider } from '@open-stack/cerebras';
-import { generateText } from 'ai';
+import { cerebras as provider } from '@omni-stack/cerebras';
+import { generateText } from '@omni-stack/core';
 
 async function main() {
   const result = await generateText({

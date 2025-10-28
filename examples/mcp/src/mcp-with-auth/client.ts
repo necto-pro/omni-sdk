@@ -1,26 +1,26 @@
-import { openai } from '@open-stack/openai';
-import { generateText, stepCountIs } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateText, stepCountIs } from '@omni-stack/core';
 
 /**
- * @deprecated Use the `@open-stack/mcp` package instead.
+ * @deprecated Use the `@omni-stack/mcp` package instead.
  *
-import { experimental_createMCPClient, auth } from 'ai';
+import { experimental_createMCPClient, auth } from '@omni-stack/core';
 import type {
   OAuthClientProvider,
   OAuthClientInformation,
   OAuthClientMetadata,
   OAuthTokens,
-} from 'ai';
+} from '@omni-stack/core';
 */
 
-import { experimental_createMCPClient, auth } from '@open-stack/mcp';
+import { experimental_createMCPClient, auth } from '@omni-stack/mcp';
 import 'dotenv/config';
 import type {
   OAuthClientProvider,
   OAuthClientInformation,
   OAuthClientMetadata,
   OAuthTokens,
-} from '@open-stack/mcp';
+} from '@omni-stack/mcp';
 import { createServer } from 'node:http';
 import { exec } from 'node:child_process';
 

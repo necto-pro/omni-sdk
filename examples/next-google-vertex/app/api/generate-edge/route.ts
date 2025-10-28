@@ -1,7 +1,7 @@
 export const runtime = 'edge';
 
-import { generateText } from 'ai';
-import { vertex } from '@open-stack/google-vertex/edge';
+import { generateText } from '@omni-stack/core';
+import { vertex } from '@omni-stack/google-vertex/edge';
 
 export async function GET() {
   const model = vertex('gemini-1.5-flash');

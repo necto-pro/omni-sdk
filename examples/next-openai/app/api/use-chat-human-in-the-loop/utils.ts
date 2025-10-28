@@ -6,7 +6,7 @@ import {
   UIMessageStreamWriter,
   getToolName,
   isToolUIPart,
-} from 'ai';
+} from '@omni-stack/core';
 import { HumanInTheLoopUIMessage } from './types';
 
 // Approval string to be shared across frontend and backend

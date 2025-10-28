@@ -1,5 +1,5 @@
-import { openai } from '@open-stack/openai';
-import { generateObject } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { generateObject } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

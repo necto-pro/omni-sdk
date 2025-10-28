@@ -1,9 +1,9 @@
 'use client';
 
 /* eslint-disable @next/next/no-img-element */
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import { upload } from '@vercel/blob/client';
-import { FileUIPart } from 'ai';
+import { FileUIPart } from '@omni-stack/core';
 import { useRef, useState } from 'react';
 
 export default function Page() {

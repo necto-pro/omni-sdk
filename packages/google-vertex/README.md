@@ -6,10 +6,10 @@ This library includes a Google Vertex Anthropic provider. This provider closely 
 
 ## Setup
 
-The Google Vertex provider is available in the `@open-stack/google-vertex` module. You can install it with
+The Google Vertex provider is available in the `@omni-stack/google-vertex` module. You can install it with
 
 ```bash
-npm i @open-stack/google-vertex
+npm i @omni-stack/google-vertex
 ```
 
 ## Google Vertex Provider
@@ -21,8 +21,8 @@ The Google Vertex provider has two different authentication implementations depe
 The Node.js runtime is the default runtime supported by the AI SDK. You can use the default provider instance to generate text with the `gemini-1.5-flash` model like this:
 
 ```ts
-import { vertex } from '@open-stack/google-vertex';
-import { generateText } from 'ai';
+import { vertex } from '@omni-stack/google-vertex';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: vertex('gemini-1.5-flash'),
@@ -34,13 +34,13 @@ This provider supports all standard Google Cloud authentication options through 
 
 ### Edge Runtime
 
-The Edge runtime is supported through the `@open-stack/google-vertex/edge` module. Note the additional sub-module path `/edge` required to differentiate the Edge provider from the Node.js provider.
+The Edge runtime is supported through the `@omni-stack/google-vertex/edge` module. Note the additional sub-module path `/edge` required to differentiate the Edge provider from the Node.js provider.
 
 You can use the default provider instance to generate text with the `gemini-1.5-flash` model like this:
 
 ```ts
-import { vertex } from '@open-stack/google-vertex/edge';
-import { generateText } from 'ai';
+import { vertex } from '@omni-stack/google-vertex/edge';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: vertex('gemini-1.5-flash'),
@@ -57,8 +57,8 @@ The Google Vertex Anthropic provider is available for both Node.js and Edge runt
 ### Node.js Runtime
 
 ```ts
-import { vertexAnthropic } from '@open-stack/google-vertex/anthropic';
-import { generateText } from 'ai';
+import { vertexAnthropic } from '@omni-stack/google-vertex/anthropic';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: vertexAnthropic('claude-3-5-sonnet@20240620'),
@@ -69,8 +69,8 @@ const { text } = await generateText({
 ### Edge Runtime
 
 ```ts
-import { vertexAnthropic } from '@open-stack/google-vertex/anthropic/edge';
-import { generateText } from 'ai';
+import { vertexAnthropic } from '@omni-stack/google-vertex/anthropic/edge';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: vertexAnthropic('claude-3-5-sonnet@20240620'),
@@ -87,8 +87,8 @@ The Google Vertex Anthropic provider supports prompt caching for Anthropic Claud
 To enable prompt caching, you can use the `cacheControl` property in the settings. Here is an example demonstrating how to enable prompt caching:
 
 ```ts
-import { vertexAnthropic } from '@open-stack/google-vertex/anthropic';
-import { generateText } from 'ai';
+import { vertexAnthropic } from '@omni-stack/google-vertex/anthropic';
+import { generateText } from '@omni-stack/core';
 import fs from 'node:fs';
 
 const errorMessage = fs.readFileSync('data/error-message.txt', 'utf8');
@@ -137,8 +137,8 @@ main().catch(console.error);
 You can create a custom provider instance using the `createVertex` function. This allows you to specify additional configuration options. Below is an example with the default Node.js provider which includes a `googleAuthOptions` object.
 
 ```ts
-import { createVertex } from '@open-stack/google-vertex';
-import { generateText } from 'ai';
+import { createVertex } from '@omni-stack/google-vertex';
+import { generateText } from '@omni-stack/core';
 
 const customProvider = createVertex({
   project: 'your-project-id',
@@ -162,8 +162,8 @@ The `googleAuthOptions` object is not present in the Edge provider options but c
 The Edge provider supports a `googleCredentials` option rather than `googleAuthOptions`. This can be used to specify the Google Cloud service account credentials and will take precedence over the environment variables used otherwise.
 
 ```ts
-import { createVertex } from '@open-stack/google-vertex/edge';
-import { generateText } from 'ai';
+import { createVertex } from '@omni-stack/google-vertex/edge';
+import { generateText } from '@omni-stack/core';
 
 const customProvider = createVertex({
   project: 'your-project-id',
@@ -185,8 +185,8 @@ const { text } = await generateText({
 The Google Vertex Anthropic provider custom configuration is analogous to the above:
 
 ```ts
-import { createVertexAnthropic } from '@open-stack/google-vertex/anthropic';
-import { generateText } from 'ai';
+import { createVertexAnthropic } from '@omni-stack/google-vertex/anthropic';
+import { generateText } from '@omni-stack/core';
 
 const customProvider = createVertexAnthropic({
   project: 'your-project-id',
@@ -202,8 +202,8 @@ const { text } = await generateText({
 And for the Edge runtime:
 
 ```ts
-import { vertexAnthropic } from '@open-stack/google-vertex/anthropic/edge';
-import { generateText } from 'ai';
+import { vertexAnthropic } from '@omni-stack/google-vertex/anthropic/edge';
+import { generateText } from '@omni-stack/core';
 
 const customProvider = createVertexAnthropic({
   project: 'your-project-id',

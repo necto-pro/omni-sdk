@@ -1,5 +1,5 @@
-import { groq } from '@open-stack/groq';
-import { streamText } from 'ai';
+import { groq } from '@omni-stack/groq';
+import { streamText } from '@omni-stack/core';
 import 'dotenv/config';
 
 async function main() {

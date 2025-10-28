@@ -28,9 +28,9 @@ curl -X POST http://localhost:8080
 You can use the `toUIMessageStreamResponse` method to create a properly formatted streaming response.
 
 ```ts filename='index.ts'
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { serve } from '@hono/node-server';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 import { Hono } from 'hono';
 
 const app = new Hono();
@@ -51,9 +51,9 @@ serve({ fetch: app.fetch, port: 8080 });
 You can use the `toTextStreamResponse` method to return a text stream response.
 
 ```ts filename='index.ts'
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { serve } from '@hono/node-server';
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 import { Hono } from 'hono';
 
 const app = new Hono();
@@ -74,13 +74,13 @@ serve({ fetch: app.fetch, port: 8080 });
 You can use `createUIMessageStream` and `createUIMessageStreamResponse` to send custom data to the client.
 
 ```ts filename='index.ts'
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { serve } from '@hono/node-server';
 import {
   createUIMessageStream,
   createUIMessageStreamResponse,
   streamText,
-} from 'ai';
+} from '@omni-stack/core';
 import { Hono } from 'hono';
 
 const app = new Hono();

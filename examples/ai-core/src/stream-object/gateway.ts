@@ -1,4 +1,4 @@
-import { streamObject } from 'ai';
+import { streamObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

@@ -1,4 +1,4 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   ModelMessage,
   stepCountIs,
@@ -6,7 +6,7 @@ import {
   dynamicTool,
   ToolApprovalResponse,
   ToolSet,
-} from 'ai';
+} from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { z } from 'zod';

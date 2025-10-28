@@ -1,4 +1,4 @@
-# @open-stack/react
+# @omni-stack/react
 
 ## 3.0.0-beta.81
 
@@ -19,14 +19,14 @@
 
 - Updated dependencies [d1bdadb]
   - ai@6.0.0-beta.79
-  - @open-stack/provider-utils@4.0.0-beta.26
+  - @omni-stack/provider-utils@4.0.0-beta.26
 
 ## 3.0.0-beta.78
 
 ### Patch Changes
 
 - ai@6.0.0-beta.78
-- @open-stack/provider-utils@4.0.0-beta.25
+- @omni-stack/provider-utils@4.0.0-beta.25
 
 ## 3.0.0-beta.77
 
@@ -34,7 +34,7 @@
 
 - Updated dependencies [0c3b58b]
   - ai@6.0.0-beta.77
-  - @open-stack/provider-utils@4.0.0-beta.24
+  - @omni-stack/provider-utils@4.0.0-beta.24
 
 ## 3.0.0-beta.76
 
@@ -42,7 +42,7 @@
 
 - Updated dependencies [a755db5]
   - ai@6.0.0-beta.76
-  - @open-stack/provider-utils@4.0.0-beta.23
+  - @omni-stack/provider-utils@4.0.0-beta.23
 
 ## 3.0.0-beta.75
 
@@ -51,14 +51,14 @@
 - Updated dependencies [58920e0]
 - Updated dependencies [58920e0]
   - ai@6.0.0-beta.75
-  - @open-stack/provider-utils@4.0.0-beta.22
+  - @omni-stack/provider-utils@4.0.0-beta.22
 
 ## 3.0.0-beta.74
 
 ### Patch Changes
 
 - Updated dependencies [293a6b7]
-  - @open-stack/provider-utils@4.0.0-beta.21
+  - @omni-stack/provider-utils@4.0.0-beta.21
   - ai@6.0.0-beta.74
 
 ## 3.0.0-beta.73
@@ -116,7 +116,7 @@
 - Updated dependencies [fca786b]
 - Updated dependencies [fca786b]
   - ai@6.0.0-beta.66
-  - @open-stack/provider-utils@4.0.0-beta.20
+  - @omni-stack/provider-utils@4.0.0-beta.20
 
 ## 3.0.0-beta.65
 
@@ -186,7 +186,7 @@
 ### Patch Changes
 
 - Updated dependencies [3794514]
-  - @open-stack/provider-utils@4.0.0-beta.19
+  - @omni-stack/provider-utils@4.0.0-beta.19
   - ai@6.0.0-beta.56
 
 ## 3.0.0-beta.55
@@ -229,14 +229,14 @@
 - Updated dependencies [4812235]
 - Updated dependencies [81d4308]
   - ai@6.0.0-beta.50
-  - @open-stack/provider-utils@4.0.0-beta.18
+  - @omni-stack/provider-utils@4.0.0-beta.18
 
 ## 3.0.0-beta.49
 
 ### Patch Changes
 
 - Updated dependencies [703459a]
-  - @open-stack/provider-utils@4.0.0-beta.17
+  - @omni-stack/provider-utils@4.0.0-beta.17
   - ai@6.0.0-beta.49
 
 ## 3.0.0-beta.48
@@ -285,7 +285,7 @@
 ### Patch Changes
 
 - Updated dependencies [6306603]
-  - @open-stack/provider-utils@4.0.0-beta.16
+  - @omni-stack/provider-utils@4.0.0-beta.16
   - ai@6.0.0-beta.42
 
 ## 3.0.0-beta.41
@@ -293,7 +293,7 @@
 ### Patch Changes
 
 - Updated dependencies [f0b2157]
-  - @open-stack/provider-utils@4.0.0-beta.15
+  - @omni-stack/provider-utils@4.0.0-beta.15
   - ai@6.0.0-beta.41
 
 ## 3.0.0-beta.40
@@ -301,7 +301,7 @@
 ### Patch Changes
 
 - Updated dependencies [3b1d015]
-  - @open-stack/provider-utils@4.0.0-beta.14
+  - @omni-stack/provider-utils@4.0.0-beta.14
   - ai@6.0.0-beta.40
 
 ## 3.0.0-beta.39
@@ -317,7 +317,7 @@
 ### Patch Changes
 
 - Updated dependencies [d116b4b]
-  - @open-stack/provider-utils@4.0.0-beta.13
+  - @omni-stack/provider-utils@4.0.0-beta.13
   - ai@6.0.0-beta.38
 
 ## 3.0.0-beta.37
@@ -325,7 +325,7 @@
 ### Patch Changes
 
 - Updated dependencies [7e32fea]
-  - @open-stack/provider-utils@4.0.0-beta.12
+  - @omni-stack/provider-utils@4.0.0-beta.12
   - ai@6.0.0-beta.37
 
 ## 3.0.0-beta.36
@@ -368,7 +368,7 @@
 - 95f65c2: chore: use import \* from zod/v4
 - Updated dependencies [95f65c2]
 - Updated dependencies [95f65c2]
-  - @open-stack/provider-utils@4.0.0-beta.11
+  - @omni-stack/provider-utils@4.0.0-beta.11
   - ai@6.0.0-beta.31
 
 ## 3.0.0-beta.30
@@ -387,14 +387,14 @@
 
 - Updated dependencies [dee8b05]
   - ai@6.0.0-beta.29
-  - @open-stack/provider-utils@4.0.0-beta.10
+  - @omni-stack/provider-utils@4.0.0-beta.10
 
 ## 2.1.0-beta.28
 
 ### Patch Changes
 
 - Updated dependencies [521c537]
-  - @open-stack/provider-utils@3.1.0-beta.9
+  - @omni-stack/provider-utils@3.1.0-beta.9
   - ai@5.1.0-beta.28
 
 ## 2.1.0-beta.27
@@ -402,7 +402,7 @@
 ### Patch Changes
 
 - Updated dependencies [e06565c]
-  - @open-stack/provider-utils@3.1.0-beta.8
+  - @omni-stack/provider-utils@3.1.0-beta.8
   - ai@5.1.0-beta.27
 
 ## 2.1.0-beta.26
@@ -442,7 +442,7 @@
 - Updated dependencies [a5e152d]
 - Updated dependencies [21e20c0]
   - ai@5.1.0-beta.22
-  - @open-stack/provider-utils@3.1.0-beta.7
+  - @omni-stack/provider-utils@3.1.0-beta.7
 
 ## 2.1.0-beta.21
 
@@ -472,7 +472,7 @@
 
 - Updated dependencies [0adc679]
 - Updated dependencies [9b8d17e]
-  - @open-stack/provider-utils@3.1.0-beta.6
+  - @omni-stack/provider-utils@3.1.0-beta.6
   - ai@5.1.0-beta.18
 
 ## 2.1.0-beta.17
@@ -498,13 +498,13 @@
 
 ### Patch Changes
 
-- 10c1322: fix: moved dependency `@open-stack/test-server` to devDependencies
+- 10c1322: fix: moved dependency `@omni-stack/test-server` to devDependencies
 - Updated dependencies [7c3c216]
 - Updated dependencies [8dac895]
 - Updated dependencies [e0d1ea9]
 - Updated dependencies [10c1322]
   - ai@5.1.0-beta.14
-  - @open-stack/provider-utils@3.1.0-beta.5
+  - @omni-stack/provider-utils@3.1.0-beta.5
 
 ## 2.1.0-beta.13
 
@@ -525,7 +525,7 @@
 
 - 4616b86: chore: update zod peer depenedency version
 - Updated dependencies [4616b86]
-  - @open-stack/provider-utils@3.1.0-beta.4
+  - @omni-stack/provider-utils@3.1.0-beta.4
   - ai@5.1.0-beta.11
 
 ## 2.1.0-beta.10
@@ -543,7 +543,7 @@
 - Updated dependencies [177b475]
 - Updated dependencies [522f6b8]
   - ai@5.1.0-beta.9
-  - @open-stack/provider-utils@3.1.0-beta.3
+  - @omni-stack/provider-utils@3.1.0-beta.3
 
 ## 2.1.0-beta.8
 
@@ -565,7 +565,7 @@
 
 - Updated dependencies [0c4822d]
   - ai@5.1.0-beta.6
-  - @open-stack/provider-utils@3.1.0-beta.2
+  - @omni-stack/provider-utils@3.1.0-beta.2
 
 ## 2.1.0-beta.5
 
@@ -591,8 +591,8 @@
 
 - Updated dependencies [953d0f2]
 - Updated dependencies [cbb1d35]
-  - @open-stack/test-server@1.0.0-beta.0
-  - @open-stack/provider-utils@3.1.0-beta.1
+  - @omni-stack/test-server@1.0.0-beta.0
+  - @omni-stack/provider-utils@3.1.0-beta.1
   - ai@5.1.0-beta.2
 
 ## 2.1.0-beta.1
@@ -612,7 +612,7 @@
 
 - Updated dependencies [78928cb]
   - ai@5.1.0-beta.0
-  - @open-stack/provider-utils@3.1.0-beta.0
+  - @omni-stack/provider-utils@3.1.0-beta.0
 
 ## 2.0.45
 
@@ -634,7 +634,7 @@
 ### Patch Changes
 
 - Updated dependencies [0294b58]
-  - @open-stack/provider-utils@3.0.9
+  - @omni-stack/provider-utils@3.0.9
   - ai@5.0.43
 
 ## 2.0.42
@@ -714,7 +714,7 @@
 ### Patch Changes
 
 - Updated dependencies [99964ed]
-  - @open-stack/provider-utils@3.0.8
+  - @omni-stack/provider-utils@3.0.8
   - ai@5.0.31
 
 ## 2.0.30
@@ -759,7 +759,7 @@
 
 - Updated dependencies [886e7cd]
 - Updated dependencies [ca65923]
-  - @open-stack/provider-utils@3.0.7
+  - @omni-stack/provider-utils@3.0.7
   - ai@5.0.25
 
 ## 2.0.24
@@ -768,7 +768,7 @@
 
 - Updated dependencies [1b5a3d3]
 - Updated dependencies [f8f3682]
-  - @open-stack/provider-utils@3.0.6
+  - @omni-stack/provider-utils@3.0.6
   - ai@5.0.24
 
 ## 2.0.23
@@ -793,7 +793,7 @@
 - Updated dependencies [0857788]
 - Updated dependencies [3c178ec]
   - ai@5.0.21
-  - @open-stack/provider-utils@3.0.5
+  - @omni-stack/provider-utils@3.0.5
 
 ## 2.0.20
 
@@ -828,7 +828,7 @@
 ### Patch Changes
 
 - Updated dependencies [68751f9]
-  - @open-stack/provider-utils@3.0.4
+  - @omni-stack/provider-utils@3.0.4
   - ai@5.0.16
 
 ## 2.0.15
@@ -859,7 +859,7 @@
 
 - Updated dependencies [034e229]
 - Updated dependencies [f25040d]
-  - @open-stack/provider-utils@3.0.3
+  - @omni-stack/provider-utils@3.0.3
   - ai@5.0.12
 
 ## 2.0.11
@@ -870,7 +870,7 @@
 - Updated dependencies [38ac190]
 - Updated dependencies [e3a63cb]
   - ai@5.0.11
-  - @open-stack/provider-utils@3.0.2
+  - @omni-stack/provider-utils@3.0.2
 
 ## 2.0.10
 
@@ -923,7 +923,7 @@
 ### Patch Changes
 
 - Updated dependencies [90d212f]
-  - @open-stack/provider-utils@3.0.1
+  - @omni-stack/provider-utils@3.0.1
   - ai@5.0.3
 
 ## 2.0.2
@@ -1222,7 +1222,7 @@
 - Updated dependencies [2b637d6]
 - Updated dependencies [7bd025b]
   - ai@5.0.0
-  - @open-stack/provider-utils@3.0.0
+  - @omni-stack/provider-utils@3.0.0
 
 ## 2.0.0-beta.34
 
@@ -1233,7 +1233,7 @@
 - Updated dependencies [88a8ee5]
 - Updated dependencies [f2c7f19]
   - ai@5.0.0-beta.34
-  - @open-stack/provider-utils@3.0.0-beta.10
+  - @omni-stack/provider-utils@3.0.0-beta.10
 
 ## 2.0.0-beta.33
 
@@ -1243,7 +1243,7 @@
 - Updated dependencies [93d53a1]
 - Updated dependencies [27deb4d]
   - ai@5.0.0-beta.33
-  - @open-stack/provider-utils@3.0.0-beta.9
+  - @omni-stack/provider-utils@3.0.0-beta.9
 
 ## 2.0.0-beta.32
 
@@ -1264,7 +1264,7 @@
 - Updated dependencies [ee38081]
 - Updated dependencies [dd5fd43]
   - ai@5.0.0-beta.31
-  - @open-stack/provider-utils@3.0.0-beta.8
+  - @omni-stack/provider-utils@3.0.0-beta.8
 
 ## 2.0.0-beta.30
 
@@ -1278,7 +1278,7 @@
 
 - Updated dependencies [e7fcc86]
 - Updated dependencies [d92b9a8]
-  - @open-stack/provider-utils@3.0.0-beta.7
+  - @omni-stack/provider-utils@3.0.0-beta.7
   - ai@5.0.0-beta.29
 
 ## 2.0.0-beta.28
@@ -1289,7 +1289,7 @@
 - Updated dependencies [ac34802]
 - Updated dependencies [84343eb]
 - Updated dependencies [a753b3a]
-  - @open-stack/provider-utils@3.0.0-beta.6
+  - @omni-stack/provider-utils@3.0.0-beta.6
   - ai@5.0.0-beta.28
 
 ## 2.0.0-beta.27
@@ -1328,7 +1328,7 @@
 - Updated dependencies [e4c8647]
 - Updated dependencies [383cbfa]
   - ai@5.0.0-beta.24
-  - @open-stack/provider-utils@3.0.0-beta.5
+  - @omni-stack/provider-utils@3.0.0-beta.5
 
 ## 2.0.0-beta.23
 
@@ -1349,7 +1349,7 @@
 - Updated dependencies [86293e5]
 - Updated dependencies [205077b]
   - ai@5.0.0-beta.22
-  - @open-stack/provider-utils@3.0.0-beta.4
+  - @omni-stack/provider-utils@3.0.0-beta.4
 
 ## 2.0.0-beta.21
 
@@ -1378,7 +1378,7 @@
 - Updated dependencies [05d2819]
 - Updated dependencies [db64cbe]
   - ai@5.0.0-beta.19
-  - @open-stack/provider-utils@3.0.0-beta.3
+  - @omni-stack/provider-utils@3.0.0-beta.3
 
 ## 2.0.0-beta.18
 
@@ -1516,7 +1516,7 @@
 - Updated dependencies [cb3b9c9]
 - Updated dependencies [d1a034f]
   - ai@5.0.0-beta.2
-  - @open-stack/provider-utils@3.0.0-beta.2
+  - @omni-stack/provider-utils@3.0.0-beta.2
 
 ## 2.0.0-beta.1
 
@@ -1538,7 +1538,7 @@
 - Updated dependencies [e862b5b]
 - Updated dependencies [7bd025b]
   - ai@5.0.0-beta.1
-  - @open-stack/provider-utils@3.0.0-beta.1
+  - @omni-stack/provider-utils@3.0.0-beta.1
 
 ## 2.0.0-alpha.15
 
@@ -1555,7 +1555,7 @@
 - Updated dependencies [395c85e]
 - Updated dependencies [60e2c56]
   - ai@5.0.0-alpha.15
-  - @open-stack/provider-utils@3.0.0-alpha.15
+  - @omni-stack/provider-utils@3.0.0-alpha.15
 
 ## 2.0.0-alpha.14
 
@@ -1564,7 +1564,7 @@
 - 995baa0: fix (react): structuredClone message in replaceMessage
 - Updated dependencies [63f9e9b]
   - ai@5.0.0-alpha.14
-  - @open-stack/provider-utils@3.0.0-alpha.14
+  - @omni-stack/provider-utils@3.0.0-alpha.14
 
 ## 2.0.0-alpha.13
 
@@ -1581,7 +1581,7 @@
 - Updated dependencies [33eb499]
 - Updated dependencies [901df02]
   - ai@5.0.0-alpha.13
-  - @open-stack/provider-utils@3.0.0-alpha.13
+  - @omni-stack/provider-utils@3.0.0-alpha.13
 
 ## 2.0.0-alpha.12
 
@@ -1590,7 +1590,7 @@
 - Updated dependencies [da1e6f0]
 - Updated dependencies [4892798]
   - ai@5.0.0-alpha.12
-  - @open-stack/provider-utils@3.0.0-alpha.12
+  - @omni-stack/provider-utils@3.0.0-alpha.12
 
 ## 2.0.0-alpha.11
 
@@ -1598,7 +1598,7 @@
 
 - Updated dependencies [e8324c5]
   - ai@5.0.0-alpha.11
-  - @open-stack/provider-utils@3.0.0-alpha.11
+  - @omni-stack/provider-utils@3.0.0-alpha.11
 
 ## 2.0.0-alpha.10
 
@@ -1611,7 +1611,7 @@
 - Updated dependencies [98f25e5]
 - Updated dependencies [7bb58d4]
   - ai@5.0.0-alpha.10
-  - @open-stack/provider-utils@3.0.0-alpha.10
+  - @omni-stack/provider-utils@3.0.0-alpha.10
 
 ## 2.0.0-alpha.9
 
@@ -1620,7 +1620,7 @@
 - Updated dependencies [8255639]
 - Updated dependencies [9ae327d]
   - ai@5.0.0-alpha.9
-  - @open-stack/provider-utils@3.0.0-alpha.9
+  - @omni-stack/provider-utils@3.0.0-alpha.9
 
 ## 2.0.0-alpha.8
 
@@ -1630,7 +1630,7 @@
 - Updated dependencies [6b1c55c]
 - Updated dependencies [2e4f9e4]
 - Updated dependencies [c25cbce]
-  - @open-stack/provider-utils@3.0.0-alpha.8
+  - @omni-stack/provider-utils@3.0.0-alpha.8
   - ai@5.0.0-alpha.8
 
 ## 2.0.0-alpha.7
@@ -1641,7 +1641,7 @@
 - Updated dependencies [9b0da33]
 - Updated dependencies [247ee0c]
   - ai@5.0.0-alpha.7
-  - @open-stack/provider-utils@3.0.0-alpha.7
+  - @omni-stack/provider-utils@3.0.0-alpha.7
 
 ## 2.0.0-alpha.6
 
@@ -1650,7 +1650,7 @@
 - Updated dependencies [0d2c085]
 - Updated dependencies [48a7606]
   - ai@5.0.0-alpha.6
-  - @open-stack/provider-utils@3.0.0-alpha.6
+  - @omni-stack/provider-utils@3.0.0-alpha.6
 
 ## 2.0.0-alpha.5
 
@@ -1677,7 +1677,7 @@
 - Updated dependencies [37a916d]
 - Updated dependencies [5f2b3d4]
   - ai@5.0.0-alpha.4
-  - @open-stack/provider-utils@3.0.0-alpha.4
+  - @omni-stack/provider-utils@3.0.0-alpha.4
 
 ## 2.0.0-alpha.3
 
@@ -1688,7 +1688,7 @@
 - Updated dependencies [0463011]
 - Updated dependencies [d306260]
   - ai@5.0.0-alpha.3
-  - @open-stack/provider-utils@3.0.0-alpha.3
+  - @omni-stack/provider-utils@3.0.0-alpha.3
 
 ## 2.0.0-alpha.2
 
@@ -1696,7 +1696,7 @@
 
 - Updated dependencies [82aa95d]
   - ai@5.0.0-alpha.2
-  - @open-stack/provider-utils@3.0.0-alpha.2
+  - @omni-stack/provider-utils@3.0.0-alpha.2
 
 ## 2.0.0-alpha.1
 
@@ -1705,7 +1705,7 @@
 - Updated dependencies [b346545]
 - Updated dependencies [109c0ac]
   - ai@5.0.0-alpha.1
-  - @open-stack/provider-utils@3.0.0-alpha.1
+  - @omni-stack/provider-utils@3.0.0-alpha.1
 
 ## 2.0.0-canary.23
 
@@ -1721,7 +1721,7 @@
 - Updated dependencies [faf8446]
 - Updated dependencies [64f6d64]
   - ai@5.0.0-canary.24
-  - @open-stack/provider-utils@3.0.0-canary.19
+  - @omni-stack/provider-utils@3.0.0-canary.19
 
 ## 2.0.0-canary.22
 
@@ -1732,7 +1732,7 @@
 ### Patch Changes
 
 - Updated dependencies [40acf9b]
-  - @open-stack/provider-utils@3.0.0-canary.18
+  - @omni-stack/provider-utils@3.0.0-canary.18
   - ai@5.0.0-canary.23
 
 ## 2.0.0-canary.21
@@ -1757,7 +1757,7 @@
 - Updated dependencies [ea7a7c9]
 - Updated dependencies [1409e13]
   - ai@5.0.0-canary.21
-  - @open-stack/provider-utils@3.0.0-canary.17
+  - @omni-stack/provider-utils@3.0.0-canary.17
 
 ## 2.0.0-canary.19
 
@@ -1779,7 +1779,7 @@
 - Updated dependencies [35fc02c]
 - Updated dependencies [b983b51]
   - ai@5.0.0-canary.20
-  - @open-stack/provider-utils@3.0.0-canary.16
+  - @omni-stack/provider-utils@3.0.0-canary.16
 
 ## 2.0.0-canary.18
 
@@ -1803,7 +1803,7 @@
 - Updated dependencies [a8c8bd5]
 - Updated dependencies [a662dea]
 - Updated dependencies [41fa418]
-  - @open-stack/provider-utils@3.0.0-canary.15
+  - @omni-stack/provider-utils@3.0.0-canary.15
   - ai@5.0.0-canary.18
 
 ## 2.0.0-canary.16
@@ -1819,7 +1819,7 @@
 - Updated dependencies [9bd5ab5]
 - Updated dependencies [92cb0a2]
   - ai@5.0.0-canary.17
-  - @open-stack/provider-utils@3.0.0-canary.14
+  - @omni-stack/provider-utils@3.0.0-canary.14
 
 ## 2.0.0-canary.15
 
@@ -1845,7 +1845,7 @@
 - Updated dependencies [4bfe9ec]
 - Updated dependencies [2877a74]
   - ai@5.0.0-canary.15
-  - @open-stack/provider-utils@3.0.0-canary.13
+  - @omni-stack/provider-utils@3.0.0-canary.13
 
 ## 2.0.0-canary.13
 
@@ -1855,7 +1855,7 @@
 - Updated dependencies [4617fab]
 - Updated dependencies [a76a62b]
   - ai@5.0.0-canary.14
-  - @open-stack/provider-utils@3.0.0-canary.12
+  - @omni-stack/provider-utils@3.0.0-canary.12
 
 ## 2.0.0-canary.12
 
@@ -1865,14 +1865,14 @@
 - Updated dependencies [66962ed]
 - Updated dependencies [9301f86]
   - ai@5.0.0-canary.13
-  - @open-stack/provider-utils@3.0.0-canary.11
+  - @omni-stack/provider-utils@3.0.0-canary.11
 
 ## 2.0.0-canary.11
 
 ### Patch Changes
 
 - ai@5.0.0-canary.12
-- @open-stack/provider-utils@3.0.0-canary.10
+- @omni-stack/provider-utils@3.0.0-canary.10
 
 ## 2.0.0-canary.10
 
@@ -1880,7 +1880,7 @@
 
 - Updated dependencies [8e64e9c]
   - ai@5.0.0-canary.11
-  - @open-stack/provider-utils@3.0.0-canary.9
+  - @omni-stack/provider-utils@3.0.0-canary.9
 
 ## 2.0.0-canary.9
 
@@ -1900,7 +1900,7 @@
 - Updated dependencies [8aa9e20]
 - Updated dependencies [b32e192]
   - ai@5.0.0-canary.9
-  - @open-stack/provider-utils@3.0.0-canary.8
+  - @omni-stack/provider-utils@3.0.0-canary.8
 
 ## 2.0.0-canary.7
 
@@ -1916,7 +1916,7 @@
 - Updated dependencies [fd65bc6]
 - Updated dependencies [5bdff05]
   - ai@5.0.0-canary.8
-  - @open-stack/provider-utils@3.0.0-canary.7
+  - @omni-stack/provider-utils@3.0.0-canary.7
 
 ## 2.0.0-canary.6
 
@@ -1928,14 +1928,14 @@
 - Updated dependencies [1766ede]
 - Updated dependencies [f10304b]
   - ai@5.0.0-canary.7
-  - @open-stack/provider-utils@3.0.0-canary.6
+  - @omni-stack/provider-utils@3.0.0-canary.6
 
 ## 2.0.0-canary.5
 
 ### Patch Changes
 
 - ai@5.0.0-canary.6
-- @open-stack/provider-utils@3.0.0-canary.5
+- @omni-stack/provider-utils@3.0.0-canary.5
 
 ## 2.0.0-canary.4
 
@@ -1944,7 +1944,7 @@
 - Updated dependencies [b71fe8d]
 - Updated dependencies [d91b50d]
   - ai@5.0.0-canary.5
-  - @open-stack/provider-utils@3.0.0-canary.4
+  - @omni-stack/provider-utils@3.0.0-canary.4
 
 ## 2.0.0-canary.3
 
@@ -1952,15 +1952,15 @@
 
 - Updated dependencies [a166433]
 - Updated dependencies [9f95b35]
-  - @open-stack/provider-utils@3.0.0-canary.3
-  - @open-stack/ui-utils@2.0.0-canary.3
+  - @omni-stack/provider-utils@3.0.0-canary.3
+  - @omni-stack/ui-utils@2.0.0-canary.3
 
 ## 2.0.0-canary.2
 
 ### Patch Changes
 
-- @open-stack/provider-utils@3.0.0-canary.2
-- @open-stack/ui-utils@2.0.0-canary.2
+- @omni-stack/provider-utils@3.0.0-canary.2
+- @omni-stack/ui-utils@2.0.0-canary.2
 
 ## 2.0.0-canary.1
 
@@ -1969,8 +1969,8 @@
 - Updated dependencies [060370c]
 - Updated dependencies [0c0c0b3]
 - Updated dependencies [63d791d]
-  - @open-stack/provider-utils@3.0.0-canary.1
-  - @open-stack/ui-utils@2.0.0-canary.1
+  - @omni-stack/provider-utils@3.0.0-canary.1
+  - @omni-stack/ui-utils@2.0.0-canary.1
 
 ## 2.0.0-canary.0
 
@@ -1983,8 +1983,8 @@
 
 - Updated dependencies [d5f588f]
 - Updated dependencies [9477ebb]
-  - @open-stack/provider-utils@3.0.0-canary.0
-  - @open-stack/ui-utils@2.0.0-canary.0
+  - @omni-stack/provider-utils@3.0.0-canary.0
+  - @omni-stack/ui-utils@2.0.0-canary.0
 
 ## 1.2.5
 
@@ -1992,23 +1992,23 @@
 
 - a043b14: fix (ui): prevent early addToolResult submission
 - Updated dependencies [28be004]
-  - @open-stack/provider-utils@2.2.3
-  - @open-stack/ui-utils@1.2.4
+  - @omni-stack/provider-utils@2.2.3
+  - @omni-stack/ui-utils@1.2.4
 
 ## 1.2.4
 
 ### Patch Changes
 
 - Updated dependencies [b01120e]
-  - @open-stack/provider-utils@2.2.2
-  - @open-stack/ui-utils@1.2.3
+  - @omni-stack/provider-utils@2.2.2
+  - @omni-stack/ui-utils@1.2.3
 
 ## 1.2.3
 
 ### Patch Changes
 
 - Updated dependencies [65243ce]
-  - @open-stack/ui-utils@1.2.2
+  - @omni-stack/ui-utils@1.2.2
 
 ## 1.2.2
 
@@ -2021,8 +2021,8 @@
 ### Patch Changes
 
 - Updated dependencies [f10f0fa]
-  - @open-stack/provider-utils@2.2.1
-  - @open-stack/ui-utils@1.2.1
+  - @omni-stack/provider-utils@2.2.1
+  - @omni-stack/ui-utils@1.2.1
 
 ## 1.2.0
 
@@ -2033,45 +2033,45 @@
 ### Patch Changes
 
 - Updated dependencies [5bc638d]
-  - @open-stack/provider-utils@2.2.0
-  - @open-stack/ui-utils@1.2.0
+  - @omni-stack/provider-utils@2.2.0
+  - @omni-stack/ui-utils@1.2.0
 
 ## 1.1.25
 
 ### Patch Changes
 
 - Updated dependencies [d0c4659]
-  - @open-stack/provider-utils@2.1.15
-  - @open-stack/ui-utils@1.1.21
+  - @omni-stack/provider-utils@2.1.15
+  - @omni-stack/ui-utils@1.1.21
 
 ## 1.1.24
 
 ### Patch Changes
 
-- @open-stack/provider-utils@2.1.14
-- @open-stack/ui-utils@1.1.20
+- @omni-stack/provider-utils@2.1.14
+- @omni-stack/ui-utils@1.1.20
 
 ## 1.1.23
 
 ### Patch Changes
 
-- @open-stack/provider-utils@2.1.13
-- @open-stack/ui-utils@1.1.19
+- @omni-stack/provider-utils@2.1.13
+- @omni-stack/ui-utils@1.1.19
 
 ## 1.1.22
 
 ### Patch Changes
 
 - Updated dependencies [1531959]
-  - @open-stack/provider-utils@2.1.12
-  - @open-stack/ui-utils@1.1.18
+  - @omni-stack/provider-utils@2.1.12
+  - @omni-stack/ui-utils@1.1.18
 
 ## 1.1.21
 
 ### Patch Changes
 
-- @open-stack/provider-utils@2.1.11
-- @open-stack/ui-utils@1.1.17
+- @omni-stack/provider-utils@2.1.11
+- @omni-stack/ui-utils@1.1.17
 
 ## 1.1.20
 
@@ -2090,15 +2090,15 @@
 ### Patch Changes
 
 - Updated dependencies [ddf9740]
-  - @open-stack/ui-utils@1.1.16
-  - @open-stack/provider-utils@2.1.10
+  - @omni-stack/ui-utils@1.1.16
+  - @omni-stack/provider-utils@2.1.10
 
 ## 1.1.17
 
 ### Patch Changes
 
-- @open-stack/provider-utils@2.1.9
-- @open-stack/ui-utils@1.1.15
+- @omni-stack/provider-utils@2.1.9
+- @omni-stack/ui-utils@1.1.15
 
 ## 1.1.16
 
@@ -2117,30 +2117,30 @@
 ### Patch Changes
 
 - Updated dependencies [2e898b4]
-  - @open-stack/provider-utils@2.1.8
-  - @open-stack/ui-utils@1.1.14
+  - @omni-stack/provider-utils@2.1.8
+  - @omni-stack/ui-utils@1.1.14
 
 ## 1.1.13
 
 ### Patch Changes
 
 - Updated dependencies [3ff4ef8]
-  - @open-stack/provider-utils@2.1.7
-  - @open-stack/ui-utils@1.1.13
+  - @omni-stack/provider-utils@2.1.7
+  - @omni-stack/ui-utils@1.1.13
 
 ## 1.1.12
 
 ### Patch Changes
 
 - Updated dependencies [166e09e]
-  - @open-stack/ui-utils@1.1.12
+  - @omni-stack/ui-utils@1.1.12
 
 ## 1.1.11
 
 ### Patch Changes
 
 - Updated dependencies [318b351]
-  - @open-stack/ui-utils@1.1.11
+  - @omni-stack/ui-utils@1.1.11
 
 ## 1.1.10
 
@@ -2148,21 +2148,21 @@
 
 - bcc61d4: feat (ui): introduce message parts for useChat
 - Updated dependencies [bcc61d4]
-  - @open-stack/ui-utils@1.1.10
+  - @omni-stack/ui-utils@1.1.10
 
 ## 1.1.9
 
 ### Patch Changes
 
 - Updated dependencies [6b8cc14]
-  - @open-stack/ui-utils@1.1.9
+  - @omni-stack/ui-utils@1.1.9
 
 ## 1.1.8
 
 ### Patch Changes
 
-- @open-stack/provider-utils@2.1.6
-- @open-stack/ui-utils@1.1.8
+- @omni-stack/provider-utils@2.1.6
+- @omni-stack/ui-utils@1.1.8
 
 ## 1.1.7
 
@@ -2171,38 +2171,38 @@
 - 0d2d9bf: fix (ui): empty submits (with allowEmptySubmit) create user messages
 - 0d2d9bf: fix (ui): single assistant message with multiple tool steps
 - Updated dependencies [0d2d9bf]
-  - @open-stack/ui-utils@1.1.7
+  - @omni-stack/ui-utils@1.1.7
 
 ## 1.1.6
 
 ### Patch Changes
 
 - Updated dependencies [3a602ca]
-  - @open-stack/provider-utils@2.1.5
-  - @open-stack/ui-utils@1.1.6
+  - @omni-stack/provider-utils@2.1.5
+  - @omni-stack/ui-utils@1.1.6
 
 ## 1.1.5
 
 ### Patch Changes
 
 - Updated dependencies [066206e]
-  - @open-stack/provider-utils@2.1.4
-  - @open-stack/ui-utils@1.1.5
+  - @omni-stack/provider-utils@2.1.4
+  - @omni-stack/ui-utils@1.1.5
 
 ## 1.1.4
 
 ### Patch Changes
 
 - Updated dependencies [39e5c1f]
-  - @open-stack/provider-utils@2.1.3
-  - @open-stack/ui-utils@1.1.4
+  - @omni-stack/provider-utils@2.1.3
+  - @omni-stack/ui-utils@1.1.4
 
 ## 1.1.3
 
 ### Patch Changes
 
 - Updated dependencies [9ce598c]
-  - @open-stack/ui-utils@1.1.3
+  - @omni-stack/ui-utils@1.1.3
 
 ## 1.1.2
 
@@ -2210,8 +2210,8 @@
 
 - 6f4d063: fix (ai/react): cache addToolResult in useChat
 - Updated dependencies [ed012d2]
-  - @open-stack/provider-utils@2.1.2
-  - @open-stack/ui-utils@1.1.2
+  - @omni-stack/provider-utils@2.1.2
+  - @omni-stack/ui-utils@1.1.2
 
 ## 1.1.1
 
@@ -2219,8 +2219,8 @@
 
 - Updated dependencies [e7a9ec9]
 - Updated dependencies [0a699f1]
-  - @open-stack/ui-utils@1.1.1
-  - @open-stack/provider-utils@2.1.1
+  - @omni-stack/ui-utils@1.1.1
+  - @omni-stack/provider-utils@2.1.1
 
 ## 1.1.0
 
@@ -2231,8 +2231,8 @@
 ### Patch Changes
 
 - Updated dependencies [62ba5ad]
-  - @open-stack/provider-utils@2.1.0
-  - @open-stack/ui-utils@1.1.0
+  - @omni-stack/provider-utils@2.1.0
+  - @omni-stack/ui-utils@1.1.0
 
 ## 1.0.14
 
@@ -2245,7 +2245,7 @@
 ### Patch Changes
 
 - Updated dependencies [33592d2]
-  - @open-stack/ui-utils@1.0.12
+  - @omni-stack/ui-utils@1.0.12
 
 ## 1.0.12
 
@@ -2253,8 +2253,8 @@
 
 - Updated dependencies [00114c5]
 - Updated dependencies [00114c5]
-  - @open-stack/provider-utils@2.0.8
-  - @open-stack/ui-utils@1.0.11
+  - @omni-stack/provider-utils@2.0.8
+  - @omni-stack/ui-utils@1.0.11
 
 ## 1.0.11
 
@@ -2262,7 +2262,7 @@
 
 - 37f4510: feat (ui): expose useChat id and send it to the server
 - Updated dependencies [37f4510]
-  - @open-stack/ui-utils@1.0.10
+  - @omni-stack/ui-utils@1.0.10
 
 ## 1.0.10
 
@@ -2270,7 +2270,7 @@
 
 - Updated dependencies [2495973]
 - Updated dependencies [2495973]
-  - @open-stack/ui-utils@1.0.9
+  - @omni-stack/ui-utils@1.0.9
 
 ## 1.0.9
 
@@ -2279,8 +2279,8 @@
 - Updated dependencies [90fb95a]
 - Updated dependencies [e6dfef4]
 - Updated dependencies [6636db6]
-  - @open-stack/provider-utils@2.0.7
-  - @open-stack/ui-utils@1.0.8
+  - @omni-stack/provider-utils@2.0.7
+  - @omni-stack/ui-utils@1.0.8
 
 ## 1.0.8
 
@@ -2288,31 +2288,31 @@
 
 - Updated dependencies [19a2ce7]
 - Updated dependencies [6337688]
-  - @open-stack/provider-utils@2.0.6
-  - @open-stack/ui-utils@1.0.7
+  - @omni-stack/provider-utils@2.0.6
+  - @omni-stack/ui-utils@1.0.7
 
 ## 1.0.7
 
 ### Patch Changes
 
 - Updated dependencies [5ed5e45]
-  - @open-stack/provider-utils@2.0.5
-  - @open-stack/ui-utils@1.0.6
+  - @omni-stack/provider-utils@2.0.5
+  - @omni-stack/ui-utils@1.0.6
 
 ## 1.0.6
 
 ### Patch Changes
 
-- @open-stack/provider-utils@2.0.4
-- @open-stack/ui-utils@1.0.5
+- @omni-stack/provider-utils@2.0.4
+- @omni-stack/ui-utils@1.0.5
 
 ## 1.0.5
 
 ### Patch Changes
 
 - Updated dependencies [0984f0b]
-  - @open-stack/provider-utils@2.0.3
-  - @open-stack/ui-utils@1.0.4
+  - @omni-stack/provider-utils@2.0.3
+  - @omni-stack/ui-utils@1.0.4
 
 ## 1.0.4
 
@@ -2321,7 +2321,7 @@
 - 953469c: chore (ui): extract prepareAttachmentsForRequest
 - Updated dependencies [953469c]
 - Updated dependencies [a3dd2ed]
-  - @open-stack/ui-utils@1.0.3
+  - @omni-stack/ui-utils@1.0.3
 
 ## 1.0.3
 
@@ -2334,16 +2334,16 @@
 ### Patch Changes
 
 - Updated dependencies [88b364b]
-  - @open-stack/ui-utils@1.0.2
-  - @open-stack/provider-utils@2.0.2
+  - @omni-stack/ui-utils@1.0.2
+  - @omni-stack/provider-utils@2.0.2
 
 ## 1.0.1
 
 ### Patch Changes
 
 - Updated dependencies [c3ab5de]
-  - @open-stack/provider-utils@2.0.1
-  - @open-stack/ui-utils@1.0.1
+  - @omni-stack/provider-utils@2.0.1
+  - @omni-stack/ui-utils@1.0.1
 
 ## 1.0.0
 
@@ -2376,8 +2376,8 @@
 - Updated dependencies [8426f55]
 - Updated dependencies [db46ce5]
 - Updated dependencies [b053413]
-  - @open-stack/ui-utils@1.0.0
-  - @open-stack/provider-utils@2.0.0
+  - @omni-stack/ui-utils@1.0.0
+  - @omni-stack/provider-utils@2.0.0
 
 ## 1.0.0-canary.9
 
@@ -2386,14 +2386,14 @@
 - 79c6dd9: fix (ui): remove unnecessary calls to mutateStreamData in useChat
 - 04d3747: chore (ui-utils): restructure processAssistantMessage
 - Updated dependencies [04d3747]
-  - @open-stack/ui-utils@1.0.0-canary.9
+  - @omni-stack/ui-utils@1.0.0-canary.9
 
 ## 1.0.0-canary.8
 
 ### Patch Changes
 
 - Updated dependencies [b053413]
-  - @open-stack/ui-utils@1.0.0-canary.8
+  - @omni-stack/ui-utils@1.0.0-canary.8
 
 ## 1.0.0-canary.7
 
@@ -2404,14 +2404,14 @@
 ### Patch Changes
 
 - Updated dependencies [fe4f109]
-  - @open-stack/ui-utils@1.0.0-canary.7
+  - @omni-stack/ui-utils@1.0.0-canary.7
 
 ## 1.0.0-canary.6
 
 ### Patch Changes
 
 - Updated dependencies [70f28f6]
-  - @open-stack/ui-utils@1.0.0-canary.6
+  - @omni-stack/ui-utils@1.0.0-canary.6
 
 ## 1.0.0-canary.5
 
@@ -2423,8 +2423,8 @@
 
 - Updated dependencies [9f81e66]
 - Updated dependencies [8426f55]
-  - @open-stack/ui-utils@1.0.0-canary.5
-  - @open-stack/provider-utils@2.0.0-canary.3
+  - @omni-stack/ui-utils@1.0.0-canary.5
+  - @omni-stack/provider-utils@2.0.0-canary.3
 
 ## 1.0.0-canary.4
 
@@ -2436,8 +2436,8 @@
 
 - Updated dependencies [dce4158]
 - Updated dependencies [dce4158]
-  - @open-stack/provider-utils@2.0.0-canary.2
-  - @open-stack/ui-utils@1.0.0-canary.4
+  - @omni-stack/provider-utils@2.0.0-canary.2
+  - @omni-stack/ui-utils@1.0.0-canary.4
 
 ## 1.0.0-canary.3
 
@@ -2448,8 +2448,8 @@
 ### Patch Changes
 
 - Updated dependencies [b1da952]
-  - @open-stack/provider-utils@2.0.0-canary.1
-  - @open-stack/ui-utils@1.0.0-canary.3
+  - @omni-stack/provider-utils@2.0.0-canary.1
+  - @omni-stack/ui-utils@1.0.0-canary.3
 
 ## 1.0.0-canary.2
 
@@ -2463,8 +2463,8 @@
 - Updated dependencies [b469a7e]
 - Updated dependencies [7814c4b]
 - Updated dependencies [db46ce5]
-  - @open-stack/provider-utils@2.0.0-canary.0
-  - @open-stack/ui-utils@1.0.0-canary.2
+  - @omni-stack/provider-utils@2.0.0-canary.0
+  - @omni-stack/ui-utils@1.0.0-canary.2
 
 ## 1.0.0-canary.1
 
@@ -2475,7 +2475,7 @@
 ### Patch Changes
 
 - Updated dependencies [8bf5756]
-  - @open-stack/ui-utils@1.0.0-canary.1
+  - @omni-stack/ui-utils@1.0.0-canary.1
 
 ## 1.0.0-canary.0
 
@@ -2486,7 +2486,7 @@
 ### Patch Changes
 
 - Updated dependencies [7e89ccb]
-  - @open-stack/ui-utils@1.0.0-canary.0
+  - @omni-stack/ui-utils@1.0.0-canary.0
 
 ## 0.0.70
 
@@ -2499,7 +2499,7 @@
 ### Patch Changes
 
 - Updated dependencies [a85c965]
-  - @open-stack/ui-utils@0.0.50
+  - @omni-stack/ui-utils@0.0.50
 
 ## 0.0.68
 
@@ -2512,7 +2512,7 @@
 ### Patch Changes
 
 - Updated dependencies [3bf8da0]
-  - @open-stack/ui-utils@0.0.49
+  - @omni-stack/ui-utils@0.0.49
 
 ## 0.0.66
 
@@ -2522,15 +2522,15 @@
 - Updated dependencies [aa98cdb]
 - Updated dependencies [7b937c5]
 - Updated dependencies [811a317]
-  - @open-stack/provider-utils@1.0.22
-  - @open-stack/ui-utils@0.0.48
+  - @omni-stack/provider-utils@1.0.22
+  - @omni-stack/ui-utils@0.0.48
 
 ## 0.0.65
 
 ### Patch Changes
 
-- @open-stack/provider-utils@1.0.21
-- @open-stack/ui-utils@0.0.47
+- @omni-stack/provider-utils@1.0.21
+- @omni-stack/ui-utils@0.0.47
 
 ## 0.0.64
 
@@ -2548,15 +2548,15 @@
 
 ### Patch Changes
 
-- @open-stack/provider-utils@1.0.20
-- @open-stack/ui-utils@0.0.46
+- @omni-stack/provider-utils@1.0.20
+- @omni-stack/ui-utils@0.0.46
 
 ## 0.0.61
 
 ### Patch Changes
 
 - Updated dependencies [cd77c5d]
-  - @open-stack/ui-utils@0.0.45
+  - @omni-stack/ui-utils@0.0.45
 
 ## 0.0.60
 
@@ -2569,8 +2569,8 @@
 ### Patch Changes
 
 - Updated dependencies [273f696]
-  - @open-stack/provider-utils@1.0.19
-  - @open-stack/ui-utils@0.0.44
+  - @omni-stack/provider-utils@1.0.19
+  - @omni-stack/ui-utils@0.0.44
 
 ## 0.0.58
 
@@ -2578,14 +2578,14 @@
 
 - 54862e4: fix (react): restore sending annotations with during submission
 - Updated dependencies [1f590ef]
-  - @open-stack/ui-utils@0.0.43
+  - @omni-stack/ui-utils@0.0.43
 
 ## 0.0.57
 
 ### Patch Changes
 
 - Updated dependencies [14210d5]
-  - @open-stack/ui-utils@0.0.42
+  - @omni-stack/ui-utils@0.0.42
 
 ## 0.0.56
 
@@ -2598,8 +2598,8 @@
 ### Patch Changes
 
 - Updated dependencies [03313cd]
-  - @open-stack/provider-utils@1.0.18
-  - @open-stack/ui-utils@0.0.41
+  - @omni-stack/provider-utils@1.0.18
+  - @omni-stack/ui-utils@0.0.41
 
 ## 0.0.54
 
@@ -2612,51 +2612,51 @@
 ### Patch Changes
 
 - Updated dependencies [aa2dc58]
-  - @open-stack/ui-utils@0.0.40
+  - @omni-stack/ui-utils@0.0.40
 
 ## 0.0.52
 
 ### Patch Changes
 
-- @open-stack/provider-utils@1.0.17
-- @open-stack/ui-utils@0.0.39
+- @omni-stack/provider-utils@1.0.17
+- @omni-stack/ui-utils@0.0.39
 
 ## 0.0.51
 
 ### Patch Changes
 
 - Updated dependencies [d151349]
-  - @open-stack/ui-utils@0.0.38
+  - @omni-stack/ui-utils@0.0.38
 
 ## 0.0.50
 
 ### Patch Changes
 
 - Updated dependencies [09f895f]
-  - @open-stack/provider-utils@1.0.16
-  - @open-stack/ui-utils@0.0.37
+  - @omni-stack/provider-utils@1.0.16
+  - @omni-stack/ui-utils@0.0.37
 
 ## 0.0.49
 
 ### Patch Changes
 
 - Updated dependencies [b5a82b7]
-  - @open-stack/ui-utils@0.0.36
+  - @omni-stack/ui-utils@0.0.36
 
 ## 0.0.48
 
 ### Patch Changes
 
 - Updated dependencies [d67fa9c]
-  - @open-stack/provider-utils@1.0.15
-  - @open-stack/ui-utils@0.0.35
+  - @omni-stack/provider-utils@1.0.15
+  - @omni-stack/ui-utils@0.0.35
 
 ## 0.0.47
 
 ### Patch Changes
 
-- @open-stack/provider-utils@1.0.14
-- @open-stack/ui-utils@0.0.34
+- @omni-stack/provider-utils@1.0.14
+- @omni-stack/ui-utils@0.0.34
 
 ## 0.0.46
 
@@ -2668,23 +2668,23 @@
 
 ### Patch Changes
 
-- @open-stack/provider-utils@1.0.13
-- @open-stack/ui-utils@0.0.33
+- @omni-stack/provider-utils@1.0.13
+- @omni-stack/ui-utils@0.0.33
 
 ## 0.0.44
 
 ### Patch Changes
 
 - Updated dependencies [dd712ac]
-  - @open-stack/provider-utils@1.0.12
-  - @open-stack/ui-utils@0.0.32
+  - @omni-stack/provider-utils@1.0.12
+  - @omni-stack/ui-utils@0.0.32
 
 ## 0.0.43
 
 ### Patch Changes
 
-- @open-stack/provider-utils@1.0.11
-- @open-stack/ui-utils@0.0.31
+- @omni-stack/provider-utils@1.0.11
+- @omni-stack/ui-utils@0.0.31
 
 ## 0.0.42
 
@@ -2694,8 +2694,8 @@
 - Updated dependencies [e9c891d]
 - Updated dependencies [4bd27a9]
 - Updated dependencies [845754b]
-  - @open-stack/ui-utils@0.0.30
-  - @open-stack/provider-utils@1.0.10
+  - @omni-stack/ui-utils@0.0.30
+  - @omni-stack/provider-utils@1.0.10
 
 ## 0.0.41
 
@@ -2703,28 +2703,28 @@
 
 - e5b58f3: fix (ai/ui): forward streaming errors in useChat
 - Updated dependencies [e5b58f3]
-  - @open-stack/ui-utils@0.0.29
+  - @omni-stack/ui-utils@0.0.29
 
 ## 0.0.40
 
 ### Patch Changes
 
-- @open-stack/provider-utils@1.0.9
-- @open-stack/ui-utils@0.0.28
+- @omni-stack/provider-utils@1.0.9
+- @omni-stack/ui-utils@0.0.28
 
 ## 0.0.39
 
 ### Patch Changes
 
-- @open-stack/provider-utils@1.0.8
-- @open-stack/ui-utils@0.0.27
+- @omni-stack/provider-utils@1.0.8
+- @omni-stack/ui-utils@0.0.27
 
 ## 0.0.38
 
 ### Patch Changes
 
-- @open-stack/provider-utils@1.0.7
-- @open-stack/ui-utils@0.0.26
+- @omni-stack/provider-utils@1.0.7
+- @omni-stack/ui-utils@0.0.26
 
 ## 0.0.37
 
@@ -2732,8 +2732,8 @@
 
 - Updated dependencies [9614584]
 - Updated dependencies [0762a22]
-  - @open-stack/provider-utils@1.0.6
-  - @open-stack/ui-utils@0.0.25
+  - @omni-stack/provider-utils@1.0.6
+  - @omni-stack/ui-utils@0.0.25
 
 ## 0.0.36
 
@@ -2741,7 +2741,7 @@
 
 - 5be25124: fix (ai/ui): useChat messages have stable ids with streamProtocol: "text"
 - Updated dependencies [5be25124]
-  - @open-stack/ui-utils@0.0.24
+  - @omni-stack/ui-utils@0.0.24
 
 ## 0.0.35
 
@@ -2760,14 +2760,14 @@
 ### Patch Changes
 
 - Updated dependencies [fea7b604]
-  - @open-stack/ui-utils@0.0.23
+  - @omni-stack/ui-utils@0.0.23
 
 ## 0.0.32
 
 ### Patch Changes
 
 - Updated dependencies [1d93d716]
-  - @open-stack/ui-utils@0.0.22
+  - @omni-stack/ui-utils@0.0.22
 
 ## 0.0.31
 
@@ -2777,7 +2777,7 @@
 - e4a1719f: chore (ai/ui): rename streamMode to streamProtocol
 - Updated dependencies [c450fcf7]
 - Updated dependencies [e4a1719f]
-  - @open-stack/ui-utils@0.0.21
+  - @omni-stack/ui-utils@0.0.21
 
 ## 0.0.30
 
@@ -2790,23 +2790,23 @@
 ### Patch Changes
 
 - Updated dependencies [a8d1c9e9]
-  - @open-stack/provider-utils@1.0.5
-  - @open-stack/ui-utils@0.0.20
+  - @omni-stack/provider-utils@1.0.5
+  - @omni-stack/ui-utils@0.0.20
 
 ## 0.0.28
 
 ### Patch Changes
 
 - Updated dependencies [4f88248f]
-  - @open-stack/provider-utils@1.0.4
-  - @open-stack/ui-utils@0.0.19
+  - @omni-stack/provider-utils@1.0.4
+  - @omni-stack/ui-utils@0.0.19
 
 ## 0.0.27
 
 ### Patch Changes
 
-- @open-stack/provider-utils@1.0.3
-- @open-stack/ui-utils@0.0.18
+- @omni-stack/provider-utils@1.0.3
+- @omni-stack/ui-utils@0.0.18
 
 ## 0.0.26
 
@@ -2815,7 +2815,7 @@
 - f63829fe: feat (ai/ui): add allowEmptySubmit flag to handleSubmit
 - 4b2c09d9: feat (ai/ui): add mutator function support to useChat / setMessages
 - Updated dependencies [f63829fe]
-  - @open-stack/ui-utils@0.0.17
+  - @omni-stack/ui-utils@0.0.17
 
 ## 0.0.25
 
@@ -2823,7 +2823,7 @@
 
 - 5b7b3bbe: fix (ai/ui): tool call streaming
 - Updated dependencies [5b7b3bbe]
-  - @open-stack/ui-utils@0.0.16
+  - @omni-stack/ui-utils@0.0.16
 
 ## 0.0.24
 
@@ -2836,7 +2836,7 @@
 ### Patch Changes
 
 - Updated dependencies [1f67fe49]
-  - @open-stack/ui-utils@0.0.15
+  - @omni-stack/ui-utils@0.0.15
 
 ## 0.0.22
 
@@ -2844,7 +2844,7 @@
 
 - 99ddbb74: feat (ai/react): add experimental support for managing attachments to useChat
 - Updated dependencies [99ddbb74]
-  - @open-stack/ui-utils@0.0.14
+  - @omni-stack/ui-utils@0.0.14
 
 ## 0.0.21
 
@@ -2852,7 +2852,7 @@
 
 - a6cb2c8b: feat (ai/ui): add keepLastMessageOnError option to useChat
 - Updated dependencies [a6cb2c8b]
-  - @open-stack/ui-utils@0.0.13
+  - @omni-stack/ui-utils@0.0.13
 
 ## 0.0.20
 
@@ -2860,14 +2860,14 @@
 
 - 56bbc2a7: feat (ai/ui): set body and headers directly on options for handleSubmit and append
 - Updated dependencies [56bbc2a7]
-  - @open-stack/ui-utils@0.0.12
+  - @omni-stack/ui-utils@0.0.12
 
 ## 0.0.19
 
 ### Patch Changes
 
-- @open-stack/provider-utils@1.0.2
-- @open-stack/ui-utils@0.0.11
+- @omni-stack/provider-utils@1.0.2
+- @omni-stack/ui-utils@0.0.11
 
 ## 0.0.18
 
@@ -2882,8 +2882,8 @@
 - 6a11cfaa: feat (ai/ui): add onError handler to useObject
 - 3db90c3d: allow empty handleSubmit submissions for useChat
 - Updated dependencies [d481729f]
-  - @open-stack/provider-utils@1.0.1
-  - @open-stack/ui-utils@0.0.10
+  - @omni-stack/provider-utils@1.0.1
+  - @omni-stack/ui-utils@0.0.10
 
 ## 0.0.16
 
@@ -2904,7 +2904,7 @@
 - 9b50003d: fix (ai/react): useObject stop & isLoading reset at end of stream
 - 1894f811: feat (ai/ui): allow JSONValue as data in useChat handleSubmit
 - Updated dependencies [1894f811]
-  - @open-stack/ui-utils@0.0.9
+  - @omni-stack/ui-utils@0.0.9
 
 ## 0.0.13
 
@@ -2912,7 +2912,7 @@
 
 - d3100b9c: feat (ai/ui): support custom fetch function in useChat, useCompletion, useAssistant, useObject
 - Updated dependencies [d3100b9c]
-  - @open-stack/ui-utils@0.0.8
+  - @omni-stack/ui-utils@0.0.8
 
 ## 0.0.12
 
@@ -2920,8 +2920,8 @@
 
 - Updated dependencies [5edc6110]
 - Updated dependencies [5edc6110]
-  - @open-stack/provider-utils@1.0.0
-  - @open-stack/ui-utils@0.0.7
+  - @omni-stack/provider-utils@1.0.0
+  - @omni-stack/ui-utils@0.0.7
 
 ## 0.0.11
 
@@ -2948,7 +2948,7 @@
 
 - 54bf4083: feat (ai/react): control request body in useChat
 - Updated dependencies [54bf4083]
-  - @open-stack/ui-utils@0.0.6
+  - @omni-stack/ui-utils@0.0.6
 
 ## 0.0.7
 
@@ -2967,16 +2967,16 @@
 ### Patch Changes
 
 - Updated dependencies [02f6a088]
-  - @open-stack/provider-utils@0.0.16
-  - @open-stack/ui-utils@0.0.5
+  - @omni-stack/provider-utils@0.0.16
+  - @omni-stack/ui-utils@0.0.5
 
 ## 0.0.4
 
 ### Patch Changes
 
-- 008725ec: feat (@open-stack/react): add experimental_useObject to @open-stack/react
+- 008725ec: feat (@omni-stack/react): add experimental_useObject to @omni-stack/react
 - Updated dependencies [008725ec]
-  - @open-stack/ui-utils@0.0.4
+  - @omni-stack/ui-utils@0.0.4
 
 ## 0.0.3
 
@@ -2984,16 +2984,16 @@
 
 - Updated dependencies [85712895]
 - Updated dependencies [85712895]
-  - @open-stack/provider-utils@0.0.15
-  - @open-stack/ui-utils@0.0.3
+  - @omni-stack/provider-utils@0.0.15
+  - @omni-stack/ui-utils@0.0.3
 
 ## 0.0.2
 
 ### Patch Changes
 
 - Updated dependencies [7910ae84]
-  - @open-stack/provider-utils@0.0.14
-  - @open-stack/ui-utils@0.0.2
+  - @omni-stack/provider-utils@0.0.14
+  - @omni-stack/ui-utils@0.0.2
 
 ## 0.0.1
 
@@ -3001,4 +3001,4 @@
 
 - 85f209a4: chore: extracted ui library support into separate modules
 - Updated dependencies [85f209a4]
-  - @open-stack/ui-utils@0.0.1
+  - @omni-stack/ui-utils@0.0.1

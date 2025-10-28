@@ -1,4 +1,4 @@
-import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
+import { openai, OpenAIResponsesProviderOptions } from '@omni-stack/openai';
 import {
   convertToModelMessages,
   InferUITools,
@@ -7,7 +7,7 @@ import {
   UIDataTypes,
   UIMessage,
   validateUIMessages,
-} from 'ai';
+} from '@omni-stack/core';
 
 const tools = {
   code_interpreter: openai.tools.codeInterpreter(),

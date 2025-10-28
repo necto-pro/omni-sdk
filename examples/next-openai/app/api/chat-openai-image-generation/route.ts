@@ -1,4 +1,4 @@
-import { createAgentUIStreamResponse } from 'ai';
+import { createAgentUIStreamResponse } from '@omni-stack/core';
 import { openaiImageGenerationAgent } from '@/agent/openai-image-generation-agent';
 
 export async function POST(req: Request) {

@@ -1,5 +1,5 @@
-import { xai } from '@open-stack/xai';
-import { generateObject } from 'ai';
+import { xai } from '@omni-stack/xai';
+import { generateObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

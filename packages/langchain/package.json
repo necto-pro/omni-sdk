@@ -1,5 +1,5 @@
 {
-  "name": "@open-stack/langchain",
+  "name": "@omni-stack/langchain",
   "version": "2.0.0-beta.81",
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -32,7 +32,7 @@
     }
   },
   "dependencies": {
-    "ai": "workspace:*"
+    "@omni-stack/core": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "20.17.24",

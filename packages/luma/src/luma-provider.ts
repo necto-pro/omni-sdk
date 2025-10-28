@@ -1,10 +1,10 @@
-import { ImageModelV3, NoSuchModelError, ProviderV3 } from '@open-stack/provider';
+import { ImageModelV3, NoSuchModelError, ProviderV3 } from '@omni-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@open-stack/provider-utils';
+} from '@omni-stack/provider-utils';
 import { LumaImageModel } from './luma-image-model';
 import { LumaImageModelId } from './luma-image-settings';
 import { VERSION } from './version';

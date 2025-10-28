@@ -22,8 +22,8 @@ Use cases for intercepting requests include:
 ## Example
 
 ```ts file='index.ts' highlight="5-13"
-import { generateText } from 'ai';
-import { createOpenAI } from '@open-stack/openai';
+import { generateText } from '@omni-stack/core';
+import { createOpenAI } from '@omni-stack/openai';
 
 const openai = createOpenAI({
   // example fetch wrapper that logs the input to the API call:

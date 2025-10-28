@@ -1,8 +1,8 @@
 'use client';
 
 import ChatInput from '@/components/chat-input';
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport } from '@omni-stack/core';
 import { ReasoningToolsMessage } from '../api/use-chat-reasoning-tools/route';
 
 export default function Chat() {

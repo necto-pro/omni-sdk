@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Chat } from '@open-stack/vue';
-import { convertFileListToFileUIParts } from 'ai';
+import { Chat } from '@omni-stack/vue';
+import { convertFileListToFileUIParts } from '@omni-stack/core';
 import { computed, ref } from 'vue';
 
 const chat = new Chat({});

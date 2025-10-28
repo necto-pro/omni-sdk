@@ -1,9 +1,9 @@
-import { LanguageModelV3Prompt } from '@open-stack/provider';
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { LanguageModelV3Prompt } from '@omni-stack/provider';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import {
   convertReadableStreamToArray,
   mockId,
-} from '@open-stack/provider-utils/test';
+} from '@omni-stack/provider-utils/test';
 import { createMistral } from './mistral-provider';
 import { describe, it, expect, vi } from 'vitest';
 

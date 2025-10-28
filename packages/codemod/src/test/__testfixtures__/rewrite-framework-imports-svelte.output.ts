@@ -1,2 +1,2 @@
 // @ts-nocheck
-import { useChat } from '@open-stack/svelte';
+import { useChat } from '@omni-stack/svelte';

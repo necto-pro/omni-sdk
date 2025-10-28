@@ -40,8 +40,8 @@ Here is a Next.js example that uses the text stream protocol:
 ```tsx filename='app/page.tsx'
 'use client';
 
-import { useChat } from '@open-stack/react';
-import { TextStreamChatTransport } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { TextStreamChatTransport } from '@omni-stack/core';
 import { useState } from 'react';
 
 export default function Chat() {
@@ -84,8 +84,8 @@ export default function Chat() {
 ```
 
 ```ts filename='app/api/chat/route.ts'
-import { streamText, UIMessage, convertToModelMessages } from 'ai';
-import { openai } from '@open-stack/openai';
+import { streamText, UIMessage, convertToModelMessages } from '@omni-stack/core';
+import { openai } from '@omni-stack/openai';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;
@@ -404,7 +404,7 @@ Here is a Next.js example that uses the UI message stream protocol:
 ```tsx filename='app/page.tsx'
 'use client';
 
-import { useChat } from '@open-stack/react';
+import { useChat } from '@omni-stack/react';
 import { useState } from 'react';
 
 export default function Chat() {
@@ -445,8 +445,8 @@ export default function Chat() {
 ```
 
 ```ts filename='app/api/chat/route.ts'
-import { openai } from '@open-stack/openai';
-import { streamText, UIMessage, convertToModelMessages } from 'ai';
+import { openai } from '@omni-stack/openai';
+import { streamText, UIMessage, convertToModelMessages } from '@omni-stack/core';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;

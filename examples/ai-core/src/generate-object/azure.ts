@@ -1,5 +1,5 @@
-import { azure } from '@open-stack/azure';
-import { generateObject } from 'ai';
+import { azure } from '@omni-stack/azure';
+import { generateObject } from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

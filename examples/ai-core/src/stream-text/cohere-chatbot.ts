@@ -1,5 +1,5 @@
-import { cohere } from '@open-stack/cohere';
-import { stepCountIs, ModelMessage, streamText, tool } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { stepCountIs, ModelMessage, streamText, tool } from '@omni-stack/core';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { z } from 'zod';

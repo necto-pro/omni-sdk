@@ -1,8 +1,8 @@
 'use client';
 
 import ChatInput from '@/components/chat-input';
-import { useChat } from '@open-stack/react';
-import { DefaultChatTransport, UIMessage } from 'ai';
+import { useChat } from '@omni-stack/react';
+import { DefaultChatTransport, UIMessage } from '@omni-stack/core';
 
 type MyMessage = UIMessage<
   never,

@@ -9,37 +9,37 @@ The [Cohere](https://cohere.com/) provider contains language and embedding model
 
 ## Setup
 
-The Cohere provider is available in the `@open-stack/cohere` module. You can install it with
+The Cohere provider is available in the `@omni-stack/cohere` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @open-stack/cohere" dark />
+    <Snippet text="pnpm add @omni-stack/cohere" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @open-stack/cohere" dark />
+    <Snippet text="npm install @omni-stack/cohere" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @open-stack/cohere" dark />
+    <Snippet text="yarn add @omni-stack/cohere" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @open-stack/cohere" dark />
+    <Snippet text="bun add @omni-stack/cohere" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `cohere` from `@open-stack/cohere`:
+You can import the default provider instance `cohere` from `@omni-stack/cohere`:
 
 ```ts
-import { cohere } from '@open-stack/cohere';
+import { cohere } from '@omni-stack/cohere';
 ```
 
-If you need a customized setup, you can import `createCohere` from `@open-stack/cohere`
+If you need a customized setup, you can import `createCohere` from `@omni-stack/cohere`
 and create a provider instance with your settings:
 
 ```ts
-import { createCohere } from '@open-stack/cohere';
+import { createCohere } from '@omni-stack/cohere';
 
 const cohere = createCohere({
   // custom settings
@@ -84,8 +84,8 @@ const model = cohere('command-r-plus');
 You can use Cohere language models to generate text with the `generateText` function:
 
 ```ts
-import { cohere } from '@open-stack/cohere';
-import { generateText } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: cohere('command-r-plus'),
@@ -125,8 +125,8 @@ Cohere language models can also be used in the `streamText`, `generateObject`, a
 Cohere has introduced reasoning with the `command-a-reasoning-08-2025` model. You can learn more at https://docs.cohere.com/docs/reasoning.
 
 ```ts
-import { cohere } from '@open-stack/cohere';
-import { generateText } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { generateText } from '@omni-stack/core';
 
 async function main() {
   const { text, reasoning } = await generateText({
@@ -163,8 +163,8 @@ const model = cohere.textEmbedding('embed-english-v3.0');
 You can use Cohere embedding models to generate embeddings with the `embed` function:
 
 ```ts
-import { cohere } from '@open-stack/cohere';
-import { embed } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: cohere.textEmbedding('embed-english-v3.0'),
@@ -180,8 +180,8 @@ const { embedding } = await embed({
 Cohere embedding models support additional provider options that can be passed via `providerOptions.cohere`:
 
 ```ts
-import { cohere } from '@open-stack/cohere';
-import { embed } from 'ai';
+import { cohere } from '@omni-stack/cohere';
+import { embed } from '@omni-stack/core';
 
 const { embedding } = await embed({
   model: cohere.textEmbedding('embed-english-v3.0'),

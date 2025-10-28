@@ -1,11 +1,11 @@
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import {
   generateText,
   ModelMessage,
   stepCountIs,
   tool,
   ToolApprovalResponse,
-} from 'ai';
+} from '@omni-stack/core';
 import * as readline from 'node:readline/promises';
 import { z } from 'zod/v4';
 import { run } from '../lib/run';

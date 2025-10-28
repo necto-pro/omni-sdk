@@ -1,4 +1,4 @@
-import { UIToolInvocation, tool } from 'ai';
+import { UIToolInvocation, tool } from '@omni-stack/core';
 import { z } from 'zod';
 
 export const weatherTool = tool({

@@ -1,4 +1,4 @@
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { createReplicate } from './replicate-provider';
 import { ReplicateImageModel } from './replicate-image-model';
 import { describe, it, expect, vi } from 'vitest';

@@ -1,11 +1,11 @@
-import { cohere } from '@open-stack/cohere';
+import { cohere } from '@omni-stack/cohere';
 import {
   streamText,
   ModelMessage,
   ToolCallPart,
   ToolResultPart,
   tool,
-} from 'ai';
+} from '@omni-stack/core';
 import 'dotenv/config';
 import { z } from 'zod';
 

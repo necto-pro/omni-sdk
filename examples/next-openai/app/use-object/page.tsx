@@ -1,6 +1,6 @@
 'use client';
 
-import { experimental_useObject as useObject } from '@open-stack/react';
+import { experimental_useObject as useObject } from '@omni-stack/react';
 import { notificationSchema } from '../api/use-object/schema';
 
 export default function Page() {

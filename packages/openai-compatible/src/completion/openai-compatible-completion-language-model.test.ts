@@ -1,10 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import { LanguageModelV3Prompt } from '@open-stack/provider';
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { LanguageModelV3Prompt } from '@omni-stack/provider';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import {
   convertReadableStreamToArray,
   isNodeVersion,
-} from '@open-stack/provider-utils/test';
+} from '@omni-stack/provider-utils/test';
 import { createOpenAICompatible } from '../openai-compatible-provider';
 import { OpenAICompatibleCompletionLanguageModel } from './openai-compatible-completion-language-model';
 

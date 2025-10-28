@@ -124,7 +124,7 @@ export function transform(
 
     if (notImplementedErrors.length > 0) {
       log(
-        `Some files require manual changes. Please search your codebase for \`FIXME(@open-stack-upgrade-v5): \` comments and follow the instructions to complete the upgrade.`,
+        `Some files require manual changes. Please search your codebase for \`FIXME(@omni-stack-upgrade-v5): \` comments and follow the instructions to complete the upgrade.`,
       );
       notImplementedErrors.forEach(({ transform, filename, summary }) => {
         log(

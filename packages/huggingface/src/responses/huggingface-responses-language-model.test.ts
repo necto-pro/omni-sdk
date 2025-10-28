@@ -1,9 +1,9 @@
-import { LanguageModelV3Prompt } from '@open-stack/provider';
+import { LanguageModelV3Prompt } from '@omni-stack/provider';
 import {
   convertReadableStreamToArray,
   mockId,
-} from '@open-stack/provider-utils/test';
-import { createTestServer } from '@open-stack/test-server/with-vitest';
+} from '@omni-stack/provider-utils/test';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { describe, it, expect, beforeEach } from 'vitest';
 import { HuggingFaceResponsesLanguageModel } from './huggingface-responses-language-model';
 

@@ -1,4 +1,4 @@
-import { LanguageModelV3Prompt } from '@open-stack/provider';
+import { LanguageModelV3Prompt } from '@omni-stack/provider';
 
 export function getLastUserMessageText({
   prompt,

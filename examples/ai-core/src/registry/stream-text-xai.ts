@@ -1,4 +1,4 @@
-import { streamText } from 'ai';
+import { streamText } from '@omni-stack/core';
 import { registry } from './setup-registry';
 
 async function main() {

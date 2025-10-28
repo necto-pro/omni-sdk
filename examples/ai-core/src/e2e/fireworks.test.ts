@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import { expect } from 'vitest';
-import { fireworks as provider, FireworksErrorData } from '@open-stack/fireworks';
-import { APICallError } from '@open-stack/provider';
+import { fireworks as provider, FireworksErrorData } from '@omni-stack/fireworks';
+import { APICallError } from '@omni-stack/provider';
 import {
   createEmbeddingModelWithCapabilities,
   createFeatureTestSuite,

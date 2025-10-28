@@ -16,25 +16,25 @@ contains language model support for Perplexity's Sonar API - a powerful answer e
 
 ## Setup
 
-The Perplexity provider is available in the `@open-stack/perplexity` module. You can install it with:
+The Perplexity provider is available in the `@omni-stack/perplexity` module. You can install it with:
 
 ```bash
-npm i @open-stack/perplexity
+npm i @omni-stack/perplexity
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `perplexity` from `@open-stack/perplexity`:
+You can import the default provider instance `perplexity` from `@omni-stack/perplexity`:
 
 ```ts
-import { perplexity } from '@open-stack/perplexity';
+import { perplexity } from '@omni-stack/perplexity';
 ```
 
 ## Example
 
 ```ts
-import { perplexity } from '@open-stack/perplexity';
-import { generateText } from 'ai';
+import { perplexity } from '@omni-stack/perplexity';
+import { generateText } from '@omni-stack/core';
 
 const { text } = await generateText({
   model: perplexity('sonar-pro'),

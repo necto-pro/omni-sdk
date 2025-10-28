@@ -1,10 +1,10 @@
 import 'dotenv/config';
 
-import { openai } from '@open-stack/openai';
+import { openai } from '@omni-stack/openai';
 import { getNodeAutoInstrumentations } from '@opentelemetry/auto-instrumentations-node';
 import { NodeSDK } from '@opentelemetry/sdk-node';
 import { ConsoleSpanExporter } from '@opentelemetry/sdk-trace-node';
-import { generateObject } from 'ai';
+import { generateObject } from '@omni-stack/core';
 import { z } from 'zod';
 
 const sdk = new NodeSDK({

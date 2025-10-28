@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { streamText, pipeDataStreamToResponse } from 'ai';
+import { streamText, pipeDataStreamToResponse } from '@omni-stack/core';
 
 export async function handler(req: Request, res: Response) {
   const { messages } = await req.json();
