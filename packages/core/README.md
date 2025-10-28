@@ -1,22 +1,24 @@
 ![hero illustration](./assets/hero.gif)
 
-# AI SDK
+# Omni SDK Core
 
-The [AI SDK](https://ai-sdk.dev/docs) is a TypeScript toolkit designed to help you build AI-powered applications and agents using popular frameworks like Next.js, React, Svelte, Vue and runtimes like Node.js.
+> **Note**: This is a fork of the [Vercel AI SDK](https://github.com/vercel/ai) with additional features and enhancements. We maintain full compatibility with the original API while extending it with new capabilities.
 
-To learn more about how to use the AI SDK, check out our [API Reference](https://ai-sdk.dev/docs/reference) and [Documentation](https://ai-sdk.dev/docs).
+The Omni SDK is a TypeScript toolkit designed to help you build AI-powered applications and agents using popular frameworks like Next.js, React, Svelte, Vue and runtimes like Node.js.
+
+To learn more about how to use the Omni SDK, check out our [API Reference](https://omni-sdk.dev/docs/reference) and [Documentation](https://omni-sdk.dev/docs).
 
 ## Installation
 
 You will need Node.js 18+ and npm (or another package manager) installed on your local development machine.
 
 ```shell
-npm install ai
+npm install @omni-stack/core
 ```
 
 ## Unified Provider Architecture
 
-The AI SDK provides a [unified API](https://ai-sdk.dev/docs/foundations/providers-and-models) to interact with model providers like [OpenAI](https://ai-sdk.dev/providers/ai-sdk-providers/openai), [Anthropic](https://ai-sdk.dev/providers/ai-sdk-providers/anthropic), [Google](https://ai-sdk.dev/providers/ai-sdk-providers/google-generative-ai), and [more](https://ai-sdk.dev/providers/ai-sdk-providers).
+The Omni SDK provides a unified API to interact with model providers like OpenAI, Anthropic, Google, and more.
 
 ```shell
 npm install @omni-stack/openai @omni-stack/anthropic @omni-stack/google
@@ -89,7 +91,7 @@ const sandboxAgent = new ToolLoopAgent({
 
 ### UI Integration
 
-The [AI SDK UI](https://ai-sdk.dev/docs/ai-sdk-ui/overview) module provides a set of hooks that help you build chatbots and generative user interfaces. These hooks are framework agnostic, so they can be used in Next.js, React, Svelte, and Vue.
+The Omni SDK UI module provides a set of hooks that help you build chatbots and generative user interfaces. These hooks are framework agnostic, so they can be used in Next.js, React, Svelte, and Vue.
 
 You need to install the package for your framework, e.g.:
 
@@ -203,16 +205,18 @@ export default function Page() {
 
 ## Templates
 
-We've built [templates](https://ai-sdk.dev/docs/introduction#templates) that include AI SDK integrations for different use cases, providers, and frameworks. You can use these templates to get started with your AI-powered application.
+We've built templates that include Omni SDK integrations for different use cases, providers, and frameworks. You can use these templates to get started with your AI-powered application.
 
 ## Community
 
-The AI SDK community can be found on [GitHub Discussions](https://github.com/vercel/ai/discussions) where you can ask questions, voice ideas, and share your projects with other people.
+The Omni SDK community can be found on [GitHub Discussions](https://github.com/omni-stack/sdk/discussions) where you can ask questions, voice ideas, and share your projects with other people.
 
 ## Contributing
 
-Contributions to the AI SDK are welcome and highly appreciated. However, before you jump right into it, we would like you to review our [Contribution Guidelines](https://github.com/vercel/ai/blob/main/CONTRIBUTING.md) to make sure you have smooth experience contributing to AI SDK.
+Contributions to the Omni SDK are welcome and highly appreciated. However, before you jump right into it, we would like you to review our [Contribution Guidelines](https://github.com/omni-stack/sdk/blob/main/CONTRIBUTING.md) to make sure you have smooth experience contributing to Omni SDK.
 
 ## Authors
 
-This library is created by [Vercel](https://vercel.com) and [Next.js](https://nextjs.org) team members, with contributions from the [Open Source Community](https://github.com/vercel/ai/graphs/contributors).
+This library is a fork of the [Vercel AI SDK](https://github.com/vercel/ai) created by [Vercel](https://vercel.com) and [Next.js](https://nextjs.org) team members, with contributions from the [Open Source Community](https://github.com/vercel/ai/graphs/contributors).
+
+The Omni SDK extends the original AI SDK with additional features and is maintained by the Omni Stack team.

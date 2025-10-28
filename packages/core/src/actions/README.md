@@ -1,6 +1,8 @@
 # Action-Centric Architecture
 
-This directory contains the new action-centric architecture for the AI SDK. This approach provides a unified, extensible way to interact with AI models while maintaining full backward compatibility.
+> **Note**: This is part of the Omni SDK, a fork of the [Vercel AI SDK](https://github.com/vercel/ai) with additional features and enhancements.
+
+This directory contains the new action-centric architecture for the Omni SDK. This approach provides a unified, extensible way to interact with AI models while maintaining full backward compatibility.
 
 ## Key Concepts
 
