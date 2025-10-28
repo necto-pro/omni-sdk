@@ -91,6 +91,8 @@ import { ToolCallRepairFunction } from './tool-call-repair-function';
 import { ToolOutput } from './tool-output';
 import { StaticToolOutputDenied } from './tool-output-denied';
 import { ToolSet } from './tool-set';
+import { executeStream } from '../execute';
+import './text-streaming-action';
 
 const originalGenerateId = createIdGenerator({
   prefix: 'aitxt',
@@ -267,7 +269,7 @@ export function streamText<
 }: CallSettings &
   Prompt & {
     /**
-The language model to use.
+     * The language model to use.
      */
     model: LanguageModel;
 
@@ -277,7 +279,7 @@ The tools that the model can call. The model needs to support calling tools.
     tools?: TOOLS;
 
     /**
-The tool choice strategy. Default: 'auto'.
+     * The tool choice strategy. Default: 'auto'.
      */
     toolChoice?: ToolChoice<TOOLS>;
 
@@ -414,37 +416,36 @@ Internal. For test use only. May change without notice.
       currentDate?: () => Date;
     };
   }): StreamTextResult<TOOLS, PARTIAL_OUTPUT> {
-  return new DefaultStreamTextResult<TOOLS, OUTPUT, PARTIAL_OUTPUT>({
-    model: resolveLanguageModel(model),
-    telemetry,
-    headers,
-    settings,
-    maxRetries,
-    abortSignal,
-    system,
-    prompt,
-    messages,
-    tools,
-    toolChoice,
-    transforms: asArray(transform),
-    activeTools,
-    repairToolCall,
-    stopConditions: asArray(stopWhen),
-    output,
+  const stream = executeStream({
+    type: 'text.stream',
+    model,
+    input: { system, prompt, messages, ...settings } as any, // TODO fix
+    parameters: {
+      tools,
+      toolChoice,
+      stopWhen,
+      output,
+      telemetry,
+      providerOptions,
+      activeTools,
+      prepareStep,
+      repairToolCall,
+      transform,
+      download,
+      includeRawChunks,
+      onChunk,
+      onError,
+      onFinish,
+      onAbort,
+      onStepFinish,
+      experimental_context,
+      _internal: { now, generateId, currentDate },
+    },
     providerOptions,
-    prepareStep,
-    includeRawChunks,
-    onChunk,
-    onError,
-    onFinish,
-    onAbort,
-    onStepFinish,
-    now,
-    currentDate,
-    generateId,
-    experimental_context,
-    download,
+    headers,
   });
+
+  return stream as StreamTextResult<TOOLS, PARTIAL_OUTPUT>;
 }
 
 type EnrichedStreamPart<TOOLS extends ToolSet, PARTIAL_OUTPUT> = {

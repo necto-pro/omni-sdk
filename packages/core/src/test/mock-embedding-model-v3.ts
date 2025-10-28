@@ -1,11 +1,13 @@
-import { EmbeddingModelV3 } from '@omni-stack/provider';
-import { notImplemented } from './not-implemented';
+import { EmbeddingModelV3 } from '../types/embedding-model';
+import { Embedding } from '../types/embedding';
+import { LanguageModelV3Response } from '@omni-stack/provider';
+import { ActionV1 } from '@omni-stack/provider';
 
-export class MockEmbeddingModelV3<VALUE> implements EmbeddingModelV3<VALUE> {
+export class MockEmbeddingModelV3<VALUE> implements EmbeddingModelV3<VALUE>, ActionV1 {
   readonly specificationVersion = 'v3';
 
-  readonly provider: EmbeddingModelV3<VALUE>['provider'];
-  readonly modelId: EmbeddingModelV3<VALUE>['modelId'];
+  readonly provider = 'mock-provider';
+  readonly modelId = 'mock-model-id';
   readonly maxEmbeddingsPerCall: EmbeddingModelV3<VALUE>['maxEmbeddingsPerCall'];
   readonly supportsParallelCalls: EmbeddingModelV3<VALUE>['supportsParallelCalls'];
 
@@ -31,5 +33,13 @@ export class MockEmbeddingModelV3<VALUE> implements EmbeddingModelV3<VALUE> {
     this.maxEmbeddingsPerCall = maxEmbeddingsPerCall ?? undefined;
     this.supportsParallelCalls = supportsParallelCalls;
     this.doEmbed = doEmbed;
+  }
+
+  async doEmbed(options: any): Promise<any> {
+    return this.options.doEmbed(options);
+  }
+
+  async doAction(options: any): Promise<any> {
+    return this.doEmbed(options);
   }
 }

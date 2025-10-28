@@ -16,6 +16,7 @@ export class OpenAIProvider extends BaseActionProvider {
     await this.registerImageGeneration();
     await this.registerTextGeneration();
     await this.registerAudioGeneration();
+    await this.registerEmbeddingCreation();
     
     // Set up model compatibility
     this.setupModelCompatibility();
@@ -265,6 +266,53 @@ export class OpenAIProvider extends BaseActionProvider {
       async execute(input: any, parameters: any) {
         // OpenAI-specific implementation
         return { audio: { url: 'https://generated-audio.mp3' } };
+      }
+    };
+
+    this.registerAction(capability, transformer);
+  }
+
+  private async registerEmbeddingCreation(): Promise<void> {
+    const capability: ActionCapability = {
+      actionType: 'openai.embedding.create',
+      specificationVersion: 'v1',
+      name: 'Embedding Creation',
+      description: 'Create vector embeddings from text',
+      inputModalities: [
+        {
+          type: 'text',
+          description: 'Text to embed',
+          required: true,
+          constraints: {
+            maxSize: '8192 tokens'
+          }
+        }
+      ],
+      outputModalities: [
+        {
+          type: 'structured',
+          description: 'Vector embedding',
+        }
+      ],
+      parameters: [],
+      examples: [
+        {
+          name: 'Simple embedding',
+          description: 'Create an embedding from a string of text',
+          input: 'The quick brown fox jumps over the lazy dog',
+          expectedOutput: { embedding: [0.1, 0.2, 0.3, ...] }
+        }
+      ],
+      versionInfo: {
+        introduced: '2024-01-01',
+        newFeatures: ['Text embedding creation']
+      }
+    };
+
+    const transformer = {
+      async execute(input: any, parameters: any) {
+        // OpenAI-specific implementation
+        return { embedding: [0.1, 0.2, 0.3, 0.4, 0.5] };
       }
     };
 
