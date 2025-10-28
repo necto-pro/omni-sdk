@@ -29,7 +29,7 @@
   "exclude": ["node_modules"],
   "references": [
     {
-      "path": "../../packages/ai"
+      "path": "../../packages/core"
     },
     {
       "path": "../../packages/react"

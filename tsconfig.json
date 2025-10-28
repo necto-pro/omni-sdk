@@ -1,6 +1,6 @@
 {
   "references": [
-    { "path": "packages/ai" },
+    { "path": "packages/core" },
     { "path": "packages/mcp" },
     { "path": "packages/amazon-bedrock" },
     { "path": "packages/angular" },

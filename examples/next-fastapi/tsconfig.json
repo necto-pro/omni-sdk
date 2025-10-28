@@ -41,13 +41,13 @@
   ],
   "references": [
     {
-      "path": "../../packages/ai"
+      "path": "../../packages/core"
     },
     {
       "path": "../../packages/react"
     },
     {
-      "path": "../../packages/ai"
+      "path": "../../packages/core"
     }
   ]
 }
