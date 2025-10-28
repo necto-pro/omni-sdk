@@ -1,4 +1,4 @@
-import { resolve } from '@ai-sdk/provider-utils';
+import { resolve } from '@open-stack/provider-utils';
 import {
   createVertex as createVertexOriginal,
   GoogleVertexProvider,

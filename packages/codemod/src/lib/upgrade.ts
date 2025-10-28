@@ -128,7 +128,7 @@ function runCodemods(
 
   if (notImplementedAvailable) {
     log(
-      `Some ${versionLabel} codemods require manual changes. Please search your codebase for \`FIXME(@ai-sdk-upgrade-v5): \` comments and follow the instructions to complete the upgrade.`,
+      `Some ${versionLabel} codemods require manual changes. Please search your codebase for \`FIXME(@open-stack-upgrade-v5): \` comments and follow the instructions to complete the upgrade.`,
     );
   }
 
@@ -178,7 +178,7 @@ export function upgrade(options: TransformOptions) {
 
   if (notImplementedAvailable) {
     log(
-      'Some codemods require manual changes. Please search your codebase for `FIXME(@ai-sdk-upgrade-v5): ` comments and follow the instructions to complete the upgrade.',
+      'Some codemods require manual changes. Please search your codebase for `FIXME(@open-stack-upgrade-v5): ` comments and follow the instructions to complete the upgrade.',
     );
   }
 

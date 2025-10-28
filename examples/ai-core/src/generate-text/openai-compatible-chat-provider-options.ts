@@ -1,5 +1,5 @@
 import { generateText } from 'ai';
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
 import 'dotenv/config';
 
 async function main() {

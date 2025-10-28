@@ -1,4 +1,4 @@
-import { bedrock } from '@ai-sdk/amazon-bedrock';
+import { bedrock } from '@open-stack/amazon-bedrock';
 import { ModelMessage, generateText } from 'ai';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';

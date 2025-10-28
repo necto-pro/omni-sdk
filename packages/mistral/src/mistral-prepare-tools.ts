@@ -2,7 +2,7 @@ import {
   LanguageModelV3CallOptions,
   LanguageModelV3CallWarning,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import { MistralToolChoice } from './mistral-chat-prompt';
 
 export function prepareTools({

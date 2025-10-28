@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/togetherai': patch
+'@open-stack/togetherai': patch
 ---
 
 Added reranking feature

@@ -1,11 +1,11 @@
 ---
-title: '@ai-sdk/langchain Adapter'
+title: '@open-stack/langchain Adapter'
 description: API Reference for the LangChain Adapter.
 ---
 
-# `@ai-sdk/langchain`
+# `@open-stack/langchain`
 
-The `@ai-sdk/langchain` module provides helper functions to transform LangChain output streams into data streams and data stream responses.
+The `@open-stack/langchain` module provides helper functions to transform LangChain output streams into data streams and data stream responses.
 See the [LangChain Adapter documentation](/providers/adapters/langchain) for more information.
 
 It supports:
@@ -17,7 +17,7 @@ It supports:
 ## Import
 
 <Snippet
-  text={`import { toDataStreamResponse } from "@ai-sdk/langchain"`}
+  text={`import { toDataStreamResponse } from "@open-stack/langchain"`}
   prompt={false}
 />
 
@@ -51,7 +51,7 @@ It supports:
 ### Convert LangChain Expression Language Stream
 
 ```tsx filename="app/api/completion/route.ts" highlight={"13"}
-import { toUIMessageStream } from '@ai-sdk/langchain';
+import { toUIMessageStream } from '@open-stack/langchain';
 import { ChatOpenAI } from '@langchain/openai';
 import { createUIMessageStreamResponse } from 'ai';
 
@@ -74,7 +74,7 @@ export async function POST(req: Request) {
 ### Convert StringOutputParser Stream
 
 ```tsx filename="app/api/completion/route.ts" highlight={"16"}
-import { toUIMessageStream } from '@ai-sdk/langchain';
+import { toUIMessageStream } from '@open-stack/langchain';
 import { StringOutputParser } from '@langchain/core/output_parsers';
 import { ChatOpenAI } from '@langchain/openai';
 import { createUIMessageStreamResponse } from 'ai';

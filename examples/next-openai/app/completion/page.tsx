@@ -1,6 +1,6 @@
 'use client';
 
-import { useCompletion } from '@ai-sdk/react';
+import { useCompletion } from '@open-stack/react';
 
 export default function Page() {
   const {

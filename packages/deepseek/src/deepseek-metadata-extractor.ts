@@ -1,5 +1,5 @@
-import { MetadataExtractor } from '@ai-sdk/openai-compatible';
-import { safeValidateTypes } from '@ai-sdk/provider-utils';
+import { MetadataExtractor } from '@open-stack/openai-compatible';
+import { safeValidateTypes } from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 
 const buildDeepseekMetadata = (

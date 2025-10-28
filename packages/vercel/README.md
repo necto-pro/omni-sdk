@@ -12,24 +12,24 @@ Key features include:
 
 ## Setup
 
-The Vercel provider is available in the `@ai-sdk/vercel` module. You can install it with
+The Vercel provider is available in the `@open-stack/vercel` module. You can install it with
 
 ```bash
-npm i @ai-sdk/vercel
+npm i @open-stack/vercel
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `vercel` from `@ai-sdk/vercel`:
+You can import the default provider instance `vercel` from `@open-stack/vercel`:
 
 ```ts
-import { vercel } from '@ai-sdk/vercel';
+import { vercel } from '@open-stack/vercel';
 ```
 
 ## Example
 
 ```ts
-import { vercel } from '@ai-sdk/vercel';
+import { vercel } from '@open-stack/vercel';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

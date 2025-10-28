@@ -1,44 +1,4 @@
-# @ai-sdk/provider-utils
-
-## 4.0.0-beta.26
-
-### Patch Changes
-
-- Updated dependencies [d1bdadb]
-  - @ai-sdk/provider@3.0.0-beta.12
-
-## 4.0.0-beta.25
-
-### Patch Changes
-
-- Updated dependencies [4c44a5b]
-  - @ai-sdk/provider@3.0.0-beta.11
-
-## 4.0.0-beta.24
-
-### Patch Changes
-
-- Updated dependencies [0c3b58b]
-  - @ai-sdk/provider@3.0.0-beta.10
-
-## 4.0.0-beta.23
-
-### Patch Changes
-
-- Updated dependencies [a755db5]
-  - @ai-sdk/provider@3.0.0-beta.9
-
-## 4.0.0-beta.22
-
-### Patch Changes
-
-- 58920e0: refactor: consolidate header normalization across packages, remove duplicates, preserve custom headers
-
-## 4.0.0-beta.21
-
-### Patch Changes
-
-- 293a6b7: Added a title to the tools
+# @omni-stack/provider-utils
 
 ## 4.0.0-beta.20
 
@@ -52,14 +12,14 @@
 
 - 3794514: feat: flexible tool output content support
 - Updated dependencies [3794514]
-  - @ai-sdk/provider@3.0.0-beta.8
+  - @omni-stack/provider@3.0.0-beta.8
 
 ## 4.0.0-beta.18
 
 ### Patch Changes
 
 - Updated dependencies [81d4308]
-  - @ai-sdk/provider@3.0.0-beta.7
+  - @omni-stack/provider@3.0.0-beta.7
 
 ## 4.0.0-beta.17
 
@@ -113,7 +73,7 @@
 ### Patch Changes
 
 - Updated dependencies [dee8b05]
-  - @ai-sdk/provider@3.0.0-beta.6
+  - @omni-stack/provider@3.0.0-beta.6
 
 ## 3.1.0-beta.9
 
@@ -134,7 +94,7 @@
 - e8109d3: feat: tool execution approval
 - Updated dependencies [046aa3b]
 - Updated dependencies [e8109d3]
-  - @ai-sdk/provider@2.1.0-beta.5
+  - @omni-stack/provider@2.1.0-beta.5
 
 ## 3.1.0-beta.6
 
@@ -143,7 +103,7 @@
 - 0adc679: feat(provider): shared spec v3
 - Updated dependencies [0adc679]
 - Updated dependencies [2b0caef]
-  - @ai-sdk/provider@2.1.0-beta.4
+  - @omni-stack/provider@2.1.0-beta.4
 
 ## 3.1.0-beta.5
 
@@ -151,7 +111,7 @@
 
 - 8dac895: feat: `LanguageModelV3`
 - Updated dependencies [8dac895]
-  - @ai-sdk/provider@2.1.0-beta.3
+  - @omni-stack/provider@2.1.0-beta.3
 
 ## 3.1.0-beta.4
 
@@ -165,14 +125,14 @@
 
 - Updated dependencies [ed329cb]
 - Updated dependencies [522f6b8]
-  - @ai-sdk/provider@2.1.0-beta.2
+  - @omni-stack/provider@2.1.0-beta.2
 
 ## 3.1.0-beta.2
 
 ### Patch Changes
 
 - Updated dependencies [0c4822d]
-  - @ai-sdk/provider@2.1.0-beta.1
+  - @omni-stack/provider@2.1.0-beta.1
 
 ## 3.1.0-beta.1
 
@@ -189,13 +149,13 @@
 ### Patch Changes
 
 - Updated dependencies [78928cb]
-  - @ai-sdk/provider@2.1.0-beta.0
+  - @omni-stack/provider@2.1.0-beta.0
 
 ## 3.0.9
 
 ### Patch Changes
 
-- 0294b58: feat(ai): set `ai`, `@ai-sdk/provider-utils`, and runtime in `user-agent` header
+- 0294b58: feat(ai): set `ai`, `@omni-stack/provider-utils`, and runtime in `user-agent` header
 
 ## 3.0.8
 
@@ -273,8 +233,8 @@
   - `generateObject()`
   - `streamObject()`
   - `generateText()`
-  - `experimental_useObject()` from `@ai-sdk/react`
-  - `streamUI()` from `@ai-sdk/rsc`
+  - `experimental_useObject()` from `@omni-stack/react`
+  - `streamUI()` from `@omni-stack/rsc`
 
 - 0c0c0b3: refactor (provider-utils): move `customAlphabet()` method from `nanoid` into codebase
 - 8ba77a7: chore (provider-utils): use eventsource-parser library
@@ -366,7 +326,7 @@
 - Updated dependencies [33f4a6a]
 - Updated dependencies [27deb4d]
 - Updated dependencies [c4df419]
-  - @ai-sdk/provider@2.0.0
+  - @omni-stack/provider@2.0.0
 
 ## 3.0.0-beta.10
 
@@ -379,7 +339,7 @@
 ### Patch Changes
 
 - Updated dependencies [27deb4d]
-  - @ai-sdk/provider@2.0.0-beta.2
+  - @omni-stack/provider@2.0.0-beta.2
 
 ## 3.0.0-beta.8
 
@@ -450,7 +410,7 @@
 - Updated dependencies [44f4aba]
 - Updated dependencies [023ba40]
 - Updated dependencies [5e57fae]
-  - @ai-sdk/provider@2.0.0-beta.1
+  - @omni-stack/provider@2.0.0-beta.1
 
 ## 3.0.0-alpha.15
 
@@ -458,7 +418,7 @@
 
 - 8ba77a7: chore (provider-utils): use eventsource-parser library
 - Updated dependencies [48d257a]
-  - @ai-sdk/provider@2.0.0-alpha.15
+  - @omni-stack/provider@2.0.0-alpha.15
 
 ## 3.0.0-alpha.14
 
@@ -467,42 +427,42 @@
 - Updated dependencies [b5da06a]
 - Updated dependencies [63f9e9b]
 - Updated dependencies [2e13791]
-  - @ai-sdk/provider@2.0.0-alpha.14
+  - @omni-stack/provider@2.0.0-alpha.14
 
 ## 3.0.0-alpha.13
 
 ### Patch Changes
 
 - Updated dependencies [68ecf2f]
-  - @ai-sdk/provider@2.0.0-alpha.13
+  - @omni-stack/provider@2.0.0-alpha.13
 
 ## 3.0.0-alpha.12
 
 ### Patch Changes
 
 - Updated dependencies [e2aceaf]
-  - @ai-sdk/provider@2.0.0-alpha.12
+  - @omni-stack/provider@2.0.0-alpha.12
 
 ## 3.0.0-alpha.11
 
 ### Patch Changes
 
 - Updated dependencies [c1e6647]
-  - @ai-sdk/provider@2.0.0-alpha.11
+  - @omni-stack/provider@2.0.0-alpha.11
 
 ## 3.0.0-alpha.10
 
 ### Patch Changes
 
 - Updated dependencies [c4df419]
-  - @ai-sdk/provider@2.0.0-alpha.10
+  - @omni-stack/provider@2.0.0-alpha.10
 
 ## 3.0.0-alpha.9
 
 ### Patch Changes
 
 - Updated dependencies [811dff3]
-  - @ai-sdk/provider@2.0.0-alpha.9
+  - @omni-stack/provider@2.0.0-alpha.9
 
 ## 3.0.0-alpha.8
 
@@ -515,53 +475,53 @@
   - `generateObject()`
   - `streamObject()`
   - `generateText()`
-  - `experimental_useObject()` from `@ai-sdk/react`
-  - `streamUI()` from `@ai-sdk/rsc`
+  - `experimental_useObject()` from `@omni-stack/react`
+  - `streamUI()` from `@omni-stack/rsc`
 
 - Updated dependencies [9222aeb]
-  - @ai-sdk/provider@2.0.0-alpha.8
+  - @omni-stack/provider@2.0.0-alpha.8
 
 ## 3.0.0-alpha.7
 
 ### Patch Changes
 
 - Updated dependencies [5c56081]
-  - @ai-sdk/provider@2.0.0-alpha.7
+  - @omni-stack/provider@2.0.0-alpha.7
 
 ## 3.0.0-alpha.6
 
 ### Patch Changes
 
 - Updated dependencies [0d2c085]
-  - @ai-sdk/provider@2.0.0-alpha.6
+  - @omni-stack/provider@2.0.0-alpha.6
 
 ## 3.0.0-alpha.4
 
 ### Patch Changes
 
 - Updated dependencies [dc714f3]
-  - @ai-sdk/provider@2.0.0-alpha.4
+  - @omni-stack/provider@2.0.0-alpha.4
 
 ## 3.0.0-alpha.3
 
 ### Patch Changes
 
 - Updated dependencies [6b98118]
-  - @ai-sdk/provider@2.0.0-alpha.3
+  - @omni-stack/provider@2.0.0-alpha.3
 
 ## 3.0.0-alpha.2
 
 ### Patch Changes
 
 - Updated dependencies [26535e0]
-  - @ai-sdk/provider@2.0.0-alpha.2
+  - @omni-stack/provider@2.0.0-alpha.2
 
 ## 3.0.0-alpha.1
 
 ### Patch Changes
 
 - Updated dependencies [3f2f00c]
-  - @ai-sdk/provider@2.0.0-alpha.1
+  - @omni-stack/provider@2.0.0-alpha.1
 
 ## 3.0.0-canary.19
 
@@ -598,7 +558,7 @@
 - a571d6e: chore(provider-utils): move ToolResultContent to provider-utils
 - Updated dependencies [a8c8bd5]
 - Updated dependencies [7979f7f]
-  - @ai-sdk/provider@2.0.0-canary.14
+  - @omni-stack/provider@2.0.0-canary.14
 
 ## 3.0.0-canary.14
 
@@ -609,7 +569,7 @@
 ### Patch Changes
 
 - Updated dependencies [9bd5ab5]
-  - @ai-sdk/provider@2.0.0-canary.13
+  - @omni-stack/provider@2.0.0-canary.13
 
 ## 3.0.0-canary.13
 
@@ -617,7 +577,7 @@
 
 - 0ff02bb: chore(provider-utils): move over jsonSchema
 - Updated dependencies [7b3ae3f]
-  - @ai-sdk/provider@2.0.0-canary.12
+  - @omni-stack/provider@2.0.0-canary.12
 
 ## 3.0.0-canary.12
 
@@ -626,7 +586,7 @@
 - Updated dependencies [9bf7291]
 - Updated dependencies [4617fab]
 - Updated dependencies [e030615]
-  - @ai-sdk/provider@2.0.0-canary.11
+  - @omni-stack/provider@2.0.0-canary.11
 
 ## 3.0.0-canary.11
 
@@ -635,14 +595,14 @@
 - 66962ed: fix(packages): export node10 compatible types
 - Updated dependencies [9301f86]
 - Updated dependencies [a3f768e]
-  - @ai-sdk/provider@2.0.0-canary.10
+  - @omni-stack/provider@2.0.0-canary.10
 
 ## 3.0.0-canary.10
 
 ### Patch Changes
 
 - Updated dependencies [e86be6f]
-  - @ai-sdk/provider@2.0.0-canary.9
+  - @omni-stack/provider@2.0.0-canary.9
 
 ## 3.0.0-canary.9
 
@@ -650,7 +610,7 @@
 
 - Updated dependencies [95857aa]
 - Updated dependencies [7ea4132]
-  - @ai-sdk/provider@2.0.0-canary.8
+  - @omni-stack/provider@2.0.0-canary.8
 
 ## 3.0.0-canary.8
 
@@ -663,7 +623,7 @@
 - Updated dependencies [b6b43c7]
 - Updated dependencies [8aa9e20]
 - Updated dependencies [3795467]
-  - @ai-sdk/provider@2.0.0-canary.7
+  - @omni-stack/provider@2.0.0-canary.7
 
 ## 3.0.0-canary.7
 
@@ -681,7 +641,7 @@
 - Updated dependencies [fd65bc6]
 - Updated dependencies [393138b]
 - Updated dependencies [7182d14]
-  - @ai-sdk/provider@2.0.0-canary.6
+  - @omni-stack/provider@2.0.0-canary.6
 
 ## 3.0.0-canary.6
 
@@ -692,21 +652,21 @@
 - Updated dependencies [ad80501]
 - Updated dependencies [1766ede]
 - Updated dependencies [f10304b]
-  - @ai-sdk/provider@2.0.0-canary.5
+  - @omni-stack/provider@2.0.0-canary.5
 
 ## 3.0.0-canary.5
 
 ### Patch Changes
 
 - Updated dependencies [6f6bb89]
-  - @ai-sdk/provider@2.0.0-canary.4
+  - @omni-stack/provider@2.0.0-canary.4
 
 ## 3.0.0-canary.4
 
 ### Patch Changes
 
 - Updated dependencies [d1a1aa1]
-  - @ai-sdk/provider@2.0.0-canary.3
+  - @omni-stack/provider@2.0.0-canary.3
 
 ## 3.0.0-canary.3
 
@@ -718,7 +678,7 @@
 - Updated dependencies [abf9a79]
 - Updated dependencies [0a87932]
 - Updated dependencies [6dc848c]
-  - @ai-sdk/provider@2.0.0-canary.2
+  - @omni-stack/provider@2.0.0-canary.2
 
 ## 3.0.0-canary.2
 
@@ -726,7 +686,7 @@
 
 - Updated dependencies [c57e248]
 - Updated dependencies [33f4a6a]
-  - @ai-sdk/provider@2.0.0-canary.1
+  - @omni-stack/provider@2.0.0-canary.1
 
 ## 3.0.0-canary.1
 
@@ -745,7 +705,7 @@
 ### Patch Changes
 
 - Updated dependencies [d5f588f]
-  - @ai-sdk/provider@2.0.0-canary.0
+  - @omni-stack/provider@2.0.0-canary.0
 
 ## 2.2.3
 
@@ -774,7 +734,7 @@
 ### Patch Changes
 
 - Updated dependencies [5bc638d]
-  - @ai-sdk/provider@1.1.0
+  - @omni-stack/provider@1.1.0
 
 ## 2.1.15
 
@@ -787,14 +747,14 @@
 ### Patch Changes
 
 - Updated dependencies [0bd5bc6]
-  - @ai-sdk/provider@1.0.12
+  - @omni-stack/provider@1.0.12
 
 ## 2.1.13
 
 ### Patch Changes
 
 - Updated dependencies [2e1101a]
-  - @ai-sdk/provider@1.0.11
+  - @omni-stack/provider@1.0.11
 
 ## 2.1.12
 
@@ -807,21 +767,21 @@
 ### Patch Changes
 
 - Updated dependencies [e1d3d42]
-  - @ai-sdk/provider@1.0.10
+  - @omni-stack/provider@1.0.10
 
 ## 2.1.10
 
 ### Patch Changes
 
 - Updated dependencies [ddf9740]
-  - @ai-sdk/provider@1.0.9
+  - @omni-stack/provider@1.0.9
 
 ## 2.1.9
 
 ### Patch Changes
 
 - Updated dependencies [2761f06]
-  - @ai-sdk/provider@1.0.8
+  - @omni-stack/provider@1.0.8
 
 ## 2.1.8
 
@@ -840,7 +800,7 @@
 ### Patch Changes
 
 - Updated dependencies [d89c3b9]
-  - @ai-sdk/provider@1.0.7
+  - @omni-stack/provider@1.0.7
 
 ## 2.1.5
 
@@ -866,7 +826,7 @@
 
 - ed012d2: feat (provider): add metadata extraction mechanism to openai-compatible providers
 - Updated dependencies [3a58a2e]
-  - @ai-sdk/provider@1.0.6
+  - @omni-stack/provider@1.0.6
 
 ## 2.1.1
 
@@ -874,7 +834,7 @@
 
 - e7a9ec9: feat (provider-utils): include raw value in json parse results
 - Updated dependencies [0a699f1]
-  - @ai-sdk/provider@1.0.5
+  - @omni-stack/provider@1.0.5
 
 ## 2.1.0
 
@@ -904,7 +864,7 @@
 - 6337688: feat: change image generation errors to warnings
 - Updated dependencies [19a2ce7]
 - Updated dependencies [6337688]
-  - @ai-sdk/provider@1.0.4
+  - @omni-stack/provider@1.0.4
 
 ## 2.0.5
 
@@ -912,14 +872,14 @@
 
 - 5ed5e45: chore (config): Use ts-library.json tsconfig for no-UI libs.
 - Updated dependencies [5ed5e45]
-  - @ai-sdk/provider@1.0.3
+  - @omni-stack/provider@1.0.3
 
 ## 2.0.4
 
 ### Patch Changes
 
 - Updated dependencies [09a9cab]
-  - @ai-sdk/provider@1.0.2
+  - @omni-stack/provider@1.0.2
 
 ## 2.0.3
 
@@ -932,7 +892,7 @@
 ### Patch Changes
 
 - Updated dependencies [b446ae5]
-  - @ai-sdk/provider@1.0.1
+  - @omni-stack/provider@1.0.1
 
 ## 2.0.1
 
@@ -955,7 +915,7 @@
 - dce4158: chore (dependencies): update nanoid to 5.0.8
 - Updated dependencies [b469a7e]
 - Updated dependencies [c0ddc24]
-  - @ai-sdk/provider@1.0.0
+  - @omni-stack/provider@1.0.0
 
 ## 2.0.0-canary.3
 
@@ -987,7 +947,7 @@
 
 - Updated dependencies [b469a7e]
 - Updated dependencies [c0ddc24]
-  - @ai-sdk/provider@1.0.0-canary.0
+  - @omni-stack/provider@1.0.0-canary.0
 
 ## 1.0.22
 
@@ -1001,21 +961,21 @@
 - Updated dependencies [7b937c5]
 - Updated dependencies [3b1b69a]
 - Updated dependencies [811a317]
-  - @ai-sdk/provider@0.0.26
+  - @omni-stack/provider@0.0.26
 
 ## 1.0.21
 
 ### Patch Changes
 
 - Updated dependencies [b9b0d7b]
-  - @ai-sdk/provider@0.0.25
+  - @omni-stack/provider@0.0.25
 
 ## 1.0.20
 
 ### Patch Changes
 
 - Updated dependencies [d595d0d]
-  - @ai-sdk/provider@0.0.24
+  - @omni-stack/provider@0.0.24
 
 ## 1.0.19
 
@@ -1030,14 +990,14 @@
 - 03313cd: feat (ai): expose response id, response model, response timestamp in telemetry and api
 - Updated dependencies [03313cd]
 - Updated dependencies [3be7c1c]
-  - @ai-sdk/provider@0.0.23
+  - @omni-stack/provider@0.0.23
 
 ## 1.0.17
 
 ### Patch Changes
 
 - Updated dependencies [26515cb]
-  - @ai-sdk/provider@0.0.22
+  - @omni-stack/provider@0.0.22
 
 ## 1.0.16
 
@@ -1056,14 +1016,14 @@
 ### Patch Changes
 
 - Updated dependencies [f2c025e]
-  - @ai-sdk/provider@0.0.21
+  - @omni-stack/provider@0.0.21
 
 ## 1.0.13
 
 ### Patch Changes
 
 - Updated dependencies [6ac355e]
-  - @ai-sdk/provider@0.0.20
+  - @omni-stack/provider@0.0.20
 
 ## 1.0.12
 
@@ -1076,7 +1036,7 @@
 ### Patch Changes
 
 - Updated dependencies [dd4a0f5]
-  - @ai-sdk/provider@0.0.19
+  - @omni-stack/provider@0.0.19
 
 ## 1.0.10
 
@@ -1085,28 +1045,28 @@
 - 4bd27a9: chore (ai/provider): refactor type validation
 - 845754b: fix (ai/provider): fix atob/btoa execution on cloudflare edge workers
 - Updated dependencies [4bd27a9]
-  - @ai-sdk/provider@0.0.18
+  - @omni-stack/provider@0.0.18
 
 ## 1.0.9
 
 ### Patch Changes
 
 - Updated dependencies [029af4c]
-  - @ai-sdk/provider@0.0.17
+  - @omni-stack/provider@0.0.17
 
 ## 1.0.8
 
 ### Patch Changes
 
 - Updated dependencies [d58517b]
-  - @ai-sdk/provider@0.0.16
+  - @omni-stack/provider@0.0.16
 
 ## 1.0.7
 
 ### Patch Changes
 
 - Updated dependencies [96aed25]
-  - @ai-sdk/provider@0.0.15
+  - @omni-stack/provider@0.0.15
 
 ## 1.0.6
 
@@ -1121,7 +1081,7 @@
 
 - a8d1c9e9: feat (ai/core): parallel image download
 - Updated dependencies [a8d1c9e9]
-  - @ai-sdk/provider@0.0.14
+  - @omni-stack/provider@0.0.14
 
 ## 1.0.4
 
@@ -1137,14 +1097,14 @@
 - Updated dependencies [a5b58845]
 - Updated dependencies [4aa8deb3]
 - Updated dependencies [13b27ec6]
-  - @ai-sdk/provider@0.0.13
+  - @omni-stack/provider@0.0.13
 
 ## 1.0.2
 
 ### Patch Changes
 
 - Updated dependencies [b7290943]
-  - @ai-sdk/provider@0.0.12
+  - @omni-stack/provider@0.0.12
 
 ## 1.0.1
 
@@ -1162,7 +1122,7 @@
 
 - 5edc6110: feat (provider-utils): add combineHeaders helper
 - Updated dependencies [5edc6110]
-  - @ai-sdk/provider@0.0.11
+  - @omni-stack/provider@0.0.11
 
 ## 0.0.16
 
@@ -1174,8 +1134,8 @@
 
 ### Patch Changes
 
-- 85712895: feat (@ai-sdk/provider-utils): add createJsonStreamResponseHandler
-- 85712895: chore (@ai-sdk/provider-utils): move test helper to provider utils
+- 85712895: feat (@omni-stack/provider-utils): add createJsonStreamResponseHandler
+- 85712895: chore (@omni-stack/provider-utils): move test helper to provider utils
 
 ## 0.0.14
 
@@ -1188,30 +1148,30 @@
 ### Patch Changes
 
 - Updated dependencies [102ca22f]
-  - @ai-sdk/provider@0.0.10
+  - @omni-stack/provider@0.0.10
 
 ## 0.0.12
 
 ### Patch Changes
 
-- 09295e2e: feat (@ai-sdk/provider-utils): add download helper
+- 09295e2e: feat (@omni-stack/provider-utils): add download helper
 - 043a5de2: fix (provider-utils): rename to isParsableJson
 - Updated dependencies [09295e2e]
-  - @ai-sdk/provider@0.0.9
+  - @omni-stack/provider@0.0.9
 
 ## 0.0.11
 
 ### Patch Changes
 
 - Updated dependencies [f39c0dd2]
-  - @ai-sdk/provider@0.0.8
+  - @omni-stack/provider@0.0.8
 
 ## 0.0.10
 
 ### Patch Changes
 
 - Updated dependencies [8e780288]
-  - @ai-sdk/provider@0.0.7
+  - @omni-stack/provider@0.0.7
 
 ## 0.0.9
 
@@ -1219,21 +1179,21 @@
 
 - 6a50ac4: feat (provider-utils): add loadSetting and convertAsyncGeneratorToReadableStream helpers
 - Updated dependencies [6a50ac4]
-  - @ai-sdk/provider@0.0.6
+  - @omni-stack/provider@0.0.6
 
 ## 0.0.8
 
 ### Patch Changes
 
 - Updated dependencies [0f6bc4e]
-  - @ai-sdk/provider@0.0.5
+  - @omni-stack/provider@0.0.5
 
 ## 0.0.7
 
 ### Patch Changes
 
 - Updated dependencies [325ca55]
-  - @ai-sdk/provider@0.0.4
+  - @omni-stack/provider@0.0.4
 
 ## 0.0.6
 
@@ -1246,7 +1206,7 @@
 ### Patch Changes
 
 - Updated dependencies [41d5736]
-  - @ai-sdk/provider@0.0.3
+  - @omni-stack/provider@0.0.3
 
 ## 0.0.4
 
@@ -1261,7 +1221,7 @@
 - 25f3350: ai/core: add support for getting raw response headers.
 - Updated dependencies [d6431ae]
 - Updated dependencies [25f3350]
-  - @ai-sdk/provider@0.0.2
+  - @omni-stack/provider@0.0.2
 
 ## 0.0.2
 
@@ -1269,7 +1229,7 @@
 
 - eb150a6: ai/core: remove scaling of setting values (breaking change). If you were using the temperature, frequency penalty, or presence penalty settings, you need to update the providers and adjust the setting values.
 - Updated dependencies [eb150a6]
-  - @ai-sdk/provider@0.0.1
+  - @omni-stack/provider@0.0.1
 
 ## 0.0.1
 

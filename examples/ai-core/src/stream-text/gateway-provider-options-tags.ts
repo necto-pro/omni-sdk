@@ -1,4 +1,4 @@
-import type { GatewayProviderOptions } from '@ai-sdk/gateway';
+import type { GatewayProviderOptions } from '@open-stack/gateway';
 import { streamText } from 'ai';
 import 'dotenv/config';
 

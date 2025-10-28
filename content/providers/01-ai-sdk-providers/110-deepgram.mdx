@@ -9,36 +9,36 @@ The [Deepgram](https://deepgram.com/) provider contains language model support f
 
 ## Setup
 
-The Deepgram provider is available in the `@ai-sdk/deepgram` module. You can install it with
+The Deepgram provider is available in the `@open-stack/deepgram` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/deepgram" dark />
+    <Snippet text="pnpm add @open-stack/deepgram" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/deepgram" dark />
+    <Snippet text="npm install @open-stack/deepgram" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/deepgram" dark />
+    <Snippet text="yarn add @open-stack/deepgram" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/deepgram" dark />
+    <Snippet text="bun add @open-stack/deepgram" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `deepgram` from `@ai-sdk/deepgram`:
+You can import the default provider instance `deepgram` from `@open-stack/deepgram`:
 
 ```ts
-import { deepgram } from '@ai-sdk/deepgram';
+import { deepgram } from '@open-stack/deepgram';
 ```
 
-If you need a customized setup, you can import `createDeepgram` from `@ai-sdk/deepgram` and create a provider instance with your settings:
+If you need a customized setup, you can import `createDeepgram` from `@open-stack/deepgram` and create a provider instance with your settings:
 
 ```ts
-import { createDeepgram } from '@ai-sdk/deepgram';
+import { createDeepgram } from '@open-stack/deepgram';
 
 const deepgram = createDeepgram({
   // custom settings, e.g.
@@ -79,7 +79,7 @@ You can also pass additional provider-specific options using the `providerOption
 
 ```ts highlight="6"
 import { experimental_transcribe as transcribe } from 'ai';
-import { deepgram } from '@ai-sdk/deepgram';
+import { deepgram } from '@open-stack/deepgram';
 import { readFile } from 'fs/promises';
 
 const result = await transcribe({

@@ -47,7 +47,7 @@ export type MyUIMessage = UIMessage<
 In your server-side route handler, you can create a `UIMessageStream` and then pass it to `createUIMessageStreamResponse`:
 
 ```tsx filename="route.ts"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import {
   createUIMessageStream,
   createUIMessageStreamResponse,
@@ -198,7 +198,7 @@ The reconciliation happens automatically - simply use the same `id` when writing
 The `onData` callback is essential for handling streaming data, especially transient parts:
 
 ```tsx filename="page.tsx"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import type { MyUIMessage } from '@/ai/types';
 
 const { messages } = useChat<MyUIMessage>({
@@ -272,7 +272,7 @@ const result = (
 ```tsx filename="page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { useState } from 'react';
 import type { MyUIMessage } from '@/ai/types';
 

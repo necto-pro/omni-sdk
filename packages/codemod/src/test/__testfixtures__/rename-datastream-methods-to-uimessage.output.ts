@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { streamText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 export async function POST(req: Request) {
   const { messages } = await req.json();

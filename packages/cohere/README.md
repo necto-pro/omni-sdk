@@ -4,24 +4,24 @@ The **[Cohere provider](https://ai-sdk.dev/providers/ai-sdk-providers/cohere)** 
 
 ## Setup
 
-The Cohere provider is available in the `@ai-sdk/cohere` module. You can install it with
+The Cohere provider is available in the `@open-stack/cohere` module. You can install it with
 
 ```bash
-npm i @ai-sdk/cohere
+npm i @open-stack/cohere
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `cohere` from `@ai-sdk/cohere`:
+You can import the default provider instance `cohere` from `@open-stack/cohere`:
 
 ```ts
-import { cohere } from '@ai-sdk/cohere';
+import { cohere } from '@open-stack/cohere';
 ```
 
 ## Example
 
 ```ts
-import { cohere } from '@ai-sdk/cohere';
+import { cohere } from '@open-stack/cohere';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

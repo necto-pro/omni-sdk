@@ -2,7 +2,7 @@ import {
   JSONParseError,
   JSONValue,
   TypeValidationError,
-} from '@ai-sdk/provider';
+} from '@omni-stack/provider';
 import { secureJsonParse } from './secure-json-parse';
 import { safeValidateTypes, validateTypes } from './validate-types';
 import { FlexibleSchema } from './schema';

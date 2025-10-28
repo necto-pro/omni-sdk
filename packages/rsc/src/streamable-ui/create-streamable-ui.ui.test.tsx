@@ -1,4 +1,4 @@
-import { delay } from '@ai-sdk/provider-utils';
+import { delay } from '@omni-stack/provider-utils';
 import { createStreamableUI } from './create-streamable-ui';
 import { describe, it, expect } from 'vitest';
 

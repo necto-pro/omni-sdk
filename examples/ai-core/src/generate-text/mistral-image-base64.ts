@@ -1,4 +1,4 @@
-import { mistral } from '@ai-sdk/mistral';
+import { mistral } from '@open-stack/mistral';
 import { generateText } from 'ai';
 import 'dotenv/config';
 import fs from 'node:fs';

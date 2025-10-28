@@ -1,4 +1,4 @@
-import { azure } from '@ai-sdk/azure';
+import { azure } from '@open-stack/azure';
 import { experimental_generateSpeech as generateSpeech } from 'ai';
 import 'dotenv/config';
 import { saveAudioFile } from '../lib/save-audio';

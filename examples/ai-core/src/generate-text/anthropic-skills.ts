@@ -2,7 +2,7 @@ import {
   anthropic,
   AnthropicMessageMetadata,
   AnthropicProviderOptions,
-} from '@ai-sdk/anthropic';
+} from '@open-stack/anthropic';
 import { generateText } from 'ai';
 import { print } from '../lib/print';
 import { run } from '../lib/run';

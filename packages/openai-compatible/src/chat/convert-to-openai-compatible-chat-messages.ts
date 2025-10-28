@@ -2,9 +2,9 @@ import {
   LanguageModelV3Prompt,
   SharedV3ProviderMetadata,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import { OpenAICompatibleChatPrompt } from './openai-compatible-api-types';
-import { convertToBase64 } from '@ai-sdk/provider-utils';
+import { convertToBase64 } from '@open-stack/provider-utils';
 
 function getOpenAIMetadata(message: {
   providerOptions?: SharedV3ProviderMetadata;

@@ -8,7 +8,7 @@ description: Learn how to use the useCompletion hook.
 The `useCompletion` hook allows you to create a user interface to handle text completions in your application. It enables the streaming of text completions from your AI provider, manages the state for chat input, and updates the UI automatically as new messages are received.
 
 <Note>
-  The `useCompletion` hook is now part of the `@ai-sdk/react` package.
+  The `useCompletion` hook is now part of the `@open-stack/react` package.
 </Note>
 
 In this guide, you will learn how to use the `useCompletion` hook in your application to generate text completions and stream them in real-time to your users.
@@ -18,7 +18,7 @@ In this guide, you will learn how to use the `useCompletion` hook in your applic
 ```tsx filename='app/page.tsx'
 'use client';
 
-import { useCompletion } from '@ai-sdk/react';
+import { useCompletion } from '@open-stack/react';
 
 export default function Page() {
   const { completion, input, handleInputChange, handleSubmit } = useCompletion({
@@ -42,7 +42,7 @@ export default function Page() {
 
 ```ts filename='app/api/completion/route.ts'
 import { streamText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;

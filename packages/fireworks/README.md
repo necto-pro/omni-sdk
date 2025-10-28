@@ -4,24 +4,24 @@ The **[Fireworks provider](https://ai-sdk.dev/providers/ai-sdk-providers/firewor
 
 ## Setup
 
-The Fireworks provider is available in the `@ai-sdk/fireworks` module. You can install it with
+The Fireworks provider is available in the `@open-stack/fireworks` module. You can install it with
 
 ```bash
-npm i @ai-sdk/fireworks
+npm i @open-stack/fireworks
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `fireworks` from `@ai-sdk/fireworks`:
+You can import the default provider instance `fireworks` from `@open-stack/fireworks`:
 
 ```ts
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 ```
 
 ## Language Model Example
 
 ```ts
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
@@ -33,7 +33,7 @@ const { text } = await generateText({
 ## Image Model Examples
 
 ```ts
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 import { experimental_generateImage as generateImage } from 'ai';
 import fs from 'fs';
 

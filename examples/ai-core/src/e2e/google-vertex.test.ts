@@ -1,6 +1,6 @@
-import { vertex as vertexNode } from '@ai-sdk/google-vertex';
-import { vertex as vertexEdge } from '@ai-sdk/google-vertex/edge';
-import { ImageModelV3, LanguageModelV3 } from '@ai-sdk/provider';
+import { vertex as vertexNode } from '@open-stack/google-vertex';
+import { vertex as vertexEdge } from '@open-stack/google-vertex/edge';
+import { ImageModelV3, LanguageModelV3 } from '@open-stack/provider';
 import { APICallError, experimental_generateImage as generateImage } from 'ai';
 import 'dotenv/config';
 import { describe, expect, it, vi } from 'vitest';

@@ -112,8 +112,8 @@ Create a Server Action at `app/actions.tsx` and add the following code:
 ```tsx filename="app/actions.tsx"
 'use server';
 
-import { streamUI } from '@ai-sdk/rsc';
-import { openai } from '@ai-sdk/openai';
+import { streamUI } from '@open-stack/rsc';
+import { openai } from '@open-stack/openai';
 import { z } from 'zod';
 
 const LoadingComponent = () => (

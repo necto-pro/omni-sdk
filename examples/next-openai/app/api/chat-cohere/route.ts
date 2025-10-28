@@ -1,4 +1,4 @@
-import { cohere } from '@ai-sdk/cohere';
+import { cohere } from '@open-stack/cohere';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 export const maxDuration = 30;

@@ -2,7 +2,7 @@
 
 import { invalidateRouterCache } from '@/app/actions';
 import type { MyUIMessage } from '@/util/chat-schema';
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 import { useEffect, useRef } from 'react';
 import ChatInput from './chat-input';

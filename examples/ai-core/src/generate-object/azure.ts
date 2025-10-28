@@ -1,4 +1,4 @@
-import { azure } from '@ai-sdk/azure';
+import { azure } from '@open-stack/azure';
 import { generateObject } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateText } from 'ai';
 
 export async function POST(req: Request) {

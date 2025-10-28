@@ -7,7 +7,7 @@ import {
   LanguageModelV3StreamPart,
   LanguageModelV3Usage,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   ParseResult,
@@ -17,7 +17,7 @@ import {
   generateId,
   parseProviderOptions,
   postJsonToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import {
   CohereChatModelId,

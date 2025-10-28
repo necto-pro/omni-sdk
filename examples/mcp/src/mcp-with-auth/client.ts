@@ -1,8 +1,8 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateText, stepCountIs } from 'ai';
 
 /**
- * @deprecated Use the `@ai-sdk/mcp` package instead.
+ * @deprecated Use the `@open-stack/mcp` package instead.
  *
 import { experimental_createMCPClient, auth } from 'ai';
 import type {
@@ -13,14 +13,14 @@ import type {
 } from 'ai';
 */
 
-import { experimental_createMCPClient, auth } from '@ai-sdk/mcp';
+import { experimental_createMCPClient, auth } from '@open-stack/mcp';
 import 'dotenv/config';
 import type {
   OAuthClientProvider,
   OAuthClientInformation,
   OAuthClientMetadata,
   OAuthTokens,
-} from '@ai-sdk/mcp';
+} from '@open-stack/mcp';
 import { createServer } from 'node:http';
 import { exec } from 'node:child_process';
 

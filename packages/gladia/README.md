@@ -5,24 +5,24 @@ contains transcription model support for the Gladia transcription API.
 
 ## Setup
 
-The Gladia provider is available in the `@ai-sdk/gladia` module. You can install it with
+The Gladia provider is available in the `@open-stack/gladia` module. You can install it with
 
 ```bash
-npm i @ai-sdk/gladia
+npm i @open-stack/gladia
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `gladia` from `@ai-sdk/gladia`:
+You can import the default provider instance `gladia` from `@open-stack/gladia`:
 
 ```ts
-import { gladia } from '@ai-sdk/gladia';
+import { gladia } from '@open-stack/gladia';
 ```
 
 ## Example
 
 ```ts
-import { gladia } from '@ai-sdk/gladia';
+import { gladia } from '@open-stack/gladia';
 import { experimental_transcribe as transcribe } from 'ai';
 
 const { text } = await transcribe({

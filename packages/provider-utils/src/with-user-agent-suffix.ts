@@ -1,4 +1,4 @@
-import { normalizeHeaders } from './normalize-headers';
+import { removeUndefinedEntries } from './remove-undefined-entries';
 
 /**
  * Appends suffix parts to the `user-agent` header.
@@ -14,7 +14,10 @@ export function withUserAgentSuffix(
   headers: HeadersInit | Record<string, string | undefined> | undefined,
   ...userAgentSuffixParts: string[]
 ): Record<string, string> {
-  const normalizedHeaders = new Headers(normalizeHeaders(headers));
+  const cleanedHeaders = removeUndefinedEntries(
+    (headers as Record<string, string | undefined>) ?? {},
+  );
+  const normalizedHeaders = new Headers(cleanedHeaders);
 
   const currentUserAgentHeader = normalizedHeaders.get('user-agent') || '';
 
@@ -23,5 +26,5 @@ export function withUserAgentSuffix(
     [currentUserAgentHeader, ...userAgentSuffixParts].filter(Boolean).join(' '),
   );
 
-  return Object.fromEntries(normalizedHeaders.entries());
+  return Object.fromEntries(normalizedHeaders);
 }

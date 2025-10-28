@@ -1,5 +1,5 @@
-import { openai } from '@ai-sdk/openai';
-import { LanguageModelV3Middleware } from '@ai-sdk/provider';
+import { openai } from '@open-stack/openai';
+import { LanguageModelV3Middleware } from '@open-stack/provider';
 import { generateText, wrapLanguageModel } from 'ai';
 import 'dotenv/config';
 

@@ -10,18 +10,18 @@ You can deploy models that are OpenAI API compatible and use them with the AI SD
 
 ## Setup
 
-The Heroku provider is available via the `@ai-sdk/openai-compatible` module as it is compatible with the OpenAI API.
+The Heroku provider is available via the `@open-stack/openai-compatible` module as it is compatible with the OpenAI API.
 You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/openai-compatible" dark />
+    <Snippet text="pnpm add @open-stack/openai-compatible" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/openai-compatible" dark />
+    <Snippet text="npm install @open-stack/openai-compatible" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/openai-compatible" dark />
+    <Snippet text="yarn add @open-stack/openai-compatible" dark />
   </Tab>
 </Tabs>
 
@@ -49,10 +49,10 @@ export INFERENCE_URL=$(heroku config:get INFERENCE_URL -a $APP_NAME)
 
 ## Provider Instance
 
-To use Heroku, you can create a custom provider instance with the `createOpenAICompatible` function from `@ai-sdk/openai-compatible`:
+To use Heroku, you can create a custom provider instance with the `createOpenAICompatible` function from `@open-stack/openai-compatible`:
 
 ```ts
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
 
 const heroku = createOpenAICompatible({
   name: 'heroku',
@@ -77,7 +77,7 @@ const model = heroku('claude-3-5-haiku');
 You can use Heroku language models to generate text with the `generateText` function:
 
 ```ts
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
 import { generateText } from 'ai';
 
 const heroku = createOpenAICompatible({
@@ -97,7 +97,7 @@ console.log(text);
 Heroku language models are also able to generate text in a streaming fashion with the `streamText` function:
 
 ```ts
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
 import { streamText } from 'ai';
 
 const heroku = createOpenAICompatible({

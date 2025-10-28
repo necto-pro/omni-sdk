@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { cerebras as provider } from '@ai-sdk/cerebras';
+import { cerebras as provider } from '@open-stack/cerebras';
 import { generateText } from 'ai';
 
 async function main() {

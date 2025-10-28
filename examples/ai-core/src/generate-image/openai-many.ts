@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { experimental_generateImage as generateImage } from 'ai';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';

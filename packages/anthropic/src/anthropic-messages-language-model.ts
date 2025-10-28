@@ -12,7 +12,7 @@ import {
   LanguageModelV3Usage,
   SharedV3ProviderMetadata,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   combineHeaders,
   createEventSourceResponseHandler,
@@ -25,7 +25,7 @@ import {
   postJsonToApi,
   Resolvable,
   resolve,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { anthropicFailedResponseHandler } from './anthropic-error';
 import { AnthropicMessageMetadata } from './anthropic-message-metadata';
 import {

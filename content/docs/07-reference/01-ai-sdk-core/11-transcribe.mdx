@@ -11,7 +11,7 @@ Generates a transcript from an audio file.
 
 ```ts
 import { experimental_transcribe as transcribe } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { readFile } from 'fs/promises';
 
 const { text: transcript } = await transcribe({

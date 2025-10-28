@@ -1,5 +1,5 @@
 {
-  "name": "@ai-sdk/vercel",
+  "name": "@open-stack/vercel",
   "version": "2.0.0-beta.27",
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -32,9 +32,9 @@
     }
   },
   "dependencies": {
-    "@ai-sdk/openai-compatible": "workspace:*",
-    "@ai-sdk/provider": "workspace:*",
-    "@ai-sdk/provider-utils": "workspace:*"
+    "@open-stack/openai-compatible": "workspace:*",
+    "@open-stack/provider": "workspace:*",
+    "@open-stack/provider-utils": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "20.17.24",

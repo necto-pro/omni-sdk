@@ -494,7 +494,7 @@ and `TypedToolResult<TOOLS extends ToolSet>` can be used to
 extract the tool call and tool result types from the tools.
 
 ```ts highlight="18-19,23-24"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { TypedToolCall, TypedToolResult, generateText, tool } from 'ai';
 import { z } from 'zod';
 
@@ -626,7 +626,7 @@ You can use different strategies to repair the tool call:
 ### Example: Use a model with structured outputs for repair
 
 ```ts
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateObject, generateText, NoSuchToolError, tool } from 'ai';
 
 const result = await generateText({
@@ -667,7 +667,7 @@ const result = await generateText({
 ### Example: Use the re-ask strategy for repair
 
 ```ts
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateObject, generateText, NoSuchToolError, tool } from 'ai';
 
 const result = await generateText({
@@ -739,7 +739,7 @@ It is an array of tool names that are currently active.
 By default, the value is `undefined` and all tools are active.
 
 ```ts highlight="7"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

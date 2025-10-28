@@ -2,14 +2,14 @@ import {
   TranscriptionModelV3,
   TranscriptionModelV3CallOptions,
   TranscriptionModelV3CallWarning,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   combineHeaders,
   convertBase64ToUint8Array,
   createJsonResponseHandler,
   parseProviderOptions,
   postToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import { DeepgramConfig } from './deepgram-config';
 import { deepgramFailedResponseHandler } from './deepgram-error';

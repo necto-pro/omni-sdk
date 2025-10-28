@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ai-sdk/react": "3.0.0-beta.81",
-    "@ai-sdk/langchain": "2.0.0-beta.81",
+    "@open-stack/react": "3.0.0-beta.81",
+    "@open-stack/langchain": "2.0.0-beta.81",
     "@langchain/openai": "0.0.28",
     "@langchain/core": "0.1.63",
     "ai": "6.0.0-beta.81",

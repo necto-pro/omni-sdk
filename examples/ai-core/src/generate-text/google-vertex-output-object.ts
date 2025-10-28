@@ -1,4 +1,4 @@
-import { vertex } from '@ai-sdk/google-vertex';
+import { vertex } from '@open-stack/google-vertex';
 import { generateText, Output } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

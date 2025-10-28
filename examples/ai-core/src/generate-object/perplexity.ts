@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { perplexity } from '@ai-sdk/perplexity';
+import { perplexity } from '@open-stack/perplexity';
 import { generateObject, generateText } from 'ai';
 import { z } from 'zod';
 

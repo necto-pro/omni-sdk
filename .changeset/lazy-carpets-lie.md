@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/amazon-bedrock': patch
+'@open-stack/amazon-bedrock': patch
 ---
 
 Added support for reranking models

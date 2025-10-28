@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/provider': patch
+'@open-stack/provider': patch
 ---
 
 Added reranking model

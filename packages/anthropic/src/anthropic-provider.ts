@@ -2,7 +2,7 @@ import {
   LanguageModelV3,
   NoSuchModelError,
   ProviderV3,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   generateId,
@@ -10,7 +10,7 @@ import {
   loadOptionalSetting,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { VERSION } from './version';
 import { AnthropicMessagesLanguageModel } from './anthropic-messages-language-model';
 import { AnthropicMessagesModelId } from './anthropic-messages-options';

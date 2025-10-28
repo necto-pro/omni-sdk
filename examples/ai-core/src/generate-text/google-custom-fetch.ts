@@ -1,4 +1,4 @@
-import { createGoogleGenerativeAI } from '@ai-sdk/google';
+import { createGoogleGenerativeAI } from '@open-stack/google';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

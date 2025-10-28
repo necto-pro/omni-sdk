@@ -1,4 +1,4 @@
-import { cohere } from '@ai-sdk/cohere';
+import { cohere } from '@open-stack/cohere';
 import { stepCountIs, ModelMessage, streamText, tool } from 'ai';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';

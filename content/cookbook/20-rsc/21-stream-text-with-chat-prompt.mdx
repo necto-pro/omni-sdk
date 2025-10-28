@@ -32,7 +32,7 @@ Let's create a simple conversation between a user and a model, and place a butto
 
 import { useState } from 'react';
 import { Message, continueConversation } from './actions';
-import { readStreamableValue } from '@ai-sdk/rsc';
+import { readStreamableValue } from '@open-stack/rsc';
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;
@@ -94,8 +94,8 @@ Now, let's implement the `continueConversation` function that will insert the us
 'use server';
 
 import { streamText } from 'ai';
-import { openai } from '@ai-sdk/openai';
-import { createStreamableValue } from '@ai-sdk/rsc';
+import { openai } from '@open-stack/openai';
+import { createStreamableValue } from '@open-stack/rsc';
 
 export interface Message {
   role: 'user' | 'assistant';

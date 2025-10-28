@@ -17,7 +17,7 @@ The `object` parameter contains the final object, or `undefined` if the type val
 There is also an `error` parameter that contains error when e.g. the object does not match the schema.
 
 ```ts file='index.ts' highlight={"15-23"}
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamObject } from 'ai';
 import { z } from 'zod';
 
@@ -49,7 +49,7 @@ The [`streamObject`](/docs/reference/ai-sdk-core/stream-object) result contains 
 The object is fully typed. When the type validation according to the schema fails, the promise will be rejected with a `TypeValidationError`.
 
 ```ts file='index.ts' highlight={"17-26"}
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamObject } from 'ai';
 import { z } from 'zod';
 

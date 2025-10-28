@@ -27,7 +27,7 @@ You might want to override the default model settings for a provider or provide 
 with pre-configured settings.
 
 ```ts
-import { openai as originalOpenAI } from '@ai-sdk/openai';
+import { openai as originalOpenAI } from '@open-stack/openai';
 import {
   customProvider,
   defaultSettingsMiddleware,
@@ -73,7 +73,7 @@ export const openai = customProvider({
 You can also provide model name aliases, so you can update the model version in one place in the future:
 
 ```ts
-import { anthropic as originalAnthropic } from '@ai-sdk/anthropic';
+import { anthropic as originalAnthropic } from '@open-stack/anthropic';
 import { customProvider } from 'ai';
 
 // custom provider with alias names:
@@ -92,8 +92,8 @@ export const anthropic = customProvider({
 You can limit the available models in the system, even if you have multiple providers.
 
 ```ts
-import { anthropic } from '@ai-sdk/anthropic';
-import { openai } from '@ai-sdk/openai';
+import { anthropic } from '@open-stack/anthropic';
+import { openai } from '@open-stack/openai';
 import {
   customProvider,
   defaultSettingsMiddleware,
@@ -143,8 +143,8 @@ You can create a [provider registry](/docs/reference/ai-sdk-core/provider-regist
 ### Setup
 
 ```ts filename={"registry.ts"}
-import { anthropic } from '@ai-sdk/anthropic';
-import { createOpenAI } from '@ai-sdk/openai';
+import { anthropic } from '@open-stack/anthropic';
+import { createOpenAI } from '@open-stack/openai';
 import { createProviderRegistry } from 'ai';
 
 export const registry = createProviderRegistry({
@@ -164,8 +164,8 @@ By default, the registry uses `:` as the separator between provider and model ID
 
 ```ts filename={"registry.ts"}
 import { createProviderRegistry } from 'ai';
-import { anthropic } from '@ai-sdk/anthropic';
-import { openai } from '@ai-sdk/openai';
+import { anthropic } from '@open-stack/anthropic';
+import { openai } from '@open-stack/openai';
 
 export const customSeparatorRegistry = createProviderRegistry(
   {
@@ -240,10 +240,10 @@ Here is an example that implements the following concepts:
 - define a custom separator for the provider registry (here: `>`)
 
 ```ts
-import { anthropic, AnthropicProviderOptions } from '@ai-sdk/anthropic';
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
-import { xai } from '@ai-sdk/xai';
-import { groq } from '@ai-sdk/groq';
+import { anthropic, AnthropicProviderOptions } from '@open-stack/anthropic';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
+import { xai } from '@open-stack/xai';
+import { groq } from '@open-stack/groq';
 import {
   createProviderRegistry,
   customProvider,
@@ -327,7 +327,7 @@ By default, the global provider is set to the Vercel AI Gateway.
 You can set your own preferred global provider:
 
 ```ts filename="setup.ts"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 // Initialize once during startup:
 globalThis.AI_SDK_DEFAULT_PROVIDER = openai;

@@ -1,5 +1,5 @@
-import type { ImageModelV3, ImageModelV3CallWarning } from '@ai-sdk/provider';
-import type { Resolvable } from '@ai-sdk/provider-utils';
+import type { ImageModelV3, ImageModelV3CallWarning } from '@open-stack/provider';
+import type { Resolvable } from '@open-stack/provider-utils';
 import {
   FetchFunction,
   combineHeaders,
@@ -8,7 +8,7 @@ import {
   getFromApi,
   postJsonToApi,
   resolve,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import { replicateFailedResponseHandler } from './replicate-error';
 import { ReplicateImageModelId } from './replicate-image-settings';

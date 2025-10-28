@@ -1,13 +1,13 @@
 import {
   LanguageModelV3Prompt,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   GoogleGenerativeAIContent,
   GoogleGenerativeAIContentPart,
   GoogleGenerativeAIPrompt,
 } from './google-generative-ai-prompt';
-import { convertToBase64 } from '@ai-sdk/provider-utils';
+import { convertToBase64 } from '@open-stack/provider-utils';
 
 export function convertToGoogleGenerativeAIMessages(
   prompt: LanguageModelV3Prompt,

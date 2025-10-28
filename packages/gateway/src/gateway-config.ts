@@ -1,4 +1,4 @@
-import type { FetchFunction, Resolvable } from '@ai-sdk/provider-utils';
+import type { FetchFunction, Resolvable } from '@omni-stack/provider-utils';
 
 export type GatewayConfig = {
   baseURL: string;

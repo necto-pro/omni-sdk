@@ -4,24 +4,24 @@ The **[Google Generative AI provider](https://ai-sdk.dev/providers/ai-sdk-provid
 
 ## Setup
 
-The Google Generative AI provider is available in the `@ai-sdk/google` module. You can install it with
+The Google Generative AI provider is available in the `@open-stack/google` module. You can install it with
 
 ```bash
-npm i @ai-sdk/google
+npm i @open-stack/google
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `google` from `@ai-sdk/google`:
+You can import the default provider instance `google` from `@open-stack/google`:
 
 ```ts
-import { google } from '@ai-sdk/google';
+import { google } from '@open-stack/google';
 ```
 
 ## Example
 
 ```ts
-import { google } from '@ai-sdk/google';
+import { google } from '@open-stack/google';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

@@ -1,20 +1,20 @@
-# @ai-sdk/google
+# @open-stack/google
 
 ## 3.0.0-beta.33
 
 ### Patch Changes
 
 - Updated dependencies [d1bdadb]
-  - @ai-sdk/provider@3.0.0-beta.12
-  - @ai-sdk/provider-utils@4.0.0-beta.26
+  - @open-stack/provider@3.0.0-beta.12
+  - @open-stack/provider-utils@4.0.0-beta.26
 
 ## 3.0.0-beta.32
 
 ### Patch Changes
 
 - Updated dependencies [4c44a5b]
-  - @ai-sdk/provider@3.0.0-beta.11
-  - @ai-sdk/provider-utils@4.0.0-beta.25
+  - @open-stack/provider@3.0.0-beta.11
+  - @open-stack/provider-utils@4.0.0-beta.25
 
 ## 3.0.0-beta.31
 
@@ -22,37 +22,37 @@
 
 - 0c3b58b: fix(provider): add specificationVersion to ProviderV3
 - Updated dependencies [0c3b58b]
-  - @ai-sdk/provider@3.0.0-beta.10
-  - @ai-sdk/provider-utils@4.0.0-beta.24
+  - @open-stack/provider@3.0.0-beta.10
+  - @open-stack/provider-utils@4.0.0-beta.24
 
 ## 3.0.0-beta.30
 
 ### Patch Changes
 
 - Updated dependencies [a755db5]
-  - @ai-sdk/provider@3.0.0-beta.9
-  - @ai-sdk/provider-utils@4.0.0-beta.23
+  - @open-stack/provider@3.0.0-beta.9
+  - @open-stack/provider-utils@4.0.0-beta.23
 
 ## 3.0.0-beta.29
 
 ### Patch Changes
 
 - Updated dependencies [58920e0]
-  - @ai-sdk/provider-utils@4.0.0-beta.22
+  - @open-stack/provider-utils@4.0.0-beta.22
 
 ## 3.0.0-beta.28
 
 ### Patch Changes
 
 - Updated dependencies [293a6b7]
-  - @ai-sdk/provider-utils@4.0.0-beta.21
+  - @open-stack/provider-utils@4.0.0-beta.21
 
 ## 3.0.0-beta.27
 
 ### Patch Changes
 
 - Updated dependencies [fca786b]
-  - @ai-sdk/provider-utils@4.0.0-beta.20
+  - @open-stack/provider-utils@4.0.0-beta.20
 
 ## 3.0.0-beta.26
 
@@ -60,23 +60,23 @@
 
 - 3794514: feat: flexible tool output content support
 - Updated dependencies [3794514]
-  - @ai-sdk/provider-utils@4.0.0-beta.19
-  - @ai-sdk/provider@3.0.0-beta.8
+  - @open-stack/provider-utils@4.0.0-beta.19
+  - @open-stack/provider@3.0.0-beta.8
 
 ## 3.0.0-beta.25
 
 ### Patch Changes
 
 - Updated dependencies [81d4308]
-  - @ai-sdk/provider@3.0.0-beta.7
-  - @ai-sdk/provider-utils@4.0.0-beta.18
+  - @open-stack/provider@3.0.0-beta.7
+  - @open-stack/provider-utils@4.0.0-beta.18
 
 ## 3.0.0-beta.24
 
 ### Patch Changes
 
 - Updated dependencies [703459a]
-  - @ai-sdk/provider-utils@4.0.0-beta.17
+  - @open-stack/provider-utils@4.0.0-beta.17
 
 ## 3.0.0-beta.23
 
@@ -95,35 +95,35 @@
 ### Patch Changes
 
 - Updated dependencies [6306603]
-  - @ai-sdk/provider-utils@4.0.0-beta.16
+  - @open-stack/provider-utils@4.0.0-beta.16
 
 ## 3.0.0-beta.20
 
 ### Patch Changes
 
 - Updated dependencies [f0b2157]
-  - @ai-sdk/provider-utils@4.0.0-beta.15
+  - @open-stack/provider-utils@4.0.0-beta.15
 
 ## 3.0.0-beta.19
 
 ### Patch Changes
 
 - Updated dependencies [3b1d015]
-  - @ai-sdk/provider-utils@4.0.0-beta.14
+  - @open-stack/provider-utils@4.0.0-beta.14
 
 ## 3.0.0-beta.18
 
 ### Patch Changes
 
 - Updated dependencies [d116b4b]
-  - @ai-sdk/provider-utils@4.0.0-beta.13
+  - @open-stack/provider-utils@4.0.0-beta.13
 
 ## 3.0.0-beta.17
 
 ### Patch Changes
 
 - Updated dependencies [7e32fea]
-  - @ai-sdk/provider-utils@4.0.0-beta.12
+  - @open-stack/provider-utils@4.0.0-beta.12
 
 ## 3.0.0-beta.16
 
@@ -140,7 +140,7 @@
 - 95f65c2: chore: use import \* from zod/v4
 - Updated dependencies [95f65c2]
 - Updated dependencies [95f65c2]
-  - @ai-sdk/provider-utils@4.0.0-beta.11
+  - @open-stack/provider-utils@4.0.0-beta.11
 
 ## 3.0.0-beta.14
 
@@ -151,22 +151,22 @@
 ### Patch Changes
 
 - Updated dependencies [dee8b05]
-  - @ai-sdk/provider@3.0.0-beta.6
-  - @ai-sdk/provider-utils@4.0.0-beta.10
+  - @open-stack/provider@3.0.0-beta.6
+  - @open-stack/provider-utils@4.0.0-beta.10
 
 ## 2.1.0-beta.13
 
 ### Patch Changes
 
 - Updated dependencies [521c537]
-  - @ai-sdk/provider-utils@3.1.0-beta.9
+  - @open-stack/provider-utils@3.1.0-beta.9
 
 ## 2.1.0-beta.12
 
 ### Patch Changes
 
 - Updated dependencies [e06565c]
-  - @ai-sdk/provider-utils@3.1.0-beta.8
+  - @open-stack/provider-utils@3.1.0-beta.8
 
 ## 2.1.0-beta.11
 
@@ -181,8 +181,8 @@
 - e8109d3: feat: tool execution approval
 - Updated dependencies [046aa3b]
 - Updated dependencies [e8109d3]
-  - @ai-sdk/provider@2.1.0-beta.5
-  - @ai-sdk/provider-utils@3.1.0-beta.7
+  - @open-stack/provider@2.1.0-beta.5
+  - @open-stack/provider-utils@3.1.0-beta.7
 
 ## 2.1.0-beta.9
 
@@ -191,8 +191,8 @@
 - 0adc679: feat(provider): shared spec v3
 - Updated dependencies [0adc679]
 - Updated dependencies [2b0caef]
-  - @ai-sdk/provider-utils@3.1.0-beta.6
-  - @ai-sdk/provider@2.1.0-beta.4
+  - @open-stack/provider-utils@3.1.0-beta.6
+  - @open-stack/provider@2.1.0-beta.4
 
 ## 2.1.0-beta.8
 
@@ -205,10 +205,10 @@
 ### Patch Changes
 
 - 8dac895: feat: `LanguageModelV3`
-- 10c1322: fix: moved dependency `@ai-sdk/test-server` to devDependencies
+- 10c1322: fix: moved dependency `@open-stack/test-server` to devDependencies
 - Updated dependencies [8dac895]
-  - @ai-sdk/provider-utils@3.1.0-beta.5
-  - @ai-sdk/provider@2.1.0-beta.3
+  - @open-stack/provider-utils@3.1.0-beta.5
+  - @open-stack/provider@2.1.0-beta.3
 
 ## 2.1.0-beta.6
 
@@ -222,7 +222,7 @@
 
 - 4616b86: chore: update zod peer depenedency version
 - Updated dependencies [4616b86]
-  - @ai-sdk/provider-utils@3.1.0-beta.4
+  - @open-stack/provider-utils@3.1.0-beta.4
 
 ## 2.1.0-beta.4
 
@@ -232,8 +232,8 @@
 - 522f6b8: feat: `ImageModelV3`
 - Updated dependencies [ed329cb]
 - Updated dependencies [522f6b8]
-  - @ai-sdk/provider@2.1.0-beta.2
-  - @ai-sdk/provider-utils@3.1.0-beta.3
+  - @open-stack/provider@2.1.0-beta.2
+  - @open-stack/provider-utils@3.1.0-beta.3
 
 ## 2.1.0-beta.3
 
@@ -242,8 +242,8 @@
 - 0c4822d: feat: `EmbeddingModelV3`
 - 1cad0ab: feat: add provider version to user-agent header
 - Updated dependencies [0c4822d]
-  - @ai-sdk/provider@2.1.0-beta.1
-  - @ai-sdk/provider-utils@3.1.0-beta.2
+  - @open-stack/provider@2.1.0-beta.1
+  - @open-stack/provider-utils@3.1.0-beta.2
 
 ## 2.1.0-beta.2
 
@@ -257,8 +257,8 @@
 
 - Updated dependencies [953d0f2]
 - Updated dependencies [cbb1d35]
-  - @ai-sdk/test-server@1.0.0-beta.0
-  - @ai-sdk/provider-utils@3.1.0-beta.1
+  - @open-stack/test-server@1.0.0-beta.0
+  - @open-stack/provider-utils@3.1.0-beta.1
 
 ## 2.1.0-beta.0
 
@@ -269,15 +269,15 @@
 ### Patch Changes
 
 - Updated dependencies [78928cb]
-  - @ai-sdk/provider@2.1.0-beta.0
-  - @ai-sdk/provider-utils@3.1.0-beta.0
+  - @open-stack/provider@2.1.0-beta.0
+  - @open-stack/provider-utils@3.1.0-beta.0
 
 ## 2.0.14
 
 ### Patch Changes
 
 - Updated dependencies [0294b58]
-  - @ai-sdk/provider-utils@3.0.9
+  - @open-stack/provider-utils@3.0.9
 
 ## 2.0.13
 
@@ -290,7 +290,7 @@
 ### Patch Changes
 
 - Updated dependencies [99964ed]
-  - @ai-sdk/provider-utils@3.0.8
+  - @open-stack/provider-utils@3.0.8
 
 ## 2.0.11
 
@@ -303,28 +303,28 @@
 ### Patch Changes
 
 - Updated dependencies [886e7cd]
-  - @ai-sdk/provider-utils@3.0.7
+  - @open-stack/provider-utils@3.0.7
 
 ## 2.0.9
 
 ### Patch Changes
 
 - Updated dependencies [1b5a3d3]
-  - @ai-sdk/provider-utils@3.0.6
+  - @open-stack/provider-utils@3.0.6
 
 ## 2.0.8
 
 ### Patch Changes
 
 - Updated dependencies [0857788]
-  - @ai-sdk/provider-utils@3.0.5
+  - @open-stack/provider-utils@3.0.5
 
 ## 2.0.7
 
 ### Patch Changes
 
 - Updated dependencies [68751f9]
-  - @ai-sdk/provider-utils@3.0.4
+  - @open-stack/provider-utils@3.0.4
 
 ## 2.0.6
 
@@ -332,14 +332,14 @@
 
 - Updated dependencies [034e229]
 - Updated dependencies [f25040d]
-  - @ai-sdk/provider-utils@3.0.3
+  - @open-stack/provider-utils@3.0.3
 
 ## 2.0.5
 
 ### Patch Changes
 
 - Updated dependencies [38ac190]
-  - @ai-sdk/provider-utils@3.0.2
+  - @open-stack/provider-utils@3.0.2
 
 ## 2.0.4
 
@@ -358,7 +358,7 @@
 ### Patch Changes
 
 - Updated dependencies [90d212f]
-  - @ai-sdk/provider-utils@3.0.1
+  - @open-stack/provider-utils@3.0.1
 
 ## 2.0.1
 
@@ -530,15 +530,15 @@
 - Updated dependencies [383cbfa]
 - Updated dependencies [27deb4d]
 - Updated dependencies [c4df419]
-  - @ai-sdk/provider-utils@3.0.0
-  - @ai-sdk/provider@2.0.0
+  - @open-stack/provider-utils@3.0.0
+  - @open-stack/provider@2.0.0
 
 ## 2.0.0-beta.19
 
 ### Patch Changes
 
 - Updated dependencies [88a8ee5]
-  - @ai-sdk/provider-utils@3.0.0-beta.10
+  - @open-stack/provider-utils@3.0.0-beta.10
 
 ## 2.0.0-beta.18
 
@@ -547,8 +547,8 @@
 - 78e7fa9: Add code execution provider defined tool
 - 0f05690: Add gemini-embedding-001 model, add embedding provider options type export
 - Updated dependencies [27deb4d]
-  - @ai-sdk/provider@2.0.0-beta.2
-  - @ai-sdk/provider-utils@3.0.0-beta.9
+  - @open-stack/provider@2.0.0-beta.2
+  - @open-stack/provider-utils@3.0.0-beta.9
 
 ## 2.0.0-beta.17
 
@@ -556,21 +556,21 @@
 
 - eb173f1: chore (providers): remove model shorthand deprecation warnings
 - Updated dependencies [dd5fd43]
-  - @ai-sdk/provider-utils@3.0.0-beta.8
+  - @open-stack/provider-utils@3.0.0-beta.8
 
 ## 2.0.0-beta.16
 
 ### Patch Changes
 
 - Updated dependencies [e7fcc86]
-  - @ai-sdk/provider-utils@3.0.0-beta.7
+  - @open-stack/provider-utils@3.0.0-beta.7
 
 ## 2.0.0-beta.15
 
 ### Patch Changes
 
 - Updated dependencies [ac34802]
-  - @ai-sdk/provider-utils@3.0.0-beta.6
+  - @open-stack/provider-utils@3.0.0-beta.6
 
 ## 2.0.0-beta.14
 
@@ -584,7 +584,7 @@
 
 - Updated dependencies [57edfcb]
 - Updated dependencies [383cbfa]
-  - @ai-sdk/provider-utils@3.0.0-beta.5
+  - @open-stack/provider-utils@3.0.0-beta.5
 
 ## 2.0.0-beta.12
 
@@ -592,7 +592,7 @@
 
 - 205077b: fix: improve Zod compatibility
 - Updated dependencies [205077b]
-  - @ai-sdk/provider-utils@3.0.0-beta.4
+  - @open-stack/provider-utils@3.0.0-beta.4
 
 ## 2.0.0-beta.11
 
@@ -622,7 +622,7 @@
 
 - 7badba2: fix(google): grounding streaming sources
 - Updated dependencies [05d2819]
-  - @ai-sdk/provider-utils@3.0.0-beta.3
+  - @open-stack/provider-utils@3.0.0-beta.3
 
 ## 2.0.0-beta.9
 
@@ -673,7 +673,7 @@
 - Updated dependencies [0571b98]
 - Updated dependencies [39a4fab]
 - Updated dependencies [d1a034f]
-  - @ai-sdk/provider-utils@3.0.0-beta.2
+  - @open-stack/provider-utils@3.0.0-beta.2
 
 ## 2.0.0-beta.2
 
@@ -702,8 +702,8 @@
 - Updated dependencies [5e57fae]
 - Updated dependencies [71f938d]
 - Updated dependencies [28a5ed5]
-  - @ai-sdk/provider@2.0.0-beta.1
-  - @ai-sdk/provider-utils@3.0.0-beta.1
+  - @open-stack/provider@2.0.0-beta.1
+  - @open-stack/provider-utils@3.0.0-beta.1
 
 ## 2.0.0-alpha.15
 
@@ -711,8 +711,8 @@
 
 - Updated dependencies [48d257a]
 - Updated dependencies [8ba77a7]
-  - @ai-sdk/provider@2.0.0-alpha.15
-  - @ai-sdk/provider-utils@3.0.0-alpha.15
+  - @open-stack/provider@2.0.0-alpha.15
+  - @open-stack/provider-utils@3.0.0-alpha.15
 
 ## 2.0.0-alpha.14
 
@@ -721,16 +721,16 @@
 - Updated dependencies [b5da06a]
 - Updated dependencies [63f9e9b]
 - Updated dependencies [2e13791]
-  - @ai-sdk/provider@2.0.0-alpha.14
-  - @ai-sdk/provider-utils@3.0.0-alpha.14
+  - @open-stack/provider@2.0.0-alpha.14
+  - @open-stack/provider-utils@3.0.0-alpha.14
 
 ## 2.0.0-alpha.13
 
 ### Patch Changes
 
 - Updated dependencies [68ecf2f]
-  - @ai-sdk/provider@2.0.0-alpha.13
-  - @ai-sdk/provider-utils@3.0.0-alpha.13
+  - @open-stack/provider@2.0.0-alpha.13
+  - @open-stack/provider-utils@3.0.0-alpha.13
 
 ## 2.0.0-alpha.12
 
@@ -738,16 +738,16 @@
 
 - e2aceaf: feat: add raw chunk support
 - Updated dependencies [e2aceaf]
-  - @ai-sdk/provider@2.0.0-alpha.12
-  - @ai-sdk/provider-utils@3.0.0-alpha.12
+  - @open-stack/provider@2.0.0-alpha.12
+  - @open-stack/provider-utils@3.0.0-alpha.12
 
 ## 2.0.0-alpha.11
 
 ### Patch Changes
 
 - Updated dependencies [c1e6647]
-  - @ai-sdk/provider@2.0.0-alpha.11
-  - @ai-sdk/provider-utils@3.0.0-alpha.11
+  - @open-stack/provider@2.0.0-alpha.11
+  - @open-stack/provider-utils@3.0.0-alpha.11
 
 ## 2.0.0-alpha.10
 
@@ -755,16 +755,16 @@
 
 - 581a9be: fix (provider/google): prevent error when thinking signature is used
 - Updated dependencies [c4df419]
-  - @ai-sdk/provider@2.0.0-alpha.10
-  - @ai-sdk/provider-utils@3.0.0-alpha.10
+  - @open-stack/provider@2.0.0-alpha.10
+  - @open-stack/provider-utils@3.0.0-alpha.10
 
 ## 2.0.0-alpha.9
 
 ### Patch Changes
 
 - Updated dependencies [811dff3]
-  - @ai-sdk/provider@2.0.0-alpha.9
-  - @ai-sdk/provider-utils@3.0.0-alpha.9
+  - @open-stack/provider@2.0.0-alpha.9
+  - @open-stack/provider-utils@3.0.0-alpha.9
 
 ## 2.0.0-alpha.8
 
@@ -773,70 +773,70 @@
 - 1a635b5: update supportedUrls to only support native URL
 - Updated dependencies [4fef487]
 - Updated dependencies [9222aeb]
-  - @ai-sdk/provider-utils@3.0.0-alpha.8
-  - @ai-sdk/provider@2.0.0-alpha.8
+  - @open-stack/provider-utils@3.0.0-alpha.8
+  - @open-stack/provider@2.0.0-alpha.8
 
 ## 2.0.0-alpha.7
 
 ### Patch Changes
 
 - Updated dependencies [5c56081]
-  - @ai-sdk/provider@2.0.0-alpha.7
-  - @ai-sdk/provider-utils@3.0.0-alpha.7
+  - @open-stack/provider@2.0.0-alpha.7
+  - @open-stack/provider-utils@3.0.0-alpha.7
 
 ## 2.0.0-alpha.6
 
 ### Patch Changes
 
 - Updated dependencies [0d2c085]
-  - @ai-sdk/provider@2.0.0-alpha.6
-  - @ai-sdk/provider-utils@3.0.0-alpha.6
+  - @open-stack/provider@2.0.0-alpha.6
+  - @open-stack/provider-utils@3.0.0-alpha.6
 
 ## 2.0.0-alpha.4
 
 ### Patch Changes
 
 - Updated dependencies [dc714f3]
-  - @ai-sdk/provider@2.0.0-alpha.4
-  - @ai-sdk/provider-utils@3.0.0-alpha.4
+  - @open-stack/provider@2.0.0-alpha.4
+  - @open-stack/provider-utils@3.0.0-alpha.4
 
 ## 2.0.0-alpha.3
 
 ### Patch Changes
 
 - Updated dependencies [6b98118]
-  - @ai-sdk/provider@2.0.0-alpha.3
-  - @ai-sdk/provider-utils@3.0.0-alpha.3
+  - @open-stack/provider@2.0.0-alpha.3
+  - @open-stack/provider-utils@3.0.0-alpha.3
 
 ## 2.0.0-alpha.2
 
 ### Patch Changes
 
 - Updated dependencies [26535e0]
-  - @ai-sdk/provider@2.0.0-alpha.2
-  - @ai-sdk/provider-utils@3.0.0-alpha.2
+  - @open-stack/provider@2.0.0-alpha.2
+  - @open-stack/provider-utils@3.0.0-alpha.2
 
 ## 2.0.0-alpha.1
 
 ### Patch Changes
 
 - Updated dependencies [3f2f00c]
-  - @ai-sdk/provider@2.0.0-alpha.1
-  - @ai-sdk/provider-utils@3.0.0-alpha.1
+  - @open-stack/provider@2.0.0-alpha.1
+  - @open-stack/provider-utils@3.0.0-alpha.1
 
 ## 2.0.0-canary.20
 
 ### Patch Changes
 
 - Updated dependencies [faf8446]
-  - @ai-sdk/provider-utils@3.0.0-canary.19
+  - @open-stack/provider-utils@3.0.0-canary.19
 
 ## 2.0.0-canary.19
 
 ### Patch Changes
 
 - Updated dependencies [40acf9b]
-  - @ai-sdk/provider-utils@3.0.0-canary.18
+  - @open-stack/provider-utils@3.0.0-canary.18
 
 ## 2.0.0-canary.18
 
@@ -844,14 +844,14 @@
 
 - f07a6d4: fix(providers/google): accept nullish in safetyRatings
 - Updated dependencies [ea7a7c9]
-  - @ai-sdk/provider-utils@3.0.0-canary.17
+  - @open-stack/provider-utils@3.0.0-canary.17
 
 ## 2.0.0-canary.17
 
 ### Patch Changes
 
 - Updated dependencies [87b828f]
-  - @ai-sdk/provider-utils@3.0.0-canary.16
+  - @open-stack/provider-utils@3.0.0-canary.16
 
 ## 2.0.0-canary.16
 
@@ -861,8 +861,8 @@
 - Updated dependencies [a8c8bd5]
 - Updated dependencies [7979f7f]
 - Updated dependencies [41fa418]
-  - @ai-sdk/provider-utils@3.0.0-canary.15
-  - @ai-sdk/provider@2.0.0-canary.14
+  - @open-stack/provider-utils@3.0.0-canary.15
+  - @open-stack/provider@2.0.0-canary.14
 
 ## 2.0.0-canary.15
 
@@ -870,8 +870,8 @@
 
 - Updated dependencies [957b739]
 - Updated dependencies [9bd5ab5]
-  - @ai-sdk/provider-utils@3.0.0-canary.14
-  - @ai-sdk/provider@2.0.0-canary.13
+  - @open-stack/provider-utils@3.0.0-canary.14
+  - @open-stack/provider@2.0.0-canary.13
 
 ## 2.0.0-canary.14
 
@@ -880,8 +880,8 @@
 - f916255: feat (provider/google): add new gemini models
 - Updated dependencies [7b3ae3f]
 - Updated dependencies [0ff02bb]
-  - @ai-sdk/provider@2.0.0-canary.12
-  - @ai-sdk/provider-utils@3.0.0-canary.13
+  - @open-stack/provider@2.0.0-canary.12
+  - @open-stack/provider-utils@3.0.0-canary.13
 
 ## 2.0.0-canary.13
 
@@ -891,8 +891,8 @@
 - Updated dependencies [9bf7291]
 - Updated dependencies [4617fab]
 - Updated dependencies [e030615]
-  - @ai-sdk/provider@2.0.0-canary.11
-  - @ai-sdk/provider-utils@3.0.0-canary.12
+  - @open-stack/provider@2.0.0-canary.11
+  - @open-stack/provider-utils@3.0.0-canary.12
 
 ## 2.0.0-canary.12
 
@@ -903,16 +903,16 @@
 - Updated dependencies [66962ed]
 - Updated dependencies [9301f86]
 - Updated dependencies [a3f768e]
-  - @ai-sdk/provider-utils@3.0.0-canary.11
-  - @ai-sdk/provider@2.0.0-canary.10
+  - @open-stack/provider-utils@3.0.0-canary.11
+  - @open-stack/provider@2.0.0-canary.10
 
 ## 2.0.0-canary.11
 
 ### Patch Changes
 
 - Updated dependencies [e86be6f]
-  - @ai-sdk/provider@2.0.0-canary.9
-  - @ai-sdk/provider-utils@3.0.0-canary.10
+  - @open-stack/provider@2.0.0-canary.9
+  - @open-stack/provider-utils@3.0.0-canary.10
 
 ## 2.0.0-canary.10
 
@@ -922,8 +922,8 @@
 - fd98925: chore(providers/google): update embedding model to use providerOptions
 - Updated dependencies [95857aa]
 - Updated dependencies [7ea4132]
-  - @ai-sdk/provider@2.0.0-canary.8
-  - @ai-sdk/provider-utils@3.0.0-canary.9
+  - @open-stack/provider@2.0.0-canary.8
+  - @open-stack/provider-utils@3.0.0-canary.9
 
 ## 2.0.0-canary.9
 
@@ -933,8 +933,8 @@
 - Updated dependencies [b6b43c7]
 - Updated dependencies [8aa9e20]
 - Updated dependencies [3795467]
-  - @ai-sdk/provider-utils@3.0.0-canary.8
-  - @ai-sdk/provider@2.0.0-canary.7
+  - @open-stack/provider-utils@3.0.0-canary.8
+  - @open-stack/provider@2.0.0-canary.7
 
 ## 2.0.0-canary.8
 
@@ -955,8 +955,8 @@
 - Updated dependencies [fd65bc6]
 - Updated dependencies [393138b]
 - Updated dependencies [7182d14]
-  - @ai-sdk/provider@2.0.0-canary.6
-  - @ai-sdk/provider-utils@3.0.0-canary.7
+  - @open-stack/provider@2.0.0-canary.6
+  - @open-stack/provider-utils@3.0.0-canary.7
 
 ## 2.0.0-canary.7
 
@@ -968,24 +968,24 @@
 - Updated dependencies [ad80501]
 - Updated dependencies [1766ede]
 - Updated dependencies [f10304b]
-  - @ai-sdk/provider@2.0.0-canary.5
-  - @ai-sdk/provider-utils@3.0.0-canary.6
+  - @open-stack/provider@2.0.0-canary.5
+  - @open-stack/provider-utils@3.0.0-canary.6
 
 ## 2.0.0-canary.6
 
 ### Patch Changes
 
 - Updated dependencies [6f6bb89]
-  - @ai-sdk/provider@2.0.0-canary.4
-  - @ai-sdk/provider-utils@3.0.0-canary.5
+  - @open-stack/provider@2.0.0-canary.4
+  - @open-stack/provider-utils@3.0.0-canary.5
 
 ## 2.0.0-canary.5
 
 ### Patch Changes
 
 - Updated dependencies [d1a1aa1]
-  - @ai-sdk/provider@2.0.0-canary.3
-  - @ai-sdk/provider-utils@3.0.0-canary.4
+  - @open-stack/provider@2.0.0-canary.3
+  - @open-stack/provider-utils@3.0.0-canary.4
 
 ## 2.0.0-canary.4
 
@@ -996,8 +996,8 @@
 - Updated dependencies [9f95b35]
 - Updated dependencies [0a87932]
 - Updated dependencies [6dc848c]
-  - @ai-sdk/provider-utils@3.0.0-canary.3
-  - @ai-sdk/provider@2.0.0-canary.2
+  - @open-stack/provider-utils@3.0.0-canary.3
+  - @open-stack/provider@2.0.0-canary.2
 
 ## 2.0.0-canary.3
 
@@ -1005,8 +1005,8 @@
 
 - Updated dependencies [c57e248]
 - Updated dependencies [33f4a6a]
-  - @ai-sdk/provider@2.0.0-canary.1
-  - @ai-sdk/provider-utils@3.0.0-canary.2
+  - @open-stack/provider@2.0.0-canary.1
+  - @open-stack/provider-utils@3.0.0-canary.2
 
 ## 2.0.0-canary.2
 
@@ -1022,7 +1022,7 @@
 - Updated dependencies [060370c]
 - Updated dependencies [0c0c0b3]
 - Updated dependencies [63d791d]
-  - @ai-sdk/provider-utils@3.0.0-canary.1
+  - @open-stack/provider-utils@3.0.0-canary.1
 
 ## 2.0.0-canary.0
 
@@ -1033,22 +1033,22 @@
 ### Patch Changes
 
 - Updated dependencies [d5f588f]
-  - @ai-sdk/provider-utils@3.0.0-canary.0
-  - @ai-sdk/provider@2.0.0-canary.0
+  - @open-stack/provider-utils@3.0.0-canary.0
+  - @open-stack/provider@2.0.0-canary.0
 
 ## 1.2.5
 
 ### Patch Changes
 
 - Updated dependencies [28be004]
-  - @ai-sdk/provider-utils@2.2.3
+  - @open-stack/provider-utils@2.2.3
 
 ## 1.2.4
 
 ### Patch Changes
 
 - Updated dependencies [b01120e]
-  - @ai-sdk/provider-utils@2.2.2
+  - @open-stack/provider-utils@2.2.2
 
 ## 1.2.3
 
@@ -1061,7 +1061,7 @@
 ### Patch Changes
 
 - Updated dependencies [f10f0fa]
-  - @ai-sdk/provider-utils@2.2.1
+  - @open-stack/provider-utils@2.2.1
 
 ## 1.2.1
 
@@ -1078,8 +1078,8 @@
 ### Patch Changes
 
 - Updated dependencies [5bc638d]
-  - @ai-sdk/provider@1.1.0
-  - @ai-sdk/provider-utils@2.2.0
+  - @open-stack/provider@1.1.0
+  - @open-stack/provider-utils@2.2.0
 
 ## 1.1.27
 
@@ -1087,7 +1087,7 @@
 
 - d0c4659: feat (provider-utils): parseProviderOptions function
 - Updated dependencies [d0c4659]
-  - @ai-sdk/provider-utils@2.1.15
+  - @open-stack/provider-utils@2.1.15
 
 ## 1.1.26
 
@@ -1095,16 +1095,16 @@
 
 - 0bd5bc6: feat (ai): support model-generated files
 - Updated dependencies [0bd5bc6]
-  - @ai-sdk/provider@1.0.12
-  - @ai-sdk/provider-utils@2.1.14
+  - @open-stack/provider@1.0.12
+  - @open-stack/provider-utils@2.1.14
 
 ## 1.1.25
 
 ### Patch Changes
 
 - Updated dependencies [2e1101a]
-  - @ai-sdk/provider@1.0.11
-  - @ai-sdk/provider-utils@2.1.13
+  - @open-stack/provider@1.0.11
+  - @open-stack/provider-utils@2.1.13
 
 ## 1.1.24
 
@@ -1129,7 +1129,7 @@
 ### Patch Changes
 
 - Updated dependencies [1531959]
-  - @ai-sdk/provider-utils@2.1.12
+  - @open-stack/provider-utils@2.1.12
 
 ## 1.1.20
 
@@ -1137,8 +1137,8 @@
 
 - e1d3d42: feat (ai): expose raw response body in generateText and generateObject
 - Updated dependencies [e1d3d42]
-  - @ai-sdk/provider@1.0.10
-  - @ai-sdk/provider-utils@2.1.11
+  - @open-stack/provider@1.0.10
+  - @open-stack/provider-utils@2.1.11
 
 ## 1.1.19
 
@@ -1157,8 +1157,8 @@
 ### Patch Changes
 
 - Updated dependencies [ddf9740]
-  - @ai-sdk/provider@1.0.9
-  - @ai-sdk/provider-utils@2.1.10
+  - @open-stack/provider@1.0.9
+  - @open-stack/provider-utils@2.1.10
 
 ## 1.1.16
 
@@ -1171,8 +1171,8 @@
 ### Patch Changes
 
 - Updated dependencies [2761f06]
-  - @ai-sdk/provider@1.0.8
-  - @ai-sdk/provider-utils@2.1.9
+  - @open-stack/provider@1.0.8
+  - @open-stack/provider-utils@2.1.9
 
 ## 1.1.14
 
@@ -1185,14 +1185,14 @@
 ### Patch Changes
 
 - Updated dependencies [2e898b4]
-  - @ai-sdk/provider-utils@2.1.8
+  - @open-stack/provider-utils@2.1.8
 
 ## 1.1.12
 
 ### Patch Changes
 
 - Updated dependencies [3ff4ef8]
-  - @ai-sdk/provider-utils@2.1.7
+  - @open-stack/provider-utils@2.1.7
 
 ## 1.1.11
 
@@ -1217,8 +1217,8 @@
 ### Patch Changes
 
 - Updated dependencies [d89c3b9]
-  - @ai-sdk/provider@1.0.7
-  - @ai-sdk/provider-utils@2.1.6
+  - @open-stack/provider@1.0.7
+  - @open-stack/provider-utils@2.1.6
 
 ## 1.1.7
 
@@ -1237,21 +1237,21 @@
 ### Patch Changes
 
 - Updated dependencies [3a602ca]
-  - @ai-sdk/provider-utils@2.1.5
+  - @open-stack/provider-utils@2.1.5
 
 ## 1.1.4
 
 ### Patch Changes
 
 - Updated dependencies [066206e]
-  - @ai-sdk/provider-utils@2.1.4
+  - @open-stack/provider-utils@2.1.4
 
 ## 1.1.3
 
 ### Patch Changes
 
 - Updated dependencies [39e5c1f]
-  - @ai-sdk/provider-utils@2.1.3
+  - @open-stack/provider-utils@2.1.3
 
 ## 1.1.2
 
@@ -1259,8 +1259,8 @@
 
 - Updated dependencies [ed012d2]
 - Updated dependencies [3a58a2e]
-  - @ai-sdk/provider-utils@2.1.2
-  - @ai-sdk/provider@1.0.6
+  - @open-stack/provider-utils@2.1.2
+  - @open-stack/provider@1.0.6
 
 ## 1.1.1
 
@@ -1268,8 +1268,8 @@
 
 - Updated dependencies [e7a9ec9]
 - Updated dependencies [0a699f1]
-  - @ai-sdk/provider-utils@2.1.1
-  - @ai-sdk/provider@1.0.5
+  - @open-stack/provider-utils@2.1.1
+  - @open-stack/provider@1.0.5
 
 ## 1.1.0
 
@@ -1280,14 +1280,14 @@
 ### Patch Changes
 
 - Updated dependencies [62ba5ad]
-  - @ai-sdk/provider-utils@2.1.0
+  - @open-stack/provider-utils@2.1.0
 
 ## 1.0.17
 
 ### Patch Changes
 
 - Updated dependencies [00114c5]
-  - @ai-sdk/provider-utils@2.0.8
+  - @open-stack/provider-utils@2.0.8
 
 ## 1.0.16
 
@@ -1308,7 +1308,7 @@
 - Updated dependencies [90fb95a]
 - Updated dependencies [e6dfef4]
 - Updated dependencies [6636db6]
-  - @ai-sdk/provider-utils@2.0.7
+  - @open-stack/provider-utils@2.0.7
 
 ## 1.0.13
 
@@ -1317,8 +1317,8 @@
 - Updated dependencies [19a2ce7]
 - Updated dependencies [19a2ce7]
 - Updated dependencies [6337688]
-  - @ai-sdk/provider@1.0.4
-  - @ai-sdk/provider-utils@2.0.6
+  - @open-stack/provider@1.0.4
+  - @open-stack/provider-utils@2.0.6
 
 ## 1.0.12
 
@@ -1326,8 +1326,8 @@
 
 - 5ed5e45: chore (config): Use ts-library.json tsconfig for no-UI libs.
 - Updated dependencies [5ed5e45]
-  - @ai-sdk/provider-utils@2.0.5
-  - @ai-sdk/provider@1.0.3
+  - @open-stack/provider-utils@2.0.5
+  - @open-stack/provider@1.0.3
 
 ## 1.0.11
 
@@ -1360,8 +1360,8 @@
 ### Patch Changes
 
 - Updated dependencies [09a9cab]
-  - @ai-sdk/provider@1.0.2
-  - @ai-sdk/provider-utils@2.0.4
+  - @open-stack/provider@1.0.2
+  - @open-stack/provider-utils@2.0.4
 
 ## 1.0.6
 
@@ -1375,7 +1375,7 @@
 
 - 0984f0b: feat (provider/google-vertex): Rewrite for Edge runtime support.
 - Updated dependencies [0984f0b]
-  - @ai-sdk/provider-utils@2.0.3
+  - @open-stack/provider-utils@2.0.3
 
 ## 1.0.4
 
@@ -1388,8 +1388,8 @@
 ### Patch Changes
 
 - Updated dependencies [b446ae5]
-  - @ai-sdk/provider@1.0.1
-  - @ai-sdk/provider-utils@2.0.2
+  - @open-stack/provider@1.0.1
+  - @open-stack/provider-utils@2.0.2
 
 ## 1.0.2
 
@@ -1402,7 +1402,7 @@
 ### Patch Changes
 
 - Updated dependencies [c3ab5de]
-  - @ai-sdk/provider-utils@2.0.1
+  - @open-stack/provider-utils@2.0.1
 
 ## 1.0.0
 
@@ -1424,8 +1424,8 @@
 - Updated dependencies [dce4158]
 - Updated dependencies [8426f55]
 - Updated dependencies [db46ce5]
-  - @ai-sdk/provider-utils@2.0.0
-  - @ai-sdk/provider@1.0.0
+  - @open-stack/provider-utils@2.0.0
+  - @open-stack/provider@1.0.0
 
 ## 1.0.0-canary.6
 
@@ -1451,7 +1451,7 @@
 ### Patch Changes
 
 - Updated dependencies [8426f55]
-  - @ai-sdk/provider-utils@2.0.0-canary.3
+  - @open-stack/provider-utils@2.0.0-canary.3
 
 ## 1.0.0-canary.2
 
@@ -1459,7 +1459,7 @@
 
 - Updated dependencies [dce4158]
 - Updated dependencies [dce4158]
-  - @ai-sdk/provider-utils@2.0.0-canary.2
+  - @open-stack/provider-utils@2.0.0-canary.2
 
 ## 1.0.0-canary.1
 
@@ -1470,7 +1470,7 @@
 ### Patch Changes
 
 - Updated dependencies [b1da952]
-  - @ai-sdk/provider-utils@2.0.0-canary.1
+  - @open-stack/provider-utils@2.0.0-canary.1
 
 ## 1.0.0-canary.0
 
@@ -1483,8 +1483,8 @@
 - Updated dependencies [b469a7e]
 - Updated dependencies [c0ddc24]
 - Updated dependencies [db46ce5]
-  - @ai-sdk/provider-utils@2.0.0-canary.0
-  - @ai-sdk/provider@1.0.0-canary.0
+  - @open-stack/provider-utils@2.0.0-canary.0
+  - @open-stack/provider@1.0.0-canary.0
 
 ## 0.0.55
 
@@ -1504,8 +1504,8 @@
 - Updated dependencies [7b937c5]
 - Updated dependencies [3b1b69a]
 - Updated dependencies [811a317]
-  - @ai-sdk/provider-utils@1.0.22
-  - @ai-sdk/provider@0.0.26
+  - @open-stack/provider-utils@1.0.22
+  - @open-stack/provider@0.0.26
 
 ## 0.0.53
 
@@ -1513,8 +1513,8 @@
 
 - b9b0d7b: feat (ai): access raw request body
 - Updated dependencies [b9b0d7b]
-  - @ai-sdk/provider@0.0.25
-  - @ai-sdk/provider-utils@1.0.21
+  - @open-stack/provider@0.0.25
+  - @open-stack/provider-utils@1.0.21
 
 ## 0.0.52
 
@@ -1528,8 +1528,8 @@
 
 - d595d0d: feat (ai/core): file content parts
 - Updated dependencies [d595d0d]
-  - @ai-sdk/provider@0.0.24
-  - @ai-sdk/provider-utils@1.0.20
+  - @open-stack/provider@0.0.24
+  - @open-stack/provider-utils@1.0.20
 
 ## 0.0.50
 
@@ -1549,7 +1549,7 @@
 ### Patch Changes
 
 - Updated dependencies [273f696]
-  - @ai-sdk/provider-utils@1.0.19
+  - @open-stack/provider-utils@1.0.19
 
 ## 0.0.47
 
@@ -1557,8 +1557,8 @@
 
 - Updated dependencies [03313cd]
 - Updated dependencies [3be7c1c]
-  - @ai-sdk/provider-utils@1.0.18
-  - @ai-sdk/provider@0.0.23
+  - @open-stack/provider-utils@1.0.18
+  - @open-stack/provider@0.0.23
 
 ## 0.0.46
 
@@ -1566,15 +1566,15 @@
 
 - 26515cb: feat (ai/provider): introduce ProviderV1 specification
 - Updated dependencies [26515cb]
-  - @ai-sdk/provider@0.0.22
-  - @ai-sdk/provider-utils@1.0.17
+  - @open-stack/provider@0.0.22
+  - @open-stack/provider-utils@1.0.17
 
 ## 0.0.45
 
 ### Patch Changes
 
 - Updated dependencies [09f895f]
-  - @ai-sdk/provider-utils@1.0.16
+  - @open-stack/provider-utils@1.0.16
 
 ## 0.0.44
 
@@ -1587,7 +1587,7 @@
 ### Patch Changes
 
 - Updated dependencies [d67fa9c]
-  - @ai-sdk/provider-utils@1.0.15
+  - @open-stack/provider-utils@1.0.15
 
 ## 0.0.42
 
@@ -1606,16 +1606,16 @@
 ### Patch Changes
 
 - Updated dependencies [f2c025e]
-  - @ai-sdk/provider@0.0.21
-  - @ai-sdk/provider-utils@1.0.14
+  - @open-stack/provider@0.0.21
+  - @open-stack/provider-utils@1.0.14
 
 ## 0.0.39
 
 ### Patch Changes
 
 - Updated dependencies [6ac355e]
-  - @ai-sdk/provider@0.0.20
-  - @ai-sdk/provider-utils@1.0.13
+  - @open-stack/provider@0.0.20
+  - @open-stack/provider-utils@1.0.13
 
 ## 0.0.38
 
@@ -1624,7 +1624,7 @@
 - 123134b: fix (provider/google): change default object generation mode to json
 - dd712ac: fix: use FetchFunction type to prevent self-reference
 - Updated dependencies [dd712ac]
-  - @ai-sdk/provider-utils@1.0.12
+  - @open-stack/provider-utils@1.0.12
 
 ## 0.0.37
 
@@ -1632,8 +1632,8 @@
 
 - 89b18ca: fix (ai/provider): send finish reason 'unknown' by default
 - Updated dependencies [dd4a0f5]
-  - @ai-sdk/provider@0.0.19
-  - @ai-sdk/provider-utils@1.0.11
+  - @open-stack/provider@0.0.19
+  - @open-stack/provider-utils@1.0.11
 
 ## 0.0.36
 
@@ -1641,8 +1641,8 @@
 
 - Updated dependencies [4bd27a9]
 - Updated dependencies [845754b]
-  - @ai-sdk/provider-utils@1.0.10
-  - @ai-sdk/provider@0.0.18
+  - @open-stack/provider-utils@1.0.10
+  - @open-stack/provider@0.0.18
 
 ## 0.0.35
 
@@ -1655,24 +1655,24 @@
 ### Patch Changes
 
 - Updated dependencies [029af4c]
-  - @ai-sdk/provider@0.0.17
-  - @ai-sdk/provider-utils@1.0.9
+  - @open-stack/provider@0.0.17
+  - @open-stack/provider-utils@1.0.9
 
 ## 0.0.33
 
 ### Patch Changes
 
 - Updated dependencies [d58517b]
-  - @ai-sdk/provider@0.0.16
-  - @ai-sdk/provider-utils@1.0.8
+  - @open-stack/provider@0.0.16
+  - @open-stack/provider-utils@1.0.8
 
 ## 0.0.32
 
 ### Patch Changes
 
 - Updated dependencies [96aed25]
-  - @ai-sdk/provider@0.0.15
-  - @ai-sdk/provider-utils@1.0.7
+  - @open-stack/provider@0.0.15
+  - @open-stack/provider-utils@1.0.7
 
 ## 0.0.31
 
@@ -1680,7 +1680,7 @@
 
 - Updated dependencies [9614584]
 - Updated dependencies [0762a22]
-  - @ai-sdk/provider-utils@1.0.6
+  - @open-stack/provider-utils@1.0.6
 
 ## 0.0.30
 
@@ -1688,15 +1688,15 @@
 
 - a8d1c9e9: feat (ai/core): parallel image download
 - Updated dependencies [a8d1c9e9]
-  - @ai-sdk/provider-utils@1.0.5
-  - @ai-sdk/provider@0.0.14
+  - @open-stack/provider-utils@1.0.5
+  - @open-stack/provider@0.0.14
 
 ## 0.0.29
 
 ### Patch Changes
 
 - Updated dependencies [4f88248f]
-  - @ai-sdk/provider-utils@1.0.4
+  - @open-stack/provider-utils@1.0.4
 
 ## 0.0.28
 
@@ -1710,8 +1710,8 @@
 - Updated dependencies [a5b58845]
 - Updated dependencies [4aa8deb3]
 - Updated dependencies [13b27ec6]
-  - @ai-sdk/provider@0.0.13
-  - @ai-sdk/provider-utils@1.0.3
+  - @open-stack/provider@0.0.13
+  - @open-stack/provider-utils@1.0.3
 
 ## 0.0.27
 
@@ -1726,15 +1726,15 @@
 ### Patch Changes
 
 - Updated dependencies [b7290943]
-  - @ai-sdk/provider@0.0.12
-  - @ai-sdk/provider-utils@1.0.2
+  - @open-stack/provider@0.0.12
+  - @open-stack/provider-utils@1.0.2
 
 ## 0.0.25
 
 ### Patch Changes
 
 - Updated dependencies [d481729f]
-  - @ai-sdk/provider-utils@1.0.1
+  - @open-stack/provider-utils@1.0.1
 
 ## 0.0.24
 
@@ -1744,15 +1744,15 @@
 - Updated dependencies [5edc6110]
 - Updated dependencies [5edc6110]
 - Updated dependencies [5edc6110]
-  - @ai-sdk/provider@0.0.11
-  - @ai-sdk/provider-utils@1.0.0
+  - @open-stack/provider@0.0.11
+  - @open-stack/provider-utils@1.0.0
 
 ## 0.0.23
 
 ### Patch Changes
 
 - Updated dependencies [02f6a088]
-  - @ai-sdk/provider-utils@0.0.16
+  - @open-stack/provider-utils@0.0.16
 
 ## 0.0.22
 
@@ -1760,7 +1760,7 @@
 
 - Updated dependencies [85712895]
 - Updated dependencies [85712895]
-  - @ai-sdk/provider-utils@0.0.15
+  - @open-stack/provider-utils@0.0.15
 
 ## 0.0.21
 
@@ -1769,26 +1769,26 @@
 - 4728c37f: feat (core): add text embedding model support to provider registry
 - 7910ae84: feat (providers): support custom fetch implementations
 - Updated dependencies [7910ae84]
-  - @ai-sdk/provider-utils@0.0.14
+  - @open-stack/provider-utils@0.0.14
 
 ## 0.0.20
 
 ### Patch Changes
 
 - Updated dependencies [102ca22f]
-  - @ai-sdk/provider@0.0.10
-  - @ai-sdk/provider-utils@0.0.13
+  - @open-stack/provider@0.0.10
+  - @open-stack/provider-utils@0.0.13
 
 ## 0.0.19
 
 ### Patch Changes
 
-- 09295e2e: feat (@ai-sdk/google): automatically download image URLs
+- 09295e2e: feat (@open-stack/google): automatically download image URLs
 - Updated dependencies [09295e2e]
 - Updated dependencies [09295e2e]
 - Updated dependencies [043a5de2]
-  - @ai-sdk/provider@0.0.9
-  - @ai-sdk/provider-utils@0.0.12
+  - @open-stack/provider@0.0.9
+  - @open-stack/provider-utils@0.0.12
 
 ## 0.0.18
 
@@ -1802,8 +1802,8 @@
 
 - f39c0dd2: feat (provider): implement toolChoice support
 - Updated dependencies [f39c0dd2]
-  - @ai-sdk/provider@0.0.8
-  - @ai-sdk/provider-utils@0.0.11
+  - @open-stack/provider@0.0.8
+  - @open-stack/provider-utils@0.0.11
 
 ## 0.0.16
 
@@ -1811,8 +1811,8 @@
 
 - 24683b72: fix (providers): Zod is required dependency
 - Updated dependencies [8e780288]
-  - @ai-sdk/provider@0.0.7
-  - @ai-sdk/provider-utils@0.0.10
+  - @open-stack/provider@0.0.7
+  - @open-stack/provider-utils@0.0.10
 
 ## 0.0.15
 
@@ -1820,8 +1820,8 @@
 
 - Updated dependencies [6a50ac4]
 - Updated dependencies [6a50ac4]
-  - @ai-sdk/provider@0.0.6
-  - @ai-sdk/provider-utils@0.0.9
+  - @open-stack/provider@0.0.6
+  - @open-stack/provider-utils@0.0.9
 
 ## 0.0.14
 
@@ -1840,16 +1840,16 @@
 ### Patch Changes
 
 - Updated dependencies [0f6bc4e]
-  - @ai-sdk/provider@0.0.5
-  - @ai-sdk/provider-utils@0.0.8
+  - @open-stack/provider@0.0.5
+  - @open-stack/provider-utils@0.0.8
 
 ## 0.0.11
 
 ### Patch Changes
 
 - Updated dependencies [325ca55]
-  - @ai-sdk/provider@0.0.4
-  - @ai-sdk/provider-utils@0.0.7
+  - @open-stack/provider@0.0.4
+  - @open-stack/provider-utils@0.0.7
 
 ## 0.0.10
 
@@ -1857,22 +1857,22 @@
 
 - 20aa9dd: feat (provider/gemini): Add JSON mode for generateObject
 - Updated dependencies [276f22b]
-  - @ai-sdk/provider-utils@0.0.6
+  - @open-stack/provider-utils@0.0.6
 
 ## 0.0.9
 
 ### Patch Changes
 
 - Updated dependencies [41d5736]
-  - @ai-sdk/provider@0.0.3
-  - @ai-sdk/provider-utils@0.0.5
+  - @open-stack/provider@0.0.3
+  - @open-stack/provider-utils@0.0.5
 
 ## 0.0.8
 
 ### Patch Changes
 
 - Updated dependencies [56ef84a]
-  - @ai-sdk/provider-utils@0.0.4
+  - @open-stack/provider-utils@0.0.4
 
 ## 0.0.7
 
@@ -1881,16 +1881,16 @@
 - 25f3350: ai/core: add support for getting raw response headers.
 - Updated dependencies [d6431ae]
 - Updated dependencies [25f3350]
-  - @ai-sdk/provider@0.0.2
-  - @ai-sdk/provider-utils@0.0.3
+  - @open-stack/provider@0.0.2
+  - @open-stack/provider-utils@0.0.3
 
 ## 0.0.6
 
 ### Patch Changes
 
 - Updated dependencies [eb150a6]
-  - @ai-sdk/provider-utils@0.0.2
-  - @ai-sdk/provider@0.0.1
+  - @open-stack/provider-utils@0.0.2
+  - @open-stack/provider@0.0.1
 
 ## 0.0.5
 
@@ -1922,4 +1922,4 @@
 
 - 7b8791d: Rename baseUrl to baseURL. Automatically remove trailing slashes.
 - Updated dependencies [7b8791d]
-  - @ai-sdk/provider-utils@0.0.1
+  - @open-stack/provider-utils@0.0.1

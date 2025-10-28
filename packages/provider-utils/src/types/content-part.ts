@@ -1,4 +1,4 @@
-import { JSONValue } from '@ai-sdk/provider';
+import { JSONValue } from '@omni-stack/provider';
 import { DataContent } from './data-content';
 import { ProviderOptions } from './provider-options';
 

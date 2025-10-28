@@ -1,4 +1,4 @@
-import { createBaseten } from '@ai-sdk/baseten';
+import { createBaseten } from '@open-stack/baseten';
 import { embed } from 'ai';
 import 'dotenv/config';
 

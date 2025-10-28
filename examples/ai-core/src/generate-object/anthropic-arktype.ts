@@ -1,4 +1,4 @@
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 import { generateObject } from 'ai';
 import { type } from 'arktype';
 import { run } from '../lib/run';

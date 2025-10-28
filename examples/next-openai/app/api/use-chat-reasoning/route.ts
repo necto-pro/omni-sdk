@@ -1,4 +1,4 @@
-import { openai, OpenAIResponsesProviderOptions } from '@ai-sdk/openai';
+import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
 import { convertToModelMessages, streamText } from 'ai';
 
 // Allow streaming responses up to 30 seconds

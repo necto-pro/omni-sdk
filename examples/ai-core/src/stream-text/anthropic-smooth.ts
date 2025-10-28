@@ -1,4 +1,4 @@
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 import { smoothStream, streamText } from 'ai';
 import 'dotenv/config';
 

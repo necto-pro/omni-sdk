@@ -1,9 +1,9 @@
-import { NoSuchModelError } from '@ai-sdk/provider';
+import { NoSuchModelError } from '@omni-stack/provider';
 import {
   loadOptionalSetting,
   withoutTrailingSlash,
   type FetchFunction,
-} from '@ai-sdk/provider-utils';
+} from '@omni-stack/provider-utils';
 import { asGatewayError, GatewayAuthenticationError } from './errors';
 import {
   GATEWAY_AUTH_METHOD_HEADER,
@@ -23,8 +23,8 @@ import type {
   LanguageModelV3,
   EmbeddingModelV3,
   ProviderV3,
-} from '@ai-sdk/provider';
-import { withUserAgentSuffix } from '@ai-sdk/provider-utils';
+} from '@omni-stack/provider';
+import { withUserAgentSuffix } from '@omni-stack/provider-utils';
 import { VERSION } from './version';
 
 export interface GatewayProvider extends ProviderV3 {
@@ -213,7 +213,6 @@ export function createGatewayProvider(
     return createLanguageModel(modelId);
   };
 
-  provider.specificationVersion = 'v3' as const;
   provider.getAvailableModels = getAvailableModels;
   provider.getCredits = getCredits;
   provider.imageModel = (modelId: string) => {

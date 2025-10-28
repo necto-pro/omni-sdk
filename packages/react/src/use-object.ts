@@ -4,7 +4,7 @@ import {
   InferSchema,
   isAbortError,
   safeValidateTypes,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { asSchema, DeepPartial, isDeepEqualData, parsePartialJson } from 'ai';
 import { useCallback, useId, useRef, useState } from 'react';
 import useSWR from 'swr';

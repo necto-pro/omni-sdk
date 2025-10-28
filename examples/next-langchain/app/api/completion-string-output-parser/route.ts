@@ -1,4 +1,4 @@
-import { toUIMessageStream } from '@ai-sdk/langchain';
+import { toUIMessageStream } from '@open-stack/langchain';
 import { StringOutputParser } from '@langchain/core/output_parsers';
 import { ChatOpenAI } from '@langchain/openai';
 import { createUIMessageStreamResponse } from 'ai';

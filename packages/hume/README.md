@@ -5,24 +5,24 @@ contains support for the Hume API.
 
 ## Setup
 
-The Hume provider is available in the `@ai-sdk/hume` module. You can install it with
+The Hume provider is available in the `@open-stack/hume` module. You can install it with
 
 ```bash
-npm i @ai-sdk/hume
+npm i @open-stack/hume
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `hume` from `@ai-sdk/hume`:
+You can import the default provider instance `hume` from `@open-stack/hume`:
 
 ```ts
-import { hume } from '@ai-sdk/hume';
+import { hume } from '@open-stack/hume';
 ```
 
 ## Example
 
 ```ts
-import { hume } from '@ai-sdk/hume';
+import { hume } from '@open-stack/hume';
 import { experimental_generateSpeech as generateSpeech } from 'ai';
 
 const result = await generateSpeech({

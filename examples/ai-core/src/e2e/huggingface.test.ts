@@ -1,4 +1,4 @@
-import { huggingface } from '@ai-sdk/huggingface';
+import { huggingface } from '@open-stack/huggingface';
 import { generateText, streamText, generateObject, streamObject } from 'ai';
 import { describe, it, expect } from 'vitest';
 import { z } from 'zod/v4';

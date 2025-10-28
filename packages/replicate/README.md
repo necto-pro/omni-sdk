@@ -4,16 +4,16 @@ The **[Replicate provider](https://ai-sdk.dev/providers/ai-sdk-providers/replica
 
 ## Setup
 
-The Replicate provider is available in the `@ai-sdk/replicate` module. You can install it with
+The Replicate provider is available in the `@open-stack/replicate` module. You can install it with
 
 ```bash
-npm i @ai-sdk/replicate
+npm i @open-stack/replicate
 ```
 
 ## Usage
 
 ```ts
-import { replicate } from '@ai-sdk/replicate';
+import { replicate } from '@open-stack/replicate';
 import { experimental_generateImage as generateImage } from 'ai';
 
 const { image } = await generateImage({

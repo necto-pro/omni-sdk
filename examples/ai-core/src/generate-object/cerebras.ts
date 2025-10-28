@@ -1,4 +1,4 @@
-import { cerebras } from '@ai-sdk/cerebras';
+import { cerebras } from '@open-stack/cerebras';
 import { generateObject } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

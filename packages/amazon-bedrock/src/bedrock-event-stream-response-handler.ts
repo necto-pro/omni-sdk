@@ -1,11 +1,11 @@
-import { EmptyResponseBodyError } from '@ai-sdk/provider';
+import { EmptyResponseBodyError } from '@open-stack/provider';
 import {
   ParseResult,
   safeParseJSON,
   extractResponseHeaders,
   ResponseHandler,
   safeValidateTypes,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { EventStreamCodec } from '@smithy/eventstream-codec';
 import { toUtf8, fromUtf8 } from '@smithy/util-utf8';
 import { ZodType } from 'zod/v4';

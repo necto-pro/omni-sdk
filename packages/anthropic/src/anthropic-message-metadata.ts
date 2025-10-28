@@ -1,4 +1,4 @@
-import { JSONObject } from '@ai-sdk/provider';
+import { JSONObject } from '@open-stack/provider';
 
 export interface AnthropicMessageMetadata {
   usage: JSONObject;

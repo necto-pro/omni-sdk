@@ -5,8 +5,8 @@ import {
 import { beforeEach, afterEach, describe, expect, it, vi } from 'vitest';
 
 // Mock provider-utils to control runtime environment detection
-vi.mock('@ai-sdk/provider-utils', async () => {
-  const actual = await vi.importActual('@ai-sdk/provider-utils');
+vi.mock('@open-stack/provider-utils', async () => {
+  const actual = await vi.importActual('@open-stack/provider-utils');
   return {
     ...actual,
     getRuntimeEnvironmentUserAgent: vi.fn(() => 'runtime/testenv'),

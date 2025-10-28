@@ -1,6 +1,6 @@
 ---
-'@ai-sdk/provider-utils': patch
-'@ai-sdk/amazon-bedrock': patch
+'@open-stack/provider-utils': patch
+'@open-stack/amazon-bedrock': patch
 'ai': patch
 ---
 

@@ -1,4 +1,4 @@
-import { openai, OpenAIResponsesProviderOptions } from '@ai-sdk/openai';
+import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
 import { generateObject } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

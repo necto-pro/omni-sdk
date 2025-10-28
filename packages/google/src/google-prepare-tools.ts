@@ -2,7 +2,7 @@ import {
   LanguageModelV3CallOptions,
   LanguageModelV3CallWarning,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import { convertJSONSchemaToOpenAPISchema } from './convert-json-schema-to-openapi-schema';
 import { GoogleGenerativeAIModelId } from './google-generative-ai-options';
 

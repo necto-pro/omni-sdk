@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/anthropic': patch
+'@open-stack/anthropic': patch
 ---
 
 feat(provider/anthropic): expose stop_sequence in provider metadata

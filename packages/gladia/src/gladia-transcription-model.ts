@@ -2,7 +2,7 @@ import {
   AISDKError,
   TranscriptionModelV3,
   TranscriptionModelV3CallWarning,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   combineHeaders,
   convertBase64ToUint8Array,
@@ -13,7 +13,7 @@ import {
   parseProviderOptions,
   postFormDataToApi,
   postJsonToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import { GladiaConfig } from './gladia-config';
 import { gladiaFailedResponseHandler } from './gladia-error';

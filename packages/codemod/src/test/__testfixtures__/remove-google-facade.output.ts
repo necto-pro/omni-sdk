@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createGoogleGenerativeAI } from '@ai-sdk/google';
+import { createGoogleGenerativeAI } from '@open-stack/google';
 
 const google = createGoogleGenerativeAI({
   apiKey: 'key',

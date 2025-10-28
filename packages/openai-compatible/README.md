@@ -6,24 +6,24 @@ The primary [OpenAI provider](../openai/README.md) is more feature-rich, includi
 
 ## Setup
 
-The provider is available in the `@ai-sdk/openai-compatible` module. You can install it with
+The provider is available in the `@open-stack/openai-compatible` module. You can install it with
 
 ```bash
-npm i @ai-sdk/openai-compatible
+npm i @open-stack/openai-compatible
 ```
 
 ## Provider Instance
 
-You can import the provider creation method `createOpenAICompatible` from `@ai-sdk/openai-compatible`:
+You can import the provider creation method `createOpenAICompatible` from `@open-stack/openai-compatible`:
 
 ```ts
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
 ```
 
 ## Example
 
 ```ts
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
@@ -41,7 +41,7 @@ const { text } = await generateText({
 You can further customize headers if desired. For example, here is an alternate implementation to pass along api key authentication:
 
 ```ts
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
@@ -59,7 +59,7 @@ const { text } = await generateText({
 ### Including model ids for auto-completion
 
 ```ts
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
 import { generateText } from 'ai';
 
 type ExampleChatModelIds =

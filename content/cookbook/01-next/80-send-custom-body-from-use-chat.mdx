@@ -33,7 +33,7 @@ This can be useful if you want to reduce the amount of data sent to the server.
 ```typescript filename='app/page.tsx' highlight="3,7-14"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 import { useState } from 'react';
 
@@ -84,7 +84,7 @@ We need to adjust the server to receive the custom request format with the chat 
 The rest of the message history can be loaded from storage.
 
 ```tsx filename='app/api/chat/route.ts' highlight="8,11,12,16"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { convertToModelMessages, streamText } from 'ai';
 
 // Allow streaming responses up to 30 seconds

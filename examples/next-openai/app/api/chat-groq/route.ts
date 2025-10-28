@@ -1,4 +1,4 @@
-import { groq } from '@ai-sdk/groq';
+import { groq } from '@open-stack/groq';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 // Allow streaming responses up to 30 seconds

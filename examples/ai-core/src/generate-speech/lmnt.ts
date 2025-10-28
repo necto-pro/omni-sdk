@@ -1,4 +1,4 @@
-import { lmnt } from '@ai-sdk/lmnt';
+import { lmnt } from '@open-stack/lmnt';
 import { experimental_generateSpeech as generateSpeech } from 'ai';
 import 'dotenv/config';
 import { saveAudioFile } from '../lib/save-audio';

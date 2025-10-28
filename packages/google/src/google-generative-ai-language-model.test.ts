@@ -1,9 +1,9 @@
 import {
   LanguageModelV3Prompt,
   LanguageModelV3ProviderDefinedTool,
-} from '@ai-sdk/provider';
-import { createTestServer } from '@ai-sdk/test-server/with-vitest';
-import { convertReadableStreamToArray } from '@ai-sdk/provider-utils/test';
+} from '@open-stack/provider';
+import { createTestServer } from '@open-stack/test-server/with-vitest';
+import { convertReadableStreamToArray } from '@open-stack/provider-utils/test';
 import {
   GoogleGenerativeAILanguageModel,
   getGroundingMetadataSchema,

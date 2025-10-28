@@ -3,19 +3,19 @@ import {
   OpenAICompatibleCompletionLanguageModel,
   OpenAICompatibleEmbeddingModel,
   ProviderErrorStructure,
-} from '@ai-sdk/openai-compatible';
+} from '@open-stack/openai-compatible';
 import {
   EmbeddingModelV3,
   ImageModelV3,
   LanguageModelV3,
   ProviderV3,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import { FireworksChatModelId } from './fireworks-chat-options';
 import { FireworksCompletionModelId } from './fireworks-completion-options';

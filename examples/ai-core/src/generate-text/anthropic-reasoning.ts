@@ -1,4 +1,4 @@
-import { anthropic, AnthropicProviderOptions } from '@ai-sdk/anthropic';
+import { anthropic, AnthropicProviderOptions } from '@open-stack/anthropic';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

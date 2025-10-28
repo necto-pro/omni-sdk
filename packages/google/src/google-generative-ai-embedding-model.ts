@@ -1,7 +1,7 @@
 import {
   EmbeddingModelV3,
   TooManyEmbeddingValuesForCallError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   combineHeaders,
   createJsonResponseHandler,
@@ -11,7 +11,7 @@ import {
   postJsonToApi,
   resolve,
   zodSchema,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import { googleFailedResponseHandler } from './google-error';
 import {

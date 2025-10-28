@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/provider': patch
+'@open-stack/provider': patch
 ---
 
 feat(provider): Add SharedV3Warning type

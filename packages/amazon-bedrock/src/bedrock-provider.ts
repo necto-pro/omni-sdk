@@ -1,11 +1,11 @@
-import { anthropicTools } from '@ai-sdk/anthropic/internal';
+import { anthropicTools } from '@open-stack/anthropic/internal';
 import {
   EmbeddingModelV3,
   ImageModelV3,
   LanguageModelV3,
   ProviderV3,
   RerankingModelV3,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   generateId,
@@ -13,7 +13,7 @@ import {
   loadSetting,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { BedrockChatLanguageModel } from './bedrock-chat-language-model';
 import { BedrockChatModelId } from './bedrock-chat-options';
 import { BedrockEmbeddingModel } from './bedrock-embedding-model';

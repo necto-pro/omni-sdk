@@ -1,4 +1,4 @@
-# @ai-sdk/angular
+# @open-stack/angular
 
 ## 2.0.0-beta.81
 
@@ -19,14 +19,14 @@
 
 - Updated dependencies [d1bdadb]
   - ai@6.0.0-beta.79
-  - @ai-sdk/provider-utils@4.0.0-beta.26
+  - @open-stack/provider-utils@4.0.0-beta.26
 
 ## 2.0.0-beta.78
 
 ### Patch Changes
 
 - ai@6.0.0-beta.78
-- @ai-sdk/provider-utils@4.0.0-beta.25
+- @open-stack/provider-utils@4.0.0-beta.25
 
 ## 2.0.0-beta.77
 
@@ -34,7 +34,7 @@
 
 - Updated dependencies [0c3b58b]
   - ai@6.0.0-beta.77
-  - @ai-sdk/provider-utils@4.0.0-beta.24
+  - @open-stack/provider-utils@4.0.0-beta.24
 
 ## 2.0.0-beta.76
 
@@ -42,7 +42,7 @@
 
 - Updated dependencies [a755db5]
   - ai@6.0.0-beta.76
-  - @ai-sdk/provider-utils@4.0.0-beta.23
+  - @open-stack/provider-utils@4.0.0-beta.23
 
 ## 2.0.0-beta.75
 
@@ -51,14 +51,14 @@
 - Updated dependencies [58920e0]
 - Updated dependencies [58920e0]
   - ai@6.0.0-beta.75
-  - @ai-sdk/provider-utils@4.0.0-beta.22
+  - @open-stack/provider-utils@4.0.0-beta.22
 
 ## 2.0.0-beta.74
 
 ### Patch Changes
 
 - Updated dependencies [293a6b7]
-  - @ai-sdk/provider-utils@4.0.0-beta.21
+  - @open-stack/provider-utils@4.0.0-beta.21
   - ai@6.0.0-beta.74
 
 ## 2.0.0-beta.73
@@ -116,7 +116,7 @@
 - Updated dependencies [fca786b]
 - Updated dependencies [fca786b]
   - ai@6.0.0-beta.66
-  - @ai-sdk/provider-utils@4.0.0-beta.20
+  - @open-stack/provider-utils@4.0.0-beta.20
 
 ## 2.0.0-beta.65
 
@@ -186,7 +186,7 @@
 ### Patch Changes
 
 - Updated dependencies [3794514]
-  - @ai-sdk/provider-utils@4.0.0-beta.19
+  - @open-stack/provider-utils@4.0.0-beta.19
   - ai@6.0.0-beta.56
 
 ## 2.0.0-beta.55
@@ -229,14 +229,14 @@
 - Updated dependencies [4812235]
 - Updated dependencies [81d4308]
   - ai@6.0.0-beta.50
-  - @ai-sdk/provider-utils@4.0.0-beta.18
+  - @open-stack/provider-utils@4.0.0-beta.18
 
 ## 2.0.0-beta.49
 
 ### Patch Changes
 
 - Updated dependencies [703459a]
-  - @ai-sdk/provider-utils@4.0.0-beta.17
+  - @open-stack/provider-utils@4.0.0-beta.17
   - ai@6.0.0-beta.49
 
 ## 2.0.0-beta.48
@@ -285,7 +285,7 @@
 ### Patch Changes
 
 - Updated dependencies [6306603]
-  - @ai-sdk/provider-utils@4.0.0-beta.16
+  - @open-stack/provider-utils@4.0.0-beta.16
   - ai@6.0.0-beta.42
 
 ## 2.0.0-beta.41
@@ -293,7 +293,7 @@
 ### Patch Changes
 
 - Updated dependencies [f0b2157]
-  - @ai-sdk/provider-utils@4.0.0-beta.15
+  - @open-stack/provider-utils@4.0.0-beta.15
   - ai@6.0.0-beta.41
 
 ## 2.0.0-beta.40
@@ -301,7 +301,7 @@
 ### Patch Changes
 
 - Updated dependencies [3b1d015]
-  - @ai-sdk/provider-utils@4.0.0-beta.14
+  - @open-stack/provider-utils@4.0.0-beta.14
   - ai@6.0.0-beta.40
 
 ## 2.0.0-beta.39
@@ -317,7 +317,7 @@
 ### Patch Changes
 
 - Updated dependencies [d116b4b]
-  - @ai-sdk/provider-utils@4.0.0-beta.13
+  - @open-stack/provider-utils@4.0.0-beta.13
   - ai@6.0.0-beta.38
 
 ## 2.0.0-beta.37
@@ -325,7 +325,7 @@
 ### Patch Changes
 
 - Updated dependencies [7e32fea]
-  - @ai-sdk/provider-utils@4.0.0-beta.12
+  - @open-stack/provider-utils@4.0.0-beta.12
   - ai@6.0.0-beta.37
 
 ## 2.0.0-beta.36
@@ -368,7 +368,7 @@
 - 95f65c2: chore: use import \* from zod/v4
 - Updated dependencies [95f65c2]
 - Updated dependencies [95f65c2]
-  - @ai-sdk/provider-utils@4.0.0-beta.11
+  - @open-stack/provider-utils@4.0.0-beta.11
   - ai@6.0.0-beta.31
 
 ## 2.0.0-beta.30
@@ -387,14 +387,14 @@
 
 - Updated dependencies [dee8b05]
   - ai@6.0.0-beta.29
-  - @ai-sdk/provider-utils@4.0.0-beta.10
+  - @open-stack/provider-utils@4.0.0-beta.10
 
 ## 1.1.0-beta.28
 
 ### Patch Changes
 
 - Updated dependencies [521c537]
-  - @ai-sdk/provider-utils@3.1.0-beta.9
+  - @open-stack/provider-utils@3.1.0-beta.9
   - ai@5.1.0-beta.28
 
 ## 1.1.0-beta.27
@@ -402,7 +402,7 @@
 ### Patch Changes
 
 - Updated dependencies [e06565c]
-  - @ai-sdk/provider-utils@3.1.0-beta.8
+  - @open-stack/provider-utils@3.1.0-beta.8
   - ai@5.1.0-beta.27
 
 ## 1.1.0-beta.26
@@ -442,7 +442,7 @@
 - Updated dependencies [a5e152d]
 - Updated dependencies [21e20c0]
   - ai@5.1.0-beta.22
-  - @ai-sdk/provider-utils@3.1.0-beta.7
+  - @open-stack/provider-utils@3.1.0-beta.7
 
 ## 1.1.0-beta.21
 
@@ -472,7 +472,7 @@
 
 - Updated dependencies [0adc679]
 - Updated dependencies [9b8d17e]
-  - @ai-sdk/provider-utils@3.1.0-beta.6
+  - @open-stack/provider-utils@3.1.0-beta.6
   - ai@5.1.0-beta.18
 
 ## 1.1.0-beta.17
@@ -498,13 +498,13 @@
 
 ### Patch Changes
 
-- 10c1322: fix: moved dependency `@ai-sdk/test-server` to devDependencies
+- 10c1322: fix: moved dependency `@open-stack/test-server` to devDependencies
 - Updated dependencies [7c3c216]
 - Updated dependencies [8dac895]
 - Updated dependencies [e0d1ea9]
 - Updated dependencies [10c1322]
   - ai@5.1.0-beta.14
-  - @ai-sdk/provider-utils@3.1.0-beta.5
+  - @open-stack/provider-utils@3.1.0-beta.5
 
 ## 1.1.0-beta.13
 
@@ -525,7 +525,7 @@
 
 - 4616b86: chore: update zod peer depenedency version
 - Updated dependencies [4616b86]
-  - @ai-sdk/provider-utils@3.1.0-beta.4
+  - @open-stack/provider-utils@3.1.0-beta.4
   - ai@5.1.0-beta.11
 
 ## 1.1.0-beta.10
@@ -543,7 +543,7 @@
 - Updated dependencies [177b475]
 - Updated dependencies [522f6b8]
   - ai@5.1.0-beta.9
-  - @ai-sdk/provider-utils@3.1.0-beta.3
+  - @open-stack/provider-utils@3.1.0-beta.3
 
 ## 1.1.0-beta.8
 
@@ -565,7 +565,7 @@
 
 - Updated dependencies [0c4822d]
   - ai@5.1.0-beta.6
-  - @ai-sdk/provider-utils@3.1.0-beta.2
+  - @open-stack/provider-utils@3.1.0-beta.2
 
 ## 1.1.0-beta.5
 
@@ -591,8 +591,8 @@
 
 - Updated dependencies [953d0f2]
 - Updated dependencies [cbb1d35]
-  - @ai-sdk/test-server@1.0.0-beta.0
-  - @ai-sdk/provider-utils@3.1.0-beta.1
+  - @open-stack/test-server@1.0.0-beta.0
+  - @open-stack/provider-utils@3.1.0-beta.1
   - ai@5.1.0-beta.2
 
 ## 1.1.0-beta.1
@@ -612,7 +612,7 @@
 
 - Updated dependencies [78928cb]
   - ai@5.1.0-beta.0
-  - @ai-sdk/provider-utils@3.1.0-beta.0
+  - @open-stack/provider-utils@3.1.0-beta.0
 
 ## 1.0.45
 
@@ -634,7 +634,7 @@
 ### Patch Changes
 
 - Updated dependencies [0294b58]
-  - @ai-sdk/provider-utils@3.0.9
+  - @open-stack/provider-utils@3.0.9
   - ai@5.0.43
 
 ## 1.0.42
@@ -714,7 +714,7 @@
 ### Patch Changes
 
 - Updated dependencies [99964ed]
-  - @ai-sdk/provider-utils@3.0.8
+  - @open-stack/provider-utils@3.0.8
   - ai@5.0.31
 
 ## 1.0.30
@@ -759,7 +759,7 @@
 
 - Updated dependencies [886e7cd]
 - Updated dependencies [ca65923]
-  - @ai-sdk/provider-utils@3.0.7
+  - @open-stack/provider-utils@3.0.7
   - ai@5.0.25
 
 ## 1.0.24
@@ -768,7 +768,7 @@
 
 - Updated dependencies [1b5a3d3]
 - Updated dependencies [f8f3682]
-  - @ai-sdk/provider-utils@3.0.6
+  - @open-stack/provider-utils@3.0.6
   - ai@5.0.24
 
 ## 1.0.23
@@ -793,7 +793,7 @@
 - Updated dependencies [0857788]
 - Updated dependencies [3c178ec]
   - ai@5.0.21
-  - @ai-sdk/provider-utils@3.0.5
+  - @open-stack/provider-utils@3.0.5
 
 ## 1.0.20
 
@@ -828,7 +828,7 @@
 ### Patch Changes
 
 - Updated dependencies [68751f9]
-  - @ai-sdk/provider-utils@3.0.4
+  - @open-stack/provider-utils@3.0.4
   - ai@5.0.16
 
 ## 1.0.15
@@ -859,7 +859,7 @@
 
 - Updated dependencies [034e229]
 - Updated dependencies [f25040d]
-  - @ai-sdk/provider-utils@3.0.3
+  - @open-stack/provider-utils@3.0.3
   - ai@5.0.12
 
 ## 1.0.11
@@ -870,7 +870,7 @@
 - Updated dependencies [38ac190]
 - Updated dependencies [e3a63cb]
   - ai@5.0.11
-  - @ai-sdk/provider-utils@3.0.2
+  - @open-stack/provider-utils@3.0.2
 
 ## 1.0.10
 
@@ -923,7 +923,7 @@
 ### Patch Changes
 
 - Updated dependencies [90d212f]
-  - @ai-sdk/provider-utils@3.0.1
+  - @open-stack/provider-utils@3.0.1
   - ai@5.0.3
 
 ## 1.0.2
@@ -1206,7 +1206,7 @@
 - Updated dependencies [2b637d6]
 - Updated dependencies [7bd025b]
   - ai@5.0.0
-  - @ai-sdk/provider-utils@3.0.0
+  - @open-stack/provider-utils@3.0.0
 
 ## 1.0.0-beta.17
 
@@ -1216,7 +1216,7 @@
 - Updated dependencies [88a8ee5]
 - Updated dependencies [f2c7f19]
   - ai@5.0.0-beta.34
-  - @ai-sdk/provider-utils@3.0.0-beta.10
+  - @open-stack/provider-utils@3.0.0-beta.10
 
 ## 1.0.0-beta.16
 
@@ -1226,7 +1226,7 @@
 - Updated dependencies [93d53a1]
 - Updated dependencies [27deb4d]
   - ai@5.0.0-beta.33
-  - @ai-sdk/provider-utils@3.0.0-beta.9
+  - @open-stack/provider-utils@3.0.0-beta.9
 
 ## 1.0.0-beta.15
 
@@ -1247,7 +1247,7 @@
 - Updated dependencies [ee38081]
 - Updated dependencies [dd5fd43]
   - ai@5.0.0-beta.31
-  - @ai-sdk/provider-utils@3.0.0-beta.8
+  - @open-stack/provider-utils@3.0.0-beta.8
 
 ## 1.0.0-beta.13
 
@@ -1261,7 +1261,7 @@
 
 - Updated dependencies [e7fcc86]
 - Updated dependencies [d92b9a8]
-  - @ai-sdk/provider-utils@3.0.0-beta.7
+  - @open-stack/provider-utils@3.0.0-beta.7
   - ai@5.0.0-beta.29
 
 ## 1.0.0-beta.11
@@ -1272,7 +1272,7 @@
 - Updated dependencies [ac34802]
 - Updated dependencies [84343eb]
 - Updated dependencies [a753b3a]
-  - @ai-sdk/provider-utils@3.0.0-beta.6
+  - @open-stack/provider-utils@3.0.0-beta.6
   - ai@5.0.0-beta.28
 
 ## 1.0.0-beta.10
@@ -1310,7 +1310,7 @@
 - Updated dependencies [e4c8647]
 - Updated dependencies [383cbfa]
   - ai@5.0.0-beta.24
-  - @ai-sdk/provider-utils@3.0.0-beta.5
+  - @open-stack/provider-utils@3.0.0-beta.5
 
 ## 1.0.0-beta.6
 
@@ -1331,7 +1331,7 @@
 - Updated dependencies [86293e5]
 - Updated dependencies [205077b]
   - ai@5.0.0-beta.22
-  - @ai-sdk/provider-utils@3.0.0-beta.4
+  - @open-stack/provider-utils@3.0.0-beta.4
 
 ## 1.0.0-beta.4
 
@@ -1360,7 +1360,7 @@
 - Updated dependencies [05d2819]
 - Updated dependencies [db64cbe]
   - ai@5.0.0-beta.19
-  - @ai-sdk/provider-utils@3.0.0-beta.3
+  - @open-stack/provider-utils@3.0.0-beta.3
 
 ## 1.0.0-beta.1
 

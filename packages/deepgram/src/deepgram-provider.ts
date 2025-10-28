@@ -2,12 +2,12 @@ import {
   TranscriptionModelV3,
   ProviderV3,
   NoSuchModelError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { DeepgramTranscriptionModel } from './deepgram-transcription-model';
 import { DeepgramTranscriptionModelId } from './deepgram-transcription-options';
 import { VERSION } from './version';

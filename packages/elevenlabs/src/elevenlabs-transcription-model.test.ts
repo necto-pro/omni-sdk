@@ -1,4 +1,4 @@
-import { createTestServer } from '@ai-sdk/test-server/with-vitest';
+import { createTestServer } from '@open-stack/test-server/with-vitest';
 import { ElevenLabsTranscriptionModel } from './elevenlabs-transcription-model';
 import { createElevenLabs } from './elevenlabs-provider';
 import { readFile } from 'node:fs/promises';

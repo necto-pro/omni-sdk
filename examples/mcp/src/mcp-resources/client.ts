@@ -1,5 +1,5 @@
-import { experimental_createMCPClient } from '@ai-sdk/mcp';
-import { openai } from '@ai-sdk/openai';
+import { experimental_createMCPClient } from '@open-stack/mcp';
+import { openai } from '@open-stack/openai';
 import { generateText, stepCountIs } from 'ai';
 
 async function main() {

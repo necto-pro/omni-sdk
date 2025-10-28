@@ -1,9 +1,9 @@
 import type {
   LanguageModelV3Prompt,
   LanguageModelV3FilePart,
-} from '@ai-sdk/provider';
-import { createTestServer } from '@ai-sdk/test-server/with-vitest';
-import { convertReadableStreamToArray } from '@ai-sdk/provider-utils/test';
+} from '@omni-stack/provider';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
+import { convertReadableStreamToArray } from '@omni-stack/provider-utils/test';
 import { GatewayLanguageModel } from './gateway-language-model';
 import type { GatewayConfig } from './gateway-config';
 import {

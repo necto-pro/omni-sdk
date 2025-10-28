@@ -51,7 +51,7 @@ At the center of the AI SDK is [AI SDK Core](/docs/ai-sdk-core/overview), which 
 
 ```ts
 import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const { text } = await generateText({
   model: openai('o1'),
@@ -60,7 +60,7 @@ const { text } = await generateText({
 ```
 
 <Note>
-  To use the o1 model, you must either be using @ai-sdk/openai version 0.0.59 or
+  To use the o1 model, you must either be using @open-stack/openai version 0.0.59 or
   greater, or set `temperature: 1`.
 </Note>
 
@@ -68,7 +68,7 @@ AI SDK Core abstracts away the differences between model providers, allowing you
 
 ```ts highlight="5"
 import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const { text } = await generateText({
   model: openai('o1'),
@@ -87,7 +87,7 @@ This parameter can be set to `'low'`, `'medium'`, or `'high'` to adjust how much
 
 ```ts highlight="9"
 import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 // Reduce reasoning effort for faster responses
 const { text } = await generateText({
@@ -110,7 +110,7 @@ While text generation can be useful, you might want to generate structured JSON 
 
 ```ts
 import { generateObject } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { z } from 'zod';
 
 const { object } = await generateObject({
@@ -142,7 +142,7 @@ Here's an example of how you can use a tool with the AI SDK and o1:
 
 ```ts
 import { generateText, tool } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { z } from 'zod';
 
 const { text } = await generateText({
@@ -178,7 +178,7 @@ With four main hooks — [`useChat`](/docs/reference/ai-sdk-ui/use-chat), [`useC
 Let's explore building a chatbot with [Next.js](https://nextjs.org), the AI SDK, and OpenAI o1:
 
 ```tsx filename="app/api/chat/route.ts"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 // Allow responses up to 5 minutes
@@ -199,7 +199,7 @@ export async function POST(req: Request) {
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 
 export default function Page() {
   const { messages, input, handleInputChange, handleSubmit, error } = useChat();

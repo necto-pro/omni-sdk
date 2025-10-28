@@ -24,7 +24,7 @@ At the center of the AI SDK is [AI SDK Core](/docs/ai-sdk-core/overview), which 
 
 ```ts
 import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const { text } = await generateText({
   model: openai.responses('gpt-4o'),
@@ -38,7 +38,7 @@ While text generation can be useful, you might want to generate structured JSON 
 
 ```ts
 import { generateObject } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { z } from 'zod';
 
 const { object } = await generateObject({
@@ -62,7 +62,7 @@ The Responses API supports tool calling out of the box, allowing it to interact 
 
 ```ts
 import { generateText, tool } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { z } from 'zod';
 
 const { text } = await generateText({
@@ -91,7 +91,7 @@ This example demonstrates how `stopWhen` transforms a single LLM call into an ag
 The Responses API introduces a built-in tool for grounding responses called `webSearch`. With this tool, the model can access the internet to find relevant information for its responses.
 
 ```ts
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateText } from 'ai';
 
 const result = await generateText({
@@ -135,7 +135,7 @@ console.log(result.sources);
 With the Responses API, you can persist chat history with OpenAI across requests. This allows you to send just the user's last message and OpenAI can access the entire chat history:
 
 ```tsx filename="app/api/chat/route.ts"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateText } from 'ai';
 
 const result1 = await generateText({
@@ -160,7 +160,7 @@ Migrating from the OpenAI Completions API (via the AI SDK) to the new Responses 
 
 ```ts
 import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 // Completions API
 const { text } = await generateText({
@@ -179,7 +179,7 @@ When using the Responses API, provider specific options that were previously spe
 
 ```ts
 import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 // Completions API
 const { text } = await generateText({

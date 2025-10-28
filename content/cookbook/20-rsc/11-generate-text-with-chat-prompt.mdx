@@ -85,7 +85,7 @@ Now, let's implement the `continueConversation` function that will insert the us
 'use server';
 
 import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 export interface Message {
   role: 'user' | 'assistant';

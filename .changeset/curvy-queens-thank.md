@@ -1,7 +1,7 @@
 ---
 '@example/ai-core': patch
-'@ai-sdk/openai': patch
-'@ai-sdk/azure': patch
+'@open-stack/openai': patch
+'@open-stack/azure': patch
 ---
 
 enables image_generation capabilities in the Azure provider through the Responses API.

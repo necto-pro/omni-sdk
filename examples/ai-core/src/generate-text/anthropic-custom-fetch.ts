@@ -1,4 +1,4 @@
-import { createAnthropic } from '@ai-sdk/anthropic';
+import { createAnthropic } from '@open-stack/anthropic';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

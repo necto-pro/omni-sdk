@@ -4,18 +4,18 @@ The **Cerebras provider** for the [AI SDK](https://ai-sdk.dev/docs) contains lan
 
 ## Setup
 
-The Cerebras provider is available in the `@ai-sdk/cerebras` module. You can install it with
+The Cerebras provider is available in the `@open-stack/cerebras` module. You can install it with
 
 ```bash
-npm i @ai-sdk/cerebras
+npm i @open-stack/cerebras
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `cerebras` from `@ai-sdk/cerebras`:
+You can import the default provider instance `cerebras` from `@open-stack/cerebras`:
 
 ```ts
-import { cerebras } from '@ai-sdk/cerebras';
+import { cerebras } from '@open-stack/cerebras';
 ```
 
 ## Available Models
@@ -76,7 +76,7 @@ Cerebras offers a variety of high-performance language models:
 ## Example
 
 ```ts
-import { cerebras } from '@ai-sdk/cerebras';
+import { cerebras } from '@open-stack/cerebras';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

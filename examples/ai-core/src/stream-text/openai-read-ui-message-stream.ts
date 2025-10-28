@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { readUIMessageStream, stepCountIs, streamText, tool } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { vercel } from '@ai-sdk/vercel';
+import { vercel } from '@open-stack/vercel';
 import { generateText } from 'ai';
 
 async function main() {

@@ -1,9 +1,9 @@
 import {
   LanguageModelV3Prompt,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import { GroqChatPrompt } from './groq-api-types';
-import { convertToBase64 } from '@ai-sdk/provider-utils';
+import { convertToBase64 } from '@open-stack/provider-utils';
 
 export function convertToGroqChatMessages(
   prompt: LanguageModelV3Prompt,

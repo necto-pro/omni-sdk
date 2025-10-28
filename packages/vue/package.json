@@ -1,5 +1,5 @@
 {
-  "name": "@ai-sdk/vue",
+  "name": "@open-stack/vue",
   "version": "3.0.0-beta.81",
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -30,12 +30,12 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@ai-sdk/provider-utils": "workspace:*",
+    "@open-stack/provider-utils": "workspace:*",
     "ai": "workspace:*",
     "swrv": "^1.0.4"
   },
   "devDependencies": {
-    "@ai-sdk/test-server": "workspace:*",
+    "@open-stack/test-server": "workspace:*",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/user-event": "^14.5.2",
     "@testing-library/vue": "^8.1.0",

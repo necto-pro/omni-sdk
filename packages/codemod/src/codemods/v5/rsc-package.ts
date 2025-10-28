@@ -1,7 +1,7 @@
 import { createTransformer } from '../lib/create-transformer';
 
 /*
-The `ai/rsc` export has been extracted to a separate package `@ai-sdk/rsc`
+The `ai/rsc` export has been extracted to a separate package `@open-stack/rsc`
 
 Before:
 
@@ -12,11 +12,11 @@ import { createStreamableValue } from 'ai/rsc';
 After:
 
 ```bash
-pnpm add @ai-sdk/rsc
+pnpm add @open-stack/rsc
 ```
 
 ```jsx
-import { createStreamableValue } from '@ai-sdk/rsc';
+import { createStreamableValue } from '@open-stack/rsc';
 ```
 
 Commit: https://github.com/vercel/ai/pull/5542
@@ -29,7 +29,7 @@ export default createTransformer((fileInfo, api, options, context) => {
     .find(j.ImportDeclaration)
     .filter(path => path.node.source.value === 'ai/rsc')
     .forEach(path => {
-      path.node.source.value = '@ai-sdk/rsc';
+      path.node.source.value = '@open-stack/rsc';
       context.hasChanges = true;
     });
 });

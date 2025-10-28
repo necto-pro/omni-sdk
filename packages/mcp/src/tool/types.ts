@@ -1,6 +1,6 @@
 import { z } from 'zod/v4';
-import { JSONObject } from '@ai-sdk/provider';
-import { FlexibleSchema, Tool } from '@ai-sdk/provider-utils';
+import { JSONObject } from '@omni-stack/provider';
+import { FlexibleSchema, Tool } from '@omni-stack/provider-utils';
 
 export const LATEST_PROTOCOL_VERSION = '2025-06-18';
 export const SUPPORTED_PROTOCOL_VERSIONS = [
@@ -103,13 +103,6 @@ const ToolSchema = z
         properties: z.optional(z.object({}).loose()),
       })
       .loose(),
-    annotations: z.optional(
-      z
-        .object({
-          title: z.optional(z.string()),
-        })
-        .loose(),
-    ),
   })
   .loose();
 export type MCPTool = z.infer<typeof ToolSchema>;
@@ -131,37 +124,12 @@ const ImageContentSchema = z
     mimeType: z.string(),
   })
   .loose();
-export const ResourceSchema = z
-  .object({
-    uri: z.string(),
-    name: z.string(),
-    title: z.optional(z.string()),
-    description: z.optional(z.string()),
-    mimeType: z.optional(z.string()),
-    size: z.optional(z.number()),
-  })
-  .loose();
-export type MCPResource = z.infer<typeof ResourceSchema>;
-
-export const ListResourcesResultSchema = PaginatedResultSchema.extend({
-  resources: z.array(ResourceSchema),
-});
-export type ListResourcesResult = z.infer<typeof ListResourcesResultSchema>;
-
 const ResourceContentsSchema = z
   .object({
     /**
      * The URI of this resource.
      */
     uri: z.string(),
-    /**
-     * Optional display name of the resource content.
-     */
-    name: z.optional(z.string()),
-    /**
-     * Optional human readable title.
-     */
-    title: z.optional(z.string()),
     /**
      * The MIME type of this resource, if known.
      */
@@ -192,27 +160,3 @@ export const CallToolResultSchema = ResultSchema.extend({
   }),
 );
 export type CallToolResult = z.infer<typeof CallToolResultSchema>;
-
-const ResourceTemplateSchema = z
-  .object({
-    uriTemplate: z.string(),
-    name: z.string(),
-    title: z.optional(z.string()),
-    description: z.optional(z.string()),
-    mimeType: z.optional(z.string()),
-  })
-  .loose();
-
-export const ListResourceTemplatesResultSchema = ResultSchema.extend({
-  resourceTemplates: z.array(ResourceTemplateSchema),
-});
-export type ListResourceTemplatesResult = z.infer<
-  typeof ListResourceTemplatesResultSchema
->;
-
-export const ReadResourceResultSchema = ResultSchema.extend({
-  contents: z.array(
-    z.union([TextResourceContentsSchema, BlobResourceContentsSchema]),
-  ),
-});
-export type ReadResourceResult = z.infer<typeof ReadResourceResultSchema>;

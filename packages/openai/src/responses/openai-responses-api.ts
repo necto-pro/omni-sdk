@@ -1,5 +1,5 @@
-import { JSONSchema7 } from '@ai-sdk/provider';
-import { InferSchema, lazySchema, zodSchema } from '@ai-sdk/provider-utils';
+import { JSONSchema7 } from '@open-stack/provider';
+import { InferSchema, lazySchema, zodSchema } from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 
 export type OpenAIResponsesInput = Array<OpenAIResponsesInputItem>;

@@ -2,8 +2,8 @@ import {
   LanguageModelV3CallWarning,
   LanguageModelV3Prompt,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
-import { convertToBase64 } from '@ai-sdk/provider-utils';
+} from '@open-stack/provider';
+import { convertToBase64 } from '@open-stack/provider-utils';
 import { XaiChatPrompt } from './xai-chat-prompt';
 
 export function convertToXaiChatMessages(prompt: LanguageModelV3Prompt): {

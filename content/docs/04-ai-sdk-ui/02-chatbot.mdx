@@ -22,7 +22,7 @@ Let's start with the following example first.
 ```tsx filename='app/page.tsx'
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 import { useState } from 'react';
 
@@ -70,7 +70,7 @@ export default function Page() {
 ```
 
 ```ts filename='app/api/chat/route.ts'
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 // Allow streaming responses up to 30 seconds
@@ -125,7 +125,7 @@ You can use `status` for e.g. the following purposes:
 ```tsx filename='app/page.tsx' highlight="6,22-29,36"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 import { useState } from 'react';
 
@@ -195,7 +195,7 @@ It can be used to display an error message, disable the submit button, or show a
 ```tsx file="app/page.tsx" highlight="6,20-27,33"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 import { useState } from 'react';
 
@@ -368,7 +368,7 @@ By default, the `useChat` hook sends a HTTP POST request to the `/api/chat` endp
 You can configure transport-level options that will be applied to all requests made by the hook:
 
 ```tsx
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 
 const { messages, sendMessage } = useChat({
@@ -390,7 +390,7 @@ const { messages, sendMessage } = useChat({
 You can also provide functions that return configuration values. This is useful for authentication tokens that need to be refreshed, or for configuration that depends on runtime conditions:
 
 ```tsx
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 
 const { messages, sendMessage } = useChat({
@@ -455,7 +455,7 @@ This is useful if you want to pass in additional information to your backend tha
 ```tsx filename="app/page.tsx" highlight="20-25"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { useState } from 'react';
 
 export default function Chat() {
@@ -559,7 +559,7 @@ For complete examples with type safety and advanced use cases, see the [Message 
 You can configure custom transport behavior using the `transport` option to customize how messages are sent to your API:
 
 ```tsx filename="app/page.tsx"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 
 export default function Chat() {
@@ -605,7 +605,7 @@ export async function POST(req: Request) {
 For more complex scenarios like message regeneration, you can use trigger-based routing:
 
 ```tsx filename="app/page.tsx"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 
 export default function Chat() {
@@ -682,7 +682,7 @@ The default error message is "An error occurred."
 You can forward error messages or send your own error message by providing a `getErrorMessage` function:
 
 ```ts filename="app/api/chat/route.ts" highlight="13-27"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 export async function POST(req: Request) {
@@ -724,7 +724,7 @@ Track token consumption and resource usage with [message metadata](/docs/ai-sdk-
 Usage data is attached as metadata to messages and becomes available once the model completes its response generation.
 
 ```ts
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import {
   convertToModelMessages,
   streamText,
@@ -765,7 +765,7 @@ Then, on the client, you can access the message-level metadata.
 ```tsx
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import type { MyUIMessage } from './api/chat/route';
 import { DefaultChatTransport } from 'ai';
 
@@ -803,7 +803,7 @@ You can also access your metadata from the `onFinish` callback of `useChat`:
 ```tsx
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import type { MyUIMessage } from './api/chat/route';
 import { DefaultChatTransport } from 'ai';
 
@@ -828,7 +828,7 @@ export default function Chat() {
 ```tsx filename="app/page.tsx" highlight="7"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { TextStreamChatTransport } from 'ai';
 
 export default function Chat() {
@@ -858,7 +858,7 @@ These tokens are typically sent before the message content.
 You can forward them to the client with the `sendReasoning` option:
 
 ```ts filename="app/api/chat/route.ts" highlight="13"
-import { deepseek } from '@ai-sdk/deepseek';
+import { deepseek } from '@open-stack/deepseek';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 export async function POST(req: Request) {
@@ -907,7 +907,7 @@ Currently sources are limited to web pages that ground the response.
 You can forward them to the client with the `sendSources` option:
 
 ```ts filename="app/api/chat/route.ts" highlight="13"
-import { perplexity } from '@ai-sdk/perplexity';
+import { perplexity } from '@open-stack/perplexity';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 export async function POST(req: Request) {
@@ -1000,7 +1000,7 @@ By using `FileList`, you can send multiple files as attachments along with a mes
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { useRef, useState } from 'react';
 
 export default function Page() {
@@ -1083,7 +1083,7 @@ You can also send files as objects along with a message. This can be useful for 
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { useState } from 'react';
 import { FileUIPart } from 'ai';
 
@@ -1251,7 +1251,7 @@ type MyUIMessage = UIMessage<never, UIDataTypes, MyUITools>;
 Pass the custom type to `useChat` or `createUIMessageStream`:
 
 ```tsx
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { createUIMessageStream } from 'ai';
 import type { MyUIMessage } from './types';
 

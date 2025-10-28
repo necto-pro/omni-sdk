@@ -1,4 +1,4 @@
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 import { generateText } from 'ai';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';

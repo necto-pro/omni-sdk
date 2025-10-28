@@ -13,7 +13,7 @@ export default createTransformer((fileInfo, api, options, context) => {
     })
     .forEach(path => {
       const importDeclaration = path.node;
-      importDeclaration.source.value = '@ai-sdk/react';
+      importDeclaration.source.value = '@open-stack/react';
 
       // Collect useChat import names
       importDeclaration.specifiers?.forEach(spec => {
@@ -29,10 +29,10 @@ export default createTransformer((fileInfo, api, options, context) => {
       context.hasChanges = true;
     });
 
-  // Also collect useChat names from existing @ai-sdk/react imports
+  // Also collect useChat names from existing @open-stack/react imports
   root
     .find(j.ImportDeclaration, {
-      source: { value: '@ai-sdk/react' },
+      source: { value: '@open-stack/react' },
     })
     .forEach(path => {
       const importDeclaration = path.node;

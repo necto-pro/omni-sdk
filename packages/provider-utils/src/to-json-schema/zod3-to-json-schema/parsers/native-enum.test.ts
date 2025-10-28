@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { z } from 'zod/v3';
 import { parseNativeEnumDef } from './native-enum';
-import { JSONSchema7 } from '@ai-sdk/provider';
+import { JSONSchema7 } from '@omni-stack/provider';
 
 describe('native enum', () => {
   it('should be possible to convert a basic native number enum', () => {

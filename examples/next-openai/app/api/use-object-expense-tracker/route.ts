@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamObject } from 'ai';
 import { expenseSchema } from './schema';
 

@@ -1,8 +1,8 @@
 'use server';
 
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamObject } from 'ai';
-import { createStreamableValue } from '@ai-sdk/rsc';
+import { createStreamableValue } from '@open-stack/rsc';
 import { PartialNotification, notificationSchema } from './schema';
 
 export async function generateNotifications(context: string) {

@@ -9,36 +9,36 @@ The [Gladia](https://gladia.io/) provider contains language model support for th
 
 ## Setup
 
-The Gladia provider is available in the `@ai-sdk/gladia` module. You can install it with
+The Gladia provider is available in the `@open-stack/gladia` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/gladia" dark />
+    <Snippet text="pnpm add @open-stack/gladia" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/gladia" dark />
+    <Snippet text="npm install @open-stack/gladia" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/gladia" dark />
+    <Snippet text="yarn add @open-stack/gladia" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/gladia" dark />
+    <Snippet text="bun add @open-stack/gladia" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `gladia` from `@ai-sdk/gladia`:
+You can import the default provider instance `gladia` from `@open-stack/gladia`:
 
 ```ts
-import { gladia } from '@ai-sdk/gladia';
+import { gladia } from '@open-stack/gladia';
 ```
 
-If you need a customized setup, you can import `createGladia` from `@ai-sdk/gladia` and create a provider instance with your settings:
+If you need a customized setup, you can import `createGladia` from `@open-stack/gladia` and create a provider instance with your settings:
 
 ```ts
-import { createGladia } from '@ai-sdk/gladia';
+import { createGladia } from '@open-stack/gladia';
 
 const gladia = createGladia({
   // custom settings, e.g.
@@ -77,7 +77,7 @@ You can also pass additional provider-specific options using the `providerOption
 
 ```ts highlight="6"
 import { experimental_transcribe as transcribe } from 'ai';
-import { gladia } from '@ai-sdk/gladia';
+import { gladia } from '@open-stack/gladia';
 import { readFile } from 'fs/promises';
 
 const result = await transcribe({

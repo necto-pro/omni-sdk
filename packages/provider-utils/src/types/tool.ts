@@ -1,4 +1,4 @@
-import { JSONValue, LanguageModelV3ToolResultPart } from '@ai-sdk/provider';
+import { JSONValue, LanguageModelV3ToolResultPart } from '@omni-stack/provider';
 import { FlexibleSchema } from '../schema';
 import { ModelMessage } from './model-message';
 import { ProviderOptions } from './provider-options';
@@ -109,11 +109,6 @@ Will be used by the language model to decide whether to use the tool.
 Not used for provider-defined tools.
    */
   description?: string;
-
-  /**
-   * An optional title of the tool.
-   */
-  title?: string;
 
   /**
 Additional provider-specific metadata. They are passed through
@@ -239,7 +234,6 @@ export function tool(tool: any): any {
  */
 export function dynamicTool(tool: {
   description?: string;
-  title?: string;
   providerOptions?: ProviderOptions;
   inputSchema: FlexibleSchema<unknown>;
   execute: ToolExecuteFunction<unknown, unknown>;

@@ -11,36 +11,36 @@ API keys can be obtained from the [DeepSeek Platform](https://platform.deepseek.
 
 ## Setup
 
-The DeepSeek provider is available via the `@ai-sdk/deepseek` module. You can install it with:
+The DeepSeek provider is available via the `@open-stack/deepseek` module. You can install it with:
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/deepseek" dark />
+    <Snippet text="pnpm add @open-stack/deepseek" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/deepseek" dark />
+    <Snippet text="npm install @open-stack/deepseek" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/deepseek" dark />
+    <Snippet text="yarn add @open-stack/deepseek" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/deepseek" dark />
+    <Snippet text="bun add @open-stack/deepseek" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `deepseek` from `@ai-sdk/deepseek`:
+You can import the default provider instance `deepseek` from `@open-stack/deepseek`:
 
 ```ts
-import { deepseek } from '@ai-sdk/deepseek';
+import { deepseek } from '@open-stack/deepseek';
 ```
 
 For custom configuration, you can import `createDeepSeek` and create a provider instance with your settings:
 
 ```ts
-import { createDeepSeek } from '@ai-sdk/deepseek';
+import { createDeepSeek } from '@open-stack/deepseek';
 
 const deepseek = createDeepSeek({
   apiKey: process.env.DEEPSEEK_API_KEY ?? '',
@@ -72,7 +72,7 @@ You can use the following optional settings to customize the DeepSeek provider i
 You can create language models using a provider instance:
 
 ```ts
-import { deepseek } from '@ai-sdk/deepseek';
+import { deepseek } from '@open-stack/deepseek';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
@@ -97,7 +97,7 @@ DeepSeek language models can be used in the `streamText` function
 DeepSeek has reasoning support for the `deepseek-reasoner` model. The reasoning is exposed through streaming:
 
 ```ts
-import { deepseek } from '@ai-sdk/deepseek';
+import { deepseek } from '@open-stack/deepseek';
 import { streamText } from 'ai';
 
 const result = streamText({
@@ -124,7 +124,7 @@ on how to integrate reasoning into your chatbot.
 DeepSeek provides context caching on disk technology that can significantly reduce token costs for repeated content. You can access the cache hit/miss metrics through the `providerMetadata` property in the response:
 
 ```ts
-import { deepseek } from '@ai-sdk/deepseek';
+import { deepseek } from '@open-stack/deepseek';
 import { generateText } from 'ai';
 
 const result = await generateText({

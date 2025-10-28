@@ -8,7 +8,7 @@ import {
   LanguageModelV3StreamPart,
   LanguageModelV3Usage,
   SharedV3ProviderMetadata,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   ParseResult,
@@ -19,7 +19,7 @@ import {
   isParsableJson,
   parseProviderOptions,
   postJsonToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import { convertToGroqChatMessages } from './convert-to-groq-chat-messages';
 import { getResponseMetadata } from './get-response-metadata';

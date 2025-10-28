@@ -1,4 +1,4 @@
-import { vercel } from '@ai-sdk/vercel';
+import { vercel } from '@open-stack/vercel';
 import { streamText } from 'ai';
 import 'dotenv/config';
 import fs from 'node:fs';

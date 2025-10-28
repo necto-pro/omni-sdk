@@ -1,4 +1,4 @@
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

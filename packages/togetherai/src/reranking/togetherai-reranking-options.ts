@@ -1,4 +1,4 @@
-import { FlexibleSchema, lazySchema, zodSchema } from '@ai-sdk/provider-utils';
+import { FlexibleSchema, lazySchema, zodSchema } from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 
 // see https://docs.together.ai/docs/serverless-models#rerank-models

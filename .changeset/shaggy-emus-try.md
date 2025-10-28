@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/google': patch
+'@open-stack/google': patch
 ---
 
 add promptFeedback outputs

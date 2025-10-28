@@ -1,4 +1,4 @@
-import { openai, OpenAIResponsesProviderOptions } from '@ai-sdk/openai';
+import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
 import { generateText, Output, stepCountIs } from 'ai';
 import { z } from 'zod';
 import { print } from '../lib/print';

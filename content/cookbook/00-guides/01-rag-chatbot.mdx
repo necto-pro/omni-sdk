@@ -282,7 +282,7 @@ This function will take an input string and split it by periods, filtering out a
 
 You will use the AI SDK to create embeddings. This will require two more dependencies, which you can install by running the following command:
 
-<Snippet text="pnpm add ai @ai-sdk/react @ai-sdk/openai" />
+<Snippet text="pnpm add ai @open-stack/react @open-stack/openai" />
 
 This will install the [AI SDK](/docs), AI SDK's React hooks, and AI SDK's [OpenAI provider](/providers/ai-sdk-providers/openai).
 
@@ -300,7 +300,7 @@ Let’s add a function to generate embeddings. Copy the following code into your
 
 ```tsx filename="lib/ai/embedding.ts" highlight="1-2,4,13-22"
 import { embedMany } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const embeddingModel = openai.embedding('text-embedding-ada-002');
 
@@ -411,7 +411,7 @@ Replace your root page (`app/page.tsx`) with the following code.
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { useState } from 'react';
 
 export default function Chat() {
@@ -475,7 +475,7 @@ Create a file at `app/api/chat/route.ts` by running the following command:
 Open the file and add the following code:
 
 ```tsx filename="app/api/chat/route.ts"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 // Allow streaming responses up to 30 seconds
@@ -504,7 +504,7 @@ While you now have a working agent, it isn't doing anything special.
 Let’s add system instructions to refine and restrict the model’s behavior. In this case, you want the model to only use information it has retrieved to generate responses. Update your route handler with the following code:
 
 ```tsx filename="app/api/chat/route.ts" highlight="12-14"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 // Allow streaming responses up to 30 seconds
@@ -541,7 +541,7 @@ Update your route handler with the following code:
 
 ```tsx filename="app/api/chat/route.ts" highlight="18-29"
 import { createResource } from '@/lib/actions/resources';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { convertToModelMessages, streamText, tool, UIMessage } from 'ai';
 import { z } from 'zod';
 
@@ -594,7 +594,7 @@ Let’s make a few changes in the UI to communicate to the user when a tool has 
 ```tsx filename="app/page.tsx" highlight="14-32"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { useState } from 'react';
 
 export default function Chat() {
@@ -665,7 +665,7 @@ Open your root page (`api/chat/route.ts`) and add the following key to the `stre
 
 ```tsx filename="api/chat/route.ts" highlight="8,24"
 import { createResource } from '@/lib/actions/resources';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import {
   convertToModelMessages,
   streamText,
@@ -716,7 +716,7 @@ To find similar content, you will need to embed the users query, search the data
 
 ```tsx filename="lib/ai/embedding.ts" highlight="1,3-5,27-34,36-49"
 import { embed, embedMany } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { db } from '../db';
 import { cosineDistance, desc, gt, sql } from 'drizzle-orm';
 import { embeddings } from '../db/schema/embeddings';
@@ -777,7 +777,7 @@ Go back to your route handler (`api/chat/route.ts`) and add a new tool called `g
 
 ```ts filename="api/chat/route.ts" highlight="11,37-43"
 import { createResource } from '@/lib/actions/resources';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import {
   convertToModelMessages,
   streamText,

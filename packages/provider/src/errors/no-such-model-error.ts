@@ -13,8 +13,7 @@ export class NoSuchModelError extends AISDKError {
     | 'textEmbeddingModel'
     | 'imageModel'
     | 'transcriptionModel'
-    | 'speechModel'
-    | 'rerankingModel';
+    | 'speechModel';
 
   constructor({
     errorName = name,
@@ -29,8 +28,7 @@ export class NoSuchModelError extends AISDKError {
       | 'textEmbeddingModel'
       | 'imageModel'
       | 'transcriptionModel'
-      | 'speechModel'
-      | 'rerankingModel';
+      | 'speechModel';
     message?: string;
   }) {
     super({ name: errorName, message });

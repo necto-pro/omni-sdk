@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { azure } from '@ai-sdk/azure';
+import { azure } from '@open-stack/azure';
 import { generateText } from 'ai';
 
 async function main() {

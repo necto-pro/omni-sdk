@@ -4,24 +4,24 @@ The **[Anthropic provider](https://ai-sdk.dev/providers/ai-sdk-providers/anthrop
 
 ## Setup
 
-The Anthropic provider is available in the `@ai-sdk/anthropic` module. You can install it with
+The Anthropic provider is available in the `@open-stack/anthropic` module. You can install it with
 
 ```bash
-npm i @ai-sdk/anthropic
+npm i @open-stack/anthropic
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `anthropic` from `@ai-sdk/anthropic`:
+You can import the default provider instance `anthropic` from `@open-stack/anthropic`:
 
 ```ts
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 ```
 
 ## Example
 
 ```ts
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

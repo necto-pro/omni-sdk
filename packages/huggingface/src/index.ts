@@ -7,4 +7,4 @@ export type {
   HuggingFaceResponsesModelId,
   HuggingFaceResponsesSettings,
 } from './responses/huggingface-responses-settings';
-export type { OpenAICompatibleErrorData as HuggingFaceErrorData } from '@ai-sdk/openai-compatible';
+export type { OpenAICompatibleErrorData as HuggingFaceErrorData } from '@open-stack/openai-compatible';

@@ -1,4 +1,4 @@
-import { LanguageModelV3Middleware } from '@ai-sdk/provider';
+import { LanguageModelV3Middleware } from '@open-stack/provider';
 import { addToLastUserMessage } from './add-to-last-user-message';
 import { getLastUserMessageText } from './get-last-user-message-text';
 

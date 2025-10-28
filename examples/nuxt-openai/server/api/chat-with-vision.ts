@@ -1,4 +1,4 @@
-import { createOpenAI } from '@ai-sdk/openai';
+import { createOpenAI } from '@open-stack/openai';
 import { convertToModelMessages, streamText, type UIMessage } from 'ai';
 
 export default defineLazyEventHandler(async () => {

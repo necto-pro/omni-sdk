@@ -1,4 +1,4 @@
-import { baseten } from '@ai-sdk/baseten';
+import { baseten } from '@open-stack/baseten';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

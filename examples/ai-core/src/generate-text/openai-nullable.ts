@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateText, tool } from 'ai';
 import { z } from 'zod';
 import 'dotenv/config';

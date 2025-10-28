@@ -1,8 +1,8 @@
 import {
   createTestServer,
   TestResponseController,
-} from '@ai-sdk/test-server/with-vitest';
-import { mockId } from '@ai-sdk/provider-utils/test';
+} from '@open-stack/test-server/with-vitest';
+import { mockId } from '@open-stack/provider-utils/test';
 import {
   DefaultChatTransport,
   isToolUIPart,

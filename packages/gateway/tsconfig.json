@@ -5,7 +5,7 @@
     "rootDir": "src",
     "outDir": "dist",
     "paths": {
-      "@ai-sdk/test-server": ["../test-server/src"]
+      "@omni-stack/test-server": ["../test-server/src"]
     }
   },
   "exclude": ["dist", "build", "node_modules", "tsup.config.ts"],

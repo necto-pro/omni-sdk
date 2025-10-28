@@ -2,7 +2,7 @@ import {
   LanguageModelV3CallWarning,
   LanguageModelV3Prompt,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import { CohereAssistantMessage, CohereChatPrompt } from './cohere-chat-prompt';
 
 export function convertToCohereChatPrompt(prompt: LanguageModelV3Prompt): {

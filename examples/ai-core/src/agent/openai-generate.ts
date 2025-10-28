@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { ToolLoopAgent } from 'ai';
 import { run } from '../lib/run';
 import { print } from '../lib/print';

@@ -2,7 +2,7 @@
 
 import ChatInput from '@/components/chat-input';
 import FetchPDFView from '@/components/tool/fetch-pdf-view';
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 import { OpenAIFetchPdfCustomToolMessage } from '@/agent/openai-fetch-pdf-custom-tool-agent';
 

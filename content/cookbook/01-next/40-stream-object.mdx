@@ -70,7 +70,7 @@ Please note the code for handling `undefined` values in the JSX.
 ```tsx filename='app/page.tsx'
 'use client';
 
-import { experimental_useObject as useObject } from '@ai-sdk/react';
+import { experimental_useObject as useObject } from '@open-stack/react';
 import { notificationSchema } from './api/use-object/schema';
 
 export default function Page() {
@@ -101,7 +101,7 @@ export default function Page() {
 On the server, we use [`streamObject`](/docs/reference/ai-sdk-core/stream-object) to stream the object generation process.
 
 ```typescript filename='app/api/use-object/route.ts'
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamObject } from 'ai';
 import { notificationSchema } from './schema';
 
@@ -130,7 +130,7 @@ You can also use the `stop` function to stop the object generation process.
 ```tsx filename='app/page.tsx' highlight="7,16,21,24"
 'use client';
 
-import { experimental_useObject as useObject } from '@ai-sdk/react';
+import { experimental_useObject as useObject } from '@open-stack/react';
 import { notificationSchema } from './api/use-object/schema';
 
 export default function Page() {
@@ -193,7 +193,7 @@ On the client, you wrap the schema in `z.array()` to generate an array of object
 ```tsx filename='app/page.tsx'
 'use client';
 
-import { experimental_useObject as useObject } from '@ai-sdk/react';
+import { experimental_useObject as useObject } from '@open-stack/react';
 import { notificationSchema } from '../api/use-object/schema';
 import z from 'zod';
 
@@ -237,7 +237,7 @@ export default function Page() {
 On the server, specify `output: 'array'` to generate an array of objects.
 
 ```typescript filename='app/api/use-object/route.ts'
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamObject } from 'ai';
 import { notificationSchema } from './schema';
 
@@ -269,7 +269,7 @@ On the client, you wrap the schema in `z.array()` to generate an array of object
 ```tsx filename='app/page.tsx'
 'use client';
 
-import { experimental_useObject as useObject } from '@ai-sdk/react';
+import { experimental_useObject as useObject } from '@open-stack/react';
 import { z } from 'zod';
 
 export default function Page() {
@@ -307,7 +307,7 @@ export default function Page() {
 On the server, specify `output: 'no-schema'`.
 
 ```typescript filename='app/api/use-object/route.ts'
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamObject } from 'ai';
 
 export const maxDuration = 30;

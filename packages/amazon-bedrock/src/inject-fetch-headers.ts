@@ -3,7 +3,7 @@ import {
   getRuntimeEnvironmentUserAgent,
   normalizeHeaders,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { VERSION } from './version';
 
 /**

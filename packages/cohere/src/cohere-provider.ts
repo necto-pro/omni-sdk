@@ -4,7 +4,7 @@ import {
   NoSuchModelError,
   RerankingModelV3,
   ProviderV3,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 
 import {
   FetchFunction,
@@ -12,7 +12,7 @@ import {
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { CohereChatLanguageModel } from './cohere-chat-language-model';
 import { CohereChatModelId } from './cohere-chat-options';
 import { CohereEmbeddingModel } from './cohere-embedding-model';

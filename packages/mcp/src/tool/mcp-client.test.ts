@@ -2,12 +2,7 @@ import { z } from 'zod/v4';
 import { MCPClientError } from '../error/mcp-client-error';
 import { createMCPClient } from './mcp-client';
 import { MockMCPTransport } from './mock-mcp-transport';
-import {
-  CallToolResult,
-  ListResourceTemplatesResult,
-  ListResourcesResult,
-  ReadResourceResult,
-} from './types';
+import { CallToolResult } from './types';
 import {
   beforeEach,
   afterEach,
@@ -82,69 +77,6 @@ describe('MCPClient', () => {
         ],
         "isError": false,
       }
-    `);
-  });
-
-  it('should list resources from the server', async () => {
-    client = await createMCPClient({
-      transport: { type: 'sse', url: 'https://example.com/sse' },
-    });
-
-    const resources = await client.listResources();
-
-    expectTypeOf(resources).toEqualTypeOf<ListResourcesResult>();
-
-    expect(resources.resources).toMatchInlineSnapshot(`
-      [
-        {
-          "description": "Mock resource",
-          "mimeType": "text/plain",
-          "name": "resource.txt",
-          "uri": "file:///mock/resource.txt",
-        },
-      ]
-    `);
-  });
-
-  it('should read resource contents', async () => {
-    client = await createMCPClient({
-      transport: { type: 'sse', url: 'https://example.com/sse' },
-    });
-
-    const result = await client.readResource({
-      uri: 'file:///mock/resource.txt',
-    });
-
-    expectTypeOf(result).toEqualTypeOf<ReadResourceResult>();
-
-    expect(result.contents).toMatchInlineSnapshot(`
-      [
-        {
-          "mimeType": "text/plain",
-          "text": "Mock resource content",
-          "uri": "file:///mock/resource.txt",
-        },
-      ]
-    `);
-  });
-
-  it('should list resource templates', async () => {
-    client = await createMCPClient({
-      transport: { type: 'sse', url: 'https://example.com/sse' },
-    });
-
-    const templates = await client.listResourceTemplates();
-
-    expectTypeOf(templates).toEqualTypeOf<ListResourceTemplatesResult>();
-
-    expect(templates.resourceTemplates).toMatchInlineSnapshot(`
-      [
-        {
-          "description": "Mock template",
-          "name": "mock-template",
-          "uriTemplate": "file:///{path}",
-        },
-      ]
     `);
   });
 
@@ -284,7 +216,6 @@ describe('MCPClient', () => {
       () =>
         new MockMCPTransport({
           overrideTools: [],
-          resources: [],
         }),
     );
 

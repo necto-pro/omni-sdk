@@ -1,6 +1,6 @@
 {
-  "name": "@ai-sdk/valibot",
-  "version": "2.0.0-beta.26",
+  "name": "@omni-stack/valibot",
+  "version": "2.0.0-beta.20",
   "license": "Apache-2.0",
   "sideEffects": false,
   "main": "./dist/index.js",
@@ -27,7 +27,7 @@
     }
   },
   "dependencies": {
-    "@ai-sdk/provider-utils": "workspace:*"
+    "@omni-stack/provider-utils": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "20.17.24",

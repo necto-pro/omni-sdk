@@ -12,7 +12,7 @@ function to generate images based on a given prompt using an image model.
 
 ```tsx
 import { experimental_generateImage as generateImage } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const { image } = await generateImage({
   model: openai.image('dall-e-3'),
@@ -40,7 +40,7 @@ Models only support a few sizes, and the supported sizes are different for each 
 
 ```tsx highlight={"7"}
 import { experimental_generateImage as generateImage } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const { image } = await generateImage({
   model: openai.image('dall-e-3'),
@@ -56,7 +56,7 @@ Models only support a few aspect ratios, and the supported aspect ratios are dif
 
 ```tsx highlight={"7"}
 import { experimental_generateImage as generateImage } from 'ai';
-import { vertex } from '@ai-sdk/google-vertex';
+import { vertex } from '@open-stack/google-vertex';
 
 const { image } = await generateImage({
   model: vertex.image('imagen-3.0-generate-002'),
@@ -71,7 +71,7 @@ const { image } = await generateImage({
 
 ```tsx highlight={"7"}
 import { experimental_generateImage as generateImage } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const { images } = await generateImage({
   model: openai.image('dall-e-2'),
@@ -105,7 +105,7 @@ If supported by the model, the same seed will always produce the same image.
 
 ```tsx highlight={"7"}
 import { experimental_generateImage as generateImage } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const { image } = await generateImage({
   model: openai.image('dall-e-3'),
@@ -123,7 +123,7 @@ using the `providerOptions` parameter. The options for the provider
 
 ```tsx highlight={"9"}
 import { experimental_generateImage as generateImage } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const { image } = await generateImage({
   model: openai.image('dall-e-3'),
@@ -142,7 +142,7 @@ type [`AbortSignal`](https://developer.mozilla.org/en-US/docs/Web/API/AbortSigna
 that you can use to abort the image generation process or set a timeout.
 
 ```ts highlight={"7"}
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { experimental_generateImage as generateImage } from 'ai';
 
 const { image } = await generateImage({
@@ -158,7 +158,7 @@ const { image } = await generateImage({
 that you can use to add custom headers to the image generation request.
 
 ```ts highlight={"7"}
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { experimental_generateImage as generateImage } from 'ai';
 
 const { image } = await generateImage({
@@ -235,7 +235,7 @@ Some language models such as Google `gemini-2.5-flash-image-preview` support mul
 With such models, you can access the generated images using the `files` property of the response.
 
 ```ts
-import { google } from '@ai-sdk/google';
+import { google } from '@open-stack/google';
 import { generateText } from 'ai';
 
 const result = await generateText({

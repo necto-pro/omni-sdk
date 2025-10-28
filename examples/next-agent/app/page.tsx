@@ -1,6 +1,6 @@
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import ChatInput from '@/component/chat-input';
 import type { WeatherAgentUIMessage } from '@/agent/weather-agent';
 import WeatherView from '@/component/weather-view';

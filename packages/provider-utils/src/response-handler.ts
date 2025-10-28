@@ -1,4 +1,4 @@
-import { APICallError, EmptyResponseBodyError } from '@ai-sdk/provider';
+import { APICallError, EmptyResponseBodyError } from '@omni-stack/provider';
 import { ZodType } from 'zod/v4';
 import { extractResponseHeaders } from './extract-response-headers';
 import { parseJSON, ParseResult, safeParseJSON } from './parse-json';

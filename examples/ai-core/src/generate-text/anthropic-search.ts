@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 import { generateText } from 'ai';
 
 async function main() {

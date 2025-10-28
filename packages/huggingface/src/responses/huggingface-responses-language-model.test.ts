@@ -1,9 +1,9 @@
-import { LanguageModelV3Prompt } from '@ai-sdk/provider';
+import { LanguageModelV3Prompt } from '@open-stack/provider';
 import {
   convertReadableStreamToArray,
   mockId,
-} from '@ai-sdk/provider-utils/test';
-import { createTestServer } from '@ai-sdk/test-server/with-vitest';
+} from '@open-stack/provider-utils/test';
+import { createTestServer } from '@open-stack/test-server/with-vitest';
 import { describe, it, expect, beforeEach } from 'vitest';
 import { HuggingFaceResponsesLanguageModel } from './huggingface-responses-language-model';
 

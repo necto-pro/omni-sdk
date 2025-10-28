@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { cohere as provider } from '@ai-sdk/cohere';
+import { cohere as provider } from '@open-stack/cohere';
 import {
   createFeatureTestSuite,
   createLanguageModelWithCapabilities,

@@ -1,7 +1,7 @@
 import { generateText, stepCountIs, tool } from 'ai';
 import { run } from '../lib/run';
 import { z } from 'zod';
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 
 run(async () => {
   const readImage = tool({

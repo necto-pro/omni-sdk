@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { xai } from '@ai-sdk/xai';
+import { xai } from '@open-stack/xai';
 import { generateText } from 'ai';
 
 async function main() {

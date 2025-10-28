@@ -4,24 +4,24 @@ The **[Hugging Face Inference Providers](https://huggingface.co/docs/inference-p
 
 ## Setup
 
-The Hugging Face provider is available in the `@ai-sdk/huggingface` module. You can install it with:
+The Hugging Face provider is available in the `@open-stack/huggingface` module. You can install it with:
 
 ```bash
-npm i @ai-sdk/huggingface
+npm i @open-stack/huggingface
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `huggingface` from `@ai-sdk/huggingface`:
+You can import the default provider instance `huggingface` from `@open-stack/huggingface`:
 
 ```ts
-import { huggingface } from '@ai-sdk/huggingface';
+import { huggingface } from '@open-stack/huggingface';
 ```
 
 ## Example
 
 ```ts
-import { huggingface } from '@ai-sdk/huggingface';
+import { huggingface } from '@open-stack/huggingface';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

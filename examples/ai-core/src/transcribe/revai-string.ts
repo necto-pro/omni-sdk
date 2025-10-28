@@ -1,4 +1,4 @@
-import { revai } from '@ai-sdk/revai';
+import { revai } from '@open-stack/revai';
 import { experimental_transcribe as transcribe } from 'ai';
 import 'dotenv/config';
 import { readFile } from 'fs/promises';

@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/anthropic': patch
+'@open-stack/anthropic': patch
 ---
 
 Add support for 2025-08-25 code execution tool

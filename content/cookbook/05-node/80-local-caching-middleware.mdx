@@ -208,7 +208,7 @@ export const cacheMiddleware: LanguageModelV3Middleware = {
 The middleware can be easily integrated into your existing AI SDK setup:
 
 ```ts highlight="4,8"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamText } from 'ai';
 import 'dotenv/config';
 import { cached } from '../middleware/your-cache-middleware';

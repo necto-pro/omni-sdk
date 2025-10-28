@@ -1,4 +1,4 @@
-# @ai-sdk/test-server
+# @omni-stack/test-server
 
 ## 1.0.0-beta.1
 

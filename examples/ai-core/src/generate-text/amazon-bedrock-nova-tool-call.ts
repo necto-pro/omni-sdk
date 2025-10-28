@@ -2,7 +2,7 @@ import { generateText, tool } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';
 import { weatherTool } from '../tools/weather-tool';
-import { bedrock } from '@ai-sdk/amazon-bedrock';
+import { bedrock } from '@open-stack/amazon-bedrock';
 
 async function main() {
   const result = await generateText({

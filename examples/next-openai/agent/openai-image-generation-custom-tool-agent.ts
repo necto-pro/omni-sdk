@@ -1,5 +1,5 @@
 import { generateImageTool } from '@/tool/generate-image-tool';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { ToolLoopAgent, InferAgentUIMessage } from 'ai';
 
 export const openaiImageGenerationCustomToolAgent = new ToolLoopAgent({

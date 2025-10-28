@@ -1,4 +1,4 @@
-import { cohere, CohereRerankingOptions } from '@ai-sdk/cohere';
+import { cohere, CohereRerankingOptions } from '@open-stack/cohere';
 import { rerank } from 'ai';
 import { run } from '../lib/run';
 import { print } from '../lib/print';

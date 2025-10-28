@@ -1,4 +1,4 @@
-import { openai, type OpenAIChatLanguageModelOptions } from '@ai-sdk/openai';
+import { openai, type OpenAIChatLanguageModelOptions } from '@open-stack/openai';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

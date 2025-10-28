@@ -1,5 +1,5 @@
 import { env } from '$env/dynamic/private';
-import { createOpenAI } from '@ai-sdk/openai';
+import { createOpenAI } from '@open-stack/openai';
 import { convertToModelMessages, streamText, stepCountIs } from 'ai';
 import { z } from 'zod';
 

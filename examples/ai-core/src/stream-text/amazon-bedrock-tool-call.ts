@@ -1,4 +1,4 @@
-import { bedrock } from '@ai-sdk/amazon-bedrock';
+import { bedrock } from '@open-stack/amazon-bedrock';
 import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';

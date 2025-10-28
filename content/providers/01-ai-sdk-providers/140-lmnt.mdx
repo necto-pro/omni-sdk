@@ -9,36 +9,36 @@ The [LMNT](https://lmnt.com/) provider contains language model support for the L
 
 ## Setup
 
-The LMNT provider is available in the `@ai-sdk/lmnt` module. You can install it with
+The LMNT provider is available in the `@open-stack/lmnt` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/lmnt" dark />
+    <Snippet text="pnpm add @open-stack/lmnt" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/lmnt" dark />
+    <Snippet text="npm install @open-stack/lmnt" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/lmnt" dark />
+    <Snippet text="yarn add @open-stack/lmnt" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/lmnt" dark />
+    <Snippet text="bun add @open-stack/lmnt" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `lmnt` from `@ai-sdk/lmnt`:
+You can import the default provider instance `lmnt` from `@open-stack/lmnt`:
 
 ```ts
-import { lmnt } from '@ai-sdk/lmnt';
+import { lmnt } from '@open-stack/lmnt';
 ```
 
-If you need a customized setup, you can import `createLMNT` from `@ai-sdk/lmnt` and create a provider instance with your settings:
+If you need a customized setup, you can import `createLMNT` from `@open-stack/lmnt` and create a provider instance with your settings:
 
 ```ts
-import { createLMNT } from '@ai-sdk/lmnt';
+import { createLMNT } from '@open-stack/lmnt';
 
 const lmnt = createLMNT({
   // custom settings, e.g.
@@ -79,7 +79,7 @@ You can also pass additional provider-specific options using the `providerOption
 
 ```ts highlight="6"
 import { experimental_generateSpeech as generateSpeech } from 'ai';
-import { lmnt } from '@ai-sdk/lmnt';
+import { lmnt } from '@open-stack/lmnt';
 
 const result = await generateSpeech({
   model: lmnt.speech('aurora'),

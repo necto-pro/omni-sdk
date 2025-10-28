@@ -1,22 +1,22 @@
-# @ai-sdk/deepseek
+# @open-stack/deepseek
 
 ## 2.0.0-beta.27
 
 ### Patch Changes
 
 - Updated dependencies [d1bdadb]
-  - @ai-sdk/provider@3.0.0-beta.12
-  - @ai-sdk/openai-compatible@2.0.0-beta.27
-  - @ai-sdk/provider-utils@4.0.0-beta.26
+  - @open-stack/provider@3.0.0-beta.12
+  - @open-stack/openai-compatible@2.0.0-beta.27
+  - @open-stack/provider-utils@4.0.0-beta.26
 
 ## 2.0.0-beta.26
 
 ### Patch Changes
 
 - Updated dependencies [4c44a5b]
-  - @ai-sdk/provider@3.0.0-beta.11
-  - @ai-sdk/openai-compatible@2.0.0-beta.26
-  - @ai-sdk/provider-utils@4.0.0-beta.25
+  - @open-stack/provider@3.0.0-beta.11
+  - @open-stack/openai-compatible@2.0.0-beta.26
+  - @open-stack/provider-utils@4.0.0-beta.25
 
 ## 2.0.0-beta.25
 
@@ -24,115 +24,115 @@
 
 - 0c3b58b: fix(provider): add specificationVersion to ProviderV3
 - Updated dependencies [0c3b58b]
-  - @ai-sdk/openai-compatible@2.0.0-beta.25
-  - @ai-sdk/provider@3.0.0-beta.10
-  - @ai-sdk/provider-utils@4.0.0-beta.24
+  - @open-stack/openai-compatible@2.0.0-beta.25
+  - @open-stack/provider@3.0.0-beta.10
+  - @open-stack/provider-utils@4.0.0-beta.24
 
 ## 2.0.0-beta.24
 
 ### Patch Changes
 
 - Updated dependencies [a755db5]
-  - @ai-sdk/provider@3.0.0-beta.9
-  - @ai-sdk/openai-compatible@2.0.0-beta.24
-  - @ai-sdk/provider-utils@4.0.0-beta.23
+  - @open-stack/provider@3.0.0-beta.9
+  - @open-stack/openai-compatible@2.0.0-beta.24
+  - @open-stack/provider-utils@4.0.0-beta.23
 
 ## 2.0.0-beta.23
 
 ### Patch Changes
 
 - Updated dependencies [58920e0]
-  - @ai-sdk/provider-utils@4.0.0-beta.22
-  - @ai-sdk/openai-compatible@2.0.0-beta.23
+  - @open-stack/provider-utils@4.0.0-beta.22
+  - @open-stack/openai-compatible@2.0.0-beta.23
 
 ## 2.0.0-beta.22
 
 ### Patch Changes
 
 - Updated dependencies [293a6b7]
-  - @ai-sdk/provider-utils@4.0.0-beta.21
-  - @ai-sdk/openai-compatible@2.0.0-beta.22
+  - @open-stack/provider-utils@4.0.0-beta.21
+  - @open-stack/openai-compatible@2.0.0-beta.22
 
 ## 2.0.0-beta.21
 
 ### Patch Changes
 
 - Updated dependencies [fca786b]
-  - @ai-sdk/provider-utils@4.0.0-beta.20
-  - @ai-sdk/openai-compatible@2.0.0-beta.21
+  - @open-stack/provider-utils@4.0.0-beta.20
+  - @open-stack/openai-compatible@2.0.0-beta.21
 
 ## 2.0.0-beta.20
 
 ### Patch Changes
 
 - Updated dependencies [3794514]
-  - @ai-sdk/provider-utils@4.0.0-beta.19
-  - @ai-sdk/provider@3.0.0-beta.8
-  - @ai-sdk/openai-compatible@2.0.0-beta.20
+  - @open-stack/provider-utils@4.0.0-beta.19
+  - @open-stack/provider@3.0.0-beta.8
+  - @open-stack/openai-compatible@2.0.0-beta.20
 
 ## 2.0.0-beta.19
 
 ### Patch Changes
 
 - Updated dependencies [81d4308]
-  - @ai-sdk/provider@3.0.0-beta.7
-  - @ai-sdk/openai-compatible@2.0.0-beta.19
-  - @ai-sdk/provider-utils@4.0.0-beta.18
+  - @open-stack/provider@3.0.0-beta.7
+  - @open-stack/openai-compatible@2.0.0-beta.19
+  - @open-stack/provider-utils@4.0.0-beta.18
 
 ## 2.0.0-beta.18
 
 ### Patch Changes
 
 - Updated dependencies [703459a]
-  - @ai-sdk/provider-utils@4.0.0-beta.17
-  - @ai-sdk/openai-compatible@2.0.0-beta.18
+  - @open-stack/provider-utils@4.0.0-beta.17
+  - @open-stack/openai-compatible@2.0.0-beta.18
 
 ## 2.0.0-beta.17
 
 ### Patch Changes
 
 - Updated dependencies [b689220]
-  - @ai-sdk/openai-compatible@2.0.0-beta.17
+  - @open-stack/openai-compatible@2.0.0-beta.17
 
 ## 2.0.0-beta.16
 
 ### Patch Changes
 
 - Updated dependencies [6306603]
-  - @ai-sdk/provider-utils@4.0.0-beta.16
-  - @ai-sdk/openai-compatible@2.0.0-beta.16
+  - @open-stack/provider-utils@4.0.0-beta.16
+  - @open-stack/openai-compatible@2.0.0-beta.16
 
 ## 2.0.0-beta.15
 
 ### Patch Changes
 
 - Updated dependencies [f0b2157]
-  - @ai-sdk/provider-utils@4.0.0-beta.15
-  - @ai-sdk/openai-compatible@2.0.0-beta.15
+  - @open-stack/provider-utils@4.0.0-beta.15
+  - @open-stack/openai-compatible@2.0.0-beta.15
 
 ## 2.0.0-beta.14
 
 ### Patch Changes
 
 - Updated dependencies [3b1d015]
-  - @ai-sdk/provider-utils@4.0.0-beta.14
-  - @ai-sdk/openai-compatible@2.0.0-beta.14
+  - @open-stack/provider-utils@4.0.0-beta.14
+  - @open-stack/openai-compatible@2.0.0-beta.14
 
 ## 2.0.0-beta.13
 
 ### Patch Changes
 
 - Updated dependencies [d116b4b]
-  - @ai-sdk/provider-utils@4.0.0-beta.13
-  - @ai-sdk/openai-compatible@2.0.0-beta.13
+  - @open-stack/provider-utils@4.0.0-beta.13
+  - @open-stack/openai-compatible@2.0.0-beta.13
 
 ## 2.0.0-beta.12
 
 ### Patch Changes
 
 - Updated dependencies [7e32fea]
-  - @ai-sdk/provider-utils@4.0.0-beta.12
-  - @ai-sdk/openai-compatible@2.0.0-beta.12
+  - @open-stack/provider-utils@4.0.0-beta.12
+  - @open-stack/openai-compatible@2.0.0-beta.12
 
 ## 2.0.0-beta.11
 
@@ -141,8 +141,8 @@
 - 95f65c2: chore: use import \* from zod/v4
 - Updated dependencies [95f65c2]
 - Updated dependencies [95f65c2]
-  - @ai-sdk/openai-compatible@2.0.0-beta.11
-  - @ai-sdk/provider-utils@4.0.0-beta.11
+  - @open-stack/openai-compatible@2.0.0-beta.11
+  - @open-stack/provider-utils@4.0.0-beta.11
 
 ## 2.0.0-beta.10
 
@@ -153,25 +153,25 @@
 ### Patch Changes
 
 - Updated dependencies [dee8b05]
-  - @ai-sdk/openai-compatible@2.0.0-beta.10
-  - @ai-sdk/provider@3.0.0-beta.6
-  - @ai-sdk/provider-utils@4.0.0-beta.10
+  - @open-stack/openai-compatible@2.0.0-beta.10
+  - @open-stack/provider@3.0.0-beta.6
+  - @open-stack/provider-utils@4.0.0-beta.10
 
 ## 1.1.0-beta.9
 
 ### Patch Changes
 
 - Updated dependencies [521c537]
-  - @ai-sdk/provider-utils@3.1.0-beta.9
-  - @ai-sdk/openai-compatible@1.1.0-beta.9
+  - @open-stack/provider-utils@3.1.0-beta.9
+  - @open-stack/openai-compatible@1.1.0-beta.9
 
 ## 1.1.0-beta.8
 
 ### Patch Changes
 
 - Updated dependencies [e06565c]
-  - @ai-sdk/provider-utils@3.1.0-beta.8
-  - @ai-sdk/openai-compatible@1.1.0-beta.8
+  - @open-stack/provider-utils@3.1.0-beta.8
+  - @open-stack/openai-compatible@1.1.0-beta.8
 
 ## 1.1.0-beta.7
 
@@ -179,9 +179,9 @@
 
 - Updated dependencies [046aa3b]
 - Updated dependencies [e8109d3]
-  - @ai-sdk/provider@2.1.0-beta.5
-  - @ai-sdk/openai-compatible@1.1.0-beta.7
-  - @ai-sdk/provider-utils@3.1.0-beta.7
+  - @open-stack/provider@2.1.0-beta.5
+  - @open-stack/openai-compatible@1.1.0-beta.7
+  - @open-stack/provider-utils@3.1.0-beta.7
 
 ## 1.1.0-beta.6
 
@@ -189,9 +189,9 @@
 
 - Updated dependencies [0adc679]
 - Updated dependencies [2b0caef]
-  - @ai-sdk/openai-compatible@1.1.0-beta.6
-  - @ai-sdk/provider-utils@3.1.0-beta.6
-  - @ai-sdk/provider@2.1.0-beta.4
+  - @open-stack/openai-compatible@1.1.0-beta.6
+  - @open-stack/provider-utils@3.1.0-beta.6
+  - @open-stack/provider@2.1.0-beta.4
 
 ## 1.1.0-beta.5
 
@@ -200,9 +200,9 @@
 - 8dac895: feat: `LanguageModelV3`
 - Updated dependencies [8dac895]
 - Updated dependencies [10c1322]
-  - @ai-sdk/openai-compatible@1.1.0-beta.5
-  - @ai-sdk/provider-utils@3.1.0-beta.5
-  - @ai-sdk/provider@2.1.0-beta.3
+  - @open-stack/openai-compatible@1.1.0-beta.5
+  - @open-stack/provider-utils@3.1.0-beta.5
+  - @open-stack/provider@2.1.0-beta.3
 
 ## 1.1.0-beta.4
 
@@ -210,8 +210,8 @@
 
 - 4616b86: chore: update zod peer depenedency version
 - Updated dependencies [4616b86]
-  - @ai-sdk/openai-compatible@1.1.0-beta.4
-  - @ai-sdk/provider-utils@3.1.0-beta.4
+  - @open-stack/openai-compatible@1.1.0-beta.4
+  - @open-stack/provider-utils@3.1.0-beta.4
 
 ## 1.1.0-beta.3
 
@@ -220,9 +220,9 @@
 - ed329cb: feat: `Provider-V3`
 - Updated dependencies [ed329cb]
 - Updated dependencies [522f6b8]
-  - @ai-sdk/openai-compatible@1.1.0-beta.3
-  - @ai-sdk/provider@2.1.0-beta.2
-  - @ai-sdk/provider-utils@3.1.0-beta.3
+  - @open-stack/openai-compatible@1.1.0-beta.3
+  - @open-stack/provider@2.1.0-beta.2
+  - @open-stack/provider-utils@3.1.0-beta.3
 
 ## 1.1.0-beta.2
 
@@ -230,17 +230,17 @@
 
 - 1cad0ab: feat: add provider version to user-agent header
 - Updated dependencies [0c4822d]
-  - @ai-sdk/openai-compatible@1.1.0-beta.2
-  - @ai-sdk/provider@2.1.0-beta.1
-  - @ai-sdk/provider-utils@3.1.0-beta.2
+  - @open-stack/openai-compatible@1.1.0-beta.2
+  - @open-stack/provider@2.1.0-beta.1
+  - @open-stack/provider-utils@3.1.0-beta.2
 
 ## 1.1.0-beta.1
 
 ### Patch Changes
 
 - Updated dependencies [cbb1d35]
-  - @ai-sdk/provider-utils@3.1.0-beta.1
-  - @ai-sdk/openai-compatible@1.1.0-beta.1
+  - @open-stack/provider-utils@3.1.0-beta.1
+  - @open-stack/openai-compatible@1.1.0-beta.1
 
 ## 1.1.0-beta.0
 
@@ -251,92 +251,92 @@
 ### Patch Changes
 
 - Updated dependencies [78928cb]
-  - @ai-sdk/openai-compatible@1.1.0-beta.0
-  - @ai-sdk/provider@2.1.0-beta.0
-  - @ai-sdk/provider-utils@3.1.0-beta.0
+  - @open-stack/openai-compatible@1.1.0-beta.0
+  - @open-stack/provider@2.1.0-beta.0
+  - @open-stack/provider-utils@3.1.0-beta.0
 
 ## 1.0.18
 
 ### Patch Changes
 
 - Updated dependencies [28363da]
-  - @ai-sdk/openai-compatible@1.0.18
+  - @open-stack/openai-compatible@1.0.18
 
 ## 1.0.17
 
 ### Patch Changes
 
 - Updated dependencies [3aed04c]
-  - @ai-sdk/openai-compatible@1.0.17
+  - @open-stack/openai-compatible@1.0.17
 
 ## 1.0.16
 
 ### Patch Changes
 
 - Updated dependencies [0294b58]
-  - @ai-sdk/provider-utils@3.0.9
-  - @ai-sdk/openai-compatible@1.0.16
+  - @open-stack/provider-utils@3.0.9
+  - @open-stack/openai-compatible@1.0.16
 
 ## 1.0.15
 
 ### Patch Changes
 
 - Updated dependencies [99964ed]
-  - @ai-sdk/provider-utils@3.0.8
-  - @ai-sdk/openai-compatible@1.0.15
+  - @open-stack/provider-utils@3.0.8
+  - @open-stack/openai-compatible@1.0.15
 
 ## 1.0.14
 
 ### Patch Changes
 
 - Updated dependencies [818f021]
-  - @ai-sdk/openai-compatible@1.0.14
+  - @open-stack/openai-compatible@1.0.14
 
 ## 1.0.13
 
 ### Patch Changes
 
 - Updated dependencies [886e7cd]
-  - @ai-sdk/provider-utils@3.0.7
-  - @ai-sdk/openai-compatible@1.0.13
+  - @open-stack/provider-utils@3.0.7
+  - @open-stack/openai-compatible@1.0.13
 
 ## 1.0.12
 
 ### Patch Changes
 
 - Updated dependencies [1b5a3d3]
-  - @ai-sdk/provider-utils@3.0.6
-  - @ai-sdk/openai-compatible@1.0.12
+  - @open-stack/provider-utils@3.0.6
+  - @open-stack/openai-compatible@1.0.12
 
 ## 1.0.11
 
 ### Patch Changes
 
 - Updated dependencies [0857788]
-  - @ai-sdk/provider-utils@3.0.5
-  - @ai-sdk/openai-compatible@1.0.11
+  - @open-stack/provider-utils@3.0.5
+  - @open-stack/openai-compatible@1.0.11
 
 ## 1.0.10
 
 ### Patch Changes
 
 - Updated dependencies [7ca3aee]
-  - @ai-sdk/openai-compatible@1.0.10
+  - @open-stack/openai-compatible@1.0.10
 
 ## 1.0.9
 
 ### Patch Changes
 
 - Updated dependencies [68751f9]
-  - @ai-sdk/provider-utils@3.0.4
-  - @ai-sdk/openai-compatible@1.0.9
+  - @open-stack/provider-utils@3.0.4
+  - @open-stack/openai-compatible@1.0.9
 
 ## 1.0.8
 
 ### Patch Changes
 
 - Updated dependencies [515c891]
-  - @ai-sdk/openai-compatible@1.0.8
+  - @open-stack/openai-compatible@1.0.8
 
 ## 1.0.7
 
@@ -344,16 +344,16 @@
 
 - Updated dependencies [034e229]
 - Updated dependencies [f25040d]
-  - @ai-sdk/provider-utils@3.0.3
-  - @ai-sdk/openai-compatible@1.0.7
+  - @open-stack/provider-utils@3.0.3
+  - @open-stack/openai-compatible@1.0.7
 
 ## 1.0.6
 
 ### Patch Changes
 
 - Updated dependencies [38ac190]
-  - @ai-sdk/provider-utils@3.0.2
-  - @ai-sdk/openai-compatible@1.0.6
+  - @open-stack/provider-utils@3.0.2
+  - @open-stack/openai-compatible@1.0.6
 
 ## 1.0.5
 
@@ -361,7 +361,7 @@
 
 - Updated dependencies [8f8a521]
 - Updated dependencies [e92b78b]
-  - @ai-sdk/openai-compatible@1.0.5
+  - @open-stack/openai-compatible@1.0.5
 
 ## 1.0.4
 
@@ -369,14 +369,14 @@
 
 - Updated dependencies [5f4c71f]
 - Updated dependencies [da314cd]
-  - @ai-sdk/openai-compatible@1.0.4
+  - @open-stack/openai-compatible@1.0.4
 
 ## 1.0.3
 
 ### Patch Changes
 
 - Updated dependencies [a0934f8]
-  - @ai-sdk/openai-compatible@1.0.3
+  - @open-stack/openai-compatible@1.0.3
 
 ## 1.0.2
 
@@ -384,15 +384,15 @@
 
 - Updated dependencies [b499112]
 - Updated dependencies [90d212f]
-  - @ai-sdk/openai-compatible@1.0.2
-  - @ai-sdk/provider-utils@3.0.1
+  - @open-stack/openai-compatible@1.0.2
+  - @open-stack/provider-utils@3.0.1
 
 ## 1.0.1
 
 ### Patch Changes
 
 - Updated dependencies [0e8ed8e]
-  - @ai-sdk/openai-compatible@1.0.1
+  - @open-stack/openai-compatible@1.0.1
 
 ## 1.0.0
 
@@ -520,42 +520,42 @@
 - Updated dependencies [27deb4d]
 - Updated dependencies [c4df419]
 - Updated dependencies [281bb1c]
-  - @ai-sdk/provider-utils@3.0.0
-  - @ai-sdk/provider@2.0.0
-  - @ai-sdk/openai-compatible@1.0.0
+  - @open-stack/provider-utils@3.0.0
+  - @open-stack/provider@2.0.0
+  - @open-stack/openai-compatible@1.0.0
 
 ## 1.0.0-beta.13
 
 ### Patch Changes
 
 - Updated dependencies [88a8ee5]
-  - @ai-sdk/provider-utils@3.0.0-beta.10
-  - @ai-sdk/openai-compatible@1.0.0-beta.13
+  - @open-stack/provider-utils@3.0.0-beta.10
+  - @open-stack/openai-compatible@1.0.0-beta.13
 
 ## 1.0.0-beta.12
 
 ### Patch Changes
 
 - Updated dependencies [27deb4d]
-  - @ai-sdk/provider@2.0.0-beta.2
-  - @ai-sdk/openai-compatible@1.0.0-beta.12
-  - @ai-sdk/provider-utils@3.0.0-beta.9
+  - @open-stack/provider@2.0.0-beta.2
+  - @open-stack/openai-compatible@1.0.0-beta.12
+  - @open-stack/provider-utils@3.0.0-beta.9
 
 ## 1.0.0-beta.11
 
 ### Patch Changes
 
 - Updated dependencies [dd5fd43]
-  - @ai-sdk/provider-utils@3.0.0-beta.8
-  - @ai-sdk/openai-compatible@1.0.0-beta.11
+  - @open-stack/provider-utils@3.0.0-beta.8
+  - @open-stack/openai-compatible@1.0.0-beta.11
 
 ## 1.0.0-beta.10
 
 ### Patch Changes
 
 - Updated dependencies [e7fcc86]
-  - @ai-sdk/provider-utils@3.0.0-beta.7
-  - @ai-sdk/openai-compatible@1.0.0-beta.10
+  - @open-stack/provider-utils@3.0.0-beta.7
+  - @open-stack/openai-compatible@1.0.0-beta.10
 
 ## 1.0.0-beta.9
 
@@ -563,8 +563,8 @@
 
 - Updated dependencies [737f1e2]
 - Updated dependencies [ac34802]
-  - @ai-sdk/openai-compatible@1.0.0-beta.9
-  - @ai-sdk/provider-utils@3.0.0-beta.6
+  - @open-stack/openai-compatible@1.0.0-beta.9
+  - @open-stack/provider-utils@3.0.0-beta.6
 
 ## 1.0.0-beta.8
 
@@ -572,8 +572,8 @@
 
 - Updated dependencies [57edfcb]
 - Updated dependencies [383cbfa]
-  - @ai-sdk/provider-utils@3.0.0-beta.5
-  - @ai-sdk/openai-compatible@1.0.0-beta.8
+  - @open-stack/provider-utils@3.0.0-beta.5
+  - @open-stack/openai-compatible@1.0.0-beta.8
 
 ## 1.0.0-beta.7
 
@@ -581,37 +581,37 @@
 
 - 205077b: fix: improve Zod compatibility
 - Updated dependencies [205077b]
-  - @ai-sdk/openai-compatible@1.0.0-beta.7
-  - @ai-sdk/provider-utils@3.0.0-beta.4
+  - @open-stack/openai-compatible@1.0.0-beta.7
+  - @open-stack/provider-utils@3.0.0-beta.4
 
 ## 1.0.0-beta.6
 
 ### Patch Changes
 
 - Updated dependencies [281bb1c]
-  - @ai-sdk/openai-compatible@1.0.0-beta.6
+  - @open-stack/openai-compatible@1.0.0-beta.6
 
 ## 1.0.0-beta.5
 
 ### Patch Changes
 
 - Updated dependencies [05d2819]
-  - @ai-sdk/provider-utils@3.0.0-beta.3
-  - @ai-sdk/openai-compatible@1.0.0-beta.5
+  - @open-stack/provider-utils@3.0.0-beta.3
+  - @open-stack/openai-compatible@1.0.0-beta.5
 
 ## 1.0.0-beta.4
 
 ### Patch Changes
 
 - Updated dependencies [1b101e1]
-  - @ai-sdk/openai-compatible@1.0.0-beta.4
+  - @open-stack/openai-compatible@1.0.0-beta.4
 
 ## 1.0.0-beta.3
 
 ### Patch Changes
 
 - Updated dependencies [7b069ed]
-  - @ai-sdk/openai-compatible@1.0.0-beta.3
+  - @open-stack/openai-compatible@1.0.0-beta.3
 
 ## 1.0.0-beta.2
 
@@ -621,8 +621,8 @@
 - Updated dependencies [0571b98]
 - Updated dependencies [39a4fab]
 - Updated dependencies [d1a034f]
-  - @ai-sdk/provider-utils@3.0.0-beta.2
-  - @ai-sdk/openai-compatible@1.0.0-beta.2
+  - @open-stack/provider-utils@3.0.0-beta.2
+  - @open-stack/openai-compatible@1.0.0-beta.2
 
 ## 1.0.0-beta.1
 
@@ -645,9 +645,9 @@
 - Updated dependencies [5e57fae]
 - Updated dependencies [71f938d]
 - Updated dependencies [28a5ed5]
-  - @ai-sdk/provider@2.0.0-beta.1
-  - @ai-sdk/provider-utils@3.0.0-beta.1
-  - @ai-sdk/openai-compatible@1.0.0-beta.1
+  - @open-stack/provider@2.0.0-beta.1
+  - @open-stack/provider-utils@3.0.0-beta.1
+  - @open-stack/openai-compatible@1.0.0-beta.1
 
 ## 1.0.0-alpha.15
 
@@ -655,9 +655,9 @@
 
 - Updated dependencies [48d257a]
 - Updated dependencies [8ba77a7]
-  - @ai-sdk/provider@2.0.0-alpha.15
-  - @ai-sdk/provider-utils@3.0.0-alpha.15
-  - @ai-sdk/openai-compatible@1.0.0-alpha.15
+  - @open-stack/provider@2.0.0-alpha.15
+  - @open-stack/provider-utils@3.0.0-alpha.15
+  - @open-stack/openai-compatible@1.0.0-alpha.15
 
 ## 1.0.0-alpha.14
 
@@ -666,18 +666,18 @@
 - Updated dependencies [b5da06a]
 - Updated dependencies [63f9e9b]
 - Updated dependencies [2e13791]
-  - @ai-sdk/provider@2.0.0-alpha.14
-  - @ai-sdk/openai-compatible@1.0.0-alpha.14
-  - @ai-sdk/provider-utils@3.0.0-alpha.14
+  - @open-stack/provider@2.0.0-alpha.14
+  - @open-stack/openai-compatible@1.0.0-alpha.14
+  - @open-stack/provider-utils@3.0.0-alpha.14
 
 ## 1.0.0-alpha.13
 
 ### Patch Changes
 
 - Updated dependencies [68ecf2f]
-  - @ai-sdk/provider@2.0.0-alpha.13
-  - @ai-sdk/openai-compatible@1.0.0-alpha.13
-  - @ai-sdk/provider-utils@3.0.0-alpha.13
+  - @open-stack/provider@2.0.0-alpha.13
+  - @open-stack/openai-compatible@1.0.0-alpha.13
+  - @open-stack/provider-utils@3.0.0-alpha.13
 
 ## 1.0.0-alpha.12
 
@@ -685,36 +685,36 @@
 
 - e2aceaf: feat: add raw chunk support
 - Updated dependencies [e2aceaf]
-  - @ai-sdk/openai-compatible@1.0.0-alpha.12
-  - @ai-sdk/provider@2.0.0-alpha.12
-  - @ai-sdk/provider-utils@3.0.0-alpha.12
+  - @open-stack/openai-compatible@1.0.0-alpha.12
+  - @open-stack/provider@2.0.0-alpha.12
+  - @open-stack/provider-utils@3.0.0-alpha.12
 
 ## 1.0.0-alpha.11
 
 ### Patch Changes
 
 - Updated dependencies [c1e6647]
-  - @ai-sdk/provider@2.0.0-alpha.11
-  - @ai-sdk/openai-compatible@1.0.0-alpha.11
-  - @ai-sdk/provider-utils@3.0.0-alpha.11
+  - @open-stack/provider@2.0.0-alpha.11
+  - @open-stack/openai-compatible@1.0.0-alpha.11
+  - @open-stack/provider-utils@3.0.0-alpha.11
 
 ## 1.0.0-alpha.10
 
 ### Patch Changes
 
 - Updated dependencies [c4df419]
-  - @ai-sdk/provider@2.0.0-alpha.10
-  - @ai-sdk/openai-compatible@1.0.0-alpha.10
-  - @ai-sdk/provider-utils@3.0.0-alpha.10
+  - @open-stack/provider@2.0.0-alpha.10
+  - @open-stack/openai-compatible@1.0.0-alpha.10
+  - @open-stack/provider-utils@3.0.0-alpha.10
 
 ## 1.0.0-alpha.9
 
 ### Patch Changes
 
 - Updated dependencies [811dff3]
-  - @ai-sdk/provider@2.0.0-alpha.9
-  - @ai-sdk/openai-compatible@1.0.0-alpha.9
-  - @ai-sdk/provider-utils@3.0.0-alpha.9
+  - @open-stack/provider@2.0.0-alpha.9
+  - @open-stack/openai-compatible@1.0.0-alpha.9
+  - @open-stack/provider-utils@3.0.0-alpha.9
 
 ## 1.0.0-alpha.8
 
@@ -722,79 +722,79 @@
 
 - Updated dependencies [4fef487]
 - Updated dependencies [9222aeb]
-  - @ai-sdk/provider-utils@3.0.0-alpha.8
-  - @ai-sdk/provider@2.0.0-alpha.8
-  - @ai-sdk/openai-compatible@1.0.0-alpha.8
+  - @open-stack/provider-utils@3.0.0-alpha.8
+  - @open-stack/provider@2.0.0-alpha.8
+  - @open-stack/openai-compatible@1.0.0-alpha.8
 
 ## 1.0.0-alpha.7
 
 ### Patch Changes
 
 - Updated dependencies [5c56081]
-  - @ai-sdk/provider@2.0.0-alpha.7
-  - @ai-sdk/openai-compatible@1.0.0-alpha.7
-  - @ai-sdk/provider-utils@3.0.0-alpha.7
+  - @open-stack/provider@2.0.0-alpha.7
+  - @open-stack/openai-compatible@1.0.0-alpha.7
+  - @open-stack/provider-utils@3.0.0-alpha.7
 
 ## 1.0.0-alpha.6
 
 ### Patch Changes
 
 - Updated dependencies [0d2c085]
-  - @ai-sdk/provider@2.0.0-alpha.6
-  - @ai-sdk/openai-compatible@1.0.0-alpha.6
-  - @ai-sdk/provider-utils@3.0.0-alpha.6
+  - @open-stack/provider@2.0.0-alpha.6
+  - @open-stack/openai-compatible@1.0.0-alpha.6
+  - @open-stack/provider-utils@3.0.0-alpha.6
 
 ## 1.0.0-alpha.4
 
 ### Patch Changes
 
 - Updated dependencies [dc714f3]
-  - @ai-sdk/provider@2.0.0-alpha.4
-  - @ai-sdk/openai-compatible@1.0.0-alpha.4
-  - @ai-sdk/provider-utils@3.0.0-alpha.4
+  - @open-stack/provider@2.0.0-alpha.4
+  - @open-stack/openai-compatible@1.0.0-alpha.4
+  - @open-stack/provider-utils@3.0.0-alpha.4
 
 ## 1.0.0-alpha.3
 
 ### Patch Changes
 
 - Updated dependencies [6b98118]
-  - @ai-sdk/provider@2.0.0-alpha.3
-  - @ai-sdk/openai-compatible@1.0.0-alpha.3
-  - @ai-sdk/provider-utils@3.0.0-alpha.3
+  - @open-stack/provider@2.0.0-alpha.3
+  - @open-stack/openai-compatible@1.0.0-alpha.3
+  - @open-stack/provider-utils@3.0.0-alpha.3
 
 ## 1.0.0-alpha.2
 
 ### Patch Changes
 
 - Updated dependencies [26535e0]
-  - @ai-sdk/provider@2.0.0-alpha.2
-  - @ai-sdk/openai-compatible@1.0.0-alpha.2
-  - @ai-sdk/provider-utils@3.0.0-alpha.2
+  - @open-stack/provider@2.0.0-alpha.2
+  - @open-stack/openai-compatible@1.0.0-alpha.2
+  - @open-stack/provider-utils@3.0.0-alpha.2
 
 ## 1.0.0-alpha.1
 
 ### Patch Changes
 
 - Updated dependencies [3f2f00c]
-  - @ai-sdk/provider@2.0.0-alpha.1
-  - @ai-sdk/openai-compatible@1.0.0-alpha.1
-  - @ai-sdk/provider-utils@3.0.0-alpha.1
+  - @open-stack/provider@2.0.0-alpha.1
+  - @open-stack/openai-compatible@1.0.0-alpha.1
+  - @open-stack/provider-utils@3.0.0-alpha.1
 
 ## 1.0.0-canary.19
 
 ### Patch Changes
 
 - Updated dependencies [faf8446]
-  - @ai-sdk/provider-utils@3.0.0-canary.19
-  - @ai-sdk/openai-compatible@1.0.0-canary.19
+  - @open-stack/provider-utils@3.0.0-canary.19
+  - @open-stack/openai-compatible@1.0.0-canary.19
 
 ## 1.0.0-canary.18
 
 ### Patch Changes
 
 - Updated dependencies [40acf9b]
-  - @ai-sdk/provider-utils@3.0.0-canary.18
-  - @ai-sdk/openai-compatible@1.0.0-canary.18
+  - @open-stack/provider-utils@3.0.0-canary.18
+  - @open-stack/openai-compatible@1.0.0-canary.18
 
 ## 1.0.0-canary.17
 
@@ -802,16 +802,16 @@
 
 - Updated dependencies [516be5b]
 - Updated dependencies [ea7a7c9]
-  - @ai-sdk/openai-compatible@1.0.0-canary.17
-  - @ai-sdk/provider-utils@3.0.0-canary.17
+  - @open-stack/openai-compatible@1.0.0-canary.17
+  - @open-stack/provider-utils@3.0.0-canary.17
 
 ## 1.0.0-canary.16
 
 ### Patch Changes
 
 - Updated dependencies [87b828f]
-  - @ai-sdk/provider-utils@3.0.0-canary.16
-  - @ai-sdk/openai-compatible@1.0.0-canary.16
+  - @open-stack/provider-utils@3.0.0-canary.16
+  - @open-stack/openai-compatible@1.0.0-canary.16
 
 ## 1.0.0-canary.15
 
@@ -821,9 +821,9 @@
 - Updated dependencies [a8c8bd5]
 - Updated dependencies [7979f7f]
 - Updated dependencies [41fa418]
-  - @ai-sdk/provider-utils@3.0.0-canary.15
-  - @ai-sdk/provider@2.0.0-canary.14
-  - @ai-sdk/openai-compatible@1.0.0-canary.15
+  - @open-stack/provider-utils@3.0.0-canary.15
+  - @open-stack/provider@2.0.0-canary.14
+  - @open-stack/openai-compatible@1.0.0-canary.15
 
 ## 1.0.0-canary.14
 
@@ -831,9 +831,9 @@
 
 - Updated dependencies [957b739]
 - Updated dependencies [9bd5ab5]
-  - @ai-sdk/provider-utils@3.0.0-canary.14
-  - @ai-sdk/provider@2.0.0-canary.13
-  - @ai-sdk/openai-compatible@1.0.0-canary.14
+  - @open-stack/provider-utils@3.0.0-canary.14
+  - @open-stack/provider@2.0.0-canary.13
+  - @open-stack/openai-compatible@1.0.0-canary.14
 
 ## 1.0.0-canary.13
 
@@ -842,9 +842,9 @@
 - Updated dependencies [7b3ae3f]
 - Updated dependencies [d9209ca]
 - Updated dependencies [0ff02bb]
-  - @ai-sdk/provider@2.0.0-canary.12
-  - @ai-sdk/openai-compatible@1.0.0-canary.13
-  - @ai-sdk/provider-utils@3.0.0-canary.13
+  - @open-stack/provider@2.0.0-canary.12
+  - @open-stack/openai-compatible@1.0.0-canary.13
+  - @open-stack/provider-utils@3.0.0-canary.13
 
 ## 1.0.0-canary.12
 
@@ -853,9 +853,9 @@
 - Updated dependencies [9bf7291]
 - Updated dependencies [4617fab]
 - Updated dependencies [e030615]
-  - @ai-sdk/provider@2.0.0-canary.11
-  - @ai-sdk/openai-compatible@1.0.0-canary.12
-  - @ai-sdk/provider-utils@3.0.0-canary.12
+  - @open-stack/provider@2.0.0-canary.11
+  - @open-stack/openai-compatible@1.0.0-canary.12
+  - @open-stack/provider-utils@3.0.0-canary.12
 
 ## 1.0.0-canary.11
 
@@ -866,9 +866,9 @@
 - Updated dependencies [66962ed]
 - Updated dependencies [9301f86]
 - Updated dependencies [a3f768e]
-  - @ai-sdk/openai-compatible@1.0.0-canary.11
-  - @ai-sdk/provider-utils@3.0.0-canary.11
-  - @ai-sdk/provider@2.0.0-canary.10
+  - @open-stack/openai-compatible@1.0.0-canary.11
+  - @open-stack/provider-utils@3.0.0-canary.11
+  - @open-stack/provider@2.0.0-canary.10
 
 ## 1.0.0-canary.10
 
@@ -876,9 +876,9 @@
 
 - Updated dependencies [cf8280e]
 - Updated dependencies [e86be6f]
-  - @ai-sdk/openai-compatible@1.0.0-canary.10
-  - @ai-sdk/provider@2.0.0-canary.9
-  - @ai-sdk/provider-utils@3.0.0-canary.10
+  - @open-stack/openai-compatible@1.0.0-canary.10
+  - @open-stack/provider@2.0.0-canary.9
+  - @open-stack/provider-utils@3.0.0-canary.10
 
 ## 1.0.0-canary.9
 
@@ -886,9 +886,9 @@
 
 - Updated dependencies [95857aa]
 - Updated dependencies [7ea4132]
-  - @ai-sdk/provider@2.0.0-canary.8
-  - @ai-sdk/openai-compatible@1.0.0-canary.9
-  - @ai-sdk/provider-utils@3.0.0-canary.9
+  - @open-stack/provider@2.0.0-canary.8
+  - @open-stack/openai-compatible@1.0.0-canary.9
+  - @open-stack/provider-utils@3.0.0-canary.9
 
 ## 1.0.0-canary.8
 
@@ -899,9 +899,9 @@
 - Updated dependencies [b9a6121]
 - Updated dependencies [8aa9e20]
 - Updated dependencies [3795467]
-  - @ai-sdk/provider-utils@3.0.0-canary.8
-  - @ai-sdk/provider@2.0.0-canary.7
-  - @ai-sdk/openai-compatible@1.0.0-canary.8
+  - @open-stack/provider-utils@3.0.0-canary.8
+  - @open-stack/provider@2.0.0-canary.7
+  - @open-stack/openai-compatible@1.0.0-canary.8
 
 ## 1.0.0-canary.7
 
@@ -921,9 +921,9 @@
 - Updated dependencies [fd65bc6]
 - Updated dependencies [393138b]
 - Updated dependencies [7182d14]
-  - @ai-sdk/openai-compatible@1.0.0-canary.7
-  - @ai-sdk/provider@2.0.0-canary.6
-  - @ai-sdk/provider-utils@3.0.0-canary.7
+  - @open-stack/openai-compatible@1.0.0-canary.7
+  - @open-stack/provider@2.0.0-canary.6
+  - @open-stack/provider-utils@3.0.0-canary.7
 
 ## 1.0.0-canary.6
 
@@ -935,27 +935,27 @@
 - Updated dependencies [ad80501]
 - Updated dependencies [1766ede]
 - Updated dependencies [f10304b]
-  - @ai-sdk/openai-compatible@1.0.0-canary.6
-  - @ai-sdk/provider@2.0.0-canary.5
-  - @ai-sdk/provider-utils@3.0.0-canary.6
+  - @open-stack/openai-compatible@1.0.0-canary.6
+  - @open-stack/provider@2.0.0-canary.5
+  - @open-stack/provider-utils@3.0.0-canary.6
 
 ## 1.0.0-canary.5
 
 ### Patch Changes
 
 - Updated dependencies [6f6bb89]
-  - @ai-sdk/provider@2.0.0-canary.4
-  - @ai-sdk/openai-compatible@1.0.0-canary.5
-  - @ai-sdk/provider-utils@3.0.0-canary.5
+  - @open-stack/provider@2.0.0-canary.4
+  - @open-stack/openai-compatible@1.0.0-canary.5
+  - @open-stack/provider-utils@3.0.0-canary.5
 
 ## 1.0.0-canary.4
 
 ### Patch Changes
 
 - Updated dependencies [d1a1aa1]
-  - @ai-sdk/provider@2.0.0-canary.3
-  - @ai-sdk/openai-compatible@1.0.0-canary.4
-  - @ai-sdk/provider-utils@3.0.0-canary.4
+  - @open-stack/provider@2.0.0-canary.3
+  - @open-stack/openai-compatible@1.0.0-canary.4
+  - @open-stack/provider-utils@3.0.0-canary.4
 
 ## 1.0.0-canary.3
 
@@ -966,9 +966,9 @@
 - Updated dependencies [9f95b35]
 - Updated dependencies [0a87932]
 - Updated dependencies [6dc848c]
-  - @ai-sdk/provider-utils@3.0.0-canary.3
-  - @ai-sdk/provider@2.0.0-canary.2
-  - @ai-sdk/openai-compatible@1.0.0-canary.3
+  - @open-stack/provider-utils@3.0.0-canary.3
+  - @open-stack/provider@2.0.0-canary.2
+  - @open-stack/openai-compatible@1.0.0-canary.3
 
 ## 1.0.0-canary.2
 
@@ -976,9 +976,9 @@
 
 - Updated dependencies [c57e248]
 - Updated dependencies [33f4a6a]
-  - @ai-sdk/provider@2.0.0-canary.1
-  - @ai-sdk/openai-compatible@1.0.0-canary.2
-  - @ai-sdk/provider-utils@3.0.0-canary.2
+  - @open-stack/provider@2.0.0-canary.1
+  - @open-stack/openai-compatible@1.0.0-canary.2
+  - @open-stack/provider-utils@3.0.0-canary.2
 
 ## 1.0.0-canary.1
 
@@ -987,8 +987,8 @@
 - Updated dependencies [060370c]
 - Updated dependencies [0c0c0b3]
 - Updated dependencies [63d791d]
-  - @ai-sdk/provider-utils@3.0.0-canary.1
-  - @ai-sdk/openai-compatible@1.0.0-canary.1
+  - @open-stack/provider-utils@3.0.0-canary.1
+  - @open-stack/openai-compatible@1.0.0-canary.1
 
 ## 1.0.0-canary.0
 
@@ -999,47 +999,47 @@
 ### Patch Changes
 
 - Updated dependencies [d5f588f]
-  - @ai-sdk/provider-utils@3.0.0-canary.0
-  - @ai-sdk/openai-compatible@1.0.0-canary.0
-  - @ai-sdk/provider@2.0.0-canary.0
+  - @open-stack/provider-utils@3.0.0-canary.0
+  - @open-stack/openai-compatible@1.0.0-canary.0
+  - @open-stack/provider@2.0.0-canary.0
 
 ## 0.2.5
 
 ### Patch Changes
 
 - Updated dependencies [d186cca]
-  - @ai-sdk/openai-compatible@0.2.5
+  - @open-stack/openai-compatible@0.2.5
 
 ## 0.2.4
 
 ### Patch Changes
 
 - Updated dependencies [28be004]
-  - @ai-sdk/provider-utils@2.2.3
-  - @ai-sdk/openai-compatible@0.2.4
+  - @open-stack/provider-utils@2.2.3
+  - @open-stack/openai-compatible@0.2.4
 
 ## 0.2.3
 
 ### Patch Changes
 
 - Updated dependencies [b01120e]
-  - @ai-sdk/provider-utils@2.2.2
-  - @ai-sdk/openai-compatible@0.2.3
+  - @open-stack/provider-utils@2.2.2
+  - @open-stack/openai-compatible@0.2.3
 
 ## 0.2.2
 
 ### Patch Changes
 
 - Updated dependencies [a6b55cc]
-  - @ai-sdk/openai-compatible@0.2.2
+  - @open-stack/openai-compatible@0.2.2
 
 ## 0.2.1
 
 ### Patch Changes
 
 - Updated dependencies [f10f0fa]
-  - @ai-sdk/provider-utils@2.2.1
-  - @ai-sdk/openai-compatible@0.2.1
+  - @open-stack/provider-utils@2.2.1
+  - @open-stack/openai-compatible@0.2.1
 
 ## 0.2.0
 
@@ -1050,126 +1050,126 @@
 ### Patch Changes
 
 - Updated dependencies [5bc638d]
-  - @ai-sdk/openai-compatible@0.2.0
-  - @ai-sdk/provider@1.1.0
-  - @ai-sdk/provider-utils@2.2.0
+  - @open-stack/openai-compatible@0.2.0
+  - @open-stack/provider@1.1.0
+  - @open-stack/provider-utils@2.2.0
 
 ## 0.1.17
 
 ### Patch Changes
 
 - Updated dependencies [d0c4659]
-  - @ai-sdk/provider-utils@2.1.15
-  - @ai-sdk/openai-compatible@0.1.17
+  - @open-stack/provider-utils@2.1.15
+  - @open-stack/openai-compatible@0.1.17
 
 ## 0.1.16
 
 ### Patch Changes
 
 - Updated dependencies [0bd5bc6]
-  - @ai-sdk/provider@1.0.12
-  - @ai-sdk/openai-compatible@0.1.16
-  - @ai-sdk/provider-utils@2.1.14
+  - @open-stack/provider@1.0.12
+  - @open-stack/openai-compatible@0.1.16
+  - @open-stack/provider-utils@2.1.14
 
 ## 0.1.15
 
 ### Patch Changes
 
 - Updated dependencies [2e1101a]
-  - @ai-sdk/provider@1.0.11
-  - @ai-sdk/openai-compatible@0.1.15
-  - @ai-sdk/provider-utils@2.1.13
+  - @open-stack/provider@1.0.11
+  - @open-stack/openai-compatible@0.1.15
+  - @open-stack/provider-utils@2.1.13
 
 ## 0.1.14
 
 ### Patch Changes
 
 - Updated dependencies [1531959]
-  - @ai-sdk/provider-utils@2.1.12
-  - @ai-sdk/openai-compatible@0.1.14
+  - @open-stack/provider-utils@2.1.12
+  - @open-stack/openai-compatible@0.1.14
 
 ## 0.1.13
 
 ### Patch Changes
 
 - Updated dependencies [e1d3d42]
-  - @ai-sdk/openai-compatible@0.1.13
-  - @ai-sdk/provider@1.0.10
-  - @ai-sdk/provider-utils@2.1.11
+  - @open-stack/openai-compatible@0.1.13
+  - @open-stack/provider@1.0.10
+  - @open-stack/provider-utils@2.1.11
 
 ## 0.1.12
 
 ### Patch Changes
 
 - Updated dependencies [ddf9740]
-  - @ai-sdk/provider@1.0.9
-  - @ai-sdk/openai-compatible@0.1.12
-  - @ai-sdk/provider-utils@2.1.10
+  - @open-stack/provider@1.0.9
+  - @open-stack/openai-compatible@0.1.12
+  - @open-stack/provider-utils@2.1.10
 
 ## 0.1.11
 
 ### Patch Changes
 
 - Updated dependencies [2761f06]
-  - @ai-sdk/provider@1.0.8
-  - @ai-sdk/openai-compatible@0.1.11
-  - @ai-sdk/provider-utils@2.1.9
+  - @open-stack/provider@1.0.8
+  - @open-stack/openai-compatible@0.1.11
+  - @open-stack/provider-utils@2.1.9
 
 ## 0.1.10
 
 ### Patch Changes
 
 - Updated dependencies [2e898b4]
-  - @ai-sdk/provider-utils@2.1.8
-  - @ai-sdk/openai-compatible@0.1.10
+  - @open-stack/provider-utils@2.1.8
+  - @open-stack/openai-compatible@0.1.10
 
 ## 0.1.9
 
 ### Patch Changes
 
 - Updated dependencies [3ff4ef8]
-  - @ai-sdk/provider-utils@2.1.7
-  - @ai-sdk/openai-compatible@0.1.9
+  - @open-stack/provider-utils@2.1.7
+  - @open-stack/openai-compatible@0.1.9
 
 ## 0.1.8
 
 ### Patch Changes
 
 - Updated dependencies [d89c3b9]
-  - @ai-sdk/provider@1.0.7
-  - @ai-sdk/openai-compatible@0.1.8
-  - @ai-sdk/provider-utils@2.1.6
+  - @open-stack/provider@1.0.7
+  - @open-stack/openai-compatible@0.1.8
+  - @open-stack/provider-utils@2.1.6
 
 ## 0.1.7
 
 ### Patch Changes
 
 - Updated dependencies [f2c6c37]
-  - @ai-sdk/openai-compatible@0.1.7
+  - @open-stack/openai-compatible@0.1.7
 
 ## 0.1.6
 
 ### Patch Changes
 
 - Updated dependencies [3a602ca]
-  - @ai-sdk/provider-utils@2.1.5
-  - @ai-sdk/openai-compatible@0.1.6
+  - @open-stack/provider-utils@2.1.5
+  - @open-stack/openai-compatible@0.1.6
 
 ## 0.1.5
 
 ### Patch Changes
 
 - Updated dependencies [066206e]
-  - @ai-sdk/provider-utils@2.1.4
-  - @ai-sdk/openai-compatible@0.1.5
+  - @open-stack/provider-utils@2.1.4
+  - @open-stack/openai-compatible@0.1.5
 
 ## 0.1.4
 
 ### Patch Changes
 
 - Updated dependencies [39e5c1f]
-  - @ai-sdk/provider-utils@2.1.3
-  - @ai-sdk/openai-compatible@0.1.4
+  - @open-stack/provider-utils@2.1.3
+  - @open-stack/openai-compatible@0.1.4
 
 ## 0.1.3
 
@@ -1177,7 +1177,7 @@
 
 - 361fd08: chore: update a few add'l processor references to extractor
 - Updated dependencies [361fd08]
-  - @ai-sdk/openai-compatible@0.1.3
+  - @open-stack/openai-compatible@0.1.3
 
 ## 0.1.2
 
@@ -1186,9 +1186,9 @@
 - ed012d2: feat (provider/deepseek): extract cache usage as provide metadata
 - Updated dependencies [ed012d2]
 - Updated dependencies [3a58a2e]
-  - @ai-sdk/openai-compatible@0.1.2
-  - @ai-sdk/provider-utils@2.1.2
-  - @ai-sdk/provider@1.0.6
+  - @open-stack/openai-compatible@0.1.2
+  - @open-stack/provider-utils@2.1.2
+  - @open-stack/provider@1.0.6
 
 ## 0.1.1
 
@@ -1197,9 +1197,9 @@
 - 0a699f1: feat: add reasoning token support
 - Updated dependencies [e7a9ec9]
 - Updated dependencies [0a699f1]
-  - @ai-sdk/provider-utils@2.1.1
-  - @ai-sdk/openai-compatible@0.1.1
-  - @ai-sdk/provider@1.0.5
+  - @open-stack/provider-utils@2.1.1
+  - @open-stack/openai-compatible@0.1.1
+  - @open-stack/provider@1.0.5
 
 ## 0.1.0
 
@@ -1210,30 +1210,30 @@
 ### Patch Changes
 
 - Updated dependencies [62ba5ad]
-  - @ai-sdk/openai-compatible@0.1.0
-  - @ai-sdk/provider-utils@2.1.0
+  - @open-stack/openai-compatible@0.1.0
+  - @open-stack/provider-utils@2.1.0
 
 ## 0.0.6
 
 ### Patch Changes
 
 - Updated dependencies [00114c5]
-  - @ai-sdk/provider-utils@2.0.8
-  - @ai-sdk/openai-compatible@0.0.18
+  - @open-stack/provider-utils@2.0.8
+  - @open-stack/openai-compatible@0.0.18
 
 ## 0.0.5
 
 ### Patch Changes
 
 - Updated dependencies [ae57beb]
-  - @ai-sdk/openai-compatible@0.0.17
+  - @open-stack/openai-compatible@0.0.17
 
 ## 0.0.4
 
 ### Patch Changes
 
 - Updated dependencies [7611964]
-  - @ai-sdk/openai-compatible@0.0.16
+  - @open-stack/openai-compatible@0.0.16
 
 ## 0.0.3
 
@@ -1242,8 +1242,8 @@
 - Updated dependencies [90fb95a]
 - Updated dependencies [e6dfef4]
 - Updated dependencies [6636db6]
-  - @ai-sdk/provider-utils@2.0.7
-  - @ai-sdk/openai-compatible@0.0.15
+  - @open-stack/provider-utils@2.0.7
+  - @open-stack/openai-compatible@0.0.15
 
 ## 0.0.2
 
@@ -1253,9 +1253,9 @@
 - Updated dependencies [19a2ce7]
 - Updated dependencies [43b37f7]
 - Updated dependencies [6337688]
-  - @ai-sdk/provider@1.0.4
-  - @ai-sdk/provider-utils@2.0.6
-  - @ai-sdk/openai-compatible@0.0.14
+  - @open-stack/provider@1.0.4
+  - @open-stack/provider-utils@2.0.6
+  - @open-stack/openai-compatible@0.0.14
 
 ## 0.0.1
 

@@ -1,4 +1,4 @@
-import { bedrock } from '@ai-sdk/amazon-bedrock';
+import { bedrock } from '@open-stack/amazon-bedrock';
 import { rerank } from 'ai';
 import { run } from '../lib/run';
 import { print } from '../lib/print';

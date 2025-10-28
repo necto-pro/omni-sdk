@@ -4,24 +4,24 @@ The **[Baseten provider](https://ai-sdk.dev/providers/ai-sdk-providers/baseten)*
 
 ## Setup
 
-The Baseten provider is available in the `@ai-sdk/baseten` module. You can install it with
+The Baseten provider is available in the `@open-stack/baseten` module. You can install it with
 
 ```bash
-npm i @ai-sdk/baseten
+npm i @open-stack/baseten
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `baseten` from `@ai-sdk/baseten`:
+You can import the default provider instance `baseten` from `@open-stack/baseten`:
 
 ```ts
-import { baseten } from '@ai-sdk/baseten';
+import { baseten } from '@open-stack/baseten';
 ```
 
 ## Language Model Example (Model APIs)
 
 ```ts
-import { baseten } from '@ai-sdk/baseten';
+import { baseten } from '@open-stack/baseten';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

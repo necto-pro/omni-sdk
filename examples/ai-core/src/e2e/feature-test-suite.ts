@@ -1,9 +1,9 @@
-import type { GoogleGenerativeAIProviderMetadata } from '@ai-sdk/google';
+import type { GoogleGenerativeAIProviderMetadata } from '@open-stack/google';
 import type {
   EmbeddingModelV3,
   ImageModelV3,
   LanguageModelV3,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   APICallError,
   embed,

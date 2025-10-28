@@ -3,14 +3,14 @@ import {
   LanguageModelV3,
   ProviderV3,
   ImageModelV3,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   generateId,
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { VERSION } from './version';
 import { GoogleGenerativeAIEmbeddingModel } from './google-generative-ai-embedding-model';
 import { GoogleGenerativeAIEmbeddingModelId } from './google-generative-ai-embedding-options';

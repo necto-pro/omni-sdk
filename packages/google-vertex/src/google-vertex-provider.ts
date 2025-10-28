@@ -1,5 +1,5 @@
-import { GoogleGenerativeAILanguageModel } from '@ai-sdk/google/internal';
-import { ImageModelV3, LanguageModelV3, ProviderV3 } from '@ai-sdk/provider';
+import { GoogleGenerativeAILanguageModel } from '@open-stack/google/internal';
+import { ImageModelV3, LanguageModelV3, ProviderV3 } from '@open-stack/provider';
 import {
   FetchFunction,
   generateId,
@@ -8,7 +8,7 @@ import {
   Resolvable,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { VERSION } from './version';
 import { GoogleVertexConfig } from './google-vertex-config';
 import { GoogleVertexEmbeddingModel } from './google-vertex-embedding-model';

@@ -1,2 +1,2 @@
 // @ts-nocheck
-import { useChat } from '@ai-sdk/vue';
+import { useChat } from '@open-stack/vue';

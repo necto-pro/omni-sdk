@@ -4,24 +4,24 @@ The **[Mistral provider](https://ai-sdk.dev/providers/ai-sdk-providers/mistral)*
 
 ## Setup
 
-The Mistral provider is available in the `@ai-sdk/mistral` module. You can install it with
+The Mistral provider is available in the `@open-stack/mistral` module. You can install it with
 
 ```bash
-npm i @ai-sdk/mistral
+npm i @open-stack/mistral
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `mistral` from `@ai-sdk/mistral`:
+You can import the default provider instance `mistral` from `@open-stack/mistral`:
 
 ```ts
-import { mistral } from '@ai-sdk/mistral';
+import { mistral } from '@open-stack/mistral';
 ```
 
 ## Example
 
 ```ts
-import { mistral } from '@ai-sdk/mistral';
+import { mistral } from '@open-stack/mistral';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

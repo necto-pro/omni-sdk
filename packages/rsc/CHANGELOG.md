@@ -1,79 +1,4 @@
-# @ai-sdk/rsc
-
-## 2.0.0-beta.81
-
-### Patch Changes
-
-- ai@6.0.0-beta.81
-
-## 2.0.0-beta.80
-
-### Patch Changes
-
-- Updated dependencies [9524761]
-  - ai@6.0.0-beta.80
-
-## 2.0.0-beta.79
-
-### Patch Changes
-
-- Updated dependencies [d1bdadb]
-- Updated dependencies [d1bdadb]
-  - @ai-sdk/provider@3.0.0-beta.12
-  - ai@6.0.0-beta.79
-  - @ai-sdk/provider-utils@4.0.0-beta.26
-
-## 2.0.0-beta.78
-
-### Patch Changes
-
-- Updated dependencies [4c44a5b]
-  - @ai-sdk/provider@3.0.0-beta.11
-  - ai@6.0.0-beta.78
-  - @ai-sdk/provider-utils@4.0.0-beta.25
-
-## 2.0.0-beta.77
-
-### Patch Changes
-
-- Updated dependencies [0c3b58b]
-  - @ai-sdk/provider@3.0.0-beta.10
-  - ai@6.0.0-beta.77
-  - @ai-sdk/provider-utils@4.0.0-beta.24
-
-## 2.0.0-beta.76
-
-### Patch Changes
-
-- Updated dependencies [a755db5]
-- Updated dependencies [a755db5]
-  - ai@6.0.0-beta.76
-  - @ai-sdk/provider@3.0.0-beta.9
-  - @ai-sdk/provider-utils@4.0.0-beta.23
-
-## 2.0.0-beta.75
-
-### Patch Changes
-
-- Updated dependencies [58920e0]
-- Updated dependencies [58920e0]
-  - ai@6.0.0-beta.75
-  - @ai-sdk/provider-utils@4.0.0-beta.22
-
-## 2.0.0-beta.74
-
-### Patch Changes
-
-- Updated dependencies [293a6b7]
-  - @ai-sdk/provider-utils@4.0.0-beta.21
-  - ai@6.0.0-beta.74
-
-## 2.0.0-beta.73
-
-### Patch Changes
-
-- Updated dependencies [754df61]
-  - ai@6.0.0-beta.73
+# @omni-stack/rsc
 
 ## 2.0.0-beta.72
 
@@ -123,7 +48,7 @@
 - Updated dependencies [fca786b]
 - Updated dependencies [fca786b]
   - ai@6.0.0-beta.66
-  - @ai-sdk/provider-utils@4.0.0-beta.20
+  - @omni-stack/provider-utils@4.0.0-beta.20
 
 ## 2.0.0-beta.65
 
@@ -193,8 +118,8 @@
 ### Patch Changes
 
 - Updated dependencies [3794514]
-  - @ai-sdk/provider-utils@4.0.0-beta.19
-  - @ai-sdk/provider@3.0.0-beta.8
+  - @omni-stack/provider-utils@4.0.0-beta.19
+  - @omni-stack/provider@3.0.0-beta.8
   - ai@6.0.0-beta.56
 
 ## 2.0.0-beta.55
@@ -237,15 +162,15 @@
 - Updated dependencies [4812235]
 - Updated dependencies [81d4308]
   - ai@6.0.0-beta.50
-  - @ai-sdk/provider@3.0.0-beta.7
-  - @ai-sdk/provider-utils@4.0.0-beta.18
+  - @omni-stack/provider@3.0.0-beta.7
+  - @omni-stack/provider-utils@4.0.0-beta.18
 
 ## 2.0.0-beta.49
 
 ### Patch Changes
 
 - Updated dependencies [703459a]
-  - @ai-sdk/provider-utils@4.0.0-beta.17
+  - @omni-stack/provider-utils@4.0.0-beta.17
   - ai@6.0.0-beta.49
 
 ## 2.0.0-beta.48
@@ -294,7 +219,7 @@
 ### Patch Changes
 
 - Updated dependencies [6306603]
-  - @ai-sdk/provider-utils@4.0.0-beta.16
+  - @omni-stack/provider-utils@4.0.0-beta.16
   - ai@6.0.0-beta.42
 
 ## 2.0.0-beta.41
@@ -302,7 +227,7 @@
 ### Patch Changes
 
 - Updated dependencies [f0b2157]
-  - @ai-sdk/provider-utils@4.0.0-beta.15
+  - @omni-stack/provider-utils@4.0.0-beta.15
   - ai@6.0.0-beta.41
 
 ## 2.0.0-beta.40
@@ -310,7 +235,7 @@
 ### Patch Changes
 
 - Updated dependencies [3b1d015]
-  - @ai-sdk/provider-utils@4.0.0-beta.14
+  - @omni-stack/provider-utils@4.0.0-beta.14
   - ai@6.0.0-beta.40
 
 ## 2.0.0-beta.39
@@ -325,7 +250,7 @@
 ### Patch Changes
 
 - Updated dependencies [d116b4b]
-  - @ai-sdk/provider-utils@4.0.0-beta.13
+  - @omni-stack/provider-utils@4.0.0-beta.13
   - ai@6.0.0-beta.38
 
 ## 2.0.0-beta.37
@@ -333,7 +258,7 @@
 ### Patch Changes
 
 - Updated dependencies [7e32fea]
-  - @ai-sdk/provider-utils@4.0.0-beta.12
+  - @omni-stack/provider-utils@4.0.0-beta.12
   - ai@6.0.0-beta.37
 
 ## 2.0.0-beta.36
@@ -376,7 +301,7 @@
 - 95f65c2: chore: use import \* from zod/v4
 - Updated dependencies [95f65c2]
 - Updated dependencies [95f65c2]
-  - @ai-sdk/provider-utils@4.0.0-beta.11
+  - @omni-stack/provider-utils@4.0.0-beta.11
   - ai@6.0.0-beta.31
 
 ## 2.0.0-beta.30
@@ -395,15 +320,15 @@
 
 - Updated dependencies [dee8b05]
   - ai@6.0.0-beta.29
-  - @ai-sdk/provider@3.0.0-beta.6
-  - @ai-sdk/provider-utils@4.0.0-beta.10
+  - @omni-stack/provider@3.0.0-beta.6
+  - @omni-stack/provider-utils@4.0.0-beta.10
 
 ## 1.1.0-beta.28
 
 ### Patch Changes
 
 - Updated dependencies [521c537]
-  - @ai-sdk/provider-utils@3.1.0-beta.9
+  - @omni-stack/provider-utils@3.1.0-beta.9
   - ai@5.1.0-beta.28
 
 ## 1.1.0-beta.27
@@ -411,7 +336,7 @@
 ### Patch Changes
 
 - Updated dependencies [e06565c]
-  - @ai-sdk/provider-utils@3.1.0-beta.8
+  - @omni-stack/provider-utils@3.1.0-beta.8
   - ai@5.1.0-beta.27
 
 ## 1.1.0-beta.26
@@ -449,9 +374,9 @@
 - Updated dependencies [e8109d3]
 - Updated dependencies [a5e152d]
 - Updated dependencies [21e20c0]
-  - @ai-sdk/provider@2.1.0-beta.5
+  - @omni-stack/provider@2.1.0-beta.5
   - ai@5.1.0-beta.22
-  - @ai-sdk/provider-utils@3.1.0-beta.7
+  - @omni-stack/provider-utils@3.1.0-beta.7
 
 ## 1.1.0-beta.21
 
@@ -482,8 +407,8 @@
 - Updated dependencies [0adc679]
 - Updated dependencies [2b0caef]
 - Updated dependencies [9b8d17e]
-  - @ai-sdk/provider-utils@3.1.0-beta.6
-  - @ai-sdk/provider@2.1.0-beta.4
+  - @omni-stack/provider-utils@3.1.0-beta.6
+  - @omni-stack/provider@2.1.0-beta.4
   - ai@5.1.0-beta.18
 
 ## 1.1.0-beta.17
@@ -515,8 +440,8 @@
 - Updated dependencies [e0d1ea9]
 - Updated dependencies [10c1322]
   - ai@5.1.0-beta.14
-  - @ai-sdk/provider-utils@3.1.0-beta.5
-  - @ai-sdk/provider@2.1.0-beta.3
+  - @omni-stack/provider-utils@3.1.0-beta.5
+  - @omni-stack/provider@2.1.0-beta.3
 
 ## 1.1.0-beta.13
 
@@ -537,7 +462,7 @@
 
 - 4616b86: chore: update zod peer depenedency version
 - Updated dependencies [4616b86]
-  - @ai-sdk/provider-utils@3.1.0-beta.4
+  - @omni-stack/provider-utils@3.1.0-beta.4
   - ai@5.1.0-beta.11
 
 ## 1.1.0-beta.10
@@ -554,9 +479,9 @@
 - Updated dependencies [ed329cb]
 - Updated dependencies [177b475]
 - Updated dependencies [522f6b8]
-  - @ai-sdk/provider@2.1.0-beta.2
+  - @omni-stack/provider@2.1.0-beta.2
   - ai@5.1.0-beta.9
-  - @ai-sdk/provider-utils@3.1.0-beta.3
+  - @omni-stack/provider-utils@3.1.0-beta.3
 
 ## 1.1.0-beta.8
 
@@ -577,9 +502,9 @@
 ### Patch Changes
 
 - Updated dependencies [0c4822d]
-  - @ai-sdk/provider@2.1.0-beta.1
+  - @omni-stack/provider@2.1.0-beta.1
   - ai@5.1.0-beta.6
-  - @ai-sdk/provider-utils@3.1.0-beta.2
+  - @omni-stack/provider-utils@3.1.0-beta.2
 
 ## 1.1.0-beta.5
 
@@ -604,7 +529,7 @@
 ### Patch Changes
 
 - Updated dependencies [cbb1d35]
-  - @ai-sdk/provider-utils@3.1.0-beta.1
+  - @omni-stack/provider-utils@3.1.0-beta.1
   - ai@5.1.0-beta.2
 
 ## 1.1.0-beta.1
@@ -624,8 +549,8 @@
 
 - Updated dependencies [78928cb]
   - ai@5.1.0-beta.0
-  - @ai-sdk/provider@2.1.0-beta.0
-  - @ai-sdk/provider-utils@3.1.0-beta.0
+  - @omni-stack/provider@2.1.0-beta.0
+  - @omni-stack/provider-utils@3.1.0-beta.0
 
 ## 1.0.45
 
@@ -647,7 +572,7 @@
 ### Patch Changes
 
 - Updated dependencies [0294b58]
-  - @ai-sdk/provider-utils@3.0.9
+  - @omni-stack/provider-utils@3.0.9
   - ai@5.0.43
 
 ## 1.0.42
@@ -727,7 +652,7 @@
 ### Patch Changes
 
 - Updated dependencies [99964ed]
-  - @ai-sdk/provider-utils@3.0.8
+  - @omni-stack/provider-utils@3.0.8
   - ai@5.0.31
 
 ## 1.0.30
@@ -772,7 +697,7 @@
 
 - Updated dependencies [886e7cd]
 - Updated dependencies [ca65923]
-  - @ai-sdk/provider-utils@3.0.7
+  - @omni-stack/provider-utils@3.0.7
   - ai@5.0.25
 
 ## 1.0.24
@@ -781,7 +706,7 @@
 
 - Updated dependencies [1b5a3d3]
 - Updated dependencies [f8f3682]
-  - @ai-sdk/provider-utils@3.0.6
+  - @omni-stack/provider-utils@3.0.6
   - ai@5.0.24
 
 ## 1.0.23
@@ -807,7 +732,7 @@
 - Updated dependencies [0857788]
 - Updated dependencies [3c178ec]
   - ai@5.0.21
-  - @ai-sdk/provider-utils@3.0.5
+  - @omni-stack/provider-utils@3.0.5
 
 ## 1.0.20
 
@@ -842,7 +767,7 @@
 ### Patch Changes
 
 - Updated dependencies [68751f9]
-  - @ai-sdk/provider-utils@3.0.4
+  - @omni-stack/provider-utils@3.0.4
   - ai@5.0.16
 
 ## 1.0.15
@@ -873,7 +798,7 @@
 
 - Updated dependencies [034e229]
 - Updated dependencies [f25040d]
-  - @ai-sdk/provider-utils@3.0.3
+  - @omni-stack/provider-utils@3.0.3
   - ai@5.0.12
 
 ## 1.0.11
@@ -884,7 +809,7 @@
 - Updated dependencies [38ac190]
 - Updated dependencies [e3a63cb]
   - ai@5.0.11
-  - @ai-sdk/provider-utils@3.0.2
+  - @omni-stack/provider-utils@3.0.2
 
 ## 1.0.10
 
@@ -937,7 +862,7 @@
 ### Patch Changes
 
 - Updated dependencies [90d212f]
-  - @ai-sdk/provider-utils@3.0.1
+  - @omni-stack/provider-utils@3.0.1
   - ai@5.0.3
 
 ## 1.0.2
@@ -959,11 +884,11 @@
 
 ### Major Changes
 
-- e1cbf8a: chore(@ai-sdk/rsc): extract to separate package
+- e1cbf8a: chore(@omni-stack/rsc): extract to separate package
 
 ### Patch Changes
 
-- e90d45d: chore (rsc): move HANGING_STREAM_WARNING_TIME constant into @ai-sdk/rsc package
+- e90d45d: chore (rsc): move HANGING_STREAM_WARNING_TIME constant into @omni-stack/rsc package
 - d1a034f: feature: using Zod 4 for internal stuff
 - 205077b: fix: improve Zod compatibility
 - Updated dependencies [e1cbf8a]
@@ -1274,8 +1199,8 @@
 - Updated dependencies [2b637d6]
 - Updated dependencies [7bd025b]
   - ai@5.0.0
-  - @ai-sdk/provider-utils@3.0.0
-  - @ai-sdk/provider@2.0.0
+  - @omni-stack/provider-utils@3.0.0
+  - @omni-stack/provider@2.0.0
 
 ## 1.0.0-beta.34
 
@@ -1285,7 +1210,7 @@
 - Updated dependencies [88a8ee5]
 - Updated dependencies [f2c7f19]
   - ai@5.0.0-beta.34
-  - @ai-sdk/provider-utils@3.0.0-beta.10
+  - @omni-stack/provider-utils@3.0.0-beta.10
 
 ## 1.0.0-beta.33
 
@@ -1295,8 +1220,8 @@
 - Updated dependencies [93d53a1]
 - Updated dependencies [27deb4d]
   - ai@5.0.0-beta.33
-  - @ai-sdk/provider@2.0.0-beta.2
-  - @ai-sdk/provider-utils@3.0.0-beta.9
+  - @omni-stack/provider@2.0.0-beta.2
+  - @omni-stack/provider-utils@3.0.0-beta.9
 
 ## 1.0.0-beta.32
 
@@ -1317,7 +1242,7 @@
 - Updated dependencies [ee38081]
 - Updated dependencies [dd5fd43]
   - ai@5.0.0-beta.31
-  - @ai-sdk/provider-utils@3.0.0-beta.8
+  - @omni-stack/provider-utils@3.0.0-beta.8
 
 ## 1.0.0-beta.30
 
@@ -1331,7 +1256,7 @@
 
 - Updated dependencies [e7fcc86]
 - Updated dependencies [d92b9a8]
-  - @ai-sdk/provider-utils@3.0.0-beta.7
+  - @omni-stack/provider-utils@3.0.0-beta.7
   - ai@5.0.0-beta.29
 
 ## 1.0.0-beta.28
@@ -1341,7 +1266,7 @@
 - Updated dependencies [ac34802]
 - Updated dependencies [84343eb]
 - Updated dependencies [a753b3a]
-  - @ai-sdk/provider-utils@3.0.0-beta.6
+  - @omni-stack/provider-utils@3.0.0-beta.6
   - ai@5.0.0-beta.28
 
 ## 1.0.0-beta.27
@@ -1379,7 +1304,7 @@
 - Updated dependencies [e4c8647]
 - Updated dependencies [383cbfa]
   - ai@5.0.0-beta.24
-  - @ai-sdk/provider-utils@3.0.0-beta.5
+  - @omni-stack/provider-utils@3.0.0-beta.5
 
 ## 1.0.0-beta.23
 
@@ -1400,7 +1325,7 @@
 - Updated dependencies [86293e5]
 - Updated dependencies [205077b]
   - ai@5.0.0-beta.22
-  - @ai-sdk/provider-utils@3.0.0-beta.4
+  - @omni-stack/provider-utils@3.0.0-beta.4
 
 ## 1.0.0-beta.21
 
@@ -1429,7 +1354,7 @@
 - Updated dependencies [05d2819]
 - Updated dependencies [db64cbe]
   - ai@5.0.0-beta.19
-  - @ai-sdk/provider-utils@3.0.0-beta.3
+  - @omni-stack/provider-utils@3.0.0-beta.3
 
 ## 1.0.0-beta.18
 
@@ -1565,7 +1490,7 @@
 - Updated dependencies [cb3b9c9]
 - Updated dependencies [d1a034f]
   - ai@5.0.0-beta.2
-  - @ai-sdk/provider-utils@3.0.0-beta.2
+  - @omni-stack/provider-utils@3.0.0-beta.2
 
 ## 1.0.0-beta.1
 
@@ -1597,9 +1522,9 @@
 - Updated dependencies [28a5ed5]
 - Updated dependencies [e862b5b]
 - Updated dependencies [7bd025b]
-  - @ai-sdk/provider@2.0.0-beta.1
+  - @omni-stack/provider@2.0.0-beta.1
   - ai@5.0.0-beta.1
-  - @ai-sdk/provider-utils@3.0.0-beta.1
+  - @omni-stack/provider-utils@3.0.0-beta.1
 
 ## 1.0.0-alpha.15
 
@@ -1616,8 +1541,8 @@
 - Updated dependencies [395c85e]
 - Updated dependencies [60e2c56]
   - ai@5.0.0-alpha.15
-  - @ai-sdk/provider@2.0.0-alpha.15
-  - @ai-sdk/provider-utils@3.0.0-alpha.15
+  - @omni-stack/provider@2.0.0-alpha.15
+  - @omni-stack/provider-utils@3.0.0-alpha.15
 
 ## 1.0.0-alpha.14
 
@@ -1626,9 +1551,9 @@
 - Updated dependencies [b5da06a]
 - Updated dependencies [63f9e9b]
 - Updated dependencies [2e13791]
-  - @ai-sdk/provider@2.0.0-alpha.14
+  - @omni-stack/provider@2.0.0-alpha.14
   - ai@5.0.0-alpha.14
-  - @ai-sdk/provider-utils@3.0.0-alpha.14
+  - @omni-stack/provider-utils@3.0.0-alpha.14
 
 ## 1.0.0-alpha.13
 
@@ -1641,8 +1566,8 @@
 - Updated dependencies [33eb499]
 - Updated dependencies [901df02]
   - ai@5.0.0-alpha.13
-  - @ai-sdk/provider@2.0.0-alpha.13
-  - @ai-sdk/provider-utils@3.0.0-alpha.13
+  - @omni-stack/provider@2.0.0-alpha.13
+  - @omni-stack/provider-utils@3.0.0-alpha.13
 
 ## 1.0.0-alpha.12
 
@@ -1652,8 +1577,8 @@
 - Updated dependencies [e2aceaf]
 - Updated dependencies [4892798]
   - ai@5.0.0-alpha.12
-  - @ai-sdk/provider@2.0.0-alpha.12
-  - @ai-sdk/provider-utils@3.0.0-alpha.12
+  - @omni-stack/provider@2.0.0-alpha.12
+  - @omni-stack/provider-utils@3.0.0-alpha.12
 
 ## 1.0.0-alpha.11
 
@@ -1662,8 +1587,8 @@
 - Updated dependencies [e8324c5]
 - Updated dependencies [c1e6647]
   - ai@5.0.0-alpha.11
-  - @ai-sdk/provider@2.0.0-alpha.11
-  - @ai-sdk/provider-utils@3.0.0-alpha.11
+  - @omni-stack/provider@2.0.0-alpha.11
+  - @omni-stack/provider-utils@3.0.0-alpha.11
 
 ## 1.0.0-alpha.10
 
@@ -1673,8 +1598,8 @@
 - Updated dependencies [7bb58d4]
 - Updated dependencies [c4df419]
   - ai@5.0.0-alpha.10
-  - @ai-sdk/provider@2.0.0-alpha.10
-  - @ai-sdk/provider-utils@3.0.0-alpha.10
+  - @omni-stack/provider@2.0.0-alpha.10
+  - @omni-stack/provider-utils@3.0.0-alpha.10
 
 ## 1.0.0-alpha.9
 
@@ -1684,8 +1609,8 @@
 - Updated dependencies [9ae327d]
 - Updated dependencies [811dff3]
   - ai@5.0.0-alpha.9
-  - @ai-sdk/provider@2.0.0-alpha.9
-  - @ai-sdk/provider-utils@3.0.0-alpha.9
+  - @omni-stack/provider@2.0.0-alpha.9
+  - @omni-stack/provider-utils@3.0.0-alpha.9
 
 ## 1.0.0-alpha.8
 
@@ -1696,9 +1621,9 @@
 - Updated dependencies [6b1c55c]
 - Updated dependencies [2e4f9e4]
 - Updated dependencies [c25cbce]
-  - @ai-sdk/provider-utils@3.0.0-alpha.8
+  - @omni-stack/provider-utils@3.0.0-alpha.8
   - ai@5.0.0-alpha.8
-  - @ai-sdk/provider@2.0.0-alpha.8
+  - @omni-stack/provider@2.0.0-alpha.8
 
 ## 1.0.0-alpha.7
 
@@ -1709,8 +1634,8 @@
 - Updated dependencies [247ee0c]
 - Updated dependencies [5c56081]
   - ai@5.0.0-alpha.7
-  - @ai-sdk/provider@2.0.0-alpha.7
-  - @ai-sdk/provider-utils@3.0.0-alpha.7
+  - @omni-stack/provider@2.0.0-alpha.7
+  - @omni-stack/provider-utils@3.0.0-alpha.7
 
 ## 1.0.0-alpha.6
 
@@ -1719,9 +1644,9 @@
 - Updated dependencies [0d2c085]
 - Updated dependencies [0d2c085]
 - Updated dependencies [48a7606]
-  - @ai-sdk/provider@2.0.0-alpha.6
+  - @omni-stack/provider@2.0.0-alpha.6
   - ai@5.0.0-alpha.6
-  - @ai-sdk/provider-utils@3.0.0-alpha.6
+  - @omni-stack/provider-utils@3.0.0-alpha.6
 
 ## 1.0.0-alpha.5
 
@@ -1748,8 +1673,8 @@
 - Updated dependencies [37a916d]
 - Updated dependencies [5f2b3d4]
   - ai@5.0.0-alpha.4
-  - @ai-sdk/provider@2.0.0-alpha.4
-  - @ai-sdk/provider-utils@3.0.0-alpha.4
+  - @omni-stack/provider@2.0.0-alpha.4
+  - @omni-stack/provider-utils@3.0.0-alpha.4
 
 ## 1.0.0-alpha.3
 
@@ -1761,8 +1686,8 @@
 - Updated dependencies [0463011]
 - Updated dependencies [d306260]
   - ai@5.0.0-alpha.3
-  - @ai-sdk/provider@2.0.0-alpha.3
-  - @ai-sdk/provider-utils@3.0.0-alpha.3
+  - @omni-stack/provider@2.0.0-alpha.3
+  - @omni-stack/provider-utils@3.0.0-alpha.3
 
 ## 1.0.0-alpha.2
 
@@ -1771,8 +1696,8 @@
 - Updated dependencies [82aa95d]
 - Updated dependencies [26535e0]
   - ai@5.0.0-alpha.2
-  - @ai-sdk/provider@2.0.0-alpha.2
-  - @ai-sdk/provider-utils@3.0.0-alpha.2
+  - @omni-stack/provider@2.0.0-alpha.2
+  - @omni-stack/provider-utils@3.0.0-alpha.2
 
 ## 1.0.0-alpha.1
 
@@ -1782,8 +1707,8 @@
 - Updated dependencies [109c0ac]
 - Updated dependencies [3f2f00c]
   - ai@5.0.0-alpha.1
-  - @ai-sdk/provider@2.0.0-alpha.1
-  - @ai-sdk/provider-utils@3.0.0-alpha.1
+  - @omni-stack/provider@2.0.0-alpha.1
+  - @omni-stack/provider-utils@3.0.0-alpha.1
 
 ## 1.0.0-canary.22
 
@@ -1799,14 +1724,14 @@
 - Updated dependencies [faf8446]
 - Updated dependencies [64f6d64]
   - ai@5.0.0-canary.24
-  - @ai-sdk/provider-utils@3.0.0-canary.19
+  - @omni-stack/provider-utils@3.0.0-canary.19
 
 ## 1.0.0-canary.21
 
 ### Patch Changes
 
 - Updated dependencies [40acf9b]
-  - @ai-sdk/provider-utils@3.0.0-canary.18
+  - @omni-stack/provider-utils@3.0.0-canary.18
   - ai@5.0.0-canary.23
 
 ## 1.0.0-canary.20
@@ -1831,13 +1756,13 @@
 - Updated dependencies [ea7a7c9]
 - Updated dependencies [1409e13]
   - ai@5.0.0-canary.21
-  - @ai-sdk/provider-utils@3.0.0-canary.17
+  - @omni-stack/provider-utils@3.0.0-canary.17
 
 ## 1.0.0-canary.18
 
 ### Patch Changes
 
-- e90d45d: chore (rsc): move HANGING_STREAM_WARNING_TIME constant into @ai-sdk/rsc package
+- e90d45d: chore (rsc): move HANGING_STREAM_WARNING_TIME constant into @omni-stack/rsc package
 - Updated dependencies [13fef90]
 - Updated dependencies [e90d45d]
 - Updated dependencies [bc3109f]
@@ -1850,7 +1775,7 @@
 - Updated dependencies [35fc02c]
 - Updated dependencies [b983b51]
   - ai@5.0.0-canary.20
-  - @ai-sdk/provider-utils@3.0.0-canary.16
+  - @omni-stack/provider-utils@3.0.0-canary.16
 
 ## 1.0.0-canary.17
 
@@ -1875,9 +1800,9 @@
 - Updated dependencies [a662dea]
 - Updated dependencies [7979f7f]
 - Updated dependencies [41fa418]
-  - @ai-sdk/provider-utils@3.0.0-canary.15
+  - @omni-stack/provider-utils@3.0.0-canary.15
   - ai@5.0.0-canary.18
-  - @ai-sdk/provider@2.0.0-canary.14
+  - @omni-stack/provider@2.0.0-canary.14
 
 ## 1.0.0-canary.15
 
@@ -1891,8 +1816,8 @@
 - Updated dependencies [9bd5ab5]
 - Updated dependencies [92cb0a2]
   - ai@5.0.0-canary.17
-  - @ai-sdk/provider-utils@3.0.0-canary.14
-  - @ai-sdk/provider@2.0.0-canary.13
+  - @omni-stack/provider-utils@3.0.0-canary.14
+  - @omni-stack/provider@2.0.0-canary.13
 
 ## 1.0.0-canary.14
 
@@ -1917,9 +1842,9 @@
 - Updated dependencies [0ff02bb]
 - Updated dependencies [4bfe9ec]
 - Updated dependencies [2877a74]
-  - @ai-sdk/provider@2.0.0-canary.12
+  - @omni-stack/provider@2.0.0-canary.12
   - ai@5.0.0-canary.15
-  - @ai-sdk/provider-utils@3.0.0-canary.13
+  - @omni-stack/provider-utils@3.0.0-canary.13
 
 ## 1.0.0-canary.12
 
@@ -1929,9 +1854,9 @@
 - Updated dependencies [4617fab]
 - Updated dependencies [e030615]
 - Updated dependencies [a76a62b]
-  - @ai-sdk/provider@2.0.0-canary.11
+  - @omni-stack/provider@2.0.0-canary.11
   - ai@5.0.0-canary.14
-  - @ai-sdk/provider-utils@3.0.0-canary.12
+  - @omni-stack/provider-utils@3.0.0-canary.12
 
 ## 1.0.0-canary.11
 
@@ -1942,17 +1867,17 @@
 - Updated dependencies [9301f86]
 - Updated dependencies [a3f768e]
   - ai@5.0.0-canary.13
-  - @ai-sdk/provider-utils@3.0.0-canary.11
-  - @ai-sdk/provider@2.0.0-canary.10
+  - @omni-stack/provider-utils@3.0.0-canary.11
+  - @omni-stack/provider@2.0.0-canary.10
 
 ## 1.0.0-canary.10
 
 ### Patch Changes
 
 - Updated dependencies [e86be6f]
-  - @ai-sdk/provider@2.0.0-canary.9
+  - @omni-stack/provider@2.0.0-canary.9
   - ai@5.0.0-canary.12
-  - @ai-sdk/provider-utils@3.0.0-canary.10
+  - @omni-stack/provider-utils@3.0.0-canary.10
 
 ## 1.0.0-canary.9
 
@@ -1961,9 +1886,9 @@
 - Updated dependencies [95857aa]
 - Updated dependencies [7ea4132]
 - Updated dependencies [8e64e9c]
-  - @ai-sdk/provider@2.0.0-canary.8
+  - @omni-stack/provider@2.0.0-canary.8
   - ai@5.0.0-canary.11
-  - @ai-sdk/provider-utils@3.0.0-canary.9
+  - @omni-stack/provider-utils@3.0.0-canary.9
 
 ## 1.0.0-canary.8
 
@@ -1985,8 +1910,8 @@
 - Updated dependencies [3795467]
 - Updated dependencies [b32e192]
   - ai@5.0.0-canary.9
-  - @ai-sdk/provider-utils@3.0.0-canary.8
-  - @ai-sdk/provider@2.0.0-canary.7
+  - @omni-stack/provider-utils@3.0.0-canary.8
+  - @omni-stack/provider@2.0.0-canary.7
 
 ## 1.0.0-canary.6
 
@@ -2011,8 +1936,8 @@
 - Updated dependencies [7182d14]
 - Updated dependencies [5bdff05]
   - ai@5.0.0-canary.8
-  - @ai-sdk/provider@2.0.0-canary.6
-  - @ai-sdk/provider-utils@3.0.0-canary.7
+  - @omni-stack/provider@2.0.0-canary.6
+  - @omni-stack/provider-utils@3.0.0-canary.7
 
 ## 1.0.0-canary.5
 
@@ -2026,18 +1951,18 @@
 - Updated dependencies [ad80501]
 - Updated dependencies [1766ede]
 - Updated dependencies [f10304b]
-  - @ai-sdk/provider@2.0.0-canary.5
+  - @omni-stack/provider@2.0.0-canary.5
   - ai@5.0.0-canary.7
-  - @ai-sdk/provider-utils@3.0.0-canary.6
+  - @omni-stack/provider-utils@3.0.0-canary.6
 
 ## 1.0.0-canary.4
 
 ### Patch Changes
 
 - Updated dependencies [6f6bb89]
-  - @ai-sdk/provider@2.0.0-canary.4
+  - @omni-stack/provider@2.0.0-canary.4
   - ai@5.0.0-canary.6
-  - @ai-sdk/provider-utils@3.0.0-canary.5
+  - @omni-stack/provider-utils@3.0.0-canary.5
 
 ## 1.0.0-canary.3
 
@@ -2046,15 +1971,15 @@
 - Updated dependencies [d1a1aa1]
 - Updated dependencies [b71fe8d]
 - Updated dependencies [d91b50d]
-  - @ai-sdk/provider@2.0.0-canary.3
+  - @omni-stack/provider@2.0.0-canary.3
   - ai@5.0.0-canary.5
-  - @ai-sdk/provider-utils@3.0.0-canary.4
+  - @omni-stack/provider-utils@3.0.0-canary.4
 
 ## 1.0.0-canary.2
 
 ### Major Changes
 
-- e1cbf8a: chore(@ai-sdk/rsc): extract to separate package
+- e1cbf8a: chore(@omni-stack/rsc): extract to separate package
 
 ### Patch Changes
 
@@ -2066,5 +1991,5 @@
 - Updated dependencies [0a87932]
 - Updated dependencies [6dc848c]
   - ai@5.0.0-canary.4
-  - @ai-sdk/provider-utils@3.0.0-canary.3
-  - @ai-sdk/provider@2.0.0-canary.2
+  - @omni-stack/provider-utils@3.0.0-canary.3
+  - @omni-stack/provider@2.0.0-canary.2

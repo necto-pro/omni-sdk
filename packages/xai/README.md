@@ -5,24 +5,24 @@ contains language model support for the xAI chat and completion APIs.
 
 ## Setup
 
-The xAI Grok provider is available in the `@ai-sdk/xai` module. You can install it with
+The xAI Grok provider is available in the `@open-stack/xai` module. You can install it with
 
 ```bash
-npm i @ai-sdk/xai
+npm i @open-stack/xai
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `xai` from `@ai-sdk/xai`:
+You can import the default provider instance `xai` from `@open-stack/xai`:
 
 ```ts
-import { xai } from '@ai-sdk/xai';
+import { xai } from '@open-stack/xai';
 ```
 
 ## Example
 
 ```ts
-import { xai } from '@ai-sdk/xai';
+import { xai } from '@open-stack/xai';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

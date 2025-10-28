@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamText } from 'ai';
 
 async function main() {

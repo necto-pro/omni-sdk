@@ -1,4 +1,4 @@
-import { groq } from '@ai-sdk/groq';
+import { groq } from '@open-stack/groq';
 import { stepCountIs, ModelMessage, streamText, tool } from 'ai';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';

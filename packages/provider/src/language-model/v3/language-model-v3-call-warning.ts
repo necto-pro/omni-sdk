@@ -6,11 +6,10 @@ import { LanguageModelV3ProviderDefinedTool } from './language-model-v3-provider
 Warning from the model provider for this call. The call will proceed, but e.g.
 some settings might not be supported, which can lead to suboptimal results.
  */
-// TODO rename to LanguageModelV3Warning
 export type LanguageModelV3CallWarning =
   | {
       type: 'unsupported-setting';
-      setting: Omit<keyof LanguageModelV3CallOptions, 'prompt'>; // TODO allow string
+      setting: Omit<keyof LanguageModelV3CallOptions, 'prompt'>;
       details?: string;
     }
   | {

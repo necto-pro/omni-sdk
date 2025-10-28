@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamText } from 'ai';
 import { NextApiRequest, NextApiResponse } from 'next';
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Chat } from '@ai-sdk/vue';
+import { Chat } from '@open-stack/vue';
 import { DefaultChatTransport } from 'ai';
 import { computed, ref } from 'vue';
 

@@ -1,13 +1,13 @@
 import {
   EmbeddingModelV3,
   TooManyEmbeddingValuesForCallError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   combineHeaders,
   createJsonResponseHandler,
   parseProviderOptions,
   postJsonToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { OpenAIConfig } from '../openai-config';
 import { openaiFailedResponseHandler } from '../openai-error';
 import {

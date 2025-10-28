@@ -412,7 +412,7 @@ The V2 specification emphasizes robust error handling:
 To implement a custom language model provider, you'll need to install the required packages:
 
 ```bash
-npm install @ai-sdk/provider @ai-sdk/provider-utils
+npm install @open-stack/provider @open-stack/provider-utils
 ```
 
 Implementing a custom language model provider involves several steps:
@@ -438,8 +438,8 @@ import {
   generateId,
   loadApiKey,
   withoutTrailingSlash,
-} from '@ai-sdk/provider-utils';
-import { ProviderV3 } from '@ai-sdk/provider';
+} from '@open-stack/provider-utils';
+import { ProviderV3 } from '@open-stack/provider';
 import { CustomChatLanguageModel } from './custom-chat-language-model';
 
 // Define your provider interface extending ProviderV3
@@ -516,8 +516,8 @@ const custom = createCustom();
 Create a `custom-chat-language-model.ts` file that implements `LanguageModelV3`:
 
 ```ts filename="custom-chat-language-model.ts"
-import { LanguageModelV3, LanguageModelV3CallOptions } from '@ai-sdk/provider';
-import { postJsonToApi } from '@ai-sdk/provider-utils';
+import { LanguageModelV3, LanguageModelV3CallOptions } from '@open-stack/provider';
+import { postJsonToApi } from '@open-stack/provider-utils';
 
 class CustomChatLanguageModel implements LanguageModelV3 {
   readonly specificationVersion = 'V3';
@@ -749,7 +749,7 @@ import {
   APICallError,
   InvalidResponseDataError,
   TooManyRequestsError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 
 private handleError(error: unknown): never {
   if (error instanceof Response) {
@@ -780,4 +780,4 @@ private handleError(error: unknown): never {
 - Check out the [Mistral provider](https://github.com/vercel/ai/tree/main/packages/mistral) reference implementation
 - Check out [provider utilities](https://github.com/vercel/ai/tree/main/packages/provider-utils) for helpful functions
 - Test your provider with the AI SDK's built-in examples
-- Explore the V2 types in detail at [`@ai-sdk/provider`](https://github.com/vercel/ai/tree/main/packages/provider/src/language-model/V2)
+- Explore the V2 types in detail at [`@open-stack/provider`](https://github.com/vercel/ai/tree/main/packages/provider/src/language-model/V2)

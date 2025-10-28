@@ -1,4 +1,4 @@
-import { perplexity } from '@ai-sdk/perplexity';
+import { perplexity } from '@open-stack/perplexity';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 export const maxDuration = 30;

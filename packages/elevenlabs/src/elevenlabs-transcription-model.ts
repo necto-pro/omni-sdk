@@ -1,7 +1,7 @@
 import {
   TranscriptionModelV3,
   TranscriptionModelV3CallWarning,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   combineHeaders,
   convertBase64ToUint8Array,
@@ -9,7 +9,7 @@ import {
   mediaTypeToExtension,
   parseProviderOptions,
   postFormDataToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import { ElevenLabsConfig } from './elevenlabs-config';
 import { elevenlabsFailedResponseHandler } from './elevenlabs-error';

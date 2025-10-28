@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { UIMessage } from 'ai';
-import { Chat } from '@ai-sdk/vue';
+import { Chat } from '@open-stack/vue';
 import { createIdGenerator } from 'ai';
 import { computed, ref } from 'vue';
 

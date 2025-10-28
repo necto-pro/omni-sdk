@@ -1,4 +1,4 @@
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

@@ -1,4 +1,4 @@
-import { mistral } from '@ai-sdk/mistral';
+import { mistral } from '@open-stack/mistral';
 import { stepCountIs, ModelMessage, streamText, tool } from 'ai';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';

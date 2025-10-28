@@ -2,7 +2,7 @@ import { ModelMessage, generateText } from 'ai';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';
 import { weatherTool } from '../tools/weather-tool';
-import { cohere } from '@ai-sdk/cohere';
+import { cohere } from '@open-stack/cohere';
 
 const terminal = readline.createInterface({
   input: process.stdin,

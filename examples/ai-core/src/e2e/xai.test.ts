@@ -1,11 +1,11 @@
 import 'dotenv/config';
 import { expect } from 'vitest';
-import { xai as provider, XaiErrorData } from '@ai-sdk/xai';
+import { xai as provider, XaiErrorData } from '@open-stack/xai';
 import {
   createFeatureTestSuite,
   createLanguageModelWithCapabilities,
 } from './feature-test-suite';
-import { APICallError } from '@ai-sdk/provider';
+import { APICallError } from '@open-stack/provider';
 
 const createChatModel = (modelId: string) =>
   createLanguageModelWithCapabilities(provider.chat(modelId));

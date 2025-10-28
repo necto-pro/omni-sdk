@@ -32,7 +32,7 @@ Navigate to the newly created directory:
 
 ### Install dependencies
 
-Install `ai`, `@ai-sdk/react` and `@ai-sdk/openai`, the AI package, the AI React package and AI SDK's [ OpenAI provider ](/providers/ai-sdk-providers/openai) respectively.
+Install `ai`, `@open-stack/react` and `@open-stack/openai`, the AI package, the AI React package and AI SDK's [ OpenAI provider ](/providers/ai-sdk-providers/openai) respectively.
 
 <Note>
   The AI SDK is designed to be a unified interface to interact with any large
@@ -44,16 +44,16 @@ Install `ai`, `@ai-sdk/react` and `@ai-sdk/openai`, the AI package, the AI React
 <div className="my-4">
   <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
     <Tab>
-      <Snippet text="pnpm add ai @ai-sdk/openai @ai-sdk/react zod" dark />
+      <Snippet text="pnpm add ai @open-stack/openai @open-stack/react zod" dark />
     </Tab>
     <Tab>
-      <Snippet text="npm install ai @ai-sdk/openai @ai-sdk/react zod" dark />
+      <Snippet text="npm install ai @open-stack/openai @open-stack/react zod" dark />
     </Tab>
     <Tab>
-      <Snippet text="yarn add ai @ai-sdk/openai @ai-sdk/react zod" dark />
+      <Snippet text="yarn add ai @open-stack/openai @open-stack/react zod" dark />
     </Tab>
     <Tab>
-      <Snippet text="bun add ai @ai-sdk/openai @ai-sdk/react zod" dark />
+      <Snippet text="bun add ai @open-stack/openai @open-stack/react zod" dark />
     </Tab>
   </Tabs>
 </div>
@@ -82,7 +82,7 @@ Replace `xxxxxxxxx` with your actual OpenAI API key.
 Create a route handler, `app/api/chat+api.ts` and add the following code:
 
 ```tsx filename="app/api/chat+api.ts"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamText, UIMessage, convertToModelMessages } from 'ai';
 
 export async function POST(req: Request) {
@@ -105,7 +105,7 @@ export async function POST(req: Request) {
 Let's take a look at what is happening in this code:
 
 1. Define an asynchronous `POST` request handler and extract `messages` from the body of the request. The `messages` variable contains a history of the conversation between you and the chatbot and provides the chatbot with the necessary context to make the next generation.
-2. Call [`streamText`](/docs/reference/ai-sdk-core/stream-text), which is imported from the `ai` package. This function accepts a configuration object that contains a `model` provider (imported from `@ai-sdk/openai`) and `messages` (defined in step 1). You can pass additional [settings](/docs/ai-sdk-core/settings) to further customise the model's behaviour.
+2. Call [`streamText`](/docs/reference/ai-sdk-core/stream-text), which is imported from the `ai` package. This function accepts a configuration object that contains a `model` provider (imported from `@open-stack/openai`) and `messages` (defined in step 1). You can pass additional [settings](/docs/ai-sdk-core/settings) to further customise the model's behaviour.
 3. The `streamText` function returns a [`StreamTextResult`](/docs/reference/ai-sdk-core/stream-text#result-object). This result object contains the [ `toDataStreamResponse` ](/docs/reference/ai-sdk-core/stream-text#to-data-stream-response) function which converts the result to a streamed response object.
 4. Finally, return the result to the client to stream the response.
 
@@ -119,7 +119,7 @@ Update your root page (`app/(tabs)/index.tsx`) with the following code to show a
 
 ```tsx filename="app/(tabs)/index.tsx"
 import { generateAPIUrl } from '@/utils';
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 import { fetch as expoFetch } from 'expo/fetch';
 import { useState } from 'react';
@@ -259,7 +259,7 @@ Let's enhance your chatbot by adding a simple weather tool.
 Modify your `app/api/chat+api.ts` file to include the new weather tool:
 
 ```tsx filename="app/api/chat+api.ts" highlight="2,8,11,13-27"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamText, UIMessage, convertToModelMessages, tool } from 'ai';
 import { z } from 'zod';
 
@@ -327,7 +327,7 @@ To display the weather tool invocation in your UI, update your `app/(tabs)/index
 
 ```tsx filename="app/(tabs)/index.tsx" highlight="31-35"
 import { generateAPIUrl } from '@/utils';
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 import { fetch as expoFetch } from 'expo/fetch';
 import { useState } from 'react';
@@ -417,7 +417,7 @@ To solve this, you can enable multi-step tool calls using `stopWhen`. By default
 Modify your `app/api/chat+api.ts` file to include the `stopWhen` condition:
 
 ```tsx filename="app/api/chat+api.ts" highlight="11"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import {
   streamText,
   UIMessage,
@@ -474,7 +474,7 @@ By setting `stopWhen: stepCountIs(5)`, you're allowing the model to use up to 5 
 Update your `app/api/chat+api.ts` file to add a new tool to convert the temperature from Fahrenheit to Celsius:
 
 ```tsx filename="app/api/chat+api.ts" highlight="29-42"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import {
   streamText,
   UIMessage,
@@ -542,7 +542,7 @@ To display the temperature conversion tool invocation in your UI, update your `a
 
 ```tsx filename="app/(tabs)/index.tsx" highlight="37-42"
 import { generateAPIUrl } from '@/utils';
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 import { fetch as expoFetch } from 'expo/fetch';
 import { useState } from 'react';

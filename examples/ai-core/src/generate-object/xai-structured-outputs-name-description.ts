@@ -1,4 +1,4 @@
-import { xai } from '@ai-sdk/xai';
+import { xai } from '@open-stack/xai';
 import { generateObject } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

@@ -1,4 +1,4 @@
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 import { ToolLoopAgent, dynamicTool, InferAgentUIMessage, ToolSet } from 'ai';
 import { z } from 'zod';
 

@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/anthropic': patch
+'@open-stack/anthropic': patch
 ---
 
 feat(provider/anthropic): web search tool updates

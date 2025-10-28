@@ -3,13 +3,13 @@ import {
   ImageModelV3,
   LanguageModelV3,
   ProviderV3,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   withoutTrailingSlash,
   withUserAgentSuffix,
   getRuntimeEnvironmentUserAgent,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import {
   OpenAICompatibleChatConfig,
   OpenAICompatibleChatLanguageModel,

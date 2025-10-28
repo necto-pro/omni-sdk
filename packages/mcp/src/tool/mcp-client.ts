@@ -1,11 +1,11 @@
-import { JSONSchema7 } from '@ai-sdk/provider';
+import { JSONSchema7 } from '@omni-stack/provider';
 import {
   dynamicTool,
   jsonSchema,
   Tool,
   tool,
   ToolCallOptions,
-} from '@ai-sdk/provider-utils';
+} from '@omni-stack/provider-utils';
 import { z } from 'zod/v4';
 import { MCPClientError } from '../error/mcp-client-error';
 import {
@@ -26,17 +26,11 @@ import {
   Configuration as ClientConfiguration,
   InitializeResultSchema,
   LATEST_PROTOCOL_VERSION,
-  ListResourceTemplatesResult,
-  ListResourceTemplatesResultSchema,
-  ListResourcesResult,
-  ListResourcesResultSchema,
   ListToolsResult,
   ListToolsResultSchema,
   McpToolSet,
   Notification,
   PaginatedRequest,
-  ReadResourceResult,
-  ReadResourceResultSchema,
   Request,
   RequestOptions,
   ServerCapabilities,
@@ -67,20 +61,6 @@ export interface MCPClient {
   tools<TOOL_SCHEMAS extends ToolSchemas = 'automatic'>(options?: {
     schemas?: TOOL_SCHEMAS;
   }): Promise<McpToolSet<TOOL_SCHEMAS>>;
-
-  listResources(options?: {
-    params?: PaginatedRequest['params'];
-    options?: RequestOptions;
-  }): Promise<ListResourcesResult>;
-
-  readResource(args: {
-    uri: string;
-    options?: RequestOptions;
-  }): Promise<ReadResourceResult>;
-
-  listResourceTemplates(options?: {
-    options?: RequestOptions;
-  }): Promise<ListResourceTemplatesResult>;
 
   close: () => Promise<void>;
 }
@@ -212,15 +192,6 @@ class DefaultMCPClient implements MCPClient {
           });
         }
         break;
-      case 'resources/list':
-      case 'resources/read':
-      case 'resources/templates/list':
-        if (!this.serverCapabilities.resources) {
-          throw new MCPClientError({
-            message: `Server does not support resources`,
-          });
-        }
-        break;
       default:
         throw new MCPClientError({
           message: `Unsupported method: ${method}`,
@@ -335,58 +306,6 @@ class DefaultMCPClient implements MCPClient {
     }
   }
 
-  private async listResourcesInternal({
-    params,
-    options,
-  }: {
-    params?: PaginatedRequest['params'];
-    options?: RequestOptions;
-  } = {}): Promise<ListResourcesResult> {
-    try {
-      return this.request({
-        request: { method: 'resources/list', params },
-        resultSchema: ListResourcesResultSchema,
-        options,
-      });
-    } catch (error) {
-      throw error;
-    }
-  }
-
-  private async readResourceInternal({
-    uri,
-    options,
-  }: {
-    uri: string;
-    options?: RequestOptions;
-  }): Promise<ReadResourceResult> {
-    try {
-      return this.request({
-        request: { method: 'resources/read', params: { uri } },
-        resultSchema: ReadResourceResultSchema,
-        options,
-      });
-    } catch (error) {
-      throw error;
-    }
-  }
-
-  private async listResourceTemplatesInternal({
-    options,
-  }: {
-    options?: RequestOptions;
-  } = {}): Promise<ListResourceTemplatesResult> {
-    try {
-      return this.request({
-        request: { method: 'resources/templates/list' },
-        resultSchema: ListResourceTemplatesResultSchema,
-        options,
-      });
-    } catch (error) {
-      throw error;
-    }
-  }
-
   private async notification(notification: Notification): Promise<void> {
     const jsonrpcNotification: JSONRPCNotification = {
       ...notification,
@@ -408,13 +327,8 @@ class DefaultMCPClient implements MCPClient {
 
     try {
       const listToolsResult = await this.listTools();
-      for (const {
-        name,
-        description,
-        inputSchema,
-        annotations,
-      } of listToolsResult.tools) {
-        const title = annotations?.title;
+
+      for (const { name, description, inputSchema } of listToolsResult.tools) {
         if (schemas !== 'automatic' && !(name in schemas)) {
           continue;
         }
@@ -433,7 +347,6 @@ class DefaultMCPClient implements MCPClient {
           schemas === 'automatic'
             ? dynamicTool({
                 description,
-                title,
                 inputSchema: jsonSchema({
                   ...inputSchema,
                   properties: inputSchema.properties ?? {},
@@ -443,7 +356,6 @@ class DefaultMCPClient implements MCPClient {
               })
             : tool({
                 description,
-                title,
                 inputSchema: schemas[name].inputSchema,
                 execute,
               });
@@ -455,34 +367,6 @@ class DefaultMCPClient implements MCPClient {
     } catch (error) {
       throw error;
     }
-  }
-
-  listResources({
-    params,
-    options,
-  }: {
-    params?: PaginatedRequest['params'];
-    options?: RequestOptions;
-  } = {}): Promise<ListResourcesResult> {
-    return this.listResourcesInternal({ params, options });
-  }
-
-  readResource({
-    uri,
-    options,
-  }: {
-    uri: string;
-    options?: RequestOptions;
-  }): Promise<ReadResourceResult> {
-    return this.readResourceInternal({ uri, options });
-  }
-
-  listResourceTemplates({
-    options,
-  }: {
-    options?: RequestOptions;
-  } = {}): Promise<ListResourceTemplatesResult> {
-    return this.listResourceTemplatesInternal({ options });
   }
 
   private onClose(): void {

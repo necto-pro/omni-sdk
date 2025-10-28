@@ -3,18 +3,18 @@ import {
   EmbeddingModelV3,
   ProviderV3,
   ImageModelV3,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   OpenAICompatibleChatLanguageModel,
   OpenAICompatibleCompletionLanguageModel,
   OpenAICompatibleEmbeddingModel,
-} from '@ai-sdk/openai-compatible';
+} from '@open-stack/openai-compatible';
 import {
   FetchFunction,
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { DeepInfraChatModelId } from './deepinfra-chat-options';
 import { DeepInfraEmbeddingModelId } from './deepinfra-embedding-options';
 import { DeepInfraCompletionModelId } from './deepinfra-completion-options';

@@ -1,4 +1,4 @@
-import { createProviderDefinedToolFactory } from '@ai-sdk/provider-utils';
+import { createProviderDefinedToolFactory } from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 
 /**

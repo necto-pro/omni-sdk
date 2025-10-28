@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/anthropic': patch
+'@open-stack/anthropic': patch
 ---
 
 fix(provider/anthropic): correct raw usage information

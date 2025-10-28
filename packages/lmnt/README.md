@@ -5,24 +5,24 @@ contains language model support for the LMNT API.
 
 ## Setup
 
-The LMNT provider is available in the `@ai-sdk/lmnt` module. You can install it with
+The LMNT provider is available in the `@open-stack/lmnt` module. You can install it with
 
 ```bash
-npm i @ai-sdk/lmnt
+npm i @open-stack/lmnt
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `lmnt` from `@ai-sdk/lmnt`:
+You can import the default provider instance `lmnt` from `@open-stack/lmnt`:
 
 ```ts
-import { lmnt } from '@ai-sdk/lmnt';
+import { lmnt } from '@open-stack/lmnt';
 ```
 
 ## Example
 
 ```ts
-import { lmnt } from '@ai-sdk/lmnt';
+import { lmnt } from '@open-stack/lmnt';
 import { experimental_generateSpeech as generateSpeech } from 'ai';
 
 const result = await generateSpeech({

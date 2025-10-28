@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { vertexAnthropic } from '@ai-sdk/google-vertex/anthropic';
+import { vertexAnthropic } from '@open-stack/google-vertex/anthropic';
 import { stepCountIs, ModelMessage, streamText, tool } from 'ai';
 import * as readline from 'node:readline/promises';
 import { z } from 'zod';

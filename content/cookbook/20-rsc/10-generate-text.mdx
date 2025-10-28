@@ -58,7 +58,7 @@ On the server side, we need to implement the `getAnswer` function, which will ca
 'use server';
 
 import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 export async function getAnswer(question: string) {
   const { text, finishReason, usage } = await generateText({

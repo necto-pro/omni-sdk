@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 
 import { useState } from 'react';
 
@@ -64,7 +64,7 @@ export function OnlyHandleInputChange() {
 }
 
 // Test with new import syntax
-import { useChat as useChatNew } from '@ai-sdk/react';
+import { useChat as useChatNew } from '@open-stack/react';
 
 export function WithNewImportSyntax() {
   const [input, setInput] = useState('');

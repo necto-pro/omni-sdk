@@ -1,4 +1,4 @@
-import { xai } from '@ai-sdk/xai';
+import { xai } from '@open-stack/xai';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 export const maxDuration = 30;

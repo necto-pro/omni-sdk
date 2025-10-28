@@ -3,7 +3,7 @@ import { run } from '../lib/run';
 import { z } from 'zod';
 import path from 'path';
 import fs from 'fs/promises';
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 
 run(async () => {
   const readPDFDocument = tool({

@@ -1,4 +1,4 @@
-import { azure } from '@ai-sdk/azure';
+import { azure } from '@open-stack/azure';
 import { embedMany } from 'ai';
 import 'dotenv/config';
 

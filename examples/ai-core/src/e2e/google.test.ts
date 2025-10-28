@@ -1,5 +1,5 @@
-import { GoogleErrorData, google as provider } from '@ai-sdk/google';
-import { APICallError, ImageModelV3, LanguageModelV3 } from '@ai-sdk/provider';
+import { GoogleErrorData, google as provider } from '@open-stack/google';
+import { APICallError, ImageModelV3, LanguageModelV3 } from '@open-stack/provider';
 import 'dotenv/config';
 import { expect } from 'vitest';
 import {

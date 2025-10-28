@@ -9,37 +9,37 @@ description: Learn how to use Fireworks models with the AI SDK.
 
 ## Setup
 
-The Fireworks provider is available via the `@ai-sdk/fireworks` module. You can install it with
+The Fireworks provider is available via the `@open-stack/fireworks` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/fireworks" dark />
+    <Snippet text="pnpm add @open-stack/fireworks" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/fireworks" dark />
+    <Snippet text="npm install @open-stack/fireworks" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/fireworks" dark />
+    <Snippet text="yarn add @open-stack/fireworks" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/fireworks" dark />
+    <Snippet text="bun add @open-stack/fireworks" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `fireworks` from `@ai-sdk/fireworks`:
+You can import the default provider instance `fireworks` from `@open-stack/fireworks`:
 
 ```ts
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 ```
 
-If you need a customized setup, you can import `createFireworks` from `@ai-sdk/fireworks`
+If you need a customized setup, you can import `createFireworks` from `@open-stack/fireworks`
 and create a provider instance with your settings:
 
 ```ts
-import { createFireworks } from '@ai-sdk/fireworks';
+import { createFireworks } from '@open-stack/fireworks';
 
 const fireworks = createFireworks({
   apiKey: process.env.FIREWORKS_API_KEY ?? '',
@@ -81,7 +81,7 @@ Fireworks exposes the thinking of `deepseek-r1` in the generated text using the 
 You can use the `extractReasoningMiddleware` to extract this reasoning and expose it as a `reasoning` property on the result:
 
 ```ts
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 import { wrapLanguageModel, extractReasoningMiddleware } from 'ai';
 
 const enhancedModel = wrapLanguageModel({
@@ -97,7 +97,7 @@ You can then use that enhanced model in functions like `generateText` and `strea
 You can use Fireworks language models to generate text with the `generateText` function:
 
 ```ts
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
@@ -156,7 +156,7 @@ const model = fireworks.textEmbedding('nomic-ai/nomic-embed-text-v1.5');
 You can use Fireworks embedding models to generate embeddings with the `embed` function:
 
 ```ts
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 import { embed } from 'ai';
 
 const { embedding } = await embed({
@@ -182,7 +182,7 @@ You can create Fireworks image models using the `.image()` factory method.
 For more on image generation with the AI SDK see [generateImage()](/docs/reference/ai-sdk-core/generate-image).
 
 ```ts
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 import { experimental_generateImage as generateImage } from 'ai';
 
 const { image } = await generateImage({

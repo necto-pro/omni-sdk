@@ -1,15 +1,15 @@
-import { OpenAICompatibleChatLanguageModel } from '@ai-sdk/openai-compatible';
+import { OpenAICompatibleChatLanguageModel } from '@open-stack/openai-compatible';
 import {
   LanguageModelV3,
   NoSuchModelError,
   ProviderV3,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withoutTrailingSlash,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { DeepSeekChatModelId } from './deepseek-chat-options';
 import { deepSeekMetadataExtractor } from './deepseek-metadata-extractor';
 import { VERSION } from './version';

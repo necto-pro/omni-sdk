@@ -1,4 +1,4 @@
-import { deepseek } from '@ai-sdk/deepseek';
+import { deepseek } from '@open-stack/deepseek';
 import { streamText } from 'ai';
 import 'dotenv/config';
 import fs from 'node:fs';

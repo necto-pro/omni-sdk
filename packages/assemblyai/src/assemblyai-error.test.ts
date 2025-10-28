@@ -1,4 +1,4 @@
-import { safeParseJSON } from '@ai-sdk/provider-utils';
+import { safeParseJSON } from '@open-stack/provider-utils';
 import { assemblyaiErrorDataSchema } from './assemblyai-error';
 import { describe, it, expect } from 'vitest';
 

@@ -3,7 +3,7 @@
 import { OpenAIImageGenerationCustomToolMessage } from '@/agent/openai-image-generation-custom-tool-agent';
 import ChatInput from '@/components/chat-input';
 import GenerateImageView from '@/components/tool/generate-image-view';
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 
 export default function TestOpenAIWebSearch() {

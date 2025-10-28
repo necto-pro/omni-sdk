@@ -1,4 +1,4 @@
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
 import { streamText } from 'ai';
 
 const BASETEN_MODEL_ID = '<model-id>'; // e.g. 5q3z8xcw

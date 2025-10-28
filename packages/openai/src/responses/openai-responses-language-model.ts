@@ -8,7 +8,7 @@ import {
   LanguageModelV3StreamPart,
   LanguageModelV3Usage,
   SharedV3ProviderMetadata,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   combineHeaders,
   createEventSourceResponseHandler,
@@ -18,7 +18,7 @@ import {
   parseProviderOptions,
   ParseResult,
   postJsonToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { OpenAIConfig } from '../openai-config';
 import { openaiFailedResponseHandler } from '../openai-error';
 import {

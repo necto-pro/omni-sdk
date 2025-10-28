@@ -1,11 +1,11 @@
-import { RerankingModelV3, SharedV3Warning } from '@ai-sdk/provider';
+import { RerankingModelV3, SharedV3Warning } from '@open-stack/provider';
 import {
   combineHeaders,
   createJsonResponseHandler,
   FetchFunction,
   parseProviderOptions,
   postJsonToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { cohereFailedResponseHandler } from '../cohere-error';
 import {
   CohereRerankingInput,

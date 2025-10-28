@@ -1,4 +1,4 @@
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 import { UIToolInvocation } from 'ai';
 
 export default function AnthropicWebFetchView({

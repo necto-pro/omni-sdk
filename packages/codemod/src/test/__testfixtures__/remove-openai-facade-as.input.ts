@@ -1,6 +1,6 @@
 // @ts-nocheck
 import OpenAI from 'openai';
-import { createOpenAI } from '@ai-sdk/openai';
+import { createOpenAI } from '@open-stack/openai';
 
 const client1 = new OpenAI();
 const client2 = createOpenAI();

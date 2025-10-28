@@ -1,4 +1,4 @@
-import { gladia } from '@ai-sdk/gladia';
+import { gladia } from '@open-stack/gladia';
 import { experimental_transcribe as transcribe } from 'ai';
 import 'dotenv/config';
 import { readFile } from 'fs/promises';

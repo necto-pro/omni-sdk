@@ -4,7 +4,7 @@ Angular UI components for the [AI SDK v5](https://ai-sdk.dev/docs).
 
 ## Overview
 
-The `@ai-sdk/angular` package provides Angular-specific implementations using Angular signals for reactive state management:
+The `@open-stack/angular` package provides Angular-specific implementations using Angular signals for reactive state management:
 
 - **Chat** - Multi-turn conversations with streaming responses
 - **Completion** - Single-turn text generation
@@ -13,7 +13,7 @@ The `@ai-sdk/angular` package provides Angular-specific implementations using An
 ## Installation
 
 ```bash
-npm install @ai-sdk/angular ai
+npm install @open-stack/angular ai
 ```
 
 ### Peer Dependencies
@@ -30,7 +30,7 @@ Real-time conversation interface with streaming support.
 ```typescript
 import { Component, inject } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
-import { Chat } from '@ai-sdk/angular';
+import { Chat } from '@open-stack/angular';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -215,7 +215,7 @@ Single-turn text generation with streaming.
 
 ```typescript
 import { Component } from '@angular/core';
-import { Completion } from '@ai-sdk/angular';
+import { Completion } from '@open-stack/angular';
 
 @Component({
   selector: 'app-completion',
@@ -336,7 +336,7 @@ Generate structured data with Zod schemas and streaming.
 
 ```typescript
 import { Component } from '@angular/core';
-import { StructuredObject } from '@ai-sdk/angular';
+import { StructuredObject } from '@open-stack/angular';
 import { z } from 'zod';
 
 const schema = z.object({
@@ -463,7 +463,7 @@ structuredObject.stop();
 ### Express.js Chat Endpoint
 
 ```typescript
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { convertToModelMessages, streamText } from 'ai';
 import express from 'express';
 
@@ -576,7 +576,7 @@ pnpm test:update       # Update snapshots
 Full type safety with automatic type inference:
 
 ```typescript
-import { Chat, UIMessage, StructuredObject } from '@ai-sdk/angular';
+import { Chat, UIMessage, StructuredObject } from '@open-stack/angular';
 import { z } from 'zod';
 
 // Custom message types

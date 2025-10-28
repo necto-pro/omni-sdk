@@ -1,4 +1,4 @@
-import { vercel } from '@ai-sdk/vercel';
+import { vercel } from '@open-stack/vercel';
 import { generateObject } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

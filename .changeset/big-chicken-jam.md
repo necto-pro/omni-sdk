@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/assemblyai': patch
+'@open-stack/assemblyai': patch
 ---
 
 fix(providers/assemblyai): remove topics

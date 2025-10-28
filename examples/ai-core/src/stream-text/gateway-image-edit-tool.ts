@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { streamText } from 'ai';
 import { convertBase64ToUint8Array } from '../lib/convert-base64';
 import { presentImages } from '../lib/present-image';

@@ -1,4 +1,4 @@
-import { InvalidArgumentError } from '@ai-sdk/provider';
+import { InvalidArgumentError } from '@omni-stack/provider';
 import { expect, it } from 'vitest';
 import { createIdGenerator, generateId } from './generate-id';
 import { describe } from 'vitest';

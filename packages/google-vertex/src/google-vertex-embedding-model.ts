@@ -1,14 +1,14 @@
 import {
   EmbeddingModelV3,
   TooManyEmbeddingValuesForCallError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   combineHeaders,
   createJsonResponseHandler,
   postJsonToApi,
   resolve,
   parseProviderOptions,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import { googleVertexFailedResponseHandler } from './google-vertex-error';
 import {

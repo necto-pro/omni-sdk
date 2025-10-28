@@ -19,7 +19,7 @@ It is called when the stream is finished.
 
 import { useState } from 'react';
 import { ClientMessage } from './actions';
-import { useActions, useUIState } from '@ai-sdk/rsc';
+import { useActions, useUIState } from '@open-stack/rsc';
 import { generateId } from 'ai';
 
 // Allow streaming responses up to 30 seconds
@@ -76,8 +76,8 @@ export default function Home() {
 ```tsx filename='app/actions.tsx' highlight={"57-63"}
 'use server';
 
-import { createAI, getMutableAIState, streamUI } from '@ai-sdk/rsc';
-import { openai } from '@ai-sdk/openai';
+import { createAI, getMutableAIState, streamUI } from '@open-stack/rsc';
+import { openai } from '@open-stack/openai';
 import { ReactNode } from 'react';
 import { z } from 'zod';
 import { generateId } from 'ai';
@@ -148,7 +148,7 @@ export async function continueConversation(
 ```
 
 ```typescript filename='app/ai.ts'
-import { createAI } from '@ai-sdk/rsc';
+import { createAI } from '@open-stack/rsc';
 import { ServerMessage, ClientMessage, continueConversation } from './actions';
 
 export const AI = createAI<ServerMessage[], ClientMessage[]>({

@@ -11,36 +11,36 @@ API keys can be obtained from the [Cerebras Platform](https://cloud.cerebras.ai)
 
 ## Setup
 
-The Cerebras provider is available via the `@ai-sdk/cerebras` module. You can install it with:
+The Cerebras provider is available via the `@open-stack/cerebras` module. You can install it with:
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/cerebras" dark />
+    <Snippet text="pnpm add @open-stack/cerebras" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/cerebras" dark />
+    <Snippet text="npm install @open-stack/cerebras" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/cerebras" dark />
+    <Snippet text="yarn add @open-stack/cerebras" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/cerebras" dark />
+    <Snippet text="bun add @open-stack/cerebras" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `cerebras` from `@ai-sdk/cerebras`:
+You can import the default provider instance `cerebras` from `@open-stack/cerebras`:
 
 ```ts
-import { cerebras } from '@ai-sdk/cerebras';
+import { cerebras } from '@open-stack/cerebras';
 ```
 
 For custom configuration, you can import `createCerebras` and create a provider instance with your settings:
 
 ```ts
-import { createCerebras } from '@ai-sdk/cerebras';
+import { createCerebras } from '@open-stack/cerebras';
 
 const cerebras = createCerebras({
   apiKey: process.env.CEREBRAS_API_KEY ?? '',
@@ -72,7 +72,7 @@ You can use the following optional settings to customize the Cerebras provider i
 You can create language models using a provider instance:
 
 ```ts
-import { cerebras } from '@ai-sdk/cerebras';
+import { cerebras } from '@open-stack/cerebras';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

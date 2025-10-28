@@ -1,4 +1,4 @@
-import { cohere } from '@ai-sdk/cohere';
+import { cohere } from '@open-stack/cohere';
 import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';

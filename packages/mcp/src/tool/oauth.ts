@@ -26,7 +26,7 @@ import {
   checkResourceAllowed,
 } from '../util/oauth-util';
 import { LATEST_PROTOCOL_VERSION } from './types';
-import { FetchFunction } from '@ai-sdk/provider-utils';
+import { FetchFunction } from '@omni-stack/provider-utils';
 
 export type AuthResult = 'AUTHORIZED' | 'REDIRECT';
 

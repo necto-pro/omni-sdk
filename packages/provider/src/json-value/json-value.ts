@@ -11,7 +11,7 @@ export type JSONValue =
   | JSONArray;
 
 export type JSONObject = {
-  [key: string]: JSONValue | undefined;
+  [key: string]: JSONValue;
 };
 
 export type JSONArray = JSONValue[];

@@ -1,4 +1,4 @@
-import { azure } from '@ai-sdk/azure';
+import { azure } from '@open-stack/azure';
 import { smoothStream, streamText } from 'ai';
 import 'dotenv/config';
 

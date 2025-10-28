@@ -5,7 +5,7 @@ import {
   LanguageModelV3StreamPart,
   LanguageModelV3Usage,
   SharedV3ProviderMetadata,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   ParseResult,
@@ -14,7 +14,7 @@ import {
   createJsonResponseHandler,
   parseProviderOptions,
   postJsonToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { openaiFailedResponseHandler } from '../openai-error';
 import { convertToOpenAICompletionPrompt } from './convert-to-openai-completion-prompt';
 import { getResponseMetadata } from './get-response-metadata';

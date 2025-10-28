@@ -1,4 +1,4 @@
-import { azure } from '@ai-sdk/azure';
+import { azure } from '@open-stack/azure';
 import { experimental_transcribe as transcribe } from 'ai';
 import 'dotenv/config';
 import { readFile } from 'fs/promises';

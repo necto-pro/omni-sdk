@@ -1,4 +1,4 @@
-import { cohere } from '@ai-sdk/cohere';
+import { cohere } from '@open-stack/cohere';
 import { generateObject } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

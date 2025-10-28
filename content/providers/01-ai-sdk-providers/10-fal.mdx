@@ -9,36 +9,36 @@ description: Learn how to use Fal AI models with the AI SDK.
 
 ## Setup
 
-The Fal provider is available via the `@ai-sdk/fal` module. You can install it with
+The Fal provider is available via the `@open-stack/fal` module. You can install it with
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/fal" dark />
+    <Snippet text="pnpm add @open-stack/fal" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/fal" dark />
+    <Snippet text="npm install @open-stack/fal" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/fal" dark />
+    <Snippet text="yarn add @open-stack/fal" dark />
   </Tab>
 
   <Tab>
-    <Snippet text="bun add @ai-sdk/fal" dark />
+    <Snippet text="bun add @open-stack/fal" dark />
   </Tab>
 </Tabs>
 
 ## Provider Instance
 
-You can import the default provider instance `fal` from `@ai-sdk/fal`:
+You can import the default provider instance `fal` from `@open-stack/fal`:
 
 ```ts
-import { fal } from '@ai-sdk/fal';
+import { fal } from '@open-stack/fal';
 ```
 
 If you need a customized setup, you can import `createFal` and create a provider instance with your settings:
 
 ```ts
-import { createFal } from '@ai-sdk/fal';
+import { createFal } from '@open-stack/fal';
 
 const fal = createFal({
   apiKey: 'your-api-key', // optional, defaults to FAL_API_KEY environment variable, falling back to FAL_KEY
@@ -79,7 +79,7 @@ For more on image generation with the AI SDK see [generateImage()](/docs/referen
 ### Basic Usage
 
 ```ts
-import { fal } from '@ai-sdk/fal';
+import { fal } from '@open-stack/fal';
 import { experimental_generateImage as generateImage } from 'ai';
 import fs from 'fs';
 
@@ -197,7 +197,7 @@ You can also pass additional provider-specific options using the `providerOption
 
 ```ts highlight="6"
 import { experimental_transcribe as transcribe } from 'ai';
-import { fal } from '@ai-sdk/fal';
+import { fal } from '@open-stack/fal';
 import { readFile } from 'fs/promises';
 
 const result = await transcribe({
@@ -253,7 +253,7 @@ You can create models that call Fal text-to-speech endpoints using the `.speech(
 
 ```ts
 import { experimental_generateSpeech as generateSpeech } from 'ai';
-import { fal } from '@ai-sdk/fal';
+import { fal } from '@open-stack/fal';
 
 const result = await generateSpeech({
   model: fal.speech('fal-ai/minimax/speech-02-hd'),

@@ -1,4 +1,4 @@
-import { groq } from '@ai-sdk/groq';
+import { groq } from '@open-stack/groq';
 import { generateObject } from 'ai';
 import { z } from 'zod';
 import 'dotenv/config';

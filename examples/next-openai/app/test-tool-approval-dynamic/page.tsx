@@ -3,7 +3,7 @@
 import { DynamicWeatherWithApprovalAgentUIMessage } from '@/agent/dynamic-weather-with-approval-agent';
 import ChatInput from '@/components/chat-input';
 import DynamicToolWithApprovalView from '@/components/tool/dynamic-tool-with-approval-view';
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithApprovalResponses,

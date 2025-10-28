@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { defaultSettingsMiddleware, generateText, wrapLanguageModel } from 'ai';
 import 'dotenv/config';
 

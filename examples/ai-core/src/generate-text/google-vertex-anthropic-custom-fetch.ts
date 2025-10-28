@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { createVertexAnthropic } from '@ai-sdk/google-vertex/anthropic';
+import { createVertexAnthropic } from '@open-stack/google-vertex/anthropic';
 import { generateText } from 'ai';
 
 const vertexAnthropic = createVertexAnthropic({

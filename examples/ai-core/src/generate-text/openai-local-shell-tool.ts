@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateText, stepCountIs } from 'ai';
 import { run } from '../lib/run';
 

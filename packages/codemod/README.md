@@ -11,7 +11,7 @@ Codemods are transformations that run on your codebase programmatically, allowin
 To run all codemods:
 
 ```sh
-npx @ai-sdk/codemod upgrade
+npx @open-stack/codemod upgrade
 ```
 
 This will automatically detect and transform all applicable code patterns in your project.
@@ -21,11 +21,11 @@ This will automatically detect and transform all applicable code patterns in you
 To run codemods for a specific version:
 
 ```sh
-npx @ai-sdk/codemod v4
+npx @open-stack/codemod v4
 
-npx @ai-sdk/codemod v5
+npx @open-stack/codemod v5
 
-npx @ai-sdk/codemod upgrade
+npx @open-stack/codemod upgrade
 ```
 
 ### Run Individual Codemods
@@ -33,20 +33,20 @@ npx @ai-sdk/codemod upgrade
 To run a specific codemod:
 
 ```sh
-npx @ai-sdk/codemod <codemod-name> <path>
+npx @open-stack/codemod <codemod-name> <path>
 ```
 
 Examples:
 
 ```sh
 # Transform a specific file
-npx @ai-sdk/codemod v4/remove-experimental-ai-fn-exports src/app/api/chat/route.ts
+npx @open-stack/codemod v4/remove-experimental-ai-fn-exports src/app/api/chat/route.ts
 
 # Transform a directory
-npx @ai-sdk/codemod v4/replace-baseurl src/lib/
+npx @open-stack/codemod v4/replace-baseurl src/lib/
 
 # Transform entire project
-npx @ai-sdk/codemod v5/rename-format-stream-part .
+npx @open-stack/codemod v5/rename-format-stream-part .
 ```
 
 ## Available Codemods
@@ -138,7 +138,7 @@ npx @ai-sdk/codemod v5/rename-format-stream-part .
 ### Commands
 
 ```sh
-npx @ai-sdk/codemod@beta <command> [options]
+npx @open-stack/codemod@beta <command> [options]
 ```
 
 **Available Commands:**
@@ -158,19 +158,19 @@ npx @ai-sdk/codemod@beta <command> [options]
 
 ```sh
 # Preview all changes without applying
-npx @ai-sdk/codemod@beta --dry upgrade
+npx @open-stack/codemod@beta --dry upgrade
 
 # Preview v4 changes only
-npx @ai-sdk/codemod@beta --dry v4
+npx @open-stack/codemod@beta --dry v4
 
 # Preview v5 changes only
-npx @ai-sdk/codemod@beta --dry v5
+npx @open-stack/codemod@beta --dry v5
 
 # Show verbose output for specific codemod
-npx @ai-sdk/codemod@beta --verbose v4/remove-experimental-ai-fn-exports src/
+npx @open-stack/codemod@beta --verbose v4/remove-experimental-ai-fn-exports src/
 
 # Print transformed code for specific codemod
-npx @ai-sdk/codemod@beta --print v4/replace-baseurl src/config.ts
+npx @open-stack/codemod@beta --print v4/replace-baseurl src/config.ts
 ```
 
 ## Best Practices
@@ -236,7 +236,7 @@ pnpm test:watch
 ## Version Compatibility
 
 - **AI SDK 5.0**: All codemods in this package
-- **AI SDK 4.x**: Use `@ai-sdk/codemod@1.x`
+- **AI SDK 4.x**: Use `@open-stack/codemod@1.x`
 - **AI SDK 3.x**: Manual migration required
 
 ---

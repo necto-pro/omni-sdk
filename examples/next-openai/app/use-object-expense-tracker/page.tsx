@@ -1,6 +1,6 @@
 'use client';
 
-import { experimental_useObject as useObject } from '@ai-sdk/react';
+import { experimental_useObject as useObject } from '@open-stack/react';
 import {
   Expense,
   expenseSchema,

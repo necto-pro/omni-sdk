@@ -2,13 +2,13 @@ import {
   OpenAICompatibleChatLanguageModel,
   OpenAICompatibleCompletionLanguageModel,
   OpenAICompatibleEmbeddingModel,
-} from '@ai-sdk/openai-compatible';
+} from '@open-stack/openai-compatible';
 import {
   EmbeddingModelV3,
   LanguageModelV3,
   RerankingModelV3,
-} from '@ai-sdk/provider';
-import { loadApiKey } from '@ai-sdk/provider-utils';
+} from '@open-stack/provider';
+import { loadApiKey } from '@open-stack/provider-utils';
 import { beforeEach, describe, expect, it, Mock, vi } from 'vitest';
 import { TogetherAIRerankingModel } from './reranking/togetherai-reranking-model';
 import { TogetherAIImageModel } from './togetherai-image-model';
@@ -18,14 +18,14 @@ import { createTogetherAI } from './togetherai-provider';
 const OpenAICompatibleChatLanguageModelMock =
   OpenAICompatibleChatLanguageModel as unknown as Mock;
 
-vi.mock('@ai-sdk/openai-compatible', () => ({
+vi.mock('@open-stack/openai-compatible', () => ({
   OpenAICompatibleChatLanguageModel: vi.fn(),
   OpenAICompatibleCompletionLanguageModel: vi.fn(),
   OpenAICompatibleEmbeddingModel: vi.fn(),
 }));
 
-vi.mock('@ai-sdk/provider-utils', async () => {
-  const actual = await vi.importActual('@ai-sdk/provider-utils');
+vi.mock('@open-stack/provider-utils', async () => {
+  const actual = await vi.importActual('@open-stack/provider-utils');
   return {
     ...actual,
     loadApiKey: vi.fn().mockReturnValue('mock-api-key'),

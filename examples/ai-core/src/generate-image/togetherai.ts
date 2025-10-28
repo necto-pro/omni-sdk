@@ -1,4 +1,4 @@
-import { togetherai } from '@ai-sdk/togetherai';
+import { togetherai } from '@open-stack/togetherai';
 import { experimental_generateImage as generateImage } from 'ai';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';

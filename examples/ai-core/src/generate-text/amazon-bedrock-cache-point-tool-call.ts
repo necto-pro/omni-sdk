@@ -1,7 +1,7 @@
 import { generateText, tool } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';
-import { bedrock } from '@ai-sdk/amazon-bedrock';
+import { bedrock } from '@open-stack/amazon-bedrock';
 
 const weatherTool = tool({
   description: 'Get the weather in a location',

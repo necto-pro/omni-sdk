@@ -24,7 +24,7 @@ There are several models that offer native web-searching capabilities (Perplexit
 OpenAI's Responses API has a built-in web search tool that can be used to search the web and return search results. This tool is called `web_search_preview` and is accessed via the `openai` provider.
 
 ```ts
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateText } from 'ai';
 
 const { text, sources } = await generateText({
@@ -44,7 +44,7 @@ console.log(sources);
 Perplexity's Sonar models combines real-time web search with natural language processing. Each response is grounded in current web data and includes detailed citations.
 
 ```ts
-import { perplexity } from '@ai-sdk/perplexity';
+import { perplexity } from '@open-stack/perplexity';
 import { generateText } from 'ai';
 
 const { text, sources } = await generateText({
@@ -61,7 +61,7 @@ console.log(sources);
 With compatible Gemini models, you can enable search grounding to give the model access to the latest information using Google search.
 
 ```ts
-import { google } from '@ai-sdk/google';
+import { google } from '@open-stack/google';
 import { generateText } from 'ai';
 
 const { text, sources, providerMetadata } = await generateText({

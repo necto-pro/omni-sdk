@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/anthropic': patch
+'@open-stack/anthropic': patch
 ---
 
 fix(provider/anthropic): do not limit maxTokens when model id is unknown

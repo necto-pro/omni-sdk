@@ -1,9 +1,9 @@
-import { LanguageModelV3, LanguageModelV3CallWarning } from '@ai-sdk/provider';
+import { LanguageModelV3, LanguageModelV3CallWarning } from '@omni-stack/provider';
 import {
   InferSchema,
   ProviderOptions,
   safeParseJSON,
-} from '@ai-sdk/provider-utils';
+} from '@omni-stack/provider-utils';
 import { ReactNode } from 'react';
 import * as z3 from 'zod/v3';
 import * as z4 from 'zod/v4';
@@ -17,14 +17,14 @@ import {
   InvalidToolInputError,
   NoSuchToolError,
   Schema,
-} from 'ai';
+} from '@omni-stack/core';
 import {
   standardizePrompt,
   prepareToolsAndToolChoice,
   prepareRetries,
   prepareCallSettings,
   convertToLanguageModelPrompt,
-} from 'ai/internal';
+} from '@omni-stack/core/internal';
 import { createResolvablePromise } from '../util/create-resolvable-promise';
 import { isAsyncGenerator } from '../util/is-async-generator';
 import { isGenerator } from '../util/is-generator';

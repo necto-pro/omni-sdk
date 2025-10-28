@@ -5,24 +5,24 @@ contains language model support for the OpenAI chat and completion APIs and embe
 
 ## Setup
 
-The OpenAI provider is available in the `@ai-sdk/openai` module. You can install it with
+The OpenAI provider is available in the `@open-stack/openai` module. You can install it with
 
 ```bash
-npm i @ai-sdk/openai
+npm i @open-stack/openai
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `openai` from `@ai-sdk/openai`:
+You can import the default provider instance `openai` from `@open-stack/openai`:
 
 ```ts
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 ```
 
 ## Example
 
 ```ts
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

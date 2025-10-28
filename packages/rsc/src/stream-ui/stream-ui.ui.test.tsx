@@ -1,7 +1,7 @@
-import { delay } from '@ai-sdk/provider-utils';
-import { convertArrayToReadableStream } from '@ai-sdk/provider-utils/test';
-import { LanguageModelUsage } from 'ai';
-import { MockLanguageModelV3 } from 'ai/test';
+import { delay } from '@omni-stack/provider-utils';
+import { convertArrayToReadableStream } from '@omni-stack/provider-utils/test';
+import { LanguageModelUsage } from '@omni-stack/core';
+import { MockLanguageModelV3 } from '@omni-stack/core/test';
 import { z } from 'zod/v4';
 import { streamUI } from './stream-ui';
 import { describe, it, expect, beforeEach } from 'vitest';

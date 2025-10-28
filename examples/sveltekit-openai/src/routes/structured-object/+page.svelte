@@ -2,7 +2,7 @@
   import ArrowUp from '$lib/components/icons/arrow-up.svelte';
   import { Button } from '$lib/components/ui/button/index.js';
   import { Textarea } from '$lib/components/ui/textarea/index.js';
-  import { Experimental_StructuredObject } from '@ai-sdk/svelte';
+  import { Experimental_StructuredObject } from '@open-stack/svelte';
   import { notificationSchema } from './schema.js';
   import Trash from '$lib/components/icons/trash.svelte';
 

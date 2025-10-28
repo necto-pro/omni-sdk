@@ -1,4 +1,4 @@
-import { togetherai, TogetherAIRerankingOptions } from '@ai-sdk/togetherai';
+import { togetherai, TogetherAIRerankingOptions } from '@open-stack/togetherai';
 import { rerank } from 'ai';
 import { print } from '../lib/print';
 import { run } from '../lib/run';

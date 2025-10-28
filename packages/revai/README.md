@@ -5,24 +5,24 @@ contains language model support for the Rev.ai transcription API.
 
 ## Setup
 
-The Rev.ai provider is available in the `@ai-sdk/revai` module. You can install it with
+The Rev.ai provider is available in the `@open-stack/revai` module. You can install it with
 
 ```bash
-npm i @ai-sdk/revai
+npm i @open-stack/revai
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `revai` from `@ai-sdk/revai`:
+You can import the default provider instance `revai` from `@open-stack/revai`:
 
 ```ts
-import { revai } from '@ai-sdk/revai';
+import { revai } from '@open-stack/revai';
 ```
 
 ## Example
 
 ```ts
-import { revai } from '@ai-sdk/revai';
+import { revai } from '@open-stack/revai';
 import { experimental_transcribe as transcribe } from 'ai';
 
 const { text } = await transcribe({

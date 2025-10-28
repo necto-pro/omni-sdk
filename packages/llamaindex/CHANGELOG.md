@@ -1,4 +1,4 @@
-# @ai-sdk/llamaindex
+# @open-stack/llamaindex
 
 ## 2.0.0-beta.81
 
@@ -1637,7 +1637,7 @@
 - Updated dependencies [a8c8bd5]
 - Updated dependencies [a662dea]
 - Updated dependencies [41fa418]
-  - @ai-sdk/provider-utils@3.0.0-canary.15
+  - @open-stack/provider-utils@3.0.0-canary.15
   - ai@5.0.0-canary.18
 
 ## 1.0.0-canary.5
@@ -1652,7 +1652,7 @@
 - Updated dependencies [9bd5ab5]
 - Updated dependencies [92cb0a2]
   - ai@5.0.0-canary.17
-  - @ai-sdk/provider-utils@3.0.0-canary.14
+  - @open-stack/provider-utils@3.0.0-canary.14
 
 ## 1.0.0-canary.4
 
@@ -1677,7 +1677,7 @@
 - Updated dependencies [4bfe9ec]
 - Updated dependencies [2877a74]
   - ai@5.0.0-canary.15
-  - @ai-sdk/provider-utils@3.0.0-canary.13
+  - @open-stack/provider-utils@3.0.0-canary.13
 
 ## 1.0.0-canary.2
 
@@ -1687,7 +1687,7 @@
 - Updated dependencies [4617fab]
 - Updated dependencies [a76a62b]
   - ai@5.0.0-canary.14
-  - @ai-sdk/provider-utils@3.0.0-canary.12
+  - @open-stack/provider-utils@3.0.0-canary.12
 
 ## 1.0.0-canary.1
 
@@ -1697,4 +1697,4 @@
 - Updated dependencies [66962ed]
 - Updated dependencies [9301f86]
   - ai@5.0.0-canary.13
-  - @ai-sdk/provider-utils@3.0.0-canary.11
+  - @open-stack/provider-utils@3.0.0-canary.11

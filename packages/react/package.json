@@ -1,5 +1,5 @@
 {
-  "name": "@ai-sdk/react",
+  "name": "@open-stack/react",
   "version": "3.0.0-beta.81",
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -30,13 +30,13 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@ai-sdk/provider-utils": "workspace:*",
+    "@open-stack/provider-utils": "workspace:*",
     "ai": "workspace:*",
     "swr": "^2.2.5",
     "throttleit": "2.1.0"
   },
   "devDependencies": {
-    "@ai-sdk/test-server": "workspace:*",
+    "@open-stack/test-server": "workspace:*",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/user-event": "^14.5.2",
     "@testing-library/react": "^16.0.1",

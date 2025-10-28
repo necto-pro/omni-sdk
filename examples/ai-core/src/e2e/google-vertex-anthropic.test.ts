@@ -2,12 +2,12 @@ import {
   createVertexAnthropic as createVertexAnthropicNode,
   vertexAnthropic,
   vertexAnthropic as vertexAnthropicNode,
-} from '@ai-sdk/google-vertex/anthropic';
+} from '@open-stack/google-vertex/anthropic';
 import {
   createVertexAnthropic as createVertexAnthropicEdge,
   vertexAnthropic as vertexAnthropicEdge,
-} from '@ai-sdk/google-vertex/anthropic/edge';
-import { LanguageModelV3 } from '@ai-sdk/provider';
+} from '@open-stack/google-vertex/anthropic/edge';
+import { LanguageModelV3 } from '@open-stack/provider';
 import { APICallError, generateText, stepCountIs } from 'ai';
 import 'dotenv/config';
 import fs from 'fs';

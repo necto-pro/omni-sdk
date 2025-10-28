@@ -13,7 +13,7 @@ This guide will show you how to generate and edit images with the AI SDK and Goo
 As Gemini 2.5 Flash Image is a language model with multimodal capabilities, you can use the `generateText` or `streamText` functions (not `generateImage`) to create images. The model determines which modality to respond in based on your prompt and configuration. Here's how to create your first image:
 
 ```ts
-import { google } from '@ai-sdk/google';
+import { google } from '@open-stack/google';
 import { generateText } from 'ai';
 import fs from 'node:fs';
 import 'dotenv/config';
@@ -53,7 +53,7 @@ Here are some key points to remember:
 Gemini 2.5 Flash Image excels at editing existing images with natural language instructions. You can add elements, modify styles, or transform images while maintaining their core characteristics:
 
 ```ts
-import { google } from '@ai-sdk/google';
+import { google } from '@open-stack/google';
 import { generateText } from 'ai';
 import fs from 'node:fs';
 import 'dotenv/config';

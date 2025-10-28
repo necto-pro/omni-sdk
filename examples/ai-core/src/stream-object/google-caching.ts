@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { google } from '@ai-sdk/google';
+import { google } from '@open-stack/google';
 import { streamObject } from 'ai';
 import fs from 'node:fs';
 import { z } from 'zod';

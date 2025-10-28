@@ -47,9 +47,9 @@ For more information, see the [AI SDK 5 Migration MCP Server repository](https:/
 You need to update the following packages to the following versions in your `package.json` file(s):
 
 - `ai` package: `5.0.0`
-- `@ai-sdk/provider` package: `2.0.0`
-- `@ai-sdk/provider-utils` package: `3.0.0`
-- `@ai-sdk/*` packages: `2.0.0` (other `@ai-sdk` packages)
+- `@open-stack/provider` package: `2.0.0`
+- `@open-stack/provider-utils` package: `3.0.0`
+- `@open-stack/*` packages: `2.0.0` (other `@open-stack` packages)
 
 Additionally, you need to update the following peer dependencies:
 
@@ -58,7 +58,7 @@ Additionally, you need to update the following peer dependencies:
 An example upgrade command would be:
 
 ```
-npm install ai @ai-sdk/react @ai-sdk/openai zod@^4.1.8
+npm install ai @open-stack/react @open-stack/openai zod@^4.1.8
 ```
 
 <Note>
@@ -88,30 +88,30 @@ You can run all codemods provided as part of the 5.0 upgrade process by running
 the following command from the root of your project:
 
 ```sh
-npx @ai-sdk/codemod upgrade
+npx @open-stack/codemod upgrade
 ```
 
 To run only the v5 codemods (v4 → v5 migration):
 
 ```sh
-npx @ai-sdk/codemod v5
+npx @open-stack/codemod v5
 ```
 
 Individual codemods can be run by specifying the name of the codemod:
 
 ```sh
-npx @ai-sdk/codemod <codemod-name> <path>
+npx @open-stack/codemod <codemod-name> <path>
 ```
 
 For example, to run a specific v5 codemod:
 
 ```sh
-npx @ai-sdk/codemod v5/rename-format-stream-part src/
+npx @open-stack/codemod v5/rename-format-stream-part src/
 ```
 
 See also the [table of codemods](#codemod-table). In addition, the latest set of
 codemods can be found in the
-[`@ai-sdk/codemod`](https://github.com/vercel/ai/tree/main/packages/codemod/src/codemods)
+[`@open-stack/codemod`](https://github.com/vercel/ai/tree/main/packages/codemod/src/codemods)
 repository.
 
 ## AI SDK Core Changes
@@ -166,7 +166,7 @@ import { UIMessage, CreateUIMessage } from 'ai';
 
 ```tsx filename="AI SDK 4.0"
 import { convertToCoreMessages, streamText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const result = await streamText({
   model: openai('gpt-4'),
@@ -176,7 +176,7 @@ const result = await streamText({
 
 ```tsx filename="AI SDK 5.0"
 import { convertToModelMessages, streamText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const result = await streamText({
   model: openai('gpt-4'),
@@ -389,7 +389,7 @@ return createUIMessageStreamResponse({ stream });
 The `writeMessageAnnotation` and `writeData` methods from `DataStreamWriter` have been removed. Instead, use custom data parts with the new `UIMessage` stream architecture.
 
 ```tsx filename="AI SDK 4.0"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { createDataStreamResponse, streamText } from 'ai';
 
 export async function POST(req: Request) {
@@ -428,7 +428,7 @@ export async function POST(req: Request) {
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import {
   createUIMessageStream,
   createUIMessageStreamResponse,
@@ -1232,34 +1232,34 @@ console.log(result.totalUsage);
 
 ### Package Structure Changes
 
-### `@ai-sdk/rsc` Package Extraction
+### `@open-stack/rsc` Package Extraction
 
-The `ai/rsc` export has been extracted to a separate package `@ai-sdk/rsc`.
+The `ai/rsc` export has been extracted to a separate package `@open-stack/rsc`.
 
 ```tsx filename="AI SDK 4.0"
 import { createStreamableValue } from 'ai/rsc';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { createStreamableValue } from '@ai-sdk/rsc';
+import { createStreamableValue } from '@open-stack/rsc';
 ```
 
-<Note>Don't forget to install the new package: `npm install @ai-sdk/rsc`</Note>
+<Note>Don't forget to install the new package: `npm install @open-stack/rsc`</Note>
 
-### React UI Hooks Moved to `@ai-sdk/react`
+### React UI Hooks Moved to `@open-stack/react`
 
-The deprecated `ai/react` export has been removed in favor of `@ai-sdk/react`.
+The deprecated `ai/react` export has been removed in favor of `@open-stack/react`.
 
 ```tsx filename="AI SDK 4.0"
 import { useChat } from 'ai/react';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 ```
 
 <Note>
-  Don't forget to install the new package: `npm install @ai-sdk/react`
+  Don't forget to install the new package: `npm install @open-stack/react`
 </Note>
 
 ### useChat Changes
@@ -1279,7 +1279,7 @@ const { messages, sendMessage } = useChat({
 ```tsx filename="AI SDK 5.0"
 // Server-side: Use stopWhen for multi-step control
 import { streamText, convertToModelMessages, stepCountIs } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const result = await streamText({
   model: openai('gpt-4'),
@@ -1288,7 +1288,7 @@ const result = await streamText({
 });
 
 // Client-side: Configure automatic submission
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithToolCalls,
@@ -1327,7 +1327,7 @@ For more details on the new tool submission approach, see the [Tool Result Submi
 The `initialMessages` option has been renamed to `messages`.
 
 ```tsx filename="AI SDK 4.0"
-import { useChat, type Message } from '@ai-sdk/react';
+import { useChat, type Message } from '@open-stack/react';
 
 function ChatComponent({ initialMessages }: { initialMessages: Message[] }) {
   const { messages } = useChat({
@@ -1340,7 +1340,7 @@ function ChatComponent({ initialMessages }: { initialMessages: Message[] }) {
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat, type UIMessage } from '@ai-sdk/react';
+import { useChat, type UIMessage } from '@open-stack/react';
 
 function ChatComponent({ initialMessages }: { initialMessages: UIMessage[] }) {
   const { messages } = useChat({
@@ -1397,7 +1397,7 @@ For a complete example of sharing chat state across components, see the [Share C
 Configuration is now handled through transport objects instead of direct API options.
 
 ```tsx filename="AI SDK 4.0"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 
 const { messages } = useChat({
   api: '/api/chat',
@@ -1407,7 +1407,7 @@ const { messages } = useChat({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 
 const { messages } = useChat({
@@ -1424,7 +1424,7 @@ const { messages } = useChat({
 The `useChat` hook no longer manages input state internally. You must now manage input state manually.
 
 ```tsx filename="AI SDK 4.0"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 
 export default function Page() {
   const { messages, input, handleInputChange, handleSubmit } = useChat({
@@ -1441,7 +1441,7 @@ export default function Page() {
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 import { useState } from 'react';
 
@@ -1664,7 +1664,7 @@ const { messages, sendMessage, addToolResult } = useChat({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithToolCalls,
@@ -1782,7 +1782,7 @@ const { messages } = useChat({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import {
   convertToModelMessages,
   streamText,
@@ -1823,7 +1823,7 @@ Then, on the client, you can access the message-level metadata.
 ```tsx filename="AI SDK 5.0 - Client"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import type { MyUIMessage } from './api/chat/route';
 import { DefaultChatTransport } from 'ai';
 
@@ -1861,7 +1861,7 @@ You can also access your metadata from the `onFinish` callback of `useChat`:
 ```tsx filename="AI SDK 5.0 - onFinish"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import type { MyUIMessage } from './api/chat/route';
 import { DefaultChatTransport } from 'ai';
 
@@ -1884,7 +1884,7 @@ export default function Chat() {
 The `experimental_prepareRequestBody` option has been replaced with `prepareSendMessagesRequest` in the transport configuration.
 
 ```tsx filename="AI SDK 4.0"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 
 const { messages } = useChat({
   api: '/api/chat',
@@ -1896,7 +1896,7 @@ const { messages } = useChat({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 
 const { messages } = useChat({
@@ -1910,15 +1910,15 @@ const { messages } = useChat({
 });
 ```
 
-### `@ai-sdk/vue` Changes
+### `@open-stack/vue` Changes
 
 The Vue.js integration has been completely restructured, replacing the `useChat` composable with a `Chat` class.
 
 #### useChat Replaced with Chat Class
 
-```typescript filename="@ai-sdk/vue v1"
+```typescript filename="@open-stack/vue v1"
 <script setup>
-import { useChat } from '@ai-sdk/vue';
+import { useChat } from '@open-stack/vue';
 
 const { messages, input, handleSubmit } = useChat({
   api: '/api/chat',
@@ -1926,9 +1926,9 @@ const { messages, input, handleSubmit } = useChat({
 </script>
 ```
 
-```typescript filename="@ai-sdk/vue v2"
+```typescript filename="@open-stack/vue v2"
 <script setup>
-import { Chat } from '@ai-sdk/vue';
+import { Chat } from '@open-stack/vue';
 import { DefaultChatTransport } from 'ai';
 import { ref } from 'vue';
 
@@ -1949,7 +1949,7 @@ const handleSubmit = (e: Event) => {
 
 Messages now use a `parts` array instead of a `content` string.
 
-```typescript filename="@ai-sdk/vue v1"
+```typescript filename="@open-stack/vue v1"
 <template>
   <div v-for="message in messages" :key="message.id">
     <div>{{ message.role }}: {{ message.content }}</div>
@@ -1957,7 +1957,7 @@ Messages now use a `parts` array instead of a `content` string.
 </template>
 ```
 
-```typescript filename="@ai-sdk/vue v2"
+```typescript filename="@open-stack/vue v2"
 <template>
   <div v-for="message in chat.messages" :key="message.id">
     <div>{{ message.role }}:</div>
@@ -1968,22 +1968,22 @@ Messages now use a `parts` array instead of a `content` string.
 </template>
 ```
 
-### `@ai-sdk/svelte` Changes
+### `@open-stack/svelte` Changes
 
 The Svelte integration has also been updated with new constructor patterns and readonly properties.
 
 #### Constructor API Changes
 
-```js filename="@ai-sdk/svelte v1"
-import { Chat } from '@ai-sdk/svelte';
+```js filename="@open-stack/svelte v1"
+import { Chat } from '@open-stack/svelte';
 
 const chatInstance = Chat({
   api: '/api/chat',
 });
 ```
 
-```js filename="@ai-sdk/svelte v2"
-import { Chat } from '@ai-sdk/svelte';
+```js filename="@open-stack/svelte v2"
+import { Chat } from '@open-stack/svelte';
 import { DefaultChatTransport } from 'ai';
 
 const chatInstance = Chat(() => ({
@@ -1995,12 +1995,12 @@ const chatInstance = Chat(() => ({
 
 Properties are now readonly and must be updated using setter methods.
 
-```js filename="@ai-sdk/svelte v1"
+```js filename="@open-stack/svelte v1"
 // Direct property mutation was allowed
 chatInstance.messages = [...chatInstance.messages, newMessage];
 ```
 
-```js filename="@ai-sdk/svelte v2"
+```js filename="@open-stack/svelte v2"
 // Must use setter methods
 chatInstance.setMessages([...chatInstance.messages, newMessage]);
 ```
@@ -2009,12 +2009,12 @@ chatInstance.setMessages([...chatInstance.messages, newMessage]);
 
 Like React and Vue, input management has been removed from the Svelte integration.
 
-```js filename="@ai-sdk/svelte v1"
+```js filename="@open-stack/svelte v1"
 // Input was managed internally
 const { messages, input, handleSubmit } = chatInstance;
 ```
 
-```js filename="@ai-sdk/svelte v2"
+```js filename="@open-stack/svelte v2"
 // Must manage input state manually
 let input = '';
 const { messages, sendMessage } = chatInstance;
@@ -2025,12 +2025,12 @@ const handleSubmit = () => {
 };
 ```
 
-#### `@ai-sdk/ui-utils` Package Removal
+#### `@open-stack/ui-utils` Package Removal
 
-The `@ai-sdk/ui-utils` package has been removed and its exports moved to the main `ai` package.
+The `@open-stack/ui-utils` package has been removed and its exports moved to the main `ai` package.
 
 ```tsx filename="AI SDK 4.0"
-import { getTextFromDataUrl } from '@ai-sdk/ui-utils';
+import { getTextFromDataUrl } from '@open-stack/ui-utils';
 ```
 
 ```tsx filename="AI SDK 5.0"
@@ -2064,7 +2064,7 @@ const {
 The `useAssistant` hook has been removed.
 
 ```tsx filename="AI SDK 4.0"
-import { useAssistant } from '@ai-sdk/react';
+import { useAssistant } from '@open-stack/react';
 ```
 
 ```tsx filename="AI SDK 5.0"
@@ -2175,9 +2175,9 @@ const { embeddings, usage } = await embedMany({
 });
 ```
 
-#### LangChain Adapter Moved to `@ai-sdk/langchain`
+#### LangChain Adapter Moved to `@open-stack/langchain`
 
-The `LangChainAdapter` has been moved to `@ai-sdk/langchain` and the API has been updated to use UI message streams.
+The `LangChainAdapter` has been moved to `@open-stack/langchain` and the API has been updated to use UI message streams.
 
 ```tsx filename="AI SDK 4.0"
 import { LangChainAdapter } from 'ai';
@@ -2186,7 +2186,7 @@ const response = LangChainAdapter.toDataStreamResponse(stream);
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { toUIMessageStream } from '@ai-sdk/langchain';
+import { toUIMessageStream } from '@open-stack/langchain';
 import { createUIMessageStreamResponse } from 'ai';
 
 const response = createUIMessageStreamResponse({
@@ -2195,12 +2195,12 @@ const response = createUIMessageStreamResponse({
 ```
 
 <Note>
-  Don't forget to install the new package: `npm install @ai-sdk/langchain`
+  Don't forget to install the new package: `npm install @open-stack/langchain`
 </Note>
 
-#### LlamaIndex Adapter Moved to `@ai-sdk/llamaindex`
+#### LlamaIndex Adapter Moved to `@open-stack/llamaindex`
 
-The `LlamaIndexAdapter` has been extracted to a separate package `@ai-sdk/llamaindex` and follows the same UI message stream pattern.
+The `LlamaIndexAdapter` has been extracted to a separate package `@open-stack/llamaindex` and follows the same UI message stream pattern.
 
 ```tsx filename="AI SDK 4.0"
 import { LlamaIndexAdapter } from 'ai';
@@ -2209,7 +2209,7 @@ const response = LlamaIndexAdapter.toDataStreamResponse(stream);
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { toUIMessageStream } from '@ai-sdk/llamaindex';
+import { toUIMessageStream } from '@open-stack/llamaindex';
 import { createUIMessageStreamResponse } from 'ai';
 
 const response = createUIMessageStreamResponse({
@@ -2218,7 +2218,7 @@ const response = createUIMessageStreamResponse({
 ```
 
 <Note>
-  Don't forget to install the new package: `npm install @ai-sdk/llamaindex`
+  Don't forget to install the new package: `npm install @open-stack/llamaindex`
 </Note>
 
 ## Streaming Architecture
@@ -2649,14 +2649,14 @@ import { IdGenerator } from 'ai';
 
 #### Language Model V2 Import
 
-`LanguageModelV3` must now be imported from `@ai-sdk/provider`.
+`LanguageModelV3` must now be imported from `@open-stack/provider`.
 
 ```tsx filename="AI SDK 4.0"
 import { LanguageModelV3 } from 'ai';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { LanguageModelV3 } from '@ai-sdk/provider';
+import { LanguageModelV3 } from '@open-stack/provider';
 ```
 
 #### Middleware Rename
@@ -2668,7 +2668,7 @@ import { LanguageModelV1Middleware } from 'ai';
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { LanguageModelV3Middleware } from '@ai-sdk/provider';
+import { LanguageModelV3Middleware } from '@open-stack/provider';
 ```
 
 #### Usage Token Properties
@@ -2917,7 +2917,7 @@ import {
   appendClientMessage,
   appendResponseMessages,
 } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const updatedMessages = appendClientMessage({
   messages,
@@ -2945,7 +2945,7 @@ In v5, message persistence is now handled through the `toUIMessageStreamResponse
 
 ```tsx filename="AI SDK 5.0"
 import { streamText, convertToModelMessages, UIMessage } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const messages: UIMessage[] = [
   // Your existing messages in UIMessage format
@@ -3016,7 +3016,7 @@ import {
   convertToModelMessages,
   UIMessage,
 } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const stream = createUIMessageStream({
   originalMessages: messages,
@@ -3054,13 +3054,13 @@ return createUIMessageStreamResponse({ stream });
 In AI SDK 5, the default OpenAI provider instance uses the Responses API, while AI SDK 4 used the Chat Completions API. The Chat Completions API remains fully supported and you can use it with `openai.chat(...)`.
 
 ```tsx filename="AI SDK 4.0"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const defaultModel = openai('gpt-4.1-mini'); // Chat Completions API
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const defaultModel = openai('gpt-4.1-mini'); // Responses API
 
@@ -3082,7 +3082,7 @@ In AI SDK 4.0, you could set the `strictSchemas` option on Responses models (whi
 ```tsx filename="AI SDK 4.0"
 import { z } from 'zod';
 import { generateObject } from 'ai';
-import { openai, type OpenAIResponsesProviderOptions } from '@ai-sdk/openai';
+import { openai, type OpenAIResponsesProviderOptions } from '@open-stack/openai';
 
 const result = await generateObject({
   model: openai.responses('gpt-4.1'),
@@ -3100,7 +3100,7 @@ const result = await generateObject({
 ```tsx filename="AI SDK 5.0"
 import { z } from 'zod';
 import { generateObject } from 'ai';
-import { openai, type OpenAIResponsesProviderOptions } from '@ai-sdk/openai';
+import { openai, type OpenAIResponsesProviderOptions } from '@open-stack/openai';
 
 const result = await generateObject({
   model: openai('gpt-4.1-2024'), // uses Responses API
@@ -3124,7 +3124,7 @@ The `structuredOutputs` option is now configured using provider options rather t
 ```tsx filename="AI SDK 4.0"
 import { z } from 'zod';
 import { generateObject } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const result = await generateObject({
   model: openai('gpt-4.1', { structuredOutputs: true }), // use Chat Completions API
@@ -3135,7 +3135,7 @@ const result = await generateObject({
 ```tsx filename="AI SDK 5.0 (Chat Completions API)"
 import { z } from 'zod';
 import { generateObject } from 'ai';
-import { openai, type OpenAIChatLanguageModelOptions } from '@ai-sdk/openai';
+import { openai, type OpenAIChatLanguageModelOptions } from '@open-stack/openai';
 
 const result = await generateObject({
   model: openai.chat('gpt-4.1'), // use Chat Completions API
@@ -3221,7 +3221,7 @@ const { text, providerMetadata } = await generateText({
 ```
 
 ```tsx filename="AI SDK 5.0"
-import { google } from '@ai-sdk/google';
+import { google } from '@open-stack/google';
 const { text, sources, providerMetadata } = await generateText({
   model: google('gemini-1.5-pro'),
   prompt:
@@ -3277,7 +3277,7 @@ import {
   CoreToolResultUnion,
   CoreToolCallUnion,
   CoreToolChoice,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 ```
 
 ```tsx filename="AI SDK 5.0"
@@ -3287,7 +3287,7 @@ import {
   TypedToolResult,
   TypedToolCall,
   ToolChoice,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 ```
 
 ## Troubleshooting

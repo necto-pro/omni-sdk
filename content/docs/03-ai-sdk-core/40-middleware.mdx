@@ -132,7 +132,7 @@ The [Custom tool call parser](https://github.com/minpeter/ai-sdk-tool-call-middl
 
 This middleware enables function calling capabilities by converting function schemas into prompt instructions and parsing the model's responses into structured function calls. It works by transforming the JSON function definitions into natural language instructions the model can understand, then analyzing the generated text to extract function call attempts. This approach allows developers to use the same function calling API across different model providers, even with models that don't natively support the OpenAI-style function calling format, providing a consistent function calling experience regardless of the underlying model implementation.
 
-The `@ai-sdk-tool/parser` package offers three middleware variants:
+The `@open-stack-tool/parser` package offers three middleware variants:
 
 - `createToolMiddleware`: A flexible function for creating custom tool call middleware tailored to specific models
 - `hermesToolMiddleware`: Ready-to-use middleware for Hermes & Qwen format function calls
@@ -142,7 +142,7 @@ Here's how you can enable function calls with Gemma models that don't support th
 
 ```ts
 import { wrapLanguageModel } from 'ai';
-import { gemmaToolMiddleware } from '@ai-sdk-tool/parser';
+import { gemmaToolMiddleware } from '@open-stack-tool/parser';
 
 const model = wrapLanguageModel({
   model: openrouter('google/gemma-3-27b-it'),
@@ -185,7 +185,7 @@ This example shows how to log the parameters and generated text of a language mo
 import type {
   LanguageModelV3Middleware,
   LanguageModelV3StreamPart,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 
 export const yourLogMiddleware: LanguageModelV3Middleware = {
   wrapGenerate: async ({ doGenerate, params }) => {
@@ -256,7 +256,7 @@ export const yourLogMiddleware: LanguageModelV3Middleware = {
 This example shows how to build a simple cache for the generated text of a language model call.
 
 ```ts
-import type { LanguageModelV3Middleware } from '@ai-sdk/provider';
+import type { LanguageModelV3Middleware } from '@open-stack/provider';
 
 const cache = new Map<string, any>();
 
@@ -290,7 +290,7 @@ This example shows how to use RAG as middleware.
 </Note>
 
 ```ts
-import type { LanguageModelV3Middleware } from '@ai-sdk/provider';
+import type { LanguageModelV3Middleware } from '@open-stack/provider';
 
 export const yourRagMiddleware: LanguageModelV3Middleware = {
   transformParams: async ({ params }) => {
@@ -319,7 +319,7 @@ Guard rails are a way to ensure that the generated text of a language model call
 is safe and appropriate. This example shows how to use guardrails as middleware.
 
 ```ts
-import type { LanguageModelV3Middleware } from '@ai-sdk/provider';
+import type { LanguageModelV3Middleware } from '@open-stack/provider';
 
 export const yourGuardrailMiddleware: LanguageModelV3Middleware = {
   wrapGenerate: async ({ doGenerate }) => {
@@ -342,9 +342,9 @@ export const yourGuardrailMiddleware: LanguageModelV3Middleware = {
 To send and access custom metadata in Middleware, you can use `providerOptions`. This is useful when building logging middleware where you want to pass additional context like user IDs, timestamps, or other contextual data that can help with tracking and debugging.
 
 ```ts
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateText, wrapLanguageModel } from 'ai';
-import type { LanguageModelV3Middleware } from '@ai-sdk/provider';
+import type { LanguageModelV3Middleware } from '@open-stack/provider';
 
 export const yourLogMiddleware: LanguageModelV3Middleware = {
   wrapGenerate: async ({ doGenerate, params }) => {

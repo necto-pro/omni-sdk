@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/codemod': patch
+'@open-stack/codemod': patch
 ---
 
 feat(codemod): add usechat input state transformation for v5

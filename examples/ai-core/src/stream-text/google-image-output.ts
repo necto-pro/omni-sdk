@@ -1,4 +1,4 @@
-import { google } from '@ai-sdk/google';
+import { google } from '@open-stack/google';
 import { streamText } from 'ai';
 import 'dotenv/config';
 import { presentImages } from '../lib/present-image';

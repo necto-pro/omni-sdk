@@ -88,7 +88,7 @@ import {
 } from 'ai';
 import { z } from 'zod';
 import { loadChat, saveChat } from '@util/chat-store';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { dataPartsSchema, metadataSchema } from '@util/schemas';
 
 // Define your tools
@@ -202,7 +202,7 @@ The chat component uses the `useChat` hook to manage the conversation:
 ```tsx filename="ui/chat.tsx" highlight="10-16"
 'use client';
 
-import { UIMessage, useChat } from '@ai-sdk/react';
+import { UIMessage, useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 import { useState } from 'react';
 
@@ -272,7 +272,7 @@ Storing messages is done in the `onFinish` callback of the `toUIMessageStreamRes
 `onFinish` receives the complete messages including the new AI response as `UIMessage[]`.
 
 ```tsx filename="app/api/chat/route.ts" highlight="6,11-17"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { saveChat } from '@util/chat-store';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
@@ -409,7 +409,7 @@ export async function POST(req: Request) {
 
 ```tsx filename="ui/chat.tsx"
 import { createIdGenerator } from 'ai';
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 
 const { ... } = useChat({
   generateId: createIdGenerator({
@@ -431,7 +431,7 @@ To achieve this, you can provide a `prepareSendMessagesRequest` function to the 
 This function receives the messages and the chat ID, and returns the request body to be sent to the server.
 
 ```tsx filename="ui/chat.tsx" highlight="7-12"
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 
 const {

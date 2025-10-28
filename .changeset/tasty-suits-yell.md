@@ -1,14 +1,14 @@
 ---
 'ai': patch
-'@ai-sdk/assemblyai': patch
-'@ai-sdk/azure': patch
-'@ai-sdk/deepgram': patch
-'@ai-sdk/elevenlabs': patch
-'@ai-sdk/fal': patch
-'@ai-sdk/gladia': patch
-'@ai-sdk/groq': patch
-'@ai-sdk/openai': patch
-'@ai-sdk/revai': patch
+'@open-stack/assemblyai': patch
+'@open-stack/azure': patch
+'@open-stack/deepgram': patch
+'@open-stack/elevenlabs': patch
+'@open-stack/fal': patch
+'@open-stack/gladia': patch
+'@open-stack/groq': patch
+'@open-stack/openai': patch
+'@open-stack/revai': patch
 ---
 
 feat(provider): transcription model v3 spec

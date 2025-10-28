@@ -1,4 +1,4 @@
-import { FetchFunction } from '@ai-sdk/provider-utils';
+import { FetchFunction } from '@open-stack/provider-utils';
 
 export type HuggingFaceConfig = {
   provider: string;

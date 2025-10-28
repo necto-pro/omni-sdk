@@ -1,4 +1,4 @@
-import { createOpenAI } from '@ai-sdk/openai';
+import { createOpenAI } from '@open-stack/openai';
 import { streamObject } from 'ai';
 import { notificationSchema } from '~/shared/notification-schema';
 

@@ -1,4 +1,4 @@
-import { groq } from '@ai-sdk/groq';
+import { groq } from '@open-stack/groq';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

@@ -1,9 +1,9 @@
-import { LanguageModelV3Prompt } from '@ai-sdk/provider';
-import { createTestServer } from '@ai-sdk/test-server/with-vitest';
+import { LanguageModelV3Prompt } from '@open-stack/provider';
+import { createTestServer } from '@open-stack/test-server/with-vitest';
 import {
   convertReadableStreamToArray,
   isNodeVersion,
-} from '@ai-sdk/provider-utils/test';
+} from '@open-stack/provider-utils/test';
 import { createCohere } from './cohere-provider';
 import { describe, it, expect, vi } from 'vitest';
 

@@ -88,7 +88,7 @@ We will use zod to specify the schema for the `celsiusToFahrenheit` function's p
 'use server';
 
 import { generateText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { z } from 'zod';
 
 export interface Message {

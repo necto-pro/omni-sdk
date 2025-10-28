@@ -26,16 +26,16 @@ The code snippets below will use the [AI SDK's OpenAI provider](/providers/ai-sd
 
 <Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
   <Tab>
-    <Snippet text="pnpm add @ai-sdk/openai langsmith" dark />
+    <Snippet text="pnpm add @open-stack/openai langsmith" dark />
   </Tab>
   <Tab>
-    <Snippet text="npm install @ai-sdk/openai langsmith" dark />
+    <Snippet text="npm install @open-stack/openai langsmith" dark />
   </Tab>
   <Tab>
-    <Snippet text="yarn add @ai-sdk/openai langsmith" dark />
+    <Snippet text="yarn add @open-stack/openai langsmith" dark />
   </Tab>
   <Tab>
-    <Snippet text="bun add @ai-sdk/openai langsmith" dark />
+    <Snippet text="bun add @open-stack/openai langsmith" dark />
   </Tab>
 </Tabs>
 
@@ -53,7 +53,7 @@ export OPENAI_API_KEY=<your-openai-api-key> # The examples use OpenAI (replace w
 To start tracing, you will need to import and call the `wrapAISDK` method at the start of your code:
 
 ```ts highlight="6-7"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import * as ai from 'ai';
 
 import { wrapAISDK } from 'langsmith/experimental/vercel';
@@ -74,7 +74,7 @@ You can also trace runs with tool calls:
 ```ts
 import * as ai from 'ai';
 import { tool, stepCountIs } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { z } from 'zod';
 
 import { wrapAISDK } from 'langsmith/experimental/vercel';
@@ -120,7 +120,7 @@ want to group runs together in LangSmith:
 ```ts
 import * as ai from 'ai';
 import { tool, stepCountIs } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { z } from 'zod';
 
 import { traceable } from 'langsmith/traceable';

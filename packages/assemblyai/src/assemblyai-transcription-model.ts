@@ -1,14 +1,14 @@
 import {
   TranscriptionModelV3,
   TranscriptionModelV3CallWarning,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   combineHeaders,
   createJsonResponseHandler,
   parseProviderOptions,
   postJsonToApi,
   postToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import { AssemblyAIConfig } from './assemblyai-config';
 import { assemblyaiFailedResponseHandler } from './assemblyai-error';

@@ -1,4 +1,4 @@
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 import { generateText, tool } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

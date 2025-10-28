@@ -1,4 +1,4 @@
-import { vertex } from '@ai-sdk/google-vertex';
+import { vertex } from '@open-stack/google-vertex';
 import { embed } from 'ai';
 import 'dotenv/config';
 

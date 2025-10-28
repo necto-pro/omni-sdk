@@ -1,4 +1,4 @@
-import { deepinfra } from '@ai-sdk/deepinfra';
+import { deepinfra } from '@open-stack/deepinfra';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

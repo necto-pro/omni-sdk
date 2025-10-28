@@ -1,4 +1,4 @@
-import { huggingface } from '@ai-sdk/huggingface';
+import { huggingface } from '@open-stack/huggingface';
 import { extractReasoningMiddleware, streamText, wrapLanguageModel } from 'ai';
 import 'dotenv/config';
 

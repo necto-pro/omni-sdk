@@ -4,7 +4,7 @@ import {
   normalizeHeaders,
   withUserAgentSuffix,
   getRuntimeEnvironmentUserAgent,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { AwsV4Signer } from 'aws4fetch';
 import { VERSION } from './version';
 

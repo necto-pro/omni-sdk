@@ -1,4 +1,4 @@
-import { groq } from '@ai-sdk/groq';
+import { groq } from '@open-stack/groq';
 import { experimental_transcribe as transcribe } from 'ai';
 import 'dotenv/config';
 import { readFile } from 'fs/promises';

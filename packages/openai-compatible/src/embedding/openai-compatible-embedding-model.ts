@@ -1,7 +1,7 @@
 import {
   EmbeddingModelV3,
   TooManyEmbeddingValuesForCallError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   combineHeaders,
   createJsonErrorResponseHandler,
@@ -9,7 +9,7 @@ import {
   FetchFunction,
   parseProviderOptions,
   postJsonToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import {
   OpenAICompatibleEmbeddingModelId,

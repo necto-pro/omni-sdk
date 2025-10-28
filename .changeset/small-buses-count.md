@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/cohere': patch
+'@open-stack/cohere': patch
 ---
 
 Added reranking feature

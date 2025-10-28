@@ -1,4 +1,4 @@
-import { openai, OpenAIResponsesProviderOptions } from '@ai-sdk/openai';
+import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
 import { APICallError, streamText, UserModelMessage } from 'ai';
 import 'dotenv/config';
 

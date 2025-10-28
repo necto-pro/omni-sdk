@@ -1,4 +1,4 @@
-import { togetherai } from '@ai-sdk/togetherai';
+import { togetherai } from '@open-stack/togetherai';
 import { generateText, tool } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

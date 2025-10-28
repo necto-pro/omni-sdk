@@ -8,7 +8,7 @@ import {
   LanguageModelV3StreamPart,
   LanguageModelV3Usage,
   SharedV3ProviderMetadata,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   ParseResult,
@@ -19,7 +19,7 @@ import {
   isParsableJson,
   parseProviderOptions,
   postJsonToApi,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { openaiFailedResponseHandler } from '../openai-error';
 import { convertToOpenAIChatMessages } from './convert-to-openai-chat-messages';
 import { getResponseMetadata } from './get-response-metadata';

@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 import { ExampleMetadata } from './example-metadata-schema';
 

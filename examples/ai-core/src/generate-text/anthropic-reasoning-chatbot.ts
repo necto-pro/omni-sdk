@@ -1,4 +1,4 @@
-import { createAnthropic, AnthropicProviderOptions } from '@ai-sdk/anthropic';
+import { createAnthropic, AnthropicProviderOptions } from '@open-stack/anthropic';
 import { ModelMessage, generateText, stepCountIs } from 'ai';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';

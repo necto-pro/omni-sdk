@@ -1,8 +1,8 @@
-import { FetchFunction } from '@ai-sdk/provider-utils';
-import { createTestServer } from '@ai-sdk/test-server/with-vitest';
+import { FetchFunction } from '@open-stack/provider-utils';
+import { createTestServer } from '@open-stack/test-server/with-vitest';
 import { describe, expect, it } from 'vitest';
 import { LumaImageModel } from './luma-image-model';
-import { InvalidResponseDataError } from '@ai-sdk/provider';
+import { InvalidResponseDataError } from '@open-stack/provider';
 
 const prompt = 'A cute baby sea otter';
 

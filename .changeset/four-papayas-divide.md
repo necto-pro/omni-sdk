@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/gateway': patch
+'@open-stack/gateway': patch
 ---
 
 feat (provider/gateway): add models provider option for model routing

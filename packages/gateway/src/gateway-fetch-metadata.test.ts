@@ -1,7 +1,7 @@
-import { createTestServer } from '@ai-sdk/test-server/with-vitest';
+import { createTestServer } from '@omni-stack/test-server/with-vitest';
 import { describe, expect, it, vi } from 'vitest';
 import { GatewayFetchMetadata } from './gateway-fetch-metadata';
-import type { FetchFunction } from '@ai-sdk/provider-utils';
+import type { FetchFunction } from '@omni-stack/provider-utils';
 import {
   GatewayAuthenticationError,
   GatewayInternalServerError,

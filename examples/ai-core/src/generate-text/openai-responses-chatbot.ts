@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { ModelMessage, generateText } from 'ai';
 import 'dotenv/config';
 import * as readline from 'node:readline/promises';

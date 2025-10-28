@@ -1,4 +1,4 @@
-import { deepinfra } from '@ai-sdk/deepinfra';
+import { deepinfra } from '@open-stack/deepinfra';
 import { experimental_generateImage as generateImage } from 'ai';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';

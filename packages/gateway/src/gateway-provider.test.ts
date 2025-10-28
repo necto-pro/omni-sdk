@@ -5,10 +5,10 @@ import {
   getGatewayAuthToken,
 } from './gateway-provider';
 import { GatewayFetchMetadata } from './gateway-fetch-metadata';
-import { NoSuchModelError } from '@ai-sdk/provider';
+import { NoSuchModelError } from '@omni-stack/provider';
 import { GatewayEmbeddingModel } from './gateway-embedding-model';
 import { getVercelOidcToken, getVercelRequestId } from './vercel-environment';
-import { resolve } from '@ai-sdk/provider-utils';
+import { resolve } from '@omni-stack/provider-utils';
 import { GatewayLanguageModel } from './gateway-language-model';
 import {
   GatewayAuthenticationError,

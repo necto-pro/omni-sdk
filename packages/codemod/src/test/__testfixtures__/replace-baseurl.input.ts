@@ -1,7 +1,7 @@
 // @ts-nocheck
-import { createAnthropic } from '@ai-sdk/anthropic';
-import { createOpenAI } from '@ai-sdk/openai';
-import { createMistral } from '@ai-sdk/mistral';
+import { createAnthropic } from '@open-stack/anthropic';
+import { createOpenAI } from '@open-stack/openai';
+import { createMistral } from '@open-stack/mistral';
 
 const anthropic = createAnthropic({
   baseUrl: 'https://api.anthropic.com'

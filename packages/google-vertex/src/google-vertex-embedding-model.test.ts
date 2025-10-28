@@ -1,8 +1,8 @@
 import {
   EmbeddingModelV3Embedding,
   TooManyEmbeddingValuesForCallError,
-} from '@ai-sdk/provider';
-import { createTestServer } from '@ai-sdk/test-server/with-vitest';
+} from '@open-stack/provider';
+import { createTestServer } from '@open-stack/test-server/with-vitest';
 import { GoogleVertexEmbeddingModel } from './google-vertex-embedding-model';
 import { describe, it, expect, vi } from 'vitest';
 import { createVertex } from './google-vertex-provider';

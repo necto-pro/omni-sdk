@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/openai': patch
+'@open-stack/openai': patch
 ---
 
 feat(openai): add sources in web-search actions

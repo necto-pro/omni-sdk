@@ -1,4 +1,4 @@
-import { createOpenAI } from '@ai-sdk/openai';
+import { createOpenAI } from '@open-stack/openai';
 import { streamText } from 'ai';
 import 'dotenv/config';
 

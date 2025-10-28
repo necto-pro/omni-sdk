@@ -3,13 +3,13 @@ import {
   LanguageModelV3Prompt,
   LanguageModelV3ToolCallPart,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   convertToBase64,
   isNonNullable,
   parseProviderOptions,
   validateTypes,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import {
   localShellInputSchema,

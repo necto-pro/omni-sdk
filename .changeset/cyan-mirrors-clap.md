@@ -1,11 +1,11 @@
 ---
-'@ai-sdk/openai': patch
+'@open-stack/openai': patch
 ---
 
 feat(provider/openai): `OpenAIChatLanguageModelOptions` type
 
 ```ts
-import { openai, type OpenAIChatLanguageModelOptions } from '@ai-sdk/openai';
+import { openai, type OpenAIChatLanguageModelOptions } from '@open-stack/openai';
 import { generateText } from 'ai';
 
 await generateText({

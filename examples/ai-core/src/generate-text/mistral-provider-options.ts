@@ -1,4 +1,4 @@
-import { mistral, type MistralLanguageModelOptions } from '@ai-sdk/mistral';
+import { mistral, type MistralLanguageModelOptions } from '@open-stack/mistral';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

@@ -4,7 +4,7 @@ import { AnthropicMcpMessage } from '@/agent/anthropic-mcp-agent';
 import { Response } from '@/components/ai-elements/response';
 import ChatInput from '@/components/chat-input';
 import DynamicToolView from '@/components/tool/dynamic-tool-view';
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport } from 'ai';
 
 export default function TestAnthropicCodeExecution() {

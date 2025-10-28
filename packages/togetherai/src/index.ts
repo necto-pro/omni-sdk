@@ -1,4 +1,4 @@
-export type { OpenAICompatibleErrorData as TogetherAIErrorData } from '@ai-sdk/openai-compatible';
+export type { OpenAICompatibleErrorData as TogetherAIErrorData } from '@open-stack/openai-compatible';
 export type { TogetherAIRerankingOptions } from './reranking/togetherai-reranking-options';
 export { createTogetherAI, togetherai } from './togetherai-provider';
 export type {

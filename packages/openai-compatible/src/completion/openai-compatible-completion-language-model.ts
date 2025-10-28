@@ -6,7 +6,7 @@ import {
   LanguageModelV3FinishReason,
   LanguageModelV3StreamPart,
   LanguageModelV3Usage,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   combineHeaders,
   createEventSourceResponseHandler,
@@ -17,7 +17,7 @@ import {
   ParseResult,
   postJsonToApi,
   ResponseHandler,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import {
   defaultOpenAICompatibleErrorStructure,

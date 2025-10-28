@@ -1,4 +1,4 @@
-import { cerebras } from '@ai-sdk/cerebras';
+import { cerebras } from '@open-stack/cerebras';
 import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
 import 'dotenv/config';
 import { weatherTool } from '../tools/weather-tool';

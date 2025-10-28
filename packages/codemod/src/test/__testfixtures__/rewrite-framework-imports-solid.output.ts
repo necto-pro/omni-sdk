@@ -1,2 +1,2 @@
 // @ts-nocheck
-import { useChat } from '@ai-sdk/solid';
+import { useChat } from '@open-stack/solid';

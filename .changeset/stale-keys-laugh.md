@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/codemod': patch
+'@open-stack/codemod': patch
 ---
 
 feat(codemod): add tool invocations migration to v5 codemods

@@ -1,4 +1,4 @@
-import { cohere, type CohereChatModelOptions } from '@ai-sdk/cohere';
+import { cohere, type CohereChatModelOptions } from '@open-stack/cohere';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

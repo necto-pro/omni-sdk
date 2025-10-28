@@ -1,4 +1,4 @@
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport, isToolUIPart } from 'ai';
 import { useState } from 'react';
 

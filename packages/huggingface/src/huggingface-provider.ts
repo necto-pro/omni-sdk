@@ -2,13 +2,13 @@ import {
   LanguageModelV3,
   NoSuchModelError,
   ProviderV3,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   generateId,
   loadApiKey,
   withoutTrailingSlash,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { HuggingFaceResponsesLanguageModel } from './responses/huggingface-responses-language-model';
 import { HuggingFaceResponsesModelId } from './responses/huggingface-responses-settings';
 

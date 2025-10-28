@@ -3,5 +3,5 @@
 ## Setup
 
 ```bash
-npm i @ai-sdk/valibot
+npm i @omni-stack/valibot
 ```

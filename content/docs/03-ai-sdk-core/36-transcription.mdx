@@ -12,7 +12,7 @@ function to transcribe audio using a transcription model.
 
 ```ts
 import { experimental_transcribe as transcribe } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { readFile } from 'fs/promises';
 
 const transcript = await transcribe({
@@ -40,7 +40,7 @@ Transcription models often have provider or model-specific settings which you ca
 
 ```ts highlight="8-12"
 import { experimental_transcribe as transcribe } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { readFile } from 'fs/promises';
 
 const transcript = await transcribe({
@@ -61,7 +61,7 @@ type [`AbortSignal`](https://developer.mozilla.org/en-US/docs/Web/API/AbortSigna
 that you can use to abort the transcription process or set a timeout.
 
 ```ts highlight="8"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { experimental_transcribe as transcribe } from 'ai';
 import { readFile } from 'fs/promises';
 
@@ -78,7 +78,7 @@ const transcript = await transcribe({
 that you can use to add custom headers to the transcription request.
 
 ```ts highlight="8"
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { experimental_transcribe as transcribe } from 'ai';
 import { readFile } from 'fs/promises';
 
@@ -94,7 +94,7 @@ const transcript = await transcribe({
 Warnings (e.g. unsupported parameters) are available on the `warnings` property.
 
 ```ts
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { experimental_transcribe as transcribe } from 'ai';
 import { readFile } from 'fs/promises';
 
@@ -125,7 +125,7 @@ import {
   experimental_transcribe as transcribe,
   NoTranscriptGeneratedError,
 } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { readFile } from 'fs/promises';
 
 try {

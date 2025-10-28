@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import 'dotenv/config';
 import { SemanticRouter } from './semantic-router';
 

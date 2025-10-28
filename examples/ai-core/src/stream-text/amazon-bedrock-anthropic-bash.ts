@@ -1,5 +1,5 @@
-import { bedrock } from '@ai-sdk/amazon-bedrock';
-import { anthropicTools } from '@ai-sdk/anthropic/internal';
+import { bedrock } from '@open-stack/amazon-bedrock';
+import { anthropicTools } from '@open-stack/anthropic/internal';
 import { stepCountIs, streamText, ToolCallPart, ToolResultPart } from 'ai';
 import 'dotenv/config';
 

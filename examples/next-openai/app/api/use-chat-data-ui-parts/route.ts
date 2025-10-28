@@ -1,5 +1,5 @@
-import { openai } from '@ai-sdk/openai';
-import { delay } from '@ai-sdk/provider-utils';
+import { openai } from '@open-stack/openai';
+import { delay } from '@open-stack/provider-utils';
 import {
   convertToModelMessages,
   createUIMessageStream,

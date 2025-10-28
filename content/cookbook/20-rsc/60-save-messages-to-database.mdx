@@ -41,7 +41,7 @@ export default function RootLayout({
 
 import { useState } from 'react';
 import { ClientMessage } from './actions';
-import { useActions, useUIState } from '@ai-sdk/rsc';
+import { useActions, useUIState } from '@open-stack/rsc';
 import { generateId } from 'ai';
 
 // Allow streaming responses up to 30 seconds
@@ -100,8 +100,8 @@ We will use the callback function to listen to state changes and save the conver
 ```tsx filename='app/actions.tsx'
 'use server';
 
-import { getAIState, getMutableAIState, streamUI } from '@ai-sdk/rsc';
-import { openai } from '@ai-sdk/openai';
+import { getAIState, getMutableAIState, streamUI } from '@open-stack/rsc';
+import { openai } from '@open-stack/openai';
 import { ReactNode } from 'react';
 import { z } from 'zod';
 import { generateId } from 'ai';
@@ -176,7 +176,7 @@ export async function continueConversation(
 ```
 
 ```ts filename='app/ai.ts'
-import { createAI } from '@ai-sdk/rsc';
+import { createAI } from '@open-stack/rsc';
 import { ServerMessage, ClientMessage, continueConversation } from './actions';
 
 export const AI = createAI<ServerMessage[], ClientMessage[]>({

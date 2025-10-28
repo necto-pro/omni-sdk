@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { parseJSON, safeParseJSON, isParsableJson } from './parse-json';
 import { z } from 'zod/v4';
-import { JSONParseError, TypeValidationError } from '@ai-sdk/provider';
+import { JSONParseError, TypeValidationError } from '@omni-stack/provider';
 
 describe('parseJSON', () => {
   it('should parse basic JSON without schema', async () => {

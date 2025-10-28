@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { generateText, stepCountIs } from 'ai';
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 
 async function foo() {
   const result = await generateText({
@@ -49,7 +49,7 @@ async function foo() {
 export function ChatComponent() {
   useChat({
     model: 'gpt-4',
-    /* FIXME(@ai-sdk-upgrade-v5): The maxSteps parameter has been removed from useChat. You should now use server-side `stopWhen` conditions for multi-step tool execution control. https://ai-sdk.dev/docs/migration-guides/migration-guide-5-0#maxsteps-removal */
+    /* FIXME(@open-stack-upgrade-v5): The maxSteps parameter has been removed from useChat. You should now use server-side `stopWhen` conditions for multi-step tool execution control. https://ai-sdk.dev/docs/migration-guides/migration-guide-5-0#maxsteps-removal */
     maxSteps: 7,
   });
 }

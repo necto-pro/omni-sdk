@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { convertToModelMessages, streamObject, streamText } from 'ai';
 import 'dotenv/config';
 import express, { Request, Response } from 'express';

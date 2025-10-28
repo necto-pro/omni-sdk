@@ -10,7 +10,7 @@
   "exclude": ["dist", "build", "node_modules", "*.config.ts", "tests"],
   "references": [
     {
-      "path": "../ai"
+      "path": "../core"
     },
     {
       "path": "../provider"

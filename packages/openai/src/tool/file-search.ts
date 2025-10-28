@@ -2,7 +2,7 @@ import {
   createProviderDefinedToolFactoryWithOutputSchema,
   lazySchema,
   zodSchema,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import {
   OpenAIResponsesFileSearchToolComparisonFilter,

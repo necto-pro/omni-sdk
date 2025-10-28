@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/gateway': patch
+'@open-stack/gateway': patch
 ---
 
 fix(provider/gateway): add "react-native" as export condition for browser behavior

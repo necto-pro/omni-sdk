@@ -47,7 +47,7 @@ The AI SDK abstracts away the differences between model providers, eliminates bo
 At the center of the AI SDK is [AI SDK Core](/docs/ai-sdk-core/overview), which provides a unified API to call any LLM. The code snippet below is all you need to call DeepSeek R1 with the AI SDK:
 
 ```ts
-import { deepseek } from '@ai-sdk/deepseek';
+import { deepseek } from '@open-stack/deepseek';
 import { generateText } from 'ai';
 
 const { reasoningText, text } = await generateText({
@@ -59,7 +59,7 @@ const { reasoningText, text } = await generateText({
 The unified interface also means that you can easily switch between providers by changing just two lines of code. For example, to use DeepSeek R1 via Fireworks:
 
 ```ts
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 import {
   generateText,
   wrapLanguageModel,
@@ -81,7 +81,7 @@ const { reasoningText, text } = await generateText({
 Or to use Groq's `deepseek-r1-distill-llama-70b` model:
 
 ```ts
-import { groq } from '@ai-sdk/groq';
+import { groq } from '@open-stack/groq';
 import {
   generateText,
   wrapLanguageModel,
@@ -136,12 +136,12 @@ Let's explore building a chatbot with [Next.js](https://nextjs.org), the AI SDK,
 
 In a new Next.js application, first install the AI SDK and the DeepSeek provider:
 
-<Snippet text="pnpm install ai @ai-sdk/deepseek @ai-sdk/react" />
+<Snippet text="pnpm install ai @open-stack/deepseek @open-stack/react" />
 
 Then, create a route handler for the chat endpoint:
 
 ```tsx filename="app/api/chat/route.ts"
-import { deepseek } from '@ai-sdk/deepseek';
+import { deepseek } from '@open-stack/deepseek';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 export async function POST(req: Request) {
@@ -168,7 +168,7 @@ Finally, update the root page (`app/page.tsx`) to use the `useChat` hook:
 ```tsx filename="app/page.tsx"
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { useState } from 'react';
 
 export default function Page() {

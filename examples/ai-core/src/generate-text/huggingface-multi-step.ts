@@ -1,4 +1,4 @@
-import { huggingface } from '@ai-sdk/huggingface';
+import { huggingface } from '@open-stack/huggingface';
 import { generateText, stepCountIs, tool } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod/v4';

@@ -1,4 +1,4 @@
-import { assemblyai } from '@ai-sdk/assemblyai';
+import { assemblyai } from '@open-stack/assemblyai';
 import { experimental_transcribe as transcribe } from 'ai';
 import 'dotenv/config';
 

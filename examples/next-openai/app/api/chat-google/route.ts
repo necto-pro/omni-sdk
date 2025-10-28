@@ -1,4 +1,4 @@
-import { google } from '@ai-sdk/google';
+import { google } from '@open-stack/google';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 export const maxDuration = 30;

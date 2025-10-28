@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { StructuredObject } from '@ai-sdk/angular';
+import { StructuredObject } from '@open-stack/angular';
 import { z } from 'zod';
 import { FormsModule } from '@angular/forms';
 

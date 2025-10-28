@@ -1,6 +1,6 @@
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { DefaultChatTransport, getToolName, isToolUIPart } from 'ai';
 import { tools } from '../api/use-chat-human-in-the-loop/tools';
 import {

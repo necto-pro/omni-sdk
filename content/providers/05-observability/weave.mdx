@@ -45,7 +45,7 @@ OTEL_EXPORTER_OTLP_HEADERS="Authorization=Basic <BASE64_AUTH_STRING>,project_id=
 You can then use the `experimental_telemetry` option to enable telemetry on supported AI SDK function calls:
 
 ```typescript
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { generateText } from 'ai';
 
 const result = await generateText({

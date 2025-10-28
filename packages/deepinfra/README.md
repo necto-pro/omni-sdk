@@ -5,24 +5,24 @@ contains language model support for the DeepInfra API, giving you access to mode
 
 ## Setup
 
-The DeepInfra provider is available in the `@ai-sdk/deepinfra` module. You can install it with
+The DeepInfra provider is available in the `@open-stack/deepinfra` module. You can install it with
 
 ```bash
-npm i @ai-sdk/deepinfra
+npm i @open-stack/deepinfra
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `deepinfra` from `@ai-sdk/deepinfra`:
+You can import the default provider instance `deepinfra` from `@open-stack/deepinfra`:
 
 ```ts
-import { deepinfra } from '@ai-sdk/deepinfra';
+import { deepinfra } from '@open-stack/deepinfra';
 ```
 
 ## Example
 
 ```ts
-import { deepinfra } from '@ai-sdk/deepinfra';
+import { deepinfra } from '@open-stack/deepinfra';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

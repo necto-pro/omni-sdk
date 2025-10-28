@@ -1,5 +1,5 @@
-import { EmbeddingModelV3Embedding } from '@ai-sdk/provider';
-import { createTestServer } from '@ai-sdk/test-server/with-vitest';
+import { EmbeddingModelV3Embedding } from '@open-stack/provider';
+import { createTestServer } from '@open-stack/test-server/with-vitest';
 import { createOpenAI } from '../openai-provider';
 import { describe, it, expect, vi } from 'vitest';
 

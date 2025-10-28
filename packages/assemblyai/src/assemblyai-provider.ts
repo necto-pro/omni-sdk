@@ -2,12 +2,12 @@ import {
   TranscriptionModelV3,
   ProviderV3,
   NoSuchModelError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { AssemblyAITranscriptionModel } from './assemblyai-transcription-model';
 import { AssemblyAITranscriptionModelId } from './assemblyai-transcription-settings';
 import { VERSION } from './version';

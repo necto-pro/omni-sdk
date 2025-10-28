@@ -1,4 +1,4 @@
-import { fal } from '@ai-sdk/fal';
+import { fal } from '@open-stack/fal';
 import { experimental_transcribe as transcribe } from 'ai';
 import 'dotenv/config';
 import { readFile } from 'fs/promises';

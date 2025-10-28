@@ -2,7 +2,7 @@
 
 import { Card } from '@/app/components';
 /* eslint-disable @next/next/no-img-element */
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { useRef, useState } from 'react';
 
 export default function Page() {

@@ -1,7 +1,7 @@
 import {
   LanguageModelV3CallOptions,
   LanguageModelV3CallWarning,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 
 export type HuggingFaceResponsesTool = {
   type: 'function';

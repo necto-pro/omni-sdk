@@ -1,4 +1,4 @@
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 import { streamText } from 'ai';
 import { run } from '../lib/run';
 import { print } from '../lib/print';

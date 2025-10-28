@@ -1,6 +1,6 @@
 'use client';
 
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import {
   DefaultChatTransport,
   lastAssistantMessageIsCompleteWithApprovalResponses,

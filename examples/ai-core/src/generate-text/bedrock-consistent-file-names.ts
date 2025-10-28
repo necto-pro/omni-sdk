@@ -1,4 +1,4 @@
-import { bedrock } from '@ai-sdk/amazon-bedrock';
+import { bedrock } from '@open-stack/amazon-bedrock';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

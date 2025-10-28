@@ -1,4 +1,4 @@
-import { ImageModelV3, ImageModelV3CallWarning } from '@ai-sdk/provider';
+import { ImageModelV3, ImageModelV3CallWarning } from '@open-stack/provider';
 import {
   Resolvable,
   combineHeaders,
@@ -6,7 +6,7 @@ import {
   parseProviderOptions,
   postJsonToApi,
   resolve,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { z } from 'zod/v4';
 import { googleVertexFailedResponseHandler } from './google-vertex-error';
 import { GoogleVertexImageModelId } from './google-vertex-image-settings';

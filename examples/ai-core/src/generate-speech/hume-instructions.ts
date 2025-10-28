@@ -1,4 +1,4 @@
-import { hume } from '@ai-sdk/hume';
+import { hume } from '@open-stack/hume';
 import { experimental_generateSpeech as generateSpeech } from 'ai';
 import 'dotenv/config';
 import { saveAudioFile } from '../lib/save-audio';

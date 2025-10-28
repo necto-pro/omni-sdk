@@ -4,24 +4,24 @@ The **[Azure provider](https://ai-sdk.dev/providers/ai-sdk-providers/azure)** fo
 
 ## Setup
 
-The Azure provider is available in the `@ai-sdk/azure` module. You can install it with
+The Azure provider is available in the `@open-stack/azure` module. You can install it with
 
 ```bash
-npm i @ai-sdk/azure
+npm i @open-stack/azure
 ```
 
 ## Provider Instance
 
-You can import the default provider instance `azure` from `@ai-sdk/azure`:
+You can import the default provider instance `azure` from `@open-stack/azure`:
 
 ```ts
-import { azure } from '@ai-sdk/azure';
+import { azure } from '@open-stack/azure';
 ```
 
 ## Example
 
 ```ts
-import { azure } from '@ai-sdk/azure';
+import { azure } from '@open-stack/azure';
 import { generateText } from 'ai';
 
 const { text } = await generateText({

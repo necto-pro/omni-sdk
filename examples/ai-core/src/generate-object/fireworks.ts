@@ -1,4 +1,4 @@
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 import { generateObject } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

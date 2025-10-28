@@ -1,4 +1,4 @@
-# @ai-sdk/codemod
+# @open-stack/codemod
 
 ## 3.0.0-beta.2
 
@@ -51,14 +51,14 @@
 
   ```diff
   - import { LanguageModelV2 } from 'ai';
-  + import { LanguageModelV2 } from '@ai-sdk/provider';
+  + import { LanguageModelV2 } from '@open-stack/provider';
   ```
 
   After
 
   ```diff
   + import { LanguageModelV2 } from 'ai';
-  - import { LanguageModelV2 } from '@ai-sdk/provider';
+  - import { LanguageModelV2 } from '@open-stack/provider';
   ```
 
 - 7ae8e57: fix(codemod): avoid false positive in `v5/restructure-file-stream-parts`

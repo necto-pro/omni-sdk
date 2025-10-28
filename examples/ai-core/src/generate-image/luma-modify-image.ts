@@ -1,4 +1,4 @@
-import { luma } from '@ai-sdk/luma';
+import { luma } from '@open-stack/luma';
 import { experimental_generateImage as generateImage } from 'ai';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';

@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import { generateText, Output } from 'ai';
-import { xai } from '@ai-sdk/xai';
+import { xai } from '@open-stack/xai';
 import { z } from 'zod';
 
 async function main() {

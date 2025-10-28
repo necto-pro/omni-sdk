@@ -1,4 +1,4 @@
-import { togetherai } from '@ai-sdk/togetherai';
+import { togetherai } from '@open-stack/togetherai';
 import { embed } from 'ai';
 import 'dotenv/config';
 

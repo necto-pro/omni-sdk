@@ -2,7 +2,7 @@ import {
   LanguageModelV3CallOptions,
   LanguageModelV3CallWarning,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import { CohereToolChoice } from './cohere-chat-prompt';
 
 export function prepareTools({

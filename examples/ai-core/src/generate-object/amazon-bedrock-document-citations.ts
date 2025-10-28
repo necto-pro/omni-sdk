@@ -1,4 +1,4 @@
-import { bedrock, BedrockProviderOptions } from '@ai-sdk/amazon-bedrock';
+import { bedrock, BedrockProviderOptions } from '@open-stack/amazon-bedrock';
 import { generateObject } from 'ai';
 import { z } from 'zod';
 import fs from 'fs';

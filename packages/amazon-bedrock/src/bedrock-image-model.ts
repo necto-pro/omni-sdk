@@ -1,4 +1,4 @@
-import { ImageModelV3, ImageModelV3CallWarning } from '@ai-sdk/provider';
+import { ImageModelV3, ImageModelV3CallWarning } from '@open-stack/provider';
 import {
   FetchFunction,
   Resolvable,
@@ -7,7 +7,7 @@ import {
   createJsonResponseHandler,
   postJsonToApi,
   resolve,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import {
   BedrockImageModelId,
   modelMaxImagesPerCall,

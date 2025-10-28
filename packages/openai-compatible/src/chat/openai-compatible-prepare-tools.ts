@@ -2,7 +2,7 @@ import {
   LanguageModelV3CallOptions,
   LanguageModelV3CallWarning,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 
 export function prepareTools({
   tools,

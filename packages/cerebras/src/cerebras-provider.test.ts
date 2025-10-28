@@ -1,13 +1,13 @@
 import { describe, it, expect, vi, beforeEach, Mock } from 'vitest';
 import { createCerebras } from './cerebras-provider';
-import { loadApiKey } from '@ai-sdk/provider-utils';
-import { OpenAICompatibleChatLanguageModel } from '@ai-sdk/openai-compatible';
+import { loadApiKey } from '@open-stack/provider-utils';
+import { OpenAICompatibleChatLanguageModel } from '@open-stack/openai-compatible';
 
 // Add type assertion for the mocked class
 const OpenAICompatibleChatLanguageModelMock =
   OpenAICompatibleChatLanguageModel as unknown as Mock;
 
-vi.mock('@ai-sdk/openai-compatible', () => ({
+vi.mock('@open-stack/openai-compatible', () => ({
   OpenAICompatibleChatLanguageModel: vi.fn(),
 }));
 
@@ -15,8 +15,8 @@ vi.mock('./version', () => ({
   VERSION: '0.0.0-test',
 }));
 
-vi.mock('@ai-sdk/provider-utils', async () => {
-  const actual = await vi.importActual('@ai-sdk/provider-utils');
+vi.mock('@open-stack/provider-utils', async () => {
+  const actual = await vi.importActual('@open-stack/provider-utils');
   return {
     ...actual,
     loadApiKey: vi.fn().mockReturnValue('mock-api-key'),

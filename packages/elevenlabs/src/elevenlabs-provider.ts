@@ -3,12 +3,12 @@ import {
   SpeechModelV3,
   ProviderV3,
   NoSuchModelError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import {
   FetchFunction,
   loadApiKey,
   withUserAgentSuffix,
-} from '@ai-sdk/provider-utils';
+} from '@open-stack/provider-utils';
 import { ElevenLabsTranscriptionModel } from './elevenlabs-transcription-model';
 import { ElevenLabsTranscriptionModelId } from './elevenlabs-transcription-options';
 import { ElevenLabsSpeechModel } from './elevenlabs-speech-model';

@@ -1,4 +1,4 @@
-import { mistral } from '@ai-sdk/mistral';
+import { mistral } from '@open-stack/mistral';
 import { streamText } from 'ai';
 import 'dotenv/config';
 import { z } from 'zod';

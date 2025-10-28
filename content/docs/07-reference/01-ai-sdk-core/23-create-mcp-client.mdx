@@ -17,7 +17,7 @@ This feature is experimental and may change or be removed in the future.
 ## Import
 
 <Snippet
-  text={`import { experimental_createMCPClient } from "@ai-sdk/mcp"`}
+  text={`import { experimental_createMCPClient } from "@open-stack/mcp"`}
   prompt={false}
 />
 
@@ -247,9 +247,9 @@ Returns a Promise that resolves to an `MCPClient` with the following methods:
 ## Example
 
 ```typescript
-import { experimental_createMCPClient, generateText } from '@ai-sdk/mcp';
-import { Experimental_StdioMCPTransport } from '@ai-sdk/mcp/mcp-stdio';
-import { openai } from '@ai-sdk/openai';
+import { experimental_createMCPClient, generateText } from '@open-stack/mcp';
+import { Experimental_StdioMCPTransport } from '@open-stack/mcp/mcp-stdio';
+import { openai } from '@open-stack/openai';
 
 let client;
 

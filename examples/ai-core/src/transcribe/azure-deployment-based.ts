@@ -1,4 +1,4 @@
-import { createAzure } from '@ai-sdk/azure';
+import { createAzure } from '@open-stack/azure';
 import { experimental_transcribe as transcribe } from 'ai';
 import 'dotenv/config';
 import { readFile } from 'fs/promises';

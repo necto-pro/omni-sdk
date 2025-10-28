@@ -445,7 +445,7 @@ export async function loadChat(chatId: string): Promise<MyUIMessage[]> {
 In Phase 1, your application runs on v5 but your database stores v4 format. Convert messages inline in your route handlers before passing them to your database functions:
 
 ```tsx
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import {
   convertV5MessageToV4,
   convertV4MessageToV5,

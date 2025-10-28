@@ -54,7 +54,7 @@ import { supermemoryTools } from '@supermemory/tools/ai-sdk';
 Use the Memory Router for direct integration with language model providers:
 
 ```typescript
-import { createAnthropic } from '@ai-sdk/anthropic';
+import { createAnthropic } from '@open-stack/anthropic';
 
 const supermemoryRouter = createAnthropic({
   baseUrl: 'https://api.supermemory.ai/v3/https://api.anthropic.com/v1',
@@ -74,7 +74,7 @@ Here are examples of using Supermemory with the AI SDK:
 
 ```javascript
 import { generateText } from 'ai';
-import { createOpenAI } from '@ai-sdk/openai';
+import { createOpenAI } from '@open-stack/openai';
 import { supermemoryTools } from '@supermemory/tools/ai-sdk';
 
 const openai = createOpenAI({
@@ -94,7 +94,7 @@ console.log(text);
 
 ```javascript
 import { streamText } from 'ai';
-import { createOpenAI } from '@ai-sdk/openai';
+import { createOpenAI } from '@open-stack/openai';
 import { supermemoryTools } from '@supermemory/tools/ai-sdk';
 
 const openai = createOpenAI({
@@ -122,7 +122,7 @@ for await (const chunk of result.textStream) {
 
 ```javascript
 import { streamText } from 'ai';
-import { createAnthropic } from '@ai-sdk/anthropic';
+import { createAnthropic } from '@open-stack/anthropic';
 
 const supermemoryRouter = createAnthropic({
   baseUrl: 'https://api.supermemory.ai/v3/https://api.anthropic.com/v1',

@@ -1,4 +1,4 @@
-import { cohere } from '@ai-sdk/cohere';
+import { cohere } from '@open-stack/cohere';
 import { generateText } from 'ai';
 import 'dotenv/config';
 

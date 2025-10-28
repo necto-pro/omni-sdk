@@ -1,4 +1,4 @@
-import { mistral } from '@ai-sdk/mistral';
+import { mistral } from '@open-stack/mistral';
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
 
 // Allow streaming responses up to 30 seconds

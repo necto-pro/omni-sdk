@@ -2,14 +2,14 @@ import {
   LanguageModelV3CallOptions,
   LanguageModelV3CallWarning,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import { codeInterpreterArgsSchema } from '../tool/code-interpreter';
 import { fileSearchArgsSchema } from '../tool/file-search';
 import { webSearchArgsSchema } from '../tool/web-search';
 import { webSearchPreviewArgsSchema } from '../tool/web-search-preview';
 import { imageGenerationArgsSchema } from '../tool/image-generation';
 import { OpenAIResponsesTool } from './openai-responses-api';
-import { validateTypes } from '@ai-sdk/provider-utils';
+import { validateTypes } from '@open-stack/provider-utils';
 
 export async function prepareResponsesTools({
   tools,

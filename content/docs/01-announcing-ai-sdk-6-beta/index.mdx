@@ -31,7 +31,7 @@ Your feedback during this beta phase directly shapes the final stable release. S
 To install the AI SDK 6 Beta, run the following command:
 
 ```bash
-npm install ai@beta @ai-sdk/openai@beta @ai-sdk/react@beta
+npm install ai@beta @open-stack/openai@beta @open-stack/react@beta
 ```
 
 <Note type="warning">
@@ -64,7 +64,7 @@ AI SDK 6 introduces a powerful new `Agent` interface that provides a standardize
 The `ToolLoopAgent` class provides a default implementation out of the box:
 
 ```typescript
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { ToolLoopAgent } from 'ai';
 import { weatherTool } from '@/tool/weather';
 
@@ -109,7 +109,7 @@ export async function POST(request: Request) {
 
 ```typescript
 // Client-side with type safety
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { InferAgentUIMessage } from 'ai';
 import { weatherAgent } from '@/agent/weather-agent';
 
@@ -235,7 +235,7 @@ export function WeatherToolView({ invocation, addToolApprovalResponse }) {
 Automatically continue the conversation once approvals are handled:
 
 ```typescript
-import { useChat } from '@ai-sdk/react';
+import { useChat } from '@open-stack/react';
 import { lastAssistantMessageIsCompleteWithApprovalResponses } from 'ai';
 
 const { messages, addToolApprovalResponse } = useChat({

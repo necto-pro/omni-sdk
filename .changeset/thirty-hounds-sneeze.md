@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/gateway': patch
+'@open-stack/gateway': patch
 ---
 
 feat(provider/gateway): Add Sonnet 4.5 to Gateway model string autocomplete

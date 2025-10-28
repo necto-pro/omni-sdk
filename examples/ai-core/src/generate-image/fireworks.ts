@@ -1,4 +1,4 @@
-import { fireworks } from '@ai-sdk/fireworks';
+import { fireworks } from '@open-stack/fireworks';
 import { experimental_generateImage as generateImage } from 'ai';
 import { presentImages } from '../lib/present-image';
 import 'dotenv/config';

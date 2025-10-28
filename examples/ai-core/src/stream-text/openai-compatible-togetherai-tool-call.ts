@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
+import { createOpenAICompatible } from '@open-stack/openai-compatible';
 import { streamText, ModelMessage, ToolCallPart, ToolResultPart } from 'ai';
 import { weatherTool } from '../tools/weather-tool';
 

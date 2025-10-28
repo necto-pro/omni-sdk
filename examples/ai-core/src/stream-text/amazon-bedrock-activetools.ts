@@ -1,4 +1,4 @@
-import { bedrock } from '@ai-sdk/amazon-bedrock';
+import { bedrock } from '@open-stack/amazon-bedrock';
 import { streamText, tool, stepCountIs } from 'ai';
 import { z } from 'zod';
 import 'dotenv/config';

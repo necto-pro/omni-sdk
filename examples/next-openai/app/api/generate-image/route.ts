@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 import { experimental_generateImage as generateImage } from 'ai';
 
 // Allow responses up to 60 seconds

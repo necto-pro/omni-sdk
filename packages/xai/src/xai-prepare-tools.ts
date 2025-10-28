@@ -2,7 +2,7 @@ import {
   LanguageModelV3CallOptions,
   LanguageModelV3CallWarning,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 import { XaiToolChoice } from './xai-chat-prompt';
 
 export function prepareTools({

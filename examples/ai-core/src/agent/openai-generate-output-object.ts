@@ -1,4 +1,4 @@
-import { openai, OpenAIResponsesProviderOptions } from '@ai-sdk/openai';
+import { openai, OpenAIResponsesProviderOptions } from '@open-stack/openai';
 import { Output, ToolLoopAgent } from 'ai';
 import { run } from '../lib/run';
 import { z } from 'zod';

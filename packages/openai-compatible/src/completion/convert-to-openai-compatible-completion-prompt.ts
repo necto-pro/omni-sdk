@@ -2,7 +2,7 @@ import {
   InvalidPromptError,
   LanguageModelV3Prompt,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
+} from '@open-stack/provider';
 
 export function convertToOpenAICompatibleCompletionPrompt({
   prompt,

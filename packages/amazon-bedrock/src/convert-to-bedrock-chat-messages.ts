@@ -4,8 +4,8 @@ import {
   LanguageModelV3Prompt,
   SharedV3ProviderMetadata,
   UnsupportedFunctionalityError,
-} from '@ai-sdk/provider';
-import { convertToBase64, parseProviderOptions } from '@ai-sdk/provider-utils';
+} from '@open-stack/provider';
+import { convertToBase64, parseProviderOptions } from '@open-stack/provider-utils';
 import {
   BEDROCK_CACHE_POINT,
   BEDROCK_DOCUMENT_MIME_TYPES,

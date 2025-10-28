@@ -65,11 +65,11 @@ export async function POST(req: Request) {
 
 With AI SDK Core you have a unified API for any provider that implements the [AI SDK Language Model Specification](/providers/community-providers/custom-providers).
 
-Let’s take a look at the example above, but refactored to utilize the AI SDK Core API alongside the AI SDK OpenAI provider. In this example, you import the LLM function you want to use from the `ai` package, import the OpenAI provider from `@ai-sdk/openai`, and then you call the model and return the response using the `toDataStreamResponse()` helper function.
+Let’s take a look at the example above, but refactored to utilize the AI SDK Core API alongside the AI SDK OpenAI provider. In this example, you import the LLM function you want to use from the `ai` package, import the OpenAI provider from `@open-stack/openai`, and then you call the model and return the response using the `toDataStreamResponse()` helper function.
 
 ```tsx
 import { streamText } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 export async function POST(req: Request) {
   const { messages } = await req.json();
@@ -90,7 +90,7 @@ The AI SDK RSC API was launched as part of version 3.0. This API introduced the 
 The following example Server Action uses the `render` function using the model provider directly from OpenAI. You first create an OpenAI provider instance with the OpenAI SDK. Then, you pass it to the provider key of the render function alongside a tool that returns a React Server Component, defined in the `render` key of the tool.
 
 ```tsx
-import { render } from '@ai-sdk/rsc';
+import { render } from '@open-stack/rsc';
 import OpenAI from 'openai';
 import { z } from 'zod';
 import { Spinner, Weather } from '@/components';
@@ -131,8 +131,8 @@ async function submitMessage(userInput = 'What is the weather in SF?') {
 With the new [`streamUI`](/docs/reference/ai-sdk-rsc/stream-ui) function, you can now use any compatible AI SDK provider. In this example, you import the AI SDK OpenAI provider. Then, you pass it to the [`model`](/docs/reference/ai-sdk-rsc/stream-ui#model) key of the new [`streamUI`](/docs/reference/ai-sdk-rsc/stream-ui) function. Finally, you declare a tool and return a React Server Component, defined in the [`generate`](/docs/reference/ai-sdk-rsc/stream-ui#tools-generate) key of the tool.
 
 ```tsx
-import { streamUI } from '@ai-sdk/rsc';
-import { openai } from '@ai-sdk/openai';
+import { streamUI } from '@open-stack/rsc';
+import { openai } from '@open-stack/openai';
 import { z } from 'zod';
 import { Spinner, Weather } from '@/components';
 import { getWeather } from '@/utils';

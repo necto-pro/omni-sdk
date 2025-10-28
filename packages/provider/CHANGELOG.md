@@ -1,28 +1,4 @@
-# @ai-sdk/provider
-
-## 3.0.0-beta.12
-
-### Patch Changes
-
-- d1bdadb: Added reranking model
-
-## 3.0.0-beta.11
-
-### Patch Changes
-
-- 4c44a5b: fix(spec): allow `undefined` values in `JSONObject` type
-
-## 3.0.0-beta.10
-
-### Patch Changes
-
-- 0c3b58b: fix(provider): add specificationVersion to ProviderV3
-
-## 3.0.0-beta.9
-
-### Patch Changes
-
-- a755db5: feat(provider): Add SharedV3Warning type
+# @omni-stack/provider
 
 ## 3.0.0-beta.8
 
@@ -148,7 +124,7 @@
   Before
 
   ```ts
-  import { convertUint8ArrayToBase64 } from '@ai-sdk/provider-utils';
+  import { convertUint8ArrayToBase64 } from '@omni-stack/provider-utils';
 
   // Had to manually convert binary data to base64
   const fileData = new Uint8Array([0, 1, 2, 3]);
@@ -681,13 +657,13 @@
 
 ### Patch Changes
 
-- 102ca22f: fix (@ai-sdk/provider): fix TypeValidationError.isTypeValidationError
+- 102ca22f: fix (@omni-stack/provider): fix TypeValidationError.isTypeValidationError
 
 ## 0.0.9
 
 ### Patch Changes
 
-- 09295e2e: feat (@ai-sdk/provider): add DownloadError
+- 09295e2e: feat (@omni-stack/provider): add DownloadError
 
 ## 0.0.8
 

@@ -1,5 +1,5 @@
 ---
-'@ai-sdk/gateway': major
+'@open-stack/gateway': major
 ---
 
 fix(gateway): bump `@vercel/oidc` to latest

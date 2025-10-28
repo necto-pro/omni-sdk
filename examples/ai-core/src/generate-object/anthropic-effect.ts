@@ -1,4 +1,4 @@
-import { anthropic } from '@ai-sdk/anthropic';
+import { anthropic } from '@open-stack/anthropic';
 import { generateObject } from 'ai';
 import { Schema } from 'effect';
 import { run } from '../lib/run';

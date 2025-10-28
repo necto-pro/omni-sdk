@@ -298,7 +298,7 @@ Some providers offer tools that are executed by the provider itself, such as [Op
 
 ```ts
 import { generateText, stepCountIs } from 'ai';
-import { openai } from '@ai-sdk/openai';
+import { openai } from '@open-stack/openai';
 
 const result = await generateText({
   model: 'openai/gpt-5-mini',
@@ -323,7 +323,7 @@ console.dir(result.text);
 Track usage per end-user and categorize requests with tags:
 
 ```ts
-import type { GatewayProviderOptions } from '@ai-sdk/gateway';
+import type { GatewayProviderOptions } from '@open-stack/gateway';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
@@ -353,7 +353,7 @@ The AI Gateway provider accepts provider options that control routing behavior a
 You can use the `gateway` key in `providerOptions` to control how AI Gateway routes requests:
 
 ```ts
-import type { GatewayProviderOptions } from '@ai-sdk/gateway';
+import type { GatewayProviderOptions } from '@open-stack/gateway';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
@@ -403,7 +403,7 @@ The following gateway provider options are available:
 You can combine these options to have fine-grained control over routing and tracking:
 
 ```ts
-import type { GatewayProviderOptions } from '@ai-sdk/gateway';
+import type { GatewayProviderOptions } from '@open-stack/gateway';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
@@ -423,7 +423,7 @@ const { text } = await generateText({
 The `models` option enables automatic fallback to alternative models when the primary model fails:
 
 ```ts
-import type { GatewayProviderOptions } from '@ai-sdk/gateway';
+import type { GatewayProviderOptions } from '@open-stack/gateway';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
@@ -448,8 +448,8 @@ const { text } = await generateText({
 When using provider-specific options through AI Gateway, use the actual provider name (e.g. `anthropic`, `openai`, not `gateway`) as the key:
 
 ```ts
-import type { AnthropicProviderOptions } from '@ai-sdk/anthropic';
-import type { GatewayProviderOptions } from '@ai-sdk/gateway';
+import type { AnthropicProviderOptions } from '@open-stack/anthropic';
+import type { GatewayProviderOptions } from '@open-stack/gateway';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
