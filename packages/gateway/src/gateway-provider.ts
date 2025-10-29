@@ -229,6 +229,8 @@ export function createGatewayProvider(
     });
   };
 
+  provider.specificationVersion = 'v3' as const;
+
   return provider;
 }
 

@@ -11,5 +11,6 @@ export * from './provider/index';
 export * from './shared/index';
 export * from './speech-model/index';
 export * from './transcription-model/index';
+export * from './reranking-model/index';
 
 export type { JSONSchema7, JSONSchema7Definition } from 'json-schema';
